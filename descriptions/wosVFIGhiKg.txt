@@ -1,0 +1,14 @@
+At Presidio Bitcoin's Quantum Bitcoin Summit, Mike Casey (Mara / Anduro) presents Hourglass, a proposal to mitigate quantum theft of vulnerable Bitcoin outputs.
+
+Hourglass V1 throttles spending of exposed P2PK coins to 1 per block, stretching liquidation timelines from hours to months. V2 (conceptual) expands this to all revealed public keys, using bloom filters and fee caps to slow mass liquidation and prevent miner collusion.
+
+A middle ground between confiscation and theft, preserving optional recovery while buying time in a Q-Day scenario.
+
+Presented at the Quantum Bitcoin Summit hosted by 📍Presidio Bitcoin
+Another big thanks to our sponsors: Project Eleven and Anduro! 
+
+🔴 Watch the full Day 2 livestream: https://www.youtube.com/watch?v=feMWrdJnLak&t=1724s
+🌐 More about the Quantum Bitcoin Summit: https://pbquantum.com
+
+🐦 Follow us: https://x.com/PresidioBitcoin
+Learn more: https://presidiobitcoin.org

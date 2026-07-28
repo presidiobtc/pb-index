@@ -1,0 +1,17 @@
+# Local Netlify folder
+.netlify/
+
+# Local secrets
+.env
+.env.*
+!.env.example
+
+# Local editor/agent configuration
+.codex/
+
+# Python caches
+__pycache__/
+*.py[cod]
+
+# macOS metadata
+.DS_Store

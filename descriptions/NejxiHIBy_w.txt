@@ -1,0 +1,21 @@
+0:00 The Presidio Bitcoin Index 
+04:35 Haley’s raffle tool and the promise of vibe coding
+09:00 OpenClaw Builder meetup attracting a huge non-Bitcoin audience
+11:40 Jesse Posner’s presentation and the expanding AI vision behind Vora
+16:17 Demand for personal agent hardware and secure local AI systems
+22:20 Authentication, custody, and the unresolved security model for personal agents
+26:41 Builder meetup takeaways & Bitcoin as background/hidden infrastructure
+29:00 River’s adoption report, miner migration, and hash rate resilience amid AI demand
+33:45 Lightning scaling tensions
+43:00 Lightning usage metrics and the rise in settlement volume
+50:34 Agentic payments, open-source agents, and the importance for neutral monetary rails
+01:02:26 Unhuman domains and the growth of agent-first digital services
+01:09:28 Chat as the dominant interface & the decline of traditional apps
+01:13:02 Shoutout to Alby & their agent push
+01:14:05 Stablecoin news: Stripe to acquire Paypal, Meta's re-entry into stablecoins and Lightspark’s push to win stablecoin payments
+01:20:29 Block layoffs and the broader trend of AI-driven restructuring 
+01:29:00 Corporate layoffs & entrepreneurial adaptation in an AI world
+-
+SHOW NOTES:
+River's adoption report: https://river.com/learn/files/river-bitcoin-adoption-report-2026.pdf
+Unhuman domains: https://www.unhuman.domains

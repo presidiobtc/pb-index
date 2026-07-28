@@ -1,0 +1,35 @@
+In this episode, Haley Berkoe interviews Conor Okus, a Product Manager at Spiral. Conor shares his journey from playing football to becoming a grantee at Spiral and now managing the grant program. He addresses common misconceptions about bitcoin contributors, emphasizes the importance of user experience in promoting adoption, and discusses the emergence of user-friendly (easy) bitcoin addresses.
+
+Conor also shares his thoughts on the intersection of AI and bitcoin, the ongoing debate about using "₿ " instead of "sats" to display bitcoin denominations, and offers valuable advice for newcomers to the bitcoin space.
+
+*Episode Timestamps:*
+00:00 Conor’s unique path: From footballer to bitcoiner
+01:33 Becoming a Spiral grantee and joining the team full-time
+03:53 What Spiral looks for in grant applications
+05:08 Misconceptions about bitcoin contributors
+07:15 First impressions of Presidio Bitcoin and the SF builder scene
+08:25 Current focus: UX, BOLT12, and easy bitcoin addresses
+12:04 The next wave of bitcoin innovation: Lightning and AI
+14:38 How AI might leverage bitcoin for payments and micro-transactions
+18:27 The sats vs. bitcoin ₿ display debate (BIP 177 and UX shifts)
+22:37 Advice for aspiring bitcoin contributors
+23:42 How to reach Conor & connect with Spiral
+
+*Follow:* 
+Conor Okus: https://x.com/ConorOkus, https://www.linkedin.com/in/conorokus/  
+Spiral: https://x.com/spiralbtc, https://www.linkedin.com/company/spiralbtc  
+Haley Berkoe: https://x.com/HBerkoe, https://www.linkedin.com/in/haleyberkoe/  
+Presidio Bitcoin: https://x.com/PresidioBitcoin, https://www.linkedin.com/company/presidio-bitcoin 
+
+*Links:* 
+Spiral Grant Guidelines: https://spiral.xyz/blog/square-crypto-grants-for-everybody/ 
+Easy Bitcoin Address: https://easybitcoinaddress.me/  
+Bitcoin Design Week at Presidio Bitcoin: https://event.bitcoin.design/   
+Bitcoin Design Community: https://bitcoin.design/   
+Bitcoin Plushie: https://www.uncute.com/collections/everything-else/products/here-comes-bitcoin 
+
+*Subscribe*
+Spotify: https://open.spotify.com/show/4UPEsVaAbtQsBtvbKt1RPn?si=debb7c70f82e42e7&nd=1&dlsi=d4f40bd88f5e425d
+Apple Podcasts: https://podcasts.apple.com/us/podcast/21-in-21/id1804684052 
+
+#bitcoin #opensource #development

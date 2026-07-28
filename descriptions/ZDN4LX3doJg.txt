@@ -1,0 +1,23 @@
+0:00 Welcome to the Presidio Bitcoin Jam.
+1:55 Bitchat, Bitechat, and submitting to the App Store.
+8:38 Publishing free and open source applications.
+15:15 Does this get us back to the Delete IP debate?
+22:17 What will the future look like, bringing together a Chatbot, GitHub, App Stores, and Nostr?
+28:39 How to use Bitchat and why we think it's so cool.
+33:25 How is this different from Google Buzz or Clubhouse? Will the initial spark fade?
+37:16 Bitchat stealthily became the most used Nostr app.
+43:58 Other use-cases for Bitchat and as a development platform.
+47:53 Thoughts on how to make Bitchat successful and prevent feature crowding.
+53:10 Revisiting Stablecoins & Layer 1s from Stripe and Circle. Did Tether on Tron already win?
+57:04 How might the banks like JPMorgan react to stablecoins? Is interoperability a necessity?
+1:06:10 We still need a Lightning network bridge with the rest of crypto?
+1:16:05 How would you even think through how to launch a stablecoin?
+1:18:32 Is Strategy's STRC a threat to Tether or cash-backed stablecoins?
+1:27:43 If you were a lending platform, would you try to stop people from taking BTC loans to buy more BTC?
+
+FOLLOW:
+Presidio Bitcoin: https://x.com/presidiobitcoin
+Presidio Bitcoin Substack: https://substack.com/@presidiobitcoin?utm_source=user-menu
+Steve: https://x.com/moneyball
+Max: https://x.com/maxawebster
+DK: https://x.com/dksf

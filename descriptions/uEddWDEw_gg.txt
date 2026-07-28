@@ -1,0 +1,4 @@
+Mark Suman, co-founder and CEO of Maple AI, a privacy-first AI chat platform known as “the Signal of AI,” joins Haley Berkoe on 21 in 21. Mark explains how Maple AI uses secure enclaves to deliver a ChatGPT-like experience while getting as close to local-AI privacy as possible, without requiring users to run models on their own machine. He also covers why verifiability is essential for trust, the importance of thought privacy, the shared ethos between Bitcoin and AI, and why AI in schools deserves more scrutiny. 
+
+https://trymaple.ai/
+https://x.com/marksuman

@@ -1,0 +1,23 @@
+What happens after a quantum attacker emerges?
+In this technical talk from Presidio Bitcoin's Quantum Bitcoin Summit, researcher Shai Wyborski presents a novel protocol for migrating pre-quantum Bitcoin UTXOs even after the cryptographic break has occurred.
+
+Drawing from his research in quantum cryptography, Wyborski explores cryptographic tools that don’t rely on digital signatures. His proposal, built on zero-knowledge proofs, commitment schemes, and modifications to the 2014 “FawkesCoin” construction, offers a modular migration framework. It’s capable of securing “hash,” “derived,” and even some “naked” UTXOs with no trust assumptions or immediate quantum signature deployment.
+
+Key themes:
+Quantum front-running attacks on ECDSA
+The tradeoffs of freezing vulnerable UTXOs
+Commit-Delay-Reveal (CDR) cycles and fraud-proof design
+Post-quantum signature schemes
+Quantum canaries and on-chain activation triggers
+Ethical and technical dilemmas of burning lost or stolen coins
+
+Wyborski's approach connects academic theory with practical implementation, offering an unconventional but timely path for Bitcoin’s post-quantum security.
+
+Presented at the Quantum Bitcoin Summit hosted by 📍 Presidio Bitcoin
+A big thanks to our sponsors: Project Eleven and Anduro! 
+
+🔴 Watch the full Day 2 livestream: https://www.youtube.com/watch?v=feMWrdJnLak&t=1724s
+🌐 More about the Quantum Bitcoin Summit: https://pbquantum.com
+
+🐦 Follow us: https://x.com/PresidioBitcoin
+Learn more: https://presidiobitcoin.com

@@ -1,0 +1,26 @@
+At Presidio Bitcoin's Quantum Bitcoin Summit, this panel featuring Jameson Lopp (Casa), Michael Tidwell (ZEBEDEE), Mike Casey (MARA/Anduro), and Hunter Beast (Anduro, Surmount Systems), discussed potential responses to a future where quantum computers can break Bitcoin’s elliptic curve cryptography. The core question was around how to handle quantum-vulnerable coins, particularly pay-to-public-key (P2PK) outputs.
+
+Three main strategies were outlined:
+Do nothing and allow coins to be swept
+Throttle spending to reduce market disruption (e.g., via Hourglass proposals)
+Freeze coins to prevent liquidation and preserve economic stability
+
+The conversation examined the scope of vulnerable coins, the feasibility of recovery mechanisms, and the implementation of measures like Hourglass V1 and V2. Tradeoffs were explored between security, protocol complexity, user fairness, and Bitcoin’s foundational principles.
+
+Other topics included:
+Legal and social constraints on laundering stolen coins
+Economic impacts of mass coin movement
+The role of address reuse and its relation to quantum risk
+The idea of tail emission and dynamic blockspace adjustment (e.g., “Goldie Blocks”)
+The risk that fear of quantum attacks may cause more disruption than the attacks themselves
+
+The panel closed with a reflection on the difficulty of consensus and the philosophical tension between protecting property rights and preserving network integrity.
+
+Presented at the Quantum Bitcoin Summit hosted by 📍Presidio Bitcoin
+A big thanks to our sponsors: Project Eleven and Anduro! 
+
+🔴 Watch the full Day 2 livestream: https://www.youtube.com/watch?v=feMWrdJnLak&t=1724s
+🌐 Learn more about the summit: https://pbquantum.com
+
+🐦 Follow us: https://x.com/PresidioBitcoin
+Learn more: https://presidiobitcoin.org

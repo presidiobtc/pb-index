@@ -1,0 +1,36 @@
+In this inaugural episode of Built in the Presidio, Vora founders Jesse Posner and Erik Cason discuss the next frontier of self-sovereignty: verifiable hardware and private, self-hosted, user-owned AI. What began as a critique of cheap, opaque hardware wallets evolved into a deeper mission: building a fully auditable, open-source computing stack capable of safeguarding both Bitcoin and personal data.
+
+They explore supply-chain integrity, chip-level verification, and the philosophical roots of crypto-sovereignty and then extend those ideas into a future where individuals run their own encrypted, fiduciary AIs. The conversation touches on the coming battle between privacy and surveillance, the legal foundations for cryptographic freedom, and why the Bitcoin ethos may define the architecture of the digital age.
+
+Timestamps: 
+0:00 Origins of Vora and flaws in current self-custody
+3:55 Verifiable hardware and supply-chain integrity
+10:10 Extending Bitcoin’s ethos to AI and data 
+20:43 Product roadmap: secure vault, APIs for third-party devices, open-source LLM integration
+24:50 AI as a game changer for privacy concerns: broader awareness + heightened importance
+35:05 Freedom vs security: legal protections, American framework, call for participation
+ 
+Learn more about Vora: https://vora.io/
+Follow: https://x.com/VORAVAULT
+
+Learn more about Presidio Bitcoin: https://www.presidiobitcoin.org/
+Follow: https://x.com/PresidioBitcoin
+
+---
+SOURCE: Presidio Bitcoin Substack — August at Presidio Bitcoin & Member Spotlight: Vora
+
+Quantum Bitcoin Summit, Weekly August Events, and Spotlight on Vora
+
+July brought significant activity to Presidio Bitcoin, including a Members Dinner held at their office and the inaugural Quantum Bitcoin Summit—a multi-day technical event. Summaries and full presentation recordings are available on their social media and YouTube channel.
+
+August programming returns to the regular Thursday evening public event schedule:
+- 8/7: BitDevs
+- 8/14: Fireside with Nik Bhatia
+- 8/21: LitDevs
+- 8/28: ₿uilder
+
+The organization has also opened applications for Bitcoin Design Week, scheduled for September 15-19.
+
+Member Spotlight: Vora
+
+The Vora team members Jesse and Erik participated in an interview discussing their company's mission and their experience as Presidio Bitcoin members. The conversation explored how the organization has supported their development. More information about Vora is accessible through their social media channels.

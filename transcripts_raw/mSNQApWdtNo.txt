@@ -1,0 +1,552 @@
+[00:00:00] Alright, welcome to the Presidio Bitcoin Jam. Hey, how you doing? Hey guys, we back. We back, back in town. Dk, you're here. I know. I'm not like a virtual weirdo [00:00:10] on the side of the frame anymore. I'm actually, I thought you were an avatar. Now. I was trying out my ai, uh, AI slot version of PBJ. Well, I, I just assumed.
+
+And, [00:00:20] uh, one thing that's live on my mind right now, if this book means anything to anyone, if this name Hans Mork means anything to anyone, if you know, [00:00:30] you know, uh, we don't know, but can you illustrate or elucidate for those of us who, if this book means anything to you, Hans Morva means anything to you, DM me, [00:00:40] especially if you're in the Bay Area.
+
+I have something of interest for you, but like, that's all we got. Give us a little bit, a little bit of mystery to start this. Yeah, no, well, so, so Hans Morak [00:00:50] was, I would say, you guys know Ray Kurzweil? Of course, yes. Okay. Ray Kurzweil famous for the singularity of zir. And, uh, Hans Mova, I would say is Ray Kurzweil before Race Girl Kurzwell.
+
+So [00:01:00] he made a bunch of these predictions in the 1970s. And man, I feel like just watching the pace of technological change, I know we're gonna talk a about vibe coding was gonna lead into, but um, [00:01:10] things are really, really accelerating and um, I don't think, I don't think most people are, are aware or ready for it.
+
+I think there's a lot of excitement. Yeah. [00:01:20] Awe scariness. Um, but, uh, his predictions from the seventies are almost like, they're almost perfect. Did he put, and, and so is Kurzweils from the nineties. They're all, but they're [00:01:30] both perfect. Did more of it put dates on any of it? I have to go back. I mean, I'm still early in this book.
+
+Um, I have to, he did put like rough time periods. Uh, I dunno if he put specific years well, but [00:01:40] like pretty. I thought he picked a date, like a year. He did. And in fact, I would also recommend an easier way to get into this stuff than having to read a book is, um, there's a [00:01:50] conversation with Ray Kurzweil and Peter Diamandis last week.
+
+YouTube, uh, highly recommend it. Um, they go and review a lot of his specific predictions and like he's on the money to the year, I think [00:02:00] with like an over 80% hit rate. Oh. So, um, anyways, things are, things are moving fast. Yeah. And it's exciting and it's so fucking, it's, it's [00:02:10] terrifying, but it's exciting.
+
+And anyway, that's where a lot of my head is at and like framing a lot of my thinking. Did you see show that tweet from, I think it was, is it, is Shane Leg the name of the guy one the, yeah, the Deep [00:02:20] Mind co-founders of DeepMind. And he kind of said something about a GI being near or whatever, which like the DeepMind ethos is not to be like overly hypey No.
+
+This to be pretty [00:02:30] grounded and. I was like, oh, well if this guy is kind of finally saying he's feeling the a GI. Well, it's also interesting, um, I mean, as a non hype guy, [00:02:40] well, there's so many different directions we can go, but DeepMind just posted a new job posting, um, for a sort of post a GI economist, right?
+
+Yeah, yeah, yeah. And, um, [00:02:50] you know, it would be really cool if they understood Bitcoin before that happened. Um, although as we discussed, you know, when Jack was here and we discussed on the show, maybe, you know, maybe the [00:03:00] AI has figured out on the route anyways. Point is, um, you know, we'll talk about it in the concreteness of Bitcoin, uh, and vibe coding, but like, man, this is, uh, every week that goes [00:03:10] by.
+
+I'm more a GI bill. Well, if we don't have to do it in this show. But a fundamental exercise is if, uh, AI does come up with this new money protocol. Yeah. What would, okay. [00:03:20] What's, how does, uh, distribution policy look like in fairness, right? Because that's a very, that's a good question. Common discussion in cryptocurrency.
+
+Bitcoiners [00:03:30] believe that. It is like the most fair distribution ever. Right? Yeah. The most bitcoiners believe that, uh, and other cryptocurrencies just, um, are, are nowhere near [00:03:40] Bitcoin's distribution policy and, and frankly don't really have a chance to, um, immaculate conception. Some people believe a Bitcoin right.
+
+So hard to recreate those conditions. It's so, [00:03:50] how, you know, thinking about it from an AI perspective, I've not done yet. Yeah. And like, does that change things? Is it possible to have a, that would be a, a fair distribution or a fair distribution? I, I [00:04:00] think that's a good prompt. That's a great prompt to issue.
+
+Like, hey, like this is how Bitcoin worked. Is there any way to be more fair about that? Because I feel like, you know, there's so, there's so low ego and so [00:04:10] little emotion Yeah. In, uh, the prompt from, you know, an ai, the, the response from an ai, like if you say, oh, most Bitcoiners believe it's fair, non Bitcoiners are obviously [00:04:20] gonna say, well, of course you guys got rich, so, you know, of course you think it's fair, but.
+
+Like try to propose what is the most fair distribution? Is it scanning your eyeballs with an orb, [00:04:30] that gap? Like what is it one token for every person? Like what, what's fair? Yeah. How do you create fairness? I mean, the other thing I'll say is I think, you know, my other [00:04:40] kind of big obsession has always been Bitcoin as energy, money, or a thermodynamically sound system.
+
+And I think in order for something to displace Bitcoin, I wanna, I wanna be [00:04:50] clear. Like, I'm not saying I think this is likely, I think this is a black swan possibility. Yeah. I would say my like base case is, you know, 99% Bitcoin is what the ads are gonna use. That's what I'm, you know, thinking [00:05:00] about building for, investing for et cetera.
+
+But, um, did you see the David Marcus tweet on? No. Which one? He about? Wait, about, uh, about the AI using, oh, oh, [00:05:10] he had one a long time ago. Oh, something in was the last day or so Matt shared, he said something like. There was some debate where, uh, Matt was asking, not not in your group chat. Sorry. Sorry. [00:05:20] It's the Oh yeah, the real piece.
+
+Dude, we, why don't we just add Matt to the chat because I, I'll tell you guys, I, I did a pair vibe with Matt yesterday. Anyways, I, I, I, [00:05:30] I, I've got updates for you guys on phones and, uh, me and Matt have discussed them. Don't wanna make you feel a little left out, but so, so I think, I [00:05:40] think David Marcus was saying something about how, um, you know, ais uh, will choose Bitcoin, you know, kind of for the thing and, and Max kind of, or Matt [00:05:50] proposed, sorry, Matt feeling guilty.
+
+Matt, uh, proposed the idea that, oh, well what about stable coins? Like, wouldn't that be a thing? And, and Marcus was like, yeah, but like ais would never trust [00:06:00] humans to run their money. So, I mean, I have a ton of thoughts on that. And there's, um, this guy that's been visiting Precis Bitcoin, this also relates to our talk about becoming PB being even more AI for it, [00:06:10] which Alex and I had a good chat about yesterday.
+
+Um, this guy, John Ko, who is the type one summit. He hasn't published yet, but I think it's the best piece of economics I've ever read. It's all about bitcoin's, a thermodynamic [00:06:20] system, how the ais will use Bitcoin as collateral. That's like, that's the idea. I'm like obsessing over and I think that like I either want to incubate something or fund someone to, to do this, and there's a lot more to [00:06:30] discuss.
+
+But what I think is critical is, you know, there's a lot, I mean, Bitcoin is permissionless, right? Permission systems are not gonna let permissionless AI use it full stop. So [00:06:40] that's like, that's just like base starter, but also because Bitcoin is thermodynamically sound. The only way I personally see something displacing Bitcoin is if the AI figure [00:06:50] out some breakthrough in physics and like the second law of thermodynamics doesn't hold anymore.
+
+That seems to me, I mean, based on everything we know impossible, but I also don't rule out the possibility that [00:07:00] intelligence can have. Yeah, basically physical law breakthroughs that we can't imagine. Mm-hmm. And if we come up with those breakthroughs open AI is gonna own some fraction of it. Right? [00:07:10] Well it's, yeah man, that can be scary.
+
+I think it's more important we get, uh, we get Elon and Google on board, but Well, since you, um, raised that you, I [00:07:20] think you shared a post that um, compared sort of the strategic advantages that Google has over open ai [00:07:30] and I thought that was like super compelling. Um, wait, is this not in our group chat either?
+
+No, this is one actually won. No, this is in pbj. This is in pbj. You just don't read my Yeah, yeah, [00:07:40] it's true too. You just has his AI agent. I'm also Google, I'm also guilty of that. So lemme see if I can remember at least some of them. And, um, O one is that, uh, open a [00:07:50] open AI has to buy chips from Nvidia and Google has their own TPU chips.
+
+I actually don't know, do we know? Um. [00:08:00] Is a hundred percent of Gemini on Google's TPU or just a portion? Is it like, I believe all training and inference is T-P-U-I-I. So there's very [00:08:10] little dependence on Nvidia. I think there's no dependence for Google's services, like Google's services that you use, but I think Google has Nvidia chips in the cloud available to sell as [00:08:20] part of gcp.
+
+It's my understanding. So it's my understanding that's an enormous advantage. Yeah. And credit to Dke, you would've tweet like six months ago though. It was like Google's the next Nvidia, right? For that reason. Yeah. [00:08:30] Um, I, I, I thought heard a rumor is, is the TPU business getting spun out is another vertical within Alphabet or something?
+
+I haven't heard heard of that. I hadn't seen that. Maybe it's a lie. What were some [00:08:40] of the other reasons do you remember in that post? Um, I think like, actually I don't recall the post, but I know the, a bunch of the ideas resonated 'cause it's stuff I've been talking about with a bunch of friends over the, you know, [00:08:50] last years.
+
+But I mean, like the, you know, if you own a model, the model is likely to get commoditized. You need to sort of get up to applications and down to infrastructure. [00:09:00] Effectively, like Google has like TPUs, tons of, you know, real estate and land development and energy assets and infrastructure to like, you run compute, which is [00:09:10] probably like a strong area where you're gonna compete in ai.
+
+You're not gonna compete on just like, oh we got a better model this week. 'cause like, you're gonna get leapfrog on that next week. But if you have really great infrastructure, [00:09:20] energy assets, et cetera, you know, capital market advantages. And then you also take above the LLM, you've got like distribution through search.
+
+You've got applications like [00:09:30] email and calendar that are all made better. You know, like it's something to do with the AI instead of just generically a chat box. You can also generically do the chat [00:09:40] box, but that's in a sense, not a good way to differentiate. So I think the, you know, there there's been like this huge narrative shift in the last year.
+
+Everybody [00:09:50] said Google's toast, it's 10 blue links, blah, blah, blah. That's not gonna work. Obviously Google has like the best full stack AI infrastructure. Of anybody. [00:10:00] And I think that people are finally waking up to that and they're starting to ask, well, is like just a model provider gonna be good enough?
+
+And I think the narrative has now shifted where people [00:10:10] say, no. So, so it's really interesting and I, I've been kind of obsessing over this and I think there's two routes we can ultimately take this. I definitely wanna talk about vibe and I have a lot to say on that, but I think this is also interesting to maybe get into the [00:10:20] btc underperformance stuff.
+
+'cause I think this is, it's very related. So I've been also kind of obsessing over how the economic returns from all this AI is gonna come [00:10:30] out. And my kind of position, not financial advisor during research, blah, blah, blah. My, my, my take is basically, um, there's really only at the [00:10:40] highest level four companies that matter.
+
+Now to be clear, I think there will be a lot of companies that do well and get gobbled up along the way, including energy infrastructure companies, which is where I'm most focused, investing outta my fund. [00:10:50] Um, but in terms of like, if you just like said, Hey, I have X units of capital. I want to return the most capital possible.
+
+How do you do it? I think there's four companies that matter right now. It's Google [00:11:00] x, ai and thropic and, and, um, open ai sadly with their, but obviously we, uh, we're, we're, we're, we're hopeful that dystopian vision doesn't win, but, but they're [00:11:10] relevant. So those are the four companies, not Nvidia. Yeah, actually fine.
+
+Nvidia and Microsoft to a degree. And Amazon to a degree. And I would put Nvidia in the, so let's say five companies really matter, I would [00:11:20] put Amazon and Microsoft. It's here below. But, um, but even with Nvidia, it's, yeah, the four companies I'm personally interested in, you're talking about specific, like within the [00:11:30] scope of ai, within the scope of the world economy.
+
+I think this is all that matters. Yeah. Well, so yes, SpaceX, actually, I, I would count all that Tesla as rolling into, like, [00:11:40] in my mind it's Elon's called Elon Elon Co. Yes. And Elon Co is super relevant. So in my mind, the tunnels being dug. Yeah, probably All right. Link to, to, to find part of, to find the old [00:11:50] people, right.
+
+Who you thought it was gonna be. Optimus? No, it's the mole people. Um, so, so from my like, [00:12:00] kind of like fundamental assessment of where things are going, you know, I think people are extremely underweight how quickly AI is going to disrupt the old [00:12:10] world. Um, people talking about the bubble, I've made my view known.
+
+I don't think there is a bubble. And even if there is, it's gonna be short. I think that we're looking, and that's my point with the Hans Morak book. We're looking at [00:12:20] a, a civilizational level shift, right? And so it's not just like, oh, it's like a internet IP 99 9. No, no, no, man. This is like agricultural revolution type stuff.
+
+Well, there and there was a bubble in the nineties. [00:12:30] Yeah, I know it was also like how long was like a two years? Yeah. At max. So like, I mean, but they're also winners from that era that were so much bigger than all of the bubble talk, [00:12:40] so. Totally. Yeah. It's not to say that everything touching AI automatically wins 'cause it's touching ai.
+
+It's like very few probably win. The ones you mentioned are probably, this is kinda my point. Like I think I would never [00:12:50] invest in another software company again. Yeah. Um, and there are places I think you can make money as a private early stage investor. To me that's the hardware, energy infrastructure right now.
+
+And there's stuff, [00:13:00] or you know, you have some, um, you know, like a Bitcoin lightning routing node that scares, we talked about this, like what's scarce? Bitcoin is scarce. Lightning routing, node position is scarce. Um, the actual physical [00:13:10] energy and compute infrastructure. Yep. But, but my broader point is if you believe AI is gonna just like roll through the economy in the next three years, four years, which I do by 2030, [00:13:20] um, then those are kind of the four providers that have like some.
+
+True edges and it's gonna be really hard for anyone to catch them. And then as I think through those companies, you know, to me the two [00:13:30] that I'm by far the most bullish on are Google and Tesla, Google for all the reasons you mentioned. And, and to your point, Nvidia too. But Google has the Nvidia piece, it's got the [00:13:40] chips, everyone else is dependent on the chips.
+
+You just think like, where's the scarcity? Google has, as you mentioned, the best talent, the best researchers. They've got the best products, they've already got people locked in. I think Google is just like, [00:13:50] I'm, oh, another another point from that thread is it's non-dilutive, right? Yeah. There's cash generation.
+
+Exactly. That goes to support these things. You don't have to like raise any debt, raise any debt, you know, [00:14:00] sell shares, dilute. You don't have to that a hundred percent. So the one area that I'm, you know, that we've debated back and forth, and I think there'll be more than one winner. I don't [00:14:10] think it's gonna be winner take all, it's probably like three or four take all.
+
+Um, but I think is, uh, is Elon Co. And I would still, if I, I think both are great, but like I still might give the edge to [00:14:20] Elon Co over Google. And the reason is coming down to energy. Um, the reality is, if in the next four years that's the bottleneck, Google's good. Very good. Um, in fact, the biggest [00:14:30] news in my opinion of the last month is that they acquired, uh, intersect, which is like a huge solar developer, which is like their, their, um, their private solar developer for, I forget the [00:14:40] exact amount, but the billions of dollars, right?
+
+So Google's like, okay, they're gonna do okay. Um, but when it comes to like building infrastructure fast and energy fast, like, bro, a hundred gigawatt, uh, [00:14:50] exactly. And Steve shared this tweet. What was that tweet? I mean, I, I don't know the details other than they're, they're building out a hundred or they have a hundred gigawatt, or they building out is building [00:15:00] out a hundred Elon Co, let's say all of it together.
+
+Elon Co is building out a hundred gigawatts of solar a year. That's what he's claiming on Twitter, a hundred gigawatts. Now to be clear, you know, when we held the [00:15:10] Type one summit and I was talking about getting to Terawatt scale, like, the thing I want everyone to remember when you think about scaling laws is, um, [00:15:20] we've only seen the a hundred megawatt cluster run.
+
+We haven't seen the gigawatt cluster runs. Yeah. Yeah. We haven't like, like of all the models out there in the world, this is really, really, really [00:15:30] important for people to understand. You know, in the last year and a half or two years, whatever it's been, we have not seen the base models increase in terms of [00:15:40] power and compute.
+
+They're still at the a hundred megawatt level. All of the improvement we've seen is from post-training and from inference time compute. So [00:15:50] what's gonna happen if the scaling laws hold and seems like anthropic open AI seems like they're all scaling law uphold when you go from a hundred megawatt to gigawatt and Elon's [00:16:00] already talking about a hundred gigawatt, two orders of magnitude above that.
+
+And so anyways, if, if it comes down to just building energy infrastructure fast, and that's why you're starting to hear people talk about space as well, which people [00:16:10] laughed at before we had the type one summit. But if, if you literally can't build terawatt scale on earth fast enough, which is by the way, like.
+
+Pretty interesting area to be investing in, thinking about who's building the energy [00:16:20] infrastructure for the other guys. Elon's gonna do it all in house. Um, then they're gonna go to space. And I know you have the view that Google can f find a way to get in space with Elon, but as of today, the [00:16:30] dominant launch provider, including versus us like old school, military, industrial, complex.
+
+Yeah. They can't even compete. Right. Is SpaceX. And so, yeah, that's my view. I have a question though. [00:16:40] Um, you know, whether it's four or five companies, whatever, that you feel like by 2030 or thereabouts, dominate and get all the profits. What, what business [00:16:50] models are you imagining? Because some people believe that.
+
+Yeah. Um, a lot of the use cases today and even tomorrow will be able to be computed on a [00:17:00] consumer's device, phone, laptop, what, what have you, um, in which you can just run an open source and, and that open source models will be able to satisfy, uh, [00:17:10] most of those use cases and that the money is to be made in like scientific research.
+
+Uh, things that require a lot more compute. Do you agree with that? And if so, how does that. [00:17:20] Impact your thinking? I, I agree with that and what I was saying, I think it's both. I think it's gonna be a bifurcation. And I should also say I, I actually like Apple a lot too, in this world. Um, I wouldn't maybe necessarily put them in [00:17:30] that top, top tier, but I think Apple is gonna do just fine.
+
+I think you're gonna see a bifurcation. We're already seeing like open source models to your point, or catching up to the state of the art and so many, you know, whatever things. [00:17:40] And so if I just need to talk to my phone and be like, Hey, I need you to do X, y, and Z tasks for me. Yeah, of course that'll just be on device.
+
+Um, shout out to this investor. We've talked about Chris Pike, who's been saying it four years. Like [00:17:50] Apple, like the product they keep developing is their M chips and the memory that's integrated, like they're amazing. Um, but I also think that on the other end, to your point, scientific research and stuff, it's just like [00:18:00] the universe is limitless.
+
+There's gonna be infinite cool things we can do. All the tasks we can imagine today probably will eventually be done on your phone. And then the new frontier, things like solving cancer, [00:18:10] like, I don't know, developing like the Dyson spheres that's gonna be done on the cloud and probably. Probably the bigger business opportunity, but I, I think you're never gonna get to a point where like [00:18:20] consumers say, oh, the stuff I can do on my phone is good enough.
+
+And there's just l less demand for more intelligence. I think there's always gonna be more demand for more [00:18:30] intelligence. Agreed. So it's, I it's kinda like, you mean jevons Part X? Yeah. And I mean, look, look at, you know, I think, I think Gates was famous in the seventies or eighties for kind of saying like, some, [00:18:40] something about the, or maybe it was somebody else, some, something about like the, you know, well, I, I, I don't wanna miso it.
+
+Um, take bandwidth, bandwidth on the internet. It used to be a day when you would [00:18:50] say, oh, like as long as you've got a, you know, 9,600 blood modem, it's got everything you're gonna need. Then you're like, oh, well I need a little more bandwidth. 'cause now there's like these images you can get right? And you're like, oh, actually I need [00:19:00] more bandwidth.
+
+'cause now you can do video. Mm-hmm. Now I need high def video and I wanna upload. And now in a live stream and like the, the March of Progress on the internet has been no matter how much you've got, no [00:19:10] matter how much it. Your compute, your local compute makes sense in the pre in, you know, looking at history, you still want more because there's something more you can do.
+
+Yes. And I [00:19:20] suspect that's gonna be the case for consumers. So I don't think like on device, yeah, it can do like transcription. It's really good at that. If you got like a whisper model on your iOS, that'd be [00:19:30] ideal. But people are still gonna want to, then they're gonna start dreaming up software projects they want done with like multi-agent orchestration.
+
+And I think it's gonna end up falling back that like a cloud service is gonna be able to [00:19:40] do this better and it's gonna reach the demand of, you know, the personalized custom software that you want built for you. I agree. Why, why not architect a hybrid approach though? Yeah. Where you're using both local and cloud.
+
+Yeah, I think probably will. I think [00:19:50] local and cloud is natural. I'm, I'm only reacting to the idea that it will become all, all local because consumer, like consumer's needs will be met. I think consumer's needs will not be met. [00:20:00] Consumers will have new needs. Yeah. Yeah. I think I agree with that. Do we feel like the past 10, 20 years there's been a very good hybrid architecture?[00:20:10] 
+
+Of what? Like a service? Like it usually just runs in the cloud, right? Oh, most things run in the cloud. An iOS app is a client that Yeah. Touches a cloud service. I don't know, like, [00:20:20] yeah, I guess it did. It it's a mix. I mean, mobile apps, it's mix. But I, I would think economics would drive that. Meaning if you and I are offering the exact same service, I have the [00:20:30] hybrid architecture and, and you don't, I can reduce my costs 'cause I don't need as much cloud compute.
+
+Mm-hmm. So I think that economics would drive that. Not not like [00:20:40] privacy or other reasons. Yeah. Even though you get that privacy benefit as well. Both. Yeah. And by the way, and so this is where I'm getting pretty obsessed and we've talked a little bit about the idea for the GPU marketplace and [00:20:50] stuff is like, if economics is gonna drive it, geez, I wonder what economic system is gonna do it.
+
+Mm-hmm. Because if you have all these different closed off walls, like if, if [00:21:00] I wanna be able to, the other thing I think that's important to remember is like, we're still in the early, I forgot what Carla Deez calls it, like. Installation phase or deployment phase, I forget all the, whatever the, the terminology.
+
+But the idea [00:21:10] is like people are right now subsidizing, um, just getting their stuff out there. Yeah. And, um, my, my guess is, you know, a lot of the slop that's [00:21:20] getting made today is not economic. Definitely not. And that's okay. 'cause like these guys are just like, whatever, like get market share, dominate. But eventually you're gonna get to a world where like, you know, [00:21:30] even for the biggest company, you need to like, you need to like reflect the true cost of running inference to your, your user.
+
+And, um, my guess is we're gonna see that could [00:21:40] be subset for a long time. It could, I'm not saying that this could be 10 years out. Yeah. Yeah. I don't know. But like at some point markets are gonna market and I think that the open system for Bitcoin, this makes me a lot [00:21:50] more bullish. And I think you're gonna see other interesting things emerge.
+
+Like for example, um, you know, the GPU marketplace, which, you know, Christopher David at Open Agents has been playing with, right. Uh, some other people have been playing with. I, I hope this [00:22:00] becomes really popular. I think key calls it, um. Fracking for Apple M Chipps. Right? Like in the same way that we have natural gas and then fracking unlocked [00:22:10] it.
+
+Um, so shout out to Christopher. Dave sealing this. He's talking about, you know, imagine you have extra apple silicon at home, you can just plug it in and earn SATs. I think that's gonna [00:22:20] happen too. And I think to your point, economics dictates all of it. So we're actually sorry. We're being asked. I know we, if this is live and Yeah, of course we always do live.
+
+Is it, is it? Well, but [00:22:30] people could watch it recorded even if we do it live. Shout out to Austin who says the guy selling my dad our first PC sold him a one gig hard drive and told him quote, you'll never [00:22:40] need more space. You'll never need more space. Yeah. Those are the kinds of things. 'cause you're always looking at it in the context of what you currently have.
+
+Six 40 k. Yeah. You'll never need more. Oh, I, I think we had an Atari [00:22:50] 800 that I think, I think it came raw with like 4K of memory, if I recall. Or maybe eight k. My dad was like, we gotta [00:23:00] upgrade this. And he dropped like $2,000 on an extra 16 K of Rams. That's hilarious. Like, this is insane. By today's standards, it just makes no sense.
+
+Yep. Right. Yep. [00:23:10] And I think that's the way the world, that's progress. You know, that's technologies. A few other, speaking of like economics and ai, a few other, um, [00:23:20] related things that have come up in the past week or so. A point I brought up is that, um, some of us have been, you [00:23:30] know, five coding and maybe spending hundreds of dollars per month.
+
+I don't know too much. Too much. Like, I dunno if Matt, Matt, uh, spends maybe a thousand a month. [00:23:40] I have no idea, but like a lot, uh, I was speaking with some other developers, um. Who, you know, don't necessarily have the disposable income to, to spend that [00:23:50] much. And so it made me realize, you know, we, we talk about how vibe coding makes building accessible to so many more people.
+
+I mean, I thrown out the number like a thousand times more people. That's relative to like [00:24:00] people who have mm-hmm. Uh, traditional programming skills. Um, but we never really factored in the economics either. Um, so someone who, uh, [00:24:10] you know, is limited to only what the free, free plan is or maybe five to 10, $10 a month, how much does that, you know, impact their ability to, to [00:24:20] build?
+
+Um, so I think that's an interesting, um, and I think to discuss, wasn't there somebody who's, go ahead. Well, just the other point I was gonna make, I saw some headline about Claude Code [00:24:30] can cost $200 a month and Goose is free and Oh, I didn't know Goose is free. That's cool. Well, but well, goose is free, but you need to, I I don't, that seems like I'm misleading title to bring an API key if you one of these [00:24:40] guys.
+
+Well, yeah. You need, you need a model. Goose isn't a model, so. Goose allows you to use different models and different models have different capabilities and different price points, but [00:24:50] if you use the same model that Claude code is, I assume it costs the same. So, yeah. Um, I, I don't, I'm not aware of Claude code adding a bunch of extra cost [00:25:00] be or price beyond using Opus or sonnet or whatever, right?
+
+Yeah. So, um, is the part where you [00:25:10] want me to be the asshole, right? No, I never, I never, Hey dk, I never said that. No, I, are you feeling like an asshole? I don't, I don't think it's, I don't think it's the [00:25:20] case. I, I think, um, well one, as client side and open source becomes more and more powerful to do tasks, then that is quote [00:25:30] free.
+
+I mean, you have fixed costs, but then at the marginal cost to you would be free. Um, so I think that just gets more capable over time. Um, and then just like the [00:25:40] example you gave of your dad spending $2,000 on a few K of Ram or whatever, obviously that comes down, uh, like at, in the, in, in 1978 or [00:25:50] whatever, how many people around the world could afford, you know, a few K of Ram or a computer and compare that today with mm-hmm.
+
+Billions of, billions of people having phones. The, the same thing will, will [00:26:00] happen here. Yep. Yeah, I mean, I, I agree. I, I think your, I would guess that your estimate of like exposing it to a thousand times more people is about right. [00:26:10] You know, exposing vibe, coding and building to a lot more people. That's probably right.
+
+It doesn't mean that every person today has access to all of the most, the highest tier plans of everything [00:26:20] they want, but it, I think a lot of it depends on sort of your mental accounting. Like I thought you shared somebody who said, oh, I budgeted $10 a month for my vibe [00:26:30] coding model use. And I'm not here to judge them and say that's the right amount or the wrong amount for you.
+
+But I think it depends on how you think about what [00:26:40] role does this play. If Vibe coding is purely throwaway entertainment, then maybe 10 bucks is the right amount. Like it's like Netflix, right? If you see it as like, this is [00:26:50] the future of my career, or this is the way that I'm going to create economic productivity in the world.
+
+I think almost anybody who can afford a [00:27:00] $2,000 MacBook Pro should be spending, you know, at least I think, I think 10 bucks a month is probably too little to be spending [00:27:10] if you believe that. This is different ways to frame it. One, you, and you've shared this one, but like, you know, going to university Yeah.
+
+If you're spending, you know, a hundred K, yeah. 250 K, 500 k, [00:27:20] whatever, outrageous amounts of money for university education, um, compare that to. Paying, you know, a hundred dollars a month for, for these AI tools. Um, so I, [00:27:30] I, I actually have a, have a thought on that. So, but before we let DK go full, uh, uh, sailor talking to Danny on what Bitcoin did, I'm just kidding.
+
+[00:27:40] I, um, okay. So I, I think this is an interesting segue on the vibe thing. All I do, I wanna, I wanna put a pin and make sure we come back to the big tech companies and big one before we die or before we whatever, [00:27:50] finish today. Um, but, um, to me the question becomes how do you make sure people [00:28:00] see that value?
+
+Yeah. Yeah. Okay. So I'll talk about my own experience right now, so, okay. I, I, this is great. This is your first, is good segue time, talking about you actually [00:28:10] building things. Yeah. You've been encouraging you for fact. You've been encouraging. So, so you guys, a while now, y'all, y'all, uh, peer pressured me.
+
+Excluding me from a group chat. That was the final straw. [00:28:20] That was, that was the final straw. So now get invited in. Yeah. So, so actually, um, can we show this, Alex? It's not, it's not perfect. There's things wrong with it, but like, I wanna [00:28:30] Won't get a surprise. Yeah. Little surprise. We're gonna do a little demo.
+
+Fuck yeah. Yeah. So it's not perfect yet, but like, so I'm not gonna say my stuff is polished, like dks, uh, meme pay [00:28:40] app. It's not polished like dks or, uh, Matts entirely. But I wanna show you the, the power of this, and then I want to get the idea across about how we share this with everyone. So, um, yeah, if you want to, [00:28:50] you can log in with Noster.
+
+I even got that sort of working. So this is my, uh, this is my first, uh, it's actually now a Nostra client. It's called Meme Pay app. [00:29:00] And, um, the idea behind it is very simple. Okay. The idea is actually another Chris Pike idea that I liked, I read some years ago from him was that, um, memes are under [00:29:10] monetized.
+
+There's a whole meme economy that you can, you can make some cash on. So the whole idea here is you create memes and you earn Bitcoin. Now, I will tell everyone listening this is, I have not shared this [00:29:20] publicly because there's a lot of stuff that's broken, including, um, right now. Anyone that, that zaps the money just goes to me.
+
+But I think this is worth, worth talking about. 'cause there's stuff I need from Nick. There's stuff I need from Naster. [00:29:30] And shout out to Matt who helped me a little bit yesterday in our, our, uh, pair vibe. I feel like I saved my pair vibe with Dke since you're back in town. Yeah. But the, the whole deal with this for me was, okay, [00:29:40] you need to make this so, so simple for anyone to be able, that has a good idea to go from zero to making that first money.
+
+I think that's the key. 'cause otherwise, if you tell people like, [00:29:50] oh man, vibe coding is the future and it's great. And they're gonna be like, yeah, but I don't wanna spend my $10. If you say, Hey man, in five minutes you're gonna sit down and make your first dollar, boom, then they'll spend thousands. Yeah.
+
+Because they see it as a [00:30:00] productivity tool or whatever. It's, so the whole concept with meme pay app, um, I don't know, isn't live, it's not live yet. Okay. Well anyways, I, I can just describe it. I think we had it up for a bit. Yeah. Um, [00:30:10] is basically you choose a template, uh, okay, Alex gonna do a screenshot, thank you.
+
+And you fill out your own meme and then, uh, [00:30:20] people zap it. That's it. And if you like it, you pay, right? Yeah. You pay to create it and you can pay, it's using MDK, so shout out to, uh, Nick Slan and Crew. Um, you [00:30:30] pay, and then I rank the memes in the gallery based on which ones have gotten the most payments.
+
+Mm-hmm. And that's the whole app. It's [00:30:40] fricking addictive and super fun. And I will say, shout out to Alex. I showed him last night, uh, testing it. I was very proud 'cause he did meme in front of me and made a payment and then he made another one on his own after Nice. [00:30:50] Showing how much fun this is. Um, I showed it to Danny immediately, he started making memes.
+
+Now again, I need to, so, so now I feel like Unli actually made fun of me this morning because I was like, oh, I'm a [00:31:00] PM now. And she's like, A pm She's like, you don't even know what a PM does. And I was like, actually, actually, you don't know what a PM does because that old world is dead. Like, so I just got a bunch [00:31:10] of notes and stuff I wanna add into there.
+
+Um, but like, anyways, so, so, so the whole idea is you make a meme, someone likes it, they tip it, and then we have a leaderboard where the more tips you get, [00:31:20] the higher it's ranked. Now the next steps that it's like a stacker news competitor. And I get, I mean, I don't know if it's a competitor, dude, believe me, pian, if you, like, if you're listening, take this and run.
+
+Like, I'm just, [00:31:30] I'm just messing around having fun. Right. Um, but I also think like, you could make some serious jack with stuff like this. Oh, for sure. Like, like, like people that know what the fuck they're doing. Like I, so I do think [00:31:40] AGI is gonna come and take a lot of this away, but in the next like two to three years, uh, the sort of like levels io model of like, oh, let me launch a bunch of businesses, bro, you can print.
+
+Yeah. Yeah. In this [00:31:50] transition period. Print, but the missing piece for all that was something like MDK. 'cause in the past people were buy putting replic and they can't monetize. You can't make money on it. Yeah. You need to show people how to make money. Yeah. People don't want the nerd [00:32:00] stuff. They just wanna make money.
+
+Yep. And so that's what the missing piece is, why I'm so bullish on MDK. Um, but anyways, so what I wanna figure out now, so, so I got all of that working. We were having [00:32:10] database problems and it stuff, and it's like, and I'm really happy that Nick is focusing just on being a first class citizen in rep.
+
+That's amazing. Mm-hmm. But there's still a bunch of bugs with her. Right. We couldn't get the fricking database to read his thing. And so Matt and I [00:32:20] had to sit there and go back and forth and we had to like, explain things. And finally the thing that got it to work was I literally had to talk to the AI.
+
+And you know, after Matt gave it a bunch of like really like sort of rigorous [00:32:30] context, it still wasn't working. I went to the AI and I just typed look Dash. I was like, all I want is the damn payments to work. Just make it work. And it worked. Like there's all these like cool things you [00:32:40] figure out and I'm like telling the ai like, all right, no bro, you need to make this shit work.
+
+And like, and then it works anyways. And you're still, you're doing this. I'm taking it. You're still typing? I am still typing. Which is not the. [00:32:50] Prescribed away to Vibe code, you know? Well, this is why we're gonna do our pure, uh, vibe next set. Yeah. 'cause I wanna be able to do it while I'm walking. My biggest regret is I spent way too many hours in front of the computer screen on this.
+
+Mm-hmm. And it's [00:33:00] like, I'd rather be walking. Yeah. Anyways, so, but the next thing, so then, uh, Matt helped me with this yesterday, and there's still so much to figure out, but we got, um, Noster login working. So [00:33:10] now you can log in with Noster and every meme my vision is, is gonna get published as a noster event.
+
+Right. And so any Noster client can suck those events in and [00:33:20] like the, the meme gets shared around and like accrue value. And then people get secondary opportunity to build clients to showcase the memes. And so as [00:33:30] an examine, and so somebody were to zap it on Nostri, let's see, let's say I see a meme from, is it Meme Pay?
+
+Is that what it's called? Meme Pay App. Meme. Pay App. So I see a meme from Meme [00:33:40] Pay that app on the Noster Yeah. Page. And I've already got my wallet linked to Nostri. I can zap it easily. Mm-hmm. Does. Money then flow through from the Zap to, we haven't [00:33:50] gotten that working yet. That's what next week goes. You and I'll get this work over.
+
+But that goes to you, the developer today. So today everything just flows to me. I haven't figured out what I wanna do is, the next thing is if [00:34:00] you, if you, the reason I did log with Noster is twofold. I want every meme to be a Nostri event. So because it's not just Noster clients, then, like Stacker News for example, is not technically an Noster client.
+
+Well, I guess what does that even mean? [00:34:10] But it can display inline Nostra events, right? We still didn't get the, the inline working. Matt was helping me with this. There's still some, some bugs on this. Um, but like then imagine you're just on stacker news and like someone does a [00:34:20] stacker news post, but they suck in a meme in there.
+
+There's like a meme template. Boom. If I can get all of that working, that's how this thing just goes crazy. Yep. Um, so anyways, so, so that's all with the Nostri login, but now [00:34:30] Yeah, so, so there's a bunch of challenges. The next challenge is like, okay, how do I get someone to get paid? Right. Well, first, like my idea was if you log in with Nostra, I need to use the libraries to figure out how you [00:34:40] can get, um.
+
+You know, if I already have a, for example on Primal or something, a lightning address hooked up to my in pub, like it needs to be able to read that using NOS Wallet Connect or something like that. Yeah. [00:34:50] And so what I'm realizing right now from doing this, um, is, and by the way, I went to the NOS or dev meetup last night.
+
+That's a whole nother topic we can get into, but um, you know. [00:35:00] It in the same way that if you had tried to vibe code with Bitcoin one month ago, it was super difficult because no, in rep, at least no one had just like done like the hard polish and make it work in [00:35:10] replicate before Nick and MDK. Yeah. I mean you could do it, but like you did it, Matt did it.
+
+But like that it takes a lot ation, right? Someone needs to do that for no Oscar. Um, and I wanna give a shout out [00:35:20] to Alex Gleason who made Shakespeare diy. I have not used that yet. It's a Noster competitor to Rept, which is only focused on Noster. And some dude at the event last night showed a cool [00:35:30] app he made in Shakespeare and it worked.
+
+Um, but what I want is someone to like, because Rept has the user base right now, figure out this could be a company, this could be like a protocol, [00:35:40] whatever a project, but figure out how to just make Nostri work as a first class citizen rep. And, um, anyways, that's what both Matt and I are working on. Matt told me he's working on it too right now.
+
+[00:35:50] Um, we tried pointing to. Uh, Nostra Login Library, which is our tours library. And it's good, but it's not really, you know, maintained. We pointed to MDK, which is Pablo's Library, [00:36:00] um, which is better, but like there's still some bugs and stuff. Um, so I've been told that Alex Gleason's MK Stack, which he uses for Shakespeare is the best.
+
+Oh, MK Stack is, oh, I was wrong. Okay. I thought [00:36:10] you had a typo. What do you mean? I asked in our group chat, the one that you're in. Oh, I asked what is MK Stack because you referenced it and I thought it was a typo that you meant. Mdk. So MK Stack is, [00:36:20] no, MK Stack is Alex LEAs Alex Gleason's thing, and I think it's for his wife MK, so that she can use it.
+
+Oh, okay. Um, and at least that, that's what I read at one point. Don't, don't quote me on that, but anyways. But someone needs to take [00:36:30] MK Stack and make it work just really nicely and rep it. Mm-hmm. There's a company, um, Austin has a question. I don't understand the goose hype. It's a wrapper. What am I missing?
+
+Um, [00:36:40] I, I think reasons to be supportive and, uh, and bullish on Goose isn't that it's free and CLO is $200 a month. Um. That's, [00:36:50] that's kind of, that's apple's oranges. That's apple's oranges, yeah. Um, but it's, it's open source. It's now part of the Linux Foundation. Um, it's part of this new foundation that Anthropic and Open and Block, [00:37:00] uh, started.
+
+Um, so unlike its competitors, Windsor Cursor rep, et cetera, which are all closed source, it's open source. So there's just the classic open [00:37:10] versus closed source advantages. Um, it obviously needs to compete though on user experience and overall, uh, experience. So I think it need, it, it's, it has been leveling up the past [00:37:20] year.
+
+It needs to keep leveling up. Um, but hopefully it attracts a lot of, I it's already attracting non block contributors, but hopefully that that continues. In fact, if anyone wants to [00:37:30] contribute to Goose and work out Presidio Bitcoin, we'd love to have folks like that working outta Presidio Bitcoin. I would love that.
+
+Presidio Bitcoin. Um, but to me that's why, why it's interesting. And then when it comes to like [00:37:40] payment protocols and payment experiences within AI tools, I'd love to see that being integrated into Goose as well. [00:37:50] If you're using Goose and you wanted to try to bake it off compared to say, like a Claude code, um, is it still the best recommendation is use open router as sort of your, your [00:38:00] model routing within Goose?
+
+Or can you just pick like Claude, well, I think four or something, or that's natively integrated, but you can still, you can use the, the nostril one route router or [00:38:10] whatever. Oh, I I, you're not, I don't think you're restricted, but just, but meaning like instead of using a specific API key, because I think at one point I was using specific API keys with Goose and it wasn't [00:38:20] so good, but then somebody, maybe you or somebody told me to use Open Router to access the models instead of a direct API key.
+
+Yeah. So that's still [00:38:30] kind of best practice or as far as I know. Okay. So I love all the open source tools. I hope they continue to improve. It'd be awesome to get them here, but I wanna just reiterate a very important point, [00:38:40] which is like, I think we, if we really want BTC payments to take off, like we need to go where the people are.
+
+It's awesome. I hope Goose keeps improving the open source keep tools improving, but like, this is a like, really [00:38:50] hardcore call someone, make Noster work in rep lit and you will win. But I think go where the people are. There's like the people who develop on rep lit. Mm-hmm. That's one [00:39:00] set of people, but there's also just like the web is kind of open and people can build on Rept or Claude or you know, or Goose or whatever, [00:39:10] and they've published it out.
+
+Right. So is is, are you imagining something that's a, like a rept specific library? Yeah. I, I, I, I don't know what I'm asking [00:39:20] for. If it's a library, a plugin, if it's a company, if it's an MCP server. What I'm saying is there are a lot of like developers with taste, [00:39:30] many of them here in San Francisco who are currently using Rept, they don't know that they need Bitcoin or Nostra yet.
+
+MDK was all around, how do we take [00:39:40] Bitcoin payments and make it super easy Yep. Where these people already are to solve a real problem for them. That problem is how do I get paid? Right? What I'm saying [00:39:50] is, if someone can come and solve the problem of how do I allow off into my app and with payments ideally, and share the things, create outta [00:40:00] my app as widely as humanly possible, there's a huge opportunity there.
+
+I've, I've found that, you know, like, I think it was about a year ago, I built my first Noster app [00:40:10] on Repli. Mm-hmm. And it was very problematic. 'cause I, I remember I had to, I had to tell it like, Hey, after you generate the, the nsec, you need [00:40:20] to I think have a published event where you first introduce that new N pub to the network.
+
+I think there's like a broadcast thing as part of the Nostri protocol. Um, and so I was struggling to [00:40:30] get Repli to do that, and I really had to be very prescriptive and dig into what was going wrong and then eventually got it working. But that was about a year ago, and I think Repla was using cloud models figured [00:40:40] out.
+
+Um, uh, just recently I built a new app that's, it's not like a Noster app, but it uses noster as infrastructure. And I just basically told it what I [00:40:50] wanted to do and I started looking and stuff showing up on Noster. Yeah. So I think there's a lot of, like, just as the model gets better, I think that's already probably [00:41:00] made progress.
+
+A little, maybe little bit of the bitter, bitter lesson. Well, but I still think, think there's geo opportunity, which you turned me onto that acronym. I think generative engine [00:41:10] optimization. Yeah. So instead of SEO. Right. Right. Yeah. Um, that's good. I, I, I trademark. I do think, I do think naturally it sort of heals over time.
+
+Mm-hmm. But I [00:41:20] think there's ways to accelerate it as well. And we've already seen. With MDK, they did explicit things to get more tightly, inter mm-hmm. Integrated with rept and it did reduce [00:41:30] the number of steps and problems. I mean, you're, you're complaining about a couple hiccups you had, I had a couple hiccups as well, but it used to be so much 20 hiccups, not two.
+
+[00:41:40] Right. And, and it used to be 200, it used to be 2000. So, I mean, um, I, I totally agree. Keep pushing it so it, it literally works on a one shot, one shot, but, um, yeah, for, for [00:41:50] everyone, we're getting there. I mean, it definitely works as a one shot now in certain situations and not, not others. Um, well, and I, I wanna just make a few comments on this and like, seriously, like when we pair [00:42:00] next week, I wanna see what you're saying.
+
+I, I mean, I, I believe it's possible and we, to be clear with Matt, yesterday, we did get. Um, Noster notes pushed out. Mm-hmm. There's just like a lot of, like, it's [00:42:10] Polish and this is, I think if I had to say one thing, it's like a lot of the Noster community is still amazing, but it's still, it's not, it's not that level of polish where I could take it to like my normie friend that is, you know, a PM in [00:42:20] Airbnb or something and be like, it just works.
+
+Um, but we're close. We're so, so close. Yeah. And so, you know, that there's an opportunity for someone to build that final bridge there. Uh, having said all of that, [00:42:30] another thing that I discussed, imagine, and this goes to my Hans point, to your point, which is like, you know, there is an argument for learning the tools [00:42:40] now For sure.
+
+And I'm having fun with it and it's cool. Um, but if you say, well, I even will any of this matter in three years, my answer is no. Like, the models are gonna get so much better on their own [00:42:50] that like, it's cool. So I think the reason you learn the tools now is because there's a window where the humans operating can still build businesses and make a lot of money.
+
+You can still escape the permanent underclass. I, that's, [00:43:00] that is one, one darker way of saying aica. Um, that's a meme, but, um, but, uh, well, exactly, you should put that on a meme. But, um, [00:43:10] but I do think the models are gonna get so good. Now, I do think as a topic we've discussed on prior shows, it matters that we get a lot of noster content and Bitcoin content out there on the web, [00:43:20] because the more there is on the web, the more we're influencing the future generation of models, the more we make Nostra and Bitcoin potential defaults.
+
+So I do think there's [00:43:30] reasons to do it. Um, but I think in three years, like none of this, like the, like tooling will matter. I have a little different take on that. Yeah. Um, I mean, disagree with part of that [00:43:40] meaning I, I think it's valuable to learn these skills today. Uh, not just for the next two or three years, but in two or three years, I agree the game will change.
+
+Mm-hmm. And you need to have a new set of skills, [00:43:50] but it's a lot easier to develop the Yeah. Next wave of skills. Yeah. That's on top of what you build over the next two years than if you don't do anything right now. Yeah. Um, just, and just observing like David and, [00:44:00] and Matt and others, their skills level up the past year.
+
+Yeah. That they're, they're, they're ahead of us now. Right. So, um, and I, and I don't think if we wait three years and then enter that, we'll, we'll be able [00:44:10] to leap, leapfrog, leapfrog them. So, uh, yeah. I agree with that. I think it's, IM, I, and I also like spending the time figuring it out long term. Like, are humans [00:44:20] pointless?
+
+Like, I don't know. I don't really care. No, they're not. I, I would never say that to you. I don't care to like, even like really think about that. I think we just, it'll continue to be a better and better and more [00:44:30] powerful tool for us. Yeah. We're still the tastemaker. We still know what humans, uh, want. Well, we, I, I forget who put it this way, but.
+
+It's like sort of, I know me, [00:44:40] and that's my unique advantage. Yeah. Maybe a AI will know what all humans want better than me, but I know what I want better than any anyone. I agree. Yeah. And so I can [00:44:50] always taste make for myself and then there's probably other people like me. Yeah. Um, and then so I can be the driver and orchestrator and PM of that.
+
+And then I have these insanely powerful tools to help [00:45:00] build faster and better, et cetera. So I think that's gonna be the case for a long, a long time. I agree with that. Yeah. Yeah. And it's also like, it's fun, right? So like, yeah. Best thing. I'm glad you got, I was, I was gonna ask [00:45:10] you if you could tell us a little bit about your, your journey, because I know we've been asking you to really try it for a while and you finally did that.
+
+And was it 30 minutes of [00:45:20] struggle and then hours of addiction or was it. How, how hard was it to get into, and where did you, where'd you finally get the payoff of just kinda like the psychological [00:45:30] kind of That's a great question, and I actually think, um, I'll describe my vision, but we should also discuss, I have ideas like what we could do here at PB to help more people have those magic moments.
+
+And I think, I think that's actually a great [00:45:40] service for Bitcoin and for the world. Um, but for me personally, um, so you guys peer pressured me last Friday, right after the show. I was like, all right, fuck the shit. Like, uh, I'm [00:45:50] gonna, I'm gonna get something working. So that, that was the initial motivation.
+
+Um, and I've had this idea for the meme thing forever, and I've tried to pay people to do it on, no, I just, I was like, okay, I [00:46:00] just see if I can do this. Um, so my first, and I think it's important whenever you're building any kind of product or company to like, always put yourself back in the shoes of the noob [00:46:10] because you, you get so far down any, you forget what it's like for a complete noob.
+
+So for me, as the new last Friday, I sat down [00:46:20] and, you know, I, I chose Rept because you guys use Rept. That was why I'm also interested in using Google Anti-Gravity, which I would like to in the future. Oh yeah, I wanna try. But it was like, well, I'm gonna do what my friends are doing because they [00:46:30] can help me.
+
+That was the first decision point. Then I tried to do some stuff on Rept, and I got a little bit, and I got like, to your point earlier, I got like one prompt and I was like, you need to pay. And I [00:46:40] was like, fuck this shit. I'm not gonna pay. Like, I don't see any value. Like, you guys are just like, my friends are fleecing me now.
+
+Uh, and then you made fun of me and said, you're not gonna pay $25 a month. And I was like, all right, more peer pressure. [00:46:50] I'll try your damn app. Another subscription for another $25 a month, which I hate. Well, is it, is it. More similar to Netflix in your mental account? I would never subscribe to Netflix or [00:47:00] whatever you subscribe to.
+
+Yeah. I would put it like, um, it's like entertainment, not necessarily. I put it like a new category. Like I am subscribing to Google's model because I use that for research. [00:47:10] Um, which is actually quite viable for my quote unquote real job. Um, so I put it somewhere between Spotify slash title. I do subscribe to title and that's just because out love for block and out of [00:47:20] love for the hope that Jack is gonna make Bitcoin go in there one day.
+
+So I put it somewhere in there, somewhere between Spotify and Title and what I do for Google, which is like actually my work. Yeah. So it's like, [00:47:30] it's not, I would say it's closer to work minutes. It's one thing I mentioned when, when you were in that small window of time of struggling Yeah, I was, I was curious.
+
+Curious. It was with Ginning. Yeah. You're like, how, [00:47:40] you're like, I just want to, I just want an example to get started. Mm-hmm. Yeah. And I gave you an example. Yeah. Just tell rep, create a game. That's true. Literally that's all you. And then. [00:47:50] I typed that in just to prove to myself again that it's that simple and it created snake, right?
+
+Mm-hmm. And it's like super primitive game. I mean, it felt like the seventies, but like it created the game and I played it. And then [00:48:00] shag carpeting, it's the color shirt, it's the hello world. I mean, for people who are, have ever learned programming. Hello World is like the first program. You're right. In a new language, [00:48:10] right?
+
+Yeah. And that was actually useful when you said that. I was like, create game is like the hello world of this. And then you get a game and then it's very easy to iterate from, from there on. Um, so I, I, I do think [00:48:20] it's like outta the box, super simple. Adding payments is a layer of sophistication. It's damn near close to being like one shot, uh, uh, [00:48:30] for everyone.
+
+Yeah. Uh, out of the box. Um, but we, you know, we need, we need to get there. Well, and, and shout out to Nikki's in a lot of work, but obviously it's startups. They have, they have a lot to go. And so for me, you know, there's, and, and [00:48:40] it's always like to be clear. The reason I like programming, like I like, you know, manipulating mental objects and thinking about things abstractly.
+
+I [00:48:50] don't have whatever my personality is such, I don't have a lot of patience. And so like when it's like the fucking comma is missing, it's like, ah, I just wanna rage quit the computer and, and leave. And that's what I did with programming. And [00:49:00] so in this case, yeah, it was like lots of little things and it was like, I'm glad I'm in a group chat with you guys and Nick, because I was like, all right, like I'm trying to do my little payment thing.
+
+He's just happy to be included. Exactly. [00:49:10] All, all I want is belonging, which is what humans really are gonna need post a GI. Isn't that the ultimate question? Yes, it actually is. But um, but yeah, so I'm in a group [00:49:20] chat and I'm asking you guys to help me and um, you know, Nick tried a bit like, um. I don't know.
+
+There's like, there's just funky stuff you don't know. And so I forgot what it finally was. I was [00:49:30] able to add the M-D-K-M-C-P server, and I know Nick's got a better solution coming for that too. Um, but then he told me to do that and it started working and that was really exciting. So just like that [00:49:40] first moment was, and Steve, I think used at me, one of you guys at me.
+
+I'm guessing it was Steve DK is a little cheaper. Um, it is what it is. I know my truth. True story. I know that. I know that. [00:49:50] Um, so thank you Steve. Um, so actually, yes. And you know, you're, you're saying that kind of jokingly, but you zapping me that first time. First of all, you saying and actually taking interest when I [00:50:00] was doing, she's like, make a game.
+
+Um, and then you zapping me. I was like, oh shit. That was a magic moment. It was like I got a payment from someone else. That's huge. Yeah, it was a dollar, but it was like, oh [00:50:10] shit, this is real. I, I felt the same way. Right. With joke box, my right. Yeah. It's great up real numbers in the joke box. Right? Who, who I [00:50:20] think that's z You.
+
+I zapped you too. Yeah. I zapped you for Zero Box too. Probably, probably not D guys. There there's, there's no doubt though that making it, um, out of the box, dead [00:50:30] simple to add payments. And then for someone around the world to receive their first payment from, from like, it's magic, not their friend or even even a friend.
+
+Even a friend is, but imagine I can't, [00:50:40] not your friend or you know, someone who just genuinely discovered and values what you have. That is a, that's amazing. I'm gonna lose my mind. I mean, it's amazing for any business historically, but the [00:50:50] speed in which you can go from zero to that emotion is like, that's the magic moment.
+
+Uh, but that's radically shrunk. I mean, it can be in a matter of [00:51:00] an hour or minutes now, now, so depending on how you distribute and market. Mm-hmm. So I wanna be clear, and I have an idea for what we should do here, but I think we should help as many people as humanly possible. How that [00:51:10] magic moment. And I wanna be clear, like I think.
+
+I actually think we have a secret with MDK, which is that vibe coding is great, but like it's, most people are [00:51:20] not nerds. Okay, this is cool. I've actually been talking with Angela about this. She has zero interest in vibe coding. She's like, I am not an engineer. I have zero interest in that. I'm like, do you have interest in making money online?
+
+And she's like, [00:51:30] tell me more. And like, and, and she's literally like, yo, I'll believe it when I see you make, you know, whatever, a hundred bucks. So I'm, I got two. Alex is one, Steve is one. Was he have [00:51:40] a DK ever opens? What is the uh, um, yeah, this is it. It's a new club. Um, it, so, so when I get to a hundred dollars, I [00:51:50] wanna go back and show her it's possible.
+
+And then she's gonna say, okay, cool. Now I'll play with rep lit. Zero interest in coding ever. Yeah. Zero. Starting business ideas that are cool. [00:52:00] Yeah. Lots. So that is a secret that we have in the world about MDK and now. Why I think this could go viral for, for vibe coding. I, I think that's the big story is [00:52:10] like, yes, we should try to make the tools better and keep advocating to get MDK simpler.
+
+One shot Bill and Noster stuff, one shot. But if you could either have that or [00:52:20] you could have a shiny example of a person who made a million dollars and changed their lives that's coming, that, that's the thing that will really make everybody perk up. And by the way, I [00:52:30] saw, I think it was, and people will struggle through the, the pain.
+
+Yeah. If, if there's money on the line like that and show me the incentives, I'll show you the outcome. Um, I think it was levels io that [00:52:40] shared some dude who's like live streaming himself, kinda like Justin TV style. And he's like, I'm not gonna stop livestream. I dunno if he still is until I make a million dollars.
+
+I don't know what he's using for games. But there was some, there was [00:52:50] something that was a scam. I I didn't follow it. I dunno, I didn't either. I just saw the idea. I'm always reticent to call something a scam without like a bunch more facts, but I, I, I think they're selling [00:53:00] a training. Program and most, are you serious?
+
+That is what I threw a five second read on X. That's what I, so, so whether this, because I don't spend much time at X anymore, so I [00:53:10] didn't do the good for deep research. Right? Yeah. So, but that, that is why I saw it in five seconds. So whenever we can point to someone that makes, I mean, I would even say even like a thousand dollars and a hundred thousand [00:53:20] dollars, and then eventually a million dollars from a vibe, cut it out with MDK or whatever, using Bitcoin that's gonna go by.
+
+I mean, I, I didn't see the, the, I may have just seen the headline. I don't know how [00:53:30] deep the story is, but I thought I saw people talking this week about, it's been revealed that a bunch of Roblox kid developers or making like tens of millions of dollars on the Roblox [00:53:40] game. For real. Yeah. Like a, I think it was like a 20-year-old made like 20 million bucks on a game or something.
+
+I dunno if that's real, but, okay. So, and, and, and I, I wanna, I wanna, I know that's a real ecosystem and there's real [00:53:50] money flowing through it, and I think this is the key to making Bitcoin and Noster win short term because there's so much you can do with the open system. So I wanna tell you, and like.
+
+Maybe next week we can get this working so I [00:54:00] can show on the next, on the next pod. I have a vision, you know, I've talked about this concept I have for a new economic structure, and I call it like the waterfalls. Okay? And like, it's all [00:54:10] about the thickness of your waterfalls, which is, you know, for any intellectual property, um, which I think is, it's dumb to try and like win with ip.
+
+Instead, you wanna win with [00:54:20] having the showing point for a specific piece of ip, not the winning through courts, but winning through money, winning through economics. And so I described this in the past as with music. If I, you know, if [00:54:30] Radiohead drops in rainbows again and they sign it with their private key, and then you bake in, you know, there's zaps that flow to that, right?
+
+Like money tips, just tips, value for value for now. And if you can, [00:54:40] um, then bake in the next level, which is kind of like if I share that meme or, or the, the, the music, I get a cut of the waterfall. So what I really wanna do, if I [00:54:50] can get the next, my ultimate vision for this meme thing is if you share the.
+
+And someone zaps from your share, you get a cut of the waterfall. Mm-hmm. And now you're [00:55:00] economically incentivized. And that's how these things go viral. And this is what I think what someone like Chris was getting at is like, imagine if you create a whole new meme template and it takes the internet by storm.
+
+Like you could make a [00:55:10] million dollars off of one. Austin. Austin says his brother-in-law was making six figures in Roblox one year out of high school. So there you go. And this also gets to idea [00:55:20] of like, the kids are unbanked, right? What are they gonna use to make money? Right? Um, so, uh, quick shout out for those interested in maybe making six figures.
+
+[00:55:30] Um, we have our monthly builder meetup at Presidio Bitcoin next Thursday. So if you're in the Bay Area, please come out. Again, you don't have to be identify as a [00:55:40] coiner, you just need to be enthusiastic and interested in, and you don't have to identify as an engineer building. You don't have to identify as engineer or a coiner, just innovation and building.
+
+And, uh, [00:55:50] if you have something you want to show off, we'd love to see it. Um, definitely you'll be able to, to learn from other people and so hopefully see people. And when's the next one? Hope next Thursday, [00:56:00] uh, 6:00 PM at Presidio Bitcoin. And I think you can sign up on, uh, Luma I believe is the event site. I think it's also worth calling out a [00:56:10] appoint Matt made just to help everyone set expectations of where we are.
+
+To be clear, you know, you sign up for Rep, it's $25 a month. Mm-hmm. That's not all like these guys in the short run rep's [00:56:20] making a lot of money. 'cause like they do is they get you hooked. It's like a, hey kid, first try is free or $25 and then you start burning through credits. I think I still have not burned through my next $25 [00:56:30] worth of credit.
+
+So I've done all of this in under 50 bucks, but it's not, certainly not free just to be clear on that. But I I But it's also like the only thing, the price, it's less than the price of two people going to the movie [00:56:40] theater. It, it is, but, but I think the point is actually, and I think this is an important point we just discussed, and what we can do here at PB, um.
+
+If it's in your [00:56:50] entertainment budget, you're not gonna spend it. If you're like, I'm spending 50 bucks and it makes me a hundred, then like, why wouldn't, I mean, of course you'll, I, I, I mentally allocate it as education, budget, not [00:57:00] entertainment. Like when I think about it, I'm like, I am learning so much. I'm doing so much.
+
+I'm making things that I can share with people and get feedback on. Yeah. And none of that is [00:57:10] it, it is entertaining to me, but it's not baked off as if it's a piece of entertainment. And, and not everyone has to have the same budget. Some will be education. Yeah. Some will be entertainment, some will be like, yeah.
+
+Pro [00:57:20] profit, short term profit motive. Totally. And so one thing I think would be super cool for us to do, um, and maybe this also dovetails into some of the Flint stuff, but also it could be [00:57:30] online and in person, but, uh, last year, Presidio Bitcoin hosted the first that I know of. I think there was another one.
+
+So let's say, let's call it one of the first, uh, Bitcoin AI [00:57:40] hackathons. And that was super fun. And the tooling, you know, Alby was there and Lexi was there and that was good, but it was not super focused on rap yet. I think you actually were the one that was saying, let's do one [00:57:50] super focused on vibe coding.
+
+I think it would be great to do another one of those where it's just like, get as many people as possible. Get all those providers, MDK, get rept here as well. Sit down and [00:58:00] it's like, all right, another hackathon. And like whoever, like makes the most in 48 hours wins. And I mean, I don't know how you do it 'cause that's gameable, but you know what I mean?[00:58:10] 
+
+Yep. We, we, I we're working on a smaller scale one. In the next, the next few weeks. So also in a group [00:58:20] chat. This is getting ridiculous. We're gonna add Matt to pbj. Actually, a good segue into, um, Flint and Max, when you're [00:58:30] going to apply to become a Flint, well now you're officially a vibe coder next week. B uh, D or bit k dk can help me with this last piece I wanna fix and then I'll, I'll put it in there.
+
+[00:58:40] Yeah, it 'cause it's not just a, you know who, you know, thing like you ha have it's open to anybody on the internet who wants to apply. That's what the written application let get. That's what they say guys. They, [00:58:50] I, I heard there's a Flint Foundation. I don't know. Vitalik has been appointed the new, uh, chairperson.
+
+I don't know. That's what I hear. We, we actually, we created our own token. Oh. [00:59:00] Oh no. It's, it's on Solana. Don't worry. Um, yeah, quick update on Flint. Thank you, Matt. He [00:59:10] says I'm almost Flint worthy. We, um, yeah, we li we launched it live on the show last week. Um, but, uh, as, as [00:59:20] one person pointed out, that was like the Friday afternoon before a three day holiday weekend, probably one of the worst possible times to it.
+
+Now's something. We knew that going [00:59:30] in. We did it anyway and have been pleasantly surprised with, uh, I believe we're over like 160 applications now, so that's pretty, pretty great. Um, [00:59:40] and looking through them, there are, uh, how many? A hundred, 168. I think that's, that's way more than I would've expected.
+
+That's great. That's great. I was expecting and they're, they're like, they're quality application. Yeah, quality. [00:59:50] I mean, people are explaining why they wanna join. They're listing their GitHubs, they're list, you know, the links to their applications they've already built so sick. Um, [01:00:00] like the, the large majority are, are quality applications, which is great.
+
+Great to see. Um, we, uh, we had already seeded [01:00:10] the community with around 10 or so folks, and I think we're out of those initial applications, we're gonna invite a around 10 more, [01:00:20] um, and, and start with that. Mm-hmm. And then add, add more later. Like I said, there's a ton of people who are high quality applications that we're not gonna invite right away.
+
+Uh, [01:00:30] that's solely due to we just wanna set the right culture, make sure the system's working well, going from like just dk me and Matt to 20 people. Some [01:00:40] things might break down. We gotta like, refine the process, keep a really high quality environment, and then once we feel good about that, then we'll, we'll open it up even more.
+
+Um, but yeah. Cool. Happy with the [01:00:50] number of applications. Uh, also happy that, uh, three of the people that are early members are. People who would not [01:01:00] identify as Bitcoiners. That's cool. Um, they are people that David and I know, um, from Silicon Valley, but like 20 plus year experience. People, super, super seasoned, Silicon Valley [01:01:10] veterans.
+
+Really happy to have them in the community. That's cool because I think most of the applications are people who would identify as Bitcoiners, and that's not a surprise because like our sort of our marketing [01:01:20] distribution channels are naturally to, to Bitcoiners. Um, but we want a healthy mix of, of both.
+
+We don't want just, just Bitcoiners. Um, it's [01:01:30] Bitcoin is part of the culture of this community, but we're very happy to see app like compelling applications built that don't use Bitcoin or don't have payments. Yeah, I think, we'll, we're gonna naturally [01:01:40] have. Lots of experimentation, exploration with applications that have payments.
+
+Um, for, for, for one reason. It's just people wanna make money. And then I think [01:01:50] it's a really, and I don't think we wanna like overly push that. You gotta use Bitcoin. Like if you, you wanna make money, you wanna add payments. If you're using stable coins or any or traditional [01:02:00] finance adding Stripe, have at it.
+
+'cause we will learn a ton. Yeah. Like, does Bitcoin have a place or not? Like intuitively we believe it does have a place, let's prove it out in the Flint [01:02:10] community and not do it by just restricting what other people can do. Totally. And I, like, one of the projects I'm working on right now is running into a lot of payment hurdles and [01:02:20] I don't know how to solve them.
+
+Like Bitcoin doesn't solve them. I think people are saying E or Solve, have good solutions to these things now. That's not a Wait, hold up. Hold up. I I, I'm just gonna live. [01:02:30] Alex, can we pull up the, the meme paid out? 'cause I, I, I'm gonna need the, the, the African kid to give real quick. Yeah. In the, in, uh, I'm just kidding.
+
+I'm mostly joking. [01:02:40] D dks moving to, so you mean to tell me No, dks moving Tolan. It's, it's even worse. I'm telling him to he's telling you. He is like, bro, check out Solana. It solves it. [01:02:50] I gotta go guys. It's been a real peace out. No. So, okay. Actually Max, you want the ability to, um, have people zap your memes.
+
+Mm-hmm. And then a [01:03:00] portion of it go to split payments to the creator and or I don't. To you. And then a, like the, a dev developer and app portion go to the creator of the meme, right? Yeah. That, that's doable with Bitcoin, [01:03:10] uh, in, in a way that isn't gonna get you in jail. No sir. Wallet connect. I'm pretty sure.
+
+Does it not work? Split payments, I'm [01:03:20] pretty sure. Have you tried Noster Wallet connect this way? I, I haven't used, I've used Noster Wallet Connect. I haven't done this with it. I'm almost positive, like, if anyone's there that's more of an expert than me, this would be great to like ask the Albi [01:03:30] guys or something.
+
+Like, I'm pretty sure, um, all of, like, Gigi had this whole idea, I forgot what he called it, the, like water prisms. Yeah, pretty sure N WC is the best way to do prisms, but nwc is, [01:03:40] I'd say largely under distributed and underdeveloped. So if I, I totally disagree. I think NWC is the standard, well, the standard sent out, you sent out like a, a, an [01:03:50] image that shows like a hundred thousands, but if it's thousands of apps, I built this app, which, which surprised I sent it to my friend and he's like, oh, my kids love stuff like this.
+
+I'm gonna send it to them. They, they use meta [01:04:00] mask and some other stuff. Yeah, that's fine. But, but, but those are not nwc, right? That's a different claim. So if your claim is, I wanna reach users where they are using salon and stuff. [01:04:10] Totally fine. Yeah. That, that makes sense. That's why I'm saying rep it. Um, but if you're claiming is it can't be done with Bitcoin, I'm saying absolutely can't.
+
+I'm, I'm not trying to reach Solana users. I'm not trying to meet people where they are. I'm trying to build a specific, I'm just trying to save the soul right now. [01:04:20] Guys. The good word of, hold on, hold on. I'm just trying to save you a soul. I'm trying to build a specific tool mm-hmm. With a specific set of payment requirements that I have, not [01:04:30] I've, and I do use Nostri Oil Connect, I use Primal to do it, 'cause it, they currently support it.
+
+Um, and I have not been able to do everything that I want to do with [01:04:40] it. And I'm saying, and I'm not sure, maybe we can also do this in our via pair next week. Yeah. Um, and Nick, if you're, you happen to listen to this later or anyone else that's an expert, the Albi guys are probably the best to talk to. I think it's possible with the [01:04:50] WC right now, the, the, the question.
+
+So, um, we have spoken to Nick and we don't have a solution yet spoken to Matt Carlo don't have a solution yet. The, the key is [01:05:00] custodial versus non-custodial. So an app developer doesn't want Mo, most app developers don't want to become an unlicensed MSB, but I think you can do this non necessarily within wc.
+
+[01:05:10] And w with Unchain Bitcoin Unchain works, but anything that actually scales in instant low, low fees, it's, it's not clear how to do it. Let non-custodial, [01:05:20] let's do his homework. Let's check on if Noster Wallet Connect can work or not, and report back next week. Yeah, I, my, my intuition is that it can, yeah.
+
+Okay. We'll do that homework and if there's anyone here listening, like, but [01:05:30] more, but more generally one observation, like, well, we actually said it as one of the six goals for the Flint community, and we talked about that last week briefly, but didn't really give it a lot of color. [01:05:40] Mm-hmm. But that is through application development, like Drive Yeah, exactly.
+
+Protocol works and what does exactly find what works and what doesn't work because I mean, I, I say use Solana in [01:05:50] jest, um, because I, yeah, you better be, but I'm being pro intentionally provocative. Yeah. To really, to myself, because like, I know my, my [01:06:00] full-time job is with Spiral, so to, to, to motivate my own team and other protocol developers in the space.
+
+Um, I want to be able to take use cases from [01:06:10] Flint and I mean, anywhere in the world, but specifically, you know, uh, Flint, I think will generate use cases, uh, that will need improvements to the, to the protocol. [01:06:20] And this will be, I think this will be influential with Protocol Deck. Something that I think Nostri Oil Connect was never designed to solve, which I'd like to do is, and I don't know if [01:06:30] this, I think you may have already raised some of this, but I'd like to be able to do something like a lightning payment into an address that I don't control and that [01:06:40] nobody controls, but that I could sign a message and have it effectively send it to people based on some conditions.
+
+You mean like burn? No, more [01:06:50] like a, a lot of, I mean a dlc like, so we have, so like dlc, his app would be the Oracle Oh, right, right. This, right. Yeah. In, in saying like, like. You know, [01:07:00] this outcome, yes or no? And then like at some point, some fut, so money flows in not, and is held in something Who's holding it well, ideally a smart [01:07:10] contract.
+
+Ideally a smart contract. Okay. And then at some future point, then the Oracle says this, here's the answer, and that, but the Oracle doesn't custody the funds and [01:07:20] that, and that unlock function to No, I I understand. N WC does not, doesn't do that, ma'am. Okay. If any of the ALB guys are listening, um, and you [01:07:30] think it can, please let us know.
+
+Otherwise, yeah, let's, let's explore that next. I I don't know. I, I, I think it, my exploration is, I think it would [01:07:40] require some r and d with, like, DLCs on lightning? Mm-hmm. Or DLCs on arc or like an arcade or covenants. Um, I, I, [01:07:50] well, the covenants on, on chain, I, I don't think. Move the needle for this particular application.
+
+Yeah. You want cheap and fast payments that Lightning does, right? Yeah. And you can already do it on [01:08:00] chain without Yeah. Uh, without covenants. You, you, we should talk to the Albi guys. Let's, okay. Yeah. I mean, I was interacting with Claude and Claude recommended looking at Albi [01:08:10] and looking at OAL Connect and looking at Primal.
+
+And it was not convinced that I could do what I'm trying to do with those tools, but happy to do more research. Yeah. Especially if you have [01:08:20] some, some direction to, to point me toward I'll be, yeah. So Justin's saying, uh, do something like that with ment. Yeah. So I think [01:08:30] that's a good idea too, actually.
+
+Well, both, I mean, fed the, the, the ash stuff you can, but again, it's custodial, so, um, sort of, I mean, yeah, it is. But yeah. Anyways, [01:08:40] I get, yeah. Anyways, okay. That's, there's, there, there's definitely regulatory question. I mean, fe fed less so than cashew, but there's definitely regulatory questions. I mean, I, I think this stuff will be built [01:08:50] out sort of.
+
+It'll be built out now, um, with regulatory gray area. And people, some people around the world will run it and some people, you know, pe people have different risk profile. [01:09:00] People are in different jurisdictions. Totally. People have different user bases. Yep. So, and people are, nothing preventing people from doing that today, um, with robots lightning [01:09:10] or ment or, or anything.
+
+Um, but to, to, to make things even more bulletproof mm-hmm. With respect to governments and regulations and, [01:09:20] and reducing risk, you know, the most self, self custodial we can make it, the, the better. I agree. Mm-hmm. Um, I think the big takeaway for me is your point that [01:09:30] this is forcing us to actually build protocols that deliver value.
+
+Yep. Yeah. Th this becomes like the, there's like that yin and yang or kind of bootstrap of infrastructure apps, [01:09:40] pull more features out of infrastructure. Infrastructure gets better, enables more new types of apps to be built. And that's totally, that's where we're, I think before Flint, we didn't really have a hub of activity [01:09:50] trying to pull features.
+
+You know, we trying to push application development forward to pull features out of infrastructure. And I think now Flint can help serve that purpose. Yeah. [01:10:00] One other thing I wanna mention, um, on the vibe coding piece, this could lead us down a whole nother, uh, rabbit hole, but I do, I do wanna mention the, the, the BT c ai trade [01:10:10] as well.
+
+Um, is this the, is this gonna address the collateralized Bitcoin idea you had? Mm, I can, yeah. I just, where I'm go with it next. Okay. Um, and I actually have a couple people that could do that and [01:10:20] maybe someone on this show can help me with that. But, um, the other magic moment for Revel, you asked me magic moment, so all the payment was one.
+
+There's another one [01:10:30] that I think is. Underrated that Rept nailed and that magic moment is buying a URL. Mm-hmm. [01:10:40] For all my life, I've had not only app ideas, but Uur L ideas. I love URLs and I have a bunch I, you know, go to name cheap and just like, that's [01:10:50] a great URL, but like, I don't end up doing anything with them because, you know, I couldn't build an app.
+
+Uh, and it's also just very painful. Like, again, if you [01:11:00] have to buy on name cheap and then point to the correct DNA and this CloudFlare working and it's just like, ugh, I hate it. But now on rep lit, on rep lit, [01:11:10] I was just like, dude, I've started registering all these websites. Now it's, it's, if you actually ask where my money's really gonna go, it's gonna be to registering domains.
+
+Like, it's about to just go [01:11:20] vertical. The, the domain registration, this, this is the NFT that will win. It's, but, but seriously, so, 'cause all you have to do is just be like, look for a domain name. It will [01:11:30] show you, like if you type in, for example, I was like, oh, like Zap meme, meme, pay meme, Lowell, all these things.
+
+And you can just see all of the relevant ones that come up, click it. They already have your credit [01:11:40] card on file buy done. But what about DNS risks, max, we're gonna get to that in a second. But why even waste time on something that [01:11:50] requires DNSI? I know where you're going with this. We can open that can of worm minute, but my takeaway is, um, and I'm not gonna say it because the meme I use [01:12:00] is probably a little too inappropriate for, uh, for school.
+
+But I, I've started, I, Angela and I have this idea for this like, kind of like dinner we're gonna host, we're already not a G rated program. I know because your F bombs, [01:12:10] you know, my mom watched, uh, an episode and she commented on the F bombs. I'm sorry, I didn't even know I used, did I use an F bomb? Yeah. To Ms.
+
+Lee. I apologize. I apologize. I, [01:12:20] I, I should, I should probably clean up my mouth a little bit. But anyways, um, the, but just the magic experience of I have an idea. In building a website. It was so easy. And [01:12:30] it's like, why wouldn't you just get a cool, like anything you ever do, like an event or like, I don't know, just like a funny idea.
+
+Like, it's like each meme could have its own webpage. I bought, [01:12:40] um, you know, some of these URLs for like $7 and they're good. Yeah. And I was shocked they were still there. So, uh, that to me was like a truly magic moment as well. It was just so [01:12:50] easy to launch. I don't know why, like, but I really care about URLs.
+
+I have an app idea for you. Okay. To build. Yeah. Um, something that, so I. Use [01:13:00] AI to identify the highest value domains available on the cheap. This is Alpha. Buy them and then flip them. Oh yeah. Right. And just do it all [01:13:10] automatically. Yeah. This is Alpha. That's like a, just a good idea. Arbitrage kind of an arbitrage.
+
+Automated arm arbitrage play. Steve just gave you a way to make a million dollars. There you go. If anyone wants to, I really, that's good. You make a million dollars [01:13:20] for that. Probably could, Steve, maybe this could be your foot out. Alright. Ooh. Um. But, but as Rom said, actually that's what sailor's known for.
+
+Right, right, right. He's [01:13:30] been hoarding domains forever. mike.com That's actually a great idea. That's, that'll make. Okay. Yeah. I think any, it's kind of like these, I think in, um, like the poly markets, the world [01:13:40] prediction markets, you could build tools with AI that actually arbitrage differences. Like, didn't you point out some or somebody pointed out?
+
+Was that, was that you pointed out the difference [01:13:50] in pricing across poly market to calci? Yeah. Enormous differences. I haven't studied that. 'cause I, I don't understand why that's not closing. Yeah. Is there a permissionless [01:14:00] monetary system that could allow people to close on top of it? I mean, honestly, like it need little arbitrage.
+
+There's a little bit more under or research to figure out why this seems obvious and [01:14:10] why is no one closing that gap? It seems like back, you know, back in the day when Sam Bankman Freed was doing the Japanese arbitrage. So anyone who wants to play the Korean follow the [01:14:20] kimchis kimchi, the SBF playbook period.
+
+Yeah, just do the SBF playbook and you can be in jail and, and, but, but then also put your money in Anthropic and it made everyone a hundred x more so, [01:14:30] um, the, uh. But the example that I saw too, it wasn't like, oh, one market says 72% and the other is 71%. It was like one said 72 and one was like 30%. I mean, there's like [01:14:40] these enormous gaps and, and the article or something attributed to like different ideology.
+
+Well, it's like if there's different ideology, there's somebody who's gonna make money bridging that ideology. 'cause I don't think we talked about in the [01:14:50] show, but what one thing, when we were talking about prediction markets in our private group chat, this is getting ridiculous. Seriously, just add that to the bbj chat.[01:15:00] 
+
+Um, I, you know, I, I thought, uh, I, I'm, I'm curious about exploring, like for people who are excluded [01:15:10] from poly market and call sheet today mm-hmm. Because they can't sign up or they, they're in the wrong country, or this or that. Um, I don't know if you have to create a com, a [01:15:20] competitor to them. Just create a, a new product that services people around the world with permissionless money to get.
+
+That part of the market and then just [01:15:30] feed that into Holly or call sheet. Yeah, totally. Now you have to like may maybe that that's gray area and, and it might be tricky to, that sounds kind of legit. Yeah, it is. What are the [01:15:40] problems? Um, well, I don't know. I think you drop 2D multimillion dollar, but if I know, I agree.
+
+Oh, you did? Didn't [01:15:50] yet pick that up in signal, so Oh, I must have missed that. Guess the signal enough signal is not there. But um, but to be clear, you need a permissionless monetary stack to do that art. But you're saying you, you don't, you control a [01:16:00] poly market account and you control a Calci account and, and you market make then market people like, Hey, send me Bitcoin and tell me what you wanna do.
+
+Yes, I'll, it's genius. Yeah, that seems like a great idea. Seems like, but, but I mean, someone needs to take [01:16:10] some regulatory risk for that. I think. What, what's the risk? Yeah. I don't, I don't know. I mean, that's a, I don't, I don't think, I don't, I don't know if it's regulatory risk. I just [01:16:20] wonder if cost share or poly market would shut your account down.
+
+If, if you, if you just have one account and it's like this billion dollar account or, or whatever, some like [01:16:30] outsized type of account, you're gonna be, you could probably pick up a few million bucks here and there before they notice. Well, but I mean, Steve literally just gave away two multimillion dollar.
+
+So [01:16:40] ideally you're building something that like is, uh, legal and sustainable. Yeah, yeah, yeah. But, but also if you were to build such a thing. Then you have all this demand aggregated for [01:16:50] people who are locked outta the system. You also have kind of a marketing engine to build. Exactly. And then you could competitive system and then you could use that.
+
+So first you are market, make, and then you launch. I guess the big, the big insight that, that I [01:17:00] thought I had is like, you don't have to beat them. Yeah. Yeah. To be initially successful, you can be successful by leveraging them and then maybe even replace them long term. [01:17:10] And, and the, the idea, I think I've shared with you guys the thing that I've been working on in prediction markets, but I think everybody should be able to launch their own prediction markets and they provide their own liquidity.[01:17:20] 
+
+Yeah. And they provide their own kind of like effectively like market making on that. So that, you know, if we wanted to have a, uh, a prediction market like what's the peak number of [01:17:30] viewers for PBJ today, we could actually launch that market and people could sort of express their opinion with money. And it doesn't need to be necessarily within the.[01:17:40] 
+
+Kind of regulated regulatory, we should bring back our 2026 predictions and launch each of those in the market. Mm-hmm. Yeah. What's the name of that? [01:17:50] San Diego based Bitcoin prediction markets we talked about on the show? Predicts. Predicts. Yeah. I think I'll follow up with them. Thanks for Dr. Why don't, why don't they do that?
+
+[01:18:00] Yeah. It's public information. You're saying. Why don't they do the thing, doc, like where they're located? I'm sort of joking. Okay. Diego's, I mean that it's public information. [01:18:10] Google it. Yeah. Um, anyway, uh, I, I wonder if they've thought about this or That's a direction. Yeah, that's go, that's a cool idea.
+
+Otherwise, I mean, they're at risk of like, just being this like super [01:18:20] niche player that never goes anywhere, doesn't, doesn't get enough volume to be Yeah. I almost think your idea, it, it's a, yeah, it's a, it's an arbitrage idea. It's a small, maybe money idea. It's only millions of dollars, not [01:18:30] billions, but I think from a, but it could grow marketing impact idea.
+
+It actually could be. Worth billions. I I think there's also a meta point here. Um, and this is something I talked about a little bit yesterday with Matt. I won't scoop [01:18:40] them all to talk about in the Nostra context, but it, open protocols always have this opportunity to suck all of the liquidity into them, right?
+
+I think this is how things like Bitcoin and Nostra end up winning [01:18:50] is anytime. I mean, this is just like basic, like if you have a closed market and someone can take, and, and by definition being closed, there are players that can't [01:19:00] interact with that market. There's always an opportunity to like suck the liquidity from the closed market and free it serve the underserved.
+
+Yeah. Liberate. So Justin's saying that, um, maybe [01:19:10] predict supports that. Um, I, I, I played with predicts. I don't, I didn't see that they support what I'm talking about, but I, I'm gonna go play with it again and maybe, and, and chat with the founder as [01:19:20] well and excited about this. If they don't, if they don't bite on it, maybe I will.
+
+All righty. If you do really well, would you consider dropping a dollar tip on being paid on [01:19:30] off? I, I know it would be alert. Um, do, do we wanna at least mention the, uh, the trading point or is that the, the investment idea, or is that too Oh, the, the collateralized Bitcoin? [01:19:40] Yeah, actually I, let's talk about it because I, I, I could imagine a bunch of different ways it would work and I wanted to hear what you, what they had to say about it.
+
+So, last thought, you know, we started off the episode talking about ai. Well end [01:19:50] the episode talking about ai. Um, so there's been some chatter about why quote unquote Bitcoin is underperforming and that's relative to gold. Gold's been mooning, Bitcoin is [01:20:00] not. Um, there are a lot of theories out there, you know, uh, Nick and others have been talking about Quantum.
+
+Maybe, I don't know. Um, other reasons maybe, I don't know. But the one that just like [01:20:10] really resonates with me and my gut is that a lot of the, and there's this guy, I think Jordy Viser or something is name, he had a Substack article a couple months back. We discussed. It was pretty good talking about Bitcoin's IPO [01:20:20] moment.
+
+He has another article that I really liked talking about this point, which is, um. He actually says something slightly different, but it's related. Um, [01:20:30] the big takeaway for me is that I think a lot of OGs are rotating out of Bitcoin and into ai. And the reason they are is not, they think Bitcoin's going to zero, not, they don't like [01:20:40] Bitcoin, not they don't think Bitcoin's a great investment, but they see a civilizational shift happening and just like, frankly, orders of magnitude larger opportunity, making sure they are in the big AI [01:20:50] companies.
+
+And so I think, this is just my hunch, a lot of them are probably selling Bitcoin to be able to long things like Google, anthropic, [01:21:00] XAI, et cetera. And, um, I think there is a major, major, major opportunity. I've discussed this with a few different founders. Um, I'm discussing it with another one this afternoon.
+
+If, if [01:21:10] you think you have the, the regulatory or uh, cahones clarity to figure this out, hit me up. I think a product that's gonna absolutely print. [01:21:20] Is a collateralized loan where you deposit Bitcoin and you're able to easily choose to invest in the major AI companies, whether they're private or public, Google, XAI, [01:21:30] anthropic, et cetera.
+
+That's gonna print and, and you're gonna, the idea is you're going to deposit Bitcoin and you're, you're not selling the Bitcoin. Correct. You're using it as collateral. It's a loan. So this [01:21:40] is something lava could do as an example, but they're focused on, I think, you know, more generic. This is something I think you guys brought up.
+
+Bitwise maybe is in a good position. I have some other ideas on some people that could surge is [01:21:50] being created outta pro to Bitcoin. Yeah, we should surge could do it. Yeah, lava could do it. I mean there's actually over, over a dozen Bitcoin, um, collateralized lending [01:22:00] companies, like a few of them could focus on.
+
+The key though, I would say is you need to either get like, I think your broker dealer license to allow me to get the Google, like just super [01:22:10] easily or have kones and just yolo. I don't like the YOLO approach to this. I don't either. I'm just saying that's the [01:22:20] only barrier I've run up against. If someone can figure out how to do that in a regulatory compliant way, that would be super interesting to me.
+
+Yeah, because I, I don't think you're gonna get OGs doing it if you, the service [01:22:30] provider are yo lowing. So then you end up basically getting nobody. Well, I mean, some of these guys may be outside of the system. I don't know. I, yeah, the more credible, the better, by the way. [01:22:40] I mean, with respect to people. Um, disappointed in Bitcoin's performance versus gold.
+
+I mean, we, we, we actually talked about that before. It was a talking point, um, on, on social media, [01:22:50] but, um, I don't, I don't, well, I both think it's a, I think it's the right or it's a [01:23:00] good metric to look at. That's why we brought it up, I think in the summer. I do think it's a good metric to look at long term, but I don't get in any way disappointed about Bitcoin's performance relative to gold in the past [01:23:10] year.
+
+I think they're completely independent. Um. Gold is increasing because sovereigns are buying it. And, and what a little bit of [01:23:20] research showed me that it's emerging markets. Not like, not the big, not, not like Poland is number one, right? Poland, India, Kazakhstan, and [01:23:30] India, they're the ones that, I mean, other countries are, are still buying, but they're the, they're the, the, the Delta.
+
+Mm-hmm. Which is really driving the, the price right now. It's not like some kind of increase [01:23:40] in jewelry or semiconductor usage or anything like that. It's, it's sovereign's buying. And those, those countries are not, like Poland, Bitcoin's not mature enough that [01:23:50] Poland's going to instead buy Bitcoin, right?
+
+So I don't buy this argument of like, oh, Bitcoin's losing the digital gold narrative to gold. It's like, it just hasn't matured enough yet to be [01:24:00] a legitimate. Option for Poland or Catholic. If you're Poland, you know how maybe it has, but someone needs to go and like sell the Polish Central Bank. Yeah, I mean, it, it is on the cusp, but it's just, [01:24:10] it's not there.
+
+I don't, but my guess, I don't feel like, I don't feel like Bitcoin is now like tried and lost and regressing. Right. It's just still not, it's still maturing. Like we've talked about. [01:24:20] Bhutan does have it on their balance sheet. Right. So may I, I could imagine a Kazakhstan doing it because they do some mining there and stuff, but, uh, maybe they're the next [01:24:30] fall in the next five years, but Poland's like 10 or 12 years away or whatever.
+
+Something like that. Yeah. Um, so I, I just, I don't, and also this is not like, this [01:24:40] isn't an unprecedented environment where Bitcoin's underperforming s and p 500 or AI stocks or, uh, or gold. I mean, just go back through cycles and it's [01:24:50] underperformed for one to two year periods multiple times. Right. So that doesn't, I, to me the more relevant question is like.
+
+You know, what's the, what are the next catalysts to [01:25:00] increase the price of Bitcoin? And I wanna be clear, I think there's a lot of things going on, I think versus gold, your thesis makes a lot of sense. But I also think that, um, my guess is the people that spotted [01:25:10] Bitcoin early, the OG whales or spotting technological trends, and I don't know if this is true, I think I heard Daria from Anthropic say, you know, three years ago the company didn't exist.
+
+They were [01:25:20] at $0 in revenue, they're at $10 billion in revenue as at the end of last year. So I think the whales are seeing that. So you're saying [01:25:30] Anthropic has grown so much, you're saying the whales, the bitcoin, whales are seeing that they're selling their Bitcoin to buy anthropic shares. That's right.
+
+Yeah. And Google. But, so some of that is very natural [01:25:40] and like mm-hmm. Sh should, should occur. I mean, whether you sell or lend whatever. Well, I think there's a big difference between the lending, the, the, [01:25:50] there's always going to be equity options that are high risk, high reward, and start at. A few million and grow into billions.
+
+There'll always be that. [01:26:00] Um, and that's why it's a great opportunity. And so capital, like risk taking, capital flow there. So if people bought in Bitcoin early and now and they've made thousand X [01:26:10] gains and they're looking to allocate some of that to new risk taking opportunity because, because Bitcoin's not gonna return a thousand X right now.
+
+Uh, I think that startup will, [01:26:20] so that is philanthropic, that that doesn't Bitcoin's bad or failing. It's just a very natural reallocation. Yeah. Yeah. No, I, I, I, I don't disagree. I think my point is, one [01:26:30] thing that I learned from Sailor, we talked about last time is like a lot of times the big businesses are not the big new flashy thing, but figuring out how to connect the new technology with the old [01:26:40] boomer system.
+
+Yeah. And my, my point that I'm making is a lot of these people would not be selling, I think if it was ridiculously easy to deposit, get loan, buy the AI stock, [01:26:50] and that that may be, I think. I think it may work well as like a private fund structure. Right. I agree. Like, I mean, you, you can launch, I once do that yourself.
+
+Right. I thought about [01:27:00] it because I, yeah, I was wondering, but it's tricky. It's like, I, I basically want someone that's like willing to like do the, like the, like I, I hate dealing with like regulatory filings and if you need to become a broker dealer, like that's just not, I'm not gonna do [01:27:10] that. But if you're that person you wanna do that, hit me up.
+
+Like this is a big opportunity. Yeah. 'cause you could build a small team where you are effectively like managing the thing and [01:27:20] helping market and create the liquidity around it. I agree. And sort of, you know, package the offering. I listen, I, I'm trying to sell this to my, some of my portfolio companies right now, and if someone's listening, they like, oh shit, [01:27:30] this is great.
+
+Like, hit me up. I'm I ideas What I'm saying is, have ideas. It may be a technology solution, but it may also be that it works almost like better to start as more of like a private, bespoke, [01:27:40] kind of white glove service. I agree. I am not gonna do the work to figure out the regulatory filings. Regulatory is my, like, least favorite thing in the world.
+
+If you are that person, I think I [01:27:50] actually could help you find the market for it. But I'm not gonna be the one to like become a broker dealer. Yeah, so, so get a broker dealer on the team and then you run a private. That's [01:28:00] why I'm sitting right now. Come talk to me. That's the call to action. Yeah, that's a good way to wrap up the show too.
+
+'cause we have a hard deadline. Yes, we do. Okay, we're a minute over. Let's get to it. [01:28:10] All right, have a good weekend everyone. This was fun. Peace y'all. Peace.
+

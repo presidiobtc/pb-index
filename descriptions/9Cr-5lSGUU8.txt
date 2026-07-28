@@ -1,0 +1,17 @@
+0:00 Pull-up bars, hanging, & news from around Presidio Bitcoin.
+5:45 Recapping the first ₿uilder meetup. What we learned if you want to replicate it in your city.
+20:28 Bitcoin, stablecoins, micropayments, and attention being the currency of the web.
+26:05 Are the frictions from micropayments human-driven?
+32:20 Does a solution already exist with Nostr and Alby?
+37:00 If this is a solution, why don't credit cards exist in a browser extension in this same way today?
+47:26 Why Max is so excited about an open payment system, like Bitcoin.
+53:32 Is the biggest driver for bitcoin its ubiquity, where stablecoins are vast?
+57:27 Building the bridges between stablecoins and bitcoin without a CEX.
+1:13:02 You can now get a mortgage from Fannie Mae using your bitcoin!
+1:18:20 Proving Bitcoin ownership for loans (self-custody, time locks)
+
+FOLLOW:
+Presidio Bitcoin: https://x.com/presidiobitcoin
+Steve: https://x.com/moneyball
+Max: https://x.com/maxawebster
+DK: https://x.com/dksf

@@ -1,0 +1,15 @@
+While much of Presidio Bitcoin's Quantum Bitcoin Summit focused on the “when” of cryptographically relevant quantum computers (CRQCs), this final panel shifted focus to the who. Quantum attacks won’t come from hardware alone, they’ll come from adversaries with incentives, cover, and plausible deniability.
+
+Drawing from intelligence and military threat modeling, Alex Pruden (CEO of Project 11) and Matthew Pines (Director at Bitcoin Policy Institute) reframed quantum risk as a product of intent × capability × consequence. They outlined three primary adversary profiles: economic, strategic, and ideological, and argued that defenders must begin planning from intent, not just using technical forecasts.
+
+A big thank you to Project 11 for sponsoring the Quantum Bitcoin Summit!
+Learn more: https://www.projecteleven.com/
+
+Presented at the Quantum Bitcoin Summit hosted by 📍Presidio Bitcoin
+Another big thanks to our sponsors: Project Eleven and Anduro! 
+
+🔴 Watch the full Day 1 livestream:  https://www.youtube.com/watch?v=GeUdu4hrBPI&t=4021s
+🌐 Learn about the Quantum Bitcoin Summit: https://pbquantum.com
+
+🐦 Follow us: https://x.com/PresidioBitcoin
+Learn more: https://presidiobitcoin.com

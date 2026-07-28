@@ -1,0 +1,17 @@
+00:00 Welcome back (we missed an episode)
+00:56 The Cash App Wand: tap-to-pay NFC device that sold out in 10 hours
+09:07 Surge: a self-custody, no-KYC bitcoin-backed credit line 
+16:07 The Taproot design and how Surge uses it 
+21:28 How Surge tackles the oracle & liquidation problem 
+28:08 Base/Ethereum dependence, MPC & the signer network (the lender side)
+37:34 Borrowing against your bitcoin to buy AI stocks instead of selling
+38:41 Cash App's USDC integration
+51:14 Living design docs, AI-native shows & project "constitutions"
+54:24 Is AI sucking liquidity out of bitcoin?
+1:00:00 The IPO wave and the AI bubble debate
+1:06:00 The Zcash crash: Opus uncovers an inflation bug
+1:07:55 Privacy vs. auditable supply, and why this can't happen to bitcoin
+1:11:19 Turnstiles & Orchard: can Zcash actually recover?
+1:14:22 AI vs. software security & Spiral's Project Loupe
+1:23:40 Cloudflare: AI agents overtake humans in web requests
+1:27:32 Wrap-up & teasers (Spiral's AI work, NVIDIA, Sprout

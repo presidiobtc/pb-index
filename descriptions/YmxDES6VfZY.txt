@@ -1,0 +1,9 @@
+Haley Berkoe sits down with David Gumberg, a Bitcoin Core contributor at Localhost, a bitcoin-focused research center in the Bay Area. David shares how he got into bitcoin, what pushed him from curiosity to contribution, and how completing the Chaincode ₿OSS Challenge in 2024 helped him make the leap to contributing to Bitcoin Core full time.
+
+They also dig into what he’s focused on now in Core: Compact Block Relay, block propagation times, and why improving network latency can make mining more fair for smaller miners.
+
+bosschallenge.xyz (applications due Dec 31) 
+github.com/davidgumberg 
+x.com/ChaincodeLabs 
+x.com/lclhostresearch 
+x.com/HBerkoe

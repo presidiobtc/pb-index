@@ -1,0 +1,12 @@
+Jameson Lopp, co-author of BIP-361, and Hunter Beast, co-author of BIP-360, debate one of bitcoin’s hardest quantum question: if a cryptographically relevant quantum computer appears, should the network freeze quantum-vulnerable coins to prevent chaos, or do nothing and let the chips fall where they may?
+
+BIP-361: https://www.bip361.org/
+
+0:00 3 possible responses + Lopp’s pick: freeze, recovery later (maybe) 
+02:40 Hunter’s “do nothing” case
+06:35 Mike Casey’s ‘middle path’: restrict/Hourglass as an early warning system
+
+Full panel: https://www.youtube.com/watch?v=rykGVwDGSew&t=13s
+Full Quantum Bitcoin Summit playlist: https://www.youtube.com/playlist?list=PL8Qx0853DvlPqutRekO3feBCmn2iRkC1k
+Presidio Bitcoin’s Quantum Readiness Report: https://github.com/presidiobtc/bitcoin-quantum/blob/main/presidio-bitcoin-quantum-readiness-v1-apr-2026.pdf 
+Learn about the Quantum Bitcoin Summit: https://pbquantum.com

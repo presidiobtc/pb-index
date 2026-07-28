@@ -1,0 +1,131 @@
+[00:00:00] PBJ intro and event setup. DK, Steve, and Max introduce Presidio Bitcoin Jam as a Friday live-stream podcast covering the week's bitcoin news, then frame Startup Night as a mix of PBJ context and founder presentations.
+
+[00:01:00] PBJ crew backgrounds. Steve describes helping create Presidio Bitcoin and running Spiral at Block. Max introduces Hivemind Ventures and his focus on scaling bitcoin, energy, and bitcoin as energy money. DK describes his Silicon Valley, Google, gaming, angel investing, and earlier crypto investing background.
+
+[00:04:11] Max's energy and bitcoin investing path. Max explains starting in solar, encountering bitcoin as energy-backed money through Satoshi Energy, going deep enough to build bitcoin from scratch in Python, and eventually focusing Hivemind on bitcoin companies across Lightning, payments, energy, lending, and other categories.
+
+[00:06:26] Steve's bitcoin and open-source path. Steve recounts reading the bitcoin white paper at Google, studying Ethereum and many other coins in 2017, concluding bitcoin was the protocol to focus on, contributing to Bitcoin Core, and later leading Spiral to support open-source bitcoin development.
+
+[00:07:56] Bitcoin startups and venture capital. Steve argues bitcoin startups have struggled because the volume and size of investable business opportunities have been limited, which keeps larger venture funds away. He is optimistic that Presidio Bitcoin's startup density and newer categories can change that.
+
+[00:09:34] Presidio Bitcoin as startup density. Max describes Presidio Bitcoin as a Bell Labs-like space for bitcoin, with several startups already working there and a high density of people focused on bitcoin. He frames the room as part of a possible inflection point for bitcoin startups in Silicon Valley.
+
+[00:10:30] Why bitcoin startups have not taken off yet. The PBJ crew asks why bitcoin startup formation has lagged and whether Presidio Bitcoin could have catalyzed the same thing five years earlier. They begin by reviewing business categories that have worked so far.
+
+[00:10:53] Exchanges and mining as early bitcoin businesses. Steve names exchanges such as Coinbase, Kraken, and bitcoin-only examples like River as the clearest profitable category, while noting many large exchanges rely on broader crypto trading. He also identifies mining hardware and Bitmain as a major winner, with public miners later moving into AI compute.
+
+[00:12:49] Bitcoin-only founders and product-market fit. Steve says many bitcoin startups have been started by hardcore bitcoiners who value self-custody, privacy, and other principles, but those principles have not always translated into products that meet present customer needs and generate revenue.
+
+[00:13:43] Bitcoin gaming and consumer applications. DK argues gaming could be one early consumer category for bitcoin, but the key is to build something customers would love even if bitcoin did not exist, then use bitcoin where it makes the product meaningfully better.
+
+[00:14:35] Bitcoin monetization and layers. Max argues bitcoin monetization has to follow reality and proper layers rather than forcing payments before the market is ready. Holding bitcoin has worked for companies, and payments can take off once bitcoin solves real problems in layers.
+
+[00:15:45] Lending as an early bitcoin business model. The crew identifies collateralized bitcoin lending as a business model with real demand because borrowers can access liquidity without selling bitcoin and triggering capital gains, while warning that trust and rehypothecation risks remain central.
+
+[00:16:09] Prediction markets and native bitcoin games. DK suggests prediction markets are a form of gaming that may be native to bitcoin and Nostr because publishing, payments, and regulatory arbitrage can enable experiences that are difficult through traditional infrastructure.
+
+[00:17:47] Bitcoin lending opportunity. Max says bitcoin-backed loans have found product-market fit because borrowers can avoid selling bitcoin, but the hard part is doing it without rehypothecation or opaque trust assumptions.
+
+[00:18:36] Banks versus bitcoin lending startups. A question asks whether JP Morgan and traditional finance will dominate bitcoin lending. Steve answers that nobody has yet built successful non-custodial lending at scale, and that going fully custodial means competing more directly with banks and large brokers.
+
+[00:20:08] Net-new bitcoin use cases. Max says early-stage startups are most interesting when they build things JP Morgan will never build: products that use bitcoin as a global, always-on, permissionless payment and value network rather than merely recreating existing financial products.
+
+[00:21:20] Bitcoin as insurable collateral. DK points to AnchorWatch and miniscript as an example of making bitcoin more insurable than many other assets, with security structure reflected in rates and risk management.
+
+[00:21:55] Non-custodial lending spectrum. A question mentions Lend at Hodl Hodl-style multisig lending. The crew clarifies the claim: the issue is not whether anyone claims non-custodial mechanics, but that no approach has yet become a widely recognized success at Coinbase or JP Morgan scale.
+
+[00:23:34] Surge and self-custodial lending. Steve mentions Surge as one of the companies presenting at Presidio Bitcoin and says custody is a spectrum, with Surge positioned toward the self-custodial end.
+
+[00:24:37] Bitcoin developer tools. Asked whether the tools exist to build bitcoin products, Steve says the tooling is dramatically better than five to seven years earlier. Spiral has focused on protocols and libraries, and services built around LDK now make it possible to vibe code bitcoin applications quickly.
+
+[00:25:14] LDK, Lexe, Lightspark, and AI coding. Steve says LDK, Lexe, Lightspark, and newer development toolkits let builders create bitcoin tipping and payment applications with English prompts in minutes, rather than requiring years of specialized engineering.
+
+[00:26:17] Open-source bitcoin infrastructure. Max says LDK and other open-source work are reaching the last mile through startups, and that stronger surrounding infrastructure is making bitcoin apps easier to ship.
+
+[00:26:40] Nostr identity and the bitcoin stack. Max frames Nostr as user-owned identity for the internet, complementing bitcoin as base value and Lightning as payments. He sketches a protocol stack of bitcoin, Lightning, possible last-mile tools such as ecash or Spark, and Nostr for identity and messaging.
+
+[00:27:30] Square bitcoin payments and merchant adoption. Steve highlights Square launching bitcoin payments and Cash App announcing new features. Spiral created merchant materials focused on saving 3% in payment fees rather than leading with censorship resistance, privacy, or ideological arguments.
+
+[00:29:37] Merchant activation incentives. Ariel notes that Miles from Cash App is paying bitcoin rewards to people who convince merchants to enable bitcoin payments in real time and share video proof, creating a practical incentive for local merchant outreach.
+
+[00:30:05] Crypto capital misallocation. Max argues the last several years misallocated capital into crypto casino games and that Silicon Valley's capital, design talent, and business talent should be connected back to the protocol likely to endure: bitcoin.
+
+[00:31:25] Startup pitches begin. The event transitions from PBJ discussion to founder presentations from companies building at Presidio Bitcoin and around the broader ecosystem.
+
+[00:31:30] Vora pitch. Jesse presents Vora as a home for your digital life, inspired by the bitcoin ethos of controlling one's digital life through secure hardware, user-owned keys, encrypted data, and recoverable self-custody.
+
+[00:32:08] Barriers to a safe digital life. Vora argues most people lack secure hardware, robust key management, key recovery, intuitive software, and end-to-end encrypted cloud data. Those layers must stack together to make personal digital life safe.
+
+[00:33:06] AI as the self-custody catalyst. Jesse says AI will bring mainstream users into self-custody before bitcoin does because personal AI will ingest health data, financial data, email, calendars, conversations, and intimate context. Privacy expectations will change once AI data leaks become real.
+
+[00:34:26] Not your keys, not your AI. Vora adapts the bitcoin custody frame to AI: cloud AI is custodial AI, and an AI is only loyal to the user if the user controls the hardware, keys, model, memory, system prompts, backups, and policy.
+
+[00:35:00] Vora Aegis. Vora's first product, Aegis, is a personal AI device running local open-source models on consumer AI hardware, with mobile pairing, user-named AI, tool calling, memory, web search, Python, and a simple plug-in experience.
+
+[00:36:23] Bitcoin security mindset for AI. Vora describes end-to-end encrypted backups, hardware recovery keys, reproducible secure operating systems, isolated environments, attestation, verifiable software, and ChatGPT data import as a bitcoin-style security model for personal AI.
+
+[00:37:06] Vora Vault. Vora's later Vault product adds a cold layer: an AI box that is also a bitcoin box and secures home technology, with an air-gapped system, physical threat monitoring, APIs for third-party encrypted devices, and cold storage for sensitive AI data.
+
+[00:38:14] AI privacy market. Vora points to hundreds of millions of weekly ChatGPT users and survey data that people would use AI more if their data were secured and privacy respected. The plan is a $2,000 AI box plus subscription services for backups, remote access, and additional features.
+
+[00:38:50] Why Vora now. Vora argues that only bitcoin self-custody experts have the right mix of security, privacy, cryptography, and verifiable systems to secure personal AI, while open-source models, consumer AI PCs, and open-source agent tooling are now mature enough.
+
+[00:40:05] Vora demo. Jesse demonstrates a local personal AI running on prototype hardware with private chat, memory, math rendering, Python code execution, file upload, web search with sources, and user-visible editable memory.
+
+[00:42:34] Castle pitch. Stephen presents Castle as automating bitcoin treasuries for businesses. The thesis is that dollars are broken for saving, savings accounts lose purchasing power after inflation, and businesses need software to allocate into bitcoin.
+
+[00:44:23] Business bitcoin treasury allocation. Castle says business owners usually think in terms such as putting a percentage of revenue or a percentage of balance sheet into bitcoin, but doing so has traditionally required manual spreadsheet work and exchange workflows that do not match everyday business language.
+
+[00:46:09] Castle product. Castle automates bitcoin allocation through revenue automation, sweep accounts for idle cash, manual or recurring buys, treasury thresholds, liquidity for bills, bookkeeping, compliance, and KYB automation.
+
+[00:47:37] Castle dashboard and integrations. Castle's UI emphasizes gradual accumulation rather than trading and integrates with products businesses already use, including Stripe, Square, PayPal, Shopify, MindBody, Clover, QuickBooks, and eBay.
+
+[00:48:35] Revenue automation and sweep accounts. Castle lets businesses connect revenue sources, choose a percentage that should convert to bitcoin, and set checking-account thresholds so idle cash above the threshold automatically sweeps into bitcoin.
+
+[00:49:38] Castle traction. Castle raised a million-dollar pre-seed led by Boost VC with Winklevoss Capital, Epoch VC, Park Rangers, and angels. It ran a private beta with ten businesses and processed transaction volume through the revenue automation feature.
+
+[00:50:42] Castle roadmap. Castle plans to move from small businesses toward larger corporate design partners, build pro-tier integrations, target monthly revenue growth, and prepare for AI-native interfaces where users may configure treasury policy conversationally.
+
+[00:52:23] Castle market. Castle points to 34 million small businesses in the United States, very few of which hold bitcoin today, and says Square's merchant adoption push will get more business owners thinking about bitcoin savings.
+
+[00:53:17] Castle Q&A on DCA. Asked about dollar-cost averaging, Castle says it supports traditional recurring buys and that revenue-based allocation is itself a form of DCA, with settlement choices such as daily, weekly, or monthly.
+
+[00:54:33] Castle Q&A on limit orders. Asked about limit orders and tactical selling, Castle says it does not support limit orders and has no near-term plan to become a trading platform, though time-weighted execution may be needed for larger corporates.
+
+[00:55:37] Stable Channels pitch. Tony presents Stable Channels as a way to deliver stable dollar balances on bitcoin while preserving self-custody, peer-to-peer architecture, and decentralization.
+
+[00:56:01] Stablecoin product-market fit and bitcoin ethos. Stable Channels starts from the observation that stablecoins have undeniable product-market fit as dollar bank accounts, trading base pairs, and medium of exchange, but are fiat IOUs with intermediaries and balance-sheet risk.
+
+[00:57:12] Stable Channels mechanism. The protocol pairs two bitcoin holders in a Lightning channel: one wants stable dollar value, and the other provides stability by taking the opposite, effectively leveraged-long exposure. Both run Lightning nodes and stable channels software.
+
+[00:58:17] Lightning rebalancing. Stable Channels checks exchange price feeds every thirty seconds and streams sats between the receiver and provider as bitcoin's price moves, keeping one side at the target dollar value and giving the other leveraged bitcoin exposure.
+
+[00:59:27] Streaming finance. Tony argues Lightning compresses counterparty risk down to seconds, enabling financial relationships that update continuously in tiny increments. Stable Channels can support dollar stability, allocation mixes, interest payments, and payments in and out over Lightning.
+
+[01:00:44] Stable Channels portfolio allocation. Users can choose mixes of bitcoin and dollar exposure, such as 25% bitcoin and 75% dollar exposure, and rebalance between those positions through the channel.
+
+[01:01:24] Stable Channels privacy and tax framing. Tony says the architecture may help financial privacy by using bitcoin's peer-to-peer and self-custody model, and may be tax efficient in some jurisdictions because users enter a synthetic dollar position rather than selling bitcoin outright.
+
+[01:02:01] Bitcoin derivative settlement. Stable Channels imagines future exposures beyond bitcoin and dollars, such as gold or the S&P 500, using bitcoin as the settlement mechanism and funding rates similar to perpetual futures.
+
+[01:02:41] Stable Channels status. Tony describes building JP Morgan's digital assets trading network before moving to bitcoin, says the product is in MVP status on macOS, Linux, and Windows, and notes open-source incubation with support from OpenSats and the Human Rights Foundation.
+
+[01:03:46] Guarana Bank pitch. Andres presents Guarana Bank, a shared-custody bitcoin-backed credit app shaped by his experience growing up in Argentina through decades of currency devaluation.
+
+[01:03:56] Argentina currency history. Guarana starts with Argentina's monetary history, including repeated currency changes, a golden-age period, the 1989 inflation crisis above 3,000%, and the peso's peg to the dollar in the 1990s.
+
+[01:05:17] Currency devaluation and identity. Andres notes Argentina has gone through five currencies since the 1970s and points to Argentino Oro as a long-lived historical currency, using monetary history to explain why access to durable collateral matters.
+
+[01:05:59] Guarana Bank problem. Guarana wants to build a new economy where people can unlock credit without selling bitcoin. Traditional lending relies on bureaucracy, credit scores, and opaque systems, while bitcoin represents global long-term store-of-value wealth.
+
+[01:06:41] Bitcoin-backed credit opportunity. Guarana estimates an $80 billion addressable market by starting from bitcoin's market cap, accounting for inactive coins, assuming a percentage of holders willing to put capital to work, and applying a 50% loan-to-value ratio.
+
+[01:07:28] Bitcoin as objective ledger. Guarana quotes Lyn Alden's description of the bitcoin ledger as a decentralized digital monument preserving the objectivity of the past, connecting bitcoin's auditability to the need for transparent collateral management.
+
+[01:08:13] Shared-custody bitcoin credit. Guarana argues existing bitcoin lenders often deliver custodial products that strip away transparency. Its shared-custody bitcoin-backed credit app is designed for long-term holders who want liquidity without handing over full control of assets.
+
+[01:08:52] BitGo collateral management. Guarana says its bitcoin collateral management is powered by BitGo and that non-custodial or shared-custody solutions can become the standard, especially in Latin America.
+
+[01:09:29] Latin American financial freedom. Andres describes how Argentina's devaluation and his father's job loss in the early 2000s made financial security feel unreliable and pushed him toward building financial freedom through bitcoin-backed credit.
+
+[01:10:02] Startup Night close. The event concludes with an invitation to connect with the founders and entrepreneurs through Presidio Bitcoin.

@@ -1,0 +1,223 @@
+{
+  "algorithm_version": "featured-now-v2",
+  "generated_at": "2026-07-28T21:06:16Z",
+  "selection_generated_at": "2026-07-28T21:06:16Z",
+  "max_display_age_hours": 72,
+  "window_days": 28,
+  "mode": "automatic",
+  "source_count": 310,
+  "source_health": {
+    "attempted_sources": 26,
+    "successful_sources": 24,
+    "failed_sources": 2,
+    "total_priority_sources": 17,
+    "successful_priority_sources": 15,
+    "priority_source_success_ratio": 0.882,
+    "dated_item_count": 310
+  },
+  "judge": {
+    "mode": "disabled",
+    "model": null,
+    "error": null
+  },
+  "errors": [
+    "Reuters Crypto: HTTP Error 401: HTTP Forbidden",
+    "Reuters Technology: HTTP Error 401: HTTP Forbidden"
+  ],
+  "featured_topics": [
+    {
+      "topic": "Open-source AI models",
+      "topic_slug": "open-source-ai-models",
+      "family": "open-source-ai",
+      "family_id": "open-source-ai",
+      "family_label": "Open-source AI",
+      "family_canonical": "Open-source AI",
+      "pillar": "ai-open-source",
+      "cluster": "open-source-ai-models:architecture-kimi-notes-overview",
+      "bitcoin_native": false,
+      "eligibility_kind": "core",
+      "pb_strength_score": 100.0,
+      "current_relevance_score": 73.64,
+      "story_pb_alignment_score": 92.0,
+      "destination_quality_score": 100.0,
+      "pb_depth": 13,
+      "pb_episode_count": 12,
+      "pb_series_count": 3,
+      "pb_latest_date": "2026-07-18",
+      "source_diversity": 1,
+      "external_mentions": 1,
+      "external_items": [
+        {
+          "title": "Kimi K3 Architecture Overview and Notes",
+          "url": "https://sebastianraschka.com/blog/2026/kimi-k3-architecture-notes.html",
+          "source": "Hacker News Front Page",
+          "published": "2026-07-28",
+          "matched_phrase": "kimi k3",
+          "source_priority": 0.682
+        }
+      ],
+      "final_score": 90.89,
+      "score": 90.89
+    },
+    {
+      "topic": "AI data centers",
+      "topic_slug": "ai-data-centers",
+      "family": "ai-data-centers-and-compute",
+      "family_id": "ai-data-centers-and-compute",
+      "family_label": "AI data centers and compute",
+      "family_canonical": "AI data centers",
+      "pillar": "ai-infrastructure",
+      "cluster": "ai-data-centers:500-campus-acres-second",
+      "bitcoin_native": false,
+      "eligibility_kind": "core",
+      "pb_strength_score": 97.1,
+      "current_relevance_score": 65.45,
+      "story_pb_alignment_score": 91.0,
+      "destination_quality_score": 100.0,
+      "pb_depth": 10,
+      "pb_episode_count": 8,
+      "pb_series_count": 3,
+      "pb_latest_date": "2026-07-18",
+      "source_diversity": 1,
+      "external_mentions": 1,
+      "external_items": [
+        {
+          "title": "Galaxy Digital buys 500 acres in McGregor for second Texas AI data center campus",
+          "url": "https://www.theblock.co/post/409911/galaxy-digital-buys-500-acres-in-mcgregor-for-second-texas-ai-data-center-campus?utm_source=rss&utm_medium=rss",
+          "source": "The Block",
+          "published": "2026-07-28",
+          "matched_phrase": "ai data center",
+          "source_priority": 0.773
+        }
+      ],
+      "final_score": 86.98,
+      "score": 86.98
+    },
+    {
+      "topic": "Strategy",
+      "topic_slug": "strategy",
+      "family": "strategy",
+      "family_id": "strategy",
+      "family_label": "Strategy",
+      "family_canonical": "Strategy",
+      "pillar": "markets-treasury",
+      "cluster": "strategy:minute-strc-btc-cash",
+      "bitcoin_native": true,
+      "eligibility_kind": "core",
+      "pb_strength_score": 85.77,
+      "current_relevance_score": 64.55,
+      "story_pb_alignment_score": 97.0,
+      "destination_quality_score": 100.0,
+      "pb_depth": 8,
+      "pb_episode_count": 5,
+      "pb_series_count": 2,
+      "pb_latest_date": "2026-07-04",
+      "source_diversity": 1,
+      "external_mentions": 1,
+      "external_items": [
+        {
+          "title": "Morning Minute: Strategy Chooses Cash, STRC Over BTC",
+          "url": "https://decrypt.co/374535/morning-minute-strategy-chooses-cash-strc-over-btc",
+          "source": "Decrypt",
+          "published": "2026-07-28",
+          "matched_phrase": "strategy",
+          "source_priority": 0.727
+        }
+      ],
+      "final_score": 82.51,
+      "score": 82.51
+    },
+    {
+      "topic": "Prediction markets",
+      "topic_slug": "prediction-markets",
+      "family": "prediction-markets",
+      "family_id": "prediction-markets",
+      "family_label": "Prediction markets",
+      "family_canonical": "Prediction markets",
+      "pillar": "other-prediction",
+      "cluster": "prediction-markets:prediction-judge-blocks-ban",
+      "bitcoin_native": false,
+      "eligibility_kind": "core",
+      "pb_strength_score": 68.53,
+      "current_relevance_score": 87.27,
+      "story_pb_alignment_score": 100.0,
+      "destination_quality_score": 100.0,
+      "pb_depth": 5,
+      "pb_episode_count": 5,
+      "pb_series_count": 2,
+      "pb_latest_date": "2026-01-23",
+      "source_diversity": 4,
+      "external_mentions": 4,
+      "external_items": [
+        {
+          "title": "Kalshi, Polymarket win pause against Minnesota's prediction market ban",
+          "url": "https://www.coindesk.com/policy/2026/07/27/kalshi-polymarket-win-pause-against-minnesota-s-prediction-market-ban",
+          "source": "CoinDesk",
+          "published": "2026-07-27",
+          "matched_phrase": "prediction market",
+          "source_priority": 0.864
+        },
+        {
+          "title": "Judge blocks Minnesota from enforcing prediction market ban in win for Kalshi, Polymarket",
+          "url": "https://www.theblock.co/post/409861/judge-blocks-minnesota-prediction-market-ban?utm_source=rss&utm_medium=rss",
+          "source": "The Block",
+          "published": "2026-07-28",
+          "matched_phrase": "prediction market",
+          "source_priority": 0.773
+        },
+        {
+          "title": "Judge blocks first state law that would have banned prediction markets",
+          "url": "https://arstechnica.com/tech-policy/2026/07/judge-blocks-first-state-law-that-would-have-banned-prediction-markets/",
+          "source": "Ars Technica",
+          "published": "2026-07-28",
+          "matched_phrase": "prediction markets",
+          "source_priority": 0.682
+        },
+        {
+          "title": "Kalshi, Polymarket Score Win as Judge Blocks Minnesota Prediction Market Ban—For Now",
+          "url": "https://decrypt.co/374498/kalshi-polymarket-score-win-as-judge-blocks-minnesota-prediction-market-ban-for-now",
+          "source": "Decrypt",
+          "published": "2026-07-28",
+          "matched_phrase": "prediction market",
+          "source_priority": 0.727
+        }
+      ],
+      "final_score": 82.02,
+      "score": 82.02
+    },
+    {
+      "topic": "Local AI models",
+      "topic_slug": "local-ai-models",
+      "family": "local-ai-models",
+      "family_id": "local-ai-models",
+      "family_label": "Local AI models",
+      "family_canonical": "Local AI models",
+      "pillar": "ai-open-source",
+      "cluster": "local-ai-models:lfm2-encoders-inference-context",
+      "bitcoin_native": false,
+      "eligibility_kind": "core",
+      "pb_strength_score": 66.08,
+      "current_relevance_score": 67.36,
+      "story_pb_alignment_score": 94.0,
+      "destination_quality_score": 100.0,
+      "pb_depth": 4,
+      "pb_episode_count": 3,
+      "pb_series_count": 2,
+      "pb_latest_date": "2026-07-16",
+      "source_diversity": 1,
+      "external_mentions": 1,
+      "external_items": [
+        {
+          "title": "LFM2.5-Encoders for Fast Long-Context Inference on CPU",
+          "url": "https://huggingface.co/blog/LiquidAI/lfm2-5-encoders",
+          "source": "Hugging Face Blog",
+          "published": "2026-07-28",
+          "matched_phrase": "long context",
+          "source_priority": 0.868
+        }
+      ],
+      "final_score": 74.04,
+      "score": 74.04
+    }
+  ]
+}

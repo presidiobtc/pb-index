@@ -1,0 +1,18 @@
+yellowpages: A Live Post-Quantum Recovery Protocol for Bitcoin
+
+At Presidio Bitcoin's Quantum Bitcoin Summit, Project 11 revealed yellowpages - the first live infrastructure for proving Bitcoin ownership in a post-quantum world.
+
+In this demo, Alex Pruden outlines a novel framework for users to assert self-sovereignty over ECDSA UTXOs, even in the wake of a cryptographic break. Built on dual post-quantum signature schemes (MLDSA and SLHDSA), trusted execution environments (TEE), and hybrid encryption using ML-KEM, yellowpages enables social recovery and off-chain claims without revealing public keys.
+
+Learn more: https://www.yellowpages.xyz/
+
+Also, a big thank you to Project 11 for sponsoring the Quantum Bitcoin Summit!
+
+Presented at the Quantum Bitcoin Summit hosted by 📍Presidio Bitcoin
+Another big thanks to our sponsors: Project Eleven and Anduro! 
+
+🔴 Watch the full Day 2 livestream: https://www.youtube.com/watch?v=feMWrdJnLak&t=1724s
+🌐 More about the Quantum Bitcoin Summit: https://pbquantum.com
+
+🐦 Follow us: https://x.com/PresidioBitcoin
+Learn more: https://presidiobitcoin.com

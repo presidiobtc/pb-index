@@ -1,0 +1,21 @@
+Haley Berkoe met with Clara Shikhelman, the Head of Research at Chaincode Labs. Clara has been researching complex mathematical problems for nearly a decade and is currently focusing on the Lightning Network and bitcoin in the age of post-quantum computing.
+
+Episode highlights include:
+Her goals with the quantum computing report: provide an overview of the current status and future direction of bitcoin, reduce FUD, and clarify what actually matters.
+A call for cryptographers to engage with bitcoin and read the whitepaper.
+The need for bitcoin to have a more user-friendly experience and tools that are as simple to use as Venmo.
+Excitement about new developers entering the space through the Chaincode BOSS program 
+Advice to researchers: Follow interesting questions rather than adhering to traditional academic paths.
+
+FOLLOW: 
+Clara Shikhelman: @ClaraShik, https://x.com/ClaraShik 
+Chaincode Labs: @ChaincodeLabs, https://x.com/ChaincodeLabs 
+Haley Berkoe: @HBerkoe, https://x.com/HBerkoe 
+Presidio Bitcoin: @PresidioBitcoin, https://x.com/PresidioBitcoin
+
+SUBSCRIBE TO THE PODCAST: 
+Spotify: https://open.spotify.com/show/4UPEsVaAbtQsBtvbKt1RPn?si=2e5efe8f58094c2c&nd=1&dlsi=f612e8c16b0a4fde
+Apple Podcasts: https://podcasts.apple.com/us/podcast/21-in-21/id1804684052
+Substack: https://substack.com/@presidiobitcoin 
+
+#bitcoin #podcast #money #quantum #quantumcomputing #research #technology

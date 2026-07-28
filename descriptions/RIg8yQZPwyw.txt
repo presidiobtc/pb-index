@@ -1,0 +1,23 @@
+0:00 Airports, Power Outages, Nik Bhatia at PB. 
+4:01 After 4.5 years of development, Block unveils the new Proto Mining Chip. 
+13:00 Proto's new open source mining fleet management software and approach. 
+19:14 Proto's modular approach could unleash new mining form factors and applications. 
+24:25 Open source mining hackathon at Presidio Bitcoin? 
+30:10 Estimating the mining hardware market size. 
+35:59 Update on Stratum V2 adoption. 
+44:16 Comparing Proto to other market options and what to look for. 
+50:20 Revisiting Steak n Shake and paying in bitcoin. 
+51:34 Potential to make a solar-powered mining setup. 
+1:01:32 Google Play bans self-custodial wallets in the Play Store. A well-intended mistake and potential solutions? 
+1:12:41 Creating a new form factor for personal devices and how we interact with the internet. 
+1:21:06 Unpacking Circle and Stripe's new corporate chains. 
+1:31:31 What's the value Stripe and Circle expect to accrue by launching these chains?  
+
+SHOWNOTES: 
+https://fork.lol/
+
+FOLLOW:  
+Presidio Bitcoin: https://x.com/presidiobitcoin
+Steve: https://x.com/moneyball
+Max: https://x.com/maxawebster
+DK: https://x.com/dksf

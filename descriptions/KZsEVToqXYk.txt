@@ -1,0 +1,21 @@
+0:00 - March Madness and opening banter
+06:30 - Square’s latest Bitcoin payments rollout and the remaining merchant adoption hurdles
+16:13 - Bitcoin branding problems and the challenge of negative first impressions
+21:30 - Reframing the Bitcoin merchant pitch around Lightning, fee savings, and cleaner UX
+26:00 - Branding for Presidio Bitcoin, PBJ, and the tension between mission clarity and broader appeal
+28:50 - "Crypto" stigma in tech circles and potential counter-narratives for Bitcoin
+36:31 - Privacy coins, stablecoins, and open-source framing as rival narratives
+43:10 - Student visits, "yuppie-elite" skepticism, and the university awareness gap
+49:03 - What would make institutions and students pay more attention to Bitcoin?
+56:51 - Education, entrepreneurship, and AI-native alternatives to traditional schooling
+01:03:40 - Spending Bitcoin, monetary transition, and the long-run logic of better money
+01:08:20 - Tempo's Machine Payments Protocol (MPP) announcement, Lightning interoperability (via Lightspark), and cautious optimism around AI payments
+01:12:30 - Builder branding, Flint, and whether Bitcoin should lead or recede in the pitch
+01:15:26 - AI’s impact on FOSS, licensing, transparency, and software value
+01:26:58 - Spiral’s AI playbook, auditability, and the shift from FOSS to sovereignty
+
+-
+
+SHOW NOTES:
+Why The Yuppie Elite Dismiss Bitcoin: https://www.citadel21.com/why-the-yuppie-elite-dismiss-bitcoin
+Tempo's Machine Payments Protocol: https://stripe.com/blog/machine-payments-protocol

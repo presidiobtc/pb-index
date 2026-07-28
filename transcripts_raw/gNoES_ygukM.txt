@@ -1,0 +1,600 @@
+[00:00:00] All right. And we are live with another PBJ. This is January 16th. How you guys doing? We're back. Good. Good to see you guys. Yeah, [00:00:10] we uh, almost came and said weeks flew by. W Where, where is our homie dk? I hear he may be coming back soon, next week is it? No, next week. Yeah, next week. I think I'll be around back.
+
+We'll be in [00:00:20] studio next week. Alright. Yeah. In the meantime, studio, hold down for, and, uh, shout out to, uh, our boy here today. Phil. Yeah. Doing a great job. What's up? I noticed we're, it's [00:00:30] 1205. I think we officially started almost on time, but five minutes late. And I was gonna propose, uh, a new thing to try to get us started on time.
+
+What if we create a [00:00:40] pot for every minute late? You have to contribute to the pot. So if the live stream doesn't start at noon, whoever's not sitting down. The [00:00:50] pot. I like it. I think Max will like it the least because he'll owe the most. Yeah. And then I think I would, there's a bro, I I, I think just last week alone, your pot is the biggest by far.[00:01:00] 
+
+That's just cumulative additional, but I should like get extra bonus points for my early morning flights in January and December. Yeah. [00:01:10] And then, um, I would, that was, that was your decision to go be a crazy Iowa State fan, which is a good decision. But, and then, um, by the way, they lost Tuesday. I dunno if you saw that.
+
+[00:01:20] Seriously. No, I didn't. I just thought we were gonna win every game this season. Yeah. Y'all were on fire. Who'd you lose to? At Kansas. Well, I mean we got blown out though. I mean, sucked. Kansas, Kansas, Kansas, Kansas. Played [00:01:30] like Kansas. Yeah. As opposed to Kansas. Yeah. Losing with year. You know, by the way, Kansas always has a very dark place in my heart.
+
+2008. Oh yeah. Year. We had D Row should won national championship. [00:01:40] Fricking CDRT bag. Kevin Love on the way there. And then went to ot, right? Well you did. In fact, we were, and we were up by a lot. Missed all of our free throws down the uh, the stretch [00:01:50] and, uh, Mario Chalmers, I'll never forget. Yep. Hit that three.
+
+I'm sure DK remembers that too. Yeah. Remember the overtime, overtime game dk beautiful. Just couldn't good enough of that. Yeah, really [00:02:00] Actually this is a good idea from Matt. So shout out to Matt who's always in the chat. He says the pot should go to the viewers since we suffer. That's actually not a bad idea.
+
+Oh yeah. Alright. Yes. Good, good [00:02:10] idea. So, so now we need to vibe code, the collection tool, the tracking and collection tool. And I think, Matt, there's another idea, Matt. Max is list New Vibe Coder as of [00:02:20] just a few days ago I think. So Max, this is a payment app. It's perfect to kind of sharpen your chops. He has some environment issues [00:02:30] though.
+
+All right, so, so straight up. So we're gonna jump into vibe coating in just a minute. 'cause you homies have been working on this community, which I still have not seen. And I'm, I am making the effort. I finally was like yesterday, I'm like, all right, fuck it. I'm gonna get [00:02:40] off zero. I'm gonna join this damn community.
+
+I wanna be a part of it. Oh yeah, I wanna be a part of it. I'm gonna do it. And I will say this, I'm still excited. I gotta list like 15 fucking ideas, bro. Every morning I got new ideas. [00:02:50] But the reason that it is challenging and, and I, you know, I learned a program on Rep lit interestingly, in 2018. I was one of their fir first users.
+
+In fact, their second engineer [00:03:00] was my roommate. I love rep lit and. But I, I mean programming man. Just like the patience, oh God, the patience. Like it's not my personality. Different people got different strengths, different [00:03:10] weaknesses. Like just like, oh fuck this variable environment. Or like, you missed a comma and then, you know, but, but the reward was so great.
+
+I stuck with it 'cause I did the [00:03:20] Justin Moon Middle bootcamp. I shipped some like CLI stuff that could interact with bits as API. And I built my own little apps because my desire to understand Bitcoin was so strong. I [00:03:30] really, really, really wanted it. And so I suffered through the horrible, horrible programming for years.
+
+Um, and then I was like, fuck this. That's how you develop. Patience. That's literally, you have a [00:03:40] goal, you understand what time preference is, right? But you, but you need to have that goal. It's very big point for ethos. Yeah. The problem is like, to me it's like there's opportunity cross, right? Right. Like I, [00:03:50] I'm working on this amazing essay, which I gotta tell you guys about, and like, we'll talk more about the GPU marketplace stuff idea.
+
+Like, I think I see something like the biggest company opportunity of all time in that direction. And so it's opportunity [00:04:00] costs. Like I'm working on this great essay thing, or I can go and fucking bang my head against a computer. And so when I used to do rept, I, I remember every day I would sit there and I would program until I couldn't figure something out.
+
+I would rage quit. Literally, [00:04:10] I, I don't have patience for computers. Rage quit, throw the computer, come back the next day, and then it would click and I'd be like, okay, I just took some time away. And literally that was the pattern. Every day. Rage quit, come back. The next day it would click. [00:04:20] Yep. And that sort of happened last night.
+
+I thought we were finally at the point where you can just give it a prompt. I'm still trying to make my meme generator, guys. I've been asking for this for a year. Finally, I'm tearing to take matters in my own hands. [00:04:30] Get the mean template, post it, get paid. Um, but fucking red Lit and m and Mdk, shout out to, Nick's gonna help me.
+
+You know, we, we got the secrets. It was super easy, but there's something funky happening. There's always something [00:04:40] funky happening. So hopefully, hopefully by next week we'll figure out what that is. But that's my story. Well, I I, I love that you got off zero. 'cause I think it's, I'm trying really important and I actually, and I, I [00:04:50] got another friend that I, you know, he's, he's actually extremely non-technical, never programmed anything.
+
+And I did a one hour session with him in Rept [00:05:00] and actually took an idea that he was excited about, right. And I, I vibe coded it for him and got it started. So we spent an hour and he was like, that actually works. [00:05:10] He couldn't believe it. He was shocked. He knows nothing about DNS or how to deploy a website or something.
+
+He has now a functioning website of his idea. Now I helped get it [00:05:20] started, but he saw it's unnecessary. Like my role in it is totally unnecessary. He can do this himself. He didn't believe that, but now he does. Well I may still have to come back to you or one of [00:05:30] the other kind gentlemen in our chat to handhold me through that first horrible variable of environment set up.
+
+Nick's trying to figure out what the fuck's not working within. Like where are you manage your stupid variable and stuff. It's [00:05:40] just, it's just the ah, the frustration. But if you can get me to that point where I get that first app done. By the way, this is what I was telling Nick in our chat, and I'll say this to anyone working on vibe coding, it's that magic moment.
+
+[00:05:50] Like if you can reduce the friction from zero to pain, to zero to fun, and you can just show something. And this is why I think, you know, whether it's gonna be from the community, which I know you guys are [00:06:00] gonna talk about, or from MBK putting this out or rep just like here's like assume that I'm like completely retarded, like like a five year-old or whatever.
+
+I want to just get from zero [00:06:10] to something. Like help me get from zero to anything. And I think the floodgates come down. Yep. And, and I think it's not that hard, but I think right now when you see rep, it's like, what do you wanna [00:06:20] do? And then it goes through this like whole planning phase and design phase, and there's, well, and then it's even that out isn't necessarily exactly what you want think is a mind shift switch.
+
+Well, I think it's both, right? Like the [00:06:30] planning and learning from you guys. Like for example, when Map ez, I watched him do the vibe code here at Builder a few months ago or whatever, like, okay. Or maybe it was Max from Lexi. Like someone showed me like, you need to like say, here are the docs [00:06:40] explicitly look the docs.
+
+Okay, that was a good tip. Like there's a lot of those things you can learn, but to me it's a fricking troubleshooting. It's like I, I, the thing that I hate with programming is when it says error and you're like, well why is this error working? You feed it to the l LM [00:06:50] and it doesn't gimme an, so it's just like troubleshooting, like Yep.
+
+Like what is the environment variable I'm missing? Like stuff like that. Yep. Anyways, a few, we'll get there, a few comments. Um, I mean, I, first of all, I, [00:07:00] I, I feel you, I you sympathize I well because I, I am going through the same, I've gone through the same thing. Yeah. I'm not that I'm only a couple steps ahead of you.
+
+These, like, you're definitely [00:07:10] Matt and DK are like way ahead. So, um, but. I think you realize your 2018 experience and even before that with programming. Yeah. You, [00:07:20] you know, it was kinda like death by a thousand cuts. You'd have a thousand cuts to get from zero to something. Just getting the dev environment set up, like pre, pre ate was like a thousand [00:07:30] cuts.
+
+And then once you had that set up, I spent a week learning the command line. Thousands more cuts while you build your software applications. Mm-hmm. It's hard. And, and that's why number one, you have to be patient, you have to be skilled programmer and it takes you a year plus. Yeah. Like [00:07:40] in, in the past.
+
+Totally. Um, now. We are on the cusp of making it exactly what you want. Right. There's still, you know, when I first, I talked about my [00:07:50] MDK experience, I think it was last week or recently on the show, and yeah, there were a couple, couple hiccups I had to get through. They weren't even MDK necessarily. It was more like the rep [00:08:00] at agent using MDK, but that's probably what this is too.
+
+But, you know, I had, you saw my questions in that chat group, I had questions and had to sort of quote, debug it, figure it out. But debugging and, and vibe [00:08:10] coding is like very different experience than hand coding. Yeah. Um, so, but I mean, so I encourage you to keep at it because what we can observe with DK and Matt Belz and other [00:08:20] people always seen, they've leveled up their skills.
+
+Right. And we'll talk, um, we'll talk about some, some recent applications they've been working on and just I am in awe [00:08:30] of the iteration cycles that they're going through. They, they're, they, like, I, I basically say, here's a bug, here's a problem in chat. Right. And [00:08:40] like, before I can even type the next sentence.
+
+It's like, okay, push to push change, check it out. Fixed. Yeah. Added, you know, it is like, it's, it's unbelievable. So, [00:08:50] so the inspiration is there. I would say it's building for me, right? Like it's still, to be honest, like, I mean, like, I do have ideas around this. I would say the inspiration is still, like, obviously I, in 20 17, 18 [00:09:00] really wanted to understand Bitcoin.
+
+Like you can ask my friends. Back in those days, I didn't own anything. I was sleeping on a floor. All I owned was mastering Bitcoin from Andrea Opolis. I was [00:09:10] upset. You remember? That's where I met you. I, I'm not at that level of vibe coding yet, but what I will say is, um, I think dk so eventually the product will hopefully get there and AI will models will get there.
+
+So like [00:09:20] product solves all of it, but like, I cannot say enough whether whoever this needs to be rep MDK, the community. Like if you just offer, if there's a way, and I'm gonna hit you up, dk, but like [00:09:30] specifically if there's a way, it's like, Hey man, I really want this to work. Just fucking frustrating. Like, click here to schedule like a 15 minute session or just do like live like office hours every week.
+
+I think we're still in the each one teach one [00:09:40] phase. Yeah. Yeah. And um. Yeah, I agree. Pair vibing and, and learning through that. I, I, and I've, I've talked to a lot of people who have gotten their start kind of getting something up of a [00:09:50] prototype where they become convinced, like they're not really from the software world, but they become convinced that this thing is actually a good idea and they like it and then they go off and hire somebody to basically like Yes.
+
+Tutor them in vibe coding. [00:10:00] Yes. And I think you mentioned something like this in, uh, in our chat. Yes. Which to me seems like it's a real bus, a real business opportunity is like huge. Get something started. But then [00:10:10] actually now that I feel enough confidence that it's kind of in the right direction, hire like a professional vibe coder to like really grind through the details.
+
+Yes. And that should be a worldwide market should be [00:10:20] payable in Bitcoin or whatever people want to accept, like, and we've talked about this idea on the show for years, and it's actually related, I think, to the compute marketplace stuff we talk about later as well. But like, I will be your first customer.
+
+Like if you're a really good [00:10:30] vibe coder, I swear to you this, huh? Yeah, that, yeah, this exactly. I, I've, I've got like 15 fucking good ideas and well, lemme, I just, I have the patience [00:10:40] to how to bootstrap that marketplace. Yes. Is don't build the marketplace. I don't want Have the idea. You have the money. You, I did it last year on Austin, by the way.
+
+Demand side. I gave a hundred thousand sacks. You're the [00:10:50] demand side of the marketplace. You don't have to build the whole marketplace out. You're the demand side. Mm-hmm. Now go find one supplier. And see how you guys work together. And then the next demand [00:11:00] that comes be like, Hey, I've got a supplier. And then once you've got too much activity to manage, then go build the marketplace.
+
+I think I'm looking at the supplier on the screen right now, so we're, well, well, more, more broadly though. What if they're like a [00:11:10] community I know of a curated community. If only in fact we're okay, we're gonna, we're gonna do a first on PBJ. Let's do it. So people have been listening to us for 50 plus [00:11:20] episodes.
+
+Of course they have every single one. Never missed every one. Some people have. Um, we're going to do something new. I don't even think you know what we're gonna do right now. Well, I, I mean, I, I [00:11:30] guess all a little piece, well, you know, we're gonna talk about, but we're, you read the title. I'm in the Dark on this one, guys.
+
+'cause I can't get my fucking environment set up.
+
+By the way, [00:11:40] the bar for this is higher than just setting up your environment. Dude, I I, I promise you my ideas are fucking gold. I, I ain't got no question on that shit. You know what I'm saying? My ideas are gonna get used to [00:11:50] Yeah, yeah, yeah. No. So everyone's like antsy to hear what's is our first we're gonna, we're launching this community live on the show.
+
+Let's go. We were going to like [00:12:00] announce it on Twitter earlier this morning and they're like, let's do it on the show. Alright. So hopefully Okay. Matt Ble is listen Live announce. Live announce. So, um, and, and we'll give [00:12:10] a lot of love to Matt Ezz. 'cause this is, this is his baby. He's been up since 4:00 AM getting the shit ready.
+
+So, so the spiral team can go ahead and tweet this out from, from I think there's some, uh, [00:12:20] communication. But we're announcing a new community called Flint. Alright. Right. And it's, uh, based in Michigan. We'll have to think of [00:12:30] that. Well, we'll have to think about that angle. Um, it's called Flint and to no one's surprise, it's about vibe coating.
+
+Mm-hmm. It's kind of a culmination of like what we've been chatting about quite a bit [00:12:40] in the show since February, March, something like that. Almost a year. Really Since forever, since the early days too. Ba basically the whole, whole show. Yeah. We've talked, you know, uh, [00:12:50] I'm sure we could run an AI engine and it would tell us what percentage of the time, uh, speaking, but I'd say like 15 to 20% of the time at least has been on this.
+
+Um, and we've, you know, we've [00:13:00] talked about some of the cool apps that Matt Veles has built and DK has built. Um, I'm still bit a bit of a straggler. I have high aspirations though, and so does Max. [00:13:10] Um, but what, what we've learned is that like, yeah, anyone can do this. So it's really just like develop the inspiration and, and committing the [00:13:20] time.
+
+Yeah. And so we hope one, one hope with this, with this community is like, curate a group of people who can help each other. Yes. They can give each other feedback, test out [00:13:30] their apps, encourage with positive support, um, critical support too. But in a very, you know, a very loving, loving way. Um, your shit sucks.
+
+And then also gain inspiration [00:13:40] like I see. So your Mr idea, right? So you'll, you'll, you'll be building something. I'm like, that's great. And it'll help me ideate Totally. And think of new things to build. A hundred percent. So, um, it's called, [00:13:50] it's called Flint. Um, it will be, it's a curated, so there'll be an application process.
+
+People can sign up. Um, we're gonna [00:14:00] start small. Like we want to, we want to set a high quality bar. Uh, and, and Matt and DK already have produced apps that. A pretty high bar. I'd say, you know, the, [00:14:10] these apps are not like world changing apps, but what they're, what they're really, they're simple. They're simple and focused, but they're polished.
+
+Uh, they're, you know, and, and I think, and we'll, we'll show a [00:14:20] couple, uh, one which has not been announced or revealed that DK has worked on, and I think it's super cool. And actually Maxwell like it, I hope Mika's gonna make an appearance. Yeah. No, it's not Mika, [00:14:30] because I beg to differ about world changing apps.
+
+That's, this is, this is, this is a, remember there was a world changing app that needs a one, we're G Market. It's a, it's a, it's a GG rated app. This is [00:14:40] a G rated app. Get some thinking de in fact, we'll have to think, we'll have to think about are we gonna like, have ratings, uh, for like, uh, parental ratings on our apps.
+
+My, my other app that, [00:14:50] you know, I've been working on is not quite as G-rated, not, it's not, it's not Mika, but it's, uh, it's also, it's maybe not as family friendly as, uh, well the one we're talking about on the [00:15:00] show is, uh, I would give it a g rating. We, we can also have some noster badges like, so for whenever DJ drops in out, you can have like the NC 17 there, you know, you guys remember that rating?[00:15:10] 
+
+Well, let's go, um, ahu, do you want to go ahead and show the, the website? So, we'll, we're not gonna spend too much time showing the website, but for those watching the [00:15:20] show instead of listening, uh, we'll walk you through what this is about. So it looks really nice, by the way. It's Flint, do dev. F-L-I-N-T s.dev is the [00:15:30] website.
+
+And, um, yeah, as you can, I mean, I think the branding's pretty, pretty obvious, like. With this community, you're at the [00:15:40] beginning of a journey. Building applications is all about building applications and it's a nice subtle touch. Like the, the art is like black and white pen with orange sparks. So really nice [00:15:50] aesthetics.
+
+Yeah. We also, I mean, you know, this is the presid of Bitcoin jam. People that listen know that we talk about Bitcoin a lot, we care about Bitcoin a lot, but also they know the show in what [00:16:00] Max DGA and myself represent and care about is more than just Bitcoin, right? We care about ai, we care about application building, really compelling applications.
+
+Yeah. Some of which might [00:16:10] incorporate Bitcoin, others might not. Um, and, and that's, that's also inherent in, in Flint. Um, and, and, and we're, we, we've been very intentional about. [00:16:20] The messaging and copy. Mm. Like you act it's not, we don't hit you over the head with Bitcoin. Right. We want people just like at Presidio Bitcoin.
+
+Yep. [00:16:30] And just like in the show, what we talk about, we, we, we want people who would not identify as Bitcoiners to participate. Uh, like we've created the bi the, the Builder meetup, monthly meetup here. We [00:16:40] invite and welcome and want people who would not identify as a B Bitcoin to come. They're just interested in building compelling apps.
+
+It's the same thing, same way with the, the, the Flint community. Um, before, before I go [00:16:50] on to with, with, um, you know, navigating through this website, um, it's launching from Spiral, which is the org I run. Uh, and Matt Les, who, [00:17:00] who's on the spiral team, he, he's the, he is the, the man behind Flint. He's done, he's, he had the conception of it.
+
+He's built this, we'll [00:17:10] talk about actually this website too. Super nice and vibe coding. Yeah. Um, you know, conceived of the idea, executed on the idea and really drove it. Uh, DK and I have been helping out and dks. Done [00:17:20] some compelling apps that are part of it, but, uh, shout out to Matt. Um, why is Spiral doing this, uh, spiral?
+
+Our mission is about making Bitcoin everyday money, everyday currency. [00:17:30] And one thing we've realized we can build tools like Lightning Development Kit and Bitcoin, BDK, and these different tools and protocols. That's all very important foundational work, [00:17:40] but um, you still need demand. Yeah. For Bitcoin payments.
+
+And so we've talked about in the show a few months ago, the Bitcoin merchant community. Well that's an initiative from [00:17:50] Spiral to help catalyze retail payments. Totally. This is an effort by spiral to catalyze, um, payments from new types of applications. I love it. You [00:18:00] know? Right. So, so that's why, that's why we think it makes a lot of sense for, for, you know, this to come from Spiral.
+
+Um, but let, so we're not gonna like walk through every word on this website, but, [00:18:10] uh, Asha, if you can guide us down to, to firewood, um, that'll be like the super nice, this will show the. Gallery of apps. [00:18:20] Basically the, the concept here, you have to apply once you're accepted, you can join a private discord, and that's where we will, you know, help each other, support each other and [00:18:30] share, share ideas and information.
+
+Yeah. Uh, within that private community, there's a, there's also a, uh, a member's only website or portion of this [00:18:40] website as well. There's a kindling section, which is like very early apps. So like, um, the kind of apps you and I might build Max could be, could be published there. Well, I, I slammed [00:18:50] myself to, so if I get beyond the environment Yeah.
+
+You know, so any, any member can public, you know, there's a low bar to get into. Kindling, I not allowed. Uh, and we're [00:19:00] seeking feedback and you, you know, it's sort of alpha testing. Right? Right. Then once, um, and then other community members can star, they kind of vote, but it's like sort of star, like a [00:19:10] thumbs up, like, we like this, this is ready.
+
+Go public. Yeah, it's a signal. And so, and then, um, you know, if there's enough support and if [00:19:20] the author of the application wants it to go to go public, then it gets published to Firewood. So you can go ahead and click on, uh, view Firewood please. And, um, [00:19:30] oh shit. Let's, let's make sure we're, we're sharing this.
+
+The shed. And that's what you were talking about. Dk. We can't see dk. Can you see the firewood? I can see the firewood. I can see uh, two [00:19:40] and a half apps. Okay. At the top. Yeah. Yeah. Scroll down a little bit. Yeah. So these are the three apps that we feel have met the bar so far. Nice. I know two of them, uh, impression [00:19:50] needs to and Bitcoin lockbox have been public.
+
+Al they've been public. We've talked about at least the last one on the show before. Yeah. Uh, the shed [00:20:00] is, this is just being revealed right now. Um, I'm Asha, can you click on the shed and share that screen and then I'm gonna turn it over 'cause it's [00:20:10] dks baby. Uh, tell us what this is. Yeah. All right. So this is, we're looking at a screenshot of the shed.
+
+The Shed is a, [00:20:20] a web application that I made, you know, starting maybe about a month ago. And I've just been iterating on it daily. So I'm a, you know, kind of grew up [00:20:30] playing classical piano and, and kind of reading music. And I also got into jazz. But jazz is kind of this whole other world where it's not about reading music, and it's about [00:20:40] like, understanding a lot more details of.
+
+Chords and, you know, extensions and alterations and various kind of jazz scales and stuff. And I've always [00:20:50] known it in my head, but I've never had it in my muscle memory very well. So I wanted to build an application that helps me, uh, use what I learned is possible. Now, I is, web [00:21:00] MIDI is a, a midi format that is available, uh, in like Chrome.
+
+It's not supported by Safari, but in Chrome and, and several other browsers where you can actually connect [00:21:10] your physical. I have a physical digital piano that I connect to my computer via USB, and then I open up this app and I [00:21:20] just do the MIDI connections at the top, you can see. And then I have all of these practice modes.
+
+And so a simple practice mode, you know, you don't, it's not even super jazz oriented, but just intervals so. [00:21:30] You know, I, I was listening to a YouTuber who was doing some jazz instruction and he's like, here's a bunch of chords you should be able to get to, um, you know, to, if I, if I prompt you with a chord, you [00:21:40] should be able to get the answer within two seconds.
+
+And I said, oh, that would actually be a fun little game. Like, prompt me with something and see if I can get the answer in two seconds. Or how long does it take me to get there and can I improve [00:21:50] my timing over time? So, um, so intervals is like a simple one. If I were connected right now with MIDI keyboard, um, I could click start on the, there's a little [00:22:00] start game just below, uh, what we can see in the screenshot.
+
+And, um, and it would give me a 3, 2, 1 countdown. Oh, okay. Sorry. I didn't know We have the actual application up, not just a screenshot, [00:22:10] but, but we don't have web midi connected, so don't, don't worry too much. But it would start the game and, um, and then it would prompt me and it would say, Hey, play a, you know, play a, you know, a major seventh [00:22:20] over G or something.
+
+And then I have to play that, and it tells me how long it took. So was it. Under two seconds, was it 3.4, 5.7? And then it collects up all of [00:22:30] my performance of those skills within, you know, kind of a, I think I have it on 12 rounds as the default for this game. Beacon, sort of, those are all configurable too.
+
+And then it gives [00:22:40] you kind of a performance almost like, uh, you know, think of it as like my high score on the game today. And so I can keep playing and keep watching how my average [00:22:50] timing is improving, hopefully. And it also measures accuracy. So is my accuracy improving, is my ability to get these things.
+
+Quickly responded to with the [00:23:00] appropriate interval or chord or whatever. Are those happening very quickly and I can just watch it and I've watched it go from, some of these things would take me five seconds weeks ago. 'cause I'm kind of trying to [00:23:10] think about how the theory maps to my fingering and, and now I can actually get, you know, basically all of 'em under two seconds.
+
+'cause I, I literally, I've been living in this thing I must have used, [00:23:20] I, I think I've built the app along the way while I was using it. And I think I spent, you know, at this point, 30 hours using the app. 'cause I actually am like patient, zero [00:23:30] user of this app. I really care about it and want, want to use it for myself.
+
+Um, but, but you know, I, I spent a lot of time so I figured, okay, this is a, uh, you know, a, a, a good one [00:23:40] that we can sort of use as a, as a part of the showcase for, for Flint. So, so that's what you got And I'm, I I think it's only at the beginning really. So to me I could see taking a whole [00:23:50] path of further.
+
+Building on this right now, this is just a JavaScript front end, but I could imagine having like a server side component so that, um, so that I [00:24:00] could store my, uh, performances and maybe even compete against other people who are trying to do those same performances and see how, how they're progressing and I'm progressing.
+
+So it feels a [00:24:10] little bit like maybe Strava for piano in a sense. Like you're sort of recording your runs and seeing segments and seeing how you perform over time and then seeing how it compares to other people, you know. [00:24:20] So, um, I think there's sort of a, a long roadmap, pretty fucking crazy that I have in mind of things I want to do with this.
+
+Uh, but this is kind of. Very, I'd say [00:24:30] probably one of the more extensive projects that I've built so far, but it's still only at its infancy and that it's still only just, you know, you can pull it right off. It's served off of GitHub and we've got the links. [00:24:40] Um, if you wanna try it, we'd love to hear if you have feedback and requests, but it's just, it's just a website served off of, you know, GitHub pages.
+
+It doesn't even have a backend yet. Um, but it's still super useful to me. So I [00:24:50] thought let's package it up and, and put it as part of this community. 'cause it's all the ethos of what we're, what we're doing in the community too. I think it's awesome. And I happen to have, um, a MIDI [00:25:00] keyboard, so I really like, well, I don't know how to play piano, but I'm like, I'll test it out.
+
+And it worked like a charm. I worked right outta the box. Wow. Um, and I wasn't able to do the exercises 'cause I don't know how [00:25:10] to play piano and it's fairly, fairly advanced, but it, it's, once you're actually using it, it lights up and, I mean it's, it's exact, it's kind of what you'd expect. It's, it's really incredible and I, I, I have two [00:25:20] thoughts that jumped to mind immediately.
+
+Number one, I kind of feel like I, I know we've talked about it a lot on the show, but it's one thing to like understand something intellectually, another thing viscerally like this is the future. Like [00:25:30] in the sense that everyone, and, and again, something I always come back to, we haven't even seen the gigawatt cluster runs, like mm-hmm.
+
+This is what we're doing with what we have today. This is the worst day I will [00:25:40] ever be. Yep. Ever. Yep. Like everyone is going to be able to make their own custom apps. That's crazy. Yep. But real quick, Asha, I think, I think we can get rid of [00:25:50] the, or we can go back to just staring at our three phases. Yep. And by the way, I'm gonna point out one thing on this that I'll, I'll reference later is you see all where the orange [00:26:00] buttons are, it says one intervals.
+
+Thank you. That's a whole collection of. Like games I call 'em are practice modes that I put together. But there's infinite number of practice modes [00:26:10] in the world that somebody could want to build. And, um, you know, whatever you're working on, whatever level of skill you're at, maybe you're just trying to learn basic scales or middle C or whatever.
+
+So you [00:26:20] could imagine a version of this thing that actually uses an LLM to expand itself. 'cause that's how I build the practice modes is with an LLM. So the app itself could have kind of a [00:26:30] chat or LLM, you know, co-pilot or kind of collaborator that could help you customize this piano tutorial to any form of [00:26:40] music.
+
+Doesn't have to be just jazz. And, and you could actually expand it to build your own, and everybody else could benefit from everybody else's stuff. So I think it's like, in a sense it's just a sliver of the future, [00:26:50] right? But to really get this going, I, I feel like every app, I guess maybe the, the high level thing is every app you build with AI should also natively.
+
+Assume that others will expand it with [00:27:00] ai. And I think that's not an idea that's very popular yet. One thing that just jumps out at me, Amelia, and I'm curious if you've used Bitcoin or Norin here at all, but to me the the number, [00:27:10] the, the biggest thing that jumps out is this makes me insane. Again, I already understood this intellectually, but very different viscerally.
+
+This makes me so bullish on Noster because in [00:27:20] this world where anyone can literally speak into existence, anything at the snap of a finger, what matters is where all of the identity and data goes to in Acru. [00:27:30] And so I'm sure Google and Apple and Facebook and whatever will have their logins and your identity there, and that's fine and that'll probably do really well.
+
+But if you want an open alternative to that world, like, I mean, [00:27:40] nostri was literally made for this. So I don't know how to integrate Nostri more into the Flint community, but to me like this is like, like all of the people that have been like, Hey, nostri could one day [00:27:50] be for all the micro apps. And then yet we still only really have like.
+
+You know, Twitter cleans and we do have hundreds of like little app ideas, but it's all hackers that like never polish their stuff. But [00:28:00] now, I mean like, I mean, I don't know if you've had this dkm, would you consider adding just login with Noster? Yeah, I mean, so right now there's not a lot of [00:28:10] data persistence and there's not a lot of collaboration or sharing.
+
+So right now I do all of the data persistence and just like a local storage just in your browser, which is not like a perfectly ideal thing, but it [00:28:20] really works for me and I really built it for me. Um, but if other people wanted to use it, Nostra would be the natural place to push that. Um, right now I haven't.
+
+I, [00:28:30] you know, I don't know, it's sort of a divergence from Flint, but I, I've worked, I, I've worked on another app in the past week, which is a Bitcoin [00:28:40] app and uses Oster in exactly the, what you're talking about, and it sort of doesn't really work without an Oster. So I can, I can tell you a bit more about that or I, I thought maybe we'll actually talk more about it next week or something, but yeah, I'd love to hear, but, but, but I wanna be [00:28:50] clear.
+
+Like I don't, I mean, that's awesome. And I know there'll be certain apps that lend themselves more to Bitcoin and Oscar, whatever, but my point is just like if, if you said this is Strava for piano, right? Like, forget any [00:29:00] special Bitcoin functionality of like, okay, I just wanna log into this app and see what my friends are playing.
+
+That's it. Like super, super simple. And it's like, I could do that with Google if I had [00:29:10] that social graph, or Apple or Facebook, whatever. But for a variety of reasons. You know, let's say I want an open social graph. It would be so cool if I could just log on Nostra, you and I are already friends on Nostra, it surfaces you and [00:29:20] just says, Hey, here's what DK is playing.
+
+Hey, did you know Steve tried to playing something? I was like, I don't know. Steve played the piano. Yep. Yep. And and I think if you, I think if you had that kind of, you know, I, I [00:29:30] agree. It's a good reason to be bullish on Nora. I think if you had such a thing and you had the list of who performed the 2 5 1 progression fastest or [00:29:40] fastest average time, I think you would end up seeing people speed run just like you do in video games.
+
+You see people of course speed run to try to be the best and the world would get better at playing piano at [00:29:50] everything and like, 'cause there's like a fun competition that helped. Yeah. I just wanna make this point super, super clear 'cause I think it's worth really stressing. There are like lots of weird, cool [00:30:00] new ways to use an no and Bitcoin that we haven't thought of yet.
+
+And those apps are gonna be amazing. We're gonna keep watching 'em happen over the next year. But like for any skill acquisition, exactly what you're saying, the basics of [00:30:10] a leaderboard and social graph, which can also be upvoted on that leaderboard based on who Zaps You. Like that idea alone, just social graph.
+
+Show me a [00:30:20] leaderboard and show me specifically a leaderboard of my friends. Ranked by Zap, maybe with some web of trust in the ranking, like for any skill acquisition or really anything [00:30:30] like that alone is transformative. Yeah, a couple thing. One, one, I think the best way to, um, see the nostri that happen is just for people to build it.
+
+[00:30:40] Like, yeah, in this community it won't be, it's not a requirement. You have to use nostri, but someone's gonna, I'm gonna use Nostri. Someones gonna lead the charge. I mean, I, I mean, bit chatt already demonstrates [00:30:50] swear bit, bit chatt already demonstrates Nostri, so we already have like a great example, but others will be created and it'll influence other community members.
+
+I mean, [00:31:00] hopefully there'll be a lot of non coiner builders in this community. Most, I would assume, have never heard of Nostra or don't understand it, or don't believe in it, [00:31:10] or think it's a toy or whatever. But they'll then see other applications that are built that are really compelling. And then how did you do that?
+
+Oh, nostri. It's the only way. [00:31:20] And that's gonna incept them to that. And, and I would even love to see some experimentation, like, again, I hope one day I get to that level, but I would love to see an app from someone like a DK or a Matt that's like, already knows how to do this [00:31:30] polisher, maybe Nick or someone from the team.
+
+Like just to get people's mind going around that. And then some kind of like, you know, explain it like I'm five document where like, and [00:31:40] I think it's, it's worth even considering a rebrand, not even a rebrand, I, I don't know how to say this exactly, but like, what if you don't even call it noster. You're just like, Hey, want open identity, [00:31:50] we recommend, yeah.
+
+I mean, I use these docs, point your rep agent to these docs. Oh, what's Noster? That's the protocol underneath. It's just open identity. I, I think with all of these, you know, with [00:32:00] bitcoin, with nasta, with all of these. These tools that, you know, help preserve freedom and, and create more freedom. I think like the reason of choosing it should always be because it [00:32:10] does something that you can't do the other way.
+
+It's not like, oh, I can buy coffee with US dollars, I'm also gonna buy it with Bitcoin fine. Like, no hate there, but just the, the place where really shines is like, wow, [00:32:20] I wanted to send a payment to a 15-year-old in India and I, that was not really possible before. 'cause you can't have a bank account or something.
+
+I think that's where, that's where these tools really shine. So instead of [00:32:30] telling people, Hey, go build stuff on Nostri, just build whatever you want. And if it turns out Nostra can help solve your problems better, we're gonna be there, ready to recommend it. But we, like, I'm agnostic. I don't care if Nostri fails, [00:32:40] if it's not useful, I want it to win.
+
+If it's useful, I, I agree, but I, I would then issue a specific challenge for people more capable than I am at this point. One experiment I would love to see, and maybe this will be you [00:32:50] dk for your app of just playing the piano, okay. We all agree that a global leaderboard and a leaderboard of your friends.[00:33:00] 
+
+Ranked by who did something with Zaps or something like, like something of like who did a thing? Who played the fastest or who made the most progress? Like [00:33:10] ranked by Zaps or ranked by payments, let's say, right? If someone can find a way, and I think this is what I love about Nick and the MDK team is like their whole thing.
+
+It's not about Bitcoin. It's just, hey, [00:33:20] accept payments faster because you don't have, I mean, in theory, I'm still figuring this out, but in theory all you have to do is just like point it towards the docs, get a secret and you're done. There's no account login, there's no [00:33:30] KYC, there's no, it's just like, it just works, right?
+
+That's the same with Nostra. Because if, if I say, Hey, try and I would love to see you do this. Try building two versions of an app in [00:33:40] one. To get your leaderboard, you need to use Facebook or Google or Apple, right in the other, use Nostra. Now forget Nostra, you tell me which one actually was easy or Discord.
+
+Actually, this is a good [00:33:50] because, so the way the Flint website works and that should be on, we should move that to nos too. Flint's uh, authentication right now is discord. We actually [00:34:00] didn't discuss nos, so, uh, I think Matt, you're listening. So we should talk about, you know, yeah. Dog food. This noster, why not?
+
+Why Nostri, why not noster? Um, [00:34:10] we are using Discord as a community. There's still not a good community tool as far as I know on Nostri. So that would be one reason. If there were one, then, you know, so again, an idea for [00:34:20] this C we're cursive, baby recursive. Yep. And, and, and if there is a super talented vibe coder, you know, we could all put up, and here's another idea.
+
+Pots DK wants pot. Sorry, a pot. [00:34:30] Um, we could all like, imagine everyone could just fund this where it's like, listen. You know, uh, and I'm, I'm gonna guess the answer for why we're using Discord today is because one, the [00:34:40] Nostri alternative doesn't exist. And two, I, that's not sure that doesn't exist. I think, um, hobo has a version, whatever, but it's probably just not as like, good or feature rich or whatever as like the company that's raised hundreds of millions or billions of dollars, [00:34:50] which of course makes sense.
+
+But like, imagine, I mean, dude, this is so cool for like starting businesses. Thi this is gonna be incredible. Where we're it? It's like Kickstarter for everything. You can just [00:35:00] pre-fund it. Mm-hmm. It's like, listen, we really wanna move Flint onto Discord. It's not good enough. So, we'll, I'll kick in on, you know, a thousand sas, you kick in a thousand, all of a sudden, [00:35:10] wait a second, there's a giant ass bounty now.
+
+Then you have to figure out verifiability, like, who's gonna, like whatever. There has to be some judging criteria, whatever, but like, that's huge. Huge. I'll, I'll, [00:35:20] I'll donate 10,000 Bitcoin to to max to to max to get him started with his rept, with his paid rept. I'm definitely not building the [00:35:30] Discord thing.
+
+Like I, I will, I will take your 10,000 Bitcoin from my first app. I will get this damn meme generator up and running. That seems like sufficiently complex and good for where I'm at. [00:35:40] Yeah, that's a, that's a great starting point. Yeah. We need someone of your skill level and maybe someone listening that like, but seriously, like why, why don't we have a good discord?
+
+Well, I think Flo, yeah. [00:35:50] Matting. Flotilla. Flotilla. Is that the name of the Discord one? Like an Oscar? Mm-hmm. Cool. Okay. I haven't, I haven't tried it lately. I don't know. I wanna make one other meta [00:36:00] comment and I, I have to say, you know, Matt Ez, if, if you got that, um, the website going, it looks beautiful.
+
+Absolutely beautiful. Like really? I'm impressed. Yeah. Um, [00:36:10] my honest. Assessment of Noster and Bitcoin is, there's like, there's the technical and the hacky stuff, but like I think 90% of our problems is it's just four artists. Bi and like, [00:36:20] we just need designers. It's just we need designers. That's it. Like I'm serious, like, I mean, yeah, you need some technical stuff, whatever, but like, and maybe this is something interesting to get the Bitcoin design community more involved with Flint, [00:36:30] because literally all we need is people with taste and patience.
+
+Because if, like, I bet Flotilla haven't used it yet, but I bet it's like Jan, I bet it's beaut. I mean, I bet it's a beautiful idea, but I bet it's jank. But, but one thing [00:36:40] I'd say, and well first of all, uh, love to designers and we want more designers involved in Bitcoin, but I would also say with AI tools, you don't have to be, or we can, [00:36:50] you mentioned Taste.
+
+Taste and Matt, I mean mm-hmm. Like vibe, coders talk about taste. Right. And you don't have to be a professional designer background to have [00:37:00] taste. Yes. So I think that's what's important. And now if you have taste. You combine that with these tools. You don't have to be a professional designer to get yield.
+
+A nice result. Like I [00:37:10] think, um, you know, what both Matt Bla and DK have created, uh, and like what Jack's created with Bit Chat and a lot of other examples are, are polished. Yeah. And, [00:37:20] and demonstrate good taste. And none of them are professional designers. So I would love to hear, and, and again this, this goes to another idea which we really need and I heard some other people talking about in like Normie land [00:37:30] is, uh, another massive idea which dk you've mentioned many times, version control for vibe coding.
+
+Like I want to see Matt, how did you get something to look beautiful? How did you do that? [00:37:40] Yeah, I, I agree that that would be good. Um, and I, and I don't know the answer offhand. Uh, what I was gonna say though, the development of that website, um, I don't know if I have all the details [00:37:50] straight, but I, I have at least the, the high level.
+
+Um, Matt had a web dev do traditional web development to create that website. Oh. In [00:38:00] parallel, he vibe coded it. Oh. I don't know if he ended up scrapping all the web dev or built on top of it. What I definitely know is [00:38:10] whichever route he took. Yeah. All the additions, and we've been doing them in real time last night and this morning are all him vibe coding.
+
+So e so even if it [00:38:20] was a traditional web dev, got the starting point, has been vibe coding since. So, and, and, and like I, I like, I've found maybe like 10 [00:38:30] bugs or problems with it in the past 14, 15 hours. Yeah. All of them fixed instantly by Matt and with, with AI tools. [00:38:40] Uh, I suggested a few features be added before Launch that were launch gating and he was bound and determined to launch today.
+
+So, uh, and, and he got 'em done. I [00:38:50] mean, it was like absolutely incredible how quickly you can iterate without touching a line of code. So, wait, I, he's saying Design and Figma trad web [00:39:00] dev, vibe coating. So we're not all the way to vibe coding yet. But maybe we'll get there soon. I think it's like a hybrid.
+
+Yeah. And I'll also say, 'cause I had, um, you know, [00:39:10] my website for hi, mind. Hi, mind vc. I worked with a designer. It was a long in arduous process. Um, and, uh, we finally, [00:39:20] it took a long time. We, we, a lot of that was on me, but we, we finally got something kind of like up and running and now he's got me on Webflow and I hate it.
+
+And it's like, I wanna make a basic change and it's like [00:39:30] pushing a boulder up a hill. And I'm already to the point where like, I mean like, just publishing an essay was all, I mean, again, as you guys have know, I've established, I'm not the patient technical guy, [00:39:40] but it was just like, dude, like this is unacceptably horrible.
+
+And, um, I'm just, I'm just gonna throw out there right now. If there's some incredible designers with great taste, I'm open to redoing another [00:39:50] web redesign on my site later this year. Again, same thing as in, I would love to go to the Flint community, say, here, I, I got that, I got the vision. Let's sit down.
+
+Someone that has the [00:40:00] patience and the skills, we can work together on the taste. Like I would love to pay you to do that. So I'm just throwing that out into the universe in case someone wants to haul that. So a few few more things I wanted, [00:40:10] uh, mention about Flint. So one question people audience might be asking is like, maybe they're questioning the value of it.
+
+Like they can, you can already go vibe [00:40:20] code, you can go look at Twitter and get resources, information to help out. Um, but um, I, you know, I, I think a successful Flint [00:40:30] will be a place where you have peers that are going to level up your game and they're gonna level up your game. Mm-hmm. Because you're gonna see [00:40:40] what they're doing and you're like, oh, I'm behind.
+
+Yeah, it's already happening. It's already happening. I got peer pressure and you're doing something. So that's one thing. And then you're gonna have, uh, a [00:40:50] requirement to be part of this community is that you commit to not only building right, and building a certain base, but testing and being a good. Team member and, and community member.
+
+Yeah. So that, [00:41:00] um, that's good. And yeah, 'cause like myself, I've been lacking in the building. I need to up my game there. But you're, you're the best. But I'm a good tester of everyone in our chat. Steve is always on the money for [00:41:10] testing. Shit. 120%. So, um, I both are important. Yeah. And it, there's an expectation if you're a member that you, you, you allocate time and do both.
+
+So, [00:41:20] uh, you know, there's nothing, when you're a builder, there's nothing better than to pe have people, um, you know, play with it and find problems, find bugs, critique, but also be like. [00:41:30] That was fucking awesome. You know? And like, you know, it makes you feel good, right? What makes you feel good. But, but also it's like super critical.
+
+And I already say this, even though we didn't get everything worked out 'cause it was a little last minute on my end. But like, [00:41:40] just not only, so you have inspiration from your friends in a group, but also like, people can help you. Like, you know, you shouldn't just sit there, bang your head against the laptop.
+
+Someone can be like, Hey man, you just need to toggle on. You're like, oh. [00:41:50] And then we, you know, and, and we do. So we wanna encourage building early and often and getting simple things out the door. They'll go into the, the kindling section of [00:42:00] the member and then we want to, but we do want to encourage high quality too.
+
+Polished taste. Yeah. And so there'll be a little bit of a gate to make it public. And actually, let me step back. [00:42:10] Anyone participating, you own the intellectual property that you build. So Flint doesn't own this. Flint has no liability. Like whatever you build, it's on, it's yours and it's on, it's on you. Um, [00:42:20] are we requiring, this is an interesting question.
+
+No, because, no, like encourage, but no. Are you gonna say open source? Yeah. Like, or creative common. So open source. Uh, it's encouraged, but [00:42:30] not required because I say that because I, one thing I did see in Rebel that I loved, another feature that we've talked about is the remix. Like that to me is gonna be super cool.
+
+And, and maybe there's just like, is it rem mixable or not? [00:42:40] Like you check a button, but like that would be super cool. So there's no, there's another product that isn't launched yet that I'm, I just started testing yesterday, um, that has a remix feature. Um, I love it. [00:42:50] Remix makes sense inside of Flint as well.
+
+We don't have it yet, but I mean, we certainly encourage that even if we don't have like, formal tools to, to make it happen. Yeah, we'll certainly encourage [00:43:00] open source. Um, and, you know, anyone not doing open source, I would, I'd, I'd ask why in a polite way. Like why not open source it? Right. And, you know, I, I suspect most will be open [00:43:10] source.
+
+Yeah. Um, and, and a cool idea is if you, if you do have the open source repo, one of the ideas we were chatting about. On the other group chat is [00:43:20] that you could build a little tool that takes one without max a link, the one without max motherfuckers. I'm gonna kick this goddamn app in there. [00:43:30] You could take a repo that is, um, that is already public and open source, and you could ask an LLM, Hey, generate me the prompt that would be required to [00:43:40] generate this repo.
+
+Yeah, so basically like reverse engineer the prompt because effectively it lets you remix, right? It says, take this thing, I wanna take it in a different direction, but I don't control the repo. [00:43:50] So write me the prompt that I would need to submit to be able to have effectively all of this software under my own control in open source.
+
+You could continue to keep it open source, and then I'm gonna add my own stuff to [00:44:00] it. So in a sense, it's like remix, you know? Like minor, minor step remix. You know, dk, just hearing you say stuff like that and like looking at you in your cozy Christmas looking sweater, like I can [00:44:10] just see a vision right now of like a fire, maybe a glass of hot cocoa and like, you know, like you, you, you and Matt sitting there like vibe coding with dk.
+
+I know y'all were already doing this. Like, seriously, [00:44:20] like more the more of like a chance you can, because like, yeah, I would've never thought of that. It's like, that's really smart idea. Backwards compatible or whatever to backwards whatever. Yeah. Like reverse engineer. [00:44:30] Yeah. From your open source.
+
+Hopefully. I think, I think that's almost like step one from being able to, like long term, we've talked a lot about, you know, GitHub for prompts. Yes. Which is [00:44:40] effectively a little bit like GitHub for the process of prompting and iterating. It's not like, here's, that's an final prompt. Only I'm gonna, I'm, it's like.
+
+Bit by bit, but I mean, I, I think [00:44:50] the Flint community is a place where that kind of thing is likely to emerge. 'cause there's gonna be, what, half a dozen or a few dozen people gathered trying to make things, trying to make them better. [00:45:00] And we're gonna be, I mean, we already share prompts with each other.
+
+Like, oh, I couldn't get MDK to work, but I need a little thing. Oh, just, you know, do this little tweak or send this prompt. Like, I've used Matt's prompts [00:45:10] before in the past. So I suspect just having like first, uh, kind of low tech versions, you know, just paste into a chat group is kind of the best initial prompt sharing.
+
+And then we can figure out [00:45:20] what product to build around prompt sharing, depending on the stuff that we're just kind of doing again and again. And we just wanna optimize and improve. Agreed. And so, uh, again, you have to apply to be in this and [00:45:30] we, we want start, start small, set a culture. Uh, we'll definitely want to grow it over time.
+
+Um, I think we'll also want to. Have a [00:45:40] component that's like public, like helping anyone too. So whe whether it be, um, members offering up 15 minute windows to time like you suggested to help newcomers, that's a great idea. [00:45:50] Um, technically challenge in other, in other resources. Um, I think that would be great.
+
+We also want the, the app gallery, like the, you going from kindling to firewood [00:46:00] to, I believe the third phase is blaze ablaze. A blaze is when you take something that's like in, so you could basically go from private alpha [00:46:10] to public beta. A blaze is when you actually turn it into a real business. But do you need the pot for the blaze?
+
+So I, I don't, but you [00:46:20] and the blaze, the blaze can be done by someone other than the original author too. Right? Right. I mean, there might be people who just either don't have the, they're not in a position in life or, or [00:46:30] don't have the time to build a business. Mm-hmm. But they love the fact that they can get ideas outta their head.
+
+Into a, you know, public beta state. Yeah. And then they'd welcome someone [00:46:40] else, you know, taking the torch from them and creating a blaze. I love it. And, and I was kind of saying that tongue in cheek, but also kind of not. So, um, about the bot. Like I, [00:46:50] um, two ideas that come to mind immediately for this. We really need to figure out how to get this off of Discord or whatever, the website onto an Nostra and lightning based solution.
+
+It needs to be [00:47:00] recursive. Like, think about how cool this will be, you know? So again, the big problem for everything on the web, I, I have so much just going through my head. I mean, [00:47:10] this is really inspiring because I can see a vision of the open web exploding again, and it's super awesome and super beautiful and like, super important that this stuff takes off before we're all [00:47:20] strapped into Zuckerberg's, you know, um, whatever cricket eating, um, virtual reality machine like this is important.
+
+[00:47:30] And, and, and the problem though. Is we're about to experience infinity. There's just gonna be so, so, so, so many [00:47:40] apps. And the problem is how do you do search and discovery in a world of infinity? And it all comes back to Noster web of trust and Bitcoin scarce signal, right? This is all the stuff and brands [00:47:50] news like Flint people, I mean, I'd say like Flint's succeeding if people go to Flint to see the best.
+
+Totally. And hopefully we look back and these apps that we're proud of right now, we'll, we'll [00:48:00] laugh at because they'll be so mad. They'll do like a year from now they'll be so, they'll we'll be like, those were a joke. But you know, now it's like, wow, I can't believe how polished it is. And it was [00:48:10] built with no hand coding.
+
+Totally. Yeah. But, but, but to be clear, what I'm saying on that is I think, I think this is obviously the right way to start, is with like a high bar of taste and community and brand. But my point is imagine, [00:48:20] you know, you've got three apps on there. Imagine when you have 3 billion. How are you gonna decide which ones to show?
+
+And so if this is all noster and lightning fired Yeah. You know, then you can just [00:48:30] zap it. And like, I mean, you can still have like certain tastemakers you could have, like, here's Steve's view, here's Matt's view, here's D K's view. But you could also just be like, here's the global leader of board based on raw SATs and or [00:48:40] on web of trust adjusted SATs, which is a Keyon working.
+
+But my point is this is a perfect environment in which to test the thesis that we can have better search and discoverability with [00:48:50] Bitcoin and Noster. It's amazing. I agree. And, and I would, I would suggest we, we, you know, I, I like the idea of getting to a Flotilla or a Nostra based solution, but I feel like, like [00:49:00] doing that today, yeah.
+
+Maybe it's not today if we don't have the right tool is sort of like gonna slow us down versus let's get to the point where we feel the pain of the problem. Yes. And then we find that the, you know, the [00:49:10] aspirin or the, whatever, the, the pill that solves that pain is flotilla or a Nora based solution. I agree.
+
+I'm just planting the seed because as we discussed earlier in the chat, the end game is [00:49:20] there. Um, yeah. Now and also just wanna show and see where this goes. Yeah. See where this goes. Um, shout out to Matt, if we can get ahead of things, why not? Um, shout out to Matt. Who's asking me what's the bounty max? [00:49:30] Uh, the bounty depends on the person, but if you're a really good designer, we could talk about something serious.
+
+So, um, I was also gonna [00:49:40] say yes, exactly. Well, or did you wanna comment on what Matt? Sorry, sorry. I disagree with Matt. Like we should use Zapp. I can't read the chat. So that's Matt. He just says, rather than, uh, than starring apps [00:49:50] and kindling, we should use zapping 120% cosign. Oh, yeah, yeah, yeah. Agreed. And, and well related to that comment and what you were just saying, um, what I'm already seeing by [00:50:00] people building apps in in Flint is, um.
+
+We're gonna generate a feedback cycle to Bitcoin, protocol devs, lightning arc, spark, [00:50:10] Bitcoin itself. 'cause DK is trying to build stuff. We're cursing. He's like, Steve, how do I do that? And I'm like, uh, I should know. It's frankly embarrassing. I don't. And, [00:50:20] um, I don't have the answer and I don't know if there is an answer today.
+
+So, uh, it's, it puts pressure on me to then go work with, um, on, with [00:50:30] protocol devs to be like, okay, here are their product requirements. Here's, here's what they're trying to achieve. Yes. How do we do this today? And if there's an answer, great, I'm gonna tell dk and then he'll, he'll build it. [00:50:40] And maybe we need to improve the dev ux or the education or whatever.
+
+Uh, I think that'll sometimes be the answer. Um, but we're also gonna, I think, sometimes have the answer where Bitcoin [00:50:50] protocol does not support it yet today. So we have to fix it and we gotta fix it. And, um, you know, I, I sort of been beating myself up like, oh, I should have been doing this. Years ago in my [00:51:00] role.
+
+Right. But I do think to be a little fair to me, it happens right now though. I think the past year is really the only window of time where it was realistic. Yeah. Because like five years ago, it [00:51:10] takes so long to build an application. Agreed that the, the feedback cycles are, or it's super high cost to get some feedback.
+
+It's not realistic now because [00:51:20] you can build so quickly, um, you can develop the requirements much more efficiently. Yes. So now is the right time. It I a hundred percent agree. It couldn't have really been done e even a year ago. It was [00:51:30] still pretty jink. We didn't have MDK that was focused on this. I think the time is perfect.
+
+It's making me super bullish on Austrian Bull and Bitcoin Lightning. Um, also to that point, I think this solves a [00:51:40] major, major problem that the Bitcoin community has face, which is, again, for autism bi we have extremely smart people that are like our protocol devs are as good as it gets in the world, [00:51:50] but our application devs are the worst.
+
+But now with, with Rep, I mean, it's just, sorry to Hi. Mines portfolio companies. I mean, with, [00:52:00] with some exceptions, stack News, stacker News is amazing. Fountain is really good. But I mean, but the, like, the fact that we have like five good apps after five years, come on now. [00:52:10] And so like, but now Vibe Coding will fix that.
+
+And so what I think is amazing, I wanna make a recommendation and I will be reaching out to all of the, the High Mind portfolio companies like Albi. I [00:52:20] mean Mdk is already there. Breeze Light, spark, lightning Labs, all of them. If they want to win and make money, should [00:52:30] get involved with the vibe coding in the community and see what, to your point, we've all been developing these like theoretical worlds without having any real world pressure to say, what do it's like, well, I think [00:52:40] application devs need this thing in the protocol.
+
+We have no idea. But now if you're in there, and if any of you guys are listening, if I've invested in you, please get involved with this. You're gonna find your users [00:52:50] here and they're gonna tell you what you actually need to build. That's awesome. Yeah. Yeah. All, all of technology is kind of like, you know, infrastructure bootstraps, apps, bootstraps, more infrastructure, bootstraps, more apps.
+
+[00:53:00] And I think we've had a lot of building in the infrastructure side and not enough pushing on the app side. So if we, if part of what Flint can do is encourage more application building, which puts [00:53:10] pressure, like Steve was saying, on the infrastructure side to figure out what's actually gonna be used. Yes.
+
+And what would be needed and, and what kinds of enhancements would be used by applications. And applications that [00:53:20] couldn't have been built before, can now be built. Dk anything else? Uh, or Matt Blizz if you're listening and you want to type a response. Anything else, uh, important [00:53:30] to mention on Flint that we haven't yet?
+
+Yeah, I mean on on the Flint stuff, like I've, I've said before, I think you know, Matt being a little bit of the, the instigator here is, [00:53:40] is really valuable because you can see, you can see in the website design, like the person who put this together actually cares. That's beautiful. It's [00:53:50] beautiful. It's very carefully worded and I think it's that I've said before, game recognized game.
+
+So when you see that website, you're like, I'm gonna come here and do some really good work. And I [00:54:00] was gonna just reference an anecdote. I got a text from, was it Steve or or Matt this morning. And they're like, Hey, we're gonna put this thing out. Can you, can you make your app, [00:54:10] can you make an icon for your app?
+
+It should just be like, you know, five minutes. I was like, yeah, I know that making an icon a good one is not gonna be just five minutes, but let me do this. So I get up and [00:54:20] it's like six, 7:00 AM and I, um, I got down to the app and I started adding more polish and improving the documentation and then making a, a icon that I'm actually proud of now, [00:54:30] which I wouldn't have done just for my own use, but I did because the taste bar that Matt is encouraging and sort of the taste bar that the firewood and gallery, uh, encourages.
+
+So I think just like, [00:54:40] you know, as much as I care about my own projects and my own work, I feel already the uplift to be better and to, to show off and make it [00:54:50] a better version of what I'm doing because I know there's gonna be more eyes on it. So, just wanted to again, shout out that like one of the best things is Matt has great taste and [00:55:00] Flint has great taste, and the people who come in, we're gonna just keep encouraging that taste level to, to increase.
+
+Yeah. That's amazing. A hundred percent. Yeah, it's amazing. Well done guys. [00:55:10] Good job, Matt. Good job, Matt. Yeah, really, really, really well done. And and seriously, if there's some way you can share, like, and I understand you still did Figma and web dev, but like, [00:55:20] like aspirationally, like helping someone design, even if it's start like a simple website like that.
+
+I mean, I know it's not simple, but a website, just like a website, [00:55:30] like a video, a guide, something like how do you go from like, I don't know, anything to, I want a nice, like here would be an interesting project. And by the way, I think there's like [00:55:40] an interesting demographic. I know we wanna expand and get into the whole world and we're gonna do that.
+
+But um, I was thinking about this for MDK, so Nick, if you're listening, and then Matt as well, one interesting demographic to start with [00:55:50] is like, even though we don't wanna like focus on Bitcoin, there are a lot of people in the community. Who really like Bitcoin and find it for whatever reason, really amazing and are frustrated 'cause they can't really contribute.
+
+[00:56:00] We've talked about some of these people are out there now spreading the good word of Satoshi to sign up, square to accept Bitcoin payments. But like I think a really cool, like I could even imagine like a challenge like, you know, it could be [00:56:10] create your first app or even just like something simple like just even like remove that like friction of like here's something you can do.
+
+Create your own personal webpage, vibe, code it, make it look nice. How do you just create [00:56:20] a simple personal webpage and maybe have a tip jar or something on there that uses Bitcoin? Yep. I dunno, I'm not saying that's the best idea, like it's a personal website, but like there are a lot of people out there who would probably put in a few [00:56:30] hours if there were like a challenge, a guide that can like at least show you from zero to completion on something that looks beautiful.
+
+So you feel like, oh, it's within like, oh, I, maybe I could [00:56:40] actually do something that approaches that. Yep. And a personal website would be really nice, I think. Yeah, I think, I think it's a great starting point. Almost you could, you could almost imagine if you otherwise are [00:56:50] thinking about signing up to like a Squarespace.
+
+Yes. Or what, you know, what was the other one? You know, in fact, I've, I've messed with Squarespace for some projects and it always kind of, you know, it, it does [00:57:00] what it does and it's okay at it. It's like it, it gets it out there, but it's so restrictive of what you can do. Right. That your hands feel very tied.
+
+And I think if you were to say if you wanted to build a [00:57:10] Squarespace or maybe Webflow website instead. Vibe code the website, and then you have full control to improve it. You can change the design to do whatever you want. You're not inside like quite the [00:57:20] sandbox that you are when you're working with the kind of traditional kind of no-code, low-code tools.
+
+Totally. And, and, and then you could do, you know, if you're really into Bitcoin and also maybe you could try and have a cool feature on there. Like, I, I will tell you that that [00:57:30] is exactly the situation I'm in where like literally to publish that energy essay I did last time, I had to like berate my designer to get on a call with me and be like, no, sit down, publish this [00:57:40] thing.
+
+It is not working like Webflow, if any. Have you guys used Webflow? I haven't. It's horrible. Just absolutely horrible. And we were on WordPress before, which was [00:57:50] only mildly horrible. But he uses web flow, so he would switch off WordPress, which I didn't like, but at least it was open so I could figure it out enough.
+
+Anyways, all that to say, yeah, just like destroy the old [00:58:00] web industry. Please. Just to, the problem with building things is that you're always dealing with something that's broken. Like if it's not broken, then you know it's [00:58:10] done and you move on to something that is broken. Yeah. I just checked to see how our live launch is going.
+
+How's it going? I still love the concept. In, but the results are [00:58:20] not there yet. So we have zero people have replied to spiral tweet zero, zero people have replied to Matt les's Tweet zero. And our number of live views on [00:58:30] X for the show is 10 times less than normal. 72. Right now usually we have 500 to a thousand viewers live and it's [00:58:40] 72.
+
+So I don't know. Asha, are you able to see what we got on YouTube like that? What, what's going on? Is today like a holiday or something? Well, it's a holiday weekend, so maybe people left early. I don't know. But anyway, don't worry. [00:58:50] We're we actually, we don't want to admit like a thousand people right now into the community.
+
+'cause we want to like set the tone and grow. So that's fine. I, I think we, we succeed [00:59:00] by, um, we, because we, we already have, uh, half or like six or eight people already vetted in, in the community. We just need to build great apps. Yeah. Publish them. [00:59:10] Yep. And build the brand that way. Build awareness that way.
+
+And it can be organic throughout this year. Yeah. Cool. I like it. Um, one thing I was gonna, before we, I know we've spent, you [00:59:20] know, most of the hours so far talking about Flint, but I guess in the broader context of, you know, vibe coding, Bitcoin, and, but before we move off Flint, um, I think there was [00:59:30] a, I think there was a goal that, if I recall it was part of the website.
+
+Um, is that, is that true, Steve, and can you confirm or remind us what the overall [00:59:40] goal is? Like how would we judge success? What do we decide of Flint? Oh, lemme minute. Um, yeah, I'll pull it up. But the, well, the, the overall mission, the overall, like did we [00:59:50] achieve success? Is there actually like a very popular application built from the Flint community in the world?
+
+Um, and obviously we're nowhere near that yet, but, um, [01:00:00] that, that would be like, that would be success. And there's all kinds of steps to get there. There's, there's goals to get there. Um, yeah, let me pull up the goal. I [01:00:10] think I mentioned some of the goals already. I. So thought there was one overarching goal.
+
+Yeah. That, that one sounds like what I was thinking that that was the Yeah, that's the overarching one. But there's one breakout app and [01:00:20] breakouts defined. Let me log in through Discord, not Oscar. Yeah. Fuck that. Um, that old World Sound Gold. All right. Here we go. To build compelling products that [01:00:30] show what's now possible.
+
+Number two, to help and learn from peers to elevate our game. Number three, to inspire a new generation of builders. Number four, to see new businesses [01:00:40] created as a result of our community. Number five, to grow usage of Bitcoin in new and interesting ways. And number six, to discover new demand for and gaps in emerging [01:00:50] protocols.
+
+That's kind of what I mentioned. Yeah. So that, that's our six goals. But you know, we're gonna have new that, that's, this is all from Matt and DK and me, but we're gonna have new, smart, [01:01:00] ambitious, new idea, you know, people and new ideas. So we'll keep iterating and keep improving. Sweet. All right. My personal goal is to get something on there.
+
+I'm gonna, I don't dunno how long it's gonna [01:01:10] take me, but one day. All right. Get your application in. Well, I, I'm, I'm, I'm gonna be getting you to be my personal tutor on this thing. All right. All right. What's that? This, this is the big topic I [01:01:20] cared about. I know you guys have some other stuff. I, I think I, I Alpha, I think Max Podcast Max has things he is excited about.
+
+So let's, should we start there? I, I've got [01:01:30] two big ones. I guess they're kind of related. Should you wanna start with the Alpha? Yeah. Yeah, yeah. Okay. Well, or you can set up the context for it. I, I, I, I [01:01:40] watched the clip. You shared a, a sailor clip that I think he was on what Bitcoin did. And you had a clip that you shared, right?
+
+Well, I didn't share it. Steve shared it. He was being a fan boy. Steve shared. Steve was [01:01:50] saying as he always is. Yeah, my doppelganger is talking and I love boning over that guy. Yeah. Yeah. Like wish you guys would be a little, a little less critical of him all the time. Like, have you [01:02:00] noticed how, how hands together?
+
+I, that's what I recall. Is that, is that right Steve? Something like that. Something like that. I think [01:02:10] on this show, I have to wear the hat of being a critic of sailor because you two. Just to balance it sometimes fun over him. Okay. Well, so [01:02:20] lemme let l let, let me set it up a little bit because I think it gets into the two topics I want.
+
+So I wanna talk a bit about what I've learned from Sailor in general, um, particularly on the collateral piece, which I think is very [01:02:30] interesting. And then move that into the GPU marketplace discussion, which I hope is like a longer term discussion we continue to build on. Yeah. But I think it's very related.
+
+So, um, you know, so the [01:02:40] clip Steve shared, some other people had shared, it's like, eh, middle East, sailors being a little bit of a dick to Danny on what Bitcoin did and give him a hard time about asking about the treasury companies and whatnot. Um, [01:02:50] was it necessary for him to be mean? Probably not. Um, was he right?
+
+Yes. That's my takeaway. And so what have I learned? First of all, I just wanna say backing [01:03:00] up and taking out the 10,000 foot view. Um, the more I really listened to Sailor and I've listened to a lot of his podcasts and I'm not doing this as a family of like, he's the Bitcoin guy. Fuck. Yeah. [01:03:10] Like there was, by the way, on Wave Lake way back in the day, I remember I tried to show that to people and like the number one song in there was people singing a C Shanty to Michael Sailor.
+
+And it was super weird. Super, super, [01:03:20] super, super weird. And like, yeah, I'm not a cult fan of him, but I you say game, recognized game. I see a great mind, a truly, truly great mind. [01:03:30] And every time I listen to him, I learn something new. Um, you know, and by the way, forget the clip where he was being rude. Um, and again, that doesn't excuse being rude, like it's probably not necessary.
+
+But at the [01:03:40] end of the episode, um, he talks about, uh, books that he's read, like history books, and there's the Wild Durant like, uh, world History 11 volumes, um, and, uh, Marie Rothbard's [01:03:50] Economic Histories. Talk about up my game. Like shit, I really need to be reading those. Um mm-hmm. You know, his understanding of cycles and world history and how things go, [01:04:00] like how there's nothing new under the sun.
+
+We just kind of rinse and re uh, repeat. It's a little different every time 'cause it's more of a spiral than a circle. 'cause you have new technology, but it's always rhyming. And um, you know, one [01:04:10] example he gave us spiral. Yeah. Coincidence, no such thing. Um, that, uh, you know, he, he was just kind of mentioning the point that like, you [01:04:20] know, you know the Bitcoin community, I was like 1971.
+
+Like that was the year. Yeah. Everything went crazy. And he was like, dude, there have been 1970 ones all the time. Like the story of every [01:04:30] civilization and every sub civilization is someone gets empowered, they get a little too much power, they get a little too full of themselves. They think they can just like make something out of nothing.
+
+In the case of, you know what we always talk [01:04:40] about, Hey guys, let's just print some money. And he talks about, you know, the colonies, like the, I think that's Massachusetts Bay Colony and all the early colonies. That's also my mind because I'm watching that. Fabulous. Um. War, uh, [01:04:50] revolutionary war, uh, thing Ken Burns, it's really excellent.
+
+I recommend it anyways. And he was just like, there was like over a 20 or 30 year period, like multiple times when a single colony [01:05:00] tried to debase the currency multiple different times over a 20 to 30 year period to go fund a war. And every time, of course, ended and failed because of every time you can't just make something outta nothing, right?
+
+[01:05:10] So that was like a really interesting, uh, takeaway for me and just, yeah, like basically how like the more you can like spot where we are in the history rhyme, the better you can sort of [01:05:20] plan for things. Okay. So that's just me saying like, I, I like him for the reason that he has a great mind. I really, really believe that.
+
+And I, I am impressed by his [01:05:30] breadth of reading, knowledge, and history. What, but what new did you learn from? So the new thing that I've learned is, um, you know, increasingly it's something that I've learned a little [01:05:40] bit more and more, I think it just keeps hitting me in the head from every podcast I listen to him, is thinking about where we are in the adoption.
+
+Okay. And, you know, it doesn't mean you can't push things in the [01:05:50] margins like we've talked about. And I obviously want Bitcoin to be money, and I think it's great that we're pushing for it in so many different ways, and we can probably influence that a bit. But ultimately, what I've come to realize from Sailor that I talked about [01:06:00] at the end of last podcast as well, is if you zoom out and you take off what you want to be true about the world, and you just see what is true about the world, what we know is that Bitcoin payments have not taken off [01:06:10] yet.
+
+Doesn't mean it won't happen, doesn't mean we can't help. But what we do know is Bitcoin is collateral. And if you understand the broader financial ecosystem and how the world [01:06:20] actually works and how it might work in the future, you can start to see where that collateral really starts to matter. And like, you know, as I real quick though, I, I mean, first of all, I'm an enormous believer in bi Bitcoin is collateral, [01:06:30] right?
+
+But it's, I mean, I wouldn't say it's taken off yet either. Uh, mean, I mean, I think the problem that it'll take off sooner than payments, but what's the MicroStrategy market [01:06:40] cap right now? Like, pretty massive. I would say. I, whatever I, I, I can go and look and, and yes, it, it's still in the early stages of takeoff.
+
+What I'm increasingly realizing that, what do you mean by collateral though? I, I [01:06:50] thought I was thinking like you use it as collateral for a loan. Well, you can use it for collateral for lots of things, right? So we've seen it definitely take off as collateral for like, um, consumer lending. And every time that's happened there's been re [01:07:00] obligations blown up.
+
+That's why we invested in lava. Fingers crossed, we don't see that happen again now. Um, but what he's basically realizing is like, he made this point where he was like, [01:07:10] listen, you know, instead of going to all the banks of the world and he made this point, he was like Morgan Stanley or whatever, I think it was funded the Civil War, like probably not gonna go and just like upend [01:07:20] power structures that old every once in a while maybe, but probably not.
+
+And instead of going and saying, I've got this new bank and y'all should come bank with me or whatever, he's like, how do I take what I [01:07:30] found, which is this incredible, pristine digital capital, refine it into a form of collateral or credit that they can use to be successful. And [01:07:40] one thing that he said that really stuck with me is the world is built on capital, but it runs on credit.
+
+And so what I think he's realizing here is the big [01:07:50] put aside, what we want to see about the world, the really, really big business opportunities measure purely in total volume or total profit, is if you [01:08:00] can go and take that old dying world structure and supercharge it with collateral and credit that are backed by Bitcoin, then you will make the most money.[01:08:10] 
+
+And so what I'm realizing is, you know, I, I'm starting to intuitively understand better what he's doing, what he means, stripping volatility, you know, he is [01:08:20] speculative attacking the old world treasury market, which is crazy to me by offering stretch. Stretch is the key. This 11% yield [01:08:30] that all you have to believe if it's six x over collateralized by Bitcoin is that bitcoin's not gonna drop whatever it is, 85, 90% for.
+
+Four years or whatever that period is, [01:08:40] that's all you have to believe, which I think we all clearly do. And if you do believe that, then like you would be a fool not to buy the product that gives you 11%, or you know, maybe it [01:08:50] comes down 10%, 9% versus 3% or 4% in the old world. Like, it's just like, it's like so black, white, right?
+
+That's all you have to believe. And so increasingly, but [01:09:00] it's, it's, it's not, it's not so black and white. It's more gray because why? Because you, you, why do you buy 11% yield? If you believe Bitcoin is gonna return 30 or [01:09:10] 40% for the next 10 or 20 years, why would you buy 11% yield? Because you have to meet the old existing world structure where it is.
+
+And I [01:09:20] think this is his genius. Like this is one of his grand insights. It's a bridge. Yeah. I feel like I'm getting more mature listening to sailor. Younger me would've been like, no, fuck it. We're just gonna like upend [01:09:30] everything. Flip the tables. Here we come, Bitcoin, everything. And it's like, maybe, but like realistically what's going to happen is we're gonna say old world structure, first of all.
+
+And [01:09:40] increasingly, this is why I understand why I think he's frustrated some Bitcoin is, it's like you don't even want that world. Like it sounds romantic in like a libertarian and ran fantasy, but like if you go and flip all the tables, do you wanna live in Mad [01:09:50] Max? Probably not. Like, like as much as we say the government is bad, the state is bad, power structures are bad.
+
+It's like, you know what's even worse, a power vacuum where all of a sudden you've got people riding around with [01:10:00] like whatever rifles and shut. So to put simply though, like the, um, tamps of the question, why stretch over buying Bitcoin? Yeah. People have [01:10:10] different needs, right? Yeah. And, and I'll get someone just asked, do you, do you own Stretch Max?
+
+You don't have to answer that, but I'll I'll speak to, um. All of the Bitcoin he owns its stretch [01:10:20] ETFs only. Yeah. But like a, a, a treasury, like, so, um, the money that, that Presidio Bitcoin has on hand. Yeah. [01:10:30] Uh, obviously there's a belief in Bitcoin, there's a belief in like 30% returns or whatever. Um, but there's actual needs for, for dollars liability.
+
+We have [01:10:40] liabilities and dollars in, you know, weeks, months type of timeframe. So we don't want to be all in on Bitcoin. We need something less [01:10:50] volatile. So some of it is in Bitcoin and some of it is in stretch. Yes. So. So proceeded Bitcoin does hold stretch. And, and to give you, so the, the bigger pools of capital, [01:11:00] which we've talked about is, you know, um, you know, we all know someone who's very involved with that company because he can't buy Bitcoin at his giant equity public equity fund.
+
+He just can't. And so there's, you know, [01:11:10] I forgot we did the numbers last time, but like, what is like a third of the world's capital sitting in like public equity funds or, so something huge they can't buy that a third is sitting in the, the debt funds or whatever. I'm not an [01:11:20] expert on this stuff, but like, the point is like, really, really, really big slugs of capital.
+
+Yeah. There's, there's capital, capital pools that are locked up with mandates. That are lot of mandates. They mandates and they [01:11:30] have to Exactly. They have to play within that mandate. And so those mandates are sticky. Yes. And that's what creates the opportunity to create products that fit in those mandates.
+
+[01:11:40] Correct. And so I think like the thing that I would say about MicroStrategy that I think is interesting is that like, it just understands what the world, how the world is structured today. Yes. And where mandates are, and then it provides products [01:11:50] that fulfill those mandates. Even if you don't fully get to self custody or Bitcoin because of the mandate of the capital pool that you're, you're managing.
+
+And I would say there's also [01:12:00] sort of a gradation of that, right? I think there are some people that, you know, maybe are super orange pilled sitting and managing, you know, billions if not trillions of dollars that are locked up in funds that can't [01:12:10] buy Bitcoin. Okay? So that's, that's one area you go after.
+
+And then there's also people like let's say on the middle of the curve that are like, you know, you think it's interesting, it's probably not going to zero. Are they ready to sell their [01:12:20] kidney? Probably not. But like, would they like some exposure? Yeah, like, like I guess like there's different people at different stages on their Bitcoin journey with different mandates.
+
+And critically those people manage [01:12:30] much larger pools of capital than, you know, we as the general public, frankly, even like realize exists. And I think what sailor's superpower is, is he's kind of the, [01:12:40] um, you know, the elder statesman in the room that for whatever reason, you know, he's still on the edge with technology and he understands why Bitcoin is amazing.
+
+He's been, you know, frankly, old enough and been [01:12:50] through the traditional world enough that he understands that world extremely well, and he's building a bridge between the new and the old. And by sitting on that bridge and building that bridge, you know, and I thought it's very instructive. [01:13:00] People always ask him, well, what's next whatcha gonna do with all this Bitcoin?
+
+He is like, dude, you don't understand. Like, if I can bring 10% of the world's, you know, bond market to me, I am [01:13:10] making whatever it is, trillions of dollars a year in revenue with basically no cost. So it's almost pure profit. It would be the single greatest business of all time. Now, I think the [01:13:20] AI businesses can overcome that.
+
+Mm-hmm. And I think that's a, that's a separate conversation. I think, by the way, there's, there's risk that maybe he's not even fully buying into, which is the black swan risk of like EGI, you know, [01:13:30] super intelligence takeoff. And that's its own really interesting conversation that we should discuss. But my point, you, we no longer need money.
+
+I, I mean, that's a possibility from, from your favorite, from [01:13:40] your favorite DDU fauna, but. I, I wouldn't say that he was wrong. If that's the case, if we don't need money, then like the whole thing, it's just like a waste of time. Right, right. But, but, but again, but being not said at the [01:13:50] end of that path, what I wanna come back to and just say on that is like, I think what a lot of Bitcoiners miss is, you know, this dude put aside the way he communicates it, which [01:14:00] could probably be a little nicer sometimes, but this dude understands the old world and he knows how to build that bridge and he knows what they need.
+
+And I think he said something really nice, which is instead of fighting the old world, empower [01:14:10] them to win and win a big chunk. And that's the beauty of Bitcoin. I've always thought of Bitcoin as a tool of alchemy for selfishness and self-interest to sort of communal interest. It's a way to [01:14:20] get people to say, hey, instead of Exactly.
+
+Instead of me just taking your shit, which is kind of the history of like power and war and world. It's like, let me make you [01:14:30] an equity holder and the same thing. I'm an equity holder and let's win really big together. Yeah. And bitcoin's ultimately equity for the whole world. Exactly. Exactly. Whole world's [01:14:40] needs and demands.
+
+It's an equity of the entire world's capital stock. I think I, and so I didn't watch the whole episode, uh, but I, and I only watched that one clip that I think was quite contentious. [01:14:50] Um, but I actually, what I've learned something new from that clip, which I think I changed my mind about in the last year or so, which is I had thought of MicroStrategy as like [01:15:00] effectively the leader and kind of the dominant player in the Bitcoin treasury thing.
+
+And that sort of, all the others are sort of ankle biters and, you know, sort of competitors in a sense. [01:15:10] And I think he's, he articulated there that it's not a competition, it's more of a collaboration. So it's effectively that same point you're making. He didn't quite say it as eloquently as I think [01:15:20] we've come up here, which is sort of, you know, some sort of like a equity in the world, the world's future and all of the economic output of the world.
+
+But I think that's what he's scratching at [01:15:30] here when he talks about Meta planet being not a competitor, but a collaborator. So I've changed my mind on that actually. Actually. So I, I still don't get that, so you're gonna have to help me. Now. [01:15:40] We talked about it in the show before. There's a couple different types of, uh, treasury strategies.
+
+Yeah. We built a strategy one and the block one. Yeah. Right. Yeah. Because, because both strategy and block [01:15:50] introduced Bitcoin in, on their balance sheet, uh, within a month of each other in 2020. Yep. Um, I think most people [01:16:00] know what strategies strategy is, like leverage, like smart calculated leverage, but leverage.
+
+Um, whereas the, the, the block strategy is [01:16:10] like, put one to 10% of your treasury and Bitcoin as, as like a, as like a hedge. Um, and those two are have very different [01:16:20] dynamics. Yep. So I, yeah. Totally believe in a world of we're all in this together. Let's invest in each other, like the same equity or whatever.
+
+If [01:16:30] every company puts one to 10% of its treasury or, or Frank, I mean even up to a hundred percent of the treasury in Bitcoin, I don't see, they're not competing. Like if [01:16:40] Tesla's doing that SpaceX and block. That doesn't like increase the competition between these companies just because they're holding Bitcoin balance sheet.
+
+Right. However, if every [01:16:50] company is levered over a hundred percent, they're indu introducing all these securities, like Stretch, et cetera, then they're absolutely competing with each other. And I've [01:17:00] argued from the first episode of this show that it makes no sense for Facebook to do this, like Max is arguing and, and I still think it does well.
+
+I don't, it makes no [01:17:10] sense to me. So, so, so, so I a it makes no sense. Yeah. BI don't think every company can do it. I think only one or a handful can, and C, they're absolutely competing with each other. [01:17:20] So help me understand how that's going. So Steve, I'm, I'm actually, I'm team Steve on this point and have been for a long time, basically since episode one, which is, I don't think Facebook should just go all in Bitcoin [01:17:30] because they have a great business or potentially great business, you know, it has existed for a while.
+
+They could do better with Bitcoin too. What? Well, sure. But, but that's not what people are investing in. They're [01:17:40] investing in. Are they gonna figure out ai? That is the question. And also, when you say they may not figure out ai, they do better in Bitcoin, what do you mean by that? Do you think they should be levered on Bitcoin or do you think should they [01:17:50] adopt the strategy?
+
+Strategy or they block strategy? Okay, so I. Let me answer that by saying, and, and look, I get what you're saying and if your point is [01:18:00] for a company specifically in the AI race that having anything to do with Bitcoin is going to detract from their ability to get capital, to build energy infrastructure, which by the way, [01:18:10] that's why I want to go, we're probably not gonna have time to the GPU marketplace deeply today, but like look at who Meta's been hiring yesterday.
+
+Look at Daniel Gross's post on Twitter for what he wants. It's trading markets, energy [01:18:20] infrastructure. So like, okay, fine. I'm willing to see that point if get any touching of Bitcoin, which by the way, I think they'll have to soon, and that's, that's my big idea now, we'll detract from their ability to win that race.
+
+Fine. [01:18:30] What I would say, Steve, to your point is, and this is what I wanted to get at earlier that I learned new from the Sailor podcast, is there's not just the sailor strategy and the block strategy. I [01:18:40] think there's an infinite number of strategies in between. That's what I'm seeing more and more so what he said yesterday.
+
+Now, do I, I would, you know, obviously evaluate every treasury company [01:18:50] independently. Most of them I think, are probably run by teams I would not personally invest in. Right. For sure. That's my decision as an investor. Um, but you know, we've already decided, does it make sense as [01:19:00] an example for Meta Planet to exist as, uh, alongside strategy For sure, because they're in a trapped capital market.
+
+Japan. Yep. Taylor's not there. Exactly. So, so, so, okay. We all agree. We all agree on that. That though. So [01:19:10] the next thing that I learned from his podcast was, um, that there are going to be infinite opportunities and he rattled off like 10 of them, of where you can [01:19:20] use better capital to offer a better product.
+
+So he's going after credit. Capital to credit, [01:19:30] because I know DJ loves that. I didn't think we were gonna make it through this segment without an impression or two. So thank you for that. Um, you're welcome. That's, that's for you. Um, but what he also mentioned is there's other [01:19:40] businesses where pristine digital capital or credit could make you a winner as well.
+
+One example is insurance. We are going to see an insurance company and I bet, I mean, no [01:19:50] insider info, whatever, but like, I mean, I think NI's already pretty big in insurance. Wouldn't be surprised if they're the big winner there ultimately of figuring out how you can use having perfect, pristine collateral to [01:20:00] underwrite cheaper policies or better policies.
+
+So there will be insurance companies that use Bitcoin. Yep. And, and I don't think MicroStrategy is gonna go after that. I, he literally said that like, like people get whatever riled [01:20:10] up listening to be whatever. Like, listen to what he says. He gave 10 ideas. For a company that the problem is they're not ideas that we as like, kind of like Silicon Valley computer builder type [01:20:20] people used.
+
+They're like financial ideas. They're financial ideas. But my point, what I'm, those are real things you do Well, what I'm learning increasingly from learning from Sailor and, and again, everyone has to make their own decision. [01:20:30] Like, you know, are you or either right person to start that company? Absolutely not.
+
+Like our efforts are much better spent doing things that are like increasing, in my case, more on the energy side lately with builder stuff [01:20:40] like, great, so everyone's doing their part. But like, what I'm increasingly learning from Sailor is if you just want to make money, put everything else aside, you just wanna make money.
+
+[01:20:50] Go where the opportunity is ready. Is it ready for payments yet? No, we're trying to get there. We're betting on that future. We're trying to make it happen. What it is ready for is for people to say, if I have better capital, I can [01:21:00] underwrite better financial products. So all kinds of loans. Consumer lending, um, corporate lending, the treasury market, real estate now real estate, real estate development.
+
+Well, [01:21:10] we've, we've talked, we've talked to companies doing that, so, but I'm, I'm still trying to understand how they're not competitive and, and I'm actually interested in, since Deacon, I seem [01:21:20] aligned. I think we're mostly like, I don't think lock I, I want is a Bitcoin treasury company, even if they hold some Bitcoin treasury.
+
+I think that's, I would agree with that too. Successful company aligned. That's not structured in the, like Bitcoin treasury [01:21:30] style. Right. But help me understand how like 21 is not a competitor to strategy. I, I think it's, I think it's un [01:21:40] unrealistic to say not a competitor, but just that there's more.
+
+Collaboration than there might be in a traditional business. So like is, is [01:21:50] Google a competitor to Facebook and vice versa? Are they, I I would say they're pretty directly competitive. Do they ever collaborate like maybe at the margin on [01:22:00] some little initiatives, but they basically don't collaborate, they compete Well let's use Apple.
+
+Can we use Apple and Google as an example? Well that's, yeah. It's Cornier because of the recent, you know, the, the search, not [01:22:10] even the recent stuff. History deal, years of search. Billions dollars is a partnership. It's, it's, it's Apple saying, we're not gonna develop a search engine. We'll, we'll get paid [01:22:20] all the value as if we had developed or we can't.
+
+What, how, how do 21 and strategy partner or help each other? How? I think they help each other because they each own [01:22:30] a lot of Bitcoin and their stated mission is to own more Bitcoin. They have different ways to go about that. And I, I think the strategy way to go about that is we're gonna. I, they probably have some huge sales force out [01:22:40] there selling the digital credit product to various people.
+
+And my guess is that the CEP, whatever, the 21 company is not going to hire a team of [01:22:50] people to go out and sell digital credit. They're trying to build products that generate cash flows. And those cash flows will either be received or converted into Bitcoin, and that will be the basis of a lot of their treasury.
+
+What, what will be their business [01:23:00] model to support leverage? So like, let me at like 200% Bitcoin. Let me let, let me try and answer that because I thought sailors said something really good yesterday and I want to be clear. Baris, [01:23:10] uh, or no, it Baris had made that point, or no, Matt made the last one, which is good.
+
+He says, you know, ignores what he saying. It works in theory, but ignores the reality of the treasury companies [01:23:20] today. That may or may not be true. Like a lot of the people that are starting treasury companies to me, are definitely giving avocado matos vibes. And I would probably, for those of you remember, I, I know Steve always [01:23:30] likes him.
+
+Gonna,
+
+what's so what's, so what's so what's up? You got a lot of [01:23:40] impress treasury connect. Yes. Yes. Thank you, Carlos. I think Max should be on SNL. Yeah. Thank you. Um, so, so I'm gonna agree with [01:23:50] that. And like, when I put my own personal money, most these guys, hell no. Like I, I, I agreed, but what he makes is a structural point.
+
+I'm also not gonna like, like whatever, [01:24:00] like badmouth them. 'cause we don't know what they're gonna do in the future. Right. So his point is, um, and he made this point very, actually, I thought eloquently, if you put your money in an ETF or trust, they cannot, [01:24:10] they're legally obligated to just hold the Bitcoin and that's it.
+
+Right? Cool. They can't do other stuff. What he's saying is if you're an early adopter and you have a secret about the [01:24:20] world and the secret is the old monetary system is crap and dying and the new monetary system is going up 20, 30% cagr, you now have a secret, which you don't. You may not even know [01:24:30] exactly what you wanna do today.
+
+It's like, you know, in an angel investing, you know, we back founders 'cause you know, they have maybe some general secret about the world which they're exploring. We're kinda like, yeah, we're gonna bet that you're gonna [01:24:40] be the team to figure out how to exploit that in the future. And maybe they do, maybe they don't.
+
+Similarly, these guys have realized a secret about Bitcoin and we don't know what they're gonna do to structure the products, but his point is because they're operating [01:24:50] companies, they can take this secret, they can take this, you know, radioactive, you know, super uranium, which is Bitcoin and like if they're smart, which they may or may not be, [01:25:00] they'll figure out how to structure new real estate companies.
+
+They'll figure out how to structure new insurance companies. They'll figure out how to like, basically just like take any old business in the old [01:25:10] financial world, derivatives companies, anything that made a lot of money. Go and look at how, hey, if we were collateralized or capitalized by like hard money rather than something that can be debased, [01:25:20] you're gonna win.
+
+That's his point. Now, I will also say, to your point, Steve, 21 specifically, I don't know any of their details, so I can't say. But if they are trying to sell [01:25:30] the exact same product that MicroStrategy is trying to sell, you know, obviously I think MicroStrategy is gonna win, so they're probably gonna be number two.
+
+But even then, I would say they're [01:25:40] not, I mean, they are competitive in a sense, but they're also not that competitive because he makes another great point, which is the world is relationship based. And so, you know, in the same way, [01:25:50] um, you know, if you're looking for a banker, it's like, you know, both Silicon Valley Bank, well, they used to exist in First Republic.
+
+They both used to exist before the, uh, the financial system started crumbling. But the point [01:26:00] is like, why would you choose one or the other? Well, maybe you have a friend there, you just like this guy. That's it. Like literally the only deal is like, I like you, I trust you. And so there's always a room for like relationship based sales.
+
+I would not [01:26:10] personally wanna bet on that, but Right. But okay. But that still only affords a few companies. Sure. Not, not like millions of companies around the world, but there can be millions all levered with Bitcoin, all [01:26:20] trying to sell. To the same fund managers. So that's the, that's a fund manager doesn't have enough time to talk to like a hundred million companies.
+
+So that's the critical distinction. There is room for [01:26:30] millions of companies levered on Bitcoin selling different products. If they're trying to sell the same treasury like instrument or stretch like instrument, they're gonna probably lose a strategy. But how, [01:26:40] how can there be, uh, it's, I'm, I am, I'm not imaginative enough to understand how millions of companies could be levered on Bitcoin selling securities products.
+
+Well, I don't think it's just [01:26:50] gonna be securities products. I think there's all kinds of products and that's what we have to figure out what they are. Like, I mean, you know, what's a, what's a address? Something like a block. What's a non generat? Maybe what's a [01:27:00] non Wall Street company example that would be levered with their Bitcoin and selling a product to people?
+
+I think that insurance, I think the insurance example he gave is a good [01:27:10] one. I'd Well, that's kind I Wall Street though. Like, let's take Hoka. I mean like, like State Farm Insurance. You're saying State Farm Insurance is a Wall [01:27:20] Street company. I mean, they're financial. Walk us through. They're financial, but yeah, like Nike, like why would Nike have 200% [01:27:30] Bitcoin?
+
+Well, but, and what product are they selling to support that to be sustainable? But this is my point. Okay. So I think we should continue. I think it's good that we're having this dialogue. I feel like, uh, the bin Arc episode now with the [01:27:40] dialectics, we're, we're going through our dialectics right now, to be clear, yet we are probably at the phase of adoption where financial products are, where this is gonna work.
+
+If you're Nike, the block strategy probably makes sense [01:27:50] and you probably, unless you realize I can make so much more money selling insurances Nike than I could being Nike, which they're probably not gonna do for a variety of reasons. So to be clear, I don't think we're at that [01:28:00] stage. But then that suggests every company in the world becomes a financial company.
+
+And, well, I think Pier Sharp made that point. Again, if you, if you believe, but what if I want to buy a pair of shoes? [01:28:10] Well, so again, I think it depends on what you as a company, as a manager of a company wanna do, what your goals for that company are. Like, how much baggage you have. If you come into something point blank, you're like, I just wanna make the [01:28:20] most money humanly possible.
+
+I mean, one way to do that's probably ai, but there's only like four companies that matter there. So you're probably already out, and I think this is Sailor's point, it's like almost every company in the s and p 500, or [01:28:30] certainly every company that's a public company, if you're not an AI company, and maybe a few very special companies like Nike, but even Nike, I, I mean honestly, do I think they would make, would the [01:28:40] world be better off if we all of a sudden lost all of our shoes?
+
+I would argue that, well, what does, what does the actual future look like in the shoe business? It's probably not Nike [01:28:50] building one shoe and selling it to a million people. It's probably you getting some custom robot to make you a shoe that perfectly fits you. And it almost like the brand [01:29:00] concept is, do I have the robot with the raw ingredients and the tool that designs it for my foot to give me like the best thing That's, that's still not [01:29:10] a financial, like levered financial product.
+
+Yeah. So, so world, I think we're agree. It makes no sense that the whole ev every company in the world's only gonna sell financial products [01:29:20] that make, I mean that makes no sense. Well, well, so I don't even understand. Let's play what we're talking about. No, no, no. But hold. But let's play that out. 'cause I think it's an very important point.
+
+Like if you want [01:29:30] to stay in your old operating business or do new operating businesses, something close to the block strategy makes sense. Although even for block, I would push back and say, why didn't y'all put even more in? But, but to be, but [01:29:40] well, okay, but again, to me the division is up to a hundred percent and over a hundred percent.
+
+Yes. So sure you, you can. Critique should block and put more in. It's, it's not a [01:29:50] critique. Even, even even block, like leveraging could make sense, but it's a financial company. Yes. So, so most companies in the world are not financial companies in the world needs all [01:30:00] those services. A hundred. They evolve over time.
+
+So we go from like, you know, Cambodia producing shoes to robots producing shoes. But like, things evolve. But [01:30:10] most industries are robot financial. No, but, but you, the AI and the energy, I mean, it's okay. You, you, you guys have to understand what I'm saying. 'cause I'm, I'm looking at Matt saying I'm depressing him with this fiat talk as well.
+
+You [01:30:20] guys, you guys have to understand, you have to see the big picture. Like I'm not saying everyone should do this, and if you wanna stay in operational business, yes, buy Bitcoin a hundred percent or less. The point is, and I think [01:30:30] Pierre Rashard has made this point very, very well. We're in the early stages of the speculative attack on the dollar.
+
+Like I'm, I believe in hyper Bitcoin, right? So what I think is happening is. [01:30:40] If you had every company in the world realize I could make more money as a financial company selling some financial product back by Bitcoin, all of a sudden you would, and first of all, it's [01:30:50] never gonna happen because there's so many people that would not believe that and the, the requirements would be so heavy, like, but all of a sudden what would happen is the market would reprice, right?
+
+Like everyone did that and they all [01:31:00] started buying Bitcoin and they all started selling these new products. What you would do is you would accelerate the hyper Bitcoin, probably take the price of Bitcoin well into the millions of dollars and in the, in that [01:31:10] process, you would like saturate and take out of business.
+
+The other insurance companies, again, I'm not naive even enough to think this would ever happen overnight. This is a mini decade long process. But like then once [01:31:20] Bitcoin is many millions of dollars a coin, you've already put out a business, all the old world fiat companies or Bitcoin, hyper Bitcoin eyes them from the inside.
+
+Then it starts making sense to [01:31:30] sell old world things like shoes, typically just to, to. Respond to Matt's, uh, comment there. I do not wanna see 200 million companies levered on Bitcoin. I think it's [01:31:40] asinine. It makes absolutely no sense. That is my position, and I wanna be clear, like, look, everyone makes their own decision.
+
+I'm not saying the leverage is a good thing or a bad thing. I'm saying see [01:31:50] reality clearly and understand that for any company selling things like derivatives, insurance, credit, any of those companies, they would be able to offer [01:32:00] better rates and a better product if they had Bitcoin as their collateral than not.
+
+That's it. Let me, let me ask a, some companies will do that, but for ev a hundred million companies to do it makes no fucking sense. [01:32:10] Let me ask a, an abstract question, which I already have an opinion on, but just wanted to ask it in the abstract is like, do you believe there are any changes happening in the world [01:32:20] that may shift the balance of power away or toward labor and from capital, like what dk, what possibly could you mean?[01:32:30] 
+
+I mean, is is, is there a shift underway? Would you say there is a shift or there's not a shift? So there 100% is a shift. And in fact, this is the thing I've been obsessing over and I'm not gonna add it 'cause [01:32:40] I've been reading my friend's book on this. I would say it's a modern day DOS capital, the best thing I've ever read on modern economic thought.
+
+Um, which makes the argument that capital and labor are in [01:32:50] fact becoming, uh, the same thing, which is just fun. Their new fungible markets are emerging between capital and labor and it's just, it's just electricity. It's [01:33:00] just electricity. Either way, that's what AI is doing. And I would argue, since we're not gonna have enough time to get to it today, I'm gonna tease this for the future GPU marketplace discussion.
+
+Um, the really big [01:33:10] idea, the idea I'm obsessing over, and if someone else is putting this out into the ether, thinking about this idea as well. And to be clear, I don't wanna find these like financial gains companies either. I don't find them interesting. They're gonna make a shit ton of [01:33:20] money and God bless the people that wanna play the insurance game.
+
+It's not what I'm interested in. What I am interested in though, is figuring out how the robots use collateral and figuring out how to bank the robots. [01:33:30] That's my teaser. Good teaser. Can't wait. We will talk about it next week then. All right, have a good week. All right, have a good weekend guys. Have a good weekend [01:33:40] y'all.
+

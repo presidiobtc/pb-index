@@ -1,0 +1,9 @@
+In this episode of 21 in 21, Nick Slaney joins Haley Berkoe during Presidio Bitcoin Design Week. Nick is the founder of Money Dev Kit, a new startup building tools that make it easy for developers to add bitcoin and Lightning payments to their applications. Previously, he was at Block, where he helped build Bitkey and c=, whose LDK node became one of the Lightning Network’s largest and most active. He shares why he’s betting on bitcoin over stablecoins, how Lightning service providers (LSPs) improve Lightning usability, and what gives him hope for bitcoin’s future.
+
+https://nickslaney.com/
+https://www.moneydevkit.com/ 
+
+Nick's talk at Presidio Bitcoin Design Week
+https://youtu.be/N-IZbxNAvzY?si=-pFHkPxjgPCzJsSe&t=146 
+
+#bitcoin #money #payments #interview

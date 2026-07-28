@@ -1,0 +1,13 @@
+At Presidio Bitcoin’s Type I Summit former Meta CTO Mike Schroepfer (Schrep) breaks down why building data centers is harder than people think, and why offshore, ship-like systems could cut complexity with power next to compute, ocean-scale cooling, and massive untapped energy. Panthalassa’s Garth Sheldon-Coulson also walks through the first-principles case, costs, and why this is approach best suited for AI inference.
+
+Timestamps
+0:00 Why land data centers are so hard to build
+1:56 How new infrastructure gets adopted
+3:44 Panthalassa’s vision for ocean-based energy & cooling for compute
+9:17 Cost stack and scaling
+14:03 Training vs inference - what belongs offshore
+
+Full video: https://youtu.be/UWobJlMoZP8
+
+🎧 From the Type I Summit recorded at 📍Presidio Bitcoin
+🌐 Learn more: https://www.type1summit.org/

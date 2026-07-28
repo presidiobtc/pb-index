@@ -1,0 +1,23 @@
+Haley Berkoe interviewed Laolu Osuntokun, also known as Roasbeef. He’s a longtime bitcoiner, the CTO and co-founder of Lightning Labs, and lead developer for LND, one of the main Lightning implementations.
+
+The highlights of the conversation include his: 
+- Winning project at the PB hackathon
+- Areas of focus at Lightning Labs, including improving LND and Taproot Assets
+- Pragmatic view on stablecoins
+- Ideas on how best to display bitcoin fractions and decimals
+- Current favorite gadget: a ring watch
+- Reflections on bitcoin's adoption and the need for better privacy
+- The story behind his nickname
+
+FOLLOW:
+Laolu Osuntokun: @roasbeef, https://x.com/roasbeef
+Lightning Labs: @lightning, https://x.com/lightning
+Haley Berkoe: @HBerkoe, https://x.com/HBerkoe 
+Presidio Bitcoin: @PresidioBitcoin, https://x.com/PresidioBitcoi
+
+SUBSCRIBE TO THE PODCAST: 
+Spotify: https://open.spotify.com/show/4UPEsVaAbtQsBtvbKt1RPn?si=2e5efe8f58094c2c&nd=1&dlsi=f612e8c16b0a4fde 
+Apple Podcasts: https://podcasts.apple.com/us/podcast/21-in-21/id1804684052 
+Substack: https://substack.com/@presidiobitcoin 
+
+#bitcoin #technology #podcast #money

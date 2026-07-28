@@ -1,0 +1,10 @@
+In this session from Presidio Bitcoin's Quantum Bitcoin Summit, Hunter Beast (Anduro, Surmount Systems) dives into BIP360 and P2QRH along with public key exposure, quantum timelines and trade-offs between different signature schemes. 
+
+Presented at the Quantum Bitcoin Summit hosted by 📍Presidio Bitcoin
+A big thanks to our sponsors: Project Eleven and Anduro! 
+
+🔴 Watch the Day 1 livestream: https://www.youtube.com/watch?v=GeUdu4hrBPI&t=8272s
+🌐 Learn more about the summit: https://pbquantum.com
+
+🐦 Follow us: https://x.com/PresidioBitcoin
+Learn more: https://presidiobitcoin.com

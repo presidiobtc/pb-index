@@ -1,0 +1,31 @@
+0:00 Schedule changes and personal updates
+1:50 Hack-Nation AI Global Hackathon @ PB and Spiral’s bitcoin payments challenge
+5:40 Lowering the barrier & reducing friction for builders new to bitcoin
+8:55 Student outreach and Presidio Bitcoin as a bridge into bitcoin
+11:25 Iran, Strait of Hormuz tolls, and bitcoin’s geopolitical use case
+17:47 Settlement, unit of account, and bitcoin between adversaries
+24:36 Bitcoin as neutral protocol and the analogy to internet rails
+26:45 Anthropic and whether the sovereign individual thesis survives AI concentration/centralization
+38:51 Corporate dependence on frontier models and the risk of model lock-in
+55:54 The future of scarcity, defensibility, and startups as AI power concentrates
+1:06:47 Presidio Bitcoin’s Quantum Readiness Report overview & what makes it special
+1:15:48 Quantum response scenarios: orderly & emergency migration + break-glass planning
+1:25:49 New quantum developments: Google AI, Lalu's recovery proof, QSB, and other interim mitigations
+1:34:40 BIP-360, Taproot, and possible upgrade paths under accelerated quantum timelines
+-
+
+SHOW NOTES:
+
+Presidio Bitcoin's Quantum Readiness Report: https://github.com/presidiobtc/bitcoin-quantum/tree/main
+
+Report v1.0 PDF: https://github.com/presidiobtc/bitcoin-quantum/blob/main/presidio-bitcoin-quantum-readiness-v1-apr-2026.pdf
+
+Hack-Nation Global AI Hackathon: https://hack-nation.ai/
+
+Strait of Hormuz bitcoin toll: https://bitcoinmagazine.com/politics/why-iran-wants-bitcoin-for-safe-passage-though-the-strait-of-hormuz
+
+Google Quantum AI Paper: https://quantumfrontiers.com/2026/04/09/unleashing-the-advantage-of-quantum-ai/
+
+Lalu's Seed Phrase ZKP: https://groups.google.com/g/bitcoindev/c/Q06piCEJhkI?pli=1
+
+Quantum Safe Bitcoin (QSB): https://github.com/avihu28/Quantum-Safe-Bitcoin-Transactions/

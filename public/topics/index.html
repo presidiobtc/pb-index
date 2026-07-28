@@ -1,0 +1,2367 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <base href="../" />
+  <title>Presidio Bitcoin Index - Topics</title>
+  <link rel="icon" href="https://www.presidiobitcoin.org/favicon.png" type="image/png">
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --green:      #1f4d2a;
+      --green-mid:  #2a6438;
+      --green-light:#e8f0ea;
+      --text:       #111;
+      --muted:      #666;
+      --border:     #ddd;
+      --bg:         #fff;
+    }
+
+    body {
+      font-family: Georgia, 'Times New Roman', serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+    }
+
+    /* ── Header ── */
+    .site-header {
+      background: var(--green);
+      padding: 0 24px;
+    }
+    .header-inner {
+      max-width: 960px;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 52px;
+    }
+    .site-logo {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      font-size: 16px;
+      font-weight: 700;
+      color: #fff;
+      text-decoration: none;
+      letter-spacing: -0.2px;
+    }
+    .site-logo img {
+      height: 28px;
+      width: 28px;
+      object-fit: contain;
+      filter: brightness(0) invert(1);
+      flex-shrink: 0;
+    }
+    .site-nav { display: flex; align-items: center; gap: 2px; }
+    .nav-link {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      font-size: 13px;
+      font-weight: 500;
+      padding: 5px 10px;
+      border-radius: 5px;
+      color: rgba(255,255,255,0.65);
+      text-decoration: none;
+      transition: color 0.12s, background 0.12s;
+      white-space: nowrap;
+    }
+    .nav-link:hover { color: #fff; }
+    .nav-link.active {
+      background: rgba(255,255,255,0.12);
+      color: #fff;
+    }
+    .nav-sep {
+      width: 1px;
+      height: 18px;
+      background: rgba(255,255,255,0.2);
+      margin: 0 6px;
+      flex-shrink: 0;
+    }
+    .icon-link {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: rgba(255,255,255,0.6);
+      padding: 5px;
+      border-radius: 5px;
+      text-decoration: none;
+      transition: color 0.12s, background 0.12s;
+      flex-shrink: 0;
+    }
+    .icon-link:hover { color: #fff; background: rgba(255,255,255,0.08); }
+    .icon-link svg { width: 16px; height: 16px; fill: currentColor; display: block; }
+    .ext-link { font-size: 12px; opacity: 0.75; margin-left: 4px; }
+    .ext-link:hover { opacity: 1; }
+
+    /* ── Page ── */
+    .page-wrap {
+      max-width: 780px;
+      margin: 0 auto;
+      padding: 40px 24px 100px;
+    }
+
+    .page-title {
+      font-size: 28px;
+      font-weight: normal;
+      margin-bottom: 4px;
+      color: var(--text);
+      text-align: center;
+    }
+    .page-sub {
+      font-size: 14px;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      color: var(--muted);
+      margin-bottom: 20px;
+      text-align: center;
+    }
+
+    /* ── Featured topics ── */
+    .featured-now {
+      display: none;
+      border-top: 1px solid var(--border);
+      border-bottom: 1px solid var(--border);
+      padding: 8px 0 9px;
+      margin: 0 0 18px;
+    }
+    .featured-now.visible { display: block; }
+    .featured-head {
+      display: flex;
+      align-items: baseline;
+      justify-content: space-between;
+      gap: 16px;
+      margin-bottom: 3px;
+    }
+    .featured-title {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      color: var(--muted);
+    }
+    .featured-grid {
+      display: grid;
+      gap: 0;
+    }
+    .featured-card {
+      display: grid;
+      grid-template-columns: minmax(150px, 0.32fr) minmax(0, 1fr);
+      align-items: baseline;
+      gap: 12px;
+      padding: 4px 0;
+      border: 0;
+      border-radius: 0;
+      background: transparent;
+    }
+    .featured-topic {
+      color: var(--green);
+      font-size: 15px;
+      line-height: 1.35;
+      text-decoration: none;
+      min-width: 0;
+    }
+    .featured-topic:hover { color: var(--green-mid); }
+    .featured-article {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      font-size: 12px;
+      line-height: 1.35;
+      color: #444;
+      text-decoration: none;
+      min-width: 0;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+    .featured-article:hover { color: var(--green); }
+    .featured-empty {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      font-size: 12px;
+      color: var(--muted);
+    }
+
+    /* ── Quick-jump nav ── */
+    .quick-nav {
+      padding: 0 0 24px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1px;
+      justify-content: center;
+    }
+    .quick-nav-link {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      font-size: 13px;
+      font-weight: 500;
+      color: var(--green);
+      text-decoration: none;
+      padding: 3px 8px;
+      border-radius: 4px;
+      transition: background 0.1s, color 0.1s;
+      white-space: nowrap;
+    }
+    .quick-nav-link:hover { background: var(--green-light); }
+
+    /* ── Letter divider (alpha view) ── */
+    .letter-group { margin-bottom: 4px; }
+    .letter-heading {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      font-size: 15px;
+      font-weight: 700;
+      color: var(--green);
+      padding: 18px 4px 4px;
+      letter-spacing: 0.5px;
+    }
+
+    /* ── Topic accordion ── */
+    .topic-list {
+      border-top: 1px solid var(--border);
+    }
+
+    details {
+      border-bottom: 1px solid var(--border);
+    }
+
+    summary {
+      list-style: none;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      padding: 13px 4px;
+      cursor: pointer;
+      user-select: none;
+      font-size: 16px;
+      color: var(--green);
+      transition: color 0.12s;
+    }
+    summary::-webkit-details-marker { display: none; }
+    summary:hover { color: var(--green-mid); }
+
+    .summary-arrow {
+      font-size: 10px;
+      color: var(--green);
+      flex-shrink: 0;
+      transition: transform 0.2s;
+      font-style: normal;
+    }
+    details[open] .summary-arrow { transform: rotate(90deg); }
+
+    .summary-name {
+      font-size: 16px;
+    }
+
+    /* ── Expanded detail panel ── */
+    .topic-detail {
+      margin: 0 0 16px 22px;
+    }
+
+    .episode-card {
+      background: var(--green-light);
+      border-left: 3px solid var(--green);
+      border-radius: 0 6px 6px 0;
+      padding: 14px 16px;
+      margin-bottom: 10px;
+    }
+
+    .ep-meta {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      font-size: 12px;
+      color: var(--muted);
+      margin-bottom: 4px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .series-badge {
+      font-size: 10px;
+      font-weight: 700;
+      letter-spacing: 0.6px;
+      text-transform: uppercase;
+      background: var(--green);
+      color: #fff;
+      padding: 1px 7px;
+      border-radius: 3px;
+    }
+
+    .ep-title {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      font-size: 14px;
+      font-weight: 600;
+      color: var(--text);
+      margin-bottom: 4px;
+    }
+
+    .ep-label {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      font-size: 13px;
+      color: #444;
+      margin-bottom: 10px;
+    }
+
+    .watch-link {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      font-size: 13px;
+      font-weight: 600;
+      color: var(--green);
+      text-decoration: none;
+      border: 1.5px solid var(--green);
+      padding: 5px 12px;
+      border-radius: 5px;
+      transition: background 0.12s, color 0.12s;
+    }
+    .watch-link:hover {
+      background: var(--green);
+      color: #fff;
+    }
+    .watch-link .ts {
+      font-family: ui-monospace, 'SF Mono', Menlo, monospace;
+      font-size: 12px;
+      opacity: 0.8;
+    }
+
+    .no-match {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      font-size: 13px;
+      color: #aaa;
+      font-style: italic;
+      padding: 4px 0 12px;
+    }
+
+    /* ── Sort toggle ── */
+    .sort-bar {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      font-size: 13px;
+      color: var(--muted);
+      margin-bottom: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 6px;
+    }
+    .sort-bar span { color: #ccc; }
+    .sort-btn {
+      background: none;
+      border: none;
+      padding: 0;
+      font-size: 13px;
+      font-family: inherit;
+      cursor: pointer;
+      color: var(--green);
+      text-decoration: underline;
+      text-underline-offset: 2px;
+    }
+    .sort-btn.active {
+      color: var(--text);
+      text-decoration: none;
+      font-weight: 600;
+      cursor: default;
+    }
+
+    .letter-group { scroll-margin-top: 100px; }
+
+    @media (max-width: 560px) {
+      .featured-card {
+        grid-template-columns: 1fr;
+        gap: 1px;
+        padding: 6px 0;
+      }
+      .featured-article {
+        white-space: normal;
+      }
+    }
+
+    /* ── By-theme map ── */
+    .map-view {
+      display: grid;
+      gap: 18px;
+    }
+    .map-category {
+      display: grid;
+      grid-template-columns: 150px minmax(0, 1fr);
+      gap: 18px;
+      padding: 14px 0;
+      border-top: 1px solid var(--border);
+    }
+    .map-category:first-child { border-top: 2px solid var(--green); }
+    .map-category-title {
+      font-size: 18px;
+      font-weight: normal;
+      color: var(--green);
+      line-height: 1.25;
+    }
+    .map-branches {
+      display: grid;
+      gap: 8px;
+    }
+    .map-branch {
+      position: relative;
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      background: #fff;
+      overflow: hidden;
+    }
+    .map-branch::before {
+      content: "";
+      position: absolute;
+      left: -12px;
+      top: 13px;
+      width: 12px;
+      border-top: 1px solid #cfdad2;
+    }
+    .map-branch-summary {
+      list-style: none;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      padding: 8px 10px;
+      cursor: pointer;
+      user-select: none;
+    }
+    .map-branch-summary::-webkit-details-marker { display: none; }
+    .map-branch-name {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      font-size: 12px;
+      font-weight: 700;
+      color: #36533d;
+      line-height: 1.25;
+      flex: 1;
+      min-width: 0;
+    }
+    .map-branch[open] .summary-arrow { transform: rotate(90deg); }
+    .map-topic-list {
+      border-top: 1px solid #edf1ee;
+      padding: 9px 10px 10px;
+    }
+    .map-topic-grid {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+    }
+    .map-topic-card {
+      display: inline-flex;
+      align-items: center;
+      max-width: 100%;
+      padding: 4px 8px;
+      border: 1px solid #cfe0d2;
+      border-radius: 4px;
+      background: var(--green-light);
+      color: var(--green);
+      text-decoration: none;
+      transition: background 0.12s, border-color 0.12s, color 0.12s;
+    }
+    .map-topic-card:hover {
+      border-color: var(--green);
+      background: #dfeee3;
+      color: var(--green-mid);
+    }
+    .map-topic-card-title {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      font-size: 12px;
+      font-weight: 600;
+      line-height: 1.2;
+    }
+
+    /* ── Month heading (date view) ── */
+    .month-heading {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      font-size: 15px;
+      font-weight: 700;
+      color: var(--green);
+      padding: 18px 4px 4px;
+      letter-spacing: 0.5px;
+    }
+
+    /* ── By-date episode group ── */
+    .ep-group {
+      margin-bottom: 28px;
+    }
+    .ep-group-header {
+      display: flex;
+      align-items: baseline;
+      gap: 10px;
+      padding-bottom: 10px;
+      border-bottom: 2px solid var(--green);
+      margin-bottom: 2px;
+    }
+    .ep-group-title {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      font-size: 15px;
+      font-weight: 600;
+      color: var(--text);
+      flex: 1;
+      min-width: 0;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+    .ep-group-meta {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      font-size: 12px;
+      color: var(--muted);
+      white-space: nowrap;
+      display: flex;
+      align-items: center;
+      gap: 7px;
+      flex-shrink: 0;
+    }
+
+    .date-topic-row {
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      padding: 10px 4px;
+      border-bottom: 1px solid #f0f0f0;
+      gap: 20px;
+    }
+    .date-topic-row:last-child { border-bottom: none; }
+
+    .date-topic-left {
+      flex: 1;
+      min-width: 0;
+    }
+
+    .date-topic-name {
+      font-size: 15px;
+      color: var(--green);
+      margin-bottom: 3px;
+    }
+
+    .date-topic-label {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      font-size: 12px;
+      color: var(--muted);
+      line-height: 1.45;
+    }
+
+    .ts-link {
+      font-family: ui-monospace, 'SF Mono', Menlo, monospace;
+      font-size: 12px;
+      font-weight: 600;
+      color: var(--green);
+      text-decoration: none;
+      border: 1.5px solid var(--green);
+      padding: 3px 9px;
+      border-radius: 4px;
+      transition: background 0.12s, color 0.12s;
+      white-space: nowrap;
+    }
+    .ts-link:hover { background: var(--green); color: #fff; }
+
+    /* ── Anchor permalinks ── */
+    .anchor-link {
+      display: inline-flex;
+      align-items: center;
+      color: var(--muted);
+      text-decoration: none;
+      opacity: 0;
+      transition: opacity 0.12s;
+      flex-shrink: 0;
+      padding: 0 3px;
+    }
+    .anchor-link svg { width: 14px; height: 14px; }
+    .anchor-link:hover { color: var(--green); opacity: 1 !important; }
+    .anchor-copied { color: var(--green) !important; opacity: 1 !important; transition: none; }
+    details:hover > summary .anchor-link { opacity: 1; }
+    .ep-group:hover .anchor-link { opacity: 1; }
+    .series-card:hover .anchor-link { opacity: 1; }
+    details { scroll-margin-top: 64px; }
+    .ep-group { scroll-margin-top: 64px; }
+
+    /* ── AI Overview ── */
+    .ai-overview {
+      font-size: 13px;
+      line-height: 1.7;
+      color: #444;
+      margin-bottom: 12px;
+    }
+    .ai-overview-label {
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      color: #c96442;
+      white-space: nowrap;
+      vertical-align: middle;
+      margin-right: 2px;
+    }
+    .ai-overview-label svg { width: 13px; height: 13px; flex-shrink: 0; }
+
+    /* ── Series card ── */
+    .series-card {
+      border: 1.5px solid var(--border);
+      border-radius: 10px;
+      margin-bottom: 28px;
+      overflow: hidden;
+    }
+    .series-card-top {
+      padding: 28px 32px 24px;
+      display: flex;
+      gap: 24px;
+      align-items: flex-start;
+    }
+    .series-image {
+      width: 140px;
+      flex-shrink: 0;
+      height: auto;
+      border-radius: 6px;
+      display: block;
+    }
+    .series-card-body {
+      flex: 1;
+      min-width: 0;
+    }
+    .series-title {
+      font-size: 22px;
+      font-weight: normal;
+      color: var(--text);
+      margin-bottom: 12px;
+    }
+    .series-blurb {
+      font-size: 15px;
+      line-height: 1.75;
+      color: #333;
+      margin-bottom: 20px;
+    }
+    .series-links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+    .series-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 7px;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      font-size: 13px;
+      font-weight: 500;
+      color: var(--green);
+      background: var(--green-light);
+      border: 1.5px solid transparent;
+      padding: 6px 14px;
+      border-radius: 6px;
+      text-decoration: none;
+      transition: background 0.12s, border-color 0.12s, color 0.12s;
+    }
+    .series-link:hover {
+      background: var(--green);
+      color: #fff;
+      border-color: var(--green);
+    }
+    .series-link svg { width: 14px; height: 14px; fill: currentColor; flex-shrink: 0; }
+    .series-link svg[fill="none"] { fill: none; }
+    .series-topic-section {
+      border-top: 1px solid var(--border);
+    }
+    .series-topic-heading {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      font-size: 12px;
+      font-weight: 700;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      color: var(--muted);
+      padding: 14px 32px 0;
+    }
+    .series-topic-scroll {
+      max-height: 380px;
+      overflow-y: auto;
+      padding: 8px 32px 16px;
+    }
+
+    summary::marker { color: var(--green); font-size: 10px; }
+
+    @media (max-width: 600px) {
+      .site-header { padding: 0 10px; }
+      .icon-link, .nav-sep, .ext-link { display: none; }
+      .logo-text { display: none; }
+      .site-logo { gap: 0; }
+      .nav-link { font-size: 11px; padding: 5px 6px; }
+      .featured-head, .featured-card { flex-direction: column; align-items: flex-start; gap: 1px; }
+      .featured-topic { white-space: normal; }
+      .map-category, .map-branch { grid-template-columns: 1fr; gap: 8px; }
+      .map-branch::before { display: none; }
+      .series-card-top { flex-direction: column; align-items: center; }
+      .series-image { width: 160px; }
+    }
+
+    /* ── Footer ── */
+    .site-footer { background: var(--green); padding: 48px 24px; text-align: center; margin-top: 80px; }
+    .footer-inner { max-width: 600px; margin: 0 auto; }
+    .footer-logo { display: inline-flex; align-items: center; gap: 14px; text-decoration: none; margin-bottom: 20px; }
+    .footer-logo img { width: 52px; height: 52px; object-fit: contain; filter: brightness(0) invert(1); }
+    .footer-logo-name {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      font-size: 18px; font-weight: 700; letter-spacing: 2.5px; color: #fff; text-transform: uppercase;
+    }
+    .footer-icons { display: flex; justify-content: center; gap: 6px; margin-bottom: 20px; }
+    .footer-icon {
+      display: flex; align-items: center; justify-content: center;
+      width: 44px; height: 44px; color: rgba(255,255,255,0.7);
+      border-radius: 8px; text-decoration: none; transition: color .15s, background .15s;
+    }
+    .footer-icon:hover { color: #fff; background: rgba(255,255,255,0.1); }
+    .footer-icon svg { width: 22px; height: 22px; fill: currentColor; display: block; }
+    .footer-copy { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; font-size: 13px; color: rgba(255,255,255,0.5); line-height: 2; }
+    .footer-block-link { color: rgba(255,255,255,0.75); text-decoration: none; }
+    .footer-block-link:hover { text-decoration: underline; text-underline-offset: 2px; }
+  </style>
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="site-logo" href="./"><img src="./logo.png" alt=""><span class="logo-text">Presidio Bitcoin Index</span></a>
+      <nav class="site-nav">
+        <a class="nav-link" href="./about.html">About</a>
+        <a class="nav-link" href="./ask.html">Ask PB</a>
+        <a class="nav-link active" href="./topics/">Topics</a>
+        <a class="nav-link" href="./programming.html">Programming</a>
+        <a class="nav-link" href="./events.html">Events</a>
+        <span class="nav-sep"></span>
+        <!-- YouTube -->
+        <a class="icon-link" href="https://www.youtube.com/@PresidioBitcoin" target="_blank" title="YouTube">
+          <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
+        </a>
+        <!-- Substack -->
+        <a class="icon-link" href="https://presidiobitcoin.substack.com/" target="_blank" title="Substack">
+          <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M22.539 8.242H1.46V5.406h21.08v2.836zM1.46 10.812V24L12 18.11 22.54 24V10.812H1.46zM22.54 0H1.46v2.836h21.08V0z"/></svg>
+        </a>
+        <!-- X -->
+        <a class="icon-link" href="https://x.com/PresidioBitcoin" target="_blank" title="X">
+          <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.747l7.73-8.835L1.254 2.25H8.08l4.259 5.629zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+        </a>
+        <!-- Discord -->
+        <a class="icon-link" href="https://discord.gg/HGukhYDA" target="_blank" title="Discord">
+          <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20.317 4.492c-1.53-.69-3.17-1.2-4.885-1.49a.075.075 0 0 0-.079.036c-.21.369-.444.85-.608 1.23a18.566 18.566 0 0 0-5.487 0 12.36 12.36 0 0 0-.617-1.23A.077.077 0 0 0 8.562 3c-1.714.29-3.354.8-4.885 1.491a.07.07 0 0 0-.032.027C.533 9.093-.32 13.555.099 17.961a.08.08 0 0 0 .031.055 20.03 20.03 0 0 0 5.993 2.98.078.078 0 0 0 .084-.026 13.83 13.83 0 0 0 1.226-1.963.074.074 0 0 0-.041-.104 13.175 13.175 0 0 1-1.872-.878.075.075 0 0 1-.008-.125c.126-.093.252-.19.372-.287a.075.075 0 0 1 .078-.01c3.927 1.764 8.18 1.764 12.061 0a.075.075 0 0 1 .079.009c.12.098.245.195.372.288a.075.075 0 0 1-.006.125c-.598.344-1.22.635-1.873.877a.075.075 0 0 0-.041.105c.36.687.772 1.341 1.225 1.962a.077.077 0 0 0 .084.028 19.963 19.963 0 0 0 6.002-2.981.076.076 0 0 0 .032-.054c.5-5.094-.838-9.52-3.549-13.442a.06.06 0 0 0-.031-.03zM8.02 15.278c-1.182 0-2.157-1.069-2.157-2.38 0-1.312.956-2.38 2.157-2.38 1.21 0 2.176 1.077 2.157 2.38 0 1.312-.956 2.38-2.157 2.38zm7.975 0c-1.183 0-2.157-1.069-2.157-2.38 0-1.312.955-2.38 2.157-2.38 1.21 0 2.176 1.077 2.157 2.38 0 1.312-.946 2.38-2.157 2.38z"/></svg>
+        </a>
+        <span class="nav-sep"></span>
+        <a class="nav-link ext-link" href="https://presidiobitcoin.org" target="_blank">presidiobitcoin.org ↗</a>
+      </nav>
+    </div>
+  </header>
+
+  <div class="page-wrap">
+    <h1 class="page-title">Topics</h1>
+    <p class="page-sub" id="sub-count">Loading…</p>
+
+    <section class="featured-now" id="featured-now" aria-label="Featured topics">
+      <div class="featured-head">
+        <h2 class="featured-title">Featured Now</h2>
+      </div>
+      <div class="featured-grid" id="featured-grid">
+        <div class="featured-empty">Loading featured topics…</div>
+      </div>
+    </section>
+
+    <div class="sort-bar">
+      <button class="sort-btn active" id="btn-alpha" onclick="setSort('alpha')">Alphabetically</button>
+      <span>|</span>
+      <button class="sort-btn" id="btn-map" onclick="setSort('map')">By theme</button>
+      <span>|</span>
+      <button class="sort-btn" id="btn-date" onclick="setSort('date')">By date</button>
+      <span>|</span>
+      <button class="sort-btn" id="btn-series" onclick="setSort('series')">By series</button>
+    </div>
+
+    <div id="quick-nav" class="quick-nav" style="display:none"></div>
+
+    <div id="list"></div>
+  </div>
+
+  <script src="./series_config.js"></script>
+  <script src="./topics_config.js"></script>
+  <script>
+    function ytLink(id, t) { return `https://www.youtube.com/watch?v=${id}&t=${t}s`; }
+    function esc(s) {
+      return String(s ?? "").replace(/[&<>"']/g, c =>
+        ({"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;","'":"&#039;"}[c]));
+    }
+    function slug(s) {
+      return s.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
+    }
+    function topicsHash(id) {
+      return `./topics/#${id}`;
+    }
+    const CHAIN_SVG = `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg>`;
+    const KNOWLEDGE_MAP = [
+      {
+        title: "AI & Agents",
+        branches: [
+          { name: "Agents & apps" },
+          { name: "Models & labs" },
+          { name: "Compute & verification" },
+        ],
+      },
+      {
+        title: "Bitcoin as Money",
+        branches: [
+          { name: "Savings & collateral" },
+          { name: "Markets & macro" },
+          { name: "Everyday money" },
+        ],
+      },
+      {
+        title: "Builders & Infrastructure",
+        branches: [
+          { name: "Open-source projects" },
+          { name: "Mining & energy" },
+          { name: "Product & distribution" },
+        ],
+      },
+      {
+        title: "Other Maps",
+        branches: [
+          { name: "Stablecoins & rails" },
+          { name: "Prediction & coordination" },
+          { name: "Cross-cutting" },
+        ],
+      },
+      {
+        title: "Policy & Society",
+        branches: [
+          { name: "Regulation & advocacy" },
+          { name: "Geopolitics & human rights" },
+          { name: "Culture & education" },
+        ],
+      },
+      {
+        title: "Protocol & Scaling",
+        branches: [
+          { name: "Bitcoin Core & policy" },
+          { name: "Lightning & layers" },
+          { name: "Quantum readiness" },
+        ],
+      },
+      {
+        title: "Wallets & Custody",
+        branches: [
+          { name: "Self-custody UX" },
+          { name: "Privacy & rights" },
+          { name: "Names & identity" },
+        ],
+      },
+    ];
+    const MAP_TOPIC_OVERRIDES = {
+          "$100k bitcoin milestone": "Bitcoin as Money > Markets & macro",
+          "2-year yield": "Bitcoin as Money > Markets & macro",
+          "21 in 21": "Policy & Society > Culture & education",
+          "activation triggers": "Protocol & Scaling > Quantum readiness",
+          "activist bitcoin ux": "Policy & Society > Geopolitics & human rights",
+          "address replacement attacks": "Wallets & Custody > Self-custody UX",
+          "address reuse": "Wallets & Custody > Privacy & rights",
+          "agent authentication": "AI & Agents > Agents & apps",
+          "agent group chats": "AI & Agents > Agents & apps",
+          "agent wallets": "AI & Agents > Agents & apps",
+          "agent-run mints": "AI & Agents > Agents & apps",
+          "agentic commerce": "AI & Agents > Agents & apps",
+          "agentic fuzzing league": "AI & Agents > Agents & apps",
+          "agentic game theory": "AI & Agents > Agents & apps",
+          "agentic money": "AI & Agents > Agents & apps",
+          "agentic web": "AI & Agents > Agents & apps",
+          "ai ads": "AI & Agents > Agents & apps",
+          "ai agent payments": "AI & Agents > Agents & apps",
+          "ai agents and bitcoin": "AI & Agents > Agents & apps",
+          "ai agents earning bitcoin": "AI & Agents > Agents & apps",
+          "ai agents prefer bitcoin": "AI & Agents > Agents & apps",
+          "ai and cryptography": "AI & Agents > Models & labs",
+          "ai and lightning payments": "Bitcoin as Money > Everyday money",
+          "ai builder communities": "AI & Agents > Models & labs",
+          "ai business models": "AI & Agents > Models & labs",
+          "ai compute efficiency": "AI & Agents > Models & labs",
+          "ai data centers": "Builders & Infrastructure > Mining & energy",
+          "ai energy demand": "Builders & Infrastructure > Mining & energy",
+          "ai fiduciary": "AI & Agents > Models & labs",
+          "ai for activists": "Policy & Society > Geopolitics & human rights",
+          "ai fuzz testing": "AI & Agents > Agents & apps",
+          "ai governance": "AI & Agents > Models & labs",
+          "ai hackathons": "AI & Agents > Models & labs",
+          "ai in schools": "Policy & Society > Culture & education",
+          "ai micropayments": "Bitcoin as Money > Everyday money",
+          "ai model risk": "AI & Agents > Models & labs",
+          "ai music production": "AI & Agents > Models & labs",
+          "ai power demand": "Builders & Infrastructure > Mining & energy",
+          "ai privacy": "AI & Agents > Models & labs",
+          "ai provenance": "AI & Agents > Models & labs",
+          "ai security": "AI & Agents > Agents & apps",
+          "ai singularity": "AI & Agents > Models & labs",
+          "ai-built financial instruments": "Bitcoin as Money > Savings & collateral",
+          "ai-generated media": "AI & Agents > Agents & apps",
+          "alby": "Bitcoin as Money > Everyday money",
+          "american competitiveness": "Policy & Society > Geopolitics & human rights",
+          "anchorwatch": "Wallets & Custody > Self-custody UX",
+          "anduro quantum testing": "Protocol & Scaling > Quantum readiness",
+          "anthropic": "AI & Agents > Models & labs",
+          "app store gatekeeping": "Policy & Society > Regulation & advocacy",
+          "apple advanced data protection": "Wallets & Custody > Privacy & rights",
+          "argentina bitcoin adoption": "Bitcoin as Money > Everyday money",
+          "argentina currency devaluation": "Bitcoin as Money > Markets & macro",
+          "ark": "Protocol & Scaling > Lightning & layers",
+          "attention algorithms": "AI & Agents > Agents & apps",
+          "attention scarcity": "AI & Agents > Models & labs",
+          "autonomous agent commerce": "Bitcoin as Money > Everyday money",
+          "autonomous digital life": "AI & Agents > Agents & apps",
+          "aven": "Bitcoin as Money > Markets & macro",
+          "bank balance sheet liquidity": "Bitcoin as Money > Markets & macro",
+          "banks vs tech companies": "Bitcoin as Money > Markets & macro",
+          "banks vs. bitcoin startups": "Bitcoin as Money > Savings & collateral",
+          "batteries vs. transmission": "Builders & Infrastructure > Mining & energy",
+          "battery storage": "Builders & Infrastructure > Mining & energy",
+          "binohash": "Protocol & Scaling > Quantum readiness",
+          "bip 177": "Bitcoin as Money > Everyday money",
+          "bip 353": "Wallets & Custody > Names & identity",
+          "bip 444": "Protocol & Scaling > Bitcoin Core & policy",
+          "bip360": "Protocol & Scaling > Bitcoin Core & policy",
+          "bip39 in bitcoin core": "Wallets & Custody > Self-custody UX",
+          "bitbonds": "Bitcoin as Money > Savings & collateral",
+          "bitchat": "Wallets & Custody > Privacy & rights",
+          "bitcoin ₿ symbol": "Bitcoin as Money > Everyday money",
+          "bitcoin address growth": "Bitcoin as Money > Markets & macro",
+          "bitcoin aesthetic horizons": "Policy & Society > Culture & education",
+          "bitcoin and human rights": "Policy & Society > Geopolitics & human rights",
+          "bitcoin app innovation": "Protocol & Scaling > Lightning & layers",
+          "bitcoin art": "Policy & Society > Culture & education",
+          "bitcoin as ai collateral": "Bitcoin as Money > Savings & collateral",
+          "bitcoin as censorship resistance": "Policy & Society > Geopolitics & human rights",
+          "bitcoin as everyday money": "Bitcoin as Money > Everyday money",
+          "bitcoin as human rights tool": "Policy & Society > Geopolitics & human rights",
+          "bitcoin as language": "Policy & Society > Culture & education",
+          "bitcoin as pristine collateral": "Bitcoin as Money > Savings & collateral",
+          "bitcoin as savings asset": "Bitcoin as Money > Savings & collateral",
+          "bitcoin as strategic asset": "Policy & Society > Geopolitics & human rights",
+          "bitcoin as unit of account": "Bitcoin as Money > Markets & macro",
+          "bitcoin banking access": "Wallets & Custody > Self-custody UX",
+          "bitcoin billionaire flippening": "Bitcoin as Money > Markets & macro",
+          "bitcoin bond company": "Bitcoin as Money > Savings & collateral",
+          "bitcoin brand artifacts": "Policy & Society > Culture & education",
+          "bitcoin brand creative": "Policy & Society > Culture & education",
+          "bitcoin brand strategy": "Policy & Society > Culture & education",
+          "bitcoin branding": "Policy & Society > Culture & education",
+          "bitcoin business models": "Builders & Infrastructure > Product & distribution",
+          "bitcoin career paths": "Builders & Infrastructure > Open-source projects",
+          "bitcoin censorship resistance": "Policy & Society > Geopolitics & human rights",
+          "bitcoin checkpoints": "Protocol & Scaling > Bitcoin Core & policy",
+          "bitcoin civil liberties": "Wallets & Custody > Privacy & rights",
+          "bitcoin client diversity": "Protocol & Scaling > Bitcoin Core & policy",
+          "bitcoin communities": "Policy & Society > Culture & education",
+          "bitcoin community spaces": "Policy & Society > Culture & education",
+          "bitcoin confirmation risk": "Protocol & Scaling > Bitcoin Core & policy",
+          "bitcoin core contribution": "Protocol & Scaling > Bitcoin Core & policy",
+          "bitcoin core contributors": "Protocol & Scaling > Bitcoin Core & policy",
+          "bitcoin core funding": "Builders & Infrastructure > Open-source projects",
+          "bitcoin core wallet redesign": "Wallets & Custody > Self-custody UX",
+          "bitcoin coworking": "Policy & Society > Culture & education",
+          "bitcoin credit card chip": "Bitcoin as Money > Savings & collateral",
+          "bitcoin credit products": "Bitcoin as Money > Savings & collateral",
+          "bitcoin custody models": "Wallets & Custody > Self-custody UX",
+          "bitcoin data": "Protocol & Scaling > Bitcoin Core & policy",
+          "bitcoin denominations": "Bitcoin as Money > Everyday money",
+          "bitcoin design": "Policy & Society > Culture & education",
+          "bitcoin design community": "Builders & Infrastructure > Open-source projects",
+          "bitcoin design for activists": "Policy & Society > Geopolitics & human rights",
+          "bitcoin design foundation": "Builders & Infrastructure > Open-source projects",
+          "bitcoin design guide": "Builders & Infrastructure > Open-source projects",
+          "bitcoin design sidekick": "Builders & Infrastructure > Open-source projects",
+          "bitcoin design week": "Policy & Society > Culture & education",
+          "bitcoin dev list": "Builders & Infrastructure > Open-source projects",
+          "bitcoin developer experience": "Builders & Infrastructure > Open-source projects",
+          "bitcoin developer onboarding": "Builders & Infrastructure > Open-source projects",
+          "bitcoin developer tools": "Builders & Infrastructure > Open-source projects",
+          "bitcoin difficulty adjustment": "Builders & Infrastructure > Mining & energy",
+          "bitcoin discussion venues": "Protocol & Scaling > Bitcoin Core & policy",
+          "bitcoin distribution": "Bitcoin as Money > Savings & collateral",
+          "bitcoin education": "Policy & Society > Culture & education",
+          "bitcoin energy criticism": "Builders & Infrastructure > Mining & energy",
+          "bitcoin energy security": "Builders & Infrastructure > Mining & energy",
+          "bitcoin etfs": "Bitcoin as Money > Markets & macro",
+          "bitcoin events": "Policy & Society > Culture & education",
+          "bitcoin exchanges": "Bitcoin as Money > Markets & macro",
+          "bitcoin expressiveness": "Protocol & Scaling > Bitcoin Core & policy",
+          "bitcoin failure mitigation": "Protocol & Scaling > Bitcoin Core & policy",
+          "bitcoin faucet": "Builders & Infrastructure > Product & distribution",
+          "bitcoin fee market": "Protocol & Scaling > Bitcoin Core & policy",
+          "bitcoin fees": "Protocol & Scaling > Bitcoin Core & policy",
+          "bitcoin for ai agents": "AI & Agents > Agents & apps",
+          "bitcoin foundational layer": "Protocol & Scaling > Bitcoin Core & policy",
+          "bitcoin games": "Bitcoin as Money > Everyday money",
+          "bitcoin gaming": "Bitcoin as Money > Everyday money",
+          "bitcoin gift cards": "Bitcoin as Money > Everyday money",
+          "bitcoin governance constituents": "Protocol & Scaling > Bitcoin Core & policy",
+          "bitcoin high fives": "Wallets & Custody > Self-custody UX",
+          "bitcoin in ai models": "AI & Agents > Models & labs",
+          "bitcoin in silicon valley": "Policy & Society > Culture & education",
+          "bitcoin in space": "Builders & Infrastructure > Mining & energy",
+          "bitcoin inside silicon valley products": "Policy & Society > Culture & education",
+          "bitcoin insurance": "Wallets & Custody > Self-custody UX",
+          "bitcoin keyboards": "Wallets & Custody > Names & identity",
+          "bitcoin leadership": "Policy & Society > Culture & education",
+          "bitcoin local currencies": "Bitcoin as Money > Savings & collateral",
+          "bitcoin map": "Bitcoin as Money > Everyday money",
+          "bitcoin market structure": "Bitcoin as Money > Markets & macro",
+          "bitcoin merchant adoption": "Bitcoin as Money > Everyday money",
+          "bitcoin merchant association": "Bitcoin as Money > Everyday money",
+          "bitcoin merchant community": "Builders & Infrastructure > Product & distribution",
+          "bitcoin merchant education": "Bitcoin as Money > Everyday money",
+          "bitcoin migration mechanics": "Protocol & Scaling > Quantum readiness",
+          "bitcoin mining businesses": "Builders & Infrastructure > Mining & energy",
+          "bitcoin mining demand response": "Builders & Infrastructure > Mining & energy",
+          "bitcoin mining energy infrastructure": "Builders & Infrastructure > Mining & energy",
+          "bitcoin miners and ai compute": "Builders & Infrastructure > Mining & energy",
+          "bitcoin monetization": "Bitcoin as Money > Markets & macro",
+          "bitcoin namespace": "Wallets & Custody > Names & identity",
+          "bitcoin nfc": "Bitcoin as Money > Everyday money",
+          "bitcoin node mcp": "AI & Agents > Agents & apps",
+          "bitcoin node operation": "Protocol & Scaling > Bitcoin Core & policy",
+          "bitcoin open source": "Builders & Infrastructure > Open-source projects",
+          "bitcoin open-source funding": "Builders & Infrastructure > Open-source projects",
+          "bitcoin open-source security": "Builders & Infrastructure > Open-source projects",
+          "bitcoin ossification": "Protocol & Scaling > Bitcoin Core & policy",
+          "bitcoin park": "Policy & Society > Culture & education",
+          "bitcoin payments": "Bitcoin as Money > Everyday money",
+          "bitcoin payments and savings": "Bitcoin as Money > Everyday money",
+          "bitcoin payments culture": "Bitcoin as Money > Everyday money",
+          "bitcoin performance": "Bitcoin as Money > Markets & macro",
+          "bitcoin permissionless": "Protocol & Scaling > Bitcoin Core & policy",
+          "bitcoin permissionlessness": "Protocol & Scaling > Bitcoin Core & policy",
+          "bitcoin policy": "Protocol & Scaling > Bitcoin Core & policy",
+          "bitcoin policymakers": "Policy & Society > Regulation & advocacy",
+          "bitcoin post-quantum report": "Protocol & Scaling > Quantum readiness",
+          "bitcoin power law": "Bitcoin as Money > Markets & macro",
+          "bitcoin price cycles": "Bitcoin as Money > Markets & macro",
+          "bitcoin privacy": "Wallets & Custody > Privacy & rights",
+          "bitcoin privacy rights": "Wallets & Custody > Privacy & rights",
+          "bitcoin product design": "Builders & Infrastructure > Open-source projects",
+          "bitcoin quantum break glass scenario": "Protocol & Scaling > Quantum readiness",
+          "bitcoin rewards": "Bitcoin as Money > Everyday money",
+          "bitcoin s-curve": "Bitcoin as Money > Markets & macro",
+          "bitcoin savings asset": "Bitcoin as Money > Savings & collateral",
+          "bitcoin savings bonds": "Bitcoin as Money > Savings & collateral",
+          "bitcoin season 2": "Protocol & Scaling > Bitcoin Core & policy",
+          "bitcoin securitization": "Bitcoin as Money > Savings & collateral",
+          "bitcoin security budget": "Protocol & Scaling > Bitcoin Core & policy",
+          "bitcoin self-custody": "Wallets & Custody > Self-custody UX",
+          "bitcoin settlement layer": "Bitcoin as Money > Savings & collateral",
+          "bitcoin settlement network": "Bitcoin as Money > Savings & collateral",
+          "bitcoin spaces and culture": "Policy & Society > Culture & education",
+          "bitcoin spam": "Protocol & Scaling > Bitcoin Core & policy",
+          "bitcoin stablecoins": "Protocol & Scaling > Lightning & layers",
+          "bitcoin staff education": "Bitcoin as Money > Everyday money",
+          "bitcoin standard": "Protocol & Scaling > Bitcoin Core & policy",
+          "bitcoin startup applications": "Builders & Infrastructure > Product & distribution",
+          "bitcoin stickers": "Bitcoin as Money > Everyday money",
+          "bitcoin students network": "Policy & Society > Culture & education",
+          "bitcoin supply cap": "Bitcoin as Money > Savings & collateral",
+          "bitcoin sweep accounts": "Builders & Infrastructure > Product & distribution",
+          "bitcoin timelocks": "Protocol & Scaling > Bitcoin Core & policy",
+          "bitcoin treasury companies": "Bitcoin as Money > Markets & macro",
+          "bitcoin understanding": "Policy & Society > Culture & education",
+          "bitcoin usefulness": "Bitcoin as Money > Everyday money",
+          "bitcoin ux like venmo": "Bitcoin as Money > Everyday money",
+          "bitcoin ux research": "Builders & Infrastructure > Open-source projects",
+          "bitcoin vaults": "Wallets & Custody > Self-custody UX",
+          "bitcoin vc landscape": "Builders & Infrastructure > Product & distribution",
+          "bitcoin venture capital": "Builders & Infrastructure > Product & distribution",
+          "bitcoin vs. gold": "Bitcoin as Money > Markets & macro",
+          "bitcoin vs. stablecoins": "Bitcoin as Money > Everyday money",
+          "bitcoin vs. stripe": "Bitcoin as Money > Everyday money",
+          "bitcoin white paper": "Protocol & Scaling > Bitcoin Core & policy",
+          "bitcoin-aligned ai": "AI & Agents > Models & labs",
+          "bitcoin-backed credit": "Bitcoin as Money > Savings & collateral",
+          "bitcoin-backed loans": "Bitcoin as Money > Savings & collateral",
+          "bitcoin-based voting": "Builders & Infrastructure > Product & distribution",
+          "bitcoin-dev quantum activity": "Protocol & Scaling > Quantum readiness",
+          "bitcoin-only startups": "Builders & Infrastructure > Product & distribution",
+          "bitcoin++": "Protocol & Scaling > Lightning & layers",
+          "bitkey": "Wallets & Custody > Self-custody UX",
+          "bitwise": "Bitcoin as Money > Markets & macro",
+          "bitzip": "Protocol & Scaling > Quantum readiness",
+          "block": "Builders & Infrastructure > Product & distribution",
+          "block bitcoin treasury strategy": "Builders & Infrastructure > Product & distribution",
+          "block custody": "Wallets & Custody > Self-custody UX",
+          "block hijacking": "Protocol & Scaling > Bitcoin Core & policy",
+          "block propagation": "Protocol & Scaling > Bitcoin Core & policy",
+          "block vs stripe": "Bitcoin as Money > Everyday money",
+          "block's bitcoin custody": "Wallets & Custody > Self-custody UX",
+          "bluetooth mesh": "Wallets & Custody > Privacy & rights",
+          "bolt 12": "Protocol & Scaling > Lightning & layers",
+          "bolt 12 zaps": "Protocol & Scaling > Lightning & layers",
+          "bridge defenses": "Protocol & Scaling > Quantum readiness",
+          "btcpay server": "Builders & Infrastructure > Open-source projects",
+          "buck token": "Other Maps > Stablecoins & rails",
+          "builder": "Builders & Infrastructure > Product & distribution",
+          "builder advice": "Builders & Infrastructure > Product & distribution",
+          "built in the presidio": "Policy & Society > Culture & education",
+          "bump-to-pay": "Bitcoin as Money > Everyday money",
+          "burn vs. steal": "Protocol & Scaling > Bitcoin Core & policy",
+          "business bitcoin treasuries": "Bitcoin as Money > Savings & collateral",
+          "bybit hack": "Wallets & Custody > Self-custody UX",
+          "career advice in the age of ai": "AI & Agents > Models & labs",
+          "cash app": "Bitcoin as Money > Everyday money",
+          "cash app lightning": "Bitcoin as Money > Everyday money",
+          "cashless society": "Bitcoin as Money > Everyday money",
+          "calle": "Policy & Society > Culture & education",
+          "cashu": "Wallets & Custody > Privacy & rights",
+          "cashu and lightning": "Protocol & Scaling > Lightning & layers",
+          "castle": "Bitcoin as Money > Savings & collateral",
+          "chaumian ecash": "Wallets & Custody > Privacy & rights",
+          "chaincode boss challenge": "Protocol & Scaling > Bitcoin Core & policy",
+          "chat control": "Policy & Society > Regulation & advocacy",
+          "china": "Policy & Society > Geopolitics & human rights",
+          "china energy race": "Builders & Infrastructure > Mining & energy",
+          "china vs. u.s. bitcoin holdings": "Policy & Society > Geopolitics & human rights",
+          "chip-level verification": "Builders & Infrastructure > Open-source projects",
+          "circle": "Other Maps > Stablecoins & rails",
+          "clarity act": "Policy & Society > Regulation & advocacy",
+          "client diversity": "Protocol & Scaling > Bitcoin Core & policy",
+          "clawi": "AI & Agents > Agents & apps",
+          "cloudflare": "AI & Agents > Agents & apps",
+          "codex": "AI & Agents > Agents & apps",
+          "cognitive sovereignty": "Wallets & Custody > Privacy & rights",
+          "coinbase collateralized borrowing": "Bitcoin as Money > Savings & collateral",
+          "coinbase ransom": "Wallets & Custody > Self-custody UX",
+          "commit-delay-reveal": "Protocol & Scaling > Quantum readiness",
+          "compact block relay": "Protocol & Scaling > Bitcoin Core & policy",
+          "companies supporting open source": "Builders & Infrastructure > Open-source projects",
+          "consensus vs. policy": "Protocol & Scaling > Bitcoin Core & policy",
+          "contentious forks": "Protocol & Scaling > Bitcoin Core & policy",
+          "core v30": "Protocol & Scaling > Bitcoin Core & policy",
+          "corporate bitcoin treasury strategies": "Bitcoin as Money > Savings & collateral",
+          "cross-asset correlations": "Bitcoin as Money > Markets & macro",
+          "crqc rapid response": "Protocol & Scaling > Quantum readiness",
+          "crusoe": "Builders & Infrastructure > Mining & energy",
+          "crypto capital misallocation": "Bitcoin as Money > Markets & macro",
+          "crypto executive order": "Policy & Society > Regulation & advocacy",
+          "cryptographers in bitcoin": "Protocol & Scaling > Quantum readiness",
+          "cryptographically relevant quantum computers": "Protocol & Scaling > Quantum readiness",
+          "cryptography and constitutional rights": "Wallets & Custody > Privacy & rights",
+          "custodial lending failures": "Bitcoin as Money > Savings & collateral",
+          "custodian quantum hygiene": "Protocol & Scaling > Quantum readiness",
+          "custody attack vectors": "Wallets & Custody > Self-custody UX",
+          "data center flexibility": "Builders & Infrastructure > Mining & energy",
+          "data honeypots": "Wallets & Custody > Privacy & rights",
+          "data vending machines": "AI & Agents > Agents & apps",
+          "de minimis tax": "Bitcoin as Money > Everyday money",
+          "dead internet theory": "AI & Agents > Agents & apps",
+          "debt roll": "Bitcoin as Money > Savings & collateral",
+          "decentralization window": "Wallets & Custody > Self-custody UX",
+          "decentralized order books": "Bitcoin as Money > Markets & macro",
+          "deepseek": "AI & Agents > Agents & apps",
+          "delegance ai": "AI & Agents > Agents & apps",
+          "delete ip": "Policy & Society > Regulation & advocacy",
+          "designers and developers": "Builders & Infrastructure > Open-source projects",
+          "digital assets taxonomy": "Other Maps > Stablecoins & rails",
+          "digital capital": "Bitcoin as Money > Savings & collateral",
+          "digital commodity": "Policy & Society > Regulation & advocacy",
+          "digital gold": "Bitcoin as Money > Markets & macro",
+          "digital life self-custody": "Wallets & Custody > Self-custody UX",
+          "distributed custody network": "Wallets & Custody > Self-custody UX",
+          "dollar liquidity": "Bitcoin as Money > Markets & macro",
+          "dollar reserve currency": "Bitcoin as Money > Markets & macro",
+          "dynamic block sizes": "Protocol & Scaling > Bitcoin Core & policy",
+          "early pbj": "Policy & Society > Culture & education",
+          "easy bitcoin addresses": "Protocol & Scaling > Lightning & layers",
+          "ecash design": "Wallets & Custody > Privacy & rights",
+          "ecash mints": "Wallets & Custody > Self-custody UX",
+          "ecash ux": "Wallets & Custody > Privacy & rights",
+          "economic nodes": "Protocol & Scaling > Bitcoin Core & policy",
+          "el salvador": "Policy & Society > Geopolitics & human rights",
+          "electricity demand growth": "Builders & Infrastructure > Mining & energy",
+          "elon co.": "AI & Agents > Agents & apps",
+          "emergency quantum safeguards": "Protocol & Scaling > Quantum readiness",
+          "emerging-market bitcoin financial services": "Bitcoin as Money > Markets & macro",
+          "end-to-end encryption": "Wallets & Custody > Privacy & rights",
+          "energy abundance": "Builders & Infrastructure > Mining & energy",
+          "energy financing": "Builders & Infrastructure > Mining & energy",
+          "energy-backed money": "Bitcoin as Money > Savings & collateral",
+          "ephemeral anchors": "Protocol & Scaling > Bitcoin Core & policy",
+          "epic v. apple": "Bitcoin as Money > Everyday money",
+          "etf-based lending": "Bitcoin as Money > Savings & collateral",
+          "eurodollar system": "Bitcoin as Money > Markets & macro",
+          "eurodollar trade settlement": "Bitcoin as Money > Markets & macro",
+          "exposed public keys": "Protocol & Scaling > Quantum readiness",
+          "fannie mae": "Bitcoin as Money > Savings & collateral",
+          "fed watching": "Bitcoin as Money > Markets & macro",
+          "fee transparency": "Protocol & Scaling > Lightning & layers",
+          "fiat bitcoin": "Bitcoin as Money > Markets & macro",
+          "financial censorship": "Policy & Society > Geopolitics & human rights",
+          "financial freedom research": "Policy & Society > Geopolitics & human rights",
+          "financial privacy": "Wallets & Custody > Privacy & rights",
+          "fixed-rate bitcoin loans": "Bitcoin as Money > Savings & collateral",
+          "flexible compute": "AI & Agents > Compute & verification",
+          "flexible load": "Builders & Infrastructure > Mining & energy",
+          "flint": "AI & Agents > Agents & apps",
+          "fold": "Bitcoin as Money > Everyday money",
+          "founder evaluation": "Builders & Infrastructure > Product & distribution",
+          "fractal grids": "Builders & Infrastructure > Mining & energy",
+          "free banking": "Other Maps > Stablecoins & rails",
+          "free speech and payments": "Policy & Society > Geopolitics & human rights",
+          "frontier models": "AI & Agents > Models & labs",
+          "fusion energy": "Builders & Infrastructure > Mining & energy",
+          "future of scarcity": "AI & Agents > Models & labs",
+          "gemini": "AI & Agents > Models & labs",
+          "gen z bitcoin adoption": "Policy & Society > Culture & education",
+          "genesis block": "Builders & Infrastructure > Product & distribution",
+          "geohashing": "Wallets & Custody > Privacy & rights",
+          "gigascale": "Builders & Infrastructure > Mining & energy",
+          "gigawatt data centers": "Builders & Infrastructure > Mining & energy",
+          "global fee market": "Protocol & Scaling > Bitcoin Core & policy",
+          "google cloud universal ledger": "Other Maps > Stablecoins & rails",
+          "google flow": "AI & Agents > Models & labs",
+          "google quantum": "Protocol & Scaling > Quantum readiness",
+          "goose": "AI & Agents > Agents & apps",
+          "goose perception": "AI & Agents > Agents & apps",
+          "gpu marketplace": "AI & Agents > Compute & verification",
+          "grand design challenges": "Builders & Infrastructure > Open-source projects",
+          "grassroots bitcoin organizing": "Policy & Society > Culture & education",
+          "grid interconnection": "Builders & Infrastructure > Mining & energy",
+          "grid permitting": "Builders & Infrastructure > Mining & energy",
+          "group chat vibecoding": "AI & Agents > Agents & apps",
+          "guarana bank": "Bitcoin as Money > Savings & collateral",
+          "hack-nation": "Policy & Society > Culture & education",
+          "hardware wallet security": "Wallets & Custody > Self-custody UX",
+          "hash-based signatures": "Protocol & Scaling > Quantum readiness",
+          "hashed address formats": "Protocol & Scaling > Quantum readiness",
+          "high seas compute": "Builders & Infrastructure > Mining & energy",
+          "hivemind vc": "Other Maps > Prediction & coordination",
+          "home equity bitcoin loans": "Bitcoin as Money > Savings & collateral",
+          "hourglass proposal": "Protocol & Scaling > Lightning & layers",
+          "hrf grant program": "Policy & Society > Geopolitics & human rights",
+          "hsm policy risk": "Wallets & Custody > Self-custody UX",
+          "human bitcoin addresses": "Wallets & Custody > Privacy & rights",
+          "human rights foundation grants": "Policy & Society > Geopolitics & human rights",
+          "hyperbitcoinization": "Bitcoin as Money > Savings & collateral",
+          "hyperinflation": "Bitcoin as Money > Markets & macro",
+          "hyperinflation stories": "Bitcoin as Money > Markets & macro",
+          "in-kind bitcoin etfs": "Bitcoin as Money > Markets & macro",
+          "incentive engineering": "Other Maps > Prediction & coordination",
+          "infrastructure vs. applications": "Builders & Infrastructure > Product & distribution",
+          "institutional adoption": "Bitcoin as Money > Savings & collateral",
+          "institutional adoption as education": "Policy & Society > Culture & education",
+          "institutional bitcoin adoption": "Bitcoin as Money > Markets & macro",
+          "institutional btc management": "Wallets & Custody > Self-custody UX",
+          "interconnection queues": "Builders & Infrastructure > Mining & energy",
+          "interest-rate market": "Bitcoin as Money > Markets & macro",
+          "internet of earners": "Bitcoin as Money > Markets & macro",
+          "internet of energy": "Builders & Infrastructure > Mining & energy",
+          "iphone memory": "AI & Agents > Agents & apps",
+          "iran": "Policy & Society > Geopolitics & human rights",
+          "jack dorsey": "Policy & Society > Culture & education",
+          "jevons paradox": "Builders & Infrastructure > Mining & energy",
+          "journalism and financial censorship": "Policy & Society > Geopolitics & human rights",
+          "kazakhstan": "Policy & Society > Geopolitics & human rights",
+          "knots": "Protocol & Scaling > Bitcoin Core & policy",
+          "kyc honeypots": "Wallets & Custody > Privacy & rights",
+          "kyc'd internet": "Wallets & Custody > Names & identity",
+          "l2 tradeoffs": "Protocol & Scaling > Lightning & layers",
+          "l402": "Protocol & Scaling > Lightning & layers",
+          "l402 directories": "AI & Agents > Agents & apps",
+          "labor and capital convergence": "Bitcoin as Money > Savings & collateral",
+          "latin america bitcoin credit": "Bitcoin as Money > Savings & collateral",
+          "lattice-based signatures": "Protocol & Scaling > Quantum readiness",
+          "lava": "Bitcoin as Money > Savings & collateral",
+          "layered money": "Bitcoin as Money > Savings & collateral",
+          "legacy coin policy": "Protocol & Scaling > Quantum readiness",
+          "legal tender laws": "Bitcoin as Money > Markets & macro",
+          "lexe": "Protocol & Scaling > Lightning & layers",
+          "lifeboat": "Protocol & Scaling > Quantum readiness",
+          "lifted fawkescoin": "Protocol & Scaling > Quantum readiness",
+          "lightning bridge": "Protocol & Scaling > Lightning & layers",
+          "lightning for energy settlement": "Protocol & Scaling > Lightning & layers",
+          "lightning infrastructure": "Protocol & Scaling > Lightning & layers",
+          "lightning interoperability": "Protocol & Scaling > Lightning & layers",
+          "lightning labs": "Protocol & Scaling > Lightning & layers",
+          "lightning micropayments": "Bitcoin as Money > Everyday money",
+          "lightning network": "Protocol & Scaling > Lightning & layers",
+          "lightning scaling": "Protocol & Scaling > Lightning & layers",
+          "lightning self-custody ux": "Wallets & Custody > Self-custody UX",
+          "lightning service providers": "Protocol & Scaling > Lightning & layers",
+          "lightning synthetic dollars": "Protocol & Scaling > Lightning & layers",
+          "lightning yield": "Protocol & Scaling > Lightning & layers",
+          "lightspark": "Protocol & Scaling > Lightning & layers",
+          "liquid shrincs deployment": "Protocol & Scaling > Quantum readiness",
+          "liquidity cold start": "Bitcoin as Money > Markets & macro",
+          "lnd": "Protocol & Scaling > Lightning & layers",
+          "local ai hardware": "AI & Agents > Compute & verification",
+          "local circular economies": "Policy & Society > Culture & education",
+          "long-duration storage": "Builders & Infrastructure > Mining & energy",
+          "long-range attacks": "Protocol & Scaling > Quantum readiness",
+          "machine payments protocol": "Bitcoin as Money > Everyday money",
+          "machine-ready repos": "AI & Agents > Agents & apps",
+          "macrogrids": "Builders & Infrastructure > Mining & energy",
+          "mainstream bitcoin ux": "Bitcoin as Money > Everyday money",
+          "making bitcoin magical": "Builders & Infrastructure > Open-source projects",
+          "maple ai": "AI & Agents > Agents & apps",
+          "mara slipstream": "Builders & Infrastructure > Mining & energy",
+          "maritime data centers": "Builders & Infrastructure > Mining & energy",
+          "market-chosen money": "Bitcoin as Money > Markets & macro",
+          "mcp servers": "AI & Agents > Agents & apps",
+          "member spotlight": "Policy & Society > Culture & education",
+          "memepay": "Bitcoin as Money > Markets & macro",
+          "merchant onboarding": "Bitcoin as Money > Everyday money",
+          "mesh-llm": "AI & Agents > Compute & verification",
+          "messaging app payments": "Bitcoin as Money > Everyday money",
+          "meta": "Protocol & Scaling > Lightning & layers",
+          "michael saylor": "Bitcoin as Money > Savings & collateral",
+          "migration capacity": "Protocol & Scaling > Quantum readiness",
+          "miner fairness": "Builders & Infrastructure > Mining & energy",
+          "mining centralization": "Builders & Infrastructure > Mining & energy",
+          "mining chip platforms": "Builders & Infrastructure > Mining & energy",
+          "mining chips vs rigs": "Builders & Infrastructure > Mining & energy",
+          "mining decentralization": "Builders & Infrastructure > Mining & energy",
+          "mining fleet software": "Builders & Infrastructure > Mining & energy",
+          "mining latency": "Builders & Infrastructure > Mining & energy",
+          "mining pool centralization": "Builders & Infrastructure > Mining & energy",
+          "mining pools": "Builders & Infrastructure > Mining & energy",
+          "miniscript": "Protocol & Scaling > Bitcoin Core & policy",
+          "mit digital currency initiative": "Builders & Infrastructure > Open-source projects",
+          "model provider lock-in": "AI & Agents > Models & labs",
+          "modular mining": "Builders & Infrastructure > Mining & energy",
+          "moltbook": "AI & Agents > Agents & apps",
+          "moltbot": "AI & Agents > Agents & apps",
+          "money education": "Policy & Society > Culture & education",
+          "money services regulation": "Policy & Society > Regulation & advocacy",
+          "moneydevkit (mdk)": "Builders & Infrastructure > Product & distribution",
+          "mpc payments": "Bitcoin as Money > Everyday money",
+          "mstr earnings": "Bitcoin as Money > Markets & macro",
+          "nation-state bitcoin attack risk": "Policy & Society > Geopolitics & human rights",
+          "nation-state bitcoin custody": "Policy & Society > Geopolitics & human rights",
+          "net-new bitcoin use cases": "Bitcoin as Money > Everyday money",
+          "network evolution": "Wallets & Custody > Names & identity",
+          "neutral reserve asset": "Bitcoin as Money > Savings & collateral",
+          "next-generation lightning wallets": "Bitcoin as Money > Everyday money",
+          "no-kyc payments": "Bitcoin as Money > Everyday money",
+          "noauth": "Wallets & Custody > Names & identity",
+          "non-custodial lending": "Bitcoin as Money > Savings & collateral",
+          "nostr adoption": "Wallets & Custody > Names & identity",
+          "nostr and ai": "AI & Agents > Agents & apps",
+          "nostr blossom": "Wallets & Custody > Names & identity",
+          "nostr data vending machine": "AI & Agents > Agents & apps",
+          "nostr developer tools": "Builders & Infrastructure > Open-source projects",
+          "nostr for ai agents": "AI & Agents > Agents & apps",
+          "nostr for energy assets": "Builders & Infrastructure > Mining & energy",
+          "nostr identity": "Wallets & Custody > Names & identity",
+          "nostr messaging": "Wallets & Custody > Names & identity",
+          "nostr payments": "Bitcoin as Money > Everyday money",
+          "nostr resource markets": "Bitcoin as Money > Markets & macro",
+          "nostr talent markets": "Bitcoin as Money > Markets & macro",
+          "nostr wallet connect": "Bitcoin as Money > Everyday money",
+          "nostr web of trust": "Wallets & Custody > Names & identity",
+          "not your keys, not your ai": "AI & Agents > Agents & apps",
+          "obscura vpn": "Wallets & Custody > Privacy & rights",
+          "ocean energy": "Builders & Infrastructure > Mining & energy",
+          "ocean power": "Builders & Infrastructure > Mining & energy",
+          "off-grid data centers": "Builders & Infrastructure > Mining & energy",
+          "off-grid mining": "Builders & Infrastructure > Mining & energy",
+          "offline lightning receiving": "Protocol & Scaling > Lightning & layers",
+          "on-chain risk parameters": "Bitcoin as Money > Savings & collateral",
+          "op_return": "Protocol & Scaling > Bitcoin Core & policy",
+          "open-source ai": "AI & Agents > Models & labs",
+          "open-source ai models": "AI & Agents > Models & labs",
+          "open-source algorithms": "Builders & Infrastructure > Open-source projects",
+          "open-source apps": "Builders & Infrastructure > Open-source projects",
+          "open-source bounties": "AI & Agents > Agents & apps",
+          "open-source designers": "Builders & Infrastructure > Open-source projects",
+          "open-source developer protections": "Policy & Society > Regulation & advocacy",
+          "open-source funding": "Builders & Infrastructure > Open-source projects",
+          "open-source models": "AI & Agents > Models & labs",
+          "open-source software": "Builders & Infrastructure > Open-source projects",
+          "open-source thinking": "Builders & Infrastructure > Open-source projects",
+          "openai": "AI & Agents > Models & labs",
+          "openai operator": "AI & Agents > Models & labs",
+          "openclaw": "AI & Agents > Agents & apps",
+          "operation chokepoint 2.0": "Policy & Society > Regulation & advocacy",
+          "organizational ai agents": "AI & Agents > Agents & apps",
+          "ori": "AI & Agents > Agents & apps",
+          "output types": "Protocol & Scaling > Bitcoin Core & policy",
+          "overbuilding ai compute": "AI & Agents > Compute & verification",
+          "p2pk outputs": "Protocol & Scaling > Quantum readiness",
+          "pakistan mining": "Builders & Infrastructure > Mining & energy",
+          "panthalassa": "Builders & Infrastructure > Mining & energy",
+          "paper bitcoin": "Wallets & Custody > Self-custody UX",
+          "pay-to-merkle-root": "Protocol & Scaling > Bitcoin Core & policy",
+          "pay-to-quantum-safe": "Protocol & Scaling > Quantum readiness",
+          "payjoin": "Wallets & Custody > Privacy & rights",
+          "payment incentives": "Protocol & Scaling > Lightning & layers",
+          "payment links": "Bitcoin as Money > Everyday money",
+          "payment privacy": "Wallets & Custody > Privacy & rights",
+          "payment protocol ux": "Bitcoin as Money > Everyday money",
+          "payment trees": "Protocol & Scaling > Lightning & layers",
+          "payments and savings": "Bitcoin as Money > Everyday money",
+          "peer bonuses": "Other Maps > Prediction & coordination",
+          "personal agent hardware": "AI & Agents > Compute & verification",
+          "phishing attacks": "Wallets & Custody > Self-custody UX",
+          "phoenix": "Wallets & Custody > Self-custody UX",
+          "photonic quantum computing": "Protocol & Scaling > Quantum readiness",
+          "physical bitcoin": "Policy & Society > Culture & education",
+          "physical bitcoin spaces": "Policy & Society > Culture & education",
+          "pink owl coffee": "Bitcoin as Money > Everyday money",
+          "podcast ad skipping": "AI & Agents > Agents & apps",
+          "post-quantum readiness": "Protocol & Scaling > Quantum readiness",
+          "post-quantum signatures": "Protocol & Scaling > Quantum readiness",
+          "power-law exponent": "Bitcoin as Money > Markets & macro",
+          "pqc precommitment": "Protocol & Scaling > Quantum readiness",
+          "prediction markets": "Other Maps > Prediction & coordination",
+          "presidio bitcoin": "Policy & Society > Culture & education",
+          "presidio bitcoin entrepreneur in residence program": "Policy & Society > Culture & education",
+          "presidio bitcoin events": "Policy & Society > Culture & education",
+          "presidio bitcoin hackathon": "Policy & Society > Culture & education",
+          "presidio bitcoin hackathon awards": "AI & Agents > Agents & apps",
+          "presidio bitcoin hackathon finalist presentations": "Policy & Society > Culture & education",
+          "presidio bitcoin jam (pbj)": "Policy & Society > Culture & education",
+          "presidio bitcoin launch": "Policy & Society > Culture & education",
+          "presidio bitcoin membership": "Builders & Infrastructure > Open-source projects",
+          "presidio bitcoin recurring events": "Policy & Society > Culture & education",
+          "presidio bitcoin startup hub": "Policy & Society > Culture & education",
+          "presidio bitcoin startup night": "Policy & Society > Culture & education",
+          "presidio bitcoin's quantum readiness report": "Protocol & Scaling > Quantum readiness",
+          "price analysis": "Bitcoin as Money > Markets & macro",
+          "privacy coins": "Wallets & Custody > Privacy & rights",
+          "privacy pain threshold": "Wallets & Custody > Privacy & rights",
+          "private mempools": "Protocol & Scaling > Bitcoin Core & policy",
+          "private-key authenticity": "Wallets & Custody > Names & identity",
+          "project darwin": "AI & Agents > Agents & apps",
+          "project eleven": "Protocol & Scaling > Quantum readiness",
+          "proof of keys": "Wallets & Custody > Self-custody UX",
+          "proof of work energy reuse": "Builders & Infrastructure > Mining & energy",
+          "proof of personhood": "Wallets & Custody > Names & identity",
+          "proof of reserves": "Wallets & Custody > Self-custody UX",
+          "proof of walk": "AI & Agents > Agents & apps",
+          "proto": "Builders & Infrastructure > Mining & energy",
+          "public vs. private money": "Other Maps > Stablecoins & rails",
+          "quantum and bitcoin": "Protocol & Scaling > Quantum readiness",
+          "quantum bitcoin improvement proposal": "Protocol & Scaling > Quantum readiness",
+          "quantum bitcoin summit": "Protocol & Scaling > Quantum readiness",
+          "quantum complacency": "Protocol & Scaling > Quantum readiness",
+          "quantum day": "Protocol & Scaling > Quantum readiness",
+          "quantum exposure": "Protocol & Scaling > Quantum readiness",
+          "quantum fork risk": "Protocol & Scaling > Quantum readiness",
+          "quantum fud": "Protocol & Scaling > Quantum readiness",
+          "quantum governance risk": "Protocol & Scaling > Quantum readiness",
+          "quantum migration": "Protocol & Scaling > Quantum readiness",
+          "quantum mining": "Builders & Infrastructure > Mining & energy",
+          "quantum panic": "Protocol & Scaling > Quantum readiness",
+          "quantum policy": "Protocol & Scaling > Quantum readiness",
+          "quantum readiness coordination": "Protocol & Scaling > Quantum readiness",
+          "quantum threat modeling": "Protocol & Scaling > Quantum readiness",
+          "quantum transition": "Protocol & Scaling > Quantum readiness",
+          "quantum-resistant bitcoin": "Protocol & Scaling > Quantum readiness",
+          "quantum-resistant rollups": "Protocol & Scaling > Quantum readiness",
+          "quantum-resistant sidechains": "Protocol & Scaling > Quantum readiness",
+          "quantum-safe bitcoin": "Protocol & Scaling > Quantum readiness",
+          "quantum-vulnerable coins": "Protocol & Scaling > Quantum readiness",
+          "quantum-vulnerable supply": "Protocol & Scaling > Quantum readiness",
+          "quantum-vulnerable utxos": "Protocol & Scaling > Quantum readiness",
+          "real-time energy markets": "Builders & Infrastructure > Mining & energy",
+          "real-time power markets": "Builders & Infrastructure > Mining & energy",
+          "redwood energy": "Builders & Infrastructure > Mining & energy",
+          "rehypothecation risk": "Bitcoin as Money > Savings & collateral",
+          "remittances": "Bitcoin as Money > Everyday money",
+          "renewable mining": "Builders & Infrastructure > Mining & energy",
+          "replit": "AI & Agents > Agents & apps",
+          "reproducible builds": "Builders & Infrastructure > Open-source projects",
+          "revenue automation": "Builders & Infrastructure > Product & distribution",
+          "san francisco": "Policy & Society > Culture & education",
+          "satoshi energy": "Builders & Infrastructure > Mining & energy",
+          "satoshi needs you": "Policy & Society > Regulation & advocacy",
+          "sats vs. bitcoin denomination": "Bitcoin as Money > Everyday money",
+          "sats vs. bitcoin display": "Bitcoin as Money > Everyday money",
+          "save our wallets": "Policy & Society > Regulation & advocacy",
+          "secure enclaves": "Wallets & Custody > Self-custody UX",
+          "security & privacy of agents": "AI & Agents > Agents & apps",
+          "seed phrase recovery": "Wallets & Custody > Self-custody UX",
+          "seedless custody": "Wallets & Custody > Self-custody UX",
+          "self-custodied ai": "AI & Agents > Agents & apps",
+          "self-custody narratives": "Wallets & Custody > Self-custody UX",
+          "self-custody scaling": "Wallets & Custody > Self-custody UX",
+          "self-sovereign names": "Wallets & Custody > Names & identity",
+          "server as screen": "Wallets & Custody > Self-custody UX",
+          "shared-custody bitcoin credit": "Bitcoin as Money > Savings & collateral",
+          "shor's algorithm": "Protocol & Scaling > Quantum readiness",
+          "short-range attacks": "Protocol & Scaling > Quantum readiness",
+          "shrincs and shrimps": "Protocol & Scaling > Quantum readiness",
+          "signal": "Wallets & Custody > Privacy & rights",
+          "silicon valley": "Policy & Society > Culture & education",
+          "silicon valley bitcoin": "Policy & Society > Culture & education",
+          "skibbidity cash": "Bitcoin as Money > Everyday money",
+          "small business bitcoin savings": "Builders & Infrastructure > Product & distribution",
+          "soft-freeze recovery": "Wallets & Custody > Self-custody UX",
+          "solar + storage": "Builders & Infrastructure > Mining & energy",
+          "solar and batteries": "Builders & Infrastructure > Mining & energy",
+          "solar construction automation": "Builders & Infrastructure > Mining & energy",
+          "solar cost curves": "Builders & Infrastructure > Mining & energy",
+          "solar manufacturing": "Builders & Infrastructure > Mining & energy",
+          "solar mining": "Builders & Infrastructure > Mining & energy",
+          "solar scaling": "Builders & Infrastructure > Mining & energy",
+          "sovereign custody": "Wallets & Custody > Self-custody UX",
+          "sovereign wealth bitcoin adoption": "Policy & Society > Geopolitics & human rights",
+          "spaces protocol": "Wallets & Custody > Names & identity",
+          "spark": "Protocol & Scaling > Lightning & layers",
+          "sphincs+": "Protocol & Scaling > Quantum readiness",
+          "spiral": "Builders & Infrastructure > Open-source projects",
+          "spiral grants": "Builders & Infrastructure > Open-source projects",
+          "square bitcoin payments": "Bitcoin as Money > Everyday money",
+          "square merchants": "Bitcoin as Money > Everyday money",
+          "stable channels": "Protocol & Scaling > Lightning & layers",
+          "stable dollar balances on bitcoin": "Other Maps > Stablecoins & rails",
+          "stablecoin adoption": "Other Maps > Stablecoins & rails",
+          "stablecoin bridges": "Other Maps > Stablecoins & rails",
+          "stablecoin issuers buying treasuries": "Other Maps > Stablecoins & rails",
+          "stablecoin remittances": "Other Maps > Stablecoins & rails",
+          "stablecoin ux": "Other Maps > Stablecoins & rails",
+          "stablecoin yield": "Other Maps > Stablecoins & rails",
+          "stablecoins": "Other Maps > Stablecoins & rails",
+          "stablecoins as eurodollar 2.0": "Other Maps > Stablecoins & rails",
+          "stablecoins for payments": "Other Maps > Stablecoins & rails",
+          "stablecoins on bitcoin": "Other Maps > Stablecoins & rails",
+          "stablecoins on lightning": "Protocol & Scaling > Lightning & layers",
+          "stacker news": "Other Maps > Prediction & coordination",
+          "stacker news non-custodial": "Other Maps > Prediction & coordination",
+          "stateless socialism": "Builders & Infrastructure > Mining & energy",
+          "steak n shake": "Bitcoin as Money > Everyday money",
+          "stranded power": "Builders & Infrastructure > Mining & energy",
+          "strategic bitcoin reserve": "Bitcoin as Money > Markets & macro",
+          "strategy": "Bitcoin as Money > Markets & macro",
+          "strategy blowup risk": "Bitcoin as Money > Savings & collateral",
+          "strategy capital structure": "Bitcoin as Money > Savings & collateral",
+          "stratum and mempools": "Builders & Infrastructure > Mining & energy",
+          "stratum v2": "Builders & Infrastructure > Mining & energy",
+          "strc stablecoin hypothesis": "Bitcoin as Money > Savings & collateral",
+          "strc yield": "Bitcoin as Money > Savings & collateral",
+          "streaming finance": "Protocol & Scaling > Lightning & layers",
+          "stretch (strc)": "Bitcoin as Money > Savings & collateral",
+          "stretch (strc) bonds": "Bitcoin as Money > Savings & collateral",
+          "stretch-backed stablecoins": "Other Maps > Stablecoins & rails",
+          "strike": "Bitcoin as Money > Savings & collateral",
+          "strike design": "Policy & Society > Culture & education",
+          "stripe tempo": "Other Maps > Stablecoins & rails",
+          "student hackathons": "Policy & Society > Culture & education",
+          "supersonic": "Bitcoin as Money > Everyday money",
+          "supply-chain attacks": "Wallets & Custody > Self-custody UX",
+          "surge": "Bitcoin as Money > Savings & collateral",
+          "tail emission": "Protocol & Scaling > Bitcoin Core & policy",
+          "taproot": "Protocol & Scaling > Quantum readiness",
+          "taproot assets": "Protocol & Scaling > Lightning & layers",
+          "taproot quantum exposure": "Protocol & Scaling > Quantum readiness",
+          "taproot wizards": "Protocol & Scaling > Bitcoin Core & policy",
+          "tariffs": "Policy & Society > Geopolitics & human rights",
+          "tbl liquidity index": "Bitcoin as Money > Markets & macro",
+          "terawatt future": "Builders & Infrastructure > Mining & energy",
+          "terawatt scale solar": "Builders & Infrastructure > Mining & energy",
+          "testing environments": "Protocol & Scaling > Quantum readiness",
+          "the bitcoin age": "Bitcoin as Money > Savings & collateral",
+          "the sovereign individual": "Policy & Society > Geopolitics & human rights",
+          "thought privacy": "AI & Agents > Models & labs",
+          "throttle legacy spends": "Protocol & Scaling > Quantum readiness",
+          "time value of money": "Bitcoin as Money > Markets & macro",
+          "time-to-power": "Builders & Infrastructure > Mining & energy",
+          "tokenized stocks": "Other Maps > Stablecoins & rails",
+          "tokens on bitcoin": "Other Maps > Stablecoins & rails",
+          "transaction denied": "Bitcoin as Money > Everyday money",
+          "transmission planning": "Builders & Infrastructure > Mining & energy",
+          "treasury volatility": "Bitcoin as Money > Savings & collateral",
+          "trusted execution environments": "Wallets & Custody > Self-custody UX",
+          "type i summit": "Builders & Infrastructure > Mining & energy",
+          "type one summit": "Builders & Infrastructure > Mining & energy",
+          "unhuman domains": "Wallets & Custody > Names & identity",
+          "unilateral exit": "Wallets & Custody > Self-custody UX",
+          "unintentional hard fork": "Protocol & Scaling > Bitcoin Core & policy",
+          "unstuck ai": "AI & Agents > Agents & apps",
+          "user error": "Wallets & Custody > Self-custody UX",
+          "utxoracle": "Bitcoin as Money > Markets & macro",
+          "ux research toolkit": "Builders & Infrastructure > Open-source projects",
+          "value for value": "Bitcoin as Money > Everyday money",
+          "verifiable ai": "AI & Agents > Models & labs",
+          "verifiable compute": "AI & Agents > Compute & verification",
+          "verifiable hardware": "Builders & Infrastructure > Open-source projects",
+          "version control for vibe coding": "AI & Agents > Agents & apps",
+          "vibe coding": "AI & Agents > Agents & apps",
+          "vibe coding coaches": "AI & Agents > Agents & apps",
+          "vibe coding security": "AI & Agents > Agents & apps",
+          "vora": "AI & Agents > Agents & apps",
+          "wallet libraries": "Wallets & Custody > Self-custody UX",
+          "walmart": "Bitcoin as Money > Everyday money",
+          "web micropayments": "Bitcoin as Money > Everyday money",
+          "worldcoin": "Wallets & Custody > Names & identity",
+          "wrench attacks": "Wallets & Custody > Self-custody UX",
+          "x money": "Bitcoin as Money > Everyday money",
+          "xstocks": "Other Maps > Stablecoins & rails",
+          "xxi": "Bitcoin as Money > Markets & macro",
+          "yellowpages": "Protocol & Scaling > Quantum readiness",
+          "yuppie elite bitcoin skepticism": "Policy & Society > Culture & education",
+          "ai compute markets": "AI & Agents > Compute & verification",
+          "ai security scanning": "AI & Agents > Agents & apps",
+          "anthropic-xai partnership": "AI & Agents > Models & labs",
+          "babel agent": "AI & Agents > Agents & apps",
+          "bitcoin as ai honeypot": "AI & Agents > Agents & apps",
+          "bitcoin core v31": "Protocol & Scaling > Bitcoin Core & policy",
+          "bitcoin rewards": "Bitcoin as Money > Everyday money",
+          "bitcoin tipping": "Bitcoin as Money > Everyday money",
+          "block bitcoin treasury": "Bitcoin as Money > Markets & macro",
+          "block earnings": "Bitcoin as Money > Markets & macro",
+          "cluster mempool": "Protocol & Scaling > Bitcoin Core & policy",
+          "embedded asmap": "Protocol & Scaling > Bitcoin Core & policy",
+          "ldk server": "Protocol & Scaling > Lightning & layers",
+          "lightning as public good": "Protocol & Scaling > Lightning & layers",
+          "lsp infrastructure": "Protocol & Scaling > Lightning & layers",
+          "node security": "Protocol & Scaling > Bitcoin Core & policy",
+          "nostr music": "Bitcoin as Money > Everyday money",
+          "private transactions": "Wallets & Custody > Privacy & rights",
+          "project loupe": "AI & Agents > Agents & apps",
+          "strategy selling bitcoin": "Bitcoin as Money > Markets & macro",
+          "zcash": "Wallets & Custody > Privacy & rights",
+          "zero-knowledge on bitcoin": "Wallets & Custody > Privacy & rights",
+          "zettahash": "Builders & Infrastructure > Mining & energy",
+          "zirp psychology": "Policy & Society > Culture & education"
+        };
+    function fmtTime(sec) {
+      sec = Math.max(0, Math.floor(sec));
+      const h = Math.floor(sec / 3600), m = Math.floor((sec % 3600) / 60), s = sec % 60;
+      if (h > 0) return `${h}:${String(m).padStart(2,"0")}:${String(s).padStart(2,"0")}`;
+      return `${m}:${String(s).padStart(2,"0")}`;
+    }
+    function fmtDate(str) {
+      if (!str) return "";
+      return new Date(str + "T00:00:00").toLocaleDateString("en-US",
+        { month: "short", day: "numeric", year: "numeric" });
+    }
+    function fmtCompactDate(str) {
+      if (!str) return "";
+      if (/^\d{4}-\d{2}-\d{2}$/.test(str)) return fmtDate(str);
+      const date = new Date(str);
+      return Number.isNaN(date.getTime())
+        ? str
+        : date.toLocaleDateString("en-US", { month: "short", day: "numeric", year: "numeric" });
+    }
+    function scoreForKeywords(entry, keywords) {
+      const text = (entry.text || "").toLowerCase(), title = (entry.title || "").toLowerCase();
+      let score = 0;
+      for (const k of keywords) {
+        const kk = k.toLowerCase();
+        score += text.split(kk).length - 1;
+        if (title.includes(kk)) score += 2;
+      }
+      return score;
+    }
+    function clusterEntries(entries, maxGapSec = 60) {
+      const clusters = []; let cur = null;
+      for (const e of entries) {
+        if (!cur) { cur = { youtube_id: e.youtube_id, start: e.t, end: e.t, score: e._score, peak: e }; continue; }
+        if (e.youtube_id === cur.youtube_id && Math.abs(e.t - cur.end) <= maxGapSec) {
+          cur.end = e.t; cur.score += e._score;
+          if (e._score > (cur.peak?._score ?? -1)) cur.peak = e;
+        } else { clusters.push(cur); cur = { youtube_id: e.youtube_id, start: e.t, end: e.t, score: e._score, peak: e }; }
+      }
+      if (cur) clusters.push(cur);
+      return clusters;
+    }
+
+    let DATA, FEATURED, byVid, alphaHtml, mapHtml, dateHtml, seriesHtml, alphaNavHtml, mapNavHtml, dateNavHtml, topicCount;
+    let currentSort = "alpha";
+
+    function nearestEntry(youtube_id, t) {
+      const arr = byVid.get(youtube_id) || [];
+      let best = arr[0], bestD = Infinity;
+      for (const e of arr) {
+        const d = Math.abs(e.t - t);
+        if (d < bestD) { best = e; bestD = d; }
+        if (e.t > t + bestD) break;
+      }
+      return best || null;
+    }
+
+    const CLAUDE_SVG = `<svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="m4.7144 15.9555 4.7174-2.6471.079-.2307-.079-.1275h-.2307l-.7893-.0486-2.6956-.0729-2.3375-.0971-2.2646-.1214-.5707-.1215-.5343-.7042.0546-.3522.4797-.3218.686.0608 1.5179.1032 2.2767.1578 1.6514.0972 2.4468.255h.3886l.0546-.1579-.1336-.0971-.1032-.0972L6.973 9.8356l-2.55-1.6879-1.3356-.9714-.7225-.4918-.3643-.4614-.1578-1.0078.6557-.7225.8803.0607.2246.0607.8925.686 1.9064 1.4754 2.4893 1.8336.3643.3035.1457-.1032.0182-.0728-.164-.2733-1.3539-2.4467-1.445-2.4893-.6435-1.032-.17-.6194c-.0607-.255-.1032-.4674-.1032-.7285L6.287.1335 6.6997 0l.9957.1336.419.3642.6192 1.4147 1.0018 2.2282 1.5543 3.0296.4553.8985.2429.8318.091.255h.1579v-.1457l.1275-1.706.2368-2.0947.2307-2.6957.0789-.7589.3764-.9107.7468-.4918.5828.2793.4797.686-.0668.4433-.2853 1.8517-.5586 2.9021-.3643 1.9429h.2125l.2429-.2429.9835-1.3053 1.6514-2.0643.7286-.8196.85-.9046.5464-.4311h1.0321l.759 1.1293-.34 1.1657-1.0625 1.3478-.8804 1.1414-1.2628 1.7-.7893 1.36.0729.1093.1882-.0183 2.8535-.607 1.5421-.2794 1.8396-.3157.8318.3886.091.3946-.3278.8075-1.967.4857-2.3072.4614-3.4364.8136-.0425.0304.0486.0607 1.5482.1457.6618.0364h1.621l3.0175.2247.7892.522.4736.6376-.079.4857-1.2142.6193-1.6393-.3886-3.825-.9107-1.3113-.3279h-.1822v.1093l1.0929 1.0686 2.0035 1.8092 2.5075 2.3314.1275.5768-.3218.4554-.34-.0486-2.2039-1.6575-.85-.7468-1.9246-1.621h-.1275v.17l.4432.6496 2.3436 3.5214.1214 1.0807-.17.3521-.6071.2125-.6679-.1214-1.3721-1.9246L14.38 17.959l-1.1414-1.9428-.1397.079-.674 7.2552-.3156.3703-.7286.2793-.6071-.4614-.3218-.7468.3218-1.4753.3886-1.9246.3157-1.53.2853-1.9004.17-.6314-.0121-.0425-.1397.0182-1.4328 1.9672-2.1796 2.9446-1.7243 1.8456-.4128.164-.7164-.3704.0667-.6618.4008-.5889 2.386-3.0357 1.4389-1.882.929-1.0868-.0062-.1579h-.0546l-6.3385 4.1164-1.1293.1457-.4857-.4554.0608-.7467.2307-.2429 1.9064-1.3114Z"/></svg>`;
+
+    // ── Shared card renderer ──
+    function renderCard(ytId, t, label, near, isAuto) {
+      const url = esc(ytLink(ytId, t));
+      const series = esc(near?.series || ""), title = esc(near?.title || "");
+      const date = esc(fmtDate(near?.published_date));
+      const desc = esc(label || (isAuto ? "Auto-detected segment" : ""));
+      const ts = esc(fmtTime(t));
+      return `
+        <div class="episode-card">
+          <div class="ep-meta">
+            ${series ? `<span class="series-badge">${series}</span>` : ""}
+            ${date ? `<span>${date}</span>` : ""}
+            ${isAuto ? `<span style="font-style:italic">auto</span>` : ""}
+          </div>
+          ${desc ? `<div class="ai-overview"><span class="ai-overview-label">${CLAUDE_SVG} AI Overview:</span> ${desc}</div>` : ""}
+          <a class="watch-link" href="${url}" target="_blank" rel="noreferrer">
+            ▶ Watch <span class="ts">${ts}</span>
+          </a>
+        </div>`;
+    }
+
+    function renderReportCard(p) {
+      const url = esc(p.url);
+      const desc = esc(p.label || "");
+      const section = esc(p.section || "Report");
+      const date = esc(p.date || "Apr 2026");
+      return `
+        <div class="episode-card">
+          <div class="ep-meta">
+            <span class="series-badge">Report</span>
+            ${date ? `<span>${date}</span>` : ""}
+          </div>
+          ${desc ? `<div class="ai-overview"><span class="ai-overview-label">${CLAUDE_SVG} AI Overview:</span> ${desc}</div>` : ""}
+          <a class="watch-link" href="${url}" target="_blank" rel="noreferrer">
+            Read <span class="ts">${section}</span>
+          </a>
+        </div>`;
+    }
+
+    function findTopicDef(name) {
+      return TOPIC_DEFS.find(def => def.name === name || slug(def.name) === slug(name));
+    }
+
+    function uniquePicks(picks) {
+      const seen = new Set();
+      const unique = [];
+      for (const p of picks || []) {
+        const key = p.url ? `url:${p.url}` : `${p.youtube_id || ""}:${p.t ?? ""}`;
+        if (seen.has(key)) continue;
+        seen.add(key);
+        unique.push(p);
+      }
+      return unique;
+    }
+
+    function assignTopicToMap(def) {
+      const target = MAP_TOPIC_OVERRIDES[def.name.toLowerCase()] || "Other Maps > Cross-cutting";
+      const [categoryTitle, branchName] = target.split(" > ");
+      const category = KNOWLEDGE_MAP.find(item => item.title === categoryTitle) || KNOWLEDGE_MAP[KNOWLEDGE_MAP.length - 1];
+      const branch = category.branches.find(item => item.name === branchName) || category.branches[category.branches.length - 1];
+      return { category, branch, score: 1 };
+    }
+
+    function renderTopicDetails(def) {
+      let cardsHtml = "";
+      if (def.picks && def.picks.length) {
+        const sorted = uniquePicks(def.picks).sort((a, b) => {
+          const da = a.url ? (a.date || "") : (nearestEntry(a.youtube_id, a.t)?.published_date || "");
+          const db = b.url ? (b.date || "") : (nearestEntry(b.youtube_id, b.t)?.published_date || "");
+          return db.localeCompare(da);
+        });
+        cardsHtml = sorted.map(p => p.url
+          ? renderReportCard(p)
+          : renderCard(p.youtube_id, p.t, p.label, nearestEntry(p.youtube_id, p.t), false)
+        ).join("");
+      } else {
+        const scored = DATA
+          .map(e => ({ ...e, _score: scoreForKeywords(e, def.keywords) }))
+          .filter(e => e._score > 0)
+          .sort((a,b) => a.youtube_id === b.youtube_id ? a.t - b.t : a.youtube_id < b.youtube_id ? -1 : 1);
+        const best = clusterEntries(scored, 60).sort((a,b) => b.score - a.score)[0];
+        cardsHtml = best
+          ? renderCard(best.youtube_id, best.start, "", best.peak, true)
+          : `<div class="no-match">No matches found.</div>`;
+      }
+      const id = `topic-${slug(def.name)}`;
+      return `
+        <details id="${id}">
+          <summary>
+            <i class="summary-arrow">▶</i>
+            <span class="summary-name">${esc(def.name)}</span>
+            <a class="anchor-link" href="${topicsHash(id)}" title="Link to this topic">${CHAIN_SVG}</a>
+          </summary>
+          <div class="topic-detail">${cardsHtml}</div>
+        </details>`;
+    }
+
+    function renderMapTopicCard(def) {
+      const id = `topic-${slug(def.name)}`;
+      return `
+        <a class="map-topic-card" href="${topicsHash(id)}" onclick="setSort('alpha')">
+          <span class="map-topic-card-title">${esc(def.name)}</span>
+        </a>`;
+    }
+
+    function renderMapTopicList(mapKey) {
+      const container = [...document.querySelectorAll("[data-map-key]")]
+        .find(node => node.dataset.mapKey === mapKey);
+      if (!container || container.dataset.loaded === "true") return;
+      const topics = TOPIC_DEFS
+        .filter(def => {
+          const match = assignTopicToMap(def);
+          return `${match.category.title}::${match.branch.name}` === mapKey;
+        })
+        .sort((a, b) => a.name.localeCompare(b.name));
+      container.innerHTML = `<div class="map-topic-grid">${topics.map(renderMapTopicCard).join("")}</div>`;
+      container.dataset.loaded = "true";
+    }
+
+    function buildMapHtml() {
+      const buckets = new Map();
+      for (const category of KNOWLEDGE_MAP) {
+        for (const branch of category.branches) {
+          buckets.set(`${category.title}::${branch.name}`, []);
+        }
+      }
+
+      for (const def of TOPIC_DEFS) {
+        const match = assignTopicToMap(def);
+        buckets.get(`${match.category.title}::${match.branch.name}`).push(def);
+      }
+
+      mapNavHtml = KNOWLEDGE_MAP.map(category =>
+        `<a class="quick-nav-link" href="${topicsHash(`map-${slug(category.title)}`)}">${esc(category.title)}</a>`
+      ).join("");
+
+      return `<div class="map-view">` + KNOWLEDGE_MAP.map(category => {
+        const branches = category.branches.map(branch => {
+          const topics = (buckets.get(`${category.title}::${branch.name}`) || [])
+            .sort((a, b) => a.name.localeCompare(b.name));
+          if (!topics.length) return "";
+          return `
+            <details class="map-branch" id="map-${slug(category.title)}-${slug(branch.name)}">
+              <summary class="map-branch-summary">
+                <i class="summary-arrow">▶</i>
+                <span class="map-branch-name">${esc(branch.name)}</span>
+              </summary>
+              <div class="map-topic-list" data-map-key="${esc(`${category.title}::${branch.name}`)}"></div>
+            </details>`;
+        }).join("");
+        if (!branches) return "";
+        return `
+          <section class="map-category" id="map-${slug(category.title)}">
+            <h2 class="map-category-title">${esc(category.title)}</h2>
+            <div class="map-branches">${branches}</div>
+          </section>`;
+      }).join("") + `</div>`;
+    }
+
+    function renderFeaturedTopics() {
+      const section = document.getElementById("featured-now");
+      const grid = document.getElementById("featured-grid");
+      const items = FEATURED?.featured_topics || [];
+      const selectedAt = Date.parse(FEATURED?.selection_generated_at || FEATURED?.generated_at || "");
+      const maxAgeMs = Number(FEATURED?.max_display_age_hours || 72) * 60 * 60 * 1000;
+      const staleV2Selection = FEATURED?.algorithm_version === "featured-now-v2"
+        && (!Number.isFinite(selectedAt) || Date.now() - selectedAt > maxAgeMs);
+      if (!section || !grid || !items.length || staleV2Selection) return;
+
+      grid.innerHTML = items.map(item => {
+        const topicId = `topic-${slug(item.topic)}`;
+        const external = item.external_items || [];
+        const link = external[0];
+        return `
+          <article class="featured-card">
+            <a class="featured-topic" href="${topicsHash(topicId)}" onclick="setSort('alpha')">${esc(item.topic)}</a>
+            ${link
+              ? `<a class="featured-article" href="${esc(link.url)}" target="_blank" rel="noreferrer">${esc(link.title)}</a>`
+              : `<span class="featured-article">${esc(item.fallback_reason || "Recent PB coverage")}</span>`}
+          </article>`;
+      }).join("");
+      section.classList.add("visible");
+    }
+
+    function buildAlphaHtml() {
+      const sorted = [...TOPIC_DEFS].sort((a,b) => a.name.localeCompare(b.name));
+
+      // Group by first letter
+      const groups = new Map();
+      for (const def of sorted) {
+        const letter = def.name[0].toUpperCase();
+        if (!groups.has(letter)) groups.set(letter, []);
+        groups.get(letter).push(def);
+      }
+
+      alphaNavHtml = [...groups.keys()].map(letter =>
+        `<a class="quick-nav-link" href="${topicsHash(`letter-${letter}`)}">${letter}</a>`
+      ).join("");
+
+      return [...groups.entries()].map(([letter, defs]) => {
+        const rows = defs.map(def => {
+          let cardsHtml = "";
+          if (def.picks && def.picks.length) {
+            const sorted = uniquePicks(def.picks).sort((a, b) => {
+              const da = nearestEntry(a.youtube_id, a.t)?.published_date || "";
+              const db = nearestEntry(b.youtube_id, b.t)?.published_date || "";
+              return db.localeCompare(da);
+            });
+            cardsHtml = sorted.map(p => p.url
+              ? renderReportCard(p)
+              : renderCard(p.youtube_id, p.t, p.label, nearestEntry(p.youtube_id, p.t), false)
+            ).join("");
+          } else {
+            const scored = DATA
+              .map(e => ({ ...e, _score: scoreForKeywords(e, def.keywords) }))
+              .filter(e => e._score > 0)
+              .sort((a,b) => a.youtube_id === b.youtube_id ? a.t - b.t : a.youtube_id < b.youtube_id ? -1 : 1);
+            const best = clusterEntries(scored, 60).sort((a,b) => b.score - a.score)[0];
+            cardsHtml = best
+              ? renderCard(best.youtube_id, best.start, "", best.peak, true)
+              : `<div class="no-match">No matches found.</div>`;
+          }
+          const id = `topic-${slug(def.name)}`;
+          return `
+            <details id="${id}">
+              <summary>
+                <i class="summary-arrow">▶</i>
+                <span class="summary-name">${esc(def.name)}</span>
+                <a class="anchor-link" href="${topicsHash(id)}" title="Link to this topic">${CHAIN_SVG}</a>
+              </summary>
+              <div class="topic-detail">${cardsHtml}</div>
+            </details>`;
+        }).join("");
+
+        return `
+          <div class="letter-group" id="letter-${letter}">
+            <div class="letter-heading">${letter}</div>
+            <div class="topic-list">${rows}</div>
+          </div>`;
+      }).join("");
+    }
+
+    // ── By-episode view ──
+    function buildDateHtml() {
+      // Invert: collect all picks grouped by youtube_id
+      const epMap = new Map(); // youtube_id → { meta, topics: [{name, t, label}] }
+
+      for (const def of TOPIC_DEFS) {
+        const picks = def.picks && def.picks.length ? uniquePicks(def.picks).filter(p => p.youtube_id) : [];
+
+        // For auto-fallback topics, find best cluster
+        if (!picks.length) {
+          const scored = DATA
+            .map(e => ({ ...e, _score: scoreForKeywords(e, def.keywords) }))
+            .filter(e => e._score > 0)
+            .sort((a,b) => a.youtube_id === b.youtube_id ? a.t - b.t : a.youtube_id < b.youtube_id ? -1 : 1);
+          const best = clusterEntries(scored, 60).sort((a,b) => b.score - a.score)[0];
+          if (best) picks.push({ youtube_id: best.youtube_id, t: best.start, label: "", _auto: true });
+        }
+
+        for (const p of picks) {
+          const near = nearestEntry(p.youtube_id, p.t);
+          if (!epMap.has(p.youtube_id)) {
+            epMap.set(p.youtube_id, {
+              youtube_id: p.youtube_id,
+              title: near?.title || "",
+              series: near?.series || "",
+              published_date: near?.published_date || "",
+              topics: []
+            });
+          }
+          epMap.get(p.youtube_id).topics.push({
+            name: def.name, t: p.t, label: p.label || "", auto: !!p._auto
+          });
+        }
+      }
+
+      // Sort episodes by date descending
+      const episodes = [...epMap.values()].sort((a,b) =>
+        (b.published_date || "").localeCompare(a.published_date || "")
+      );
+
+      // Group episodes by month key "YYYY-MM"
+      const monthMap = new Map();
+      for (const ep of episodes) {
+        const key = (ep.published_date || "").slice(0, 7) || "unknown";
+        if (!monthMap.has(key)) monthMap.set(key, []);
+        monthMap.get(key).push(ep);
+      }
+
+      function fmtMonth(key) {
+        if (key === "unknown" || key.length < 7) return "Unknown";
+        return new Date(key + "-01T00:00:00").toLocaleDateString("en-US",
+          { month: "long", year: "numeric" });
+      }
+
+      function renderEpGroup(ep) {
+        const topics = [...ep.topics].sort((a,b) => a.t - b.t);
+        const date = fmtDate(ep.published_date);
+        const rows = topics.map(tp => {
+          const url = esc(ytLink(ep.youtube_id, tp.t));
+          const ts = esc(fmtTime(tp.t));
+          const topicId = `topic-${slug(tp.name)}`;
+          return `
+            <div class="date-topic-row">
+              <div class="date-topic-left">
+                <div class="date-topic-name"><a href="${topicsHash(topicId)}" style="color:inherit;text-decoration:none;" onclick="setSort('alpha')">${esc(tp.name)}</a>${tp.auto ? ' <span style="font-size:11px;color:#aaa;font-style:italic">(auto)</span>' : ""}</div>
+                ${tp.label ? `<div class="date-topic-label">${esc(tp.label)}</div>` : ""}
+              </div>
+              <a class="ts-link" href="${url}" target="_blank" rel="noreferrer">${ts}</a>
+            </div>`;
+        }).join("");
+        const epId = `ep-${ep.youtube_id}`;
+        return `
+          <div class="ep-group" id="${epId}">
+            <div class="ep-group-header">
+              <div class="ep-group-title">${esc(ep.title)}</div>
+              <div class="ep-group-meta">
+                ${ep.series ? `<span class="series-badge">${esc(ep.series)}</span>` : ""}
+                ${date ? `<span>${date}</span>` : ""}
+                <a class="anchor-link" href="${topicsHash(epId)}" title="Link to this episode">${CHAIN_SVG}</a>
+              </div>
+            </div>
+            ${rows}
+          </div>`;
+      }
+
+      dateNavHtml = [...monthMap.keys()].map(key =>
+        `<a class="quick-nav-link" href="${topicsHash(`month-${key}`)}">${fmtMonth(key)}</a>`
+      ).join("");
+
+      return [...monthMap.entries()].map(([key, eps]) => `
+        <div class="letter-group" id="month-${key}">
+          <div class="month-heading">${fmtMonth(key)}</div>
+          ${eps.map(renderEpGroup).join("")}
+        </div>`
+      ).join("");
+    }
+
+    function buildSeriesHtml() {
+      function renderTopicList(defs, seriesName) {
+        return `<div class="topic-list">` + [...defs].sort((a,b) => a.name.localeCompare(b.name)).map(def => {
+          let cardsHtml = "";
+          const manualPicks = def.picks && def.picks.length
+            ? uniquePicks(def.picks).filter(p => {
+                if (p.url) return !seriesName || p.reportSeries === seriesName;
+                return p.youtube_id && (!seriesName || nearestEntry(p.youtube_id, p.t)?.series === seriesName);
+              })
+            : [];
+          if (def.picks && def.picks.length) {
+            if (!manualPicks.length) return "";
+            const sortedPicks = [...manualPicks].sort((a, b) => {
+              const da = a.url ? (a.date || "") : (nearestEntry(a.youtube_id, a.t)?.published_date || "");
+              const db = b.url ? (b.date || "") : (nearestEntry(b.youtube_id, b.t)?.published_date || "");
+              return db.localeCompare(da);
+            });
+            cardsHtml = sortedPicks.map(p => p.url
+              ? renderReportCard(p)
+              : renderCard(p.youtube_id, p.t, p.label, nearestEntry(p.youtube_id, p.t), false)
+            ).join("");
+          } else {
+            const scored = DATA
+              .filter(e => !seriesName || e.series === seriesName)
+              .map(e => ({ ...e, _score: scoreForKeywords(e, def.keywords) }))
+              .filter(e => e._score > 0)
+              .sort((a,b) => a.youtube_id === b.youtube_id ? a.t - b.t : a.youtube_id < b.youtube_id ? -1 : 1);
+            const best = clusterEntries(scored, 60).sort((a,b) => b.score - a.score)[0];
+            if (!best) return "";
+            cardsHtml = best
+              ? renderCard(best.youtube_id, best.start, "", best.peak, true)
+              : `<div class="no-match">No matches found.</div>`;
+          }
+          return `
+            <details>
+              <summary>
+                <i class="summary-arrow">▶</i>
+                <span class="summary-name">${esc(def.name)}</span>
+              </summary>
+              <div class="topic-detail">${cardsHtml}</div>
+            </details>`;
+        }).filter(Boolean).join("") + `</div>`;
+      }
+
+      const pbjTopicsHtml = renderTopicList(TOPIC_DEFS, "PBJ");
+      const qbsTopicsHtml = renderTopicList(TOPIC_DEFS, "QBS");
+
+      // SVGs
+      const ytSvg = `<svg viewBox="0 0 24 24"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>`;
+      const spotifySvg = `<svg viewBox="0 0 24 24"><path d="M12 0C5.4 0 0 5.4 0 12s5.4 12 12 12 12-5.4 12-12S18.66 0 12 0zm5.521 17.34c-.24.359-.66.48-1.021.24-2.82-1.74-6.36-2.101-10.561-1.141-.418.122-.779-.179-.899-.539-.12-.421.18-.78.54-.9 4.56-1.021 8.52-.6 11.64 1.32.42.18.479.659.301 1.02zm1.44-3.3c-.301.42-.841.6-1.262.3-3.239-1.98-8.159-2.58-11.939-1.38-.479.12-1.02-.12-1.14-.6-.12-.48.12-1.021.6-1.141C9.6 9.9 15 10.561 18.72 12.84c.361.181.54.78.241 1.2zm.12-3.36C15.24 8.4 8.82 8.16 5.16 9.301c-.6.179-1.2-.181-1.38-.721-.18-.601.18-1.2.72-1.381 4.26-1.26 11.28-1.02 15.721 1.621.539.3.719 1.02.419 1.56-.299.421-1.02.599-1.559.3z"/></svg>`;
+      const appleSvg = `<svg viewBox="0 0 24 24"><path d="M12 0C5.372 0 0 5.372 0 12s5.372 12 12 12 12-5.372 12-12S18.628 0 12 0zm-.35 5.4c1.273 0 2.43.448 3.32 1.188l-1.18 1.18a3.6 3.6 0 1 0 .922 3.546H12.6v-1.68h3.77c.058.31.09.632.09.966 0 2.63-1.793 4.5-4.5 4.5a4.5 4.5 0 1 1 .342-8.99zm-.342 6.714a1.386 1.386 0 1 0 0 2.772 1.386 1.386 0 0 0 0-2.772zm.35 5.286c-1.55 0-2.973-.56-4.07-1.487l-.93 1.612A7.152 7.152 0 0 0 12 18.9a7.152 7.152 0 0 0 4.341-1.475l-.928-1.612A5.37 5.37 0 0 1 11.658 17.4z"/></svg>`;
+      const xSvg = `<svg viewBox="0 0 24 24"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.747l7.73-8.835L1.254 2.25H8.08l4.259 5.629zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>`;
+
+      function seriesIcon(kind) {
+        if (kind === "youtube") return ytSvg;
+        if (kind === "listen") return `<svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 1a4 4 0 0 1 4 4v6a4 4 0 0 1-8 0V5a4 4 0 0 1 4-4zm-1 17.93V21H9v2h6v-2h-2v-2.07A8.001 8.001 0 0 0 20 11h-2a6 6 0 0 1-12 0H4a8.001 8.001 0 0 0 7 7.93z"/></svg>`;
+        if (kind === "substack") return `<svg viewBox="0 0 24 24"><path d="M22.539 8.242H1.46V5.406h21.08v2.836zM1.46 10.812V24L12 18.11 22.54 24V10.812H1.46zM22.54 0H1.46v2.836h21.08V0z"/></svg>`;
+        if (kind === "medium") return `<svg viewBox="0 0 24 24"><path d="M13.54 12a6.77 6.77 0 0 1-6.77 6.77A6.77 6.77 0 0 1 0 12a6.77 6.77 0 0 1 6.77-6.77A6.77 6.77 0 0 1 13.54 12zm7.42 0c0 3.54-1.51 6.41-3.38 6.41S14.2 15.54 14.2 12s1.51-6.41 3.38-6.41 3.38 2.87 3.38 6.41zM24 12c0 3.17-.53 5.74-1.19 5.74s-1.19-2.57-1.19-5.74.53-5.74 1.19-5.74S24 8.83 24 12z"/></svg>`;
+        if (kind === "github") return `<svg viewBox="0 0 24 24"><path d="M12 .3a12 12 0 0 0-3.79 23.39c.6.11.82-.26.82-.58v-2.23c-3.34.73-4.04-1.42-4.04-1.42-.55-1.39-1.33-1.76-1.33-1.76-1.09-.74.08-.73.08-.73 1.2.08 1.84 1.24 1.84 1.24 1.07 1.83 2.8 1.3 3.49.99.11-.78.42-1.3.76-1.6-2.67-.3-5.47-1.33-5.47-5.93 0-1.31.47-2.38 1.24-3.22-.12-.3-.54-1.52.12-3.18 0 0 1.01-.32 3.3 1.23A11.5 11.5 0 0 1 12 6.1c1.02 0 2.04.14 3 .4 2.29-1.55 3.3-1.23 3.3-1.23.66 1.66.24 2.88.12 3.18.77.84 1.23 1.91 1.23 3.22 0 4.61-2.8 5.63-5.48 5.92.43.37.82 1.1.82 2.22v3.29c0 .32.21.7.83.58A12 12 0 0 0 12 .3Z"/></svg>`;
+        if (kind === "pdf") return `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"><path d="M6 2h8l4 4v16H6z"/><path d="M14 2v4h4"/><path d="M8 15h1.5a1.5 1.5 0 0 0 0-3H8v6"/><path d="M13 18v-6h1.3a2.7 2.7 0 0 1 0 6H13"/><path d="M18 18v-6h3"/><path d="M18 15h2.5"/></svg>`;
+        if (kind === "x") return xSvg;
+        return `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>`;
+      }
+
+      function renderSeriesCard(def) {
+        const topicListHtml = def.topicSeries ? renderTopicList(TOPIC_DEFS, def.topicSeries) : "";
+        const topicListCount = (topicListHtml.match(/<details>/g) || []).length;
+        const topicsHtml = def.topicSeries ? `
+          <div class="series-topic-section">
+            <div class="series-topic-heading">Indexed topics (${topicListCount})</div>
+            <div class="series-topic-scroll">${topicListHtml}</div>
+          </div>` : "";
+        const links = def.links.map(link => `
+          <a class="series-link" href="${esc(link.url)}" target="_blank" rel="noreferrer">${seriesIcon(link.kind)} ${esc(link.label)}</a>
+        `).join("");
+        return `
+          <div class="series-card" id="${esc(def.seriesId)}">
+            <div class="series-card-top">
+              <img class="series-image" src="${esc(def.image)}" alt="${esc(def.alt)}" />
+              <div class="series-card-body">
+                <div style="display:flex;align-items:center;gap:8px;margin-bottom:12px;">
+                  <h2 class="series-title" style="margin-bottom:0;">${esc(def.title)}</h2>
+                  <a class="anchor-link" href="${topicsHash(esc(def.seriesId))}" title="Link to this series">${CHAIN_SVG}</a>
+                </div>
+                <p class="series-blurb" style="margin-top:0;">${esc(def.blurb)}</p>
+                <div class="series-links">${links}</div>
+              </div>
+            </div>
+            ${topicsHtml}
+          </div>`;
+      }
+
+      const defsById = new Map(SERIES_DEFS.map(def => [def.id, def]));
+      const orderedDefs = SERIES_ALL_ORDER
+        .map(id => defsById.get(id))
+        .filter(Boolean);
+      const orderedIds = new Set(orderedDefs.map(def => def.id));
+      const remainingDefs = SERIES_DEFS.filter(def => !orderedIds.has(def.id));
+      const excludedTopicSeriesIds = new Set(["career-conversations", "builder", "sf-bitdevs"]);
+      return [...orderedDefs, ...remainingDefs]
+        .filter(def => !excludedTopicSeriesIds.has(def.id))
+        .map(renderSeriesCard)
+        .join("");
+
+      return `
+        <div class="series-card" id="series-pbj">
+          <div class="series-card-top">
+            <img class="series-image" src="https://i.scdn.co/image/ab6765630000ba8ada3383dfb0aacbb36330ffd6" alt="Presidio Bitcoin Jam" />
+            <div class="series-card-body">
+              <div style="display:flex;align-items:center;gap:8px;margin-bottom:12px;">
+                <h2 class="series-title" style="margin-bottom:0;">Presidio Bitcoin Jam (PBJ)</h2>
+                <a class="anchor-link" href="${topicsHash("series-pbj")}" title="Link to this series">${CHAIN_SVG}</a>
+              </div>
+              <p class="series-blurb" style="margin-top:0;">PBJ is a weekly live show recorded at Presidio Bitcoin where David King, Steve Lee, and Max Webster, longtime bitcoiners with deep roots in Silicon Valley, make sense of the latest topics in bitcoin and tech.</p>
+              <div class="series-links">
+                <a class="series-link" href="https://www.youtube.com/playlist?list=PL8Qx0853DvlP8_oFQQm3zPtTFNwK2wYDZ" target="_blank" rel="noreferrer">${ytSvg} Episodes</a>
+                <a class="series-link" href="https://pod.link/1804198027" target="_blank" rel="noreferrer"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 1a4 4 0 0 1 4 4v6a4 4 0 0 1-8 0V5a4 4 0 0 1 4-4zm-1 17.93V21H9v2h6v-2h-2v-2.07A8.001 8.001 0 0 0 20 11h-2a6 6 0 0 1-12 0H4a8.001 8.001 0 0 0 7 7.93z"/></svg> Listen</a>
+                <a class="series-link" href="https://www.youtube.com/playlist?list=PL8Qx0853DvlNhLn1B3taMk5RRV5Lsy5Xu" target="_blank" rel="noreferrer">${ytSvg} Clips</a>
+                <a class="series-link" href="https://x.com/PresidioPod" target="_blank" rel="noreferrer">${xSvg} @PresidioPod</a>
+              </div>
+            </div>
+          </div>
+          <div class="series-topic-section">
+            <div class="series-topic-scroll">${pbjTopicsHtml}</div>
+          </div>
+        </div>
+        <div class="series-card" id="series-qbs">
+          <div class="series-card-top">
+            <img class="series-image" src="https://pbquantum.com/lovable-uploads/ece3ce7e-a186-4971-864c-f04f13563778.png" alt="Quantum Bitcoin Summit" />
+            <div class="series-card-body">
+              <div style="display:flex;align-items:center;gap:8px;margin-bottom:12px;">
+                <h2 class="series-title" style="margin-bottom:0;">Quantum Bitcoin Summit</h2>
+                <a class="anchor-link" href="${topicsHash("series-qbs")}" title="Link to this series">${CHAIN_SVG}</a>
+              </div>
+              <p class="series-blurb" style="margin-top:0;">A summit bringing together researchers, developers, and industry leaders to explore the intersection of quantum and bitcoin.</p>
+              <div class="series-links">
+                <a class="series-link" href="https://pbquantum.com/" target="_blank" rel="noreferrer"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg> Summit Website</a>
+                <a class="series-link" href="https://www.youtube.com/playlist?list=PL8Qx0853DvlPqutRekO3feBCmn2iRkC1k" target="_blank" rel="noreferrer">${ytSvg} Panels &amp; Presentations</a>
+                <a class="series-link" href="https://presidiobitcoin.substack.com/p/insights-from-the-quantum-bitcoin" target="_blank" rel="noreferrer"><svg viewBox="0 0 24 24"><path d="M22.539 8.242H1.46V5.406h21.08v2.836zM1.46 10.812V24L12 18.11 22.54 24V10.812H1.46zM22.54 0H1.46v2.836h21.08V0z"/></svg> Insights &amp; Key Takeaways</a>
+                <a class="series-link" href="https://x.com/PresidioBitcoin/status/1950333816004104319" target="_blank" rel="noreferrer">${xSvg} Key Takeaways Thread</a>
+              </div>
+            </div>
+          </div>
+          <div class="series-topic-section">
+            <div class="series-topic-scroll">${qbsTopicsHtml}</div>
+          </div>
+        </div>
+        <div class="series-card" id="series-21in21">
+          <div class="series-card-top">
+            <img class="series-image" src="./21in21.jpg" alt="21 in 21" />
+            <div class="series-card-body">
+              <div style="display:flex;align-items:center;gap:8px;margin-bottom:12px;">
+                <h2 class="series-title" style="margin-bottom:0;">21 in 21</h2>
+                <a class="anchor-link" href="${topicsHash("series-21in21")}" title="Link to this series">${CHAIN_SVG}</a>
+              </div>
+              <p class="series-blurb" style="margin-top:0;">Haley Berkoe asks some of the biggest names in bitcoin and Silicon Valley 21 questions in 21 minutes, from the personalities you know and love to tech's unsung heroes. A new episode drops when someone stops by Presidio&nbsp;Bitcoin.</p>
+              <div class="series-links">
+                <a class="series-link" href="https://www.youtube.com/playlist?list=PL8Qx0853DvlOXGd--RJ3cPTwWWbMv_sdo" target="_blank" rel="noreferrer">${ytSvg} Episodes</a>
+                <a class="series-link" href="https://pod.link/1804684052" target="_blank" rel="noreferrer"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 1a4 4 0 0 1 4 4v6a4 4 0 0 1-8 0V5a4 4 0 0 1 4-4zm-1 17.93V21H9v2h6v-2h-2v-2.07A8.001 8.001 0 0 0 20 11h-2a6 6 0 0 1-12 0H4a8.001 8.001 0 0 0 7 7.93z"/></svg> Listen</a>
+                <a class="series-link" href="https://youtube.com/playlist?list=PL8Qx0853DvlOaKSPdXZiGMG6LKsRZvPfe" target="_blank" rel="noreferrer">${ytSvg} Clips</a>
+                <a class="series-link" href="https://x.com/HBerkoe" target="_blank" rel="noreferrer">${xSvg} @HBerkoe</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="series-card" id="series-bdw">
+          <div class="series-card-top">
+            <img class="series-image" src="https://event.bitcoin.design/images/title.png" alt="Presidio Bitcoin Design Week" />
+            <div class="series-card-body">
+              <div style="display:flex;align-items:center;gap:8px;margin-bottom:12px;">
+                <h2 class="series-title" style="margin-bottom:0;">Presidio Bitcoin Design Week</h2>
+                <a class="anchor-link" href="${topicsHash("series-bdw")}" title="Link to this series">${CHAIN_SVG}</a>
+              </div>
+              <p class="series-blurb" style="margin-top:0;">Designers from the bitcoin community and Silicon Valley came together to shape a future where bitcoin is not only understood but beautifully designed and effortlessly used.</p>
+              <div class="series-links">
+                <a class="series-link" href="https://event.bitcoin.design/" target="_blank" rel="noreferrer"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg> Conference Website</a>
+                <a class="series-link" href="https://www.youtube.com/playlist?list=PL8Qx0853DvlM8INSr7mbf9VgkwJcLyOrg" target="_blank" rel="noreferrer">${ytSvg} Panels &amp; Workshops</a>
+                <a class="series-link" href="https://www.youtube.com/watch?v=0_04PZms-I0" target="_blank" rel="noreferrer">${ytSvg} Recap</a>
+                <a class="series-link" href="https://bitcoindesign.substack.com/p/presidio-bitcoin-design-week" target="_blank" rel="noreferrer"><svg viewBox="0 0 24 24"><path d="M22.539 8.242H1.46V5.406h21.08v2.836zM1.46 10.812V24L12 18.11 22.54 24V10.812H1.46zM22.54 0H1.46v2.836h21.08V0z"/></svg> Insights &amp; Key Takeaways</a>
+              </div>
+            </div>
+          </div>
+        <div class="series-card" id="series-type1">
+          <div class="series-card-top">
+            <img class="series-image" src="./type1summit.jpg" alt="Type I Summit" style="align-self: center;" />
+            <div class="series-card-body">
+              <div style="display:flex;align-items:center;gap:8px;margin-bottom:12px;">
+                <h2 class="series-title" style="margin-bottom:0;">Type I Summit</h2>
+                <a class="anchor-link" href="${topicsHash("series-type1")}" title="Link to this series">${CHAIN_SVG}</a>
+              </div>
+              <p class="series-blurb" style="margin-top:0;">A summit bringing together entrepreneurs, industry leaders, and investors to explore power markets, data centers and how to build a terawatt-scale grid.</p>
+              <div class="series-links">
+                <a class="series-link" href="https://type1summit.org/" target="_blank" rel="noreferrer"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg> Summit Website</a>
+                <a class="series-link" href="https://www.youtube.com/playlist?list=PL8Qx0853DvlOeuNnA1gzGJuhFO_kXX0OC" target="_blank" rel="noreferrer">${ytSvg} Panels &amp; Presentations</a>
+                <a class="series-link" href="https://presidiobitcoin.substack.com/p/its-time-to-build-a-new-grid-announcing" target="_blank" rel="noreferrer"><svg viewBox="0 0 24 24"><path d="M22.539 8.242H1.46V5.406h21.08v2.836zM1.46 10.812V24L12 18.11 22.54 24V10.812H1.46zM22.54 0H1.46v2.836h21.08V0z"/></svg> Thesis</a>
+                <a class="series-link" href="https://x.com/PresidioBitcoin/status/1995901271996596229" target="_blank" rel="noreferrer">${xSvg} Thread</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="series-card" id="series-spotlight">
+          <div class="series-card-top">
+            <img class="series-image" src="./pb-spotlight.png" alt="Member Spotlight" />
+            <div class="series-card-body">
+              <div style="display:flex;align-items:center;gap:8px;margin-bottom:12px;">
+                <h2 class="series-title" style="margin-bottom:0;">Member Spotlight</h2>
+                <a class="anchor-link" href="${topicsHash("series-spotlight")}" title="Link to this series">${CHAIN_SVG}</a>
+              </div>
+              <p class="series-blurb" style="margin-top:0;">Meet Presidio Bitcoin members and explore their backgrounds, ideas, and work.</p>
+              <div class="series-links">
+                <a class="series-link" href="https://www.youtube.com/playlist?list=PL8Qx0853DvlNKvwQFj8emaq7XL-_CpScA" target="_blank" rel="noreferrer">${ytSvg} Spotlights</a>
+              </div>
+            </div>
+          </div>
+        </div>`;
+    }
+
+    function updateQuickNav(mode) {
+      const nav = document.getElementById("quick-nav");
+      if (mode === "alpha") { nav.innerHTML = alphaNavHtml; nav.style.display = "flex"; }
+      else if (mode === "map") { nav.innerHTML = mapNavHtml; nav.style.display = "flex"; }
+      else if (mode === "date") { nav.innerHTML = dateNavHtml; nav.style.display = "flex"; }
+      else { nav.style.display = "none"; }
+    }
+
+    window.setSort = function(mode) {
+      if (mode === currentSort) return;
+      currentSort = mode;
+      document.getElementById("btn-alpha").classList.toggle("active", mode === "alpha");
+      document.getElementById("btn-map").classList.toggle("active", mode === "map");
+      document.getElementById("btn-date").classList.toggle("active", mode === "date");
+      document.getElementById("btn-series").classList.toggle("active", mode === "series");
+      const html = mode === "alpha" ? alphaHtml : mode === "map" ? mapHtml : mode === "date" ? dateHtml : seriesHtml;
+      document.getElementById("list").innerHTML = html;
+      updateQuickNav(mode);
+    };
+
+    document.addEventListener("toggle", function(e) {
+      const branch = e.target.closest?.(".map-branch");
+      if (!branch || !branch.open) return;
+      const container = branch.querySelector("[data-map-key]");
+      if (container) renderMapTopicList(container.dataset.mapKey);
+    }, true);
+
+    function handleHashNav() {
+      const hash = location.hash;
+      if (!hash) return;
+      const id = hash.slice(1);
+
+      // Switch to the correct view based on id prefix
+      if (id.startsWith("ep-") && currentSort !== "date") {
+        setSort("date");
+      } else if (id.startsWith("map-") && currentSort !== "map") {
+        setSort("map");
+      } else if (id.startsWith("series-") && currentSort !== "series") {
+        setSort("series");
+      } else if (id.startsWith("topic-") && !["alpha", "map"].includes(currentSort)) {
+        setSort("alpha");
+      }
+
+      setTimeout(() => {
+        const el = document.getElementById(id);
+        if (!el) return;
+        if (el.classList?.contains("map-branch")) {
+          const container = el.querySelector("[data-map-key]");
+          if (container) renderMapTopicList(container.dataset.mapKey);
+        }
+        let details = el.closest("details");
+        while (details) {
+          details.open = true;
+          const container = details.querySelector?.(":scope > .map-topic-list[data-map-key]");
+          if (container) renderMapTopicList(container.dataset.mapKey);
+          details = details.parentElement?.closest("details");
+        }
+        el.scrollIntoView({ behavior: "smooth", block: "start" });
+      }, 50);
+    }
+
+    async function main() {
+      const [indexData, featuredData] = await Promise.all([
+        fetch("./index.json").then(r => r.json()),
+        fetch("./featured_topics.json").then(r => r.ok ? r.json() : null).catch(() => null),
+      ]);
+      DATA = indexData;
+      FEATURED = featuredData;
+      byVid = new Map();
+      for (const e of DATA) {
+        if (!byVid.has(e.youtube_id)) byVid.set(e.youtube_id, []);
+        byVid.get(e.youtube_id).push(e);
+      }
+      for (const arr of byVid.values()) arr.sort((a,b) => a.t - b.t);
+
+      topicCount = TOPIC_DEFS.length;
+      alphaHtml  = buildAlphaHtml();
+      mapHtml    = buildMapHtml();
+      dateHtml   = buildDateHtml();
+      seriesHtml = buildSeriesHtml();
+
+      document.getElementById("list").innerHTML = alphaHtml;
+      document.getElementById("sub-count").textContent = `${topicCount} topics`;
+      renderFeaturedTopics();
+      updateQuickNav("alpha");
+
+      handleHashNav();
+    }
+
+    window.addEventListener("hashchange", handleHashNav);
+
+    document.addEventListener("click", function(e) {
+      const link = e.target.closest(".anchor-link");
+      if (!link) return;
+      const url = new URL(link.getAttribute("href"), document.baseURI).href;
+      navigator.clipboard.writeText(url).catch(() => {});
+      link.classList.add("anchor-copied");
+      setTimeout(() => link.classList.remove("anchor-copied"), 1500);
+    });
+
+    main();
+  </script>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <a class="footer-logo" href="https://www.presidiobitcoin.org/" target="_blank">
+        <img src="./logo.png" alt="Presidio Bitcoin">
+        <span class="footer-logo-name">Presidio Bitcoin</span>
+      </a>
+      <div class="footer-icons">
+        <a class="footer-icon" href="https://x.com/PresidioBitcoin" target="_blank" title="X">
+          <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.747l7.73-8.835L1.254 2.25H8.08l4.259 5.629zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+        </a>
+        <a class="footer-icon" href="https://www.youtube.com/@PresidioBitcoin" target="_blank" title="YouTube">
+          <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
+        </a>
+        <a class="footer-icon" href="https://presidiobitcoin.substack.com" target="_blank" title="Substack">
+          <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M22.539 8.242H1.46V5.406h21.08v2.836zM1.46 10.812V24L12 18.11 22.54 24V10.812H1.46zM22.54 0H1.46v2.836h21.08V0z"/></svg>
+        </a>
+        <a class="footer-icon" href="https://discord.gg/HGukhYDA" target="_blank" title="Discord">
+          <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20.317 4.492c-1.53-.69-3.17-1.2-4.885-1.49a.075.075 0 0 0-.079.036c-.21.369-.444.85-.608 1.23a18.566 18.566 0 0 0-5.487 0 12.36 12.36 0 0 0-.617-1.23A.077.077 0 0 0 8.562 3c-1.714.29-3.354.8-4.885 1.491a.07.07 0 0 0-.032.027C.533 9.093-.32 13.555.099 17.961a.08.08 0 0 0 .031.055 20.03 20.03 0 0 0 5.993 2.98.078.078 0 0 0 .084-.026 13.83 13.83 0 0 0 1.226-1.963.074.074 0 0 0-.041-.104 13.175 13.175 0 0 1-1.872-.878.075.075 0 0 1-.008-.125c.126-.093.252-.19.372-.287a.075.075 0 0 1 .078-.01c3.927 1.764 8.18 1.764 12.061 0a.075.075 0 0 1 .079.009c.12.098.245.195.372.288a.075.075 0 0 1-.006.125c-.598.344-1.22.635-1.873.877a.075.075 0 0 0-.041.105c.36.687.772 1.341 1.225 1.962a.077.077 0 0 0 .084.028 19.963 19.963 0 0 0 6.002-2.981.076.076 0 0 0 .032-.054c.5-5.094-.838-9.52-3.549-13.442a.06.06 0 0 0-.031-.03zM8.02 15.278c-1.182 0-2.157-1.069-2.157-2.38 0-1.312.956-2.38 2.157-2.38 1.21 0 2.176 1.077 2.157 2.38 0 1.312-.956 2.38-2.157 2.38zm7.975 0c-1.183 0-2.157-1.069-2.157-2.38 0-1.312.955-2.38 2.157-2.38 1.21 0 2.176 1.077 2.157 2.38 0 1.312-.946 2.38-2.157 2.38z"/></svg>
+        </a>
+      </div>
+      <p class="footer-copy">Founded on <a class="footer-block-link" href="https://mempool.space/block/00000000000000000001401a3dbd5bd0a1333cf0dc4726a794c0f48c89aea745" target="_blank">882021</a>.</p>
+      <p class="footer-copy">© 2026 Presidio Bitcoin. All rights reserved.</p>
+    </div>
+  </footer>
+
+</body>
+</html>

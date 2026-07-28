@@ -1,0 +1,34 @@
+[build]
+  command = "python3 scripts/validate_search_corpus.py && python3 scripts/build_search_chunks.py && python3 scripts/build_featured_topics.py"
+  publish = "public"
+  functions = "netlify/functions"
+
+[functions]
+  included_files = ["public/search_chunks.json", "public/search_core.js"]
+
+[functions."refresh-featured"]
+  # Run at 14:00 UTC each day so refresh timing is explicit across deployments.
+  schedule = "0 14 * * *"
+
+[[redirects]]
+  from = "/"
+  to = "/ask.html"
+  status = 302
+  force = true
+
+[[redirects]]
+  from = "/topics"
+  to = "/topics/index.html"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/topics/"
+  to = "/topics/index.html"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/api/ask"
+  to = "/.netlify/functions/ask"
+  status = 200

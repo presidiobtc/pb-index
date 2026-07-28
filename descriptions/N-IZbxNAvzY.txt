@@ -1,0 +1,17 @@
+The future of money is inseparable from the future of payments. Will the next generation of global money apps be built on Bitcoin’s decentralized rails or on stablecoins, dollar-backed tokens with growing regulatory clarity? 
+
+In this session, Nick Slaney makes the case for Bitcoin as the most accessible, censorship-resistant system for payments, while Daniel Nordh argues for stablecoins as interoperable rails that align with user habits and compliance regimes. The discussion explores the challenges of building a truly global payments app, the role of self-custody, the tradeoffs between stable value and censorship resistance, the UX of on-ramps and off-ramps, and the impact of emerging regulations.
+
+Timestamps: 
+0:00 Intro
+2:24 Bitcoin for Payments 
+17:26 Stablecoins for Payments 
+
+Presented at Presidio Bitcoin Design Week hosted at 📍Presidio Bitcoin
+A big thanks to co-hosts: Bitcoin Design Community! 
+
+🌐 Learn more about the event: https://event.bitcoin.design/
+
+🐦 Follow us: https://x.com/PresidioBitcoin
+Learn more about PB: https://presidiobitcoin.org
+Learn more about the Bitcoin Design Community: https://bitcoin.design/

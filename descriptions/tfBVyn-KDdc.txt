@@ -1,0 +1,23 @@
+CHAPTER HIGHLIGHTS:
+0:00 Why we changed the time this week, Open Source & Corporations, wearing suits.
+7:40 OP_Return, V30, and what is top of mind for the business-oriented community.
+10:00 Unpacking the mechanics of the claim that Bitcoin will die due to illicit content.
+20:35 Why make these changes? Revisiting the mining centralization concern and offerings like Slipstream from Mara & Mempool Accelerator.
+31:17 Is this whole thing just a distraction or even an attack? The importance of the ease of running a node.
+34:04 You can already store images on Bitcoin via inscriptions, which are 4MB vs 1MB in OP_Return
+39:10 Why Mining Centralization and UTXO bloat are fights worth fighting.
+41:22 Are people taking this to the point of a hard fork, and is that wrong, or a slippery slope?
+45:20 We don't know of a mechanism to stop spam on Bitcoin, except for the historical solution of fees.
+46:39 Sharing an exciting new project advancing Bitcoin payments is being built with Replit.
+51:10 Another company, Cloudflare, is launching a centralized chain for agents using stablecoins.
+54:12 Importance of reputation and building with Nostr.
+1:02:42 Are the AI-generated videos from Vibes dystopian? Managing attention is the modern world.
+
+FOLLOW:
+Presidio Bitcoin:https://x.com/PresidioBitcoin
+Steve Lee:https://x.com/moneyball
+Max Webster:https://x.com/MaxAWebster
+David King:https://x.com/dksf
+
+WATCH THE SHOW:
+https://www.youtube.com/@PresidioBitcoin

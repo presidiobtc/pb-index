@@ -1,0 +1,18 @@
+0:00 Setting the Stage: Why Quantum, Why Now
+2:24 Timeline Shock: Is Quantum Only Five Years Out? 
+5:15 Quantum Accelerants and Bottlenecks + AI's Role
+11:25 What Comes After ECDSA? Exploring Post Quantum Signature Options
+17:43 Quantum-Vulnerable Coins and Exchange-Held UTXOs
+20:18 Burn vs. Steal Dilemma 
+27:23 Hourglass Proposal, Throttling, and Tail Emissions
+35:44 Managing Perception: Fear Loops, Institutional Allocator Concerns and Coordination
+
+🔴 Watch the full Quantum Bitcoin Summit Day 1 livestream: https://www.youtube.com/watch?v=GeUdu4hrBPI&t=4021s
+🌐 Learn more about the Quantum Bitcoin Summit: https://pbquantum.com
+A big thanks to our sponsors: Project Eleven and Anduro! 
+
+🎧 From the 21 in 21 podcast recorded at 📍Presidio Bitcoin
+🔗 Full episode: https://www.youtube.com/watch?v=r91-r97-ksc
+
+🐦 Follow us: https://x.com/PresidioBitcoin
+🌐 Learn more: https://presidiobitcoin.com

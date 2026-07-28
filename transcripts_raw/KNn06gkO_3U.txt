@@ -1,0 +1,538 @@
+[00:00:00] Good. Some indicator. All right. Here we are. Welcome to another episode of PBJ. Alright, this, this is January 9th, 2026 and this is our first one of the year. Good [00:00:10] to see you. 2026. Are you? I thought it was 30, 36. I don't know what, wait, what's century? The acceleration seems like it's sometimes max on this show.
+
+Max operates as if it's [00:00:20] 30, 26 sometimes. Sometimes, you know, the future is here. Just not even late. Deltron Deltron predicted it all. 30. 30. Happy New. Happy New Year though. Happy New [00:00:30] Year's Eve. Happy New Year. Happy New Year dk. Yeah. Yeah. Happy New Year. Biddy. How are things? January 9th is a milestone in Bitcoin or a moment in Bitcoin.
+
+Oh, that's [00:00:40] right. The first actual mind block was January 9th, I believe. The first mind block. Isn't that correct? I thought, I thought it was. What happened on the third? [00:00:50] Something happened on the third. The Genesis block was published and then nothing was mindd for like a week. Yeah. I didn't realize it was that long.
+
+I know there's [00:01:00] something about the Genesis block. You can't, you can't spend the coin. It's a special block. You can't spend the Coinbase. And that was published January 3rd that was published and then it was just left. [00:01:10] Nothing's happening. Let the week go. Nobody's mining anything. Like, I mean, the code was dropped, so it could have been mined within minutes, but someone had to [00:01:20] run the software and find a block.
+
+Okay. And Satoshi was Satoshi specifically. Do we think that he didn't mind the first one 'cause he was specifically waiting for somebody else to do it? [00:01:30] Uh, when I spoke with him, he, he didn't really say, but we should have a follow up interview with Satoshi. Alex, can we patch the tochi real quick? Let's, let's find out.
+
+No, I [00:01:40] don't think we know. I don't think we know what he was doing. I mean, may, maybe from his online, uh, activity, like messages, maybe he [00:01:50] had messages between the third and the ninth. I don't know. It, it's a reasonable speculation, man. Like what else would he be doing? But yeah. So the third, the software was actually available, the Genesis block [00:02:00] was mined, and then he kinda just like turned off mining and just nothing happened for the next week or so.
+
+Right. From the third to the ninth. Yep. Is that true? That's what, that's how [00:02:10] network worked. Oh, okay. Cool. Well, he presumably turned, he presumably turned off the software because otherwise he would've mined a lot of blocks. The difficult Right difficulty level was low. [00:02:20] Yeah. I I, Dave Ramsey or whatever is like, what, what happens if those nerds turn it off?
+
+He actually did that in that first week. I don't know. I, I, [00:02:30] I hear he was pretty busy that week with like staking his Ethereum, so I don't know. He had to go do a press tour, you know, make sure that Wall Street was on board. [00:02:40] He needed to go ask permission for a few things.
+
+So we're back boys, how is y'all's break? Where, where, where do we begin? Oh man. [00:02:50] Steve's looking et again. I like it. Yeah, I got some. New, new gear. Some good swag over the holiday break. Yeah. How was y'all's break? What would you, would you go to it? It [00:03:00] great. Iowa State's 15 to Oh, now Oh yeah. First 15 to no start in school history.
+
+You guys are balling it. Ken Palm. You are top two. Number two. Ken. Yeah. If you go back, Ken PO [00:03:10] goes back to 1997. Okay. So the past 30 years, Iowa State is now a top 12 all time team. What is going on like up there with like Duke 99, duke [00:03:20] oh one. What the hell is going on over there? 'cause you guys don't have the NIL.
+
+How are you that good. It's the, it's the, it's crazy. We're a bunch of fanatics. I like it. Support the [00:03:30] team there. There it's corn. No. Great coach. The corn, it's all the corn. The Bitcoin. No, I mean the, the player, the players could have taken 50 to a hundred percent more money [00:03:40] this year and they didn't. They stayed 'cause they loved the culture.
+
+They thought they could win a international championship better. Here we go. There you go. Wow. It's good. It's good to have a [00:03:50] mission. It's like team bitcoin. Uh, another thing I did over break, I observed what many people do. They sort of, it's a reset. A mental reset. Yeah. And sort of like [00:04:00] the look, look back in the past year.
+
+Look forward to the new year. What do you do? You set New Year's solution, right? So, oh, that's a good, yeah, good question. I went through that process and, um, I think DK wanted me to [00:04:10] speak to some of the stuff I'm doing. Yeah, let's, let's, it's actually, we chatted on the, like the high level. Some ideas came up, but I wanted to hear actually more about what, what actually motivated [00:04:20] this and how it's going and what, what you actually hope to achieve with, with these.
+
+Yeah. Well a lot of it is stuff I think Max is already doing so interested to hear what you, your thought, but I just sort of, um, [00:04:30] I wanted to like a reset on how I spend my time. Hmm. Yeah. Um, I mean, so there's, I always have physical goals like so, you know, running or some race or whatever. So I've, I've got, I've [00:04:40] got those, you know, I love the Dipsy race now, so I've got a goal there.
+
+Um, those are easy for me 'cause I love doing them. So it's not like hard to do that [00:04:50] goal. Yeah. Uh, one that is physical related that, uh, is a little bit harder is mobility. Um, 'cause I don't, I'm not a huge fan of like, stretching and even, like, even yoga. I mean, I don't hate [00:05:00] yoga, but I, I'm, I don't like, I, I don't get drawn to it like I do with biking or cycling or biking or running.
+
+Um, but yeah, I introduced a mobility goal, but, but I think the [00:05:10] one, the goals that you're interested in talking about in the show are more around like digital habits, internet habits, et cetera. Yeah. So I, I really tried to account for my time [00:05:20] better. Mm-hmm. Looking back and then, uh, uh, made some, made some changes.
+
+So I know Max, you've talked about like deleting [00:05:30] apps from your phone, getting away from the feed, et cetera. So I haven't deleted an app from my phone, but, um, that's not true. I actually went through every app on my phone and deleted about [00:05:40] 70 apps that I don't use anymore. 70. Holy, whoa. Huge. It just apps that I don't, but that, that was more just like standard house, house cleaning, not.
+
+Behavioral changes, but, um, like X in [00:05:50] particular, I get sucked into it. Like many people in Bitcoin do we all fucking, I actually never used Twitter that much at all until I got into Bitcoin. Yeah. I mean, I, you know, I was one of the first users on Twitter, but [00:06:00] like, I, I didn't, I wasn't like, I just didn't really use it that much.
+
+Yeah. Uh, Bitcoin drew me into that. I was a very regular user and then like news and politics, et [00:06:10] cetera, you get sucked in. Uh, I learned a lot. I mean, it's an amazing tool and it's like a professional tool for me. Yeah. So, um, so it's not as [00:06:20] easy as, and also I, I get links sent to me constantly and of course I'm also an instigator of sending links, right?
+
+Yes. So, mm-hmm. It's, it's not practical to just say no [00:06:30] to it. I don't think it actually would like harm how I, how I'm productive at work. Uh, including the show, but Bitcoin development, et cetera, Bitcoin sentiment, et [00:06:40] cetera. Mm-hmm. So I can't just cut it off, but I basically am saying no to like feed scrolling.
+
+Mm-hmm. Yeah. Uh, which I think is something you've done. So I wasn't sure how it would work out though. 'cause if it's not as [00:06:50] simple as like deleting the app and literally not logging in, then how do you not get sucked in? You have to be disciplined and tough and mentally tough. Right. So, uh, 10 days into this I have been [00:07:00] mentally tough.
+
+Nice. I've not been scrolling, so let's keep checking back in every month or two how I'm doing, because I worry about slipping, but I, I don't want to slip. [00:07:10] Well, I mean, I feel like easier now than it was five days ago. It's been surprisingly pretty easy. Every day. Um, you said it's mentally [00:07:20] tough, like is that mental toughness?
+
+Like, are you sort of Well, I anticipate you need mental toughness just because it, the, it's the product is designed to suck you [00:07:30] in, right? Yeah. So I mean, like Max sends a link, I click and even my intention is just to look at that. Yeah. But then, you know, then you wanna look at what's this? You wanna look at replies.
+
+[00:07:40] Understand context, and that's for me still within bounds. Yeah. And then I might wanna look at quote tweets to look at context, and that's still within bounds, but then you, inevitably you got notifications, you, you [00:07:50] inevitably get sucked into the feed itself. And then, and, and so I anticipate that be difficult to avoid.
+
+Uh, so far so good though. But I do, I, I'm not. [00:08:00] I'm not, uh, letting my guard down. Like I think that's gonna continue to be hard to resist. But, so I mean, first of all, congratulations and that's awesome. And, and to be clear, like even though I've tried this, like, [00:08:10] to be clear, I, I have not found a permanent solution.
+
+I like sometimes am doing really well with it and sometimes slip and I'm like, goddammit, not again. So I do think having the intention and the [00:08:20] willpower is a great place to start and it's awesome, but I'm also very skeptical of willpower for the very long run. So I don't know what the answer is. I'm curious what you guys think.
+
+I mean, I think, you know, [00:08:30] you obviously you keep that going as long as you can. Um, I mean, some things that I've tried that have helped, obviously getting rid of the app, trying to only use it on my computer, but even still, it's like occasionally it's like, oh, I just wanna check real quick. [00:08:40] Like you said the context, 20 fucking minutes later you're like, God damnit not again.
+
+And um, and it's a, it's a constant, like I haven't found a good solution, but I'm also with you where it's like I have considered, do I just [00:08:50] like, you know, like a. I talked with Angelo about just change my password and don't tell me, and maybe that's a good solution for like just doing it for a month. But then like to your point like, yeah, there, there is stuff [00:09:00] that like is I would like to be able to check.
+
+So I mean, one thing that I love in the far future, maybe not so far, is with something like Noster, you know, the, in theory you could just [00:09:10] create an app that's like, listen, I don't want the fucking feed at all. All I want is to be able to see this thing that someone sends me in the context. Literally nothing else, Twitter or any of [00:09:20] these closed proprietary platforms.
+
+Of course it's hard because they limit the API access so. I don't know what the, the long-term answer is. I mean, I don't know. D dk do you have any thoughts on this? I know you, you've experimented with your own or maybe [00:09:30] people in the audience, like, I think this is like a struggle for everyone. I do a ton of experimentation around this.
+
+Um, one thing that I've, I, I've also been trying to reduce, turning my attention over [00:09:40] to an algorithm. So if Steve or you Max send me a link, I'm just, 'cause it happens to be hosted on Twitter, I'm like, yeah, great, I'll read that. I generally am fine [00:09:50] just reading that and then closing it. So I kind of just have some ability or habit to do that.
+
+Um, but I've, I have moved Twitter away to the back, you know, several pages back so that it's [00:10:00] not easily accessible. It's something that I can like go to and I can click on a link that you send me in Signal and I can read it on Twitter, but then I can kind of be done with it. Um, the one [00:10:10] thing I've done is I, I was never really much of a big Reddit person.
+
+Yeah. I don't like love Reddit. It's like, fine. But what I have done, which is weird, but what I have done is I've added Reddit to [00:10:20] my main home. Page of my phone. And so when I kind of have that instinct like, oh, I wanna see what's going on, I wanna understand the world a little bit more, I actually just open [00:10:30] Reddit and I look a little bit and I'm like, okay, that's enough.
+
+Yeah. And it sort of gives me some, some of that same, like curiosity, satisfaction, but it's not tuned to like quite the same. [00:10:40] I don't know, like, uh, you know, quite the same rage inducing attempts that Twitter tries to the information is overall, I'd say lower quality, less interesting, but in a [00:10:50] sense it gives, it's like a, it's like drinking diet Coke maybe instead of Coke.
+
+It's not water, but it's like a lighter version. Yeah. I mean, I, I find Saer news is like that, right? [00:11:00] For me. Like that, that that's what I've done. And I, I actually like, yeah, Reddit, Reddit's not perfect. I can still get sucked into Reddit, but it's way less likely than Twitter. 'cause it's not like, here's a billion fucking things.
+
+Like look at [00:11:10] this incendiary. Um, and, and there are really good deep threads in Reddit, for example, there was one, I think I sent you guys over the break on Reddit, singularity around like, um, [00:11:20] uh. Yeah, ba basically some dude who was just kind of like, oh man, like the singularity actually is here. And it was like, it was a great post.
+
+I loved it. Um, and I agree with you on that. It's [00:11:30] still, I think it's a good stop gap. It's not my perfect one. Matthew also mentioned deleting the apps using browser. I do the browser. I keep my phone black and white. That's another one that really helps me. But, um, I don't know, man. [00:11:40] Part part of me is just like, I wonder if the answer is gonna be, you know, in this new AI wave where when I finally get my assistant, you know, like that I own, we were, DK and I [00:11:50] were having a bit of an AI debate.
+
+We'll, we'll bring, we'll bring back in a minute, but if I get that assistant, it's like I don't wanna see anything. Like literally all I wanna do is. T tell me what I need to know and if I [00:12:00] decide I want to go in deeper context, we'll do that together. But that's it. Um, I dunno. Yeah. Yeah. And I've, I've thought, I've just thought about doing not a, it, it wouldn't probably be a large scale type of service, but [00:12:10] for myself.
+
+Yeah, I could imagine. I, I've thought about building something like a Chrome extension that sits on my computer and reads everything that comes in on Twitter and then [00:12:20] kind of operates according to some like, filter that I set. I say, uh, if it's about, it's really angry stuff, don't show it to me. If it's something interesting and kind of brings forward some new [00:12:30] knowledge or learning about a topic I care about, then show me that and then have that Chrome extension, do the reading, digestion and filtering.
+
+And then I build like some reading interface where I can read the stuff that the [00:12:40] Chrome extension has filtered for me. Um, so I've thought about building that I would use that. Get around to it. In the new year. Yeah, I'd be interested to try that if you do. Yep. The, [00:12:50] uh, a few more things that I'm trying to improve.
+
+Yeah. Well the one that I mentioned that I think is why DK mentioned, uh, suggested talking about on the show [00:13:00] is, uh, I'm in like dozens of Discord servers because a lot of the open source Bitcoin projects are dis on discord servers. So, you know, it's part of new ones in Right, [00:13:10] right. I mean, we, yeah, we can't have enough dis discord servers.
+
+So, um, I mean, I, I need to be at least lurking, if [00:13:20] not participating in many, if not most of these, uh, just part of my job. Yeah. But, um, I, my default behavior though was like notifications [00:13:30] on and then, and I'm, I'm just like instinctively like an in index zero type person, so I just wanna like clean it out right away.
+
+So anytime I get a notification, I look at the message and then deal with it. Either consume [00:13:40] it and move on, or respond or queue it up for if it's not a instant response or I need to think about it more, queue it up for later. Um, and [00:13:50] ulti, I mean, yeah, the number of Discord servers grew from like one to six, to 12, to literally, I probably have 25 or 30 now.
+
+Yeah. Wow. So it [00:14:00] becomes, it, it just was consuming my day. Yeah. Um, so I notice, sorry, you leave notice on for all that. Well, I, I [00:14:10] turned off notice for maybe, um, out of those like 30 discord servers, maybe like six or eight are [00:14:20] defunct or not really used anymore, uh, like a, B, C. Oh yeah, sorry. My air, um, once, that was one of dks.
+
+Um, [00:14:30] and then, and then, uh, I had already turned muted notifications for like six or eight. But yeah, I, I was getting, you know, it was a big, big part of my interactions during the [00:14:40] day. Um, so I've turned off a muted notifications. That's awesome. For almost all, but a, a couple. Yeah. Um, and, and, and just creating a practice of like checking [00:14:50] like twice a week.
+
+Mm-hmm. And like, you know, batching it, basically Batching, yes. Batching. And, and then it's somewhat more efficient. Yeah. So, um, again, just started that, but I, I think I'll be able to [00:15:00] stick to that, that that's not a hard habit to create. That was just, I needed to like step back, realize it, and then do it. Um, and so did that, [00:15:10] uh, another one.
+
+Um. I created a new rule. I cannot bring my phone into the bedroom at night to like, that's good. And, and I, [00:15:20] and uh, but how do you wake up? Like, do you have like a, a analog alarm clock or you just alarm? I still use my phone. Um, it's outside my room and Got it. Like I hear it, [00:15:30] so, um, and if somehow that's not working, I'll just get a alarm clock.
+
+Old school or an old phone or whatever. Yeah. And like, but, but [00:15:40] basically, um, you know, no more falling asleep to like scrolling through Instagram reels or, you know, whatever. Um, [00:15:50] no more waking up in the middle of the night and then like grabbing my phone and getting sucked into messages and waking me up.
+
+Oh, that's again, that's good. Me for like an hour or more. Right. Um, [00:16:00] and so that's been super healthy so far. Yes. Congrats. Hasn't been really that hard. It, it, or I guess, uh. It feels a little weird now to go to bed [00:16:10] without my phone. Yeah. But, um, but I go to sleep right away. Yeah. So I'm, I'm happy about that.
+
+I'm not like sitting there awake for hours. I, yeah. Nice. That's why fitness helps. 'cause if you get [00:16:20] tired from working out, then you, your body tends to want to go to sleep. So Yeah. And several other changes like that, but I think, uh, so far so good. And, and then the main one [00:16:30] I'm worried about I'll slip up on is the, the doom scrolling.
+
+Yeah. So, uh, we can keep checking in with each other, uh, every once in a while to make sure I, I stay disciplined on [00:16:40] that. Nice. Well, first of all, congratulations. These are all great things. Yeah. And, um, you know, I, I would just say I, we should definitely all continue. I think it's great to have community to check in with the people on, but, [00:16:50] um, I think on the doom scrolling thing, I think we need a better solution as a group, as a society.
+
+Yeah. And, uh, dk, I don't know, maybe your vibe coulda thing is a step in the right direction. I don't know. Um, but willpower's a great [00:17:00] start, but I, I really believe we need a technolo. Like we need some. Structural solution. Yeah, I, I agree. Um, a few people are chime in here, uh, on, on comments. So by [00:17:10] the way, I can see comments through this, so Oh, okay.
+
+Well, so, uh, Matt Coat says that, uh, we use as a quote Freedom app. I don't know what that app is, but [00:17:20] basically he, he blocks out, sounds like, you know, notification stuff in the morning or during work hours, whatever. And, um, yeah, totally agree with that. And that, I mean, that's, that's [00:17:30] aligned with what I'm trying to do as well, just be interrupted less during the workday.
+
+Yeah. One, one thing I, um, for, for me, like a, a lot of my role [00:17:40] is responding to people right away. Connecting people. Yeah. Yeah. Unblocking things. So it's a little, I mean, there's a cost to me, like just blocking [00:17:50] everyone out for a day or two days at a time, because then they might be. Uh, people don't necessarily wait on me, but like, I can reduce friction [00:18:00] or I can unblock things, right?
+
+Uh, so there, there is, and that, that's typical for a pm So I think that's, that is a tension, but still I can do, I'm like way too [00:18:10] far on one into that spectrum. Um, so blocking out time makes a, a, a lot of sense. Um, oh, also people were, uh, talking about why the [00:18:20] show was late and I was getting blamed, which I just wanted to comment on that.
+
+I'll take responsibility. However, uh, I blame Elon first of all because I [00:18:30] was, uh, at the Tesla service Center. You could blame Elon for everything, right. X as well, and told me the car would be done at 10 30 and then it wasn't done at 10 30. And then I checked in again and they're like, oh, we'll definitely have it done by 1130.
+
+I'm [00:18:40] like, I have to be in the studio. Yeah. And then 1130 rolls around and it's still not ready. And I, it never did. It is still not ready. So I had to Uber here. So then though, but I then, yeah, [00:18:50] I'm gonna point the, so then I show up 15 minutes late, and then someone has to take bathroom break. Hey man, we know whenever I can empty my bladder, I'm gonna take [00:19:00] that opportunity as I, we know, as I learned growing up, quote, never miss an opportunity recording of you taking that opportunity on many occasions, that's what I do, baby.
+
+Too much [00:19:10] tea, pounding tea, that's my thing. But yeah. So, wait, but, but you mean to tell me the, the Tesla mechanic was not sensitive to the fact that you are a star. It had to be in the studio. I'm like, [00:19:20] I'm like, take your time. I don't wanna, I don't wanna rush top of my car. I just wanted to know, like, do I need to take an Uber?
+
+And they kept saying, oh, your car will be ready. And I'm like, okay. And [00:19:30] also Uber like, don't they have like Tesla, like Robax ready? Yeah. Seriously. Is that not 10 years ago? Not here, not outside of San Francisco. Okay. [00:19:40] I think, I think all cars drive themselves as of 2018 or something. Well, I do generally drive my car in self-driving mode and it's fantastic.
+
+Yeah. It actually, but it's in the shop [00:19:50] because the camera's not calibrated. And so I've actually, um, not had self-driving the last two weeks and it drives me crazy. Yeah. Like, it, it, once you get like, [00:20:00] uh, acclimated to it, it feels like you're a century behind when you go back and you have to actually have to drive your car.
+
+I mm-hmm. I see your, I see your elevated attempt to [00:20:10] dunk on Elon DK and, um, sorry. That's, that's not it for selling our attention. Sure. But with that same, uh, service center, I, I, I'm, I would say I'm balanced. Like I'm not a [00:20:20] hater. I own a Tesla, but I don't, but man, that service center, I'm sorry to question this, this thesis from dk, I'm not a hater.
+
+I just paid on E No, no. I bought, I bought the, I [00:20:30] bought the car. I like the car. It's a, a good car. Yeah. But, um, but man, the service center, so Matt Newell says, did I tell Tesla that we have seven [00:20:40] viewers on YouTube? And that's a funny comment. I love it. Um, but I did not. Yeah. However, I will say I interviewed a candidate for a job this morning [00:20:50] and, and they told me they love PBJ and are avid watcher, so let's go as, as you would say, if you were interviewing for a job.
+
+Yeah. He might be listening right now. So this is like that [00:21:00] one time Steve was tell us something, he was like, Hey guys, you're not gonna believe this. But everyone on my team agrees. It's like, okay,
+
+who's signing those checks [00:21:10] anyhow? Okay. Good times. Okay. Should we get to some of the, some of the news? Yeah, yeah, yeah. Um, uh, well, I think a pretty quick and easy one [00:21:20] would be Walmart. You wanna start with Walmart? Because like the news, the news sounded exciting. Yeah. Walmarts accepts Bitcoin now. Okay. I mean, they're the biggest retailer in the [00:21:30] us Big deal.
+
+Yeah. Big deal. But, um, what does it really mean? Well, what actually, I mean, we'll talk about that, but, um, I came up with a new litmus test too. What it [00:21:40] means to like, or whether something's, whether an, whether an announcement is interesting or not. If it matters. Yeah. So accepting [00:21:50] Bitcoin, like it's the litmus test is, can, can you use any Bitcoin wallet to pay?
+
+Yeah, that's a good one. Uh, or at least any like, you know, bolt 11. Yeah. Or lightning based [00:22:00] Bitcoin wallet. Most Bitcoin wallets. Yeah. Most Bitcoin wallets, right? That and, and, and is the answer yes or no? Well, in the case of Walmart, the answer is no. You can only pay with one pay, which is [00:22:10] their own company.
+
+Or it's like a subsidiary or something. Yeah. Um, app and, and even that doesn't even use the Bitcoin network or Lightning Network or anything. [00:22:20] It's just you, you, you literally have to buy Bitcoin in one pay. Mm-hmm. And then when you go to Walmart and buy something, they sell your Bitcoin, turn it in dollars, and then [00:22:30] pay Walmart.
+
+So there's literally nothing to do with Bitcoin. Yeah. I mean, other than like buy, they say they buy and sell it, buying and selling Bitcoin through nice hash [00:22:40] because they're partnered with nice hash. Okay. They're not using Bitcoin in any way, shape, or form in the transaction. So literally all they're doing is they're saying over here, we, you trust us to buy and sell Bitcoin for you.
+
+When we sell [00:22:50] it, we'll give you, we'll take dollars and pay dollars on the other end. Yeah. So I'm, I'm not a fan of this approach, but I, I do wanna sort of steal, man, the, the benefits to Bitcoin that [00:23:00] this creates, which is there are, um, you know, there are people out there who are Walmart customers who have this one pay app and who don't have a Coinbase account or don't [00:23:10] have any other process right now that has them convenient exposure to Bitcoin.
+
+And so they may become a little more curious about Bitcoin if they can hold it, see some price exposure in [00:23:20] the app, and then they can pay smaller amounts from what they had originally put in because they saw the price. Appreciate. I, I don't, I wouldn't defend it as good. I, I'm still sort of on your [00:23:30] side, like, eh, this is kind of like a toothless announcement.
+
+Um, but just to sort of like, I think there's some good in it still. Well, well, I think the good is rather obvious, like it's just, it's an exchange. [00:23:40] Now more people that have a Walmart app can buy Bitcoin. Yeah. Also note that I didn't say it was bad. Yeah, yeah, yeah. My litmus test [00:23:50] is for Interesting. Yeah, yeah, yeah.
+
+So I don't think it's that interesting of news. Mm-hmm. I don't think it hurts Bitcoin. I think it helps Bitcoin, but it doesn't really enable Bitcoin payments in any [00:24:00] interesting way. Well, it's just mislabeled, like the news just mislabeled. Yeah. Like it, A better announcement would be Walmart's payment app allows you to buy Bitcoin.
+
+Yeah. Now, now, now [00:24:10] then. And then quote, spend it at Walmart now. Now one question I do have on the spend thing that makes us slightly more interesting is, do they handle all the like theoretical tax stuff for you? [00:24:20] Because theoretical. Yeah. That, that, that's, jeez, nobody ever told me they was theoretical. No, no [00:24:30] comment.
+
+I, I just filled out Alex's Presidio Bitcoin survey for [00:24:40] members. How do you even see that yet? Oh, you should. It's fun. Yeah. Alex, Alex came up with, by the way, a lot of fun questions. If it's in the Discord, I don't check Discord [00:24:50] at Alex, as you know. And now, and, and now you're, you understand why? Well, a couple things.
+
+So first of all, uh, awesome survey. Tons of categories for, for, for members. But one [00:25:00] of them is like, uh, I forget like who's, who's most likely to be audited by the IRS, I think is one of them. So, so now, no. Now I'm gonna change my [00:25:10] answer from DK to Max. Bro. Why? Why? It's certainly, I'm, I'm saying what dk what did I, what did I do?
+
+Look at, I'm trying to, Hey, man. [00:25:20] Anyhow, um, anything, anything shady. I'm a whoopie. I don't know. Another reason, another [00:25:30] reason to, um. Check the Presidio Bitcoin member Discord is, we have AMAs now. Well, to be fair, Jack Dorsey, you, you, you [00:25:40] told me about that. I knew if it was important enough you would message him.
+
+You did. We Jack Dorsey swung by, uh, yesterday. That was dope. And we did a, a MA with him, with members of [00:25:50] Presidio Bitcoin and I thought it went really well. Good, good vibe. It wasn't, I mean, he was asking questions of, of people here and I thought it was good. It was, I mean, it was more of a [00:26:00] dialogue. It was off the record.
+
+But is there, I wasn't there, is there anything you can share about, like, interesting topics that maybe hadn't, I don't know how, I don't think you would have any. I, yeah. Whedon. [00:26:10] Yeah. Well, okay. So before we jump into that, 'cause I have a lot of thoughts on that. Um, I guess a question for you, 'cause Steve made that happen, which was awesome.
+
+Thank you for doing that. It was super cool. What, uh, what inspired you? Like, [00:26:20] I, you've never been like, Hey, we're doing an a MA before and then you're just like, yo, come on. Thi uh, like a lot of initiatives, I start very. Serendipitous random. Yeah. Like we think of things on the show, [00:26:30] show, this show like Builder, and then now we have a monthly Yeah.
+
+Builder meetup that's spread to five cities around the world. Right? Yeah. So, um, uh, Jack had let me know that he's gonna visit San [00:26:40] Francisco, um, this week, and I'm like, oh, what, what's a good, what's a good reason for him to swing by Presidio Bitcoin? Yeah. He'd already been on Haley's 21 and 21 show, so probably not do that [00:26:50] again.
+
+Um, and I know that he likes to do, he likes to do AMAs. Yeah. Um, so I felt he'd be comfortable with that, uh, that format. Yeah. [00:27:00] Um, so I suggested, Hey, you wanted to swing by into an AMA with, and we'll just do, we'll just do members. And we had about 20, 20 people. Yeah. So it was like cool, the right amount of people.
+
+It was, [00:27:10] um, you know, still intimate and everyone gotta speak and he, you know, everyone gotta introduce themselves. So he got gotta know who, who he's chatting with. Um, [00:27:20] so, um, yeah, he said yes and then we did it. But then, um, yeah, I mean, we. You know, we chatted with Alex and, and, and people here and like, we're gonna try to do this more [00:27:30] regularly.
+
+Like, I love that. And it doesn't have to be like, um, people as prominent as Jack, but just like in, we want interesting people here, people we can learn from. Yeah. Um, and [00:27:40] uh, so, you know, hopefully we, we create a cadence where we have folks coming, uh, coming through here at least once a quarter, if not even more frequently for ama.
+
+I loved it. And, and it was, it was [00:27:50] super cool because, uh, and I was wondering where the hell is Dke? And now I understand you're outta town, but this was, this was like, this was very, very sweet. Um, one thing that I liked about it was, [00:28:00] uh, I guess because it was off the record and small, I don't know. I mean, like Jack is like, seems like he's always an open guy, but, um, I dunno, like this was the most candid I've ever heard him [00:28:10] yesterday.
+
+And it was, um, I dunno, like I, I certainly asked questions. I thought were maybe, you know, probably wouldn't get asked, uh, on an investor day, a block and expect or an answer from. And he gave a [00:28:20] lot of just like super frank answers, which I, I thought was super cool. So, I mean. Jack continues to be a cool guy.
+
+But yeah, it was great. Yep. I mean, to me it's not [00:28:30] surprising 'cause I've interacted with him a lot for six years now. Um, but yeah, I mean to, I, I meant that tongue and cheek. Most people in the, most people in the room like don't have that, uh, access or whatever. But [00:28:40] yeah, he's, he's very, um, he's super authentic and he is very, um, he does not equivocate like what, what he says one place exactly.
+
+He'll say another place, he'll say in pub, [00:28:50] Publix will say to investors, he'll say to a group of Bitcoiners. So, yeah, I always, uh, I I appreciate that. Any big takeaways from the a a or anything that [00:29:00] like, I don't know, captured your fancy? Um, I don't know. I turned it on to, to, to you. What? Yeah. I mean, I, I thought a couple of things.
+
+Um, [00:29:10] and again, I don't, I mean, I don't know if there's anything we shouldn't say, but I, um. I think a couple things that I stuck out, stuck out to me. One, it's interesting [00:29:20] to hear Jack thinking about AI and a GI, it was like we knew he was already a fan of Demis and Google. He's a big Demis guy, which I thought was cool and I don't think that's a surprise he's retweeted him and stuff.
+
+[00:29:30] Um, I think it was interesting, you know, he was very open and candid about frankly like I as, as all in, you know, and excited as I am about Bitcoin. [00:29:40] You know, I do think it's important to recognize kind of, and I don't say this necessarily all in a negative way, but the black swan risk. 'cause it's not necessarily bad 'cause there's, you know, white swan risk here too.
+
+But like, [00:29:50] you know, apparently Demi's position on Bitcoin has kind of been, um, it's not necessary post a GI and I don't fully agree with that. Sounds like Jack doesn't fully agree with [00:30:00] that. We all think that there's probably gonna be market of intelligence and lots of different kind of intelligences that emerge, but I also am open to this idea that like.
+
+I don't know. Like, I think it's, it's [00:30:10] good to keep a certain amount of humility and open-mindedness. Like we could be wrong on certain things. There are changes that happen in the world and like, you know, if in the future, you know, if you're [00:30:20] super agi, I pilled, um, and by the way, I am only more and more a GI pilled as the time goes on.
+
+And the reason is because everyone's like, oh, you know, is it a bubble? It ain't no bubble. We've, we haven't even [00:30:30] seen the gigawatt cluster runs yet, bro. Mm-hmm. Like we're still at the hundreds of megawatt cluster runs. Everyone's like, wow. You know? And like even if there is a little bubble like the internet, it's gonna be a blip.
+
+Like a blip. [00:30:40] Yeah. And so if, if you are really scaling law pill and all this improvement we've seen, you know, in the last like two or three years, whatever it's been is without the base model [00:30:50] runs at the gigawatt cluster run, I don't think people get that. Like we've seen all of this improvement with post-training stuff with reasoning inference, time compute.
+
+It's without going from [00:31:00] the a hundred megawatt scale to the gigawatt scale clusters. But we still might, it might once. Energy is no longer. Yeah. We might find that it's no longer the, the [00:31:10] bottleneck. Yes. And I, I, I have no idea. Yeah. But like, um, it doesn't necessarily keep scaling with as energy scales. It doesn't necessarily, but, um, one, this is [00:31:20] like, it meaning like the current techniques, sure.
+
+We might have to find new, new techniques, which might take another 10 or 20 years. We might, but my, my kind of take on this and if people [00:31:30] wanna see my like little talk from the type one summit, I gave a 12 minute, uh, talk with a meme that, uh, I, I need to refine that meme. I'm, I'm very proud. This is one of the memes.
+
+And [00:31:40] by the way, if I ever give end a round alet and like doing vibe coding and Nick and Matt one day I want the meme generator. But the meme is basically, you know, the, the, the curve, the bell curve [00:31:50] where it's like, the dude on the left is like, just trust the curve. The dude on the right is like, just trust the curve.
+
+And then the dude in the middle is like, no, this won't work. It's like I, I am probably dude on the left. [00:32:00] Exactly. I'm probably the doing the left, but I'm like, look, man, like zoom out. Even beyond, um, you know, the current architectures like Transformers, if you go back to Hans [00:32:10] Morak in the seventies, Hans Morak is just like, like the, the energy and compute theory of everything.
+
+And like, yes, there were many breakthroughs that happened, you [00:32:20] know, since he made his observations in the seventies. Like, we had to figure out LLMs, we had to figure out transformers. But this is where I guess I get a little woo woo and like, I, I don't mind being woo woo. It's [00:32:30] like, I just think that's God, the universe, whatever you wanna call it.
+
+And like, that's how it manifests. The breakthroughs will happen. And a lot of like pure materialist rationalists, like, that's impossible. I'm like, cool. I mean, you can [00:32:40] express that thesis as you wish. I'm gonna express my thesis based on my woo woo views, but like the breakthroughs keep happening. It's the same with Moore's Law.
+
+Like why did Moore's law curve keep happen? It just kept happening. Everyone's like, well, but [00:32:50] we may not get the engineer, but they happened anyways. So my point is, um. That's a much longer conversation. But the broader point is something I'm having more humility about. As much as I [00:33:00] think that Bitcoin matters as energy backed currency for these agents is, you know, many orders of magnitude beyond where we are in terms of compute.
+
+That's the singularity. [00:33:10] And you know, beyond that, like there is a world where these intelligences, maybe they don't even use our old protocols, maybe they don't use T-C-P-I-P, maybe they don't need the web, maybe they don't need any of the [00:33:20] stuff that we, it's like, we're like caveman swing sticks and we're trying to guess what it's gonna look like.
+
+Yeah. I think given the information we have on the ground today and given, you know, sort of my belief, that energy that [00:33:30] Bitcoin is energy, money, you know, we have not figured out ways to break, like, you know, the fundamental laws of thermodynamics. Okay. So as long as we have that, I think bitcoin's gonna be really relevant for these agents.
+
+[00:33:40] That's clearly where I would put my, you know, money metaphorically and, and realistically, however, I also don't rule out the possibility that these guys might find new laws of [00:33:50] physics and stuff that we. I mean, we, we were like little monkeys and we didn't know. Anyway, so it was interesting to me to hear Jack be, uh, certainly not bearish on Bitcoin, but at least [00:34:00] also opened this idea of like, yeah, I mean, at that point, once we go through the singularity, it's like, we don't know.
+
+Yeah, I think the timeframe matters really. So like if you [00:34:10] know that a GI is guaranteed happening in, you know, 18 months, then I could be more agreeable that, eh, let's not waste our time with Bitcoin if it's 10 or [00:34:20] 20 years. Yeah. And there's a bit of a slow takeoff for other big technological changes that need to happen before we get there, then like you kinda wanna be able to [00:34:30] marshal resources and effectively money is just like the allocation of resources, right?
+
+Yes. It's like a ledger to allocate resources. Yes. Whether it's energy backed, I mean the, the only real one is the energy backed one, but like Yeah. [00:34:40] What we're trying to do whenever we create fiat monies even is we're trying to allocate resources better and critically scarce resources. Yeah, yeah, yeah. If the resource is not scarce too cheap to [00:34:50] meter, it doesn't matter.
+
+Yep. Yeah. So I, I think the, the, the negative, the sort of bear case on Bitcoin would be that all resources and all energy and needs become [00:35:00] too cheap to matter. And I think there's like a reasonable shot that that happens at some point. Yeah. But it, it, it, it, it's probably not like in 18 months, right. I, Steve disagrees.[00:35:10] 
+
+I don't agree because like, hu human, like human nature is to like, there'll be artificial scarcity in the sense that like, [00:35:20] part of like your identity, like whether it's through fashion or the type of car you drive, or you're always looking for some kind of unique edge to like [00:35:30] demonstrate your personality.
+
+So if. Literally everything that's infinite. I mean, even like the friends you have, like social groups mm-hmm. Or your [00:35:40] girlfriend or wife or spouse or whatever, like, that's scarce. Mm-hmm. Right. So, um, I I, I don't [00:35:50] see, I mean, I definitely see a world where things that have been costly before become effectively no, no cost and abundant for sure, but not [00:36:00] everything.
+
+Yeah, that's a good point. I mean, as long as we're in this finite dimension, I tend to agree, but I, I guess what I'm saying is like my, like whatever, 99% cases, I agree with you and that's probably what's gonna [00:36:10] happen, but I increasingly opened the possibility of just being shocked. Um, one, one more thing that we talked about at the a MA was, um, [00:36:20] you know, the digital Gold store value narrative, just being the dominant narrative we talked about in this show a lot.
+
+Um. But, uh, I mean, this isn't like a shocking [00:36:30] statement, but you know, Jack did say that he feels like Bitcoin as a everyday money payments is, uh, is headed in the wrong direction over time. Like, it's not, it's not [00:36:40] getting better over time. It's getting worse over time. Worse in terms, how, how is it getting worse in terms narrative, mind share [00:36:50] usage?
+
+I mean, MDK, I mean, it's small and early, but like that kind of stuff seems to be, well, I mean, and we're gonna talk about MDK, I mean, obviously yes, the three of us are [00:37:00] advocates, but like, but not just advocates. What? You built something Steve? No, but Oh yeah. I wanna hear about that. David, I, how much money in the world is [00:37:10] allocated towards Bitcoin and store of value versus MDK?
+
+How many people in the world? Wait. So are you sad Bitcoin More people, Bitcoin are using store of value now. [00:37:20] No, it's just that progress, that's just a form of progress. No, this is not a hate on the story of value narrative. It's just that the story of value narrative is the dominant [00:37:30] narrative and continues to grow in dominance over time.
+
+Even today. I, I, I would, yeah. I would maybe frame it as for the people that even give a shit about [00:37:40] Bitcoin, over time, the narrative has grown more and more. In the early days, it was purely, this is gonna be what Satoshi said, peer-to-peer cash. Mm-hmm. Um, over time it has [00:37:50] grown more and more to, this is a store of value of the people that care.
+
+Doesn't mean that's not gonna change over time, but I think that's mostly because way more people care now. That's fair. So there's a huge frontier of new [00:38:00] people who care and they only care for store value, and they only care for a number go up. But the absolute number of humans who are engaged in payments today, that must be higher than it was 10 years ago.
+
+Yeah, I'm [00:38:10] actually not sure on that. 'cause it's still road from six to eight. Is that true? I mean, I'm serious like, or that, that might be true. And e even if it is true, it it's tiny [00:38:20] numbers. Yeah, it's tiny regardless. As long as the payment era of Bitcoin payments. So, and I think, I think that's gonna bridge us soon, uh, to two very well [00:38:30] 40 and slipped there.
+
+I guess what I'm gonna get at, I think it's gonna bridge us very soon to, uh, talking about both MDK and this kind of like the new sailor back stable coin stuff, which I've been thinking a lot about. [00:38:40] But another maybe way I would frame this is, um, of people that care at all in like technology circles. I would say probably in [00:38:50] the 20 11, 20 12, 20 13 year I was not around.
+
+But my understanding is VCs were backing things like BitPay. And they were thinking this is a [00:39:00] peer-to-peer payment technology today. If you survey, and I would assume that a lot of like call it normie VCs, were at least open this idea of like, oh yeah, Bitcoin, it's that internet payment [00:39:10] thing. Whereas all those companies effectively, you know, have been duds or you know, zeros or are pretty, pretty small.
+
+And now [00:39:20] companies in the traditional tech circles that are seen as peer-to-peer PA or like, uh, the internet payments or companies like Bridge, which get acquired by Stripe for a billion dollars. And so I would say [00:39:30] in sort of mainstream tech circles, Bitcoin maybe had a moment where people saw it as payment technology, that transition to stable coins, which the volume for that is [00:39:40] real.
+
+Um, and. Yeah. At least in the quote unquote, you know, Silicon Valley talk, that's transition. I mean, I would sort of, I would severely [00:39:50] diminish the importance of like, yeah, I agree what's worth investing in or whatever. It's more like, what are people actually using? Using Sure. And like, and, and, and people are using stable coins at a much larger rate for payments.[00:40:00] 
+
+Oh yeah. Yeah. I'm not saying that Bitcoin payments is beating stable coins. I'm saying that Bitcoin payments, we may be at the dawn of Bitcoin payments and one piece of evidence I would bring is, I think it was at the Vegas conference, wasn't miles up on stage [00:40:10] saying that doesn't block generate 10% return on liquidity from lightning channels and stuff.
+
+I mean, that's what you said. That's usage. Right. How [00:40:20] But again, so again, what, what I'm saying what Max is saying, and I think, I mean it's not like Jack turned bearish. I mean he's lit. He is the, he is a [00:40:30] very much bullish and an advocate for Bitcoin payments. Sure. Yeah. Um. And, and, and also, yeah, we're, we talk about all kinds of things on this show, and we're gonna talk about more things [00:40:40] today on the show about reasons to be optimistic.
+
+And we are at the dawn, but I think it's un debatable that to date it's losing. No, I'm it [00:40:50] losing to stable coins. It's losing to the story value narrative relative to what it was 10 years ago. Are there more Bitcoin payments made today than the word 10 years ago? I think you're both right. [00:41:00] It's true. Like yes.
+
+It, it is certainly. Well, again, the Silk Road thing, we, we'd have go check those numbers. Hold on. Like if, let's just simplify it. Let's say there's, uh, you know, stable coins and [00:41:10] Bitcoin payments and 10 years ago Bitcoin payments is, was at five and stablecoin is zero. And today Bitcoin payments are at six and stablecoin payments are at a [00:41:20] billion.
+
+Well, did, did Bitcoin payments grow? Yes, but I mean. Yeah. But, but I, I wouldn't, I don't even see the argument here. Well, but I wouldn't claim that [00:41:30] stable coins are not used. They're used way many, many orders of magnitude more than Bitcoin payments. So I think we're all on the same page with that. My point is, I think that [00:41:40] Bitcoin payments is the long-term way that the payments stuff is going to work, and there's gonna be some, maybe, you know, multi-year transitional period where people try to do stuff [00:41:50] with stable coins, they get kind of borked in one way or another, and then they've probably come around, or, or maybe there's new technologies that come around that enable people to use Bitcoin payments, like stable [00:42:00] coins.
+
+Yeah, I mean, I, I don't think any of us are disagreeing or core. I mean, I, I, I think, I think a lot of it just comes down to expectation, reality. Like if you came into the Bitcoin [00:42:10] project with the idea that we're gonna get. Bitcoin, peer-to-peer payments from day zero, you're probably very disappointed, right?
+
+Yeah. If you came into the Bitcoin project [00:42:20] saying money has to go through, you know, collectible, store value, medium of exchange, unit of account, and you can maybe on the margins push things a little bit faster [00:42:30] or slower, but like ultimately nature is gonna nature and like, it just, it is what it is. And like we're going through the progression and like here we are.
+
+I mean, I will say from my perspective as a VC who has [00:42:40] bet heavily on the Lightning network for payments, there's no question it's been disappointing that it's gone slower than I thought it was going to go in 2017 or 2021. No question. [00:42:50] Having said or, or or our 2025 predictions. Yeah. Or 25 predictions, which were just like, like miss after miss.
+
+So, so there's no question my [00:43:00] expectation was incorrect in how quickly it would happen. Am I less confident that it's gonna happen today? No. I mean, I still think more than ever in the long run. [00:43:10] There's so many reasons. Bitcoin's permissionless it's energy back. It has all of these properties. And in fact, um, you know, I've been thinking a lot more about, uh, somebody else wanna discuss this compute marketplace idea and agents using it [00:43:20] like ultimately, um, without doxing.
+
+'cause he, he doesn't wanna come out yet, but like, someone very smart said something that just like stuck in my head. It's like, it's not that agents or people who [00:43:30] prefer Bitcoin, they're gonna choose Bitcoin for payments. 'cause like, oh yes, I've done a long careful analysis and this is better than that.
+
+It's gonna be like, what's gonna happen is stable coins are gonna win until they don't and they're not, [00:43:40] and and when do they not win? Whenever there's like a big reason they stop working. It's like it works until someone, this is, this is my point, this is why if, if Bitcoin payments is a five [00:43:50] today and or was a five, 10 years ago and it's a six today, but stable coins is, what'd you say?
+
+A thousand or a billion or whatever. Like, that's great because stable coins are a transitional technology that will help [00:44:00] people, you know, use digital technologies and somewhat cryptographic. Somewhat secured, you know, debatably secured. Now I do think the [00:44:10] spirit of what Jack was saying though is, is also important, which, and something I've also thought about about, he mentioned, um, that a movie he likes a lot, which I actually now wanna [00:44:20] re-watch, which Wally.
+
+And I think that's important too because I think that, you know, to go back to one of our mutual favorite thinkers, Kevin [00:44:30] Kelly, like there are certain technological things that are inevitable. And I think on a long enough time horizon, there are even like. Characteristics of those technologies that are inevitable.
+
+However, there [00:44:40] are flavors of those technologies that can be birthed at different moments, for example. Mm-hmm. A hive mind is inevitable. That's why my fund is called Hive Mind. There is a bottoms up version, which I think [00:44:50] Bitcoin and technologies like Noster represent, and there is a top down version, which is more of like what we see in countries like China.
+
+They're both hive minds, but they're different characters of hive mind. I have my beliefs [00:45:00] on what ultimately will win, but like, as I've learned, and one thing I need to be more, I think humble about is I've just been really wrong on timeframes. And that's okay. Like it is what it is as long as you're patient enough, like, [00:45:10] you know, everything eventually happens.
+
+Yeah, yeah, exactly. Exactly. Literally everything. But, um, that's a different conversation. Um, but, but I think what he was kind of getting at, which is, [00:45:20] which is fair, is like it does appear that we are, and not just on Bitcoin payments, but like, you know, as we discussed with the X and the attention thi that [00:45:30] whatever you wanna call it.
+
+Sadly, it appears that society is, from his perspective, and I would tend to agree with this, moving more towards a Wally world [00:45:40] where people are sitting there fat slurping their whatever, glued into a seat and not, and I think his point was like, these freedom [00:45:50] technologies, even if, you know, eventually they win, it would kind of suck if we go through a generation of that.
+
+If there was the possibility that some people could break away and tap people on the shoulder to [00:46:00] remind them like, Hey, you don't have to strap in, you could go live. Yep, yep, yep. So, and I just wanted to bring, so my takeaway from Jack saying that wasn't [00:46:10] like, oh, I'm gonna stop working on Bitcoin payments, we've lost.
+
+It was more like, well, spiral is all about Bitcoin payments and, and Presidio Bitcoin, a big [00:46:20] thrust within Presidio Bitcoin and the show. And what we talk about is Bitcoin payments. Yes. So it's not like. The things I've been affiliated with and work on, haven't been trying to move [00:46:30] the needle here. But my takeaway is like, we need to double down.
+
+Um, and it, and not only on the software development and product development and things like that, but also just, uh, [00:46:40] the, the message and double down on the message, um, and, and, and fight the, the narrative. And, and that doesn't, to me, that doesn't mean [00:46:50] like shit on the store of value narrative. I totally believe in the store of value narrative.
+
+So it's not like it has to replace that. And I think it's an attractive step one for a lot of people, especially today. Yeah. So [00:47:00] in, no, I'm fully on board the store of value, fully on board with the, the, um, the, what you mentioned Max about, you know, collectible, destroy value [00:47:10] to media exchange, unit of account over a long period of time.
+
+And also a lot of it being just a timeline we can't influence greatly. Yeah. Yeah. But I do think we can [00:47:20] influence it. Yeah. We can. Accelerate it. Yeah. Um, otherwise I wouldn't be here. Yeah. I wouldn't do what I'm doing. I, because it would be complete [00:47:30] waste of time. Um, so I, maybe it is, I don't know. But I, I, I tend to think, I tend to moment, I tend to think, uh, it's [00:47:40] optimizing it, but I do think we need to like double down even more and, and, um, things that we can control.
+
+Uh, you know, we, [00:47:50] we, we can uh, we can move the needle. Yeah. And, and also be very strategic, not just work harder, but also like be very strategic about thinking, like where does Bitcoin payments solve a problem? And so I think maybe [00:48:00] this is a good transition point, which is MDK. Yeah. And, and, um, and I think, I think Nick's listening, um, who founded Money, money Do Kit.
+
+Yeah. [00:48:10] Uh, so. Many things to talk about here That, that I'm excited about. Oh, actually I was gonna say, Steve, can, I think you did maybe, I know it was one of your first [00:48:20] production vibe coding projects. Yeah. You may have done some other ones before. That's maybe a nice, can you share that and then we can sort of talk about what you learned through that?
+
+'cause that's, it's kind of relevant to the tee up of the title and [00:48:30] stuff. Sure. I've, I've, I've begun three different simple projects using MDK. My, my goal was to use MDK and like, 'cause Nick's tweeting and marketing that [00:48:40] like you can, one shot, it's super easy and there's rep lid optimizations and I'm like, I believe that, but I, I want to.
+
+See it for real. Try it myself. Uh, so I tried like a [00:48:50] casino, like, you know, spin a wheel, pay, pay Bitcoin, spin a wheel, and then win. You know, either win or lose, um, gambling always.[00:49:00] 
+
+And, um, that, that got put on pause. 'cause MDK doesn't yet support payouts, but in the fu I think in the near future it, it will. Um, so I, so I [00:49:10] paused that then, um, I turned to, uh, creating a simple joke. It's called joke box. Um, you know, you pay to get a [00:49:20] joke. Uh, this is not some like in incredible feat by me.
+
+Literally rep it figured out. The theme, the name, everything for me. Oh, really? Um, [00:49:30] what was your pro 'cause by the way? So, uh, Steve has a side hustle now 'cause I believe both DK and I purchased a joke. So he's a, he, he's already, he's already getting quite, I think it's doing quite well. [00:49:40] Yeah. He's doing numbers from what I hear.
+
+Doing numbers, like I'm one of, I think I'm one of the top revenue generators of Mdk. Are you serious? How many jokes, Nick, can you tell [00:49:50] us how many jokes we got? I, uh, well thank, well thanks to MDK, it has a very nice dashboard Yeah. For users. So, yeah, I can pull the dashboard. I don't know, I have like. A [00:50:00] dozen orders or something like that.
+
+We're just trying to dock your theoretical. I'm just kidding. Yeah. Um, you're trying to get me audited by the IRS, even though a [00:50:10] lot of these are wash sales, I'm just paying myself. But, um, see, those are merely suggestions. Taxes are not real, as we've learned on the show next to Max [00:50:20] anyhow. Um, so theoretically not theoretical.
+
+Theoretical. So this app, yeah. You, you, you, you are teased with a joke. Um, [00:50:30] you have to pay to see the joke. Very simple website. But again, my goal was like, use MDK, get successful payments. See how easy it was to add [00:50:40] MDK. Um, and I would say it was, uh, overall very good and close to the dream. Um, [00:50:50] it, the, the problems I encountered were not.
+
+MDK related, they were my agent trying to get too fancy using MDK. Mm-hmm. So I had [00:51:00] to be like extra explicit saying like, follow the MDK docs. Exactly. Mm. I had to give it those kind of instructions. And there, there are some other weird, like, so [00:51:10] MDK, it's a self custody wallet. So I had, um, you know, my wallet was generated for me.
+
+I have the on client side, I have my 12 words for seed phrase. [00:51:20] And I, I gave that to Rept as part of my app. And then like, it only read 11 of the 12 words and then it failed. And then as I was debugging it, um, it's like, well, your seed phrase only [00:51:30] has 11 words. And I went back to look at my prompt, oh, I must have a, a copy paste, error.
+
+And, um, no. So these are not MDK related, but still [00:51:40] overall experience, like this is what, these are the types of things people might encounter. So it still was not perfectly seamless. Yeah. That said, it was pretty amazing how [00:51:50] easily it was to add payments to an application. Yeah. And there's no like hangup or gotcha.
+
+That says it can't be polished. Right? Like any, any problems you ran into I [00:52:00] think can be, can be fixed and made simple and easy. So it could be one time probably, I mean the, like the 11 words versus 12 words, I don't really see what MDK can do [00:52:10] with that izing between repli or the underlying models or MDK, some combination of them.
+
+This is not like a, it doesn't need a new breakthrough. We just need to figure out how to get it working. [00:52:20] Yeah. And, and, and again, the, the high level is like, it's very easy to add payments to any application now. Um, so. Well, two things. [00:52:30] Another next step for me, I wanna try out other payment solutions to compare, including stable coins and stuff like that.
+
+Yeah. Uh, I'll report back once I've done that. Cool. And [00:52:40] then, uh, once I get beyond that exercise, then I just wanna turn my attention to applications versus payment because then all of a sudden, like payments, payments are solved. So now just like, that's [00:52:50] very sweet now just foc instead of just doing like a, a joke type of application, um, you know, actually build something that is more substantial, um, and more [00:53:00] meaningful to me.
+
+Or, you know, uh, and that, so layers payments that are not solved, right? Like, like you're doing, you're the developer who has the self custody wallet and you have [00:53:10] users paying the developer, but we don't have like, user to user payments. You can't vibe code a user to user payment at self custody very well today.
+
+Can you, sorry. [00:53:20] Like if, if you wanted to let you know, I don't know, let users bet on the outcome of the wheel spin. And bet against each other. Yeah. There, there's definitely some payment [00:53:30] use cases that are not well, well solved. But, but, but to be clear, you're talking about peer-to-peer coordination where it's like it leaves one user's wallet and goes directly to the other user's wallet.
+
+Yes. That the developer doesn't have to take [00:53:40] custody or be responsible for it. Well, and and that's one of the nice features today that we have with, uh, I guess Noster Wallet Connect is in theory you could do that in a way where you program or coordinate the payment and take a cut [00:53:50] as like a business, but you never touch the money.
+
+Right. And, and I feel like that, so I, I'm just sort of saying I, I like the optimism that payments are solved, but I'm [00:54:00] cautious to claim that. Alright. Let me requalify. So not every payment use case possible, 'cause the subscriptions are not solved either. Does that mean they're not Every possible payment use case is solved.
+
+Right. [00:54:10] But the basic one is solved. Yeah. And I, and I can just move on to, to focusing on applications. It is just like trivial to add payments. Yep. And then other payment use [00:54:20] cases, payouts, subscriptions, what you guys are discussing. Um. Are either close or, you know, we'll, we'll come. Yeah. But [00:54:30] super excited that MDK exists.
+
+It's just nice to just like, oh, just check a box. It's trivial. We don't have to worry about that anymore. Yeah. Um, and to be clear, I mean, I [00:54:40] think it's two things. One, it's the worst MDK will ever be, right? Like it's a new brand new startup, so it's just gonna keep getting better and better and better. So all these features are gonna come.
+
+But I would say, um, you know, to be clear, what I think [00:54:50] MDK has really narrowed in on are two critical use cases. One, people that for whatever reason are outside of the traditional payment systems, they can't get stripe. Okay? [00:55:00] That's like most of India. Uh, or for people that do speed, I, that's my understanding.
+
+And Nick or other people, please correct me if you have another thing, but like for people that are in the [00:55:10] payment network, why in the payment rails like us, like live in the us, why would you choose MDK over Stripe or anything? Because you don't have to like sit there and create accounts. Is that a [00:55:20] reasonable.
+
+It could be, I, one reason I wanna do this project of trying to try, try other payment technology is like, what's the dev ux? Yeah. How easy is it for me to vibe, code these other solutions? And I'll, so I [00:55:30] don't know the answer. Yeah, I'll, I'll report back, but one answer could be the, the dev ux is poor. Um, but that's probably true for a lot of them, but [00:55:40] probably easy to close that gap.
+
+Mm-hmm. But it's more, I think what you said is what, where the gap will not be easy or even possible to close, which is, um, [00:55:50] avoiding like, registration. Yeah. And I, I also think it'd be interesting to see, like, for example, as you start doing agents that are doing lots of things, like imagine I say, [00:56:00] Hey, I wanna test a hundred different variations of this.
+
+Spin them all up now as their own accounts. Maybe one day that'll happen with Subaccounts, but that's still tied to a user. Like, if you're going into [00:56:10] more, the more and more autonomous that gets, the more it needs to be. Like, I, I think speed. Um. Ability to have, uh, identity not be tied to [00:56:20] the old world systems for autonomous agents and parallelism, like the ability just to spin them all up at once.
+
+I guess maybe Stripe can figure that out, but at least for today, I don't think that's [00:56:30] possible for each of your agents just to quickly have its own wallet. I mean, I think the big thing here too is that most, most of the people are the ones who just aren't on the rails system. Like if you're, [00:56:40] if you're a kid in India, like most places in the world, if you're 15 years old, I think you cannot have a Stripe account.
+
+Oh. So let's talk about that. Steve had a good idea on this one. Yeah. Oh yeah. Go ahead. Well, I, I, [00:56:50] I definitely wanna have, I, I had that jotted down, like the call sheet ads I saw, right? Yeah. So we'll talk about that. But, um, real quick before we get get to that, I [00:57:00] think a notable thing from MDK over the break is that Amjad, who's the CEO founder and CEO of Rept, um.
+
+Twee quote tweeted, um, Nick's, [00:57:10] uh, one of Nick's tweets, uh, about MDK and said positive things. That's exciting. You know, that, that's not super surprising, uh, because MDK did [00:57:20] some, took some actions to optimize for Rept, so it's a, it's a win for Rept as well. However, I thought the most interesting thing is that Paul Graham then retweeted [00:57:30] Amjad.
+
+And, uh, you know, Paul is obviously like well known in Silicon Valley and great track record and, and has been, especially when it comes to crypto predictions. Well, [00:57:40] but yeah, I mean, I, I wouldn't, I wouldn't, I I wouldn't say that Paul seems like particularly friendly or an advocate of Bitcoin, right, right.
+
+Um, but I think what's [00:57:50] most notable here, money dev kit doesn't go out of its way to wave the orange flag and, and, and make Bitcoin [00:58:00] front and center in its marketing and positioning. And if you read through the tweet that. Amjad wrote, and even Nick did, and we got retweeted it, it [00:58:10] doesn't like, it's not some Bitcoin maxi copy.
+
+Yeah. Yeah. Right. Yeah. And I think that's why Paul retweet, I suspect Paul doesn't even know Bitcoin's behind the scenes. Yeah. Which, shout out to Nick for that. [00:58:20] He, he just, he just saw, um, uh, he, he just saw that, oh, permissionless, globally accessible payments for rep lit, [00:58:30] easy to integrate. And that sounds really, I mean, that is really attractive and it sounds attractive and, and great.
+
+So I, I think that's a, that is a win for MDK, [00:58:40] positioning, marketing, and, and. Other others and Bitcoin can probably learn, learn from that. Yeah. And I honestly, I mean, I think that's, yeah, go ahead. No, please. I was gonna say, I, I think that's, [00:58:50] uh, a, a, an idea that is worth really reemphasizing both in Bitcoin and I, I think in Nostra as well.
+
+But these are more like enabling technologies, the more like [00:59:00] infrastructure technologies that led us build new experience, let us build new applications, let us build, MDK is a new piece of infrastructure. Amen. But like when you look at. The way Nick talks about MD k in his [00:59:10] videos, he almost doesn't mention Bitcoin much.
+
+It's not, it's just like under, you know, behind the scenes, right? When you look at, um, you look at Bit Chat, right? It's not a Nostra client, it's just a client that helps you [00:59:20] do a thing but sometimes uses the Nostra infrastructure when necessary. And we've been talking, you know, Steve and I and another friend had been talking on a private group chat about like a prediction market idea.
+
+[00:59:30] And we've talked about how prediction for this is our super secret. Our, the real PBG chat is the title of the chat. [00:59:40] You don't even know. I know what I got going on. I'm also working with some people on some chat ideas. You and did have own little big channel, [00:59:50] but, but like a prediction market, you bunch of visions.
+
+They can write and publish things to and from Nostra to help kind of manage the information around the prediction market. But it doesn't have to be a [01:00:00] Nostra app. It can just be like a prediction market. Right. Totally. And by, so I think that anybody building in this space should be thinking about how to de-emphasize the technology choice and emphasize the user value and the [01:00:10] application.
+
+A hundred percent. And like this is another point Jack made. He was like, if Noster, we talked about Nostri a little bit. Bob asked specifically about like, you know, what do you think of adoption? That was his like, message over and over [01:00:20] again. If you market it as a competitor, Twitter, you will lose. If it's just infrastructure that enables new things, you will win.
+
+That's simple. Um, I think something that's super important [01:00:30] here and increasingly as I'm thinking about sort of putting on my investor hat, where do I wanna be? You know, what kinds of new experiences do I wanna invest in? You know, I think that people are like, oh, let's [01:00:40] build this, you know, whatever, like a prediction market.
+
+It's like, that's cool, but you know, it's so much cooler. And I think, you know, Nick, this is really interesting for MDK to think about is how do you make it super easy [01:00:50] to remix and let agents with their own wallets interact with each other? That to me is where this is gonna get Super cool. So imagine for a minute.
+
+You know, um, prediction markets took a [01:01:00] long time to take off. They're finally starting to take off, but I think, I think we haven't even seen, you know, 0.01% of what prediction markets can do. Right? Like, if you, if you read guys like, I think like Robin Hanson, a lot of [01:01:10] people that have talked about like prediction markets, really, like what does an economy really do?
+
+It is an information processing unit. It allows you to find [01:01:20] information. That's what's beautiful about economy. And by the way, there's something like this goes back to my energy information entropy piece, which is, it's continuing to, to, to stew in the background. But like the important [01:01:30] thing, like forget all of like moral arguments, whatever.
+
+It's like, you know, the sort of Hyatt view of how an economy should work is like when you go in there and store it with money printing or regulations or whatever. It's not [01:01:40] just like, oh, you know, you're a bad guy or this, that, it's like, no, you're, you're messing up the information signal. Yeah. So the economy can't tell you we need more of Yeah.
+
+You know, we're short on steel [01:01:50] and you know, therefore we can't. And this is also one of the reasons I'm so long and just like trust the curves. It's emergent intelligence. Like stop trying to like. Think your human brain can [01:02:00] figure stuff out. It can't, none of us can stop it. Just stop it. Emergent intelligence is the answer always.
+
+And, uh, anyways, so, so just like some of these ideas around things like [01:02:10] futarchy and the ability, uh, to use prediction markets in the future to like, as like, um, you know, kind of like a, a sort of new [01:02:20] form of voting and critically, what's gonna be cool with that is agents can do it and you can mash all these things up together.
+
+So it's like, hey, instead of building like the next prediction market for humans, it's like who's gonna [01:02:30] build a prediction market that agents can use? So I as an, yeah, yeah. I was gonna, have you seen, by the way, have you seen, um, the poly market times? No. This is a cool [01:02:40] hack. Worth, worth, uh, looking at some, some kid took all the information exactly from, sorry, I was just responding to Nick.
+
+HFT prediction market agents. There we go. Oh, what, yeah, and I mean, [01:02:50] those things are happen. There's actually a cool blog post I'll share with you about, about the, or maybe I already shared with you. Um, no, that, that was probably the other chat. The other, other [01:03:00] chat, because I didn't see it either. I didn't share that.
+
+I thought it was, it was really, it's actually a thing about a guy who's building a bunch of, basically like trading bots to find signal on [01:03:10] Twitter and then execute trades. Look at like, so exclusive now. He just has himself in it. I think he, I think he's just proving your points, Steve, [01:03:20] as, as material resources go to zero.
+
+Dks exclusivity is him and his bots. But so, so there's, there's a, a broader topic that, that that [01:03:30] plus one's what you were saying, max around kind of, you know, information economy, which is we think about the old pre-internet media and information landscape. As like, you know, [01:03:40] newspapers, they get, you know, they own distribution, they own the printing press.
+
+And so that's how truth is kind of disseminated is through that. And the internet was supposed to be this amazing thing [01:03:50] that opened up all those channels, made it free to distribute, gave everybody a voice. And we saw that and that was really good at the beginning. And then we've seen that decay in certain ways.[01:04:00] 
+
+Yep. When everybody has a voice who, who controls the algorithm is actually more important than who has a voice. And um, and we also are now getting to this point where ai, generative [01:04:10] slop is going to end up filling up a lot of the media. What we think of as information nodes is going to get filled with AI generated stuff that's [01:04:20] maybe entertaining but not super informative.
+
+Right. Yeah. And so I think that. A, a, like a prediction market is not just some new class of betting or marketplace or [01:04:30] exchange, it's actually a new type of information source. Amen. So think about it's sort of the evolution of the internet and it, and the, the marketplace of like, yes, no on [01:04:40] a bid is really like a truth seeking signal.
+
+Amen. And it's kind of what we talk about with like stacker news or what we hope that like, oh, maybe Bitcoin, amen. Work can be part of the thing, [01:04:50] but instead of it just being like the scarcity or proof of work tied to a particular piece of information in an upvote, it's actually resolves the world through kind of bid [01:05:00] asks, spreads and convergence.
+
+Uh, and so actually like a prediction market is more like. A, a, a new Twitter than it is just like some new exchange in my [01:05:10] mind. And by the way, there is a beautiful post on Stacker News. And by the way, I'm super bullish on Stacker News. I've always been bullish on Stacker News, but I'm continuing to, Keon has finished his like 15 month [01:05:20] migration or whatever to be non-custodial, and he's, he, he sent us all an update and it said on the site as well that he's gonna be focusing on like user requests again, which, and making things nice.
+
+And Keon, Keon iss one of the big brain, [01:05:30] so I'm excited. Oh yeah. Um, but like, someone made a post where they're like, the Stacker News front page is an auction. Yep. And that, I mean, auction prediction market, like whatever. But like [01:05:40] I, I think, and Keon, if you happen to listen to this, uh, I hope you continue to explore this idea of agents using stacker news as well, which I know you've already kind of built that in there.
+
+But, um, using stacker [01:05:50] news and, and things like it as information discovery tools, like that's where the big, big ideas, um, and you can already see it just like in a very simple term. It's like what filters to the top [01:06:00] of your stacker niche page? Well, you can have all the bots in the world that are just schlop, slop, slop, lop, slop.
+
+But like, you have to pay and people then pay with their money to upvote like that is non [01:06:10] forg able. That's the point of money. That's the why Bitcoin matters. And because Bitcoin is tied to proof of work and energy, you can't forge it. That's the whole point. Yeah. All right. Amen. How about we get back [01:06:20] to Amen, brother?
+
+I, I, I gotta tell you, I went to church, uh, in, in Oakland for the first time recently. Uh, it reminded me of, of going to church in Mississippi, Gulf Coast in New Orleans. As a kid. It was a lot of amens. It was great. I [01:06:30] loved it. Nice. You guys wanted to talk about teenagers vibe coding, I think, right? Yeah. Um, so a couple angles on this.
+
+I mean, actually we're just talking about [01:06:40] prediction markets. Um, and also dk you shared a post that Shaan just, uh, PO posted about [01:06:50] younger people not feeling like they can become wealthy or grow their wealth. So they're turning to like, you know, crypto trading and now prediction markets as a way to gambling.[01:07:00] 
+
+Gambling, right? Yep. Which can be unhealthy and ultimately for most people is not a way to, it's a way to Yep. You know, it's a negative ev negative on, yeah. Um, [01:07:10] so perhaps a healthier way is the time-tested entrepreneurial approach where you build value creation for the world and then you, you get a [01:07:20] portion of that.
+
+Um. So vibe coding is a way that makes it accessible to way more people to build things. Right? We've talked about that a lot. [01:07:30] Um, I, I had an insight. I actually was, uh, playing a mobile game and I got an ad for [01:07:40] call sheet, like one of the prediction markets, right? Yep. And it just made me realize, oh, that, you know, this is how they're acquiring a lot of customers, probably a lot of of [01:07:50] younger folks, um, to do that.
+
+And it's like, why not instead try to get teens and younger, I mean, a lot of people, but including teens, to [01:08:00] start vibe coding because they, it's absolutely accessible to them. They're gonna have incredible ideas, ideas that no one else in the world can think of. Uh, they can create them. And then now with like, [01:08:10] things like MDK, it's so easy to add payments.
+
+Yep. And also, you know, if they're in India or someplace, uh, around the world or they're just [01:08:20] young and more risk-taking, like. That, you know, generating and, and also generating small amounts of revenue. Like there, there's gonna be more risk taking. Um, do, and and, and I wanna [01:08:30] be clear, 'cause I think the genius inside of what you're saying here, like the India part is great, but like in the US if you're under 18, you can't open a bank account.
+
+That's like, stop. Right, right. That's [01:08:40] huge. Like that about like, I think how many super smart kids, you know, like all the kids are gonna go to like MIT or whatever that are sitting there in some like, you know, daycare center, IE school [01:08:50] that like, if they could start a business from class when they're supposed to be studying, what would they start?
+
+I I, I think the big difference too is this is a positive [01:09:00] ev Yes. Right. Instead of negative ev. Because what I think what's happened is, as, you know, take an 18-year-old 50 years ago, we could probably like just get, you [01:09:10] know, go to some random college, get a random college educated job and actually buy a house.
+
+There's no way. Even if you're at the top end of the top end, you can barely do that without a bunch of good fortune hitting you. [01:09:20] So everybody who's 18 has gotten pushed out on the risk curve really far. So the only way to possibly do something is to get lucky at it, versus, [01:09:30] so you end up getting, you know, all the value gets sucked by these platforms and sort of the, the old heads.
+
+But with vibe coding, with vibe, with vibe coding, [01:09:40] instead of, you know, spending a ton of money, you can five code something for 25 bucks, right? And you could end up making a million dollars out of that. So you can, you turn that [01:09:50] betting, it's, it's a form of gambling, entrepreneurship's, a form of gambling, right?
+
+It's like you, you've got that buzz, you've got that excitement, that potential for the huge outcome. Well, you can do that now with $25 [01:10:00] input and a million dollars output. That's a positive EV type of calculation. So I think you can actually move that same instinct that drives people toward gambling and move it toward let's [01:10:10] gamble on ourselves.
+
+Yeah. In a positive, the bottom line. And even though not everyone's gonna spend $25 to get a million, there will be losers just like an [01:10:20] entrepreneurial game. But the sum total though, it, it's creating value in the world. Yeah. And growing the pie where Amen. Gambling is not so, so I, I, I think two, [01:10:30] two big thoughts to crystallize for me.
+
+Number one is exactly that. Like, I think there is so much in the world today, anger about wealth inequality [01:10:40] and disparity and all this stuff because there's a fundamental confusion between wealth generation, [01:10:50] entrepreneurship and growing the pie, versus finding tricky ways to get more of a fixed pie.
+
+Like a lot of people hate on quote unquote rich people, whatever. 'cause they [01:11:00] just think of them as these and, and rightfully so, like basically tricksters who are bankers or whatever, playing p and shell games and just like, take your money. [01:11:10] Or, or people that just got lucky gambling, just like you spun a wheel, you know, fuck you, you won, like everyone else loses.
+
+So it is the difference between zero sum and positive sum. [01:11:20] And that is a critical, critical, like maybe the most important thing for a whole society to internalize. If you're just spinning a wheel or you're doing tricky stuff to make money, then [01:11:30] like you're hurting everyone else. If you build something net new and you are an entrepreneur and you create, you grow the pie and you get a piece of that pie, but everyone else gets an even bigger piece of the pie because that's what [01:11:40] you're doing is you're taking some of the value you create.
+
+Not all of it. Like definitionally, you're making society a wealthier, quote unquote more productive, interesting place. So, you know, [01:11:50] my hope for society and with tools like this is you can, yeah, like not only like is this a great business opportunity to get young kids making stuff, but this is a way to teach instead of nihilism [01:12:00] and gambling.
+
+This is a way to teach basically being a, a positive member of society. So, so going back to like, how can we double down on the Bitcoin payments narrative? [01:12:10] Like this to me, is something that's like, not only trying to grow Bitcoin payments, but it's like trying to improve society. Amen. Like a much more positive message to send to young [01:12:20] people, like become entrepreneurs.
+
+It's never been easier to become an entrepreneur. Totally. And I would EI would even take that one step further, which is to say not only is it a great positive message, but like, think [01:12:30] about like, you know, I kind of joked about this, sorry, I, I'm playing footsie with Steve. I kind of joked about this, but ID DK is not here.
+
+Remote [01:12:40] DK is out and I don't know, I dunno what the right, what the right joke is, but, um, it, I should pay you to get the right joke. Um, like [01:12:50] thi think about, and I wanna figure this out as an investor's way, like sort of selfishly I see a huge opportunity here, right? Which is, you know. What arguably has been like the [01:13:00] most successful pseudo investment thing of the last 20 years?
+
+Tether. Well, I, I maybe wanna [01:13:10] phrase this better 'cause it's not exactly an investment, but like, I'll just go to the chase. It's the teal fellowship. Like Teal Fellowship is probably the highest hit rate in Invest Invest. I say investment in [01:13:20] quotes 'cause I don't think there was any equity tied to it. It was just like, whatever.
+
+But why was the Teal Fellowship so successful? Well, it took a secret about the world, which is to say that there are a [01:13:30] lot of really, really, really smart people that have capability to go and do really, really cool things that are getting sucked off into an old world dying system to become like, I don't know, like [01:13:40] get useless credentials in college.
+
+Right? And so Peter Thiel, who often sees things way outta the curve, realize if you could give these people enough support financially and [01:13:50] otherwise to, as you say, take a risk on yourself, try things and you find really smart people, they're probably gonna build really big things. And I think even, even more than Yc n YC is kind of a form of this too.
+
+I think [01:14:00] they, I dunno like the, the amount of like billion dollar ideas that have come out of this is like insane. You can go look at the list for yourself. Um, and there's also, there's also the, that, that's sort of looking at it with sort of like the traditional [01:14:10] venture capital billion dollar idea business.
+
+Yeah. But could you imagine the kid who's like 15? Yeah. Who builds a business that generates $10 million a year. Life changing needs [01:14:20] life changing. Yeah. I mean, just whatever you want. You know, he can, he can double down, you can grow it, you can keep it and do other lifestyle things like the, the opportunities [01:14:30] are just immense.
+
+So I see the opportunity with MDK and I, I, I was asking Google, I don't know if I can do this yet. Uh, I would love to do some sort of like a, a contest where it's like, okay, [01:14:40] MDK targets, you know, high school or smart kids between the ages of whatever, 13 and 18, that can't open a bank account yet. Hey kid, are you trapped in [01:14:50] some boring ass daycare where they're trying to tell you information that was already useless two years ago?
+
+Cool. Instead, why not sit there in class and do something useful for the world? Build an incredible [01:15:00] business. And, uh, I would love to figure out how to like, invest, all right? Whoever, whoever wins, you know, whatever your first hundred key into the business. Um, which, you know, selfishly that, that's a great deal.
+
+Now [01:15:10] Google says the kids can't quite sign, legally buy any contracts yet. So there there's more to figure out, but, but I think it's basically just taking the Teal Fellowship ideal and going a level earlier. [01:15:20] And so I think, you know, Nick, if you're still listening to this, I really believe enabling everyone, but particularly the really like capable kids.
+
+They're already capable of 14. Like, [01:15:30] remember you guys in high school, like I'm guessing you were already pretty fricking smart. I know my friends were, and like, yeah, a lot of them were kind of just like wasted six years, not wasted because [01:15:40] you know, there's other experiences. Well, I was talking to a friend of mine who was.
+
+Instrumental in helping, helping establish No, that's the me right there, Nick. Even with [01:15:50] the, uh, what's his name? The, uh, the Mr. Pink, uh, from Boardwalk Behind, you know, how do you do fellow kids? Uh, no, but [01:16:00] a friend of mine who was instrumental in helping establish the, the Teal Fellowship, and I pitched him on your idea that you, you discussed and he's like, this is, this seems like the right.
+
+Don't wanna give away my alpha. Now dk [01:16:10] this seems like the right way to upstream that, that thing. Great. It upstreamed a lot of the like more traditional channels. But you can actually upstream that now [01:16:20] because you can actually accept payments and build things. Exactly. And you don't need, so, so I think you put, put together a hundred K prize give, give one Bitcoin or whatever it is, and make a [01:16:30] prize and that's it.
+
+Amen. Get people to apply and enter and then compete for the prize and uplevel and motivate people to be, 'cause 'cause you don't need, the Teal fellow was like, drop outta [01:16:40] school, I'm gonna give you a hundred K because there's some cost to it. Right. This is actually upstream of that. This is, don't drop outta school, you're in high school, here's 25 bucks.
+
+Or rep will donate the CPU [01:16:50] cycles, go build something awesome. Right. As part of this program, compete for one Bitcoin that you're gonna get paid out if you win this program and whoever can maybe generate the most money in the, [01:17:00] you know, first 180 days gets the Bitcoin prize. So, so that's exactly what I was thinking.
+
+Um, and uh, I'm, I'm super in to do that. We just need to figure out how to structure the. [01:17:10] If you're even a contract, or maybe it's just like I, you know, don't need a contract, not through a fund and it's just a gift or something, but donors or, you know, exactly. A can put your [01:17:20] fees into it.
+
+Maybe our theoretical savory here can contribute much [01:17:30] better position than, uh, than Biddy and, and, and co. But it's a good idea. And honestly, like Nick, like this has the kind of [01:17:40] thing to be like society transformative. So they're also may or may not be a new community launching next week. There is, yeah.
+
+If it might [01:17:50] launch next, if it does launch next week, we'll probably talk about it in the show next week. Um, that could be a vehicle that could be a vehicle for, um, yeah, reaching. I, I know [01:18:00] I was, I was not sure how much that may overlap with this. 'cause they're, they're, they're related, but they kind of rhyme, but they're not quite the same.
+
+Right. Yeah. We'll have to, in our, in our. [01:18:10] Other chat group, the one without Max. We'll have to discuss that. Just me, Steven Biddy, be the director. The response should be dk. I'm I, [01:18:20] I'm, I'm offended. Unless, since DKS already volunteered to fund it all. Fine. I'll in own chat anyhow, I, I, I think, um, [01:18:30] I'm actually, I was already excited about this before talking about it on the show, but just talking about it now and, um, I find it invigorating.
+
+Yeah, just run. Do, do you think, Steve, I'm, I'm curious now that, 'cause you [01:18:40] have maybe the most depth on each of these, do you, do you feel like this thing is, uh, is it, is it different or is it kind of a, a, a, a branch of the same? [01:18:50] Like is it a different program or it, it, it, well, uh, it is maybe an evolution of it.
+
+It is maybe like phase two [01:19:00] could be separate. Let's, I mean, let's chat about it next week because I think we're, when we're le, when we're less like mysterious K and stuff. But what I, I [01:19:10] bet if we just, like, similar to the advice I was giving, don't talk about Bitcoin, don't talk about Noster. I wonder if this program were just kind of like a, a vibe [01:19:20] code for a prize kind of thing that you could get tons of hitters involved with and really draw a lot of attention to the thing.
+
+Totally. It happens to be that [01:19:30] maybe MDK and Bitcoin is how you mostly take payments, but you'd also take stable coins if you want. And there's a lot of ways to integrate those in, but really the program is not necessarily about Bitcoin, but it's about getting [01:19:40] paid for your work, building things and getting paid when you're like in high school.
+
+Totally. And, and, and I think the key thing, I don't know about the stablecoin piece, maybe you can, but like the key insight here is that it's permissionless. [01:19:50] Yeah. So you don't need a bank account. So if you're, if you're 12 or 13 or 14, like, I mean, no one can stop you. I'm sure Rept has got to love this, right?
+
+I mean, so good for rep. Of course [01:20:00] this is, I mean this is like God's original vision. If you go back to the way he used to talk, wanted do, yeah. I mean they went all kind of like enterprise. 'cause it kind of had to, but like if you listen to him from seven years ago, his whole thing [01:20:10] was how do I empower kids like me when I was back in, you know, the Middle East that don't have access, don't have opportunity.
+
+I mean, this is literally his, his mission or it was, yeah. Yeah. [01:20:20] All right, let's, we'll ring the bell on that. Um, I better be in that chat too. I'll be stealing all. We got a few minutes left. [01:20:30] We were gonna a buck real, a good one actually. Yeah. You get, wasn't sure if we should talk about it or not. I don't know, but I, I find it interesting, wouldn't we?
+
+I don't [01:20:40] know, but, um, I was just saying, I, I didn't wanna try to tee it up 'cause I, I don't, I don't think, I didn't think I knew enough detail about, and I'm not an expert on Buck. I didn't research buck. But, um, what is Buck? I don't, [01:20:50] so, um. Uh, what's it? Travis Xander. Travis Vander Zanden. Vander Zanden, uh, announced it this week.
+
+[01:21:00] Um, he has an interesting backstory with Lyft and Uber. People looking, go research that they want. Um, and Bird, he was the founder of Bird and he found a bird. He tried to cleanse from the, the [01:21:10] internet. So, and I also, I saw some bitcoiners like plotter, uh, shitting on it. So let me be clear. I'm not advocating Buck.
+
+I don't know anything about [01:21:20] the company or, uh, the token. Um, as Steve says, he goes all in on my runs. I may or may not receive it's time to show a [01:21:30] 20% pre mine. No, no, pre mine here. Um, the reason I found it, I found it interesting is because it literally was predicted on this show five [01:21:40] months ago. It was when we were talking about stretch, STRC, one of the equities from, uh, micro, from MicroStrategy.
+
+[01:21:50] Uh, where they've created what we, what we viewed as, um, a stable coin or a, you know, um, built on Bitcoin though, not on US [01:22:00] treasuries and like a reserve like that. And we talked about, you know, maybe Robinhood could create the token or a third party and well guess what? That, that's exactly what Buck appears to be to [01:22:10] me.
+
+Um, it's built on top of stretch and it offers 7% yield. Um, stretch is paying, I don't know what it's [01:22:20] paying now, but it was in the nine to 10% range. Makes 11% now. 11. Yeah. He kicked it up to 11. So there's a margin there. Now, one of the criticisms I saw from, from Plait that [01:22:30] I, the Plait account, which I didn't go confirm, is that they're taking half the yield themselves, or they're taking 4% buck is, yeah.
+
+Well it wasn't clear to [01:22:40] me if it's just that spread or if they're taking even. Oh. Or I don't know. I don't know. Anyway. Um. So I have no, I, yeah, I have no idea. [01:22:50] This is, is this a scam or not a scam? I don't know. But it, it's a, assuming there's no like, weird gotchas, then it is a form of what we thought could be created.
+
+And as, [01:23:00] as long as there's not any like, um, you know, scammy type aspects to it, I think it's an interest interesting thing because again, I assume there's not [01:23:10] a, it's not a pre mine, I assume there's not a lot of the things that we don't like about other tokens that are created I don't think apply here.
+
+Right? It's more so assuming the, the [01:23:20] total risk is, um, the, the stretch, you know, the, the, the risk you're taking on with Stretch. And then you'd also be [01:23:30] taking on some kind of risk with this new company around Bach. Uh, um, you know, as long as it's limited to that risk, I think it's an in interesting introduction.
+
+So, so yeah, I, I agree. It's [01:23:40] interesting and I'm glad you brought it up. One, one thing I, I know I did a little bit more research on it, and one thing I'll note is that, um, it's not available to people in the US. And I think that's because there's [01:23:50] been this theoretically, theoretically only us or ex-US or UX us, you're in the us you're not allowed to use it.
+
+Oh, okay. Be, and I think that's because I think [01:24:00] it violates all the recent stablecoin legislation. I think the recent stablecoin legislation was saying you cannot share yield with consumers. Right. And for obvious reasons [01:24:10] that that's kind of a protectionist clause. And so they are sharing yield with consumers and so they say no us, which I think is actually a real opportunity [01:24:20] is to like create stable coins that do share yield of various forms with consumers, uh, with the users of the coin.
+
+But I mean, that might not be enough to, to get it off the [01:24:30] ground, but it's, it does not allow it, it doesn't support us users. So. So I have a lot of thoughts on this. I think again, if you kind of take your hat of just like see reality clearly and how [01:24:40] it's going, I think this is like. This is exactly what we predicted.
+
+It's like actually it's all playing out exactly as it as it should. And it makes sense. Um, so there was a [01:24:50] podcast that I recommend listening to. I think I showed it in the group chat over the break, if you haven't checked it out. It was a recent sailor interview on, I think it was the Galax one. Ont [01:25:00] your advice.
+
+Yeah, absolutely. Excellent. And look, I mean, and he talks about that same thing, the, the stretch as effectively a yielded stable coin, right? He literally asks people to do what [01:25:10] this guy is doing. And, you know, you can have your own opinions on Sailor. And I know for like the hardcore Bitcoin people, it's like, whatever, he's, he's doing something different than what you want.
+
+That's fine. Just again, zoom [01:25:20] out, this is how we get, you don't go from A to Z, you go to A to B, B to Z. That's just, that's how reality works. And so what Sailor did, and I, I have to give him credit, [01:25:30] you know. Regardless of what you think of him values, like he's so damn smart and so damn eloquent. And he can take very complex ideas and he can explain them beautifully.
+
+So [01:25:40] the way he explains it is his vision of the world, his theory of change or whatever you wanna call it today, is Bitcoin. Is capital someone. Well, Bitcoin is, [01:25:50] uh, is capital, Bitcoin is money. No, no, no. Critically Bitcoin is capital not money. This is an important point. Oh yeah. Bitcoin is capital. His company strategy [01:26:00] exists to be a refinery.
+
+They take capital and just like, you know, if you're a Wildcatter in Texas Drive and you get this raw oil from the ground, great. That's a very [01:26:10] valuable resource. But I can't just like take that and put it into my car. Right? So his company exists to refine the raw capital into credit. That's what stretches [01:26:20] and all of his different instruments he offers.
+
+Right. And so what does it mean to offer credit? Well, you take capital and you package it. I even sound like, I even sound like soda capital. [01:26:30] I package it. Like I, I've even got the mannerism doubt. That's really good. If I had my eyes closed, I would've thought, yeah. Have you been working on that? Bitcoin's digital capital.
+
+Capital [01:26:40] becomes credit. How about this? How about this? Max credit becomes money. How about this?
+
+Have you seen those ones? But I, I gotta give the guy, [01:26:50] I I sailor, if you happen to listen to this ever, like I'm teasing you, but like respect, like this guy's playing 12 d chess, right? So capital becomes credit [01:27:00] and so he offers different credit. He takes the raw oil. We, we should need Steve to do it. 'cause I believe Steve was [01:27:10] called out a Cecilia lookalike.
+
+No. I, I was called that, but I, I got two invitations. Okay. Steve's got the look, Maxie got the voice. Um, so you [01:27:20] take that and what you do then is you take the raw resource and you package it in a way that the market can use just in the way that you take oil and you package in a way that the physical [01:27:30] infrastructure and world the cars can use.
+
+And so he has all these different products. Stretch is a very interesting product because it's targeting the, uh, the US Treasury [01:27:40] essentially. And what he's doing is, um, you know, he over collateralize an instrument with Bitcoin. And so if you believe, I forget if it's like six x over collateralize or whatever, it's, but if [01:27:50] you believe and you go back and listen to our, our comment on this five to six months ago, but if you believe that Bitcoin continues to grow at a CAGR of 20% or whatever, it's been 30% or even less than that, if you believe Bitcoin goes up over time.[01:28:00] 
+
+Then he's radically over collateralized. Now he has the $2 billion in cash as well to keep making these payments. And he can give the market people that want things like fixed [01:28:10] income, investors that need to buy equities, all these different things that maybe are bullish on Bitcoin, believe in it at least enough to think it's going up 20% CAGR over the next decade.
+
+[01:28:20] Um, but they can't buy it directly or they just want that like, you know, maybe they're retired and they want that sort of pension like payment, then this is a perfect, uh, cred, uh, o opportunity [01:28:30] for them. Now, what I missed when we talked about this last time was capital goes to credit and then we discussed, and I think DK maybe it was you that said maybe he makes the stable [01:28:40] coin.
+
+Um, what he then said in this podcast was, I want another whole round of entrepreneurs to come and take credit and turn credit [01:28:50] into money. That's a big concept. 'cause what he's saying is, you know, this buck thing, who knows about this guy? Maybe it's a scam, maybe it's not. But [01:29:00] it's just the first aminian, you're gonna see a giant free market.
+
+Basically, you're gonna see like, um, free banking on steroids here. Anyone that can access that stretch [01:29:10] credit can now go and create money, which, and, and people will be able to compete with their own money, right? It's gonna be a free market, [01:29:20] right? So some people will say, Hey man, you know, I'm getting paid 11%.
+
+I'll PE seven. Well hey Buck, that's cool. I'm gonna pay eight. And so free market's gonna free market. Yep. [01:29:30] Margins will compress. Yeah. Um, there will be different rates paid based on different regulatory schemes. Maybe Brazil lets you do it, the US doesn't. [01:29:40] So there's gonna be like, you know, different rates for, for where you're in the world.
+
+But anyways, the point is, and I've even thought about this, all of the like, sort of like neobanks that are operating with Bitcoin and stuff, like, it's a very interesting thing to [01:29:50] explore. Is this an opportunity to offer an instrument? Ideally at one day, even Interops, if you're, you know, whatever, through tapered assets or whatever it is, spark with the [01:30:00] Bitcoin network, but to offer this, um, this stable coin that, that gives the yield and critically unlike all the other ones, you know exactly where the yield comes from.
+
+You know exactly what the risk is. I mean, there's different [01:30:10] layers of risk with the company and in MicroStrategy, but like fundamentally the risk is does Bitcoin go up 20% CAGR or not? Yep. All right. Can, can we get a, it's going up forever, Laura. [01:30:20] No, I, I'm sorry. All I can say is capital credit. And seriously, I, I, I, I mean that as a shout out.
+
+Like sailor's a genius. He is. [01:30:30] He's awesome. Yeah. He's a genius. All right. I think we're at it. Shall we wrap? Let's wrap. That's a good show. Yeah. Fun to see you guys. [01:30:40] Yeah. More next week. Good times.
+

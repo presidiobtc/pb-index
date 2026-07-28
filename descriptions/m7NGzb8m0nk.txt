@@ -1,0 +1,26 @@
+The goose team joins Presidio Bitcoin to introduce GDK, a new toolkit for building open-source agentic apps. They walk through what goose is, why it's evolving beyond a single agent, and how GDK brings together open standards, local models, Mesh-LLM, and developer tooling for the next wave of AI applications.
+
+https://goose-docs.ai/
+
+Presidio Bitcoin's Open-Source AI Summit: https://opensourceaisummit.org/
+
+0:00 - Introducing Presidio Bitcoin and the Open Source AI Summit
+1:40 - Why Spiral is expanding into AI with goose
+4:59 - Introducing the Goose Development Kit (GDK)
+10:34 - Goose's path from app to platform (Alex Hancock)
+14:40 - Making agents easier to build (Douwe Osinga)
+21:10 - Shipping Goose as Rust APIs (Jack Amadeo)
+25:15 - Building apps on top of goose (Lifei Z)
+32:08 - Local models and open weights in goose (Jasper Hugo)
+41:12 - Cutting token costs with routing (Michael Neale)
+43:30 - Mesh-LLM: sharing local AI compute
+47:53 - Q&A: Sharing compute across devices
+50:20 - Finding hidden token costs (Filip Kujawa)
+54:58 - Q&A: What makes goose different
+59:17 - Q&A: Why GDK can stay neutral
+1:06:52 - Q&A: Benchmarking harnesses without overfitting
+1:10:48 - Q&A: Should goose train its own models?
+1:15:20 - Q&A: Building specialized apps on goose
+
+Recorded at Presidio Bitcoin
+Learn more: https://www.presidiobitcoin.org/

@@ -1,0 +1,27 @@
+This episode features Alex Pruden, the Chairman of Aleo and the CEO of Project Eleven, an applied R&D lab focused on the intersection of quantum computing and cryptography. In this conversation with Haley Berkoe, Alex discusses quantum computing, future-proofing bitcoin, user experience upgrades, and his journey from the Army Special Forces to becoming a cryptographer.
+
+EPISODE HIGHLIGHTS: 
+00:50 Discovering bitcoin in the Middle East
+01:42 Project Eleven & why quantum matters
+02:46 What it means to be "quantum-resistant"
+04:50 AI and cryptography
+07:02 Learning cryptography from scratch
+08:51 Book recommendation: Life and Fate
+09:37 What self-sovereignty should look like
+11:11 Zero-knowledge on bitcoin
+14:05 Bitcoin’s price does not equal success 
+15:18 Bitcoin UX still needs love and innovation
+19:39 Army lessons that shape his work
+21:02 Final thought: celebrate, but contribute
+
+FOLLOW:
+Alex Pruden: @apruden08, https://x.com/apruden08 
+Project Eleven: @qdayclock, https://x.com/qdayclock 
+Haley Berkoe: https://x.com/HBerkoe 
+Presidio Bitcoin: https://x.com/PresidioBitcoin
+
+SUBSCRIBE TO THE PODCAST: 
+Spotify: https://open.spotify.com/show/4UPEsVaAbtQsBtvbKt1RPn?si=2e5efe8f58094c2c&nd=1&dlsi=f612e8c16b0a4fde 
+Apple Podcasts: https://podcasts.apple.com/us/podcast/21-in-21/id1804684052 
+
+#bitcoin #cryptocurrency #cryptography #quantum

@@ -1,0 +1,14 @@
+Bitcoin Jam - FULL EPISODE
+
+https://x.com/moneyball
+https://x.com/dksf
+
+0:00 - 2025 and another exchange hack? What happened at ByBit and why
+5:12 - Risks of address replacement attacks and how to mitigate
+8:52 - HSM security features are only as strong as the policy around it
+17:05 - Importance of verifying your send address
+21:20 - Server as a Screen as a potential solution to hardware displays?
+26:17 - Apple pulls its highest level data security (ADP) after government mandate
+33:31 - Growing numbers of data honeypots leading to increasing attacks for bitcoiners
+36:05 - Not enough pain today to drive action around privacy. Can LLMs and AI help?
+43:18 - End to end encryption and private data should be fundamental to individuals

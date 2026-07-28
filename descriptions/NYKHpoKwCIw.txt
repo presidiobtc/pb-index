@@ -1,0 +1,15 @@
+0:55 Overview of the Presidio Bitcoin Hackathon and project highlights 
+14:22 Nostr has exceeded 5 million unique payments and is expanding developer possibilities. With vibe coding, anyone can build with bitcoin, as demonstrated by Mat Balez, a non-developer who created https://highfives.fun using Replit 
+20:50 Shoutouts to key hackathon contributors: Austin (lead organizer), Lightspark, Block, Fewsats, HRF, and Hivemind Ventures. There was significant usage of Goose, Alby, and Spark 
+25:36 A special 30-minute PBJ show at the Bitcoin 2025 news desk next week at 11:45am PT; no Friday show. 
+28:15 Google I/O Conference: Steve's testing Flow Veo 
+32:48 Discussion on OpenAI, Worldcoin, and AI pins 
+35:26 Steve shares his experience with Google Glass 
+40:40 Overview of Worldcoin's launch and ethical concerns about pre-mined tokens 
+44:23 Discussion on free markets, open protocols, and stateless socialism, highlighting Allen Farrington's book, "Bitcoin is Venice" 
+48:24 Privacy concern: Worldcoin requires eye scans 
+49:24 OpenAI is aiming to address human verification, but can we do that without leading to centralization or biometric compromises? 
+1:02:47 Kraken’s xStocks give global access to tokenized stocks1:17:00 Where should tokens, NFTs, and stablecoins reside? Discussing risks of integrating these assets on bitcoin 
+1:24:47 Quick intro to hyperbitcoinization and its impact on the credit market and debt types in a new monetary system 
+
+#bitcoin #technology #ai #money

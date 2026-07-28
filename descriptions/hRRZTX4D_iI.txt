@@ -1,0 +1,23 @@
+Haley Berkoe met with Tadge Dryja, a bitcoin developer, researcher, and co-creator of the Lightning Network. They discussed the importance of preparing for potential threats from quantum computing and Tadge’s proposed solution, called “Lifeboat.” Tadge also dives into how to attract the next generation of developers, the health of the bitcoin ecosystem, dream projects to improve usability and client diversity, and why education is key to bitcoin’s resilience.
+
+*TIMSTAMPS* 
+00:00 Introduction 
+0:47 Concerns about complacency despite Bitcoin’s high price; ongoing challenges with scalability, fees, and post-quantum readiness.
+2:22 Tadge explains his “Lifeboat” commit-reveal scheme for protecting coins if quantum computers become a threat.
+5:09 How quantum computers could break bitcoin’s elliptic curve signatures, why hashes remain safe, and the current likelihood of such attacks.
+10:33 Challenges of bringing new developers into bitcoin, overcoming political stigma, and keeping the community open to diverse participants.
+16:21 Usability improvements like BIP39 support in Bitcoin Core and having multiple full node implementations.
+19:23 Why education matters for both developers and non-developers to build a more resilient Bitcoin network.
+
+*FOLLOW:*
+Tadge Dryja: @tdryja, https://x.com/tdryja
+Haley Berkoe: https://x.com/HBerkoe 
+Presidio Bitcoin: https://x.com/PresidioBitcoin
+
+*LINKS:*
+Insights from the Quantum Bitcoin Summit https://presidiobitcoin.substack.com/p/insights-from-the-quantum-bitcoin 
+Bitcoin Plushie: https://www.uncute.com/collections/everything-else/products/here-comes-bitcoin  
+
+*SUBSCRIBE TO THE SHOW:* 
+Spotify https://open.spotify.com/show/4UPEsVaAbtQsBtvbKt1RPn?si=c8481f81515f4a25
+Apple Podcasts https://podcasts.apple.com/us/podcast/21-in-21/id1804684052

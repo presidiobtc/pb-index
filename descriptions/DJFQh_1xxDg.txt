@@ -1,0 +1,14 @@
+In this deep-dive at Presidio Bitcoin's Quantum Bitcoin Summit, John Light (Alpen Labs) introduces validity rollups: a powerful scaling technique that can enable high-throughput, post-quantum secure Bitcoin transactions. Starting with the fundamentals of rollup architecture, the talk walks through the distinction between sovereign and smart contract rollups, explains how validity proofs secure asset transfers, and outlines how these rollups can offer trustless bridges, user self-custody, and minimal on-chain data footprints.
+
+Light then explores how rollups can be natively quantum-resistant by supporting post-quantum signature schemes and proof systems like STARKs, offering greater scalability and upgrade flexibility than directly modifying Bitcoin Layer 1. The talk concludes with a comparison to other proposals like Shielded CSV and BitZip, and outlines what changes would be needed at the Bitcoin consensus layer—such as OP_CAT, OP_MALL, and disabling keypath spends—to enable quantum-resistant rollups.
+
+Learn more: https://bitcoinrollups.org/
+
+Presented at the Quantum Bitcoin Summit hosted by 📍Presidio Bitcoin
+Another big thanks to our sponsors: Project Eleven and Anduro! 
+
+🔴 Watch the full Day 2 livestream: https://www.youtube.com/watch?v=feMWrdJnLak&t=1724s
+🌐 More about the Quantum Bitcoin Summit: https://pbquantum.com
+
+🐦 Follow us: https://x.com/PresidioBitcoin
+Learn more: https://presidiobitcoin.org

@@ -1,0 +1,23 @@
+0:00 DK is back in the studio next week! Swimming in cold water and using a wetsuit.
+3:40 Breaking News: Spark announces Stablecoins on Bitcoin and unpacking who will win in the stablecoin landscape.
+10:28 Unpacking Spark, how it works, and its three structures.
+18:57 How Spark uses state chains to get scaling.
+27:40 Differences with Spark and other blockchains, like the new GCUL from Google.
+32:56 How payments across services would work using payment trees.
+42:42 What is the happy path using payment trees, and what motivates entities?
+49:08 This is the early thesis of banks from early bitcoiners being played out.
+55:22 Does this mean everyone is coming for Visa?
+1:08:59 The Spark trust model: Is it self-custody or is the term 'Trustodial' more accurate?
+1:15:29 Where will value accrue in this market? The issuer, the chain, service providers, bridges, etc.
+1:19:38 Are we about to watch the next age of free banking?
+1:22:28 A no-KYC payment user experience can help onboard people and agents to Bitcoin.
+
+*FOLLOW:*  
+Presidio Bitcoin: https://x.com/PresidioBitcoin
+Steve Lee: https://x.com/moneyball
+Max Webster: https://x.com/MaxAWebster
+David King: https://x.com/dksf
+
+*SUBSCRIBE TO THE SHOW:* 
+Apple Podcasts: https://podcasts.apple.com/us/podcast/presidio-bitcoin-jam/id1804198027
+Spotify: https://open.spotify.com/show/0N8ZFqAkTwxNmjDXdIo7cT?si=b07f55f8258140cb

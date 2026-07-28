@@ -1,0 +1,19 @@
+0:00 Swimming in the bay, Sharks, and blood in the water
+1:47 What is Knots, its growing market share, and other similar implementations
+11:28 Is there a risk of an unintentional hard fork?
+16:09 The point of running a full node and who should and shouldn't run one
+31:33 Running bitcoin core vs Knots, LDK, etc.
+37:41 Steak and Shake accepting bitcoin payments?
+42:11 This was the most exciting week in Nostr; blossoms, mirroring, cashu
+1:00:46 Revisiting bitcoin backed lending
+1:08:43 Comparing the various newly launched lending products from Coinbase and Strike
+1:20:58 How do you evaluate the risks, rates, and counterparties?
+
+LINKS:
+www.pbhackathon.com
+
+FOLLOW:
+Presidio Bitcoin: https://x.com/presidiobitcoin
+Steve: https://x.com/moneyball
+Max: https://x.com/maxawebster
+DK: https://x.com/dksf

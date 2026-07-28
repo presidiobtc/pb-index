@@ -1,0 +1,13 @@
+At Presidio Bitcoin's Type I Summit, Casey Handmer (Terraform Industries) and Ramez Naam (Singularity University) debate whether plunging battery costs can replace long-distance transmission (HVDC). They frame it as moving power through time vs space, argue over the cost of the last “nines” of reliability on solar + storage alone, and weigh alternatives like clean firm (fission, fusion, geothermal), chemical storage, and repowering existing corridors, while noting that politics, permitting, and talent constraints may matter as much as economics.
+
+Timestamps: 
+0:00 The debate: batteries vs HVDC
+00:34 Ramez Naam: batteries can’t get you to 100% clean power
+03:51 Casey Handmer: batteries beat transmission over time
+06:29 Reality of what actually gets built and why
+
+Full video: https://youtu.be/Tw-LO33woPo
+From the Type I Summit hosted by 📍Presidio Bitcoin
+🌐 More about the Type I Summit: https://type1summit.org/
+
+Learn more: https://presidiobitcoin.com

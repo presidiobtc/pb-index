@@ -1,0 +1,31 @@
+Presidio Bitcoin Startup Night brought together the PBJ crew and early-stage builders working on bitcoin, self-custodied AI, business treasuries, Lightning-native dollar stability, and bitcoin-backed credit.
+
+0:00 - PBJ intro, format, and checkered investor histories
+10:30 - Why Bitcoin startups and VC have not taken off yet
+17:47 - Lending, non-custodial gaps, and banks vs. bitcoin startups
+24:45 - Developer tools, Nostr stack, and merchant push for bitcoin payments
+31:30 - Vora Pitch
+42:34 - Castle Pitch
+53:17 - Castle Q&A
+55:37 - Stable Channels Pitch
+1:03:46 - Guarana Bank Pitch
+
+Key ideas:
+- Bitcoin startup investing has lagged because the number of investable companies, venture-scale categories, and mainstream customer use cases has been limited so far.
+- Exchanges, mining hardware, custody-adjacent products, lending, and holding bitcoin have been the clearest early business models.
+- The next wave may come from net-new use cases that only bitcoin can enable: global 24/7 payments, self-custodied AI, non-custodial credit, Lightning-native finance, merchant adoption, and Nostr identity.
+- Developer tools have improved enough that bitcoin applications can now be prototyped quickly with LDK, Lightspark, Lexe-style services, and AI coding tools.
+- Vora presents self-custodied AI: personal AI hardware secured with user-owned keys, private data, verifiable software, and bitcoin-style recovery.
+- Castle automates bitcoin treasury allocation for businesses through revenue automation, sweep accounts, treasury thresholds, and integrations with tools such as Stripe, Square, PayPal, Shopify, MindBody, Clover, QuickBooks, and eBay.
+- Stable Channels proposes self-custodied dollar-denominated balances on Lightning by pairing users who want dollar stability with providers who want leveraged bitcoin exposure.
+- Guarana Bank presents a shared-custody bitcoin-backed credit app for Latin America, shaped by Argentina's history of currency devaluation and the need to borrow without selling bitcoin or sending collateral to a black-box custodian.
+
+Context from the X thread:
+- The event featured the PBJ crew discussing the bitcoin VC landscape, lending markets, developer tooling, Nostr, and payments.
+- Vora was described as self-custodied AI secured by personal hardware, keys, and data.
+- Castle was described as automating bitcoin treasuries for businesses by routing a chosen share of cash into bitcoin savings.
+- Stable Channels was described as an open-source project for self-custodied, dollar-denominated balances on Lightning.
+- Guarana Bank was described as shared-custody bitcoin credit for long-term holders, especially in Latin America.
+- The thread also mentioned Agicash, Maple AI, and Surge as additional Startup Night projects.
+
+https://www.youtube.com/watch?v=TYoGefYQ1yw

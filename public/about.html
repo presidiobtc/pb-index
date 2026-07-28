@@ -1,0 +1,194 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Presidio Bitcoin Index - About</title>
+  <link rel="icon" href="https://www.presidiobitcoin.org/favicon.png" type="image/png">
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --green:      #1f4d2a;
+      --green-mid:  #2a6438;
+      --green-light:#e8f0ea;
+      --text:       #111;
+      --muted:      #666;
+      --border:     #ddd;
+      --bg:         #fff;
+    }
+
+    body {
+      font-family: Georgia, 'Times New Roman', serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+    }
+
+    /* ── Header ── */
+    .site-header { background: var(--green); padding: 0 24px; }
+    .header-inner {
+      max-width: 960px; margin: 0 auto;
+      display: flex; align-items: center; justify-content: space-between;
+      height: 52px;
+    }
+    .site-logo {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      font-size: 16px; font-weight: 700; color: #fff;
+      text-decoration: none; letter-spacing: -0.2px;
+    }
+    .site-logo img {
+      height: 28px;
+      width: 28px;
+      object-fit: contain;
+      filter: brightness(0) invert(1);
+      flex-shrink: 0;
+    }
+    .site-nav { display: flex; align-items: center; gap: 2px; }
+    .nav-link {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      font-size: 13px; font-weight: 500; padding: 5px 10px; border-radius: 5px;
+      color: rgba(255,255,255,0.65); text-decoration: none;
+      transition: color 0.12s, background 0.12s; white-space: nowrap;
+    }
+    .nav-link:hover { color: #fff; }
+    .nav-link.active { background: rgba(255,255,255,0.12); color: #fff; }
+    .nav-sep { width: 1px; height: 18px; background: rgba(255,255,255,0.2); margin: 0 6px; flex-shrink: 0; }
+    .icon-link {
+      display: flex; align-items: center; justify-content: center;
+      color: rgba(255,255,255,0.6); padding: 5px; border-radius: 5px;
+      text-decoration: none; transition: color 0.12s, background 0.12s; flex-shrink: 0;
+    }
+    .icon-link:hover { color: #fff; background: rgba(255,255,255,0.08); }
+    .icon-link svg { width: 16px; height: 16px; fill: currentColor; display: block; }
+    .ext-link { font-size: 12px; opacity: 0.75; margin-left: 4px; }
+    .ext-link:hover { opacity: 1; }
+
+    /* ── Page ── */
+    .page-wrap { max-width: 780px; margin: 0 auto; padding: 40px 24px 100px; }
+
+    .page-title {
+      font-size: 28px;
+      font-weight: normal;
+      margin-bottom: 28px;
+      color: var(--text);
+    }
+
+    .about-body p {
+      font-size: 16px;
+      line-height: 1.75;
+      color: var(--text);
+      margin-bottom: 20px;
+    }
+
+    .about-body a {
+      color: var(--green);
+      text-decoration: underline;
+      text-underline-offset: 2px;
+    }
+    .about-body a:hover { color: var(--green-mid); }
+
+    @media (max-width: 600px) {
+      .site-header { padding: 0 10px; }
+      .icon-link, .nav-sep, .ext-link { display: none; }
+      .logo-text { display: none; }
+      .site-logo { gap: 0; }
+      .nav-link { font-size: 11px; padding: 5px 6px; }
+    }
+
+    /* ── Footer ── */
+    .site-footer { background: var(--green); padding: 48px 24px; text-align: center; margin-top: 80px; }
+    .footer-inner { max-width: 600px; margin: 0 auto; }
+    .footer-logo { display: inline-flex; align-items: center; gap: 14px; text-decoration: none; margin-bottom: 20px; }
+    .footer-logo img { width: 52px; height: 52px; object-fit: contain; filter: brightness(0) invert(1); }
+    .footer-logo-name {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      font-size: 18px; font-weight: 700; letter-spacing: 2.5px; color: #fff; text-transform: uppercase;
+    }
+    .footer-icons { display: flex; justify-content: center; gap: 6px; margin-bottom: 20px; }
+    .footer-icon {
+      display: flex; align-items: center; justify-content: center;
+      width: 44px; height: 44px; color: rgba(255,255,255,0.7);
+      border-radius: 8px; text-decoration: none; transition: color .15s, background .15s;
+    }
+    .footer-icon:hover { color: #fff; background: rgba(255,255,255,0.1); }
+    .footer-icon svg { width: 22px; height: 22px; fill: currentColor; display: block; }
+    .footer-copy { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; font-size: 13px; color: rgba(255,255,255,0.5); line-height: 2; }
+    .footer-block-link { color: rgba(255,255,255,0.75); text-decoration: none; }
+    .footer-block-link:hover { text-decoration: underline; text-underline-offset: 2px; }
+  </style>
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="site-logo" href="./"><img src="https://www.presidiobitcoin.org/favicon.png" alt=""><span class="logo-text">Presidio Bitcoin Index</span></a>
+      <nav class="site-nav">
+        <a class="nav-link active" href="./about.html">About</a>
+        <a class="nav-link" href="./ask.html">Ask PB</a>
+        <a class="nav-link" href="./topics/">Topics</a>
+        <a class="nav-link" href="./programming.html">Programming</a>
+        <a class="nav-link" href="./events.html">Events</a>
+        <span class="nav-sep"></span>
+        <!-- YouTube -->
+        <a class="icon-link" href="https://www.youtube.com/@PresidioBitcoin" target="_blank" title="YouTube">
+          <svg viewBox="0 0 24 24"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
+        </a>
+        <!-- Substack -->
+        <a class="icon-link" href="https://presidiobitcoin.substack.com/" target="_blank" title="Substack">
+          <svg viewBox="0 0 24 24"><path d="M22.539 8.242H1.46V5.406h21.08v2.836zM1.46 10.812V24L12 18.11 22.54 24V10.812H1.46zM22.54 0H1.46v2.836h21.08V0z"/></svg>
+        </a>
+        <!-- X -->
+        <a class="icon-link" href="https://x.com/PresidioBitcoin" target="_blank" title="X">
+          <svg viewBox="0 0 24 24"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.747l7.73-8.835L1.254 2.25H8.08l4.259 5.629zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+        </a>
+        <!-- Discord -->
+        <a class="icon-link" href="https://discord.gg/HGukhYDA" target="_blank" title="Discord">
+          <svg viewBox="0 0 24 24"><path d="M20.317 4.492c-1.53-.69-3.17-1.2-4.885-1.49a.075.075 0 0 0-.079.036c-.21.369-.444.85-.608 1.23a18.566 18.566 0 0 0-5.487 0 12.36 12.36 0 0 0-.617-1.23A.077.077 0 0 0 8.562 3c-1.714.29-3.354.8-4.885 1.491a.07.07 0 0 0-.032.027C.533 9.093-.32 13.555.099 17.961a.08.08 0 0 0 .031.055 20.03 20.03 0 0 0 5.993 2.98.078.078 0 0 0 .084-.026 13.83 13.83 0 0 0 1.226-1.963.074.074 0 0 0-.041-.104 13.175 13.175 0 0 1-1.872-.878.075.075 0 0 1-.008-.125c.126-.093.252-.19.372-.287a.075.075 0 0 1 .078-.01c3.927 1.764 8.18 1.764 12.061 0a.075.075 0 0 1 .079.009c.12.098.245.195.372.288a.075.075 0 0 1-.006.125c-.598.344-1.22.635-1.873.877a.075.075 0 0 0-.041.105c.36.687.772 1.341 1.225 1.962a.077.077 0 0 0 .084.028 19.963 19.963 0 0 0 6.002-2.981.076.076 0 0 0 .032-.054c.5-5.094-.838-9.52-3.549-13.442a.06.06 0 0 0-.031-.03zM8.02 15.278c-1.182 0-2.157-1.069-2.157-2.38 0-1.312.956-2.38 2.157-2.38 1.21 0 2.176 1.077 2.157 2.38 0 1.312-.956 2.38-2.157 2.38zm7.975 0c-1.183 0-2.157-1.069-2.157-2.38 0-1.312.955-2.38 2.157-2.38 1.21 0 2.176 1.077 2.157 2.38 0 1.312-.946 2.38-2.157 2.38z"/></svg>
+        </a>
+        <span class="nav-sep"></span>
+        <a class="nav-link ext-link" href="https://presidiobitcoin.org" target="_blank">presidiobitcoin.org ↗</a>
+      </nav>
+    </div>
+  </header>
+
+  <div class="page-wrap">
+    <h1 class="page-title">About</h1>
+    <div class="about-body">
+      <p>Presidio Bitcoin is a coworking and event space in San Francisco for builders and startups working toward a more private and decentralized future across bitcoin and AI. We serve as a physical hub for this community, and as a bridge to Silicon Valley and the broader world of serious builders and thinkers.</p>
+      <p>In addition to providing a shared workspace for those building in and around bitcoin and AI, Presidio Bitcoin is a home for insightful, high-signal events and media. Our programming ranges from monthly technical meetups to major, multidisciplinary, industry-leading summits. Our iconic podcast studio powers our flagship shows, which capture, present, and preserve the ideas that emerge from this ecosystem.</p>
+      <p>This site is a repository of the talks, podcasts, summits, and events we produce so ideas are easy to reference, share and ultimately, we hope, build on.</p>
+      <p>Learn more about Presidio Bitcoin: <a href="https://www.presidiobitcoin.org/" target="_blank">presidiobitcoin.org</a></p>
+    </div>
+  </div>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <a class="footer-logo" href="https://www.presidiobitcoin.org/" target="_blank">
+        <img src="./logo.png" alt="Presidio Bitcoin">
+        <span class="footer-logo-name">Presidio Bitcoin</span>
+      </a>
+      <div class="footer-icons">
+        <a class="footer-icon" href="https://x.com/PresidioBitcoin" target="_blank" title="X">
+          <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.747l7.73-8.835L1.254 2.25H8.08l4.259 5.629zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+        </a>
+        <a class="footer-icon" href="https://www.youtube.com/@PresidioBitcoin" target="_blank" title="YouTube">
+          <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
+        </a>
+        <a class="footer-icon" href="https://presidiobitcoin.substack.com" target="_blank" title="Substack">
+          <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M22.539 8.242H1.46V5.406h21.08v2.836zM1.46 10.812V24L12 18.11 22.54 24V10.812H1.46zM22.54 0H1.46v2.836h21.08V0z"/></svg>
+        </a>
+        <a class="footer-icon" href="https://discord.gg/HGukhYDA" target="_blank" title="Discord">
+          <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20.317 4.492c-1.53-.69-3.17-1.2-4.885-1.49a.075.075 0 0 0-.079.036c-.21.369-.444.85-.608 1.23a18.566 18.566 0 0 0-5.487 0 12.36 12.36 0 0 0-.617-1.23A.077.077 0 0 0 8.562 3c-1.714.29-3.354.8-4.885 1.491a.07.07 0 0 0-.032.027C.533 9.093-.32 13.555.099 17.961a.08.08 0 0 0 .031.055 20.03 20.03 0 0 0 5.993 2.98.078.078 0 0 0 .084-.026 13.83 13.83 0 0 0 1.226-1.963.074.074 0 0 0-.041-.104 13.175 13.175 0 0 1-1.872-.878.075.075 0 0 1-.008-.125c.126-.093.252-.19.372-.287a.075.075 0 0 1 .078-.01c3.927 1.764 8.18 1.764 12.061 0a.075.075 0 0 1 .079.009c.12.098.245.195.372.288a.075.075 0 0 1-.006.125c-.598.344-1.22.635-1.873.877a.075.075 0 0 0-.041.105c.36.687.772 1.341 1.225 1.962a.077.077 0 0 0 .084.028 19.963 19.963 0 0 0 6.002-2.981.076.076 0 0 0 .032-.054c.5-5.094-.838-9.52-3.549-13.442a.06.06 0 0 0-.031-.03zM8.02 15.278c-1.182 0-2.157-1.069-2.157-2.38 0-1.312.956-2.38 2.157-2.38 1.21 0 2.176 1.077 2.157 2.38 0 1.312-.956 2.38-2.157 2.38zm7.975 0c-1.183 0-2.157-1.069-2.157-2.38 0-1.312.955-2.38 2.157-2.38 1.21 0 2.176 1.077 2.157 2.38 0 1.312-.946 2.38-2.157 2.38z"/></svg>
+        </a>
+      </div>
+      <p class="footer-copy">Founded on <a class="footer-block-link" href="https://mempool.space/block/00000000000000000001401a3dbd5bd0a1333cf0dc4726a794c0f48c89aea745" target="_blank">882021</a>.</p>
+      <p class="footer-copy">© 2026 Presidio Bitcoin. All rights reserved.</p>
+    </div>
+  </footer>
+
+</body>
+</html>

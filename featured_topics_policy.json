@@ -1,0 +1,241 @@
+{
+  "_meta": {
+    "schema_version": 1,
+    "purpose": "Editorial and ranking policy for Featured Now.",
+    "objective": "Select five current developments for which PB has a strong, useful, and representative archive lens.",
+    "score_scale": "All component and final scores use a 0-100 scale.",
+    "topic_name_rule": "canonical_topic and members must exactly match names in public/topics_config.js.",
+    "family_rule": "A story may contribute evidence to several family members, but a family can occupy only one Featured Now slot. Display the member with the clearest direct story match, using the canonical topic as a small tie-breaker."
+  },
+  "candidate_eligibility": {
+    "external_news_window_days": 28,
+    "max_age_of_recent_evidence_days": 14,
+    "reject_undated_external_items": true,
+    "core": {
+      "min_unique_pb_episodes_365d": 2,
+      "min_pb_strength_score": 55,
+      "min_current_relevance_score": 50,
+      "min_story_pb_alignment_score": 80,
+      "min_destination_quality_score": 60,
+      "min_final_score": 65
+    },
+    "rising_topic_exception": {
+      "enabled": true,
+      "max_slots": 1,
+      "min_unique_pb_episodes": 1,
+      "max_age_of_pb_episode_days": 45,
+      "min_current_relevance_score": 80,
+      "min_story_pb_alignment_score": 90,
+      "min_destination_quality_score": 70,
+      "min_final_score": 75
+    }
+  },
+  "scoring": {
+    "final_weights": {
+      "pb_strength": 0.45,
+      "current_relevance": 0.3,
+      "story_pb_alignment": 0.15,
+      "destination_quality": 0.1
+    },
+    "pb_strength": {
+      "unique_episode_recurrence": 0.4,
+      "recency_weighted_unique_episodes": 0.3,
+      "coverage_span": 0.15,
+      "series_breadth": 0.15,
+      "episode_recency_half_life_days": 90,
+      "unique_episode_saturation_count": 4,
+      "series_breadth_saturation_count": 2
+    },
+    "current_relevance": {
+      "event_recency": 0.4,
+      "independent_source_support": 0.3,
+      "source_authority_and_primary_evidence": 0.2,
+      "bounded_attention": 0.1,
+      "event_recency_half_life_days": 10,
+      "independent_source_saturation_count": 3,
+      "attention_component_cap": 100
+    },
+    "story_pb_alignment": {
+      "require_direct_topic_or_entity_evidence": true,
+      "compare_against": [
+        "topic name and keywords",
+        "PB pick labels",
+        "PB transcript windows"
+      ],
+      "prefer_deeper_lens_when_alignment_difference_points_lte": 5
+    },
+    "destination_quality": {
+      "usable_distinct_pb_picks": 0.5,
+      "descriptive_pick_labels": 0.25,
+      "working_destination_links": 0.25,
+      "usable_pick_saturation_count": 4
+    },
+    "editorial_boost_cap_points": 10
+  },
+  "external_evidence": {
+    "default_requirement": {
+      "min_tier_one_or_primary_sources": 1,
+      "min_additional_independent_sources": 1
+    },
+    "broad_coverage_alternative": {
+      "min_credible_independent_sources": 3
+    },
+    "single_primary_source_exception": {
+      "enabled": true,
+      "requires_official_announcement": true,
+      "min_story_pb_alignment_score": 90
+    },
+    "deep_pb_single_source_exception": {
+      "enabled": true,
+      "min_pb_strength_score": 70,
+      "min_source_authority_score": 60,
+      "min_story_pb_alignment_score": 90
+    },
+    "deduplicate_syndicated_stories": true,
+    "deduplicate_common_ownership": true,
+    "cap_evidence_per_source": 1,
+    "select_display_article_separately": true
+  },
+  "source_health": {
+    "min_priority_source_success_ratio": 0.7,
+    "min_successful_priority_sources": 6,
+    "min_dated_external_items": 10,
+    "max_last_known_good_age_hours": 72,
+    "on_unhealthy_fetch": "retain_last_known_good",
+    "after_last_known_good_expires": "hide_or_relabel_recently_covered",
+    "alert_on_unhealthy_fetch": true,
+    "track_source_count_separately_from_item_count": true
+  },
+  "refresh_and_stability": {
+    "source_fetch_interval_hours": 24,
+    "selection_refresh_interval_hours": 24,
+    "selection_target_local_time": "06:00-07:00 (DST dependent)",
+    "selection_timezone": "America/Los_Angeles",
+    "rerank_after_new_pb_content": true,
+    "challenger_margin_points": 8,
+    "max_normal_replacements_per_24_hours": 2,
+    "max_continuous_days_without_new_story_cluster": 21,
+    "reentry_cooldown_days": 7,
+    "allow_lead_article_refresh_without_topic_replacement": true
+  },
+  "diversity": {
+    "max_topics_per_story_cluster": 1,
+    "max_topics_per_family": 1,
+    "default_max_topics_per_pillar": 2,
+    "pillar_caps": {
+      "protocol-security": 2,
+      "bitcoin-payments": 2,
+      "bitcoin-financial-services": 2,
+      "ai-open-source": 2,
+      "ai-infrastructure": 2,
+      "agents-payments": 2,
+      "markets-treasury": 1,
+      "policy-regulation": 1
+    },
+    "bitcoin_native_floor_when_qualified": 2,
+    "minimum_qualified_bitcoin_native_candidates_for_floor": 2,
+    "hard_bitcoin_to_non_bitcoin_ratio": false,
+    "use_recent_pb_pillar_share_as_soft_tiebreaker": true,
+    "pairwise_similarity_penalty_points": 12
+  },
+  "topic_families": [
+    {
+      "id": "strategy",
+      "label": "Strategy",
+      "canonical_topic": "Strategy",
+      "pillar": "markets-treasury",
+      "members": [
+        "Strategy",
+        "Strategy capital structure",
+        "Strategy blowup risk",
+        "Strategy selling bitcoin"
+      ]
+    },
+    {
+      "id": "open-source-ai",
+      "label": "Open-source AI",
+      "canonical_topic": "Open-source AI",
+      "pillar": "ai-open-source",
+      "members": [
+        "Open-source AI",
+        "Open-source AI models",
+        "Open-source models"
+      ]
+    },
+    {
+      "id": "ai-data-centers-and-compute",
+      "label": "AI data centers and compute",
+      "canonical_topic": "AI data centers",
+      "pillar": "ai-infrastructure",
+      "members": [
+        "AI data centers",
+        "AI compute constraints",
+        "AI compute efficiency",
+        "AI compute markets",
+        "Overbuilding AI compute"
+      ]
+    },
+    {
+      "id": "agentic-commerce",
+      "label": "Agentic commerce",
+      "canonical_topic": "Agentic commerce",
+      "pillar": "agents-payments",
+      "members": [
+        "Agentic commerce",
+        "Agentic money",
+        "AI agent payments"
+      ]
+    },
+    {
+      "id": "bitcoin-lending",
+      "label": "Bitcoin lending",
+      "canonical_topic": "Bitcoin-backed loans",
+      "pillar": "bitcoin-financial-services",
+      "members": [
+        "Bitcoin-backed loans",
+        "Non-custodial lending",
+        "Fixed-rate bitcoin loans",
+        "Home equity Bitcoin loans",
+        "ETF-based lending",
+        "Custodial lending failures"
+      ]
+    },
+    {
+      "id": "bitcoin-merchant-adoption",
+      "label": "Bitcoin merchant adoption",
+      "canonical_topic": "Bitcoin merchant adoption",
+      "pillar": "bitcoin-payments",
+      "members": [
+        "Bitcoin merchant adoption",
+        "Bitcoin merchant association",
+        "Bitcoin merchant community",
+        "Bitcoin merchant education",
+        "Merchant onboarding",
+        "Square merchants"
+      ]
+    },
+    {
+      "id": "bitcoin-quantum-readiness",
+      "label": "Bitcoin quantum readiness",
+      "canonical_topic": "Quantum transition",
+      "pillar": "protocol-security",
+      "members": [
+        "Quantum transition",
+        "Quantum migration",
+        "Post-quantum readiness",
+        "Quantum readiness coordination",
+        "Quantum exposure",
+        "Quantum threat modeling",
+        "Quantum governance risk",
+        "Quantum-vulnerable UTXOs",
+        "Quantum-vulnerable coins",
+        "Quantum-vulnerable supply",
+        "Bitcoin quantum break glass scenario",
+        "Emergency quantum safeguards",
+        "Quantum fork risk",
+        "Post-quantum bitcoin forks",
+        "Post-quantum signatures"
+      ]
+    }
+  ]
+}

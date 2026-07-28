@@ -1,0 +1,16 @@
+A future grid won’t be built — it will evolve. In this Type I Summit panel, Andrew Myers (Satoshi Energy), Sam Brandin (Agentic Infrastructure), John Komkov (Fathom Capital), Kyle Baranko (Paces) explore how we move from today’s slow, centralized electricity system to a dynamic, AI-driven grid that’s open, modular, and globally connected.
+
+From off-grid gigawatt campuses and HVDC clusters to real-time pricing, dispatchable loads, and marketplaces where AI itself is the marginal buyer of power, this conversation maps the path from legacy infrastructure to a more adaptive and efficient grid.
+
+Timestamps: 
+0:00 - Introducing the panel concept
+01:12 - Panelist intros
+06:00 - If redesigning the grid today what’s the #1 thing you’d change?
+16:23 - Could a single real-time spot price run the whole power market?
+26:50 - Fractal/macro-grid vision: off-grid campuses, HVDC links, nested local-to-global markets
+31:17 - Designing the grid for AI 
+
+From the Type I Summit hosted by 📍Presidio Bitcoin
+🌐 More about the Type I Summit: https://type1summit.org/
+
+Learn more: https://presidiobitcoin.com

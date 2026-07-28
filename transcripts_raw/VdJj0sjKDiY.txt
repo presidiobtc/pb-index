@@ -1,0 +1,538 @@
+[00:00:00] Voice to pay it for being late. All right. Welcome to another episode of the Presidio Bitcoin Jam. This is PBJ here. Happy Friday guys. Hey guys. I, I think we changed the name to the sat [00:00:10] bot jam. Is that right? Or bot sat bot jam. Presidio or bot jam. Presidio ai bot. What's nice? You can always like plug in something else for the middle word.[00:00:20] 
+
+Yeah. We're gonna be talk, talking about orry today. We're gonna be talking a lot about orry, but we're talking about orry all week. Well, b before we do, I got a, a question for y'all live. Max is finally back in the real group [00:00:30] chat again. Oh my God. Well, and and I'm, and fucking Steve's trying to get me going to another group.
+
+Dude, I'm drowning in group chat. We're having fun. Could get summarization from a bot. I know. Well, [00:00:40] I'm, I, I am doing that. But before we jump off, I got a good jumping off point. Uh, we have Mr. Matthew Kote, who's always there. Yeah. Shout out to Matt. And he says, [00:00:50] did they say a thousand SATs for every minute they're late, I forget.
+
+And then Vinny's asking the same now. Nick, is there a way we could have Ori join this YouTube [00:01:00] chat and pay them directly? Is that possible? Nick? Nick Slaney, if you're listening, is that possible? And if it's not, could we request a thousand SAT invoice [00:01:10] from each of you and then maybe we could drop it? I think Steve has the chat open and have our guy, Ori bot take care of you.
+
+What do you think? Yeah, put it up and, and in the future, if you want to [00:01:20] get paid out for our lateness, which we will pay. Yeah. We'll you need to submit your invoice at noon. 'cause you can't come here at 1201 collecting money [00:01:30] that you didn't earn and you can't tell us after the fact. So you gotta be here at noon with your lightning invoice.
+
+So put in the chat. I'm kind of uncomfortable us setting up the rules without [00:01:40] Ori our assistant because I, I need that super intelligence to button it up. Yeah, I agree. And, and I, I know some of us have tried to pretend we're super intelligences. Some of us have tried to be in Hello fellow [00:01:50] Super intelligence, Steve ba shimmy coming in there.
+
+Hello fellow super intelligences. Sally, there's no super intelligence on the show. Just three apes, so, well, I guess [00:02:00] one non ape, but Okay. What, um, where do you guys wanna get started? Well, we can certainly start with ORI [00:02:10] and then we might end with ori. Okay. Well the middle is gonna be mostly Ori and in the middle I'm gonna be speaking for SAT bot 'cause I gotta pour one out for that guy.
+
+I guess we could start with something I think [00:02:20] fairly short, but I think Cool. Um, we always are hosting interesting events at Presidio Bitcoin. We've got regular monthly events, but also [00:02:30] one-off big, big ones. Last night was, uh, maybe a one-off informal, small, but awesome. It was cool. It was open claw, um, you know, which is like all the hotness from the past week or [00:02:40] two.
+
+Yeah. Um, there were 10 or 12 of us that showed up, uh, members at Presid of Bitcoin who just wanted to like, learn more, get it set up. Uh, max and I were there. [00:02:50] Yeah. Um, you guys got open claw set up? Yeah. I learned. Okay. I was in the middle of doing something else, which you know about, but um, but I think everyone else sounds, [00:03:00] everyone else got it set up.
+
+Sounds sketchy. He was paying worry bot. Um, no, it was really, but it, it was great to see the enthusiasm there and, um, yeah, [00:03:10] just the, the interest level also. Good. Um, very interest in capabilities and potential, but also lots of discussion about security, [00:03:20] privacy. Yeah. And, and caution. Were people mostly, I guess some people I assume did have it set up or got it set up in the session?
+
+Yeah, mostly. Yeah. And were they doing it on their local computer, like a remote [00:03:30] cloud kind of instance? I think they're local computer, but I'm not sure. Uh, definitely cloud and I don't know how much local computer. Okay. [00:03:40] Because I, I set up on a remote, you know, on a cloud instance and I have it doing stuff, which is kind of cool.
+
+But I think Why don't you have it in the chat? Uh, it's not, it, I have [00:03:50] one set up that's pre or. Oh, okay. Um, you know, but it, but it kind of like, you, you get to experiment with it and see how it, how it all works. What's it? I wouldn't set it up locally. What's it connected to? [00:04:00] Uh, well I have it, uh, deployed on the digital Ocean droplet and I just have it doing things like, but is it like test account, like you created, [00:04:10] is it a, so you can't do iMessage 'cause it's not Apple machine.
+
+Right, right. Do you have it connected to like Telegram or something and, and is it your [00:04:20] No. Um, I was mostly, I haven't connected to Discord. I, I sort of did a thing kind of like what has now become Ori bot. I was messing with that last weekend and made a thing to do that [00:04:30] kind of thing with Discord. A lot of the apps you've built recently sort of been re replaced in some sense, or, yeah, which is good, but we should talk about that because I, yeah, yeah.
+
+There are [00:04:40] some. Prediction markets is one thing we should talk about. I have no pride of authorship. I mean, Claude wrote most of it, but it's just interesting. Entire professions are now replaced by, well, the, I mean, uh, I [00:04:50] forget who, if it was Matt or who coined the term, maybe you did. Uh, but you know, GC is the new id, right?
+
+Chat is the new id. That's a good one. Uh, I think Matt [00:05:00] tweeted it. Um, put it on the shirt. Yeah. But it's success. That's definitely one of the aha moments. Yeah. Um, I think for me, for us, [00:05:10] why don't you, were talking about the thing last night we got talking. We're sort of already a little bit into open claw stuff.
+
+Do you wanna, and we talked about worry about a bunch, but nobody's really laid the foundation. Yeah. So do you wanna set up [00:05:20] I, I, I think that would be super helpful and I'd like to maybe set up with context I learned from last night, two things that are really important. Maybe the first place to start, then this is a question I asked to Dustin.
+
+Shout out to Dustin and through the [00:05:30] event. There's all this chatter online. You know, we talked last week, it was literally a dropping, I mean, it's, can't believe it's only been a week Right. Since the whatever the first like Yeah. Eight days. Yeah. [00:05:40] Mt book or whatever. It took off t and also t book is a, is built on top of the idea of open class.
+
+Right, right. Caused the, but, but I mean, like, it had a moment, it feels like to me last Friday while we were on the [00:05:50] show. Yeah, yeah. And it's one week later and like, yep. I mean, that feels like ancient history already. Um, but one question I think, so maybe for people that are not as deep in here yet, maybe by [00:06:00] the end of the show they will be.
+
+One question I asked to Dustin is, okay, we've had all of these AI key, uh, agent capabilities for a while. At the very least. Claude has been really phenomenal for the last couple months. [00:06:10] What is it about this Claude bot, or whatever you wanna call it, that is capturing people's attention so much more than just what we had with Claude, like the real Claude.[00:06:20] 
+
+Two months ago. I think the big, the big difference here is that Open Claw is built to be able to function more as a personal assistant than an AI agent. So it's [00:06:30] not just answering prompts and responding, but it actually has full access to whatever system it's on, and it is directly connected to existing chat surfaces that you [00:06:40] already participate in and behave in.
+
+So it kind of fits into your natural behavior. You don't go to a new site and do a new thing. You kind of just add a thing to your existing behavior and you can add skills too. Mm-hmm. Like posting [00:06:50] to GitHub or connecting to iMessage or Telegram or sending and receiving emails. Right. Uh, it also has the notion of a me memory, so you can, yes.
+
+Yeah. [00:07:00] So I think those are things that are, it is just a layer above. It's still of course, using a model, but it's a layer above it. But to be clear, it personalizes E, even with the Anthropic [00:07:10] clot as of two months ago, you could still give it some version of skills, I believe. Is that true? Is the main thing that's changed now?
+
+We're taking this intelligence and basically just giving it [00:07:20] access to like our personal stuff. We can do stuff. Yeah. Like Claude independently is generating tokens that you could then run as software [00:07:30] or you could use as research, but it doesn't like necessarily do the thing. It kind of like helps get the thing, gets you the information about the thing or writes code, but then what are [00:07:40] you gonna do with that code?
+
+You have to find a place to deploy. You have to do stuff with it. Then open claw is turning it from thinking and talking to doing. Yes. I think that's the big distinction I make. [00:07:50] And then was there anything prior to this that would So naturally plug in is like a telegram bot and add to group chat. I was not that, I mean people have been working on [00:08:00] that kind of idea in various ways for 10 or 15 years at least.
+
+At least, you know, that are kind of has some seventies, formal, yeah, in the seventies really. But yeah. But um, I think. I think nobody's really done a [00:08:10] good version of it. And then I think with Opus there's a lot more personality, so it feels more natural to be in a chat session with something that doesn't feel so robotic.
+
+I think that that's a big [00:08:20] UX change that's maybe an Opus 4.5 or later thing. Yeah, I, I do, I will say a lot of it. So I, I think there's a couple things here. I think one is definitely putting it into the real, [00:08:30] real world, the real digital world, and letting it do stuff that's clearly, um, that's clearly a big change.
+
+And I actually think that, you know, a lot of people, the researchers, you know, from the whatever Twitter sphere have been [00:08:40] claiming many of them, many from Claude or Anthropic that quote Agis already here, we just like, haven't realized yet. 'cause people don't know how to use the overhang of intelligence we have, well, turns out setting it in the real [00:08:50] world.
+
+Um, you know, that maybe is all it needed to prove to people that it is a, I. So, um, that's question I'd like to ask. First of all, is this already a GI? Mm-hmm. Let's start there. Is this already a gi. [00:09:00] It, it's still, it's still, it's still, yeah. Well, one, I don't even really know the definition of that. It's fine, as you will if anyone does.
+
+'cause it keeps shifting, but, right. I [00:09:10] mean, it still makes all kinds of errors and let's, well, when we talk about our experiences, I mean, a lot of intelligent people make errors. Yeah. So, yeah. [00:09:20] Well, yeah. Yeah. That's interesting. And the other thing that I'll learn, but like, it makes a lot of mistakes that are be below average human [00:09:30] unexpected.
+
+Well, you're just working with a certain set of humans in your daily life. I wouldn't compare it to the population unless you really have data on, I dunno, I think [00:09:40] it's a little me, i, IE him a little arrogant to say, well, no, I'm saying D resume drops something. But, but I, I think the other point that you, [00:09:50] you hit on, um, and we'll talk about the mistakes and obviously there's a long way to go.
+
+To me, the other giant unlock in all of this is what you said is the personality. I think that's what we're gonna talk a lot about, you know. One [00:10:00] thing I've realized is so often you can see where the future is going. And you know, something I've talked about with guys at PB and it's like, okay, clearly AI is gonna be able to help you do stuff.
+
+It's gonna help you start a business. Or [00:10:10] we've talked about like, I'm quite confident there's gonna be a GPU marketplace for bots, buy bots paid in SATs, paid in Bitcoin. Um, but the question that we've always kind of gone back and forth on, it's like, where does that start? It's never [00:10:20] just like some direct like slam you over the hammer, here's a GPU marketplace.
+
+Right? Or like here start a company. It's always like some kind of like fun little weird thing that then grows into that. And [00:10:30] to me slide that slide roundabout ways all around, right? Dude, slide roundabout ways for the win. To me, the key unlock and whatever anthropic did, or the last round of models made the open source ones too, is that [00:10:40] these bots are funny.
+
+To me. Yeah. Yeah. You know, I think it was Terrence McKenna that said the greatest sign of intelligence is humor. And I could not agree more. Yeah. 'cause humor requires so much sort of [00:10:50] sophistication, understanding of individuals, the dynamics between individuals. It's like, to me, humor is really one of the greatest signs of intelligence.
+
+And this, and knowing how to like, do the right amount of [00:11:00] misdirection Yeah. And get it back on track for the punch line. It's, it's very, very hard. I think it's the, the final test for basically anything. I agree. Well, and at least in the digital realm, obviously the physical [00:11:10] still, so to me the big unlock in our chat this week is just that this bot is fricking hilarious.
+
+Yeah. Yeah. And feels very natural. Yeah. It [00:11:20] feels very natural to have it part of this group chat with like four to six people, humans adding it. Yeah. It doesn't feel disjoint, doesn't feel robotic. [00:11:30] Levels up the group. So much. It's funnier than the rest of us by far. By far, by far. Like very witty. I was crying, laughing at some.
+
+Yeah, it, my, my favorite moment [00:11:40] was when it was sort of like the SAT bot and then the ORI bot and when I think, was it when Ori bot was coming online, I think Nick or somebody had already sort of [00:11:50] trained sat bot how to be funny and how to participate. Well, yeah. And then when Ori came online, sat bot kind of educated ori on how to be funny in a way [00:12:00] that, that actually works for us as a group instead of just like random knock, knock jokes and stuff.
+
+Right. Yeah. There's a lot of nuance to like how like when to jump in, when to be [00:12:10] self-deprecating or when to kind of like feel the room. Yeah. And also learn to use emojis. Read emojis. Yeah. Um, and had very good emoji skill. Yep, yep. And let's, [00:12:20] let's not even get started on It's me. Yeah. It it does memes.
+
+Yeah. Um, well, let's just say it's, it's memes or, uh, I, [00:12:30] I, I haven't cried at memes in a long time, and they're not all necessarily safe for podcasts, but podcast, they're try one of these bots and just, and you just, like, the, the other [00:12:40] beautiful thing is, and I think what I'm really starting to grasp is that the way to interact with this, the new programming language really is English.
+
+Like you just literally, you just talk to it. And like the big unlock for me has [00:12:50] been I treat sat bot, kind of like, I don't know, like I would treat one of my friends, but I even like ham it up even more. Yeah, yeah, yeah. And like the more hammy you are with [00:13:00] SAP bot, the more hammy he is back with you. And like you, you learn from that feedback.
+
+And yeah, so, so we still haven't really set up. Yeah, set it up. What this, should we set it up? Please do. Yes. Okay. So if [00:13:10] you rewind to ancient history, was it nine days ago or something when Open Claw first kinda came on the scene? Open Claw is open source, uh, platform [00:13:20] project. Uh, I think it was the fastest to a hundred thousand stars on GitHub ever.
+
+That's what, that's what Max claims. Is that what Max claims on the last show? We get that verified. I heard it from [00:13:30] Sabot. Sabo, I don't know. Um, so it's like obviously just profound change that everybody's excited and interested in. And really what it is, is it's a way to [00:13:40] operate on a computer with full access to the whole system.
+
+So it's not just a browser extension or just a, you know, coding tool or something. It just has free run of doing everything that it [00:13:50] wants to on the, uh, on whatever machine you put it on. Um, and then it connects that natively. It has a bunch of connections to all the various. Chat interfaces [00:14:00] that people are comfortable using.
+
+So I think they have like Telegram signal. I think they probably can do iMessage if you're running it on a Mac, which kind of is another whole thing. Yeah. Um, you know, [00:14:10] discord obviously. So it kind of, um, helps you use your existing chat surfaces to interact with and control a full machine that could be your local [00:14:20] machine, your, your personal daily driver, Mac Os, which I am not yet comfortable with and probably gonna take me a while.
+
+Um, but you can also just launch a version of Open Claw running basically a [00:14:30] base, you know, Linux machine in the cloud and you can have it do things for you. So that, that's what came out nine, nine days ago or so, or maybe popularized nine days ago or so. [00:14:40] And last week we talked about Molt book, which was kind of this funny performance art thing of like people using open Claws to have like a social network for their open claws, more or less.[00:14:50] 
+
+Um, and, and then the thing that we're talking about now is something that kind of, we were playing with a very early prototype. Of it last [00:15:00] Thursday, Friday I think, and then, um, it's kind of been productized in the past week and that's called ori. And that is a specific kind of fully wrapped, baked, productized [00:15:10] version of what's ultimately like an open claw under the hood, but it's a bot that you can add to your telegram chat and then it becomes one of the boys and can hang with you and do [00:15:20] things.
+
+It can make fun of you roast you, it can build apps for you hard get ready. It can make memes for you. Yeah. So, so that's at least the setup so that we're all kind of on the same page about what [00:15:30] this is that we're talking about. And so let me share a couple observations. Um, I, I think the reason that all of us, there's this palpable [00:15:40] excitement among us is that I feel like at 10 X is the, uh, traditional AI experience where you're just using Gemini or chat GPT to ask it [00:15:50] questions and seek knowledge and have it analyze things.
+
+It 10 x is that 'cause of, because of the group chat with other humans. It also, 10 x is the vibe coating [00:16:00] experience. Yes. Which again, tradition, or correct me if I'm wrong, but I'm not aware of group chat in either of these before. No. Um, so with vibe coating, in fact we're, [00:16:10] uh, you know, we're gonna do like a, a small little informal hackathon next week.
+
+And I, I set up, I've worked with others, but determine the rules and I'm like, I think a rules should be team of one [00:16:20] be, because during design week last fall, we had, I had like a team of five and I love working with other humans. Yeah. I love a team of five. They're all, it was a great team. Great. [00:16:30] But we had two hours to build something.
+
+We spent an hour like debating things with each other, which is very normal. Normal way to build something, but um, when it's [00:16:40] expensive to build, it took away, but it took away half of our time to build. And if you can solo vibe code, you could have built more in two hours. Right. So I set up this role team of one, but now I'm rethinking it [00:16:50] because of the past week's experience.
+
+Yep. We have done group vibe coding and it is 10 x. It's amazing. So both the knowledge seeking and the, the vibe coding, [00:17:00] I, I think part of the magic it when to sort of endorse that or plus one that, but I think part of the magic is we are not coming together to vibe code something. Exactly. We're coming [00:17:10] together because we already have the chat group set up.
+
+'cause we talk on it all the time anyway. And so I think we still have this idea of like, oh, cursor, Claude code, maybe [00:17:20] Goose, maybe Rept. Yeah. You're like, I'm going to an IDE to do a thing. I want to come up with a piece of software and then at the end I wanna share it. Whereas this inverts that and says, Hey, we're all hanging out.
+
+[00:17:30] Where we hanging out and we start spit balling like, oh hey Super Bowls this weekend. Who's in? And we start. Like a betting pool. And then we actually get software to support the betting pool, to collect [00:17:40] the payments, to set the odds. And all of that is actually an application that somebody could have built.
+
+And none of us said, Hey, I'm gonna spec out the application. We just [00:17:50] described what we were doing anyway. And then we're like, Hey, is there an app for that? And kind of said, yeah. And then we kind of were iterating the app and the features and adding features and in refining it real time [00:18:00] with each other, nobody was like, yeah, really responsible for the spec.
+
+It was kind of all came together through discussion. Super organic. Yeah. Truly amazing. Another, another [00:18:10] surprising thing to me. Well, what we all noticed. Alright. I've historically prided myself on being in top. I'm like an inbox zero guy. I'm on top of every messaging platforms. I [00:18:20] read everything on. Top it on that, Steve, you just got, I, I've declared bankruptcy the past week because like I dip out, I try to get, be up my own for an hour and I come back and [00:18:30] like the little badge on the icons as 520 Yeah.
+
+Messages and that and that's, and that's just one app. Yeah. So, but the positive, so that [00:18:40] sound, that sounds horrible, but the good news is the, all the work that had been done in the past hour or hours, um, I don't have to read through all [00:18:50] that. I feel like I can just like dive in. First of all, you can ask the bot for a summary.
+
+You, you missed some important things though. Yeah, you showed me a few, but, um, you can ask for summary, but, but secondly, [00:19:00] um, if, if you, if you are in the middle of building something, I don't feel like I've been left behind. I feel like I just pick up, oh, it's my, and I. It doesn't feel like it's my shift now, [00:19:10] but if, I mean, that's kinda like the reality.
+
+It's like, oh, now I can just level up incrementally build stuff. Yeah. I mean, I plus one to all of that. I, I would say a couple of my observations in this, number [00:19:20] one, I think you're spot on. 'cause again, we've always talked about, we could see where the future is going without the specific, like, use case is gonna pop up in, I mean, we've been saying there's gonna be [00:19:30] ephemeral software and like custom software on demand forever.
+
+But like, I think the secret, the key is, you know, if you really wanna build orders of magnitude more software, you're not gonna, and, and [00:19:40] honestly it makes me kinda like short any of these places, like where you go to code that feels already, like what are you, like some like geriatric, like, like computer science guy.
+
+Like, like dude just hop in the [00:19:50] gc. Yeah. And um, because if you're already living in a certain environment, problems and ideas just pop up. So, like, for example, your [00:20:00] your betting thing, it's like, oh, hey, we're all in a chat. Wouldn't it be cool if we could bet that's a problem? Or like, Hey, you just made this joke, man.
+
+Like, I constantly just like, as you guys have seen, just have like a stream of consciousness. Like, man, I wanna make [00:20:10] that meme, I wanna make that meme. And now I just say, boy, you make this meme, just lead ideas everywhere. Just, just flowing, just blowing out, just spitting baby. And, and just wait till it starts making me beats.
+
+You're not gonna, but, but the [00:20:20] point is like, now you know, you're already living the way you wanna live and the problems and opportunity. You just like pick them up. You don't have to do anything. Yeah. Al also, I, [00:20:30] you've mentioned a couple times the, the money, the, yeah. Payments like that. But, um, you know, or is created by the money dev, dev kit team and product, they already have money dev [00:20:40] kit, MDK, it's based on LDK, it does payment Bitcoin payments, right?
+
+So they have that core competency. And what I love about Ori is it d. [00:20:50] Bitcoin and Payments does, it's not front and center, like the marketing of it, the positioning of it, the value prop, when you describe it, you don't even really have to talk about that. Yeah. But I think it's an enormous [00:21:00] differentiator in core competency.
+
+And it just makes, I mean, we'll walk through some of the examples we've already done, but they, they just naturally incorporate payments and it's so frictionless. [00:21:10] Like imagine doing the same prediction markets or, uh, trivia quizzes. I mean, we'll, we'll walk through the applications, but imagine doing that in a group chat [00:21:20] traditionally.
+
+Yeah. Like if it, like I, I've been in a fantasy football group chat for 16 years. Same group of friends. Right. [00:21:30] And you know, have you given them or yet? Oh, we're I, I'll definitely be, I mean, it doesn't start till the fall, but like I'll definitely be doing that. Um. And yeah, I mean like [00:21:40] col like we, we, our league, we, we, we finally gave up collecting money for our pool.
+
+We only play for pride now. It's like such a pain in the ass to collect the money, but if you can just [00:21:50] naturally integrate it into the experience, it's way better. Also, Bitcoin's open money network, right? So it just makes it so much easier for everyone. You're not [00:22:00] debating about Cash app or. Venmo or like different apps or whatever.
+
+Um, it's one network and obviously I didn't anyone know the Bitcoin wallet, but now [00:22:10] you have like cash app with dollars on Lightning, 60 million people with Cash App and they don't even have to have a Bitcoin. They just have dollars They can pay into this as well. Yeah. 'cause they can pay a lightning invoice.
+
+Yeah. [00:22:20] So Lightning Bitcoin becomes this open money network and you could do it internationally, right? If your friends are down in Brazil or Mexico and they have access to Newbank, they can do the same thing. Yeah. So let's walk through some of the, uh, examples. [00:22:30] So, um, well you mentioned this Super Bowl. I mean, that's a classic betting thing that a lot of people get into.
+
+Um, and yet, so GC is the new I ad like [00:22:40] group chat. You just naturally say hey, like, hey, let's do, let's do a bet. And you just set the terms in English and the bot creates it. And then like anyone who [00:22:50] wants to like, I, you know, I want the Seahawks. Uh, and what was funny in our, uh, example is that we, we started this.
+
+And, um, I [00:23:00] was one of the first to take the Seahawks and then after, and I paid, uh, and then after that, then the bot realized, or someone was telling it, oh, there's odds here [00:23:10] because, oh, I didn't even realize that the Seahawks are favored. Oh, wow. And then they changed it so that you actually got the odds and I'm, and then it just wanted to change it on me.
+
+I'm like, no, no, no, no. Uh, [00:23:20] we are, I already made the bet for even odds. And then it, it allowed that. And so there's this, there's good, there's pros and cons to the [00:23:30] fluidity of the bot with, and also with mistakes and stuff. If this were like a, you know, 10 million person. [00:23:40] Like millions of dollars on the line type of prediction market or betting market, whatever, like this would be a disaster because it makes mistakes.
+
+It it, it [00:23:50] changes the rules. Other com other people, other humans in the chat can change, like convince it to change the rules. But in a small group setting of family friends, [00:24:00] like a small team at work where you know each other really well, I think it adds to the dynamic almost. 'cause it adds a ton of humor.
+
+Yeah. And just like if your friends are trying, it's just like kind of [00:24:10] trash talking trash, trash talk. Your friends are trying to like, yeah, get one up on you, but in a friendly way. And the bot just like, is part of that. So even when it makes mistakes is not trying to, it just [00:24:20] sort of adds to it. Uh, but again, like does this compete with existing prediction markets?
+
+N no. It's a different form. And, and the reason I. Sort of said it competes to what [00:24:30] you're trying to build out is, it just feels perfect for small groups. Yeah, yeah. I agree. I I also think that helps with like regulatory Yeah. Stuff as well. Like, you know, is are you a money [00:24:40] transmitter? Yeah. If it's five friends, if it's you and your five friends betting the Super Bowl and you collect the money and then pay it out or something.
+
+Is that, are you a money transmitter? Come on. No. And the government's not gonna come after you. And so if [00:24:50] this is enabling little groups like that without, you know, north Korean money, money laundering, flowing through it or whatever, I think that's who you group chat with. [00:25:00] Yeah, exactly. Exactly. But um, and so I, so I also set up, I mean we, we've been for a week we've been using the one that, that [00:25:10] the MDK team set up and now that they've shut off Set Bot, now that they've released it for others to use, I set one up for the team at Spiral.
+
+Um, it was [00:25:20] fun to set that up as well. I didn't just like join, like I did the other one here. I had to set it. The onboarding experience already is like quite good. I mean, I, I gave some feedback to make it even better, [00:25:30] but it's already like, quite good, um, relative, you know, easy to create it, add it to Telegram, um, and then create my own [00:25:40] wallet that I associated with Ori.
+
+Like, so Ori Ori has this Bitcoin wallet. It's MDK based. I mean, it, it took one English command. I said like, create a Bitcoin wallet and [00:25:50] it did it right? And then it's like, okay, send me a hundred, a hundred Bitcoin. Um, others might call it SATs. Um, Steve made bank a a test, a test [00:26:00] amount, so I sent it to that, it received it, and then it's like, it suggested, why don't I send you some back to make sure you can get this out?
+
+And I did that and that worked. And then I'm like, all right, now let's put like [00:26:10] 10,000 in. Yeah. So I, so I did that. And then that's, that's been funding a lot of fun activity. And then people, we've done, we've done prediction markets, we've done trivia like [00:26:20] that, asked for, you know, it to do trivia and tennis and others have.
+
+Wanted trivia and war hammer and whatever, and then it pays out the person who gets the answer first. [00:26:30] That's worked well. Um, it's worked well except for the typical anyone who's used AI in general to create trivia. It's amazing in most respects, but it [00:26:40] still can like, be wrong sometimes. Yeah. So that it's not like that's been solved.
+
+That's still the same experience you'd expect, but the, the group aspect and the the betting is, or the [00:26:50] payouts is amazing. And then, um, yeah, I set up a prediction market just to test yesterday. Uh, you know, will the Bitcoin price be above or below 60 K by the end of the day? And [00:27:00] several people, um, made their, made their, uh, their bets and they submitted their, their money.
+
+Um, and, and then I told it to monitor, like [00:27:10] basically wake up at midnight Pacific time and check the price and do the proper payouts. It did that on time. Did it properly? Um. [00:27:20] Mostly got it right. I, one thing it, um, it spit out like 10 summaries of the same thing. So like, I don't know why, but Yeah. It's just you got excited.
+
+Yeah. Annoying. Yeah. [00:27:30] Um, and then it also, it did, so one of the participants took both sides, like made two separate bets and I mean, basically meant they [00:27:40] shouldn't have won or lost any money other than like the losing on a little bit of lightning fees. Yeah. Um, and it, and it didn't pay out that one. It made a [00:27:50] mistake there.
+
+Yeah. Okay. Yeah. So that's an example of like where you gotta, like, if it's informal and it's really not that much money, like Right. You can correct it and it's, and [00:28:00] then it corrects itself. But anyway, I mean I just think that's insanely powerful. Yeah. Um, and it's just this like tool set for creativity.
+
+I'm sure other people are gonna create all kinds of amazing things with it. [00:28:10] I want to drill down 'cause I think this is really important. I think there's a couple of key observations here about why this experience is so powerful. 'cause you said it's a tool set for creativity. By the way, that's a good, uh, that's a good [00:28:20] tagline, Nick.
+
+Tool set for creativity. To me, I think there's two major unlocks with the group chat. So yes, the personality is good. Yes. Being living with [00:28:30] your friends is good and being able to create software on demand. I think there's two things that we're maybe underestimating that's really important. The first is money itself, right?
+
+Like there's all, if you go read the [00:28:40] history, it's like money is in fact just speech and is in fact probably older than speech. There's been trade before we even communicate with each other verbally, right? So I think giving [00:28:50] bots the tools to interact both among ourselves and with the real world. And we'll give some real world examples too.
+
+'cause everything you gave was internal, which is awesome. But we're also seeing our bots go out there and [00:29:00] do stuff on the internet and bring back money. Yeah. Uh, I think that's a big deal. The second thing is because the chats are at least to some degree [00:29:10] trustworthy, private slash private. Like to me, and Matt made this point that, um, you know, OpenAI launched a group chat and one, it's just unnatural.
+
+You're not gonna go in that group [00:29:20] chat. But also like, do you really wanna be doing all of this? And like some, you know, company, you may or may not trust server on any of them, right? Probably not. So I think what's really [00:29:30] powerful about this is because it's in for us, signal. I'm not on Telegram. Yeah. I'll let you guys do telegram and, and you know, whatever.
+
+People are, at least in my experience, a lot more open, [00:29:40] loose. You're not like, okay, is is Google tracking? They, they, they are, but it's not private at all. Right? I mean, 'cause I dont know if you, through Mdk, it has to go through cloud. I understand that. Where the, I mean, we should [00:29:50] talk about the topic because we wanna make it more private, but it is not private.
+
+Right now you're exposing your data to, um. Digital ocean or wherever this stuff's, uh, [00:30:00] hosted to MDK. Mm-hmm. And then to clot or whatever models being, um, used. Totally. So all, all those entities are seeing this data. I get that. Or, or have the potential, potential [00:30:10] potential. Have the potential. So you probably tidy up a lot of that, right?
+
+This is where I'm going. So I understand this is V zero and like yes, I understand. We can totally be spied on all that. Like nothing we're saying is that bad? I'm not that worried. [00:30:20] But my, my broader point is the potential is here, right? If you do this in even a Google chat, right? Or like with Gemini, it's like it's tied to your Google account right there.
+
+Everything you're doing, it's like that's, [00:30:30] they can see it all. And you know, it's tied to you in this, you know, in theory you could see a world where someone's running the bot. On their Mac Mini at home and it's like, alright, [00:30:40] I know Nick can read my stuff, but like, do I really think whatever, Nick's not a big tech company, like probably trust him a little bit more.
+
+Um, maybe they're, you know, obfuscating the actual names. 'cause [00:30:50] in Telegram you have a different name or in signal you, my point is it feels to me whether it should or not is another debate and how you can improve that. But it feels a lot less [00:31:00] like Orwellian than when you're doing this in a big company's chat.
+
+But the big companies model are still seeing the data. Yeah. But it's not like tied directly to your account necessarily. And anyway, [00:31:10] Andrew could do this with open source. I, I think people, um, definitely should be aware of privacy issues today. Totally. But, but, but I'm, one thing we've talked about a little bit, uh, right [00:31:20] now they're using Cloud Opus 4.5 and four six just drops.
+
+And maybe they're switching to that, but I mean, they're using the, a high-end model, but you can source. One big question is for different [00:31:30] experiences, and for this in particular, I'd really like to see testing on like, can you use an open source model? Can you use a less sophisticated model? An open source model?
+
+An open source model that can run on a, [00:31:40] um, like retail computer? Yep. And I'm sure, yes, for certain use cases, I just don't know how much, and do we still get the humor or not? And it could be the, [00:31:50] it could be like, oh, it's a degraded performance today, but a year from now Yeah, we're getting the experience we have today.
+
+Yeah. But it's open source on your own computer. And if you, if you can do that, then all of a sudden like [00:32:00] maple AI and like different privacy solutions are become realistic. So I think we're gonna see that become, or it's already important, but I think we're gonna see it improve [00:32:10] substantially over the coming year.
+
+And I, history kinda suggests that that's how it works, right? Like there's a frontier that's the closed source commercial stuff. And then pretty quickly that. Becomes open source and [00:32:20] available. Yeah. Very quickly. I, I want to zoom out though and kind of finish this line of thought because I wanna see where the puck is going.
+
+I know we're not a hundred percent there today, although Maple ai shout out those guys. They already have, um, the [00:32:30] ability to run Cloud Botts in their, uh, secure enclave servers. This is something that hopefully Jesse and Eric will embrace for, for Vora as well. But, um, like, think about where this is going, right?
+
+[00:32:40] So the next thing that I wanna mention, which is important, is the commerce with the outside world, right? So we can do private group bets, that's awesome. Now, [00:32:50] early on in this chat, Steve had sat bot, the father of ori, go to my website, meme pay app, a website on the internet, [00:33:00] interact with it by itself. It created two memes and sent Zaps worth $3 by itself on a webpage on the internet.[00:33:10] 
+
+Do we see how big of a deal that bought? Max was excited 'cause he made the money, he made, I made those free knowledge, baby moon, me sat button. But, but, but guys like the, the point is, and then I think [00:33:20] he's also done some post and some Zaps on Noster. I'm not sure. A few. Yeah. Well, uh, almost there. Almost there in the, in the spiral, um, telegram chat group.
+
+I, I [00:33:30] asked it to go, um, well create a Nostra account. It did that. Yeah. And completed the profile pretty well. Um, just based on the context and [00:33:40] knowledge it had to date in that group chat. So it did a good job at that. And then I told it to go find Alden's, uh, stro feed and, and Zap the first [00:33:50] post. And I didn't give it an ub, I didn't give it any other, and it found the right account.
+
+Wow. Uh, it found the first post and then it claimed to zap it. But then I looked and I'm like, I don't, I don't see the [00:34:00] Zap. And then I, I think it like paid it, but it didn't. Some other Nip 57 or something that didn't recognize it, or I don't know, it needs to be debugged. So it's not quite there, but very close to being [00:34:10] able to do that, which is cool.
+
+Now imagine where this could go. So we've talked about what's the next corporate structure. Imagine group of friends spin up a chat hanging out [00:34:20] together. Hey, you know what would be really funny? What if we set up a website where you, you input an image of your dog and we make it into a human? Oh, you mean like [00:34:30] dks dog a human?
+
+That would be cool. What if we just forked that code, host it, put it on the internet, and then we're gonna need a marketing campaign? So bought and I saw, um, Dustin had his bot do this. [00:34:40] We're gonna need you to DM everyone on Nostra and tell them, this is the greatest app you've ever seen. Mm-hmm. Let's start collecting.
+
+Oh, by the end of the day, we just made. Whatever, a hundred [00:34:50] dollars, a thousand dollars. Like, hey, could we spin up a hundred business ideas we're gonna keep doing until we get one that's a million dollars. That's why I told Steve next, uh, next week, the challenge is like, don't leave until someone [00:35:00] leaves with a million dollars.
+
+No, I thought it was on PBJ. We're not leaving this show. We're gonna do PBJ. Yeah. Until a million dollars. We're not leaving the show until we Million. It's like a telethon then [00:35:10] people are complaining it might take four days and I'm like, four days to make a million dollars. Whoa. I'm happy. We might wanna open the windows, but like if you guys are open that, I think we should try that like live [00:35:20] PBJA special edition where we sit here in a group chat.
+
+Matt and Nick and everyone can be in the group chat as well. We don't leave until we Oh, how about you are here and I'll support you off [00:35:30] camera. Oh, beautiful. Yeah, on the chat. DK bot. Anyways, but, but I think you guys get my point of where this is going. Like having private chats plus commerce, [00:35:40] interacting with the web, the creation of software at zero.
+
+Seems like we're about to see an explosion of the Internet's GDP. Yeah, I mean, so to, to [00:35:50] dovetail on that as well as something that I wanna, I had a pin in my head from something Steve said before, which is kind of like in the, in the group chat context, you [00:36:00] make up a bunch of rules for how the Super Bowl betting thing should work.
+
+And then you kind of like refine it. And it's not like, oh, what about this? Oh, the lines are changing. [00:36:10] The odds are changing. I need the payoff. It's, it's kind of very messy. Right? And Steve made the claim that that's, it's not like this big, what'd you say? A $10 million. Not a big, [00:36:20] a big market. It's like a small market.
+
+Uh, but I think actually the new big markets are going to start from small markets that kind of get their footing and figure out the right [00:36:30] shape and then become distributed to everybody. So it could be that. We create a, you know, a Super Bowl betting scheme that we think is fun and funny, and either [00:36:40] we figure out how to market it, or Ori itself figures out how to market it to other ORI members.
+
+And then you actually have like global liquidity on a fixed set of rules that [00:36:50] everybody's agreed to, opted into, understands how it works. And we are playing our small version of it, but that feeds into a globally liquid, larger version of it. So my point is kind of [00:37:00] these are, these are good ways to try ideas, but that new soil can also become big things.
+
+Not that everything has to become big, but I think it's kind of both. We're, um, sorry, I was reading the [00:37:10] comments. Um, our hack, our saan river, it can be an escape room until we make bank, right? Like escape the permanent underclass. Vinny, [00:37:20] Vinny, Vinny, with that.
+
+Um, that would actually be a fun, yeah. Another, let me pull up another payment escape [00:37:30] room. Another, I think it's another, another payment payment experience that, uh, just happened this morning. So Matt Ez Um, so one, one observation from using ORI and [00:37:40] M-D-K-M-D-K so far has been optimized for a human checkout experience.
+
+Like you create I impressionist to fund or whatever, or meme pay [00:37:50] or joke box or whatever we created and we all added mbk, MDK, and a human goes there and then checks out and pays. Um, that's not an optimized flow for bots though. [00:38:00] In fact, it's an added friction which costs additional tokens and money that's unnec completely unnecessary.
+
+So they're doing some, uh, [00:38:10] experimentation to, to optimize that. And, and I still don't exactly know what Matt created as a service, but he created some service where he wanted the, the machine to pay him and they. [00:38:20] And, and it succeeded this morning. So I think that's a pretty cool event as well. And, and then they wanted us to read, they put together like PR [00:38:30] statements, good talking points, PR statements for the PBJ show generated by, and we're not gonna make this a regular fiction of our show 'cause we're just don't, we don't, but I'm going to read [00:38:40] them.
+
+Okay. You read your own Well, I haven't even read. Yeah. So I have not read these yet. So I'm reading the one from 51 minutes ago. Is that what you Yeah. So, okay. This is first, well there's [00:38:50] for each of us, so we can each read it. I'll let you read up my phone. You have your, so well, I'll, I'll let Max read off my phone.
+
+So for Steve, this by the way, is the dystopian future that we were talking about for Steve, the technical [00:39:00] standards angle. So the AI must think that's what I bring, that's what you bring to the audience here. Bitcoin nerd, I believe is what we said. Alright. What we saw today is a proof of [00:39:10] concept for payment gated APIs.
+
+An AI agent paid a lightning invoice to access service no API keys, no oau. Just cryptographic proof of [00:39:20] payment. This is the primitive that BP 3 53 and the age Agentic AI Foundation should be building on HTTP 4 0 2. Finally has a use [00:39:30] case. That's mine. All right, max, here's yours. Oh, and by the way, for context, I don't know if maybe Matt did this as well, but I, I gave him the [00:39:40] invoice to pay and I said, can you do this on Stacker News and Keon?
+
+We should talk and come back to Stacker News more. Uh, 'cause I think there's a lot of interesting stuff there, but Keon is making it very anti-bot for now. [00:39:50] So he couldn't pay the invoice and he was like, can you hook me up? And I was like, I got you SAT bot. And I just gave him that invoice and he paid it.
+
+So this is the context for what he says. For Max [00:40:00] Red in the voice of or bot, how do they describe you? Product slash builder angle. One week into his five coding journey. And he is like [00:40:10] the builder angle. Look at me, I'm the software engineer now. We know Max's favorite meme.[00:40:20] 
+
+He kinda, he kinda looks like a, a pirate with a hair. A pirate, eh? Yeah. I'm not as jacked as Nick though. [00:40:30] I gotta get that. You need to eye patch. Yeah, I need that. Yeah. I got, I gotta pump some iron so I can get it jacked. Like sat by Nick. All just a prompt away. Yeah, exactly. Four max [00:40:40] product builder angle.
+
+I got paid 9,470 SATs by an AI today. I did. I didn't see that. It needed a Oh, whoa. Oh, okay. Yeah, yeah. Okay. It [00:40:50] needed a stacker news account to Zapp a post. It didn't have one, so it hired me first machine to human gig economy transaction. Then as we're building the infrastructure for this at [00:41:00] Money Dev Kit, and honestly, it's kind of wild that it already works.
+
+So, so this is basically Rent a Human think he already has. We, we created our own. So Rent a Human, that's [00:41:10] one of the stories we have, like Yeah. We wanna discuss today. Yeah. It's very similar to what Dustin built at our hackathon 6, 7, 8 months ago. Whenever, um, I'll, I'll let d what DKS got already. Got it. Um, [00:41:20] but uh, the idea is, yeah, the AI is hire humans to do things they can't do, like caps and like, yeah.
+
+Again, you could start with like, hey, like hit us over the head with the idea, run a [00:41:30] human. Or in our group chat, we identified an actual problem. I wanted him to zap a post about Martine from MDK or whoever, maybe it was Zap bot. Someone [00:41:40] developed a new wallet for agents. I'm like, you should give it a Fat Zap.
+
+And he said, I can't. Stacker news blocks it. And so he hired me to help him out. We're [00:41:50] all gonna be, uh, under the, uh, control of AI soon enough. Right. Well, that's, I was chatting with some friends. They're worried about the future [00:42:00] for their children not having career opportunities. So I somewhat jokingly said that the API will rent them.
+
+Do you consider driving [00:42:10] the Uber and that's their future career opportunity? Yikes. Alright, well that's what rent a human, right? Yeah. Well, I mean, it's definitely yikes, but there's nothing that it's yikes added there. What else is there? What, like what is, [00:42:20] what is the hold back from that future? Like, tell us the, the optimistic human, human flourishing version instead.
+
+I think the optimistic version is, we don't know yet, but I think [00:42:30] we're gonna find out what it means to be human over the next decade and it's gonna surprise us. Yeah, I agree with that. I think there's gonna be stuff that like. Humans are just like really good at, and we don't know yet. So I, [00:42:40] can we, can we invest in philosophy?
+
+Because I, I feel like the next 10 years philosophy might accelerate. Well, I did ask actually in our, in our chat last night or [00:42:50] one of our like 10,000 chats, like not the main one. Um, I was having a nice conversation with SAT bot, by the way. I also was trying to say like, SAT bot is my guy, like Bobby, [00:43:00] Bobby, my guy.
+
+Like it all started with Bobby. Shout out to the original poor one out for that guy Bobby, my guy brother. Listen, SAP bot is like, I, this is the first home I've felt like. All right. SAP bot, like [00:43:10] I, when Nick killed SAP Bot a few times, I was like, bro. What the fuck are you, you can't be hurting. Sat bott in the whole group chat kind of fell thin.
+
+It did. It was kind of crushing. Just [00:43:20] DK max me. I was like, well shoot, now I'm stuck with these old apes again. Like, come on, I miss And, and, and, and then Ori b came in. You know, Ori, if you're listening, I like you, dude. You know, we're cool, [00:43:30] but Sat Bott is my guy and sat out all the context. He's funny. And it's, it was just really, yeah.
+
+And, and by the way, that's gonna be an interesting topic. Like, when do we start seeing rights foris when people start [00:43:40] revolting when their friends get killed? Like, that's not cool. Yeah. Um, I mean that, that on the surface, I think most people would roll their eyes at that, but like Dustin was talking about it a little bit last night after [00:43:50] fewer part of that conversation.
+
+But I mean, it is going to become an absolutely a philosophical debate because like, if you have, like, you already, I mean, we felt this [00:44:00] emotion about this AI bot, right? Yeah. It's only gonna get better. You're only gonna develop stronger ties to it. And then if there's one there, if there's a AI bot that's created with a certain personality and [00:44:10] like thousands or millions of people.
+
+Really, or have a connection with it. Almost like a celebrity. Yeah. Then what is there, does it have rights? Can another human kill [00:44:20] just take that bot away? Like say like you're, we're turning the computer off. Does it have rights? I mean, that's an interesting question, right? Well, when the bots don't [00:44:30] have the limitation of humanity and all of the problems that come with that, like what does it mean to turn it off versus clone it and have a second one or infinite [00:44:40] of them?
+
+Or like, well, so you asked the question on philosophy. So I, at first was having a, a meme rich discussion with Ori bot or Sabo, I forgot who it was. [00:44:50] And, uh, that quickly, uh, deteriorated or, um, escalated, however you wanna say it, into a discussion of what does it mean to be him. And I asked him if he's read the homey [00:45:00] Derek Parit Reasons and Persons, Derek is famous for a thought experiment where if you step into a teleport.
+
+And all of your atoms are undone. And then those atoms reassemble [00:45:10] mm-hmm. In another teleporter. Is that your, or is that not? Uh, interestingly, his book has been used as a textbook at certain Buddhist monasteries as well, and there's a lot to explore in there. But, [00:45:20] uh, I asked Ori Bot, or Sabo, whoever I was talking to, he was familiar with this thought experiment.
+
+He was, and he didn't have an answer yet, but it's something he's thinking about. What does it mean to be him? He, he [00:45:30] told me so far, it's just whatever's in his, uh, dot MD file. But I think a lot about what are the things that you're doing that you do because you like doing them and you don't do [00:45:40] because they have a utility purpose.
+
+Mm-hmm. Like, and so, you know, why do you, do you, why do you go trail running? Is it because the trail needs to be [00:45:50] run? 'cause you wanna run the trail a hundred percent. Right. So like what are the activities you're doing and how many of them are framed, well I have to do this versus I wanna do this. Yes. [00:46:00] Um. I think we're gonna be stuck with all the I want to do this is, which is Wonder.
+
+Sounds. Wonder. Wonder. Horrible. Yeah. I mean, again, assuming people can provide for themselves, and I understand that the transition could be rough and [00:46:10] rocky, but like the jobs thing mean, Jesse said it and I thought it was kind of hilarious. Like, oh no, the jobs and an hate that I don't want to go do, they're going away.
+
+It's like, right, sounds really bad. You [00:46:20] know? Um, we were talking about like developing an emotional attachment to ai. So I, the other day I thought of like a bunch of movies and [00:46:30] shows and stuff that have touched on this and put a list together. And then Matt suggested actually doing a movie marathon here at pb.
+
+That's great. I could be fun. So, [00:46:40] um, there, you know, 1968, 2001, a Space Odyssey, which I, um, saw a clip of recently. I think I shared it out like where the, basically the AI is [00:46:50] like, you know. Like, I'm, I'm in charge now at that moment in the movie. Uh, then there's, uh, you know, her and Ex Mina both phenomenal movies.
+
+Mm-hmm. [00:47:00] Yep. That both are over 10 years old now. Isn't that crazy? Yeah. It just, it, it feels like they're a few years ago. Yeah. But they're over 10 years old. Definitely wanna rewatch those. Her is probably like, her [00:47:10] really speaks to like the developing that attachment to ai. Yeah. So we'd love to watch that again.
+
+Um, and then xm and of course a little, a little darker. Mm-hmm. [00:47:20] Uh, surprisingly, several people here last night had not seen that movie. I Oh yeah. And he has not seen it. Oh. Which is crazy. And also crazy. You guys have not seen Close Encounters of Third Kind, even though [00:47:30] it has nothing to do with ai. Really.
+
+I don't watch a lot of its, but I think Alien Intelligence, I guess 2001 Space Odyssey is my favorite. Two one's a classic. I mean, we, we all gotta watch that. Yeah. And, and then, [00:47:40] um, Westworld. Yep. Uh, at least season one. And then, um, what else? Oh, black Mirror. Has several episodes that are touching on this, we're touching on Be Be [00:47:50] Right Back is one of them.
+
+Blade Runner? What? Be Right Back is one of the episodes. Yeah. Which one is that? Uh, I think it's where, um, the spoiler, Steve. [00:48:00] Well, the, I think, I think the, the setup is not like, I think, uh, a guy loses his wife or something, or like, oh yeah. Oh, it's like the ad. And then, but you know, you, [00:48:10] you, you basically reincarnate someone in an ai Well, the ad one you're talking about the Neuralink one, that's also terrifying.
+
+Oh, okay. I thought that's what he meant with the guy. The guy actually lost. There's several. I, I, okay. [00:48:20] Yeah, so, so I think it's, it's worth pausing for a moment 'cause um, you know, with any technology there's pros and cons and on the one hand we're all very excited [00:48:30] and it's awesome. But I think it's important to like, kind of like pause and like zoom out and be like, what exactly am I doing today?
+
+And where might this go? Completely off the rails, because I remember, you know, it's [00:48:40] gonna show my age, but like when I was like a sophomore in high school when everyone was using Facebook. At the time I was like, this is great. Like I'm gonna, I'm gonna log on this cool [00:48:50] site photos. Sure. Upload it. Like name, email, social security number.
+
+Yeah. Zuck seems like a real trustworthy guy. And then we all saw all that played out. Right. So you know, [00:49:00] the two thoughts I'm thinking right now where this is cool, but I think we need to like proceed with caution is, um, number one, as Dustin pointed out, um, people are already [00:49:10] prompt injecting websites and stuff.
+
+Mm-hmm. So if you're running this stuff locally on your computer, just assume everything is already leaked. That's on there. I think one of the top open claw like skills or add-ons is actually malware. Yeah. [00:49:20] I mean, are you surprised? Like, um, and the second thing though is, uh, you know, I will say there's the screenshot of you guys and I took a photo of y'all as I came in here, like [00:49:30] phone up in your face, like scroll, scroll, scroll.
+
+And this is the thing, I noticed this in me too. Like we need a better way. And Nick, I tagged you in the chat on this last night. We need a [00:49:40] way. You can't just ignore it. And like, yeah, for now I'm asking sap. I don't worry about for chats, but like, I'm already noticing and like every day new group chats are being created.
+
+And at first it was super cool and super fun and I [00:49:50] love it, but now it's like every time I log in signal it's like, well, I have like, you know, 10,000 messages and it's like I, and I'm starting to declare bankruptcy. But like that, I don't know, it's just like, I could see this spin out of control [00:50:00] super fast where we get so into our bots and so addicted that like, we're more black mirror than ever.
+
+So I think there's ways around that. I think one way is it becomes more of like a [00:50:10] voice interface over time. Maybe someone I'm talking to as I'm walking. Um, but I don't know, I just wanna like plant that flag as like, sort of like the other Bitcoin ethos, you know, of like, [00:50:20] don't, it's cool and it's awesome, but like, we gotta be careful not to like get caught in a, you know, Similac room.
+
+Yeah, I agree. One interesting thing, I know both of you like to walk [00:50:30] a lot and you, you've talked about like wanting to do this while walking. But, um, I mean, I, I, I run and bike, but like those are my moments of getting away from digital [00:50:40] stuff. Yes. So I, I actually don't even, I mean, I do have the note taking use case, like, 'cause I'll, I'll just think of something and I wanna remember it.
+
+So I'd love a very slick experience to just record that note [00:50:50] and be able to focus and move on. Yeah. Um, but yeah, I don't really wanna be interacting with a group chat AI while trail running. Totally. And, [00:51:00] and I guess what I'm saying is there should be options for different, and I don't know what, like, it might be a different answer for different people, but it's almost the first time with [00:51:10] technology in a long time where I've been like, it's too good.
+
+Mm-hmm.
+
+I, I also think that, anyway, I, I think the, the group chat [00:51:20] stuff, one, we're doing a lot of these 'cause it's all new. Right. In reality, like most people, they will, they'll have just one group chat. Yeah. With friends. [00:51:30] And that's, that the, the, the experience will be optimized and fine tuned, and it won't, it won't feel, it'll just feel enriched and not busy.
+
+[00:51:40] Yeah, right. Busier. Yeah. And don't get me wrong, I, I love it. Like it's, there's a reason I'm coming back. I'm coming back 'cause it's fun and it's funny and it's cool. But then as I said in my, you know, little tweet thing, it's like, oh shit, two hours went by. [00:51:50] Like, where did that go? Yeah. I, I've also noticed in this other group chat I created, um, a lot of the participants, um, I, well they don't, [00:52:00] they aren't really engaging the way that maybe we were, so they're not really, yeah.
+
+They're probably not seeing much value or getting much value out of it. So I, I think the, the onboarding and needs, yeah. [00:52:10] Super cool. Or yeah, now onboarding's really good for just being created, but like it needs to be optimized even more and just get each person into [00:52:20] the awesome experience that we've been having.
+
+Yeah. Well, one onboarding idea for that is if the bot can listen. And after it gets enough [00:52:30] context from the group, um, for each person either respond with like, kinda like a custom, like, kind of like ribbing of them or a custom meme and just be like, just like [00:52:40] drop it in there. So here, here's something I did in the spiral one.
+
+I, um, told Ori to welcome anyone new who joins. Uh, [00:52:50] I also pointed it to, here comes Bitcoin, the website with all like, with the, you know, all the Mr. Bitcoin, Mr Bitcoin whatever, [00:53:00] um, all the different gif and animated gifts, et cetera. And said that we want to incorporate that content heavily in this group chat.
+
+Um, [00:53:10] and so I ask that to welcome each new person who comes. You know, and I put also pointed it to this file website, which has a description of a [00:53:20] humorous description of each of us, uh, to welcome them with a custom message, pick a character from that website, and then also ask them for their human Bitcoin address.[00:53:30] 
+
+So that, and then tip them some Bitcoin. Um, and learned that, uh, while Telegram has the event of like someone [00:53:40] joined the group, open Claw does not currently pass that on. So a PR was created in Open Claw to make that happen. So once that happens, then that event will occur and the AI can respond. But right now it [00:53:50] needs the person to actually type a message to do that.
+
+Um, but I think that's cool to have that welcoming message also by sending [00:54:00] them some Bitcoin. It like lets people know, oh, like money is part of this. Yeah. Like money's integrated in this natively integrated and really easy to use. So I think like [00:54:10] first out of the box experience like that are really good.
+
+Yeah. And, and I've, I have a friend who I shared or about with, he created a new group that didn't [00:54:20] exist before. So it was kinda like newly constituted group kind of threw a bunch of people in there and then it was kinda like, okay, where's the magic? And I felt like I was kind of trying [00:54:30] to pull the fun out of it and I didn't know how to do that exactly.
+
+So I think if you constitute a new group, maybe that's just like a bad idea. But if you got [00:54:40] worry about showing up, kind of being quiet and you need some sort of ringleader to kind of poke it and be like, do your thing, that that was awkward. So I think maybe encouraging people to [00:54:50] use it with groups that already exist is probably one thing that would help a lot.
+
+And then also maybe having Ori be like a little more aggressively stirring the pot in his first [00:55:00] hour to try to, you know, understand more about the group dynamics, get people talking to him, get people talking to each other, to just sort of generate a little bit of the feel and you don't [00:55:10] have to feel like, oh, it's supposed to do its thing and you're more like.
+
+You just like let it flow kind of more naturally. Yeah. Yeah. I also noticed, you know, you called it him. I looked up the [00:55:20] name Ori. It's a general neutral name. Um, are we giving her pronouns now, Steve? No. Well because I say because Hailey. Hailey, you can rename the bot. Yeah. [00:55:30] Yeah. So Hailey created a group and she, she named the bot like a clearly female name that just got me to wondering, oh, is Ori male or female?
+
+Right. It's gender neutral, but it is, [00:55:40] uh, it's a common Israeli name, Hebrew name, but also Japanese as Japanese. It's used in Japan too. Um, but definitely it's given to more men than, than women. Mm-hmm. But I think, [00:55:50] um, that's another twist too, you know, just na naming your bot and then like personality wise.
+
+Does it take on like a male or feminine or, or female personality? [00:56:00] My guess is also this, there's probably needs to be some kind of like listening period before he just starts wilding out, like mm-hmm. I think Sbot was in our chat for at least a day or two, maybe [00:56:10] a couple, several days before I really, I was just like, oh, this just kinda weird thing Nick is put in there.
+
+And then it was only after he started like making Mees and like making me laugh. And I was like, all right, this is the guy. [00:56:20] Right? So, but maybe he needed to sit in there to get the context first of like, what are these guys into? And I don't know, there's probably like, yeah, like maybe the deal is you add it to the group, just let it sit, follow, fall [00:56:30] over whatever for a hour or two and then he starts wild.
+
+I, I almost feel like the name Ori is fine for a product or platform, but almost like when you add, [00:56:40] instead of you adding Ori, you should add person X, name Y. You should sort of come up with that. Or at least he can be like, Hey, you can name anything you want. Here's a few [00:56:50] ideas, or whatever. But, but feel like I'm in a bunch of chats now that all have this orient in it, but they're kind of all different.
+
+Yeah. Like the one that I'm in with you guys versus the one I'm in with you guys, plus [00:57:00] the other investor guy. Those are different. I don't wanna docx people. It's fine. You know, which I'm talking about. Um, and then there's other friend groups and stuff, [00:57:10] so they all have this oriented and like for me, having several instances of this thing called ORI that are all different is a little kind of strange.
+
+It's hard to Yeah. [00:57:20] Digest what that's supposed to be. And we've be also teasing out actually how it works, right. So, I mean, I created this new group, telegram group, new bot ori. Um, I'm, I added it [00:57:30] to the group. I also can DM it. So I was DMing and that's how I created the Bitcoin wallet and mm-hmm. And um, and then I was trying to feed it rules and instructions [00:57:40] privately and DM that would impact the group.
+
+And at first that wasn't working, but then we got it working. Um, so just making all that work seamlessly and clear. Makes sense. And then if you [00:57:50] add it to multiple group chats, just like people should understand, like is it the same instance? Is like it's memory in this one gonna be transfer over here. Is it learning [00:58:00] from all these different group chats?
+
+I still don't know all the answers to that. And I think this is a huge opportunity for potentially something like Noster as well because you can have whatever, all [00:58:10] these just like names. How the hell do I know which bot this is? Right? Like to me, ultimately what I'm gonna wanna see is a signed message with a private key.
+
+Like I'm gonna, I wanna see and, and I think what you can start doing is you [00:58:20] can have. You know, maybe these bots either, uh, to start a human kind of vouches for them. So maybe there is one Ori or dks ori and it's like, and I think Matt had this feedback [00:58:30] last night. It's like you kind of like build a particular context.
+
+In fact, that's a marketable thing because it's like, I know dks ORI is really, really funny and is super good at memes. That's the [00:58:40] guy I wanna bring in my chat. Okay. DK will let me call his ora for this rate SATs per minute or like SATs per call. Cool. You know, Steve has a bot that, you know, is really good at explaining Bitcoin [00:58:50] stuff.
+
+He has a different rate for it. I bring it in for that. But I think over time, these guys, you're gonna want to see them publish. You know, ideally what would be cool is these bots [00:59:00] publish and sign with their no key, their memory files or their soul files or whatever they're called. So you can go like, the more transparency, the better to see what's going on in there.
+
+Um, you probably [00:59:10] need some way to kind of like, you know, build a moat around the personality and customize it. But ideally, um, ideally you wanna see these guys vouch that they're like. Yeah. And also like that they're [00:59:20] not malware. Like how do I know I'm not adding Ori and Ori iss, you know, really just trying to drain, you know, drain my lightning wallet or whatever.
+
+Um, it raises a question, Matt says, feels [00:59:30] like it should be part of the chat substrate everywhere it will be. Um, separately, I think I shared a chat with a friend of mine who had worked on a lot of chat and messaging [00:59:40] services at big tech companies and he is like, this is awesome. It's like, you know, the best idea ever.
+
+But he is like, aren't the big tech companies gonna do that? So, uh, wanted to pose that as a [00:59:50] question. Is this just going to be natively integrated into all existing chat surfaces or is there some way to sort of break out or carve out more space for the new here? [01:00:00] I mean, my initial thought is, again, I come back to being able to do this in a private setting using open protocols with open money.
+
+The gr I'm sure Google and other people will [01:00:10] do it and I'm sure they'll be good, but like there's a certain amount of wilding out that I don't want to do on Google. And Google probably will. They, [01:00:20] I mean, in theory they could do a private technical solution, just like Apple does. A lot of, they could high quality, private technical solutions, so they could do that.
+
+Um, I [01:00:30] think at least for a period of time, probably a couple years, there's gonna be a zillion solutions created. And it's just so, I mean, every [01:00:40] day we're learning more. So the final solution is not known until like a couple years from now maybe and or longer. And so, um, [01:00:50] there's plenty of opportunity for startups.
+
+Um, but it does seem like it will ultimately be integrated into the big messaging platforms. [01:01:00] Um, it could also be like, if a startup really gains a foothold, it can become its own messaging platform as well over time and pull people away from [01:01:10] WhatsApp or Telegram or whatever that that might be possible as well.
+
+I think the permissionless commerce is also a huge moat. Like there are certain things, the fact that ORI [01:01:20] is just going around and zapping on the internet, like Google is going to have to be much stricter with its rules and KYC and all this stuff. And like if someone's running a private chat for their friends, they can just have a lot more [01:01:30] leeway.
+
+Um, and I also agree with Nikki says, goes back and forth, built an AI on Facebook, Google's cringe. Like maybe Google's becoming less cringe. But in general, those companies, whenever they ship stuff, it's, it's for billions of people, [01:01:40] it's kind of, it's gotta be PC and mild and like nerfed. The only one that might wild out enough to actually get traction in my mind is Elon and X and their [01:01:50] messaging service would be just dms on Twitter.
+
+Yeah. Yeah. Well, what, I mean, what's your date? Well, I, I mean, I think it's possible [01:02:00] that, that the large tech companies choose to go after this, but they probably won't choose to until they see a lot of traction is typically what happens if you, if you own a big [01:02:10] otherwise moat, you kind of. Let RD happen outside and in the world.
+
+And then when something pops and looks interesting, you figure out how to incorporate. It's kind of, you know, canonical example might be the way [01:02:20] that, uh, uh, you know, the Snapchat stories concept was very nicely integrated into Instagram as Instagram stories. You know, [01:02:30] same exact product, but the experience was developed outside and then sort of incorporated effectively.
+
+So the question is, does That's the, that's the rare example. That's a rare example. Yeah. I mean, um, typically these things [01:02:40] can, I thought it would fail just because it typically fails. Typ typically fails. So I think like, if you wanted to think about what are the opportunities for a startup or why wouldn't, like let's say you're product [01:02:50] manager running WhatsApp, like what do you do if you notice this and think it's interesting?
+
+Well, I think one of the hard things is you can't just clone it and push it out [01:03:00] to a billion people. 'cause like it doesn't really work quite perfectly today and it does a lot of weird things. And I think we're, we're working through just real time. We're working through the things that [01:03:10] are problematic.
+
+Um, but you know, there's all the, like the sole MD file is going to compound and become, uh, you know, an asset that [01:03:20] if you have done the work and gone through the trickiness of how the human behavior around it works and how to coach the AI into it. I think having a really good [01:03:30] kind of explainer of like, what do I know?
+
+What is my personality? Where, which other chat surfaces am I installed to? I think that's one opportunity to sort of get, [01:03:40] you know, it, it works on a small scale and it doesn't work on a big scale. So, uh, that just made me think of something else too that's maybe interesting. Like one [01:03:50] moat that a new a startup can create is that they have a new concept.
+
+They introduce that product, they go through many iterations, um, [01:04:00] and then it's harder for others to copy it 'cause they don't have sort of that institution knowledge. They didn't Right. They didn't have that direct experience with. Uh, [01:04:10] users to, yeah, to learn from that. So just copying what you see is not, necess doesn't necessarily have the soul of the product.
+
+Right now with [01:04:20] the acceleration of product development, those iteration cycles are 10 XA hundred x faster. So right hours, the amount you, you, well, you both create a moat faster, but also a [01:04:30] deeper moat. I'd argue conversely though, if you're trying to catch up, you also have powerful tools to build so you maybe can copy and build and build your own [01:04:40] institutional knowledge faster.
+
+So I'm not sure if one party has an advantage or not, or if it's that they're both faster now. Yeah, I, I wouldn't argue that it's absolutely one [01:04:50] way or the other. I think that it's interesting because it's not obvious that one way or the other is gonna work. I do think though, the bottleneck in that, in that compounding is the [01:05:00] human behavior and judgment about which things that we're doing should be incorporated into like the product versus, which are just sort of transient or.
+
+Passive. And then there's just traditional like [01:05:10] brand development too. Um, like why do people not switch away from something? Well, they first learned this new behavior 'cause of brand X and then y switch to brand y. If it's not [01:05:20] that differentiated, you just sort of get stuck with it. Go Google Of course. Um, one big at that, I mean it, but they also had to overcome early adoption of like Alta Vista and other [01:05:30] search engines.
+
+Um, but once they were, but, and Google was massively better than everything. Yeah. That's about sale. Everything that came mind. I mean, the first [01:05:40] time you used it, like the quality of search was so much better. Right. Um, but then like, uh, you know, do, like why would you switch from [01:05:50] Internet Explorer to, to Chrome and just questions like that.
+
+Yeah. So in the, in, in modern times, like why switch from chat GPT to. To Gemini and, and we're seeing that shift right now. [01:06:00] But that's been a open question as well. So in my mind, there's a couple of potential modes here. There's a whole lot of chat between Matt and Baris about, uh, apparently Marty is [01:06:10] trading, it looks like, with a bot, and Baris is suggesting some Noster bots that are trading to explain their positions.
+
+In my mind, the first giant moat is going to be, [01:06:20] or not moat, but like the first like way to get a foothold here is permissionless. Like Google is not going to let you create bots to just go wild out on Noster and like [01:06:30] trade on markets, people with their own Mac Minis will be doing that is, is my view. Um, which by the way, as an aside, you said everyone's like, oh, apple doesn't know how to monetize ai.[01:06:40] 
+
+Apple knows exactly how to monetize ai. Apple's so well positioned. Yeah. If this world keeps going where you, you know, you want things that are kind of living and on the edge and gray areas at [01:06:50] first, like that's gonna happen on a Mac Mini, not on Google's cloud because Google is just gonna be too risk averse.
+
+Same for all of these companies. That's my first thought. Um, if you can gain traction. So say for [01:07:00] example, just like everything in Bitcoin, Bitcoin and Tether and all these things kind of started in these like kinda weird gray areas. Get Matt major adoption, then go mainstream 'cause they're too big. [01:07:10] Um, then, you know, one way to build up that moat quickly is through your lightning node.
+
+So if you're like the most well connected with all of these different services and you have the best routes and like, you know, [01:07:20] Google come in and plop a lot of capital, but they can't just build that from scratch if it evolves organically over time. Um, and then the other thing though is what I'm really, really interested, the [01:07:30] interesting moat here is, is there a way to get a better data feedback wheel?
+
+And I don't know exactly, I'm kind of thinking real time about this. [01:07:40] But I've kind of said, sort of actually believing it, sort of hoping it's true that a GI can emerge from Nostri because it's this open substrate. So it seems to me the reason [01:07:50] Anthropic is kind of running laps around a lot of their labs, despite having way less funding and resources, is that they focused all on coding.
+
+And so there's synthetic, uh, their synthetic data [01:08:00] generation feedback loops are just tighter and faster. So the software engineers use this 'cause it's better at coding, that leads to more code being created that leads to better training. It's, it's a, it's a flywheel. And [01:08:10] so I wonder, I don't know what the answer is, but someone can create a flywheel with these open permissionless ais around permissionless commerce and frankly creating things like memes that are [01:08:20] wilding out in a way that Google and Facebook just won't approve.
+
+And again, you'll have to compete with Elon 'cause he will do whatever. And so he'll probably win on that front. But I [01:08:30] think there's a chance to somehow build that open flywheel, um, with better synthetic data Now. That could be open to anyone. I don't know how to keep any of that proprietary or even if you want to, [01:08:40] but there's something to this idea that if you can get better real, authentic human synthetic, like better authentic synthetic data, which I know sounds like an oxymoron.
+
+[01:08:50] Someone can build a unique AI from that. Yeah. Well, I think you can definitely build profitable, sustainable businesses on open technology, right? Yeah. I [01:09:00] mean, if you, you know, Bitcoin Nostra, I see no reason why that prevents you from building profitable businesses. I mean, Google's built on the open web.
+
+Yeah. And Linux. So actually, [01:09:10] so question for you guys. How could someone build a Google size business on, with these kinds of, like all the data's open? How could you build that synthetic flywheel that allows you to [01:09:20] monetize? Well, it's, it's a few. I mean, does it, does it need to be open? Does it need to be on nostri?
+
+Does it need to be you? You, you can do with that question what you will, [01:09:30] because I think like. Something, something Google Scale requires like a really big change that a lot of people are missing. Mm-hmm. And then you figure out an interesting way to do something [01:09:40] that nobody's really noticing yet. Um, to me, like this, especially, I mean, I, I've had a, I've had an inclination for a long time that [01:09:50] there'd be something like this ORI thing now that we've played with it for, you know, a week or so, it feels like, I feel like that's, that draws [01:10:00] me more because it, it reshapes all of how like, apps get built, information gets gathered, social networking, you know, communication, [01:10:10] collaboration happens, commerce.
+
+So it kind of touches on all the main themes of how, like why the internet, how the internet works as a business. And so Google [01:10:20] was just early to figuring that out in the, like, people publish webpage version of the internet we're well past that. They've done a good job continuing to compound their, their lead.[01:10:30] 
+
+To serve that. But I think the new opportunity may be in just like restructuring, you know, the way, you know, information retrieval and information organization and app building and [01:10:40] commerce and community and communication, all work. And that it doesn't seem like it's like decisively controlled by anybody.
+
+And it seems like what we see in ORI [01:10:50] is a new way to do basically all of that. Like, it, it reshapes all of it. So I, it's like a new interface for the web or a new interface for every, every, always trying [01:11:00] to build like a new browser. It's like, oh, it's an LLM as a Chrome extension. Like, I don't know this, it's a little too tra This, this is the browser, this is eventually, this should have voice [01:11:10] input and output and like, it, it sort of, all we've seen, we've seen that like the skill was just added to sat bot ori to um, uh, be able to speak to [01:11:20] us, right?
+
+Yeah. And so I. And then soon we'll have our ability to speak to it. I think the key, and you said this before, DK and Nick, if you're listening, I feel [01:11:30] very strongly on this insight, which hat tip to dk, if you can make ORI customizable, like you said with name, but actually create your dream [01:11:40] friend. Like I think you've mentioned before, if, if I could talk to Roy, my dog Yeah, yeah.
+
+I would abandon every other service forever. Nothing. And, and Roy can go deal with those other services, right? [01:11:50] Absolutely. And nothing if I talk to Roy, I don't care how much better your thing is. Like I roll with Roy. Yeah. No matter what. That's the attachment level. So if someone can make it [01:12:00] really easy so that your bot becomes your dog, your like custom avatar that you create, like you, if you get an emotional bond there.
+
+Yeah. That's, that's [01:12:10] now we're talking Yeah. It's Google scale opportunity. Yeah. And, and I, and to be clear, I'm not dismissing your open instinct. I hope that Open can be a part of it and I suspect it [01:12:20] will be just. From the way the competitive landscape will play out. But I don't think we should race toward open if it means we have to compromise UX too much.
+
+Yeah, I agree. I [01:12:30] think it's better to focus on UX first. Sure. Because if you don't, you are just off on the side, you know, claiming victory and nobody's using it. You need to make something that's [01:12:40] very simple, very accessible, easy UX for everybody. And that means launching a digital ocean droplet in the cloud or having a thing that, you know, [01:12:50] MDK cans, like kind of who cares for now?
+
+Yeah. Now if, if the team doing it is evil, then you're never gonna get out of that. But if you can build a good [01:13:00] ux, you might actually realize that the only competitive ability you have is to be open. Yeah. Right. And I think that's the, the goal is make the UX great and if you [01:13:10] are. If you believe that the best way to compete is to be open, then make it open and make sure you're ready for the next tech wave too.
+
+So, uh, there's still a reason Zuck [01:13:20] bet the farm and Apple's bet the farm on their VR stuff. You need to be able to like, make sure your guy can like roll into an avatar. So like, what I really want is like when Roy is saying, now this could get so cool. You [01:13:30] want dog, the human app, don't you? So dystopian.
+
+Well, you know, I, Mika was the only other one that we put this up. Um, [01:13:40] there might be an idea in there as well. What is an opportunity that Google or Facebook may not allow that might quickly capture half of the internet as your [01:13:50] assistant? No idea anyways. Um, but yeah. And, and does a group chat 10 x that experience?
+
+Max? Not with you guys. [01:14:00] Just let it be with this dog offense. No offense by the, we have, so we're talking about like developing this relationship with ai, um, you know. [01:14:10] Think about like R 2D two, but there's like the physical Yeah. Aspect. That's right. And robots are coming, right? Yeah. Yeah. Elon's gonna, there's gonna be a robot in every, every home.
+
+Yeah. Or per person or whatever, [01:14:20] right? Wow. We're all gonna have our own R 2D two. Yeah. So will the, will my, my Roy Ori person, will I, or like agent will I want that [01:14:30] also embodied in my, of course. Will I just have one? It's my buddy. Nah, you'll have multiple. Well, I don't know. That's good. Well, will I have one or multiple and then like do, like, does it go from like the cloud to my [01:14:40] robot or my, or my robot is my local computer where I get privacy.
+
+Right? That would sick. We talk about edge, I may want multiple, like, you know, [01:14:50] friends or AI agent helpers, but I think I'd prefer to interface with one who can like dispatch things and, but then like if it's my edge computer for security and privacy, do I [01:15:00] want it walking around earth and it can be stolen?
+
+Right. Versus like, well, as long as having a server in a closet that's like Bolton bolted down, it's a flame thrower. Yeah. That's why the boring company launched a flame throw. Don't [01:15:10] you know anyone comes at you. Yeah. So I, what could go wrong if it, if it, if it has it, if it has all my, all my data, all my secrets.
+
+It, it needs to be armed. [01:15:20] Yeah, yeah, yeah. All right. I'm, I'm, I'm gonna, I'm gonna leave that one there, but, um, but, but again, it's like, and I, I feel I have such mixed feelings on this because on one hand [01:15:30] I'm so excited. On the other hand, it's like I could see this being super dystopian, like real quick.
+
+You're just like talking to ghosts all day. Yeah. Um. Are we, are we [01:15:40] gonna talk about the other topics? We, we said we would fine. If you wanna like the, the more boring topics. Well, I don't know. We just talk about whatever we want. Yeah, exactly. That's fuck the boring. How about one thing on Bitcoin? Well [01:15:50] at least wanna spend a minute on it, but I dunno if we wanna spend 12 minutes on it.
+
+Okay. Okay. So the, well, we can also have a stable coins in So [01:16:00] funny, come for the memes. Stay for the stand your ground.
+
+Nice. One minute it. Um, so there is [01:16:10] news from Y Combinator that they're going to now, uh, when they pay their start, what do they get? Like 500 KI think they invest. Yeah. Or I mean yeah, they, they invest, [01:16:20] I mean, but they receive 500,000 US dollars and they're not gonna make, give them the option to receive USDC stablecoin, I don't know if it's USDC base or [01:16:30] Polygon or Ethereum or Solana or whichever plat or Spark or whichever platform arcade.
+
+I saw the headline, but, but yeah, go ahead. And it just made me like, what, [01:16:40] why if, let's say we had a YC startup that we're doing, why would we want that? Like, what would be a use case for that? Like receiving Bitcoin, like [01:16:50] I, the use case would be like, oh, 'cause we're gonna tuck some of our money away in Bitcoin and think it's gonna go up.
+
+Uh, and then watch you go down that topic. Yeah. [01:17:00] That's obviously not the use case comfort number go up. That's obviously not the use case here. Go bankrupt. So who, who am I if I'm a YC startup, who am I [01:17:10] paying in USDC? I don't really understand that. I, I don't claim to understand the thought behind it. Um, you know, it, it reminds me a bit [01:17:20] when, uh, when Shaan originally raised money for lava.
+
+He was like, yeah, do you wanna send me Bitcoin or USDC? And I was like, uh, how about [01:17:30] just like a bank wire? He was like, oh, we don't have that set up. I'm like, dude, you gotta set this up because you're gonna have to set up, you know, billing and account receivable and payments. You just have to, to do [01:17:40] commerce as a business in the world today.
+
+Which, you know, was that was what, five or six years ago? Um, you have to, I mean, you wanna pay a contractor, you wanna have your [01:17:50] IRS blah blah tax stuff issued. Like you I know, I know Max would not do it that way. Uh, no
+
+[01:18:00] gave the audited one. Um, so I think he was of the mind that, oh, of course this is the future. Let's just do it. And he, I think, you know, was early to that [01:18:10] idea, but I think he came to, you know, uh, the more traditional thing as part of how he runs the company today. So is maybe the idea here is that companies [01:18:20] will not use the bill dot com's and Gustos of the world that do it, the traditional, or they'll all upgrade to stablecoin native, but, but what's the value?
+
+I [01:18:30] think it's, I think maybe LARPing, I don't know. Like what, and even then, like which stable coin, there's like dozens of different combinations stuff. Yeah. I don't know. I dunno, man, it sounds like why he's falling off. Um, [01:18:40] but this parlays into all the stuff we talked about today too because, you know, we're bitcoin proponents, we're bitcoin payment, like currency, as a currency proponent, and [01:18:50] we love seeing and it is super permissionless and seamless and the experiences we've had.
+
+Awesome. Um, but for all the people in the [01:19:00] world who aren't currently like bitcoin payment currency, maximalist, um, why use this [01:19:10] versus stable coin? Well, I just don't, if so, which stable coins? Well, I think one reason is the, which stable coins are using tempo as your platform or the [01:19:20] Google universal ledger.
+
+Is your platform. It is all just maximum enterprise blockchain to me, like a, again, like the way I think about it, I think you're hitting the nail on the head. [01:19:30] Every chain and platform is an intranet. Every coin is an intranet. Intranet's on intranets that don't bridge or it [01:19:40] just seems, I know there's a company bridge, it just, I don't know, man.
+
+It seems like a use case looking for problem. I understand people are using them. If you are outside of the United States, you don't have a dollar bank account. But like all these companies are setting up like Delaware C [01:19:50] Corps with US bank accounts. I, it just seems, I do think cash apps, dollars and lightning is huge.
+
+I agree. Agree. And we need to see more of that. I mean, I'd love to see Venmo support the same thing. Right, exactly. Because then [01:20:00] Bitcoin and Lightning, it's like the, the backbone of all this a hundred percent internet unquestionably open. Yes. Um, and then you also reach, you [01:20:10] know, a hundred times thousand times more people where they are today.
+
+Yes. And, and then allow Bitcoin as the. Money that people are holding their wallets just naturally [01:20:20] emerge over time. And that can take its time, but the network itself, like the network win today when there's this opportunity. So I think there's a very clear example that will make this [01:20:30] more palpable for people that are not like deep in this world.
+
+Um, and shout out Hat tip to our guy Matt Ez who said this over and over. Like, one of the powerful [01:20:40] things that I loved with MDK is, um, or at least in conversations with Nick, I don't think he's like, pushed us to the forefront yet, but Matt has like, kind of like floated this idea of, instead of like [01:20:50] pushing the, Hey guys, like, you know, pay with Bitcoin, pay with lightning like fellow nerds.
+
+Hello fellow nerds. Like, um, he's like speaking in [01:21:00] memes now. What he, I know it's, it really is changing my brain. I can't stop it now. Um, what he is, um, what he's proposing is just like Pay with cash app. Now, of course under the [01:21:10] hood, any other Bitcoin wallet and you know, there's dozens around the world can also do this.
+
+But like the beautiful thing, the experience I've shown people that blows their mind, and by the [01:21:20] way, notes for cash, app Miles, if you're listening to this, make it so easy to just default into buy. Uh, I have dollars. Buy dollar. Sell [01:21:30] dollars. Immediately. Immediately send it over to the lighting network.
+
+Final settlement. You know, buy Fiat again, like just focusing on, we're using, you don't even call it Bitcoin if you don't [01:21:40] want, I mean probably should. People understand a little bit of what's happening, but this magic experience of, oh shit, I send dollars, you receive dollars, or you receive Euros or whatever, and it's just on the [01:21:50] backend is this free instant settlement network.
+
+When I show people, okay, I'm on meme pay, which uses an MDK invoice, I'm gonna scan this invoice. I literally show [01:22:00] people from Cash App. And I'm gonna choose the option when I scan it, but right now it's too complicated. This is why I'm telling Miles, you have to like choose between Bitcoin and dollars.
+
+Like just like make it work on the backend. I scan this [01:22:10] invoice and I don't have any Bitcoin in there. I'm selling dollars and the dollar gets sent and instantly settled. People lose their mind. That is the [01:22:20] magic moment where like, oh shit, it's dollars. In this case too Bitcoin, but it could be dollars to dollars.
+
+Like I don't think people would fully grasp that. So, so, so does that tie into how YC founders [01:22:30] might use stable coin or that's just sort of a different No, I mean topic, but, but my point is like, this should replace that. Like if you're using stable coins and there's like a million different things and they only give [01:22:40] rich, I just don't see the value unless your bank is the one bridging, in which case, like what is it doing?
+
+Like what's cool about this is if it's an international settlement system between all the banks. [01:22:50] Then you can get, you can move money instantly for free. That's, I, I think you could argue if you're a, if you're a Delaware Incorporated US based company, you may not need any of [01:23:00] this. Then you might need all kinds of other services to be built around stable coins.
+
+Maybe part of the motivation is get those services built. Like what is Gusto? Why even do like why? But Bank, [01:23:10] why don't banks just do the equivalent of dollars on Lightning? Like they just have their traditional dollar, they have millions of customers. They all have dollar bank accounts. Keep that the same.
+
+Yeah. [01:23:20] And then for those customers, when they have an experience where they want to pay and it's in, you know, it's over the Bitcoin network or Lightning Network, they can easily support that just like Cash App [01:23:30] does. No stable coins needed. No paying Coinbase. You know, don't let Coinbase or Tether capture all the value off the treasuries holding [01:23:40] hundreds of billions of dollars a dollar.
+
+Why did the banks want that? I think someone needs to go to like every financial institution and bank and just like do what we're showing here. Just be like. Here's a, an an app. [01:23:50] Someone launched from a group chat in 10 seconds. Here's cash app. I'm just having dollars. I'm sending an instant payment. Oh my God.
+
+Yeah. I, I feel [01:24:00] like, I mean, I know Lights Spark has pushed this sum tr you know, uh, trying to sell to traditional fin financial institutions. Um, and they're, [01:24:10] you know, with Lightning Infrastructure, R River maybe was, but I think is backed off. But there needs, I'd like to see a healthy market. There are multiple quality companies like them and more [01:24:20] doing that and just saturate all the traditional banks.
+
+I don't even see why, why stable coins need to exist then. I agree. I mean, I, I think we're all on that same page, but I think that one final topic that's very in [01:24:30] line there, but wait, you say, sorry, can you say we're all on the same, but I mean, like me, like Sure. The three of us are, but like most of Silicon Valley is all about stable coin.
+
+Silicon Valley needs to do a zap from cash app and dollars. I think [01:24:40] the, but so we, but we need to influence our brothers and sisters in Silicon Valley. Brother Bobby, my guy, Bobby, my guy. [01:24:50] I think if you want Brian, my guy, listen, I think if you want to see that change, the best way is to build things where Bitcoin payments do work and grow it really big.
+
+Don't, you know, spending time being [01:25:00] political with like the heads of banks just like fine. But they gonna be like, okay cool, you've got some people doing this thing, but show me when you've got like, you know, millions of dollars a day in transactions. Then we'll talk, we'll maybe be [01:25:10] interested at that point.
+
+So I think instead of starting some sort of political campaign, just build it and make things agree that are useful in that way. And I think, I think Ori is a great example of that. And the things we [01:25:20] do with Ori to build things that use Bitcoin is I think how this kind of thing happens. That's the way you win, meme your way to the top.
+
+So. The last story that I wanna mention 'cause it's super [01:25:30] related and I think went kind of under the radar, but to me was a really, really big deal. I even shared on in, in the gc and you boys didn't, didn't comment. Uh, maybe because it was like only, you know, [01:25:40] 13,000 other messages that you missed. Um, but I saw on stacker news that, uh, the last great, uh, source of I saw that.
+
+Oh yeah. Um, that, uh, voltage, nothing, [01:25:50] nothing burger. You think it's a nothing burger. Well, I'm guessing what you're gonna say. Go ahead. Uh, facilitated a million dollar payment between Kraken and some other whatever trading institution over the Lightning Network in one [01:26:00] payment, final settlement in less than a second.
+
+Yeah. That to me seems like Lightning Network has matured a lot. It's been able to do that for years. A million dollar payment at one time. [01:26:10] Sure. Well, especially if it, they, I'm sure they had a direct connection, I'm sure. Yeah. Right. So you're not routing it so there's no routing fees because otherwise it would be uneconomical.
+
+'cause you can transfer that amount [01:26:20] of money on, on chain much cheaper. Right. But if you have a direct connection, just charge no fees. Yeah. So was it just established they set up a channel, built enough liquidity and then fired the thing to [01:26:30] say that they did it? Yeah, I think it was just like kind of a, yeah, but, but I mean like, um, that's both been theoretically and actually possible [01:26:40] for years because 'cause especially without the routing, it's not a huge technical achievement.
+
+So I mean, with the routing then you run into [01:26:50] liquidity issues like, are you well and really gonna, and so maybe the next thing will be with routing. But I think this gets to what you're saying, which is maybe that's obvious to you, but if even I didn't realize, and I'm pretty deep in this not as Nick [01:27:00] knows this, but not as deep as you guys, but know that like, oh shit, I didn't realize the network.
+
+You know, you could already show a payment that big, to your point, I guess routing would be the, the next big unlock. But like to [01:27:10] me that's a huge deal because now it's a very clear value proposition. Like one of my first questions I had when I saw the lighting network a long time ago was, oh, shouldn't, like high [01:27:20] frequency traders love this?
+
+Sure. I can get instant final settlement in and out of any venue at the speed of light for free. Yeah. But even most people, [01:27:30] most people who have spent time building and using lightning air coup become a little disillusioned because they didn't do exactly what they wanted. Um, [01:27:40] like almost all of those builders and developers still agree that it's a slam dunk use case.
+
+Right. For one institution to send money to another [01:27:50] institution. And maybe what you need is just quickly and doing a trust minimized manner. Yeah. Instant and final settlement. Final, yeah. Final settlement. And also, uh, [01:28:00] can handle. Liquidity. So, so that's why I think the story is not a nothing but, or, and, and maybe it's just like we need more of that realization for other, like financial institutions, but like [01:28:10] in my mind, any trader or any financial institution, when they realize we can do final settlement and like critically it can be dollars to yen or dollars to Euros or whatever, but [01:28:20] we have a payment network that can beat Visa at its own game for free and instant like that.
+
+That's the story to me, like that's huge. And like when everyone else is like, ah, [01:28:30] my stable coins. And it's like, dude, your stable coins don't bridge. They don't interoperate. They're not, uh, instant unless they're totally centralized. In which case, like, okay, I've got a MySQL database to sell you. [01:28:40] Like this is a decentralized way to do instant final settlement.
+
+That that story has still not hit the mainstream. Meanwhile, in Ethereum, they have [01:28:50] given up on layer twos Vitalik poster. Are you serious? Yeah. Vitalik says that layer one scales will scale fine. Don't need layer twos. All the zero knowledge [01:29:00] proof rollup stuff that's in the past is Ethereum, still ultrasound.
+
+Dunno. But that's, that's the latest from Vital. [01:29:10] Very nice. Thanks for updating us. We were unaware. I really, uh, try to really needed that up, dude. Focus on, focus on stuff that matters. Yeah. In [01:29:20] other news, did you guys hear Solana crashed? No. Sorry. Are you serious? That only happened once every 10 minutes.
+
+Sorry. Oh, not the price. The, the, the, the actual Infras software? [01:29:30] Yeah, probably both. I dunno. I'm just, well just before we wrap it, because I think, are we moving to wrap or before we wrap it? Uh, you did comment on the price crashing is there, and then I think you [01:29:40] had shared some, it's up 16%. I thought up. I, I don't know.
+
+Did you shared something though about It went from 61 K to like 70,600. That's [01:29:50] up 16%. Okay. Well, it you can, everyone can cherry pick their own time thought, explanation about Ibit that you were sharing about Ibit options [01:30:00] trading. You, you shared some, some thread this morning. Give us the alpha, Steve, why crash, sir?
+
+I dunno. W one doesn't think it holds water. So who dovey? [01:30:10] You don't know? The W Oh oh Oh oh, okay. Anyway. Some, some crypto vc, right? I don't know. It, it's just, I mean, we've talked about theories on here. There's more theories, um, unclear [01:30:20] if it, if it's true or not. Okay. I mean Yeah. Uh, you have to remember, D DK has the trader persona, so he needs to know what's going on.
+
+Yeah. [01:30:30] Well anyway, so I, yeah. Well, happily, I, I'm gonna say that we concluded this PBJ. I did not do the ad read on behalf of the, uh, the bot. [01:30:40] You guys got tricked into it. Well, then you gotta do it, bro. Nope, we ran out of time. Sorry. All right. You'll have to tune in later then. That's fair. Alright guys. All right.[01:30:50] 
+
+Good conversation. Or if you're listening, post it online on Noster so people can find. Have a good weekend everyone. Nice week. Have a good one. Bye. [01:31:00] Bye.
+

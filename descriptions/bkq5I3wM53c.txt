@@ -1,0 +1,14 @@
+Crusoe VP Scott Williams explains why off-grid solar + storage for data centers still hasn’t scaled. The limiting factors aren’t spreadsheets but land, labor, reliability, and the practical realities of siting and building at gigawatt size.
+
+https://www.crusoe.ai/
+
+Timestamps: 
+[00:00:00] Why no off-grid solar+storage (yet)?
+[00:00:30] Crusoe & Redwood Materials build 
+[00:04:10] Scaling blockers: land & data-center siting.
+
+Full video: https://youtu.be/WA-ITXRwoXo
+From the Type I Summit hosted by 📍Presidio Bitcoin
+🌐 More about the Type I Summit: https://type1summit.org/
+
+Learn more: https://presidiobitcoin.com

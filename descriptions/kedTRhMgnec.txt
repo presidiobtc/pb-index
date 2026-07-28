@@ -1,0 +1,10 @@
+On this episode of 21 in 21, Calle discusses his work on Cashu, Bitchat, and Clawi. He explores how AI agents could use bitcoin-native payments and why privacy-preserving infrastructure matters in an increasingly agentic internet. Calle also reflects on his journey down the bitcoin rabbit hole, from early work on Lightning infrastructure to building eCash systems, and shares his perspective on the evolution of AI agents.
+
+FOLLOW:
+https://x.com/callebtc
+https://x.com/HBerkoe
+
+LINKS
+https://clawi.ai/
+https://bitchat.free/
+https://cashu.space/

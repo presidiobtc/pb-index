@@ -1,0 +1,14 @@
+How can Bitcoin prepare for a quantum future? In this panel from the Quantum Bitcoin Summit, we explore how sidechains like Anduro are tackling post-quantum threats without requiring consensus changes on Bitcoin itself.
+
+Moderated by Vikash Singh (Stillmark), featuring:
+Mike Casey, Chief Architect of Anduro and Director of Engineering at MARA Holdings
+Hunter Beast, Protocol Engineer at Anduro and Executive Director at Surmount Systems Foundation
+
+Recorded at the Quantum Bitcoin Summit, hosted by 📍Presidio Bitcoin
+A big thanks to our sponsors: Anduro and Project Eleven! 
+
+🔴 Watch the full Day 2 livestream: https://www.youtube.com/watch?v=feMWrdJnLak&t=1724s
+🌐 More about the Quantum Bitcoin Summit: https://pbquantum.com
+
+🐦 Follow us: https://x.com/PresidioBitcoin
+Learn more: https://presidiobitcoin.com

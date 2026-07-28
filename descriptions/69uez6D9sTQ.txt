@@ -1,0 +1,15 @@
+0:00 - World Cup fallout and opening banter
+5:23 - Goose Development Kit (GDK) week at Presidio Bitcoin
+9:29 - Why Spiral is expanding into AI & how it helps bitcoin
+19:01 - GDK's near-term roadmap and Mesh LLM
+25:52 - Combining open and frontier AI models
+33:20 - Preventing data leaks between AI models
+38:02 - Anthropic's possible window into how AI models think
+42:24 - How Goose connects apps, agents, and models
+47:36 - Subscription pricing versus open agent ecosystems
+54:37 - Can bitcoin support a global naming system? (the data-availability challenge)
+1:03:10 - Who decides which bitcoin name is valid?
+1:11:48 - Merkle batching and the hidden-name problem
+1:21:00 - Can auctions work if the data stays hidden?
+1:29:00 - Applying bitcoin's peer-to-peer model to names
+1:32:53 - Should bitcoin names use its own blockchain?

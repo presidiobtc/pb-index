@@ -1,0 +1,15 @@
+Timestamps: 
+0:00 Penalizing tardiness and the “pot” idea
+2:30 Current vibe coding frustrations & friction
+11:50 Flint announced live on PBJ: why now, what it’s for, and who it’s for
+20:10 Flint (Firewood) showcase: DK's vibe-coded app The Shed - Strava for piano
+27:00 Nostr social graph and open identity as a powerful tool for vibe-coded apps 
+33:50 Discord vs Nostr: tooling gaps, bounties, zaps as signal
+37:20 Another product idea: Version control for vibe-coding & vibe-coding workflow
+40:08 More on the Flint vision: member expectations, community synergy & help, prompt-sharing, IP ownership & business creation
+47:30 Bitcoin, Lightning, Nostr synergy with Flint: search & discover via zaps, working with core devs on feature sets for apps, ideas for Bitcoiners  
+59:40 Six overarching goals for Flint and the “breakout app” north star
+1:02:24 Michael Saylor on What Bitcoin Did - takeaways
+1:05:30 Michael Saylor's core lesson: Meet the world where it is (mandates, bitcoin as collateral, mandates, bridge products) 
+1:14:50 Comparing corporate Bitcoin treasuries & accumulation strategies - is it a competition?
+01:32:10 Forward-looking thesis on labor and capital convergence: electricity, compute markets, & banking the robots

@@ -1,0 +1,39 @@
+In the second installment of Built in the Presidio, we sit down with Presidio Bitcoin members Yash Belavadi (Co-founder & CEO) and Michael Borglin (CPO) of Surge, a team building a trust-minimized, non-custodial way to borrow against Bitcoin.
+
+We start with why Bitcoin lending keeps reverting to opaque custodians and why these models repeatedly blow up, plus why truly Bitcoin-aligned lending has been so difficult to crack. Then we unpack what’s recently changed - technical primitives, market maturity, and institutional tailwinds - along with Surge's unique approach.
+
+Yash and Michael walk through Surge’s high-level architecture, including the role of a distributed custody network, variable vs fixed-rate markets, and what the product feels like for a normal user. We end with the roadmap and core challenges: solving the cold-start liquidity loop while keeping the system verifiable and Bitcoin-native.
+
+Timestamps
+0:00 Why Bitcoin lending keeps breaking
+1:50 Yash & Michael's backgrounds and pivot into Bitcoin lending
+6:30 Why past models failed
+13:00 Why now? (regulatory & institutional momentum) 
+25:35 What Surge is building: roadmap, liquidity bootstrapping, native BTC
+31:00 How it works: user journey & safety
+
+Learn more about Surge: https://www.surge.credit/
+
+Learn more about Presidio Bitcoin: https://www.presidiobitcoin.org/
+
+---
+SOURCE: Presidio Bitcoin Substack — Non-Custodial Bitcoin Lending with Surge
+
+Subtitle: Why Bitcoin lending keeps drifting back to centralization and how new tailwinds can change that.
+
+In our newest episode of Built in the Presidio, we discuss Surge with CEO Yash Belavadi and Chief Product Officer Michael Borglin. The two Presidio Bitcoin members unpack how Surge is solving one of Bitcoin's most stubborn failure modes: custodial lending.
+
+Bitcoin-backed loans are a millenia-old financial idea with a modern upgrade - the use of programmable, verifiable collateral - Bitcoin. Nevertheless, most Bitcoin lending products still require users to hand over their coins to opaque custodians. This has led to a predictable cycle of fast growth during bull markets, followed by large implosions.
+
+In this conversation, Yash and Michael cover how they're building a non-custodial lending product that leverages new technical developments along with strategies for bootstrapping liquidity that don't require centralized shortcuts.
+
+Other topics covered include:
+- Why Bitcoin lending keeps drifting back to centralization and custodians - and why those models keep blowing up
+- Lessons from BlockFi and FTX, and what they changed
+- The legal and regulatory shifts in how non-custodial protocols can operate
+- ETF-based lending and what it means for retail
+- Surge's approach to on-chain risk parameters and distributed custody
+- Surge user product journey
+- Challenges around solving the liquidity cold start in a two-sided marketplace
+
+Surge embodies Presidio Bitcoin's core ethos: Bitcoin isn't just a financial asset, but a technology that enables better, safer, and more open systems and infrastructure.

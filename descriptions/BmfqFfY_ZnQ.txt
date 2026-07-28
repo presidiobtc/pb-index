@@ -1,0 +1,18 @@
+0:00 Orange phones, orange signs, everyone back in SF.
+1:30 Updates from Berlin Conference, experiences around Berlin, experiencing history. 
+8:19 Steve's presentation on Spark at BTC++  
+10:35 Differences and interplay between Ark & Spark & Lightning. 
+14:36 How these technologies can bring more people into Bitcoin and how the tech is advancing. 
+22:57 TLDR: A compelling solution is being developed, and hats off to the Second.Tech team. 
+24:56 What is the takeaway on the state of Lightning and adoption? 
+33:28 Square just enabled Bitcoin on merchant terminals, hopefully normalizing the use of Bitcoin. 
+43:54 Max's trip to orange pill the complexity science group at the Santa Fe Institute. 
+49:13 The importance of the difficulty adjustment to Bitcoin and why there is a Nobel prize hidden within. 
+53:14 Recapping Presidio Bitcoin's first Nostr event! Awesome Nostr GitHub is a great tool to explain the tech! 
+57:48 Audience engagement: How to bring merchants on board to Bitcoin. 
+1:02:42 Takeaways from the Freedom of the Press event in SF. 
+1:07:30 What is Chat Control, and what does it mean for end-to-end encrypted messaging? 
+1:14:30 Updates on the Type1 Summit at Presidio Bitcoin and why we need to build a new grid to meet energy demand. 
+1:23:58 What we hope to emerge from the Summit.
+SHOW NOTES:
+Type1summit.org

@@ -1,0 +1,13 @@
+At Presidio Bitcoin’s Type I Summit, Mike “Shrep” Schroepfer (Gigascale), and Garth Sheldon-Coulson (Panthalassa), discuss building data centers and power systems out at sea: tapping wave energy for cheap, abundant electricity, natural cooling, and rapid scaling without grid constraints. They dig into why the ocean could support 10-15 terawatts of clean power, how AI inference and Bitcoin mining can operate off-grid, and what energy abundance means for the future.
+
+Timestamps: 
+0:00 — Introductions
+06:02 — Why Build at Sea
+11:38 — Cheap Power, Easy Cooling
+16:24 — Training vs. Inference at Sea
+19:47 — How Big Can This Get?
+24:35 — Future of Energy & Energy-Politics: Who Builds the New Power?
+30:31 — Heating Homes With Bitcoin Mining
+
+🎧 From the Type I Summit recorded at 📍Presidio Bitcoin
+🌐 Learn more: https://www.type1summit.org/

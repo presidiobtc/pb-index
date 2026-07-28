@@ -1,0 +1,19 @@
+At Presidio Bitcoin's Quantum Bitcoin Summit, this keynote by Jameson Lopp (Casa) explores the intersection of quantum computing and Bitcoin's ossification. He outlines the case for long-term preparedness, emphasizing that Bitcoin's slow-moving consensus process should keep pace with the fast-appearing CRQC threat.
+
+Lopp walks through quantum scenarios and the dilemmas in trade-offs between Bitcoin’s core values along with questions around quantum vulnerable coins and the philosophical and game-theoretic knots facing key ecosystem stakeholders.
+
+Issues explored:
+– Migration incentives and recovery schemes
+– The block size debate’s return
+– Wealth redistribution from "quantum theft"
+– Soft forks vs. miner-driven enforcement
+– Opt-in security vs. ecosystem-wide volatility
+
+Presented at the Quantum Bitcoin Summit hosted by 📍Presidio Bitcoin
+A big thanks to our sponsors: Project Eleven and Anduro! 
+
+🔴 Watch the Day 1 livestream: https://www.youtube.com/watch?v=GeUdu4hrBPI&t=8272s
+🌐 Learn more about the summit: https://pbquantum.com
+
+🐦 Follow us: https://x.com/PresidioBitcoin
+Learn more: https://presidiobitcoin.org

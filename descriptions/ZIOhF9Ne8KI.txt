@@ -1,0 +1,23 @@
+At Presidio Bitcoin's Quantum Bitcoin Summit Terry Rudolph, a pioneering photonic physicist and co-founder of the world’s largest quantum computing startup, PsiQuantum, joined Sho Sugiura (Blocq) and Matthew Pines (Bitcoin Policy Institute) to assess timelines, architectures, and the future of ECDSA security.
+
+Featuring:
+Terry Rudolph (Co-Founder and Chief Architect, PsiQuantum)
+Sho Sugiura (Co-Founder and CEO, Blocq)
+Matthew Pines (Moderator, Bitcoin Policy Institute)
+
+Topics covered:
+Realistic timelines for cryptographically relevant quantum computers (CRQCs)
+Which hardware paths are still in the race?
+Why ECDSA could fall by 2030.
+Government secrecy vs. public roadmaps: should Bitcoiners trust the commercial timelines?
+What milestones to watch: logical qubits, cryo bottlenecks, and entangled photonic states.
+Philosophical detours 
+
+Presented at the Quantum Bitcoin Summit hosted by 📍Presidio Bitcoin
+A big thanks to our sponsors: Project Eleven and Anduro! 
+
+🔴 Watch the full Day 1 livestream:  https://www.youtube.com/watch?v=GeUdu4hrBPI&t=4021s
+🌐 More from the summit: https://pbquantum.com
+
+🐦 Follow us: https://x.com/PresidioBitcoin
+Learn more: https://presidiobitcoin.org

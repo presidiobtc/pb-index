@@ -1,0 +1,23 @@
+Timestamps:
+0:00 Opening banter, Iowa State, and March Madness stakes
+07:10 Coinbase’s Bitcoin-backed mortgage model
+11:12 Who the Coinbase mortgage product is really for
+20:58 Competitive implications for Bitcoin lending and housing finance
+27:40 De minimis tax policy and the case for Bitcoin payments
+31:27 STRC-backed stablecoins as regional savings products
+37:10 Lexe’s launch and trusted-execution Lightning wallets
+45:10 SDK design, experimentation, and the search for breakout use cases
+52:46 Privacy limits in Base, Spark and stablecoin payments
+01:02:20 Hong Kong’s decryption powers and the erosion of financial privacy
+01:04:50 Stripe, open-source AI, and shifting infrastructure questions
+01:12:52 Spiral’s AI criteria (low-level tools, protocols, and defensibility)
+01:16:08 Peer-to-peer training networks and verifiable model provenance
+01:20:13 Naming systems for agents and online resources
+
+-
+
+SHOW NOTES:
+
+Coinbase Mortgages: https://www.coinbase.com/blog/coinbase-powers-the-first-crypto-backed-conforming-mortgages-by-better
+
+Lexe Launch: https://blog.lexe.app/public-launch/

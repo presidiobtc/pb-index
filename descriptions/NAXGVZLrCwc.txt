@@ -1,0 +1,30 @@
+In this episode, Haley Berkoe chats with Jameson Lopp, longtime bitcoiner, cypherpunk, and Chief Security Officer at Casa, to explore the long-term threats and opportunities facing bitcoin. He discusses his latest bitcoin improvement proposal, how AI can be both a productivity booster and existential risk, and why bitcoin's future hinges on education, sovereignty, and conversation.
+
+CHAPTER HIGHLIGHTS
+00:51 Lopp’s top of minds: ossification, quantum threats, and protocol evolution.
+01:44 An overview of his quantum Bitcoin Improvement Proposal. 
+06:23 How AI is helping with tooling and security, plus Lopp’s caution on the hype. 
+07:59 Writer’s block and Lopp’s creative process.
+11:55 Lopp’s vision of a sovereign future and concerns about paper bitcoin trends.
+15:16 Promoting bitcoin as money without pushing.
+16:42 Lopp shares two controversial ideas: cut off quantum-vulnerable coins and use dynamic block sizes.
+19:20 What gives him hope, the failures of fiat are bitcoin’s best marketing.
+20:17 Don’t buy before you learn. Start with education, then stack.
+21:47 Why discussion is the key to bitcoin’s long-term success.
+
+FOLLOW:
+Jameson Lopp: @lopp, https://x.com/lopp 
+Casa: @CasaHODL, https://x.com/CasaHODL 
+Haley Berkoe: https://x.com/HBerkoe 
+Spiral: @spiralbtc, https://x.com/spiralbtc 
+Presidio Bitcoin: https://x.com/PresidioBitcoin
+
+LINKS: 
+https://www.lopp.net/
+Lopps’ BIP: https://github.com/jlopp/bips/blob/quantum_migration/bip-post-quantum-migration.mediawiki
+Bitcoin Plushie: https://www.uncute.com/collections/everything-else/products/here-comes-bitcoin
+Insights from the Quantum Bitcoin Summit: https://presidiobitcoin.substack.com/p/insights-from-the-quantum-bitcoin
+
+SUBSCRIBE TO THE PODCAST: 
+Spotify: https://open.spotify.com/show/4UPEsVaAbtQsBtvbKt1RPn?si=2e5efe8f58094c2c&nd=1&dlsi=f612e8c16b0a4fde 
+Apple Podcasts: https://podcasts.apple.com/us/podcast/21-in-21/id1804684052

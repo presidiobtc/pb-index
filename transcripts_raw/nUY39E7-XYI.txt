@@ -1,0 +1,43 @@
+[00:00:00] Intro and upcoming events. Alex welcomes attendees to Presidio Bitcoin, introduces Nik Bhatia, and highlights upcoming programming: a bitcoin programming class, a builder event focused on product, UI, and UX, and Presidio Bitcoin Design Week in September.
+
+[00:02:15] Bitcoin spaces and culture. Nik says Presidio Bitcoin is a special space and compares it with other bitcoin community hubs such as The Commons in Austin and PubKey in New York. He describes bitcoin as uniquely capable of creating coworking spaces where entrepreneurs naturally gather around shared monetary and technical interests.
+
+[00:03:50] Book tour. Nik discusses publishing The Bitcoin Age after Layered Money and explains that this is his first real book tour. He prefers Q&A over a prepared talk and invites questions on the Fed, power laws, markets, and money.
+
+[00:05:12] The current Fed's role in markets. Nik says the Fed is mostly irrelevant to his day-to-day market analysis because the interest-rate market continually prices the time value of money across the curve. He watches the 2-year yield closely as a forward indicator of where overnight rates are likely headed over the next one to two years.
+
+[00:07:21] Market drivers and TBL liquidity index. Nik explains that The Bitcoin Layer built a framework around TBL liquidity. He distinguishes liquidity as market depth from liquidity as money around, then focuses on liquidity as "sheet": the asset side of bank balance sheets. His index combines banking-system assets, interest rates, Treasury volatility, and later the dollar, because more sheet, lower rates, lower volatility, and a weaker dollar all tend to mean stronger market liquidity.
+
+[00:12:35] Liquidity and volatility. Nik says lower rates mean higher Treasury prices, while lower volatility makes assets more stable and easier to leverage. He describes a first version of the index as strongly correlated with the S&P 500, then says adding the dollar raised the correlation further. Since April's volatility spike, the collapse in the MOVE index signaled a return of certainty, and stocks and bitcoin rose with that liquidity backdrop.
+
+[00:15:00] Bitcoin treasury companies. Asked about MicroStrategy and other bitcoin treasury companies, Nik answers through the power-law framework: bitcoin is a network, so corporate and sovereign adoption are natural at the right stage of growth. He expects Strategy to keep issuing capital and acquiring bitcoin, possibly reaching a million bitcoin, but he does not try to judge whether MSTR or individual securities in the capital structure are buys.
+
+[00:16:49] Corporate treasury risk. Nik says some treasury companies will succeed and others will botch the financial engineering, potentially creating volatility, forced sellers, or liquidation cascades reminiscent of prior crypto credit blowups. He prefers to watch market behavior and price action rather than underwrite every corporate balance sheet himself.
+
+[00:20:00] STRC, Stretch, and credit structure. Nik is asked about Strategy's instruments such as Stretch and STRC. He says corporate leverage and tranche-level credit analysis are not his specialty, but the market should arbitrage yields if the instruments truly offer attractive risk-adjusted returns. If STRC keeps yielding around 9%, it suggests not enough capital is flowing in to compress the yield.
+
+[00:25:56] Eurodollar system and Bitcoin. Nik explains that banks, not the Fed, create money, and that the Eurodollar system is offshore dollar creation by non-US banks. He says the United States appears to be attacking or taming the Eurodollar system so the network effect of the dollar accrues back home instead of to offshore banks.
+
+[00:29:38] Stablecoins as Eurodollar 2.0. Nik describes stablecoin issuers buying US Treasuries as a new digital-dollar system that can be offshore in usage but still support US Treasury demand. In that sense, stablecoins can function like a new Eurodollar system whose benefits accrue more directly back to the United States and its deficit financing.
+
+[00:31:20] Eurodollar trade settlement. Nik uses the example of BNP Paribas and Barclays settling foreign-exchange trades to show how Eurodollars are created to settle offshore market-making activity. He connects this to the US view that the world has been using dollar settlement and US defense as dual public goods without paying for them.
+
+[00:36:08] Bitcoin as pristine collateral and future milestones. Asked about Ray Dalio's big debt cycle, stablecoins, and bitcoin as pristine collateral, Nik says bitcoin is already the asset rallying the world around a better neutral reserve asset. Gold has a larger market cap, but bitcoin has the momentum. He does not think bitcoin needs to replace the dollar or wait for a once-in-a-century default cycle.
+
+[00:38:42] Debt roll persistence. Nik estimates that roughly $300 trillion of global debt rolls on about a five-year maturity, meaning around $75 trillion must roll each year. He believes the debt roll can persist for a long time, with defaults happening at the margins while bitcoin continues gaining relevance as neutral collateral and settlement infrastructure.
+
+[00:41:23] Rate cuts and the 2-year yield. Nik explains that possible Fed rate cuts are already visible in the 2-year yield. When the 2-year yield trades below the policy rate, cuts are being priced in; when it trades above, hikes are being priced in. The spread and its rate of change tell him more than listening to Fed commentary.
+
+[00:45:27] Bitcoin's power-law growth. Nik defines a power law as a nonlinear relationship between variables and an exponent, observable in nature and city growth. He says bitcoin's price versus time appears to follow a power law with an exponent around six.
+
+[00:47:43] Address growth and price growth. Nik says the power-law insight that broke his brain was that the exponent of six may be a product of two separate power laws: bitcoin address growth as roughly the square of time, and bitcoin price appreciation as roughly the cube of address growth. He says this framework resonates deeply and will likely guide his research for months or years.
+
+[00:50:53] Educating the next generation. Asked what students should learn, Nik says the next generation has to ask the right questions about money, banking, deposits, dollars, currency, credit, cash, and where money comes from. He says many finance students have never been taught to think about what money is.
+
+[00:53:10] Fiat Bitcoin and 6102 risk. Asked about ETFs, treasury companies, 401(k)s, fiat bitcoin, and 6102-style seizure risk, Nik says it cannot be ruled out. He respects precedent but is also optimistic about the First, Fourth, and Fifth Amendments: speech, privacy, and the right not to self-incriminate all matter for Bitcoin.
+
+[00:55:48] The fight for Bitcoin privacy. Nik says privacy in the digital age is slippery and almost nonexistent. Once someone transacts on bitcoin, they open themselves up to analysis. He supports private ways to transact, but is not convinced the government will let people do that without legal fights.
+
+[00:58:20] How Layered Money works with Bitcoin at the base. Nik says the Fed remains a fixture as the shepherd of the currency and credit system, even if its short-rate moves are less useful for his trading analysis. Layered money evolves toward large debts being settled in bitcoin terms, because money is what settles debt.
+
+[01:00:17] Bitcoin as market-chosen tender. Nik closes by saying Bitcoin can become the de facto tender for global debt settlement without legal tender laws, emerging from the market instead. You have a node, you can verify it, and large debts can settle in Bitcoin terms because the market chooses the neutral settlement layer.

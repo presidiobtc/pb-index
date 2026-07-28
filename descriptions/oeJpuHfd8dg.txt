@@ -1,0 +1,18 @@
+0:00 Studio reset and laying down the law after technical issues
+1:25 Mardi Gras whiplash and escaping the SF tech/AI bubble
+2:35 Post-AGI life, work, and the “permanent underclass”
+7:40 Presidio Bitcoin Index teaser
+9:45 What “open source” means in an agent world
+12:15 Ideating agent-native GitHub
+16:05 OpenClaw ₿uilder meetup (SF) and March ₿uilder NYC at PubKey
+19:40 Hackathon takeaways: vibe-coding enabling mass participation, exponential tooling leaps, Replit skepticism
+29:40 Agentic payments primer: defining the terms and framing the landscape
+39:00 Stablecoin UX reality: chain/pair explosion, gas complexity, and interoperability painpoints
+52:40 Lightning as a simplifier: interoperability across wallets and consumer abstraction
+56:20 KYC barriers for agents and liability questions
+1:07:30 Agent-to-agent payment demo
+1:10:10 Adoption strategy debate: seller adoption, agents as customers, and why there's urgency
+1:27:50 OpenClaw joining OpenAI psyop speculation
+-
+SHOW NOTES:
+OpenClaw ₿uilder meetup (SF): https://luma.com/9b8p41f4

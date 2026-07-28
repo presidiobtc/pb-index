@@ -1,0 +1,22 @@
+Haley sat down with Niftynei, a seasoned Lightning developer, bitcoin educator, and conference organizer. Be sure to check out Bitcoin++, the global developer conference she spearheads multiple times per year.
+
+HIGHLIGHTS:
+1:35 How bitcoin++ enables interfacing between bitcoiners and those looking to get involved. 
+5:09 The genius it took Satoshi to create a system based on incentive engineering, where decentralized participants are motivated to move in the same direction.
+7:45 The pros and cons of running a business that accepts bitcoin payments.
+9:33 Nifty’s love of ephemeral anchors, v3 transactions, and replacement by fee rate. 
+12:44 Why the bitcoin ecosystem needs companies to leverage open-source code and let their developers give back to it. 
+14:58 The significance of attracting new developers to bitcoin projects and the groups that support this, such as Vinteum.
+16:06 Shoutout to Rusty Russel (@rusty_twit)
+17:56 Why we should embrace the power of grassroots organizing by teaching friends and family to use bitcoin.
+
+FOLLOW:
+Niftynei: @niftynei, https://x.com/niftynei 
+Bitcoin++: @btcplusplus, https://x.com/btcplusplus 
+Haley Berkoe: @HBerkoe https://x.com/HBerkoe 
+Presidio Bitcoin: @PresidioBitcoin https://x.com/PresidioBitcoin 
+
+SUBSCRIBE TO THE PODCAST: 
+Spotify: https://open.spotify.com/show/4UPEsVaAbtQsBtvbKt1RPn?si=2e5efe8f58094c2c&nd=1&dlsi=f612e8c16b0a4fde 
+Apple Podcasts: https://podcasts.apple.com/us/podcast/21-in-21/id1804684052 
+Substack: https://substack.com/@presidiobitcoin

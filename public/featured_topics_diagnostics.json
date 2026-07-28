@@ -1,0 +1,695 @@
+{
+  "algorithm_version": "featured-now-v2",
+  "generated_at": "2026-07-28T21:06:16Z",
+  "mode": "automatic",
+  "objective": "Select five current developments for which PB has a strong, useful, and representative archive lens.",
+  "source_health": {
+    "attempted_sources": 26,
+    "successful_sources": 24,
+    "failed_sources": 2,
+    "total_priority_sources": 17,
+    "successful_priority_sources": 15,
+    "priority_source_success_ratio": 0.882,
+    "dated_item_count": 310,
+    "sources": [
+      {
+        "name": "Ars Technica",
+        "success": true,
+        "priority": false,
+        "item_count": 20
+      },
+      {
+        "name": "BitMEX Research",
+        "success": true,
+        "priority": true,
+        "item_count": 0
+      },
+      {
+        "name": "Bitcoin Magazine",
+        "success": true,
+        "priority": true,
+        "item_count": 10
+      },
+      {
+        "name": "Bitcoin Optech",
+        "success": true,
+        "priority": true,
+        "item_count": 9
+      },
+      {
+        "name": "Blockworks",
+        "success": true,
+        "priority": true,
+        "item_count": 0
+      },
+      {
+        "name": "Brink",
+        "success": true,
+        "priority": true,
+        "item_count": 1
+      },
+      {
+        "name": "Coin Center",
+        "success": true,
+        "priority": true,
+        "item_count": 2
+      },
+      {
+        "name": "CoinDesk",
+        "success": true,
+        "priority": true,
+        "item_count": 25
+      },
+      {
+        "name": "Decrypt",
+        "success": true,
+        "priority": false,
+        "item_count": 25
+      },
+      {
+        "name": "Delving Bitcoin",
+        "success": true,
+        "priority": true,
+        "item_count": 24
+      },
+      {
+        "name": "Hacker News Front Page",
+        "success": true,
+        "priority": false,
+        "item_count": 20
+      },
+      {
+        "name": "Hacker News Newest",
+        "success": true,
+        "priority": false,
+        "item_count": 20
+      },
+      {
+        "name": "Hugging Face Blog",
+        "success": true,
+        "priority": true,
+        "item_count": 23
+      },
+      {
+        "name": "Hugging Face Papers",
+        "success": true,
+        "priority": true,
+        "item_count": 0
+      },
+      {
+        "name": "IEEE Spectrum",
+        "success": true,
+        "priority": false,
+        "item_count": 25
+      },
+      {
+        "name": "Import AI",
+        "success": true,
+        "priority": true,
+        "item_count": 3
+      },
+      {
+        "name": "InfoQ",
+        "success": true,
+        "priority": false,
+        "item_count": 15
+      },
+      {
+        "name": "LWN",
+        "success": true,
+        "priority": false,
+        "item_count": 15
+      },
+      {
+        "name": "MIT Technology Review",
+        "success": true,
+        "priority": true,
+        "item_count": 10
+      },
+      {
+        "name": "OpenAI Blog",
+        "success": true,
+        "priority": true,
+        "item_count": 20
+      },
+      {
+        "name": "Phoronix",
+        "success": true,
+        "priority": false,
+        "item_count": 25
+      },
+      {
+        "name": "Reuters Crypto",
+        "success": false,
+        "priority": true,
+        "item_count": 0
+      },
+      {
+        "name": "Reuters Technology",
+        "success": false,
+        "priority": true,
+        "item_count": 0
+      },
+      {
+        "name": "The Batch",
+        "success": true,
+        "priority": true,
+        "item_count": 0
+      },
+      {
+        "name": "The Block",
+        "success": true,
+        "priority": true,
+        "item_count": 19
+      },
+      {
+        "name": "The Verge",
+        "success": true,
+        "priority": false,
+        "item_count": 10
+      }
+    ]
+  },
+  "errors": [
+    "Reuters Crypto: HTTP Error 401: HTTP Forbidden",
+    "Reuters Technology: HTTP Error 401: HTTP Forbidden"
+  ],
+  "judge": {
+    "mode": "disabled",
+    "model": null,
+    "error": null
+  },
+  "counts": {
+    "archive_topics": 834,
+    "external_items": 310,
+    "raw_candidates": 8,
+    "qualified_candidates": 5,
+    "selected": 5
+  },
+  "rejection_counts": {
+    "pb_coverage_gate": 694,
+    "no_direct_article_match": 127,
+    "insufficient_independent_evidence": 5,
+    "score_or_alignment_threshold": 3
+  },
+  "notable_rejections": [
+    {
+      "topic": "Open-source AI",
+      "reason": "no_direct_article_match",
+      "pb_strength": 100.0,
+      "pb_episodes": 12,
+      "pb_latest_date": "2026-07-18",
+      "article_matches": []
+    },
+    {
+      "topic": "Open-source models",
+      "reason": "no_direct_article_match",
+      "pb_strength": 100.0,
+      "pb_episodes": 12,
+      "pb_latest_date": "2026-07-18",
+      "article_matches": []
+    },
+    {
+      "topic": "Spiral",
+      "reason": "no_direct_article_match",
+      "pb_strength": 97.81,
+      "pb_episodes": 7,
+      "pb_latest_date": "2026-07-18",
+      "article_matches": []
+    },
+    {
+      "topic": "AI compute efficiency",
+      "reason": "no_direct_article_match",
+      "pb_strength": 97.1,
+      "pb_episodes": 8,
+      "pb_latest_date": "2026-07-18",
+      "article_matches": []
+    },
+    {
+      "topic": "Overbuilding AI compute",
+      "reason": "no_direct_article_match",
+      "pb_strength": 97.1,
+      "pb_episodes": 8,
+      "pb_latest_date": "2026-07-18",
+      "article_matches": []
+    },
+    {
+      "topic": "AI compute markets",
+      "reason": "no_direct_article_match",
+      "pb_strength": 97.1,
+      "pb_episodes": 8,
+      "pb_latest_date": "2026-07-18",
+      "article_matches": []
+    },
+    {
+      "topic": "AI compute constraints",
+      "reason": "no_direct_article_match",
+      "pb_strength": 97.1,
+      "pb_episodes": 8,
+      "pb_latest_date": "2026-07-18",
+      "article_matches": []
+    },
+    {
+      "topic": "Agentic commerce",
+      "reason": "no_direct_article_match",
+      "pb_strength": 92.94,
+      "pb_episodes": 10,
+      "pb_latest_date": "2026-06-13",
+      "article_matches": []
+    },
+    {
+      "topic": "AI agent payments",
+      "reason": "no_direct_article_match",
+      "pb_strength": 92.94,
+      "pb_episodes": 10,
+      "pb_latest_date": "2026-06-13",
+      "article_matches": []
+    },
+    {
+      "topic": "Agentic money",
+      "reason": "no_direct_article_match",
+      "pb_strength": 92.94,
+      "pb_episodes": 10,
+      "pb_latest_date": "2026-06-13",
+      "article_matches": []
+    },
+    {
+      "topic": "Bitcoin merchant adoption",
+      "reason": "no_direct_article_match",
+      "pb_strength": 92.1,
+      "pb_episodes": 15,
+      "pb_latest_date": "2026-05-09",
+      "article_matches": []
+    },
+    {
+      "topic": "Bitcoin merchant education",
+      "reason": "no_direct_article_match",
+      "pb_strength": 92.1,
+      "pb_episodes": 15,
+      "pb_latest_date": "2026-05-09",
+      "article_matches": []
+    },
+    {
+      "topic": "Merchant onboarding",
+      "reason": "no_direct_article_match",
+      "pb_strength": 92.1,
+      "pb_episodes": 15,
+      "pb_latest_date": "2026-05-09",
+      "article_matches": []
+    },
+    {
+      "topic": "Square merchants",
+      "reason": "no_direct_article_match",
+      "pb_strength": 92.1,
+      "pb_episodes": 15,
+      "pb_latest_date": "2026-05-09",
+      "article_matches": []
+    },
+    {
+      "topic": "Bitcoin merchant community",
+      "reason": "no_direct_article_match",
+      "pb_strength": 92.1,
+      "pb_episodes": 15,
+      "pb_latest_date": "2026-05-09",
+      "article_matches": []
+    },
+    {
+      "topic": "Bitcoin merchant association",
+      "reason": "no_direct_article_match",
+      "pb_strength": 92.1,
+      "pb_episodes": 15,
+      "pb_latest_date": "2026-05-09",
+      "article_matches": []
+    },
+    {
+      "topic": "AI privacy",
+      "reason": "no_direct_article_match",
+      "pb_strength": 91.36,
+      "pb_episodes": 7,
+      "pb_latest_date": "2026-07-16",
+      "article_matches": []
+    },
+    {
+      "topic": "Bitcoin-backed loans",
+      "reason": "no_direct_article_match",
+      "pb_strength": 87.79,
+      "pb_episodes": 9,
+      "pb_latest_date": "2026-06-06",
+      "article_matches": []
+    },
+    {
+      "topic": "Non-custodial lending",
+      "reason": "no_direct_article_match",
+      "pb_strength": 87.79,
+      "pb_episodes": 9,
+      "pb_latest_date": "2026-06-06",
+      "article_matches": []
+    },
+    {
+      "topic": "Custodial lending failures",
+      "reason": "no_direct_article_match",
+      "pb_strength": 87.79,
+      "pb_episodes": 9,
+      "pb_latest_date": "2026-06-06",
+      "article_matches": []
+    },
+    {
+      "topic": "ETF-based lending",
+      "reason": "no_direct_article_match",
+      "pb_strength": 87.79,
+      "pb_episodes": 9,
+      "pb_latest_date": "2026-06-06",
+      "article_matches": []
+    },
+    {
+      "topic": "Fixed-rate bitcoin loans",
+      "reason": "no_direct_article_match",
+      "pb_strength": 87.79,
+      "pb_episodes": 9,
+      "pb_latest_date": "2026-06-06",
+      "article_matches": []
+    },
+    {
+      "topic": "Home equity Bitcoin loans",
+      "reason": "no_direct_article_match",
+      "pb_strength": 87.79,
+      "pb_episodes": 9,
+      "pb_latest_date": "2026-06-06",
+      "article_matches": []
+    },
+    {
+      "topic": "Cash App",
+      "reason": "no_direct_article_match",
+      "pb_strength": 86.65,
+      "pb_episodes": 6,
+      "pb_latest_date": "2026-06-06",
+      "article_matches": []
+    },
+    {
+      "topic": "Strategy capital structure",
+      "reason": "no_direct_article_match",
+      "pb_strength": 85.77,
+      "pb_episodes": 5,
+      "pb_latest_date": "2026-07-04",
+      "article_matches": []
+    },
+    {
+      "topic": "Strategy selling bitcoin",
+      "reason": "no_direct_article_match",
+      "pb_strength": 85.77,
+      "pb_episodes": 5,
+      "pb_latest_date": "2026-07-04",
+      "article_matches": []
+    },
+    {
+      "topic": "Strategy blowup risk",
+      "reason": "no_direct_article_match",
+      "pb_strength": 85.77,
+      "pb_episodes": 5,
+      "pb_latest_date": "2026-07-04",
+      "article_matches": []
+    },
+    {
+      "topic": "Bitcoin quantum break glass scenario",
+      "reason": "no_direct_article_match",
+      "pb_strength": 83.59,
+      "pb_episodes": 13,
+      "pb_latest_date": "2026-06-20",
+      "article_matches": []
+    },
+    {
+      "topic": "Post-quantum readiness",
+      "reason": "no_direct_article_match",
+      "pb_strength": 83.59,
+      "pb_episodes": 13,
+      "pb_latest_date": "2026-06-20",
+      "article_matches": []
+    },
+    {
+      "topic": "Quantum-vulnerable coins",
+      "reason": "no_direct_article_match",
+      "pb_strength": 83.59,
+      "pb_episodes": 13,
+      "pb_latest_date": "2026-06-20",
+      "article_matches": []
+    },
+    {
+      "topic": "Quantum threat modeling",
+      "reason": "no_direct_article_match",
+      "pb_strength": 83.59,
+      "pb_episodes": 13,
+      "pb_latest_date": "2026-06-20",
+      "article_matches": []
+    },
+    {
+      "topic": "Quantum transition",
+      "reason": "no_direct_article_match",
+      "pb_strength": 83.59,
+      "pb_episodes": 13,
+      "pb_latest_date": "2026-06-20",
+      "article_matches": []
+    },
+    {
+      "topic": "Quantum readiness coordination",
+      "reason": "no_direct_article_match",
+      "pb_strength": 83.59,
+      "pb_episodes": 13,
+      "pb_latest_date": "2026-06-20",
+      "article_matches": []
+    },
+    {
+      "topic": "Emergency quantum safeguards",
+      "reason": "no_direct_article_match",
+      "pb_strength": 83.59,
+      "pb_episodes": 13,
+      "pb_latest_date": "2026-06-20",
+      "article_matches": []
+    },
+    {
+      "topic": "Quantum exposure",
+      "reason": "no_direct_article_match",
+      "pb_strength": 83.59,
+      "pb_episodes": 13,
+      "pb_latest_date": "2026-06-20",
+      "article_matches": []
+    },
+    {
+      "topic": "Quantum-vulnerable supply",
+      "reason": "no_direct_article_match",
+      "pb_strength": 83.59,
+      "pb_episodes": 13,
+      "pb_latest_date": "2026-06-20",
+      "article_matches": []
+    },
+    {
+      "topic": "Post-quantum signatures",
+      "reason": "no_direct_article_match",
+      "pb_strength": 83.59,
+      "pb_episodes": 13,
+      "pb_latest_date": "2026-06-20",
+      "article_matches": []
+    },
+    {
+      "topic": "Quantum governance risk",
+      "reason": "no_direct_article_match",
+      "pb_strength": 83.59,
+      "pb_episodes": 13,
+      "pb_latest_date": "2026-06-20",
+      "article_matches": []
+    },
+    {
+      "topic": "Quantum fork risk",
+      "reason": "no_direct_article_match",
+      "pb_strength": 83.59,
+      "pb_episodes": 13,
+      "pb_latest_date": "2026-06-20",
+      "article_matches": []
+    },
+    {
+      "topic": "Quantum-vulnerable UTXOs",
+      "reason": "no_direct_article_match",
+      "pb_strength": 83.59,
+      "pb_episodes": 13,
+      "pb_latest_date": "2026-06-20",
+      "article_matches": []
+    }
+  ],
+  "candidates": [
+    {
+      "topic": "Open-source AI models",
+      "selected": true,
+      "family": "open-source-ai",
+      "pillar": "ai-open-source",
+      "eligibility_kind": "core",
+      "final_score": 90.89,
+      "components": {
+        "pb_strength": 100.0,
+        "current_relevance": 73.64,
+        "story_pb_alignment": 92.0,
+        "destination_quality": 100.0
+      },
+      "pb_episodes": 12,
+      "independent_sources": 1,
+      "lead_article": {
+        "title": "Kimi K3 Architecture Overview and Notes",
+        "source": "Hacker News Front Page",
+        "published": "2026-07-28",
+        "url": "https://sebastianraschka.com/blog/2026/kimi-k3-architecture-notes.html"
+      }
+    },
+    {
+      "topic": "AI data centers",
+      "selected": true,
+      "family": "ai-data-centers-and-compute",
+      "pillar": "ai-infrastructure",
+      "eligibility_kind": "core",
+      "final_score": 86.98,
+      "components": {
+        "pb_strength": 97.1,
+        "current_relevance": 65.45,
+        "story_pb_alignment": 91.0,
+        "destination_quality": 100.0
+      },
+      "pb_episodes": 8,
+      "independent_sources": 1,
+      "lead_article": {
+        "title": "Galaxy Digital buys 500 acres in McGregor for second Texas AI data center campus",
+        "source": "The Block",
+        "published": "2026-07-28",
+        "url": "https://www.theblock.co/post/409911/galaxy-digital-buys-500-acres-in-mcgregor-for-second-texas-ai-data-center-campus?utm_source=rss&utm_medium=rss"
+      }
+    },
+    {
+      "topic": "Strategy",
+      "selected": true,
+      "family": "strategy",
+      "pillar": "markets-treasury",
+      "eligibility_kind": "core",
+      "final_score": 82.51,
+      "components": {
+        "pb_strength": 85.77,
+        "current_relevance": 64.55,
+        "story_pb_alignment": 97.0,
+        "destination_quality": 100.0
+      },
+      "pb_episodes": 5,
+      "independent_sources": 1,
+      "lead_article": {
+        "title": "Morning Minute: Strategy Chooses Cash, STRC Over BTC",
+        "source": "Decrypt",
+        "published": "2026-07-28",
+        "url": "https://decrypt.co/374535/morning-minute-strategy-chooses-cash-strc-over-btc"
+      }
+    },
+    {
+      "topic": "Prediction markets",
+      "selected": true,
+      "family": "prediction-markets",
+      "pillar": "other-prediction",
+      "eligibility_kind": "core",
+      "final_score": 82.02,
+      "components": {
+        "pb_strength": 68.53,
+        "current_relevance": 87.27,
+        "story_pb_alignment": 100.0,
+        "destination_quality": 100.0
+      },
+      "pb_episodes": 5,
+      "independent_sources": 4,
+      "lead_article": {
+        "title": "Kalshi, Polymarket win pause against Minnesota's prediction market ban",
+        "source": "CoinDesk",
+        "published": "2026-07-27",
+        "url": "https://www.coindesk.com/policy/2026/07/27/kalshi-polymarket-win-pause-against-minnesota-s-prediction-market-ban"
+      }
+    },
+    {
+      "topic": "Quantum migration",
+      "selected": false,
+      "family": "bitcoin-quantum-readiness",
+      "pillar": "protocol-security",
+      "eligibility_kind": "core",
+      "final_score": 75.71,
+      "components": {
+        "pb_strength": 83.59,
+        "current_relevance": 45.16,
+        "story_pb_alignment": 97.0,
+        "destination_quality": 100.0
+      },
+      "pb_episodes": 13,
+      "independent_sources": 1,
+      "lead_article": {
+        "title": "Post Quantum Recovery Of Hashed Addresses With No Confiscatory Risk",
+        "source": "Delving Bitcoin",
+        "published": "2026-07-14",
+        "url": "https://delvingbitcoin.org/t/post-quantum-recovery-of-hashed-addresses-with-no-confiscatory-risk/2714"
+      }
+    },
+    {
+      "topic": "Local AI models",
+      "selected": true,
+      "family": "local-ai-models",
+      "pillar": "ai-open-source",
+      "eligibility_kind": "core",
+      "final_score": 74.04,
+      "components": {
+        "pb_strength": 66.08,
+        "current_relevance": 67.36,
+        "story_pb_alignment": 94.0,
+        "destination_quality": 100.0
+      },
+      "pb_episodes": 3,
+      "independent_sources": 1,
+      "lead_article": {
+        "title": "LFM2.5-Encoders for Fast Long-Context Inference on CPU",
+        "source": "Hugging Face Blog",
+        "published": "2026-07-28",
+        "url": "https://huggingface.co/blog/LiquidAI/lfm2-5-encoders"
+      }
+    },
+    {
+      "topic": "Model routing",
+      "selected": false,
+      "family": "model-routing",
+      "pillar": "ai-models",
+      "eligibility_kind": "rising",
+      "final_score": 57.75,
+      "components": {
+        "pb_strength": 49.25,
+        "current_relevance": 43.61,
+        "story_pb_alignment": 100.0,
+        "destination_quality": 75.0
+      },
+      "pb_episodes": 2,
+      "independent_sources": 1,
+      "lead_article": {
+        "title": "Model Routing Is Simple. Until It Isn’t.",
+        "source": "Hugging Face Blog",
+        "published": "2026-07-15",
+        "url": "https://huggingface.co/blog/ibm-research/model-routing-is-simple-until-it-isnt"
+      }
+    },
+    {
+      "topic": "Thinking Machines",
+      "selected": false,
+      "family": "thinking-machines",
+      "pillar": "ai-open-source",
+      "eligibility_kind": "rising",
+      "final_score": 45.33,
+      "components": {
+        "pb_strength": 24.44,
+        "current_relevance": 43.61,
+        "story_pb_alignment": 100.0,
+        "destination_quality": 62.5
+      },
+      "pb_episodes": 1,
+      "independent_sources": 1,
+      "lead_article": {
+        "title": "Welcome Inkling by Thinking Machines",
+        "source": "Hugging Face Blog",
+        "published": "2026-07-15",
+        "url": "https://huggingface.co/blog/thinkingmachines-inkling"
+      }
+    }
+  ]
+}

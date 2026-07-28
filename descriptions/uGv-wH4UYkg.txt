@@ -1,0 +1,15 @@
+At June's Builder meetup (https://buildersf.ai/) @0xSero gives a practical talk on local AI - why running models at home matters for cost, privacy, learning, and long-term independence. He covers local hardware options, benchmarks, quantization, model compression, and real-world AI automation demos.
+
+0:00 - An example of local AI doing real work
+0:39 - Why cloud AI keeps getting more expensive 
+4:10 - The best models might disappear 
+6:43 - The case for running AI locally
+11:25 - Choosing the right local AI setup
+14:12 - How to benchmark local models
+22:03 - The best local AI hardware options
+26:18 - Are powerful models becoming weapons?
+29:40 - How model compression actually works
+35:48 - The future of small local models
+
+🌐 Learn more: https://buildersf.ai/
+🌐 Learn more: https://www.presidiobitcoin.org/

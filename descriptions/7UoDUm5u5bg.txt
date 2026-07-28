@@ -1,0 +1,11 @@
+Finalist presentations from the inaugural Presidio Bitcoin Hackathon, where teams built bitcoin, AI, Lightning, Nostr, and open-source prototypes over 24 hours.
+
+Timestamps
+0:00 Intro and judging format
+3:00 Unstuck AI
+10:28 Supersonic
+19:24 Project Darwin
+27:42 Bitcoin High Fives
+36:55 Agentic Fuzzing League
+48:20 Awards
+52:35 Closing remarks

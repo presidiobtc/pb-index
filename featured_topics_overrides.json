@@ -1,0 +1,60 @@
+{
+  "_meta": {
+    "schema_version": 2,
+    "purpose": "Short-lived editorial controls for Featured Now. This file must not contain a frozen replacement list.",
+    "default_behavior": "When pins, blocks, and boosts are empty, publish the policy-ranked selection without editorial modification.",
+    "topic_name_rule": "Use an exact topic name from public/topics_config.js or an exact family id from featured_topics_policy.json.",
+    "time_rule": "All starts_at and expires_at values use RFC 3339 UTC timestamps. Expired controls are ignored.",
+    "audit_rule": "Every control requires a reason and editor. Pins and boosts should normally expire within 14 days; blocks within 30 days.",
+    "safety_rule": "A pin changes selection priority only. It must not embed or freeze an article, score, PB depth, or source count."
+  },
+  "_instructions": {
+    "pins": {
+      "required_fields": [
+        "topic",
+        "starts_at",
+        "expires_at",
+        "reason",
+        "editor"
+      ],
+      "optional_fields": [
+        "position"
+      ],
+      "constraints": {
+        "position_min": 1,
+        "position_max": 5,
+        "max_duration_days": 14
+      }
+    },
+    "blocks": {
+      "required_fields": [
+        "topic_or_family",
+        "starts_at",
+        "expires_at",
+        "reason",
+        "editor"
+      ],
+      "constraints": {
+        "max_duration_days": 30
+      }
+    },
+    "boosts": {
+      "required_fields": [
+        "topic_or_family",
+        "points",
+        "starts_at",
+        "expires_at",
+        "reason",
+        "editor"
+      ],
+      "constraints": {
+        "points_min": -10,
+        "points_max": 10,
+        "max_duration_days": 14
+      }
+    }
+  },
+  "pins": [],
+  "blocks": [],
+  "boosts": []
+}

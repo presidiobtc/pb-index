@@ -1,0 +1,24 @@
+2:06 Gold vs Bitcoin 
+4:50 Vibe coding is becoming increasingly effective, but some believe it will never be sufficient to build a good enough application because access to data and APIs are necessary 
+6:50 Why vibe coding is the catalyst for nostr adoption 
+11:04 How to get started with vibe coding and why it empowers everyone from noobs to experts 
+22:13 People should be livestreaming their vibe coding as much as possible (zero to hero) 
+Vibe coding is a leverage for people to build diverse apps on Nostr  
+24:50 How to treat vibe coding as if you are the senior engineer or product manager, interacting with a junior engineer 
+30:35 Using Replit and an idea for a platform similar to Replit but based on open protocol 
+36:30 Bounties and vibe coding will grow the number of coders of applications built 
+43:00 Max posted a 100,000 satoshi bounty (~$100) 
+46:40 Potential to do more in the game's ecosystem to promote bitcoin adoption 
+55:50 DK’s walking app idea, “Proof of Walk”, activity in the real world translates to energy in a game 
+1:03:32 Another bounty idea to build a custom stream of radio stations on Nostr  
+1:12:00 Phoenix coming back to the US 
+1:20  Bitcoin reached one zeta hash; the weekly average hash rate is trending upward 
+1:26:05 Bitcoin securitization, MicroStrategy, and how capital markets seek access to bitcoin
+1:28:55 The Bitcoin Bond Company  
+1:33:10 The lengthy process of establishing the foundation of Bitcoin’s payment network
+
+FOLLOW: 
+Presidio Bitcoin: https://x.com/presidiobitcoin 
+Steve: https://x.com/moneyball 
+Max: https://x.com/maxawebster 
+DK: https://x.com/dksf

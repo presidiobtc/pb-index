@@ -1,0 +1,29 @@
+*CHAPTER HIGHLIGHTS*
+00:00 Welcome to the Presidio Bitcoin Jam 
+02:12  ₿uilder Meetup #3 Recap
+05:41 Designing better vibe-coding experiences
+08:11 Why agents struggle with Lightning/Nostr integrations, the Lexe SDK example, and the need for machine-ready repos.
+11:49 What it might look like if dev teams built MCP servers and repos specifically for LLMs.
+16:36 Using LLMs for Research & Writing
+20:54 Debate on whether LLMs generate novel ideas or just remix existing ones.
+27:19 Privacy Concerns: The slippery slope of centralized AI assistants, Maple AI’s confidential compute, and open-source tradeoffs.
+42:00 Have LLMs Plateaued? 
+49:34 Nano Banana & Emerging AI Tools - Google’s latest model for consistent characters in media, and what it signals about progress.
+54:22 The Ad-Driven AI Dystopia
+57:57 Building Our Own Bitcoin-Aligned AI Model
+1:01:44 Paying for AI with Bitcoin - Ideas for Goose, NWC integration, and using sats for private LLM queries.
+1:20:02 What is and why Google Cloud Universal Layer (GCUL)?
+1:27:35 Will tech companies usurp banks with stablecoins, blockchains, or ledgers?
+1:35:05 Stablecoin companies will make a ton of money by disrupting the banks, but eventually get to bitcoin.
+
+*FOLLOW:* 
+Presidio Bitcoin: https://x.com/PresidioBitcoin  
+Steve Lee: https://x.com/moneyball 
+Max Webster: https://x.com/MaxAWebster 
+David King: https://x.com/dksf 
+
+*SUBSCRIBE TO THE SHOW:*
+Apple Podcasts: https://podcasts.apple.com/us/podcast/presidio-bitcoin-jam/id1804198027
+Spotify: https://open.spotify.com/show/0N8ZFqAkTwxNmjDXdIo7cT?si=b07f55f8258140cb 
+
+#bitcoin #ai #technology

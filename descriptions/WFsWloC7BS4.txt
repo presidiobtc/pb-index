@@ -1,0 +1,11 @@
+https://x.com/moneyball
+https://x.com/maxawebster
+https://x.com/dksf
+
+00:00 - Quantum Computing and Spiral Wizards
+17:43 - How do new proposals work in bitcoin?
+23:22 - 21 million or 2.1 quadrillion - naming in bitcoin - John Carvalho’s BIP
+49:42 - Is Lightning Dead?
+53:37 - Nostr's metrics, zap/payment stats
+1:08:17 - Lightning Development Opportunities
+1:15:41 - Stablecoins: lightning adoption accelerator or competitor

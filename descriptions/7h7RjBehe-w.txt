@@ -1,0 +1,13 @@
+https://x.com/moneyball
+https://x.com/maxawebster
+https://x.com/dksf
+
+CHAPTERS
+00:00 - Welcome, LA fire, self-custody
+03:26 - Anchorwatch - self-custody augmented with insurance
+12:05 - bitcoin knows the wall-clock time?!?
+14:28 - Anchorwatch solution overview
+28:53 - Miniscript
+37:36 - Who is the customer for Anchorwatch?
+50:18 - Reproducible Builds - is Signal not Reproducible?
+1:08:23 - Stacker News goes non-custodial

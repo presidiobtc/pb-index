@@ -1,0 +1,24 @@
+0:00 Max and Steve talk hoops.
+5:52 The new design and product meetup, ₿uilder, expands!
+12:32 Max orange pilling Silicon Valley: Saylor, Stablecoins, Bitcoin Network.
+16:00 Design week at PB reimagining bitcoin into tech companies.
+21:52 Can using open protocols be the easiest way to vibe code? Unpacking Karpahy's recent talk.
+31:48 Bitcoin node as an MCP server for agent bitcoin payments?
+36:53 Can a weekend project replace some legacy technology platforms?
+38:35 The format of a socratic seminar, such as BitDevs, LitDevs, and ₿uilder.
+49:23 Stratum V2 and mining profitability.
+1:09:02 Block and job latency improvements with Stratum V2
+1:11:05 What is block hijacking?
+1:13:37 How hard is it to select your own block template?
+1:16:03 Native Stratum V2 for Asics and firmware.
+1:18:50 What it would take to make your own Stratum V2 pool.
+1:26:03 Mining dynamics deep dive: miners, pools, fees, FPPS, and block templates.
+
+NOTES:
+Stratum V2: Stratumprotocol.org
+
+FOLLOW:
+Presidio Bitcoin: https://x.com/presidiobitcoin
+Steve: https://x.com/moneyball
+Max: https://x.com/maxawebster
+DK: https://x.com/dksf

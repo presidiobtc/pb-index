@@ -1,0 +1,14 @@
+In the closing panel at Presidio Bitcoin's Quantum Bitcoin Summit, Steve Lee (Spiral, Lead; Presidio Bitcoin, Co-Founder), Clara Shikhelman (Chaincode Labs, Head of Research) and Tadge Dryja (Lightning Network Co-Inventor) explore next steps for each Bitcoin stakeholder group: users, developers, businesses, miners, and investors, in light of quantum risks. 
+
+Topics include: address reuse, burn vs freeze, developer reluctance, wallet UX, roadmap uncertainty, and the value of continued discussion.
+
+The session includes both pragmatic, actionable advice and philosophical debate on how the Bitcoin community can prepare for an uncertain quantum future.
+
+Presented at the Quantum Bitcoin Summit hosted by 📍Presidio Bitcoin
+Another big thanks to our sponsors: Project Eleven and Anduro! 
+
+🔴 Watch the full Day 2 livestream: https://www.youtube.com/watch?v=feMWrdJnLak&t=1724s
+🌐 More about the Quantum Bitcoin Summit: https://pbquantum.com
+
+🐦 Follow us: https://x.com/PresidioBitcoin
+Learn more: https://presidiobitcoin.org

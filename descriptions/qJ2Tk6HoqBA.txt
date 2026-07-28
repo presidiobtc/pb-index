@@ -1,0 +1,17 @@
+0:00 Getting off Twitter, losing passwords, and staying up to date with Stackernews
+4:32 Why we find the Strategy conversation interesting, and we will still cover basketball
+7:13 Can MSTR blow up? Unpacking the claim that Saylor is a new SBF
+13:34 What are the outcomes and probabilities of Bitcoin and MSTR's future
+21:02 How much does bitcoin need to grow to support MSTR's credit products?
+25:00 Is the biggest risk Coinbase and its custodians or esoteric DeFi demand?
+32:19 What's the investment thesis of holding MSTR vs STRC?
+41:44 Finding new products from the synthesis of old concepts
+45:44 Using Proof of Work for hot tubs creates a security issue?
+55:55 Bigger picture and putting into context the security budget for bitcoin
+1:05:27 Is this a design flaw of bitcoin?
+1:11:40 Underlying issue is we don't know what the annual security budget should be.
+1:21:00 What are the attack vectors to Bitcoin from a non-economic actor, like a nation-state?
+
+SHOW NOTES:
+Transaction Fee Paper (2024) 
+https://socialsciences.uchicago.edu/sites/default/files/2024-09/Economic%20Limits%20Crypto%20Blockchains%20-%20QJE%20Sept%202024.pdf

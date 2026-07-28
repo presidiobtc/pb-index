@@ -1,0 +1,20 @@
+0:00: Streaming in any language you want via https://babelagent.xyz/
+10:09 It used to be that if you left your job to study bitcoin. Now it's study vibecoding.
+11:50 PBJ Podcast worth a MILLION dollars?
+16:44 Okay, let's talk about bitcoin
+17:24 Unpacking Bitcoin Core v31
+21:12 Steve's top three highlights from Core v31. Feature 1: Embedded ASMAP
+30:14 DK's security concerns and Anthropic Mythos model
+31:16 Getting to Max's questions and other initiatives around node security
+39:27 Feature 2: private transactions
+47:47 Feature 3: cluster mempool & discussing block rewards vs fee.
+58:22 Okay, what is cluster mempool, how it works, and why this could matter
+1:01:56 Closing out the Bitcoin Core conversation and why it's important
+1:03:22 Project Loupe, AI security scanning, to discover vulnerabilities in projects
+1:13:26 This is important as bitcoin is the biggest honeypot for AI to hack
+1:20:31 Another big release! Updates to LDK Server to ease building and operating an LSP
+1:29:45 Steve's hot takes on the Lightning Network
+
+SNOW NOTES
+https://babelagent.xyz/
+https://bnoc.xyz/

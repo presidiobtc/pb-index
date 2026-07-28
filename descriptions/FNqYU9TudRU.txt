@@ -1,0 +1,14 @@
+In this presentation from Presidio Bitcoin's Quantum Bitcoin Summit, Clara Shikhelman, Head of Research at Chaincode Labs, breaks down the practical implications of quantum computing for Bitcoin’s long-term security model, anchored by her wide circulated co-authored report: https://chaincode.com/bitcoin-post-quantum.pdf. 
+
+This presentation offers one of the clearest and most comprehensive technical walkthroughs of the Bitcoin-quantum intersection, emphasizing both the engineering challenge and the philosophical questions that quantum threats introduce to Bitcoin, covering signatures, mining, migration, and mitigation. 
+
+Check out more of Dr. Shikhelman's Bitcoin-quantum work: https://pq-bitcoin.org/
+
+Presented at the Quantum Bitcoin Summit hosted by 📍Presidio Bitcoin
+A big thanks to our sponsors: Project Eleven and Anduro! 
+
+🔴 Watch the full Day 1 livestream:  https://www.youtube.com/watch?v=GeUdu4hrBPI&t=4021s
+🌐 Learn more about the summit: https://pbquantum.com
+
+🐦 Follow us: https://x.com/PresidioBitcoin
+Learn more: https://presidiobitcoin.com

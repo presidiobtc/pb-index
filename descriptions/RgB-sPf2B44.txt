@@ -1,0 +1,18 @@
+Haley Berkoe met with Shehzan Maredia, the founder and CEO of Lava, a self-custodial solution for borrowing against bitcoin. 
+
+FOLLOW:
+Shehzan Maredia: @MarediaShehzan, https://x.com/MarediaShehzan 
+Lava: @lava_xyz, https://x.com/lava_xyz  
+Haley Berkoe: @HBerkoe, https://x.com/HBerkoe 
+Presidio Bitcoin: @PresidioBitcoin, https://x.com/PresidioBitcoin 
+
+HIGHLIGHTS
+2:16 Before bitcoin can be seen as a spending asset, it needs to be adopted as a savings asset. Right now, bitcoin is in the phase of being adopted as a store of value.
+4:07 Lava addresses the demand from people who hold bitcoin and wish to make purchases without selling their bitcoin.
+5:40 To mitigate the risk of bitcoin failing, we should ensure that Bitcoin Core is a reliable codebase, that enough people are running nodes, address centralization in mining, and provide accessible ways to acquire bitcoin.
+8:55 Reasons for his lack of interest in the strategic bitcoin reserve.
+9:40 Concerns regarding the interaction between stablecoins and bitcoin, and how Lava utilizes stablecoins in a unique way.
+11:10 How individuals with different skill sets can contribute to Bitcoin.
+11:58 Shoutout to Greg Maxwell 
+
+#bitcoin #money #technology #podcast

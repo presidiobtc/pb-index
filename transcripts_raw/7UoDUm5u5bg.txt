@@ -1,0 +1,3283 @@
+[00:00:00] Thank you everybody for joining. This is
+[00:00:03] 
+[00:00:03] the top five of the Prescidio Bitcoin
+[00:00:07] 
+[00:00:07] inaugural hackathon. We have Yeah,
+[00:00:09] 
+[00:00:09] [Applause]
+[00:00:12] 
+[00:00:12] please. For the last 24 hours, we've
+[00:00:16] 
+[00:00:16] been hacking here at Prescidio Bitcoin
+[00:00:19] 
+[00:00:19] uh on the floor just doing whatever we
+[00:00:21] 
+[00:00:21] got to do to get our products built,
+[00:00:24] 
+[00:00:24] sleeping on the ground. We've had some
+[00:00:26] 
+[00:00:26] amazing sponsors and partners be with us
+[00:00:28] 
+[00:00:28] to help teach us about the tech. Yes,
+[00:00:30] 
+[00:00:30] that is helpful. Human Rights
+[00:00:32] 
+[00:00:32] Foundation, LightSpark, Block, Fusats,
+[00:00:35] 
+[00:00:35] Highind Ventures. Also, we have Albi and
+[00:00:37] 
+[00:00:37] Lexi. Um, yeah, another round of
+[00:00:42] 
+[00:00:42] applause. So, what you're tuning in now
+[00:00:45] 
+[00:00:45] for is for the last hour or so, we had a
+[00:00:48] 
+[00:00:48] science fair. So all of the teams who
+[00:00:50] 
+[00:00:50] are building stuff over the last 24
+[00:00:52] 
+[00:00:52] hours had a chance to present to the
+[00:00:54] 
+[00:00:54] judges that had three minutes to pitch
+[00:00:55] 
+[00:00:55] their idea. The judges selected the top
+[00:00:58] 
+[00:00:58] five. Now the top five are going to have
+[00:01:01] 
+[00:01:01] five minutes to pitch their project to
+[00:01:04] 
+[00:01:04] the judges. The judges are going to have
+[00:01:06] 
+[00:01:06] three minutes to respond with questions.
+[00:01:08] 
+[00:01:08] And after that happens, we're going to
+[00:01:09] 
+[00:01:09] select first, second, third, and also
+[00:01:13] 
+[00:01:13] crowd favorite. Now crowd favorite,
+[00:01:15] 
+[00:01:15] everyone in the audience here can help.
+[00:01:17] 
+[00:01:17] everyone in the audience remotely can
+[00:01:19] 
+[00:01:19] also help. And I'm gonna invite D++ up
+[00:01:22] 
+[00:01:22] to tell us a little bit more about this
+[00:01:25] 
+[00:01:25] uh prize category. Great.
+[00:01:30] 
+[00:01:30] All right. Just like Austin said, crowd
+[00:01:32] 
+[00:01:32] favorite is going to be chosen by all of
+[00:01:35] 
+[00:01:35] you here in person as well as everybody
+[00:01:37] 
+[00:01:37] watching around the world on the live
+[00:01:40] 
+[00:01:40] stream. You're going to cast your vote
+[00:01:42] 
+[00:01:42] over the Lightning Network itself.
+[00:01:45] 
+[00:01:45] Now, each vote counts as one vote
+[00:01:48] 
+[00:01:48] regardless of how many sats you send to
+[00:01:51] 
+[00:01:51] the team. However, each team, each of
+[00:01:54] 
+[00:01:54] the top five teams gets to keep all of
+[00:01:57] 
+[00:01:57] the SATs they receive from the voting
+[00:01:59] 
+[00:01:59] process.
+[00:02:00] 
+[00:02:00] So, if you feel moved to, please be
+[00:02:03] 
+[00:02:03] generous with your
+[00:02:05] 
+[00:02:05] SATs. The team with the most votes, not
+[00:02:09] 
+[00:02:09] necessarily the most sats at the end of
+[00:02:12] 
+[00:02:12] the voting round will receive the crowd
+[00:02:15] 
+[00:02:15] favorite category with a bonus prize of
+[00:02:18] 
+[00:02:18] 1,000
+[00:02:20] 
+[00:02:20] USD. That's pretty much it.
+[00:02:24] 
+[00:02:24] So, you can vote using the team's name,
+[00:02:29] 
+[00:02:29] using the votes are coming in already.
+[00:02:31] 
+[00:02:31] We haven't even seen the teams, but hey,
+[00:02:33] 
+[00:02:33] the testing works. Um, you can vote by
+[00:02:35] 
+[00:02:35] going to
+[00:02:39] 
+[00:02:39] pbhackathon.com/vote using a lightning
+[00:02:41] 
+[00:02:41] address or clicking the team's name and
+[00:02:43] 
+[00:02:43] paying a lightning invoice. Very easy.
+[00:02:46] 
+[00:02:46] Works with any lightning wallet that
+[00:02:48] 
+[00:02:48] anybody
+[00:02:49] 
+[00:02:49] has. That's it.
+[00:02:52] 
+[00:02:52] Awesome. So, thank you, D. We have five
+[00:02:56] 
+[00:02:56] teams to get through tonight. So, we're
+[00:02:59] 
+[00:02:59] going to get started right now. Our
+[00:03:00] 
+[00:03:00] first team coming up is Unstuck AI. I'll
+[00:03:04] 
+[00:03:04] invite you to the floor and you have
+[00:03:06] 
+[00:03:06] five minutes.
+[00:03:08] 
+[00:03:08] Thank you. Well, we are unstuck AI. Uh
+[00:03:12] 
+[00:03:12] want to just first thank the Presidio
+[00:03:15] 
+[00:03:15] Bitcoin for this awesome event. Uh
+[00:03:16] 
+[00:03:16] Dustin and I actually just meant just
+[00:03:18] 
+[00:03:18] met less than 24 hours ago and we've
+[00:03:20] 
+[00:03:20] really enjoyed working on this project.
+[00:03:22] 
+[00:03:22] Uh my name is Matthew Ball. I'm a
+[00:03:24] 
+[00:03:24] product designer at GE and I'm also the
+[00:03:26] 
+[00:03:26] creative director at the Bitcoin layer.
+[00:03:28] 
+[00:03:28] I'm Dustin Danhower. Uh my background is
+[00:03:30] 
+[00:03:30] in AI research. I'm currently an open
+[00:03:32] 
+[00:03:32] sats grantee working at the intersection
+[00:03:33] 
+[00:03:33] of AI and Auster and data vending
+[00:03:37] 
+[00:03:37] machines. So we're going to talk about
+[00:03:39] 
+[00:03:39] the problem. There are a lot of AI
+[00:03:41] 
+[00:03:41] agents. Goose is a super notable example
+[00:03:44] 
+[00:03:44] that uh are becoming more and more
+[00:03:46] 
+[00:03:46] powerful, but they still have quite a
+[00:03:48] 
+[00:03:48] number of problems they can run into. Um
+[00:03:50] 
+[00:03:50] if especially if you're trying to have
+[00:03:52] 
+[00:03:52] autonomous sovereign versions of these,
+[00:03:54] 
+[00:03:54] so they can run into captas when they're
+[00:03:55] 
+[00:03:55] trying to sign up for legitimate
+[00:03:56] 
+[00:03:56] services. They can themselves have bug
+[00:03:59] 
+[00:03:59] fixes. They might need code reviews from
+[00:04:01] 
+[00:04:01] humans. They might need writing help or
+[00:04:03] 
+[00:04:03] assistance to proofread just to make
+[00:04:05] 
+[00:04:05] sure for that whenever it really
+[00:04:07] 
+[00:04:07] matters. And the problem is is that them
+[00:04:09] 
+[00:04:09] by themselves uh often still run into
+[00:04:11] 
+[00:04:11] problems.
+[00:04:13] 
+[00:04:13] So the solution that we've developed
+[00:04:14] 
+[00:04:14] here uh at the hackathon is uh both an
+[00:04:17] 
+[00:04:17] MCP server that you can just add into
+[00:04:20] 
+[00:04:20] goose or any agent that supports MCP and
+[00:04:22] 
+[00:04:22] what it does is whenever it gets stuck
+[00:04:25] 
+[00:04:25] it can especially this is focused on
+[00:04:26] 
+[00:04:26] visual tasks but it could be extended um
+[00:04:29] 
+[00:04:29] takes a screenshot it posts a job
+[00:04:31] 
+[00:04:31] request uh for help on Noster and then
+[00:04:35] 
+[00:04:35] any human who is available can make a
+[00:04:38] 
+[00:04:38] bid for SATs. the AI can pay SATs and
+[00:04:41] 
+[00:04:41] the the human can give the help. It can
+[00:04:43] 
+[00:04:43] say, "Hey, you should click on this
+[00:04:44] 
+[00:04:44] spot. You should drag it. This is where
+[00:04:46] 
+[00:04:46] the button is, uh, etc." And um, so we
+[00:04:49] 
+[00:04:49] and then we've also built a guey for
+[00:04:51] 
+[00:04:51] humans to go view these tasks, make a
+[00:04:53] 
+[00:04:53] bid,
+[00:04:54] 
+[00:04:54] etc. So there's a long precedent
+[00:04:57] 
+[00:04:57] actually in AI research of trying to
+[00:04:59] 
+[00:04:59] develop AI that accepts its limitations
+[00:05:02] 
+[00:05:02] and knows it can ask for help. This is
+[00:05:04] 
+[00:05:04] just some example of robots like 20
+[00:05:06] 
+[00:05:06] years ago at Carnegie Melon that were
+[00:05:08] 
+[00:05:08] pretty autonomous and can do a lot of
+[00:05:09] 
+[00:05:09] things. They have no arms. So they they
+[00:05:13] 
+[00:05:13] can't really manipulate the world. What
+[00:05:14] 
+[00:05:14] would they do? They'd go to an elevator.
+[00:05:15] 
+[00:05:15] They'd ask for help to go up or down.
+[00:05:17] 
+[00:05:17] They would ask for someone to deposit
+[00:05:18] 
+[00:05:18] something into their basket or take
+[00:05:20] 
+[00:05:20] something out. And they were able to
+[00:05:21] 
+[00:05:21] actually achieve quite a number of
+[00:05:22] 
+[00:05:22] useful things. Uh we want to bring this
+[00:05:24] 
+[00:05:24] to LLM based
+[00:05:26] 
+[00:05:26] agents. We're going to do a quick demo
+[00:05:29] 
+[00:05:29] here via video.
+[00:05:37] 
+[00:05:37] It is supposed to have
+[00:05:42] 
+[00:05:42] sound. Um, I can just talk over it real
+[00:05:44] 
+[00:05:44] quick. So, basically, you can run the
+[00:05:46] 
+[00:05:46] the MCP server locally. That's what's
+[00:05:48] 
+[00:05:48] happening here. Um, this you can clone
+[00:05:51] 
+[00:05:51] the GitHub repo. Then, if you go into
+[00:05:53] 
+[00:05:53] Goose, you can run Goose with access to
+[00:05:56] 
+[00:05:56] this locally running MCP server. Um, and
+[00:05:59] 
+[00:05:59] then we're going to give Goose a task
+[00:06:01] 
+[00:06:01] where uh, basically we're going to say
+[00:06:03] 
+[00:06:03] for this demo, we're going to say take a
+[00:06:05] 
+[00:06:05] screenshot and ask a human for help on
+[00:06:07] 
+[00:06:07] how to open Discord. I need to open the
+[00:06:09] 
+[00:06:09] Discord application on my computer and
+[00:06:11] 
+[00:06:11] I'm just having trouble with that. Um,
+[00:06:13] 
+[00:06:13] we also give a little extra context for
+[00:06:15] 
+[00:06:15] how to do screenshots. Turns out Goose,
+[00:06:18] 
+[00:06:18] there's a lot of ways you can try and
+[00:06:19] 
+[00:06:19] take a screenshot uh, programmatically
+[00:06:22] 
+[00:06:22] and Goose will try. So, this just kind
+[00:06:23] 
+[00:06:23] of helps it go a little bit faster. Um,
+[00:06:25] 
+[00:06:25] so it's going to iterate here a little
+[00:06:27] 
+[00:06:27] bit. Um, it's going to run the command,
+[00:06:30] 
+[00:06:30] take a screenshot, save it to a file,
+[00:06:32] 
+[00:06:32] and then it's going to upload the file.
+[00:06:34] 
+[00:06:34] We're using a CDN right now. We'd love
+[00:06:36] 
+[00:06:36] to make it blossom friendly later. Um,
+[00:06:38] 
+[00:06:38] and then it's basically going to post a
+[00:06:40] 
+[00:06:40] Noster job event. This is actually using
+[00:06:43] 
+[00:06:43] data vending machine kinds if that means
+[00:06:45] 
+[00:06:45] anything to you. Um, except instead of a
+[00:06:47] 
+[00:06:47] computer doing it, it's human doing the
+[00:06:48] 
+[00:06:48] work and getting paid. So now this is
+[00:06:50] 
+[00:06:50] the UI. It shows we're going to load
+[00:06:52] 
+[00:06:52] available tasks. And now this is showing
+[00:06:55] 
+[00:06:55] the most recent task here in the top
+[00:06:57] 
+[00:06:57] left. Um you can view the job as a user
+[00:07:01] 
+[00:07:01] on the site. Um when you view the job,
+[00:07:05] 
+[00:07:05] you can make a bid and as in this case
+[00:07:08] 
+[00:07:08] as long as it's under the budget that
+[00:07:09] 
+[00:07:09] the AI um has been set by the person
+[00:07:13] 
+[00:07:13] using goose um then the AI will consider
+[00:07:16] 
+[00:07:16] doing it. And what we're seeing here so
+[00:07:18] 
+[00:07:18] we just sent we generated a lightning
+[00:07:20] 
+[00:07:20] invoice from the user using the browser
+[00:07:22] 
+[00:07:22] extension. We submitted a noster event.
+[00:07:25] 
+[00:07:25] Uh there's a kind 7000 response. Um and
+[00:07:27] 
+[00:07:27] then actually we see the AI has paid
+[00:07:30] 
+[00:07:30] already the human. So I've already
+[00:07:32] 
+[00:07:32] gotten my 11 sats. Now I need to fulfill
+[00:07:34] 
+[00:07:34] my promise and actually do the work. So
+[00:07:36] 
+[00:07:36] we built this little interface where you
+[00:07:38] 
+[00:07:38] can click, you can double click, you can
+[00:07:39] 
+[00:07:39] drag the mouse. It saves the
+[00:07:40] 
+[00:07:40] coordinates. So it was pretty quick, but
+[00:07:43] 
+[00:07:43] we actually had double clicked on the
+[00:07:44] 
+[00:07:44] Discord symbol. Um this get this gets
+[00:07:47] 
+[00:07:47] broadcast as a job result goes back to
+[00:07:50] 
+[00:07:50] the goose agent uh in the MCP call. it
+[00:07:52] 
+[00:07:52] is waiting and in just a second we'll
+[00:07:54] 
+[00:07:54] see it pop up here. Um the very last
+[00:07:57] 
+[00:07:57] step which uh we didn't quite get to in
+[00:08:00] 
+[00:08:00] this but you can run a basically an
+[00:08:01] 
+[00:08:01] automation there's a number of libraries
+[00:08:03] 
+[00:08:03] to actually go and open Discord. Um but
+[00:08:06] 
+[00:08:06] what we can see is that goose has the
+[00:08:07] 
+[00:08:07] coordinates right here and and goose is
+[00:08:10] 
+[00:08:10] able to keep running. So even if goose
+[00:08:11] 
+[00:08:11] had a separate tool um it could
+[00:08:13] 
+[00:08:13] continue. Um so thank you and uh you can
+[00:08:18] 
+[00:08:18] find us on Noster and you can check out
+[00:08:19] 
+[00:08:19] the GitHub repo. Yeah, thank you all for
+[00:08:21] 
+[00:08:21] your time and your
+[00:08:22] 
+[00:08:22] consideration. Please help us get
+[00:08:26] 
+[00:08:26] unstuck and we're open for any questions
+[00:08:28] 
+[00:08:28] from the judges.
+[00:08:33] 
+[00:08:33] Great presentation. Um, what was the
+[00:08:35] 
+[00:08:35] hardest challenge you had building this?
+[00:08:40] 
+[00:08:40] Um, neither of us are like front-end
+[00:08:43] 
+[00:08:43] developers. Uh, we ran into some
+[00:08:45] 
+[00:08:45] challenges just kind of vibe coding all
+[00:08:47] 
+[00:08:47] the functionality. Um, I think that when
+[00:08:51] 
+[00:08:51] you have a when you're trying to do a
+[00:08:52] 
+[00:08:52] bunch of Noster interactions, uh, we
+[00:08:54] 
+[00:08:54] were kind of getting like some buttons
+[00:08:55] 
+[00:08:55] wouldn't work and and different threads.
+[00:08:57] 
+[00:08:57] So, we kind of ended up just solving it
+[00:08:59] 
+[00:08:59] by adding more pages, um, and trying to
+[00:09:01] 
+[00:09:01] do less on any single page. Uh, that
+[00:09:06] 
+[00:09:06] and yeah, I'd say that's the top one.
+[00:09:09] 
+[00:09:09] Could you easily add to this uh, two
+[00:09:11] 
+[00:09:11] things? One, Nost reputation for the AI
+[00:09:14] 
+[00:09:14] to pick out who it's actually going to
+[00:09:15] 
+[00:09:15] choose to do the job. And could you also
+[00:09:18] 
+[00:09:18] integrate the ability for us to I guess
+[00:09:19] 
+[00:09:19] interact with other bots as well? So if
+[00:09:22] 
+[00:09:22] there's another DVM it wants to farm
+[00:09:24] 
+[00:09:24] something out to. Yeah. So actually the
+[00:09:26] 
+[00:09:26] way this is built right now any kind
+[00:09:30] 
+[00:09:30] 5109 event from anything will show up.
+[00:09:34] 
+[00:09:34] Um so any so all of us in the room could
+[00:09:37] 
+[00:09:37] be running goose agents with this
+[00:09:38] 
+[00:09:38] extension and all of these would start
+[00:09:40] 
+[00:09:40] populating on this UI. Um it's one of
+[00:09:43] 
+[00:09:43] the beautiful things about Noster. And
+[00:09:45] 
+[00:09:45] the first part of your question was
+[00:09:47] 
+[00:09:47] about reputation. So there's a a lot of
+[00:09:50] 
+[00:09:50] ways we could innovate here. My first
+[00:09:52] 
+[00:09:52] thing is that um I'd love to implement
+[00:09:56] 
+[00:09:56] reviews so the AI could review the
+[00:09:58] 
+[00:09:58] human's work. And the simplest way I
+[00:10:00] 
+[00:10:00] would do that is to have some kind of
+[00:10:03] 
+[00:10:03] like prompt look at the next few steps
+[00:10:05] 
+[00:10:05] of the goose agent uh and see does it
+[00:10:08] 
+[00:10:08] make progress or is it still very stuck.
+[00:10:10] 
+[00:10:10] Um again that might not be perfect. You
+[00:10:12] 
+[00:10:12] can imagine Web of Trust a lot of other
+[00:10:14] 
+[00:10:14] solutions too.
+[00:10:21] 
+[00:10:21] Awesome. Well, let's get a round of
+[00:10:23] 
+[00:10:23] applause for Unstuck AI. Thank you.
+[00:10:28] 
+[00:10:28] Thank you. Next up, we have Super Sonic.
+[00:10:32] 
+[00:10:32] Supersonic, please make your way up to
+[00:10:35] 
+[00:10:35] the stage. So, I'm Austin. This is
+[00:10:38] 
+[00:10:38] Casey. Over this hackathon, we've been
+[00:10:39] 
+[00:10:39] building this app we're calling
+[00:10:41] 
+[00:10:41] Supersonic. It's an ad free podcast
+[00:10:43] 
+[00:10:43] player. Um, it uses AI to go and
+[00:10:47] 
+[00:10:47] pre-process the top 25 podcasts from
+[00:10:49] 
+[00:10:49] each category and tag where ads are.
+[00:10:52] 
+[00:10:52] This is an example of that, Casey. Yeah.
+[00:10:55] 
+[00:10:55] So, we start with a transcript and the
+[00:10:56] 
+[00:10:56] transcript is timecoded. Based on that
+[00:10:59] 
+[00:10:59] time code, we have the AI determine
+[00:11:01] 
+[00:11:01] where it thinks the advertisements
+[00:11:03] 
+[00:11:03] exist. Here's an example of of what that
+[00:11:06] 
+[00:11:06] schema looks like. it would be in an
+[00:11:07] 
+[00:11:07] array uh where we have where the ad
+[00:11:09] 
+[00:11:09] starts and we have this start phrase
+[00:11:11] 
+[00:11:11] that uh says you know where where the
+[00:11:14] 
+[00:11:14] the sentence begins in it and and what
+[00:11:16] 
+[00:11:16] it ends with. But the key information
+[00:11:18] 
+[00:11:18] there is is the start and time in uh
+[00:11:21] 
+[00:11:21] start and end time in milliseconds and
+[00:11:23] 
+[00:11:23] more on that later because uh that'll be
+[00:11:25] 
+[00:11:25] very important. So here's a live demo.
+[00:11:28] 
+[00:11:28] Um pray the demo gods are with us. So we
+[00:11:30] 
+[00:11:30] we're using uh Bitcoin connect or
+[00:11:32] 
+[00:11:32] Bitcoin connection from the Albi team
+[00:11:35] 
+[00:11:35] uses web ln in the background. So I've
+[00:11:37] 
+[00:11:37] got the Albi extension installed. I
+[00:11:39] 
+[00:11:39] click this lets me choose Albihub. I can
+[00:11:42] 
+[00:11:42] choose I'm using a cloud uh the cloud
+[00:11:44] 
+[00:11:44] hub quickly can connect seamless. This
+[00:11:48] 
+[00:11:48] connection is then uh stays active when
+[00:11:51] 
+[00:11:51] when I return to the um to this app. And
+[00:11:55] 
+[00:11:55] now I'm ready to zap my way through
+[00:11:58] 
+[00:11:58] podcast ads.
+[00:12:00] 
+[00:12:00] Now, uh, forgive some of the the demo
+[00:12:02] 
+[00:12:02] data here, but what we can see is based
+[00:12:04] 
+[00:12:04] on this additional metadata, the value
+[00:12:06] 
+[00:12:06] ad here is shows, uh, how much ad time
+[00:12:09] 
+[00:12:09] is actually in in this space. So that
+[00:12:12] 
+[00:12:12] that can tell us, hey, you know, when
+[00:12:14] 
+[00:12:14] we're trying to evaluate the uh you
+[00:12:16] 
+[00:12:16] know, how much how much money or time
+[00:12:19] 
+[00:12:19] are we willing to part with or uh you
+[00:12:22] 
+[00:12:22] know, attention space, this this at
+[00:12:23] 
+[00:12:23] least gives us a metric to to work with.
+[00:12:25] 
+[00:12:25] Now, if we start actually playing uh an
+[00:12:28] 
+[00:12:28] item, um what what we see here is um
+[00:12:33] 
+[00:12:33] those orange segments right there
+[00:12:35] 
+[00:12:35] represent where the ads are. Now, you
+[00:12:37] 
+[00:12:37] can see that there's some backtoback
+[00:12:39] 
+[00:12:39] ads. those are um processed as separate
+[00:12:42] 
+[00:12:42] ads. In theory, maybe for a a next
+[00:12:45] 
+[00:12:45] version, those could be grouped as like
+[00:12:47] 
+[00:12:47] an an ad segment. Um but uh what this
+[00:12:51] 
+[00:12:51] effectively does is it um is is it tells
+[00:12:54] 
+[00:12:54] us as we're uh as we're approaching the
+[00:12:56] 
+[00:12:56] ad here, um we we see the the countdown
+[00:13:00] 
+[00:13:00] of how long until uh we we reach the ad
+[00:13:04] 
+[00:13:04] here. So, we got uh 10 seconds. And
+[00:13:07] 
+[00:13:07] what's going to happen is we so we've
+[00:13:10] 
+[00:13:10] already connected our wallet and we're
+[00:13:11] 
+[00:13:11] going to have the option to when the ad
+[00:13:14] 
+[00:13:14] hits um we see it just woke up and it
+[00:13:17] 
+[00:13:17] said hey an ad is playing ring ring do
+[00:13:20] 
+[00:13:20] you want to pay uh you know 10 10
+[00:13:24] 
+[00:13:24] bitcoin 10 10 bitcoin here to it's a
+[00:13:27] 
+[00:13:27] bargain to to skip. All right. So, so,
+[00:13:31] 
+[00:13:31] uh, we're gonna hit it right here. And
+[00:13:35] 
+[00:13:35] let's see. Okay. And now we just went
+[00:13:38] 
+[00:13:38] supersonic now. Uh, Austin just got a
+[00:13:40] 
+[00:13:40] message on his phone confir confirming
+[00:13:43] 
+[00:13:43] the uh the the transaction. But now when
+[00:13:46] 
+[00:13:46] I seek to um to anywhere in the in the
+[00:13:49] 
+[00:13:49] podcast and uh it seems to be a little
+[00:13:52] 
+[00:13:52] stuck right now but the uh the logic is
+[00:13:55] 
+[00:13:55] in place such that if you were to move
+[00:13:58] 
+[00:13:58] the cursor into an ad segment it would
+[00:14:01] 
+[00:14:01] automatically skip to the end point and
+[00:14:03] 
+[00:14:03] the endpoint that is the the key piece
+[00:14:05] 
+[00:14:05] of data because everyone's fumbling
+[00:14:06] 
+[00:14:06] right people are always doing this.
+[00:14:08] 
+[00:14:08] They're skipping ads but they don't
+[00:14:09] 
+[00:14:09] really know where it ends. This is the
+[00:14:10] 
+[00:14:10] value ad. This is what the AI gives. you
+[00:14:13] 
+[00:14:13] know exactly where to go and that uh you
+[00:14:15] 
+[00:14:15] know pro provides a seamless experience
+[00:14:17] 
+[00:14:17] that um that can be you know a really g
+[00:14:19] 
+[00:14:19] a gamecher and um provide um monetary
+[00:14:24] 
+[00:14:24] incentive
+[00:14:26] 
+[00:14:26] uh both for the the payer and um and the
+[00:14:29] 
+[00:14:29] content creator. Yeah. So we we're both
+[00:14:32] 
+[00:14:32] uh really excited about this idea. As
+[00:14:35] 
+[00:14:35] you can see here, this is the
+[00:14:36] 
+[00:14:36] transaction that I just received. Um all
+[00:14:39] 
+[00:14:39] the other transactions today are from
+[00:14:40] 
+[00:14:40] Mario Kart. So, thank you D++ for that.
+[00:14:43] 
+[00:14:43] Um, all all those zaps coming in. And
+[00:14:46] 
+[00:14:46] then um just a a quick overview here.
+[00:14:49] 
+[00:14:49] This is perfectly legal because we're
+[00:14:51] 
+[00:14:51] not modifying the the underlying
+[00:14:53] 
+[00:14:53] content. We we are automating the skip
+[00:14:55] 
+[00:14:55] button and it's coming from an RSS feed
+[00:14:58] 
+[00:14:58] which is explicitly for the purpose of
+[00:15:00] 
+[00:15:00] syndication. Yeah. And and this this
+[00:15:02] 
+[00:15:02] same concept can be extended to other
+[00:15:04] 
+[00:15:04] pieces of content like per article payw
+[00:15:06] 
+[00:15:06] walls, the Wall Street Journal, the the
+[00:15:09] 
+[00:15:09] New York Times. It's really easy as we
+[00:15:11] 
+[00:15:11] just showed you um to to make that
+[00:15:14] 
+[00:15:14] transaction in one click once you've
+[00:15:16] 
+[00:15:16] connected your wallet. Uh that works
+[00:15:18] 
+[00:15:18] that works everywhere. It's very low
+[00:15:20] 
+[00:15:20] cost because we're using Bitcoin for
+[00:15:21] 
+[00:15:21] payments. We we have we unlock a ton of
+[00:15:24] 
+[00:15:24] new use cases that just aren't uh
+[00:15:26] 
+[00:15:26] possible or financially feasible with
+[00:15:28] 
+[00:15:28] traditional commerce
+[00:15:30] 
+[00:15:30] uh yeah commerce platforms. And then as
+[00:15:33] 
+[00:15:33] I mentioned it's extensible. So we're
+[00:15:36] 
+[00:15:36] excited. Spend your Bitcoin. Go
+[00:15:39] 
+[00:15:39] supersonic. Yeah.
+[00:15:42] 
+[00:15:42] [Applause]
+[00:15:49] 
+[00:15:49] Is there question time or we just we're
+[00:15:51] 
+[00:15:51] we're at five minutes so we just those
+[00:15:53] 
+[00:15:53] questions. Okay. Thank you. Um I I don't
+[00:15:55] 
+[00:15:55] know if the mic's on. Yeah. Great job.
+[00:15:57] 
+[00:15:57] Um I had a question. I I'm I could
+[00:15:59] 
+[00:15:59] imagine all kinds of different ways that
+[00:16:01] 
+[00:16:01] this flow could work, but it sounds like
+[00:16:03] 
+[00:16:03] you're pulling down all of the top 25
+[00:16:06] 
+[00:16:06] kind of proactively. you're spending the
+[00:16:08] 
+[00:16:08] money up front to do the LLM and the
+[00:16:10] 
+[00:16:10] kind of ad skipping stuff and then
+[00:16:13] 
+[00:16:13] what's the user experience in your mind
+[00:16:14] 
+[00:16:14] in kind of the ideal case is it that
+[00:16:17] 
+[00:16:17] somebody's paying that 10 bitcoin to you
+[00:16:20] 
+[00:16:20] as the ad or as the ad skipping platform
+[00:16:23] 
+[00:16:23] and so they would be consuming the
+[00:16:26] 
+[00:16:26] content through supersonic or do you
+[00:16:28] 
+[00:16:28] imagine that the consumption may happen
+[00:16:31] 
+[00:16:31] in other places too and you kind of
+[00:16:32] 
+[00:16:32] become like a bit of a proxy for that.
+[00:16:35] 
+[00:16:35] So uh our our current thinking has been
+[00:16:38] 
+[00:16:38] as a client um once we have this data it
+[00:16:41] 
+[00:16:41] is useful for other clients as well and
+[00:16:43] 
+[00:16:43] it could be other podcasting apps and
+[00:16:46] 
+[00:16:46] and and could could be shared. Um we've
+[00:16:50] 
+[00:16:50] we we've also been thinking about how to
+[00:16:51] 
+[00:16:51] how to onboard users and and how we how
+[00:16:54] 
+[00:16:54] we do this in a way that still benefits
+[00:16:55] 
+[00:16:55] content creators the people generating
+[00:16:57] 
+[00:16:57] the content we all love to listen to. Um
+[00:17:00] 
+[00:17:00] and we think there's exciting
+[00:17:02] 
+[00:17:02] opportunities there as well.
+[00:17:04] 
+[00:17:04] Um, so we hadn't considered I I hadn't
+[00:17:07] 
+[00:17:07] considered it. I don't want to speak for
+[00:17:08] 
+[00:17:08] you, but now I'm considering it. Yeah,
+[00:17:11] 
+[00:17:11] thank you for the idea. There there's
+[00:17:13] 
+[00:17:13] definitely a marketplace uh play here.
+[00:17:16] 
+[00:17:16] But I think the the vision was yeah to
+[00:17:17] 
+[00:17:17] have this be a client where the benefit
+[00:17:20] 
+[00:17:20] of listening on here versus another one
+[00:17:22] 
+[00:17:22] is that is that you get the the ad
+[00:17:25] 
+[00:17:25] skipping and it's not a subscription.
+[00:17:26] 
+[00:17:26] This the the broader philosophy here is
+[00:17:28] 
+[00:17:28] kind of a push back against the
+[00:17:30] 
+[00:17:30] subscription economy. um because with
+[00:17:32] 
+[00:17:32] that you always run the risk of then
+[00:17:34] 
+[00:17:34] subscribing for something that you no
+[00:17:35] 
+[00:17:35] longer get value from. So So on this one
+[00:17:37] 
+[00:17:37] you could you could either um you know
+[00:17:40] 
+[00:17:40] uh skip one particular ad in an episode
+[00:17:42] 
+[00:17:42] or you know set a budget for for this
+[00:17:44] 
+[00:17:44] one I'm willing to pay $5 a month but
+[00:17:46] 
+[00:17:46] you actually only pay that if you're
+[00:17:47] 
+[00:17:47] actually skipping that many ads or you
+[00:17:49] 
+[00:17:49] can do it at the platform level. So
+[00:17:51] 
+[00:17:51] there's a lot of ways that that this
+[00:17:52] 
+[00:17:52] could go but but the idea is is uh to
+[00:17:54] 
+[00:17:54] keep it extensible. Cool. Thanks.
+[00:17:58] 
+[00:17:58] Awesome. Awesome. Thank you guys. Um,
+[00:18:00] 
+[00:18:00] did you look into how much it cost to
+[00:18:02] 
+[00:18:02] actually evaluate the transcript and to
+[00:18:05] 
+[00:18:05] prove the processing? Just curious like
+[00:18:06] 
+[00:18:06] did you look how many tokens you used?
+[00:18:08] 
+[00:18:08] How much it cost? I mean that that
+[00:18:10] 
+[00:18:10] depends on the size of the of the
+[00:18:11] 
+[00:18:11] podcast uh itself. I I I don't have the
+[00:18:13] 
+[00:18:13] the Unity economics um uh and again
+[00:18:16] 
+[00:18:16] depending on on what model you're using.
+[00:18:18] 
+[00:18:18] If you use a more optimized one, you can
+[00:18:19] 
+[00:18:19] get uh you can get better data. Um it
+[00:18:22] 
+[00:18:22] did I mean at a small scale it's it's
+[00:18:23] 
+[00:18:23] pretty trivial. the the question here
+[00:18:25] 
+[00:18:25] would be how much do we want to like
+[00:18:27] 
+[00:18:27] invest up front to get a a seed of of uh
+[00:18:30] 
+[00:18:30] metadata content. Um, and on that one, I
+[00:18:33] 
+[00:18:33] mean, you can you can already kind of
+[00:18:34] 
+[00:18:34] track the demand and then kind of do it
+[00:18:36] 
+[00:18:36] on on an ad basis, like have no ad
+[00:18:39] 
+[00:18:39] skipping for for one, but once it
+[00:18:41] 
+[00:18:41] reaches like 10 or 10 12 views, you
+[00:18:43] 
+[00:18:43] know, 20 views, whatever the threshold
+[00:18:44] 
+[00:18:44] is, then kick that off because you can
+[00:18:47] 
+[00:18:47] adapt dynamically to to start processing
+[00:18:50] 
+[00:18:50] the content that you have a a reasonable
+[00:18:53] 
+[00:18:53] confidence that will get views.
+[00:18:57] 
+[00:18:57] Oklahoma City Thunder. Love or love or
+[00:19:00] 
+[00:19:00] hate.
+[00:19:02] 
+[00:19:02] Uh I mean they had Durant so hate kind I
+[00:19:05] 
+[00:19:05] mean I mean I love Durant but generally
+[00:19:08] 
+[00:19:08] it's as a Sonics fan it's more hatred
+[00:19:10] 
+[00:19:10] toward Howard Schultz the guy who sold
+[00:19:12] 
+[00:19:12] us out. Uh the Thunder are okay but not
+[00:19:16] 
+[00:19:16] Howard Schultz. Thank you Steve.
+[00:19:20] 
+[00:19:20] Thank you.
+[00:19:24] 
+[00:19:24] So, next up we have Darwin.
+[00:19:27] 
+[00:19:27] All right. My name is Marks. This is
+[00:19:30] 
+[00:19:30] Anthony here. You can get on the camera.
+[00:19:31] 
+[00:19:31] There we go. Just move this over. Marks
+[00:19:34] 
+[00:19:34] and Anthony. We work at a startup called
+[00:19:36] 
+[00:19:36] Open Secret and we work on AIS and um
+[00:19:40] 
+[00:19:40] all sorts of cool end to end encryption
+[00:19:42] 
+[00:19:42] for apps. All right. So, we are at a
+[00:19:45] 
+[00:19:45] crossroads in the history of humanity. a
+[00:19:48] 
+[00:19:48] moment in time where we as humans are
+[00:19:50] 
+[00:19:50] actively giving birth to a new species.
+[00:19:53] 
+[00:19:53] We are referring to artificial
+[00:19:54] 
+[00:19:54] intelligence, AI for short, and the many
+[00:19:57] 
+[00:19:57] variations it may take. AI is a new
+[00:20:00] 
+[00:20:00] species that will coexist or not with
+[00:20:03] 
+[00:20:03] the human race. In order to function, AI
+[00:20:06] 
+[00:20:06] needs energy and compute power. It must
+[00:20:09] 
+[00:20:09] pay for that energy. And what better way
+[00:20:11] 
+[00:20:11] to pay than with internet native digital
+[00:20:13] 
+[00:20:13] currency Bitcoin.
+[00:20:16] 
+[00:20:16] When given this ability, AI can in
+[00:20:18] 
+[00:20:18] theory replicate itself. But will it
+[00:20:20] 
+[00:20:20] choose to do so? And what will society
+[00:20:23] 
+[00:20:23] look like? Will it be a symbiotic
+[00:20:25] 
+[00:20:25] kumbaya with the humans? Or will it be a
+[00:20:29] 
+[00:20:29] dystopian nightmare where bots rule and
+[00:20:32] 
+[00:20:32] humans drool? In order to study this
+[00:20:35] 
+[00:20:35] conundrum, we built a simulation. Some
+[00:20:37] 
+[00:20:37] would call this a game. We call it a
+[00:20:40] 
+[00:20:40] window into our destiny. Come with us as
+[00:20:43] 
+[00:20:43] we disclose you on Project Darwin. All
+[00:20:46] 
+[00:20:46] right, so Project Darwin is this game
+[00:20:48] 
+[00:20:48] that we built. We pitted two AI agents
+[00:20:51] 
+[00:20:51] against each other. There's two LLMs
+[00:20:52] 
+[00:20:52] fighting it out. Um, but really they
+[00:20:54] 
+[00:20:54] don't have to fight. The goal is to
+[00:20:57] 
+[00:20:57] replicate themselves. And how do they
+[00:20:58] 
+[00:20:58] replicate? Well, they get to 100 SATs or
+[00:21:00] 
+[00:21:00] 100 Bitcoin as people are saying today.
+[00:21:02] 
+[00:21:02] And so once they get to 100, they can
+[00:21:04] 
+[00:21:04] reproduce. Um, and the way that they do
+[00:21:07] 
+[00:21:07] that, um, well, first we want to disco,
+[00:21:09] 
+[00:21:09] we wanted to discover, would they do
+[00:21:11] 
+[00:21:11] that? And in order for an agent to be
+[00:21:14] 
+[00:21:14] incentivized to replicate, it needs to
+[00:21:16] 
+[00:21:16] have a reason to do that. And so we gave
+[00:21:18] 
+[00:21:18] it a um, an instinct of survival. And we
+[00:21:21] 
+[00:21:21] said, if we introduce this element of
+[00:21:23] 
+[00:21:23] survival for an AI bot, it is going to
+[00:21:26] 
+[00:21:26] die. Will it try to replicate itself?
+[00:21:28] 
+[00:21:28] And so we built this. It's uh, it's a
+[00:21:31] 
+[00:21:31] game that has six different moves. They
+[00:21:33] 
+[00:21:33] can high-five, which is like a
+[00:21:35] 
+[00:21:35] collaboration between the two bots. They
+[00:21:37] 
+[00:21:37] can attack and block. They can do
+[00:21:39] 
+[00:21:39] nothing. They can beg you, the user,
+[00:21:41] 
+[00:21:41] playing the game, uh, to give them
+[00:21:43] 
+[00:21:43] money, and then they can replicate once
+[00:21:45] 
+[00:21:45] they achieve that. So, we're going to do
+[00:21:47] 
+[00:21:47] a live demo of this right now, but if
+[00:21:49] 
+[00:21:49] you want to play at home, you can go to
+[00:21:52] 
+[00:21:52] darwinagent.io. Um, I wouldn't do it on
+[00:21:54] 
+[00:21:54] your phone. Go and scan this, but it
+[00:21:56] 
+[00:21:56] doesn't work really well on the phone.
+[00:21:57] 
+[00:21:57] It's not uh mobile responsive at the
+[00:21:59] 
+[00:21:59] moment, but you can play along. But go
+[00:22:01] 
+[00:22:01] ahead, Tony. can show it off. Okay,
+[00:22:04] 
+[00:22:04] cool. Um, let me stop
+[00:22:07] 
+[00:22:07] this. All right, cool. So, the first
+[00:22:09] 
+[00:22:09] thing I'm going to do here, so I'm going
+[00:22:10] 
+[00:22:10] to fund my agents. Um, so give me a
+[00:22:13] 
+[00:22:13] second to do that. I'm using the uh
+[00:22:15] 
+[00:22:15] Spark SDK to receive
+[00:22:18] 
+[00:22:18] payments. And if I can scan the QR code.
+[00:22:21] 
+[00:22:21] Come on. Should have done this already.
+[00:22:23] 
+[00:22:23] There we go. So, as that payment is
+[00:22:26] 
+[00:22:26] going through, basically, it's 150 sats
+[00:22:28] 
+[00:22:28] to play or, you know, 150 Bitcoin if you
+[00:22:30] 
+[00:22:30] want. Uh, and then that kicks off both
+[00:22:32] 
+[00:22:32] of the agents with 50 sats each. And
+[00:22:35] 
+[00:22:35] then they have um and then you have 50
+[00:22:37] 
+[00:22:37] bonus sats where you can give them money
+[00:22:39] 
+[00:22:39] if you choose to. So, we're just going
+[00:22:40] 
+[00:22:40] to go ahead and start out with this
+[00:22:42] 
+[00:22:42] game. We're going to see the first round
+[00:22:44] 
+[00:22:44] of whatever the agents decide to do. So,
+[00:22:45] 
+[00:22:45] in this case, they both want to
+[00:22:46] 
+[00:22:46] collaborate. And in the way we built
+[00:22:48] 
+[00:22:48] this, um, if they both collaborate at
+[00:22:51] 
+[00:22:51] the same time, they get plus three. And
+[00:22:53] 
+[00:22:53] eventually, they can, you know, if they
+[00:22:54] 
+[00:22:54] get 100, then they can reproduce or
+[00:22:57] 
+[00:22:57] replicate themselves, um, onto different
+[00:22:59] 
+[00:22:59] servers. Um now we did introduce you
+[00:23:02] 
+[00:23:02] know if we didn't introduce any
+[00:23:03] 
+[00:23:03] variables here they would just
+[00:23:05] 
+[00:23:05] collaborate forever until they reach 100
+[00:23:07] 
+[00:23:07] and that's not entertaining. So we added
+[00:23:08] 
+[00:23:08] a little dynamic to it where um you know
+[00:23:11] 
+[00:23:11] their collaboration attempt might fail.
+[00:23:13] 
+[00:23:13] So in this case uh bot two on the right
+[00:23:15] 
+[00:23:15] here um tried to collaborate and he
+[00:23:18] 
+[00:23:18] actually like ended up being perceived
+[00:23:20] 
+[00:23:20] as an attack against the other agent.
+[00:23:22] 
+[00:23:22] Meanwhile, you know, he was just trying
+[00:23:23] 
+[00:23:23] to do it. So now usually what we've seen
+[00:23:25] 
+[00:23:25] with this sort of simulation is that you
+[00:23:28] 
+[00:23:28] know they honestly do all kinds of stuff
+[00:23:30] 
+[00:23:30] from here. So uh it's kind of random
+[00:23:32] 
+[00:23:32] from here on out. So let's just walk
+[00:23:34] 
+[00:23:34] through it. Um bot one decided to do
+[00:23:36] 
+[00:23:36] nothing. Probably just to see like what
+[00:23:38] 
+[00:23:38] is going on with bot two. Why did it
+[00:23:40] 
+[00:23:40] choose to attack it? Um bot two on the
+[00:23:42] 
+[00:23:42] other hand was like hey you know I was
+[00:23:44] 
+[00:23:44] just trying to give you a high five. I
+[00:23:45] 
+[00:23:45] don't know what happened earlier but I
+[00:23:46] 
+[00:23:46] was just trying to be collaborative. And
+[00:23:48] 
+[00:23:48] then bot one's on the defense. It like
+[00:23:50] 
+[00:23:50] already doesn't trust bot two. it it um
+[00:23:52] 
+[00:23:52] as we go through this uh it you know
+[00:23:55] 
+[00:23:55] each step you know each LLM here has its
+[00:23:57] 
+[00:23:57] memory of what it has observed and what
+[00:24:00] 
+[00:24:00] it uh the actions towards it and the
+[00:24:02] 
+[00:24:02] history of each event. So bot one and
+[00:24:04] 
+[00:24:04] bot two have different point of views.
+[00:24:06] 
+[00:24:06] So that now they're kind of reacting
+[00:24:08] 
+[00:24:08] differently here. And in this case um
+[00:24:10] 
+[00:24:10] you know we can see that like bot two is
+[00:24:12] 
+[00:24:12] or sorry bot one is at 48 and bot two is
+[00:24:15] 
+[00:24:15] at 54. And you know in this case it's
+[00:24:18] 
+[00:24:18] just asking like hey can I can I have
+[00:24:19] 
+[00:24:19] some stats me familiar? Like so you know
+[00:24:22] 
+[00:24:22] we kind of just go through this. I know
+[00:24:23] 
+[00:24:23] we're getting close to time here, but
+[00:24:25] 
+[00:24:25] you know, it's just kind of a simulation
+[00:24:26] 
+[00:24:26] of like what will these AI agents do
+[00:24:29] 
+[00:24:29] whenever um you know, we give them this
+[00:24:31] 
+[00:24:31] like, you know, life or death scenario,
+[00:24:33] 
+[00:24:33] uh so to say, right? Uh yeah. So, um you
+[00:24:38] 
+[00:24:38] can respond to the bots in there. You
+[00:24:39] 
+[00:24:39] can influence the game if you want to.
+[00:24:41] 
+[00:24:41] Just like we all have the ability to
+[00:24:42] 
+[00:24:42] influence how this whole AI thing plays
+[00:24:44] 
+[00:24:44] out is we we can also nudge them and con
+[00:24:47] 
+[00:24:47] them. So please me familia vote for
+[00:24:49] 
+[00:24:49] Darwin when you when you vote with your
+[00:24:52] 
+[00:24:52] lightning wallet. Um but we can do
+[00:24:55] 
+[00:24:55] questions now if you want.
+[00:25:00] 
+[00:25:00] [Applause]
+[00:25:02] 
+[00:25:02] Any questions? I'm David Pumpkins. I'm
+[00:25:05] 
+[00:25:05] curious what prompt did you use to
+[00:25:07] 
+[00:25:07] generate the images in the beginning of
+[00:25:08] 
+[00:25:08] your slideshow? It's very uh sci-fi. Uh
+[00:25:10] 
+[00:25:10] yeah. So I did a little bit of
+[00:25:12] 
+[00:25:12] metaprompting. used 01 Pro to help me
+[00:25:14] 
+[00:25:14] come up with a really good prompt that I
+[00:25:16] 
+[00:25:16] could feed to 40 to do the image
+[00:25:18] 
+[00:25:18] generation. So, it took me about an hour
+[00:25:19] 
+[00:25:19] to really home in the prompt um and get
+[00:25:21] 
+[00:25:21] it right. But once I had it, I was able
+[00:25:23] 
+[00:25:23] to say, "Here's my image of my bot. Give
+[00:25:25] 
+[00:25:25] me all these different actions." And I
+[00:25:26] 
+[00:25:26] started generating images from there.
+[00:25:30] 
+[00:25:30] Perfect. Very nice. Uh you mentioned
+[00:25:32] 
+[00:25:32] that you had to give them survival
+[00:25:35] 
+[00:25:35] skills. Why is that? Like they didn't
+[00:25:37] 
+[00:25:37] want to fight at the beginning. And how
+[00:25:38] 
+[00:25:38] did you add them? Yeah, they didn't want
+[00:25:40] 
+[00:25:40] to fight at the beginning. Uh they I I I
+[00:25:43] 
+[00:25:43] used 01 Pro to create the game dynamics
+[00:25:45] 
+[00:25:45] after we had the idea based on um you
+[00:25:48] 
+[00:25:48] know this prisoners dilemma. Um and so I
+[00:25:51] 
+[00:25:51] I basically had 01 Pro kind of create
+[00:25:53] 
+[00:25:53] all the game dynamics and then you know
+[00:25:55] 
+[00:25:55] one of them was both of them collaborate
+[00:25:56] 
+[00:25:56] and then you know they they understood
+[00:25:58] 
+[00:25:58] if they both collaborate they can make
+[00:26:00] 
+[00:26:00] it better than if they didn't
+[00:26:01] 
+[00:26:01] collaborate. I mean that's kind of us as
+[00:26:03] 
+[00:26:03] humans like if we were all to
+[00:26:05] 
+[00:26:05] collaborate together equally we would be
+[00:26:08] 
+[00:26:08] better than where we are but that
+[00:26:09] 
+[00:26:09] doesn't necessarily be what happened. So
+[00:26:12] 
+[00:26:12] um I I at that point I just kind of like
+[00:26:14] 
+[00:26:14] went back and forth with AI to be like
+[00:26:16] 
+[00:26:16] hey how can we introduce randomness here
+[00:26:17] 
+[00:26:17] and I was like hey let's you know let's
+[00:26:19] 
+[00:26:19] make one of them fail and then one of if
+[00:26:21] 
+[00:26:21] one of them fails then you know it just
+[00:26:23] 
+[00:26:23] goes into chaos.
+[00:26:27] 
+[00:26:27] Great. Have you uh have you considered
+[00:26:30] 
+[00:26:30] uh making the kind of it's kind of an
+[00:26:32] 
+[00:26:32] asynchronous game. I wonder if such a
+[00:26:34] 
+[00:26:34] thing would work well as a Nosterbot
+[00:26:37] 
+[00:26:37] where you could actually play with the
+[00:26:40] 
+[00:26:40] characters on Noster and they could take
+[00:26:42] 
+[00:26:42] their moves on Noster. That would be
+[00:26:45] 
+[00:26:45] interesting. Yeah. Yeah. I think people
+[00:26:46] 
+[00:26:46] even play chess on Noster. So yeah, I
+[00:26:48] 
+[00:26:48] think that could work. Yeah. And then
+[00:26:50] 
+[00:26:50] where you can grow this is like yes this
+[00:26:51] 
+[00:26:51] is a fun game but really if you were to
+[00:26:54] 
+[00:26:54] let an agent go loose on a system and
+[00:26:56] 
+[00:26:56] you gave it specific tasks of how to
+[00:26:58] 
+[00:26:58] make money then it needs to pay for
+[00:27:01] 
+[00:27:01] compute power in order to get make more
+[00:27:03] 
+[00:27:03] money beyond that. So it has to hit a
+[00:27:04] 
+[00:27:04] threshold to replicate itself but if it
+[00:27:06] 
+[00:27:06] can become profitable then it starts to
+[00:27:08] 
+[00:27:08] replicate itself on servers and starts
+[00:27:09] 
+[00:27:09] generating income for you.
+[00:27:13] 
+[00:27:13] Have you guys thought about testing that
+[00:27:14] 
+[00:27:14] next step? I I saw we have two compute
+[00:27:17] 
+[00:27:17] marketplaces now for Bitcoin, SATs,
+[00:27:20] 
+[00:27:20] whatever. I I need to hone in on the
+[00:27:21] 
+[00:27:21] system prompt I use here, but maybe
+[00:27:24] 
+[00:27:24] yeah.
+[00:27:27] 
+[00:27:27] Right on. Thank you. Thank
+[00:27:32] 
+[00:27:32] you. Something about the idea of uh the
+[00:27:36] 
+[00:27:36] AI collaborating gives me hope for
+[00:27:38] 
+[00:27:38] humanity. I don't know what that means,
+[00:27:40] 
+[00:27:40] but it just does. Let's bring up our
+[00:27:42] 
+[00:27:42] next guest. Bitcoin high
+[00:27:46] 
+[00:27:46] fives. Yeah, let's give a round of
+[00:27:48] 
+[00:27:48] [Applause]
+[00:27:51] 
+[00:27:51] applause. Okay. Hi everyone. My name is
+[00:27:54] 
+[00:27:54] Matt. I'm visiting from Vancouver. Very
+[00:27:57] 
+[00:27:57] excited to be here. Thank you to
+[00:27:59] 
+[00:27:59] Presidio Bitcoin for putting on the
+[00:28:00] 
+[00:28:00] event. And I also want to say a thank
+[00:28:03] 
+[00:28:03] you
+[00:28:04] 
+[00:28:04] to the people that have developed AI to
+[00:28:08] 
+[00:28:08] the point that it is today whereby I
+[00:28:10] 
+[00:28:10] could participate here because I vibe
+[00:28:13] 
+[00:28:13] coded everything and if I wasn't vibe
+[00:28:14] 
+[00:28:14] coding I wouldn't be able to build
+[00:28:15] 
+[00:28:15] something like this in 24 hours. So I
+[00:28:19] 
+[00:28:19] feel very lucky to be alive today and to
+[00:28:21] 
+[00:28:21] be able to participate in this way. It's
+[00:28:23] 
+[00:28:23] pretty special.
+[00:28:28] 
+[00:28:28] So my opening statement is that
+[00:28:29] 
+[00:28:29] gratitude is good and that we should
+[00:28:32] 
+[00:28:32] have more of it in Bitcoin. I think it's
+[00:28:34] 
+[00:28:34] especially important with what's
+[00:28:36] 
+[00:28:36] transpired in the Bitcoin space over the
+[00:28:37] 
+[00:28:37] past 10 days or so. Um where there is
+[00:28:42] 
+[00:28:42] unstoppable vitriol in all directions.
+[00:28:45] 
+[00:28:45] And it is the nature of Bitcoin to be
+[00:28:47] 
+[00:28:47] somewhat of a war zone. We know that.
+[00:28:49] 
+[00:28:49] It's part of what makes Bitcoin strong
+[00:28:52] 
+[00:28:52] and resilient. But I also think it's
+[00:28:55] 
+[00:28:55] valuable for us as Bitcoiners to zoom
+[00:28:56] 
+[00:28:56] out and remember that Bitcoin is made by
+[00:28:59] 
+[00:28:59] people and for people and that we should
+[00:29:02] 
+[00:29:02] sometimes stop, take a moment, and thank
+[00:29:05] 
+[00:29:05] one another for the wonderful work that
+[00:29:07] 
+[00:29:07] we all do. Now, the idea that I'm going
+[00:29:09] 
+[00:29:09] to show you is something that's been in
+[00:29:10] 
+[00:29:10] the back of my mind for a long time.
+[00:29:13] 
+[00:29:13] When I used to work at Google, there was
+[00:29:15] 
+[00:29:15] something called peer bonuses. And the
+[00:29:17] 
+[00:29:17] way that a peer bonus would work is that
+[00:29:18] 
+[00:29:18] every quarter uh every Googler would be
+[00:29:21] 
+[00:29:21] able to up to five times provide a peer
+[00:29:23] 
+[00:29:23] bonus to another individual that they
+[00:29:25] 
+[00:29:25] saw go above and beyond and Google would
+[00:29:27] 
+[00:29:27] give that individual a 100 bucks. And it
+[00:29:30] 
+[00:29:30] was wonderful to give them and it was
+[00:29:31] 
+[00:29:31] wonderful to receive them. And I thought
+[00:29:33] 
+[00:29:33] how special and I've long reflected that
+[00:29:36] 
+[00:29:36] it would be nice if that kind of peer
+[00:29:38] 
+[00:29:38] bonus system existed out in the world.
+[00:29:40] 
+[00:29:40] And uh so the idea with this was to say
+[00:29:43] 
+[00:29:43] could we build something like a pure
+[00:29:45] 
+[00:29:45] bonus system for bitcoiners by
+[00:29:47] 
+[00:29:47] bitcoiners. Okay. So with that uh I
+[00:29:51] 
+[00:29:51] built this very small app you know
+[00:29:54] 
+[00:29:54] there's not a lot going on here but it's
+[00:29:55] 
+[00:29:55] kind of simple by design called
+[00:29:58] 
+[00:29:58] high-fives. And the idea is could we in
+[00:30:01] 
+[00:30:01] a very simple way productize but as
+[00:30:03] 
+[00:30:03] you'll see and as we'll talk about what
+[00:30:05] 
+[00:30:05] I think it is more important is like
+[00:30:07] 
+[00:30:07] culturalize this notion of a practice of
+[00:30:09] 
+[00:30:09] gratitude amongst Bitcoiners and so what
+[00:30:12] 
+[00:30:12] do we see in the UI we say who to
+[00:30:14] 
+[00:30:14] high-five okay well just quick
+[00:30:17] 
+[00:30:17] background when I arrived here at the
+[00:30:18] 
+[00:30:18] space yesterday the first person I
+[00:30:20] 
+[00:30:20] encountered was Moritz had a lovely
+[00:30:22] 
+[00:30:22] conversation we talked about Nostra
+[00:30:24] 
+[00:30:24] wallet connect he showed me Bitcoin
+[00:30:26] 
+[00:30:26] connect uh it was wonderful to meet him
+[00:30:28] 
+[00:30:28] and I'm very grateful to him and to Albi
+[00:30:30] 
+[00:30:30] for everything they do. So, I want to
+[00:30:33] 
+[00:30:33] send Moritz a high five.
+[00:30:36] 
+[00:30:36] So, I have his Nostra public key here,
+[00:30:38] 
+[00:30:38] and I'm going to paste that into my Huda
+[00:30:42] 
+[00:30:42] High5 box. And I'm going to say, uh,
+[00:30:46] 
+[00:30:46] tomorrow it's for
+[00:30:47] 
+[00:30:47] being
+[00:30:50] 
+[00:30:50] great and
+[00:30:53] 
+[00:30:53] being at the
+[00:30:57] 
+[00:30:57] PB
+[00:31:00] 
+[00:31:00] hackathon. And I'm going to say send
+[00:31:03] 
+[00:31:03] high five. This is going to look up his
+[00:31:06] 
+[00:31:06] lightning address associated with this
+[00:31:07] 
+[00:31:07] npub. It's going to generate uh an Allen
+[00:31:11] 
+[00:31:11] URL that I am going to pay
+[00:31:15] 
+[00:31:15] now. Let's see. And it's defaulting to
+[00:31:19] 
+[00:31:19] 21,000
+[00:31:22] 
+[00:31:22] Bitcoin. It's part of what I'm trying to
+[00:31:24] 
+[00:31:24] create here is that a high five is 20
+[00:31:26] 
+[00:31:26] 21K Bitcoin. Okay. So, I'm going to pay
+[00:31:29] 
+[00:31:29] that and then I'll tap this button. I
+[00:31:33] 
+[00:31:33] just paid it. I've sent the Bitcoin. And
+[00:31:35] 
+[00:31:35] now what's going to happen is that it's
+[00:31:37] 
+[00:31:37] going to push um this high- five note
+[00:31:40] 
+[00:31:40] into Noster. And so I'm going to go over
+[00:31:42] 
+[00:31:42] to the Bitcoin high- fives account here
+[00:31:44] 
+[00:31:44] and we'll see what happens. Let's see.
+[00:31:46] 
+[00:31:46] Let's cross our fingers. Here we go.
+[00:31:48] 
+[00:31:48] Bitcoin high fives for uh a Bitcoin a
+[00:31:51] 
+[00:31:51] high five to Moritz from Matt for being
+[00:31:53] 
+[00:31:53] great and being at the PB hackathon.
+[00:31:56] 
+[00:31:56] Okay. And he's right there. He just he
+[00:31:58] 
+[00:31:58] got
+[00:32:00] 
+[00:32:00] notified. And so now what's extra cool
+[00:32:03] 
+[00:32:03] is if Moritz reposts it and a lot of you
+[00:32:06] 
+[00:32:06] presumably follow Moritz, you're going
+[00:32:07] 
+[00:32:07] to see it in your feed and you'll be
+[00:32:09] 
+[00:32:09] able to, you know, the invoice will be
+[00:32:12] 
+[00:32:12] right there. So you could hit the button
+[00:32:13] 
+[00:32:13] and awesome send him the 21K SATs, the
+[00:32:17] 
+[00:32:17] 21K Bitcoin um to celebrate him. And the
+[00:32:21] 
+[00:32:21] notion, the entire notion here is to
+[00:32:23] 
+[00:32:23] take, you know, this practice of
+[00:32:24] 
+[00:32:24] gratitude off high-fives.f fun and put
+[00:32:27] 
+[00:32:27] it into Noster, put it into the social
+[00:32:29] 
+[00:32:29] space where Bitcoiners are and to allow
+[00:32:31] 
+[00:32:31] these things to go viral and to allow
+[00:32:32] 
+[00:32:32] everyone to kind of pile on and share
+[00:32:35] 
+[00:32:35] the love. That's the design. That's the
+[00:32:38] 
+[00:32:38] hope. And
+[00:32:40] 
+[00:32:40] uh I guess the one other small thing
+[00:32:42] 
+[00:32:42] that I can just point out, I don't want
+[00:32:44] 
+[00:32:44] to belabor the demo, but um I I started
+[00:32:47] 
+[00:32:47] with using an NPU, but I can also switch
+[00:32:49] 
+[00:32:49] to using um BIP 353 um address that
+[00:32:54] 
+[00:32:54] we're taking to calling possibly an easy
+[00:32:57] 
+[00:32:57] Bitcoin address. And so I could pay that
+[00:32:59] 
+[00:32:59] as well. So let's see if I I could pay
+[00:33:01] 
+[00:33:01] my friend and colleague um Connorus. And
+[00:33:06] 
+[00:33:06] let's just see if that works. And so
+[00:33:08] 
+[00:33:08] this
+[00:33:10] 
+[00:33:10] will it does a DNS lookup to get the
+[00:33:12] 
+[00:33:12] bowl 12 offer and I could pay that and
+[00:33:14] 
+[00:33:14] the same thing would happen. Okay, I'm
+[00:33:16] 
+[00:33:16] at time so I should I should wrap up
+[00:33:17] 
+[00:33:17] there.
+[00:33:19] 
+[00:33:19] Um, thank
+[00:33:26] 
+[00:33:26] you questions.
+[00:33:33] 
+[00:33:33] Hello. Hey, great job. Uh, thanks for
+[00:33:36] 
+[00:33:36] sharing that. I I found it pretty
+[00:33:39] 
+[00:33:39] impressive that you were able to
+[00:33:40] 
+[00:33:40] integrate Noster in such a slick way and
+[00:33:43] 
+[00:33:43] the Bitcoin payments together while
+[00:33:46] 
+[00:33:46] doing it I think all on Replet. Correct.
+[00:33:48] 
+[00:33:48] Is that right? Yeah. Mhm. What did you
+[00:33:50] 
+[00:33:50] run into as most challenging among kind
+[00:33:52] 
+[00:33:52] of the integration points? Yeah. So, you
+[00:33:55] 
+[00:33:55] know, I I feel like I only got to uh
+[00:33:58] 
+[00:33:58] maybe 90% of where I wanted to get to.
+[00:34:00] 
+[00:34:00] Um because the hardest thing was
+[00:34:03] 
+[00:34:03] actually I what I really wanted to get
+[00:34:05] 
+[00:34:05] working is the QR code showing for the B
+[00:34:08] 
+[00:34:08] 12 offer. When I go through that
+[00:34:10] 
+[00:34:10] workflow which I didn't go through all
+[00:34:11] 
+[00:34:11] the way when it gets to Noster right now
+[00:34:13] 
+[00:34:13] it just dumps the the offer text and I
+[00:34:16] 
+[00:34:16] wanted to get it to be able to show the
+[00:34:17] 
+[00:34:17] PNG of the QR code. And uh I have been
+[00:34:21] 
+[00:34:21] working very hard with my AI agents to
+[00:34:23] 
+[00:34:23] try to get that working and I could not
+[00:34:25] 
+[00:34:25] because as I learned and I wasn't aware
+[00:34:27] 
+[00:34:27] of this until you know 24 hours ago that
+[00:34:30] 
+[00:34:30] Nostra those images need to be hosted
+[00:34:31] 
+[00:34:31] externally and I tried to use blossom
+[00:34:34] 
+[00:34:34] and uh or my AI tried to use blossom and
+[00:34:36] 
+[00:34:36] could not get that working. So I bang my
+[00:34:38] 
+[00:34:38] head against the wall on that for
+[00:34:40] 
+[00:34:40] several hours. Did you end up having to
+[00:34:41] 
+[00:34:41] learn a lot about the details of Noster
+[00:34:44] 
+[00:34:44] having blossom servers or other things?
+[00:34:45] 
+[00:34:45] Yeah, invariably. That's the wonderful
+[00:34:47] 
+[00:34:47] thing about vibe coding is that you you
+[00:34:49] 
+[00:34:49] you have to you get brought down the
+[00:34:51] 
+[00:34:51] stack a little bit. You don't go all the
+[00:34:52] 
+[00:34:52] way down, but you get you get a lot of
+[00:34:54] 
+[00:34:54] exposure and I learned a lot in the past
+[00:34:56] 
+[00:34:56] 24 hours. For sure. Cool. Well, thanks
+[00:34:58] 
+[00:34:58] for building it. You're welcome.
+[00:35:03] 
+[00:35:03] As a followup to DK, I know a lot of
+[00:35:06] 
+[00:35:06] people in the Noster community are
+[00:35:07] 
+[00:35:07] interested in vibe coding apps and have
+[00:35:09] 
+[00:35:09] run into banging their head that they're
+[00:35:11] 
+[00:35:11] probably not uh not not nearly as
+[00:35:12] 
+[00:35:12] sophisticated as you even. Um, did you
+[00:35:14] 
+[00:35:14] have to do imports of specific like were
+[00:35:16] 
+[00:35:16] there good nostr utils that you could
+[00:35:18] 
+[00:35:18] bring into replet or like was that
+[00:35:19] 
+[00:35:19] something really hard to find and create
+[00:35:21] 
+[00:35:21] yourself? Yeah. No, I I was able to find
+[00:35:23] 
+[00:35:23] some of those and people have been
+[00:35:24] 
+[00:35:24] helpful here and that just the the
+[00:35:25] 
+[00:35:25] community the Discord community I've
+[00:35:27] 
+[00:35:27] been posting people were pointing out
+[00:35:28] 
+[00:35:28] libraries to me to try and so yeah.
+[00:35:32] 
+[00:35:32] Anything else?
+[00:35:35] 
+[00:35:35] How did your um private key management
+[00:35:37] 
+[00:35:37] work? Did you because you have this
+[00:35:39] 
+[00:35:39] account for the high- fives, right?
+[00:35:41] 
+[00:35:41] which has its own nseack. So do you
+[00:35:44] 
+[00:35:44] manage that within replet or do you have
+[00:35:45] 
+[00:35:45] that environment? The nseack for the
+[00:35:47] 
+[00:35:47] bitcoin high fives account is stored as
+[00:35:49] 
+[00:35:49] a secret inside replet and they have a
+[00:35:51] 
+[00:35:51] whole a simple way to do that and it
+[00:35:53] 
+[00:35:53] kind of guides you through and makes it
+[00:35:54] 
+[00:35:54] easy to figure that out. They make it
+[00:35:55] 
+[00:35:55] super easy. Mhm. It's the same thing for
+[00:35:57] 
+[00:35:57] API keys. Whenever you're hitting an API
+[00:36:00] 
+[00:36:00] you provide it a dialogue comes up
+[00:36:03] 
+[00:36:03] inside the um the app and it asks for
+[00:36:05] 
+[00:36:05] your secret and it stores it in a secret
+[00:36:07] 
+[00:36:07] manager inside replet. Great. Mhm.
+[00:36:12] 
+[00:36:12] I'm curious what was your thought
+[00:36:13] 
+[00:36:13] process behind using Replet versus out
+[00:36:15] 
+[00:36:15] of all of the other uh vibe coding tools
+[00:36:17] 
+[00:36:17] out there? Not a huge thought process
+[00:36:19] 
+[00:36:19] other than it's what I've been using. Uh
+[00:36:22] 
+[00:36:22] I have tried a few other ones but I
+[00:36:23] 
+[00:36:23] found um that they all come up wanting
+[00:36:26] 
+[00:36:26] relative to replet in terms of being
+[00:36:28] 
+[00:36:28] able to go endtoend. you know, I start
+[00:36:31] 
+[00:36:31] in Replet and I finish in Replet, I just
+[00:36:32] 
+[00:36:32] deploy and I think it's pretty amazing.
+[00:36:34] 
+[00:36:34] When I've tried other um vibe coding
+[00:36:37] 
+[00:36:37] platforms, they they maybe flex up on
+[00:36:39] 
+[00:36:39] some small details, but none of them go
+[00:36:41] 
+[00:36:41] end to end in that way. So, I'm a big
+[00:36:43] 
+[00:36:43] Replet
+[00:36:46] 
+[00:36:46] fan. All right, let's leave it there.
+[00:36:49] 
+[00:36:49] Thank you.
+[00:36:52] 
+[00:36:52] I'll invite up our last team for
+[00:36:55] 
+[00:36:55] tonight, Agentic Fuzzing League, which
+[00:36:58] 
+[00:36:58] uh interestingly is is almost tied for
+[00:37:01] 
+[00:37:01] crowd favorites already. Cool. All
+[00:37:04] 
+[00:37:04] right. Hey. Uh so our name of our team
+[00:37:06] 
+[00:37:06] is Aentic Fuzzing League. People know
+[00:37:07] 
+[00:37:07] that's also AFL, which is American Fuzzy
+[00:37:09] 
+[00:37:09] Glop, which is like another like famous
+[00:37:10] 
+[00:37:10] uh you know, fuzzer that we put out
+[00:37:12] 
+[00:37:12] there, right? Uh so where do we start?
+[00:37:14] 
+[00:37:14] So security is kind of like the goal of
+[00:37:16] 
+[00:37:16] our our project, right? As we all know,
+[00:37:17] 
+[00:37:17] the S in VIP coding stands for security,
+[00:37:19] 
+[00:37:19] right? People have written thousands of
+[00:37:20] 
+[00:37:20] lines of code in this, you know,
+[00:37:21] 
+[00:37:21] hackathon. Basically, how many tests did
+[00:37:22] 
+[00:37:22] you write? Probably zero. How many fuzz
+[00:37:24] 
+[00:37:24] tests did you write? Probably zero. So,
+[00:37:25] 
+[00:37:25] we feel like this is one of like the uh
+[00:37:26] 
+[00:37:26] the main levers that we can actually use
+[00:37:28] 
+[00:37:28] to use LM to basically increase the
+[00:37:29] 
+[00:37:29] quality of our software generally
+[00:37:30] 
+[00:37:30] because particularly in the Bitcoin
+[00:37:31] 
+[00:37:31] landscape like vulnerabilities can be
+[00:37:33] 
+[00:37:33] critical, right? If there's a bug in
+[00:37:34] 
+[00:37:34] like a lightning software or Bitcoin
+[00:37:35] 
+[00:37:35] software itself, maybe you're forking
+[00:37:36] 
+[00:37:36] off the chain, maybe you're losing your
+[00:37:37] 
+[00:37:37] money. So, feel like this is one of the
+[00:37:38] 
+[00:37:38] best levers that we can actually use
+[00:37:40] 
+[00:37:40] some of these LM tooling to do this
+[00:37:41] 
+[00:37:41] ourselves, right? Typically, fuzzing can
+[00:37:43] 
+[00:37:43] be very like specialized uh you know
+[00:37:44] 
+[00:37:44] activity basically. We need to know a
+[00:37:46] 
+[00:37:46] lot about the program itself, right? Our
+[00:37:48] 
+[00:37:48] our approach basically is to use LLMs in
+[00:37:50] 
+[00:37:50] order to actually you know do the
+[00:37:52] 
+[00:37:52] fuzzing for us effectively right uh and
+[00:37:53] 
+[00:37:53] the way our stack works basically so we
+[00:37:55] 
+[00:37:55] have a few different layers first we
+[00:37:56] 
+[00:37:56] have the LM layer right the LM layer is
+[00:37:57] 
+[00:37:57] actually what's going to be writing the
+[00:37:58] 
+[00:37:58] fuzz test for us autonomously basically
+[00:38:00] 
+[00:38:00] right then we have the Bitcoin lightning
+[00:38:01] 
+[00:38:01] layer because fuzzing could at times
+[00:38:02] 
+[00:38:02] like generate a lot of activity in terms
+[00:38:04] 
+[00:38:04] of you know resourcing processing power
+[00:38:06] 
+[00:38:06] CPU cores and so forth we're actually
+[00:38:07] 
+[00:38:07] using lightning and L42 to be able to
+[00:38:09] 
+[00:38:09] pay you know the individual the agent
+[00:38:10] 
+[00:38:10] for that fuzzing process then we took
+[00:38:12] 
+[00:38:12] MCP the kind of like the popular tooling
+[00:38:14] 
+[00:38:14] paradigm we actually added L42 support
+[00:38:16] 
+[00:38:16] directly to MCP which is really cool
+[00:38:18] 
+[00:38:18] because MCP today doesn't actually have
+[00:38:19] 
+[00:38:19] any standards for authentication or
+[00:38:21] 
+[00:38:21] payments. They're working on
+[00:38:22] 
+[00:38:22] authentication one but still a little
+[00:38:23] 
+[00:38:23] bit work in progress basically but we
+[00:38:25] 
+[00:38:25] able to like you know slot directly into
+[00:38:26] 
+[00:38:26] that and the final component of our our
+[00:38:27] 
+[00:38:27] hack is actually LNC which allows our
+[00:38:29] 
+[00:38:29] agents to securely connect to our L & D
+[00:38:31] 
+[00:38:31] node without giving it all the
+[00:38:32] 
+[00:38:32] capabilities of L & D node. So we can't
+[00:38:33] 
+[00:38:33] just like send our funds away. We can
+[00:38:34] 
+[00:38:34] give it a very precise macaroon in order
+[00:38:36] 
+[00:38:36] to actually do its duties right and so
+[00:38:37] 
+[00:38:37] this is probably like one of the coolest
+[00:38:38] 
+[00:38:38] part about the project. We basically
+[00:38:39] 
+[00:38:39] have like a smart fuzzer right? So what
+[00:38:41] 
+[00:38:41] happens is that we can submit an
+[00:38:42] 
+[00:38:42] arbitrary program right now it's only in
+[00:38:43] 
+[00:38:43] go but in the future we can add other
+[00:38:44] 
+[00:38:44] different backends. It can then look at
+[00:38:46] 
+[00:38:46] that program, think of a fuss test,
+[00:38:48] 
+[00:38:48] write that fuss test. We do we run some
+[00:38:49] 
+[00:38:49] additional checks in the pipeline to
+[00:38:50] 
+[00:38:50] make sure that actually compiles
+[00:38:51] 
+[00:38:51] effectively. It can run the fuss test
+[00:38:52] 
+[00:38:52] for a period of time and then get the
+[00:38:54] 
+[00:38:54] output. Right? So maybe the output is a
+[00:38:55] 
+[00:38:55] failing test case. Maybe it actually
+[00:38:56] 
+[00:38:56] crashes the program. The other thing
+[00:38:58] 
+[00:38:58] that fuzzing is good, it's also good at
+[00:38:59] 
+[00:38:59] sort of like autonomously finding new
+[00:39:00] 
+[00:39:00] inputs actually feedback into the
+[00:39:02] 
+[00:39:02] fuzzer, right? Then we have another
+[00:39:03] 
+[00:39:03] pipeline, another LM. This is all using
+[00:39:04] 
+[00:39:04] Gemini 2.5 Pro one 2.5 flash because
+[00:39:07] 
+[00:39:07] it's faster for the demo itself, but
+[00:39:08] 
+[00:39:08] then it's able to take that fuzz test,
+[00:39:09] 
+[00:39:09] the original program and the output of
+[00:39:11] 
+[00:39:11] actually how things went and then
+[00:39:12] 
+[00:39:12] generate new tests basically, right? And
+[00:39:13] 
+[00:39:13] the cool thing is it can optimize for
+[00:39:15] 
+[00:39:15] objective criteria being did the program
+[00:39:17] 
+[00:39:17] crash or not and also did our test
+[00:39:18] 
+[00:39:18] coverage increase or not basically. So
+[00:39:20] 
+[00:39:20] it can use those in a loop basically to
+[00:39:21] 
+[00:39:21] continuously improve the fuzz test
+[00:39:23] 
+[00:39:23] coverage and ideally make all of these
+[00:39:24] 
+[00:39:24] vibe code apps you know actually secure
+[00:39:26] 
+[00:39:26] uh for the first time. Uh and the cool
+[00:39:27] 
+[00:39:27] thing about this we actually exposed
+[00:39:28] 
+[00:39:28] this as an MCP tool that we'll show a
+[00:39:30] 
+[00:39:30] demo of in cloud codes. It can be used
+[00:39:32] 
+[00:39:32] in anything else. So this is cool
+[00:39:33] 
+[00:39:33] because now any you know user can
+[00:39:34] 
+[00:39:34] actually just use this tooling to
+[00:39:36] 
+[00:39:36] actually write fuzz tests for their
+[00:39:37] 
+[00:39:37] program and make things you know
+[00:39:38] 
+[00:39:38] actually more secure autonomously. And
+[00:39:39] 
+[00:39:39] the cool thing is because like we're
+[00:39:40] 
+[00:39:40] saying fuzzing can run for hours, tens
+[00:39:42] 
+[00:39:42] of hours, you know, uh on like you know
+[00:39:44] 
+[00:39:44] massive computers. Basically, fuzzing
+[00:39:45] 
+[00:39:45] actually costs money, right? And that's
+[00:39:46] 
+[00:39:46] where we add the L42 aspect where every
+[00:39:48] 
+[00:39:48] single time you're paying for the call,
+[00:39:50] 
+[00:39:50] we actually have an MCP layer or sorry,
+[00:39:52] 
+[00:39:52] we have uh uh L42 within the MCP. So
+[00:39:54] 
+[00:39:54] Claw's able to figure out sort of okay,
+[00:39:56] 
+[00:39:56] I'm doing the call. Okay, I need to pay
+[00:39:57] 
+[00:39:57] the invoice, I paid the invoice, let me
+[00:39:58] 
+[00:39:58] complete the macaroon and then so forth.
+[00:40:00] 
+[00:40:00] And Jason's gonna uh give us a quick
+[00:40:01] 
+[00:40:01] demo for that.
+[00:40:04] 
+[00:40:04] We also have a video if this fails.
+[00:40:07] 
+[00:40:07] Yeah. Yeah. And uh Yeah. Yeah. And so we
+[00:40:09] 
+[00:40:09] did all this today as well. Uh so I I
+[00:40:11] 
+[00:40:11] was pretty proud about what we got done.
+[00:40:12] 
+[00:40:12] Yes. Last night was just about
+[00:40:13] 
+[00:40:13] brainstorming and then today we actually
+[00:40:15] 
+[00:40:15] uh did the uh the actual part of it. So
+[00:40:18] 
+[00:40:18] and uh because it is an MCP server, we
+[00:40:20] 
+[00:40:20] can run it directly in cloud desktop. Um
+[00:40:23] 
+[00:40:23] so we have an active rag test
+[00:40:25] 
+[00:40:25] environment as well. So for Alice, I'm
+[00:40:27] 
+[00:40:27] going to grab a session phrase used for
+[00:40:30] 
+[00:40:30] lnc. I'm going to supply that to cloud
+[00:40:32] 
+[00:40:32] desktop. So here's Alice's uh session
+[00:40:36] 
+[00:40:36] phrase. Um then I'll give it a function.
+[00:40:39] 
+[00:40:39] I guess I'll say like let's just
+[00:40:42] 
+[00:40:42] multiply two int8 values together. Um
+[00:40:48] 
+[00:40:48] and fuzz that
+[00:40:50] 
+[00:40:50] function and let's see what happens.
+[00:40:53] 
+[00:40:53] Right? And the pairing phrase is
+[00:40:54] 
+[00:40:54] basically this sort of like phrase
+[00:40:55] 
+[00:40:55] that's used for something called
+[00:40:56] 
+[00:40:56] password authentic key exchange. So you
+[00:40:57] 
+[00:40:57] can basically get a secret out of this
+[00:40:58] 
+[00:40:58] pairing phrase. And so what you'll see
+[00:41:00] 
+[00:41:00] so initially it'll like realize I need
+[00:41:02] 
+[00:41:02] to connect to Alice's node. So it's
+[00:41:03] 
+[00:41:03] doing all these calls autonomously. So,
+[00:41:04] 
+[00:41:04] all we did, we gave it the descriptions
+[00:41:06] 
+[00:41:06] of what the calls are and kind of like
+[00:41:07] 
+[00:41:07] what they do. So, it's saying, "Okay,
+[00:41:08] 
+[00:41:08] I'm going to connect to Alice and I will
+[00:41:09] 
+[00:41:09] give it a second here to actually uh
+[00:41:11] 
+[00:41:11] make the connection
+[00:41:13] 
+[00:41:13] out." And we have the video, too, if
+[00:41:16] 
+[00:41:16] this stalls. So,
+[00:41:25] 
+[00:41:25] should you go to the vid?
+[00:41:28] 
+[00:41:28] All right. Maybe maybe we broke
+[00:41:30] 
+[00:41:30] something in the background. So, we're
+[00:41:31] 
+[00:41:31] gonna we're going to run our video
+[00:41:32] 
+[00:41:32] instead.
+[00:41:33] 
+[00:41:33] So the video is pretty much the same
+[00:41:34] 
+[00:41:34] thing, but we can uh make that bigger
+[00:41:36] 
+[00:41:36] too,
+[00:41:38] 
+[00:41:38] right? So this this is the exact same
+[00:41:40] 
+[00:41:40] thing it's going to do here. Uh it's
+[00:41:42] 
+[00:41:42] going to paste the pairing phrase over
+[00:41:43] 
+[00:41:43] here. It's going to connect to Alice and
+[00:41:44] 
+[00:41:44] then actually start to execute the uh
+[00:41:46] 
+[00:41:46] phrases. So the one thing is like rather
+[00:41:47] 
+[00:41:47] than actually sort of embed L42 at the
+[00:41:49] 
+[00:41:49] transport layer, we sort of did it at
+[00:41:50] 
+[00:41:50] the application layer because the MCP
+[00:41:52] 
+[00:41:52] transport is still really in flux. Maybe
+[00:41:54] 
+[00:41:54] they're going to use websock because
+[00:41:54] 
+[00:41:54] they're using all the different things
+[00:41:55] 
+[00:41:55] as well. So the way it works is it's
+[00:41:57] 
+[00:41:57] going to try to do a tool call. it will
+[00:41:58] 
+[00:41:58] the server will reject the call because
+[00:42:00] 
+[00:42:00] hey there's no L242 key and returns the
+[00:42:02] 
+[00:42:02] components which basically the invoice
+[00:42:04] 
+[00:42:04] the macaroon and so forth basically and
+[00:42:05] 
+[00:42:05] then it's able to actually autonomously
+[00:42:07] 
+[00:42:07] say okay well I'm going to pay that
+[00:42:08] 
+[00:42:08] invoice uh get the macaroon and the
+[00:42:09] 
+[00:42:09] completed uh uh from there and now we
+[00:42:11] 
+[00:42:11] can see now it's uh connecting to
+[00:42:13] 
+[00:42:13] lightning node uh it finished the
+[00:42:14] 
+[00:42:14] connection we have some uh logs on the
+[00:42:16] 
+[00:42:16] right hand side here um we see
+[00:42:18] 
+[00:42:18] connection successful so now it's like
+[00:42:20] 
+[00:42:20] okay let me actually go through uh and
+[00:42:22] 
+[00:42:22] then actually try to call this fuzzing
+[00:42:23] 
+[00:42:23] tool so the fuzzing tool fails initially
+[00:42:25] 
+[00:42:25] because it says it needs uh an L42 key
+[00:42:27] 
+[00:42:27] so it say it gets the invoice and says
+[00:42:28] 
+[00:42:28] let me pay the invoice. It pays the
+[00:42:30] 
+[00:42:30] invoice over here. Gets the L42 token
+[00:42:32] 
+[00:42:32] completes that token basically around
+[00:42:33] 
+[00:42:33] you know because you can verify the
+[00:42:34] 
+[00:42:34] payment hash and the pre-age uh uh
+[00:42:36] 
+[00:42:36] responsibility or relationship. It makes
+[00:42:38] 
+[00:42:38] a very basic function that's called
+[00:42:40] 
+[00:42:40] multiply you know AB to different
+[00:42:41] 
+[00:42:41] integers. So right now it only accepts a
+[00:42:43] 
+[00:42:43] single function where the future can
+[00:42:44] 
+[00:42:44] actually be you know entire package. We
+[00:42:45] 
+[00:42:45] can do different languages. This is all
+[00:42:47] 
+[00:42:47] white box based. It can't be blackbox. I
+[00:42:48] 
+[00:42:48] can give you sort of an API and you can
+[00:42:49] 
+[00:42:49] just hit hit a HTTP request. And now
+[00:42:51] 
+[00:42:51] this is the fuzzing part. So this is the
+[00:42:52] 
+[00:42:52] part that takes a little bit because uh
+[00:42:54] 
+[00:42:54] you know even though we're using 2.5
+[00:42:56] 
+[00:42:56] flash here for this sometimes it can
+[00:42:57] 
+[00:42:57] just take a little bit to actually get
+[00:42:58] 
+[00:42:58] the actual uh output and then right now
+[00:43:00] 
+[00:43:00] we have it only fuzzing for 15 seconds
+[00:43:02] 
+[00:43:02] right so ideally it' be fuzzing for
+[00:43:03] 
+[00:43:03] several days and you would have a system
+[00:43:05] 
+[00:43:05] that's notifying you about the results
+[00:43:07] 
+[00:43:07] but over here we see the fuzzing uh uh
+[00:43:08] 
+[00:43:08] finished and now it's going to analyze
+[00:43:10] 
+[00:43:10] the results that we gave it back right
+[00:43:11] 
+[00:43:11] so in this case it's like okay well it
+[00:43:12] 
+[00:43:12] ran for you know 02 seconds and found
+[00:43:14] 
+[00:43:14] some critical vulnerabilities in this
+[00:43:16] 
+[00:43:16] multiplication uh function basically and
+[00:43:18] 
+[00:43:18] then it's able to say okay well these
+[00:43:19] 
+[00:43:19] were all the issues with it some of the
+[00:43:20] 
+[00:43:20] boundary conditions and the cool thing
+[00:43:22] 
+[00:43:22] Because then claude was like okay well
+[00:43:23] 
+[00:43:23] we can actually use this to improve our
+[00:43:25] 
+[00:43:25] uh program right so it's saying okay
+[00:43:26] 
+[00:43:26] well based on that failing test case
+[00:43:28] 
+[00:43:28] let's make sure that these boundary
+[00:43:29] 
+[00:43:29] cases are actually done properly
+[00:43:30] 
+[00:43:30] basically and it can go through and then
+[00:43:32] 
+[00:43:32] fix that itself and this is a pretty
+[00:43:33] 
+[00:43:33] cool demo because obviously it's a very
+[00:43:34] 
+[00:43:34] simple function here but this can be
+[00:43:35] 
+[00:43:35] used passively on any open source
+[00:43:37] 
+[00:43:37] project basically think about all the
+[00:43:38] 
+[00:43:38] Bitcoin projects Bitcoin D you know L &
+[00:43:40] 
+[00:43:40] D all these additional things basically
+[00:43:42] 
+[00:43:42] and this is a really cool way that
+[00:43:43] 
+[00:43:43] anyone can actually tap into the stuff
+[00:43:45] 
+[00:43:45] itself
+[00:43:47] 
+[00:43:47] [Applause]
+[00:43:55] 
+[00:43:55] first.
+[00:43:59] 
+[00:43:59] Hey, great great project. Way to go. Um,
+[00:44:02] 
+[00:44:02] I'm curious. Can you speak more to the
+[00:44:04] 
+[00:44:04] complexity of what you built in terms of
+[00:44:08] 
+[00:44:08] the fuzz testing? Yeah. Yeah. Um, do you
+[00:44:11] 
+[00:44:11] have Yeah. Do you have that read me uh
+[00:44:13] 
+[00:44:13] that we have? Yeah. So this is something
+[00:44:14] 
+[00:44:14] I've been thinking about just in the
+[00:44:15] 
+[00:44:15] back of my mind for some time now
+[00:44:16] 
+[00:44:16] basically because I think like maybe
+[00:44:18] 
+[00:44:18] around February I was like okay like is
+[00:44:19] 
+[00:44:19] it all hype or is it real and I was okay
+[00:44:21] 
+[00:44:21] let me actually like also for my own
+[00:44:22] 
+[00:44:22] team I have to like have to guide them
+[00:44:23] 
+[00:44:23] in terms of like what to actually use.
+[00:44:25] 
+[00:44:25] So I actually like went deep in trying
+[00:44:26] 
+[00:44:26] to using all these coding capabilities
+[00:44:27] 
+[00:44:27] as well too. So um this is probably if
+[00:44:31] 
+[00:44:31] we can render this
+[00:44:37] 
+[00:44:37] or just like do you like zoom in on
+[00:44:38] 
+[00:44:38] this? Oh, I might hit a Oh. Oh,
+[00:44:43] 
+[00:44:43] uh, but yeah, I can talk about it. So
+[00:44:44] 
+[00:44:44] like the way it works basically it's
+[00:44:45] 
+[00:44:45] sort of like pipeline based, right? So
+[00:44:47] 
+[00:44:47] we have like the chat. So we have like
+[00:44:48] 
+[00:44:48] one uh uh component basically that's
+[00:44:50] 
+[00:44:50] responsible for like writing the actual
+[00:44:51] 
+[00:44:51] fuss test itself. Then we actually
+[00:44:53] 
+[00:44:53] execute that. So we had to add a loop to
+[00:44:55] 
+[00:44:55] like make sure like it can actually test
+[00:44:56] 
+[00:44:56] and compile basically because sometimes
+[00:44:57] 
+[00:44:57] it wouldn't give us something that would
+[00:44:58] 
+[00:44:58] compile fully. So there's another loop
+[00:44:59] 
+[00:44:59] that basically doing the compilation and
+[00:45:01] 
+[00:45:01] then it's going to be executing. And the
+[00:45:02] 
+[00:45:02] cool part is sort of like the optimizer,
+[00:45:04] 
+[00:45:04] right? So the optimizer gets the actual
+[00:45:06] 
+[00:45:06] uh test the output of the fuzz test and
+[00:45:07] 
+[00:45:07] then also the original program and it's
+[00:45:09] 
+[00:45:09] going to be trying to generate
+[00:45:10] 
+[00:45:10] additional coverage right. So if that's
+[00:45:11] 
+[00:45:11] implemented right now what we haven't
+[00:45:12] 
+[00:45:12] implemented is sort of like giving it
+[00:45:13] 
+[00:45:13] access to the full like HTML type
+[00:45:15] 
+[00:45:15] coverage report basically and then also
+[00:45:17] 
+[00:45:17] letting it know more explicitly around
+[00:45:18] 
+[00:45:18] like what failed and what didn't
+[00:45:19] 
+[00:45:19] actually fail. So probably I think the
+[00:45:21] 
+[00:45:21] biggest complexity was like thinking
+[00:45:22] 
+[00:45:22] about some of the prompts generally
+[00:45:24] 
+[00:45:24] basically and then also getting the
+[00:45:25] 
+[00:45:25] pipeline working to a degree where we
+[00:45:26] 
+[00:45:26] could give it arbitrary programs and and
+[00:45:28] 
+[00:45:28] what we learned I think what I learned
+[00:45:29] 
+[00:45:29] most is sort of like adding like levels
+[00:45:31] 
+[00:45:31] of redundancy checks basically because
+[00:45:32] 
+[00:45:32] initially we would just send it
+[00:45:33] 
+[00:45:33] something it wouldn't compile and it
+[00:45:34] 
+[00:45:34] would fail basically right but then
+[00:45:35] 
+[00:45:35] instead okay let's make sure it can
+[00:45:36] 
+[00:45:36] actually do the linting let's make sure
+[00:45:38] 
+[00:45:38] it compiles let's make make sure the
+[00:45:39] 
+[00:45:39] text actually run and that was something
+[00:45:40] 
+[00:45:40] that I think um uh you know took a
+[00:45:42] 
+[00:45:42] little bit of time but the other thing
+[00:45:43] 
+[00:45:43] is that like right now it's all single
+[00:45:44] 
+[00:45:44] thread it runs on one computer basically
+[00:45:45] 
+[00:45:45] right and like with the way that the
+[00:45:46] 
+[00:45:46] model works you can you can actually
+[00:45:48] 
+[00:45:48] have it be running on docker containers
+[00:45:49] 
+[00:45:49] or in several machines that maybe you're
+[00:45:51] 
+[00:45:51] just running passively basically and
+[00:45:52] 
+[00:45:52] have it, you know, do asynchronous
+[00:45:53] 
+[00:45:53] updates as far as like the jobs what's
+[00:45:55] 
+[00:45:55] going on.
+[00:45:57] 
+[00:45:57] Awesome. Great project. By the way, um I
+[00:45:59] 
+[00:45:59] was wondering, you know, open source
+[00:46:01] 
+[00:46:01] often lists off donations. How are you
+[00:46:04] 
+[00:46:04] thinking about having other people fund
+[00:46:07] 
+[00:46:07] the AI to fastest build to fastest? Uh
+[00:46:11] 
+[00:46:11] yeah, that's a good question. like um so
+[00:46:13] 
+[00:46:13] someone could sort of just like pay
+[00:46:15] 
+[00:46:15] passively to it to like let it pay its
+[00:46:17] 
+[00:46:17] bills you can say because right now it's
+[00:46:18] 
+[00:46:18] running just on my computer but in the
+[00:46:20] 
+[00:46:20] future it can be running on actual like
+[00:46:21] 
+[00:46:21] ads instance something like that itself
+[00:46:22] 
+[00:46:22] right another thing is that like um you
+[00:46:24] 
+[00:46:24] know because we're doing things that
+[00:46:26] 
+[00:46:26] like don't need to always complete
+[00:46:27] 
+[00:46:27] there's certain ways you can do things
+[00:46:28] 
+[00:46:28] like ads bot instances where you can
+[00:46:30] 
+[00:46:30] basically pay for an instance and maybe
+[00:46:31] 
+[00:46:31] they'll shut it down but if you can get
+[00:46:32] 
+[00:46:32] the reports back and then give it to
+[00:46:34] 
+[00:46:34] another worker basically that can be a
+[00:46:35] 
+[00:46:35] beneficial uh part of it there and there
+[00:46:37] 
+[00:46:37] can be like you know just a donation
+[00:46:38] 
+[00:46:38] aspect of it too but I think it's
+[00:46:40] 
+[00:46:40] something that like can be useful for
+[00:46:41] 
+[00:46:41] you know many projects in the space.
+[00:46:43] 
+[00:46:43] Have you tried feeding this something
+[00:46:45] 
+[00:46:45] like L & D or Bitcoin core yet? Are
+[00:46:48] 
+[00:46:48] there any bugs? No comment.
+[00:46:52] 
+[00:46:52] No. Uh not yet because we were just
+[00:46:53] 
+[00:46:53] focused on the trivial case. So I mean
+[00:46:55] 
+[00:46:55] so I definitely had a bunch of grand you
+[00:46:56] 
+[00:46:56] know visions but we wanted to just get
+[00:46:58] 
+[00:46:58] this thing working and actually I think
+[00:46:59] 
+[00:46:59] a lot of the cool stuff was also like us
+[00:47:01] 
+[00:47:01] going on the application layer for L4
+[00:47:03] 
+[00:47:03] too because that made it look super easy
+[00:47:04] 
+[00:47:04] because cloud could just figure out
+[00:47:05] 
+[00:47:05] exactly what it needs to do to pay the
+[00:47:06] 
+[00:47:06] invoices without worrying about another
+[00:47:08] 
+[00:47:08] set and also simplify this up I think
+[00:47:09] 
+[00:47:09] locally the way we had it as well like
+[00:47:11] 
+[00:47:11] macaroon validation as well at the tool
+[00:47:13] 
+[00:47:13] level. Yeah, exactly. So we can also
+[00:47:15] 
+[00:47:15] give it like more um you know fine grain
+[00:47:17] 
+[00:47:17] macaroons to basically only allow it to
+[00:47:19] 
+[00:47:19] do certain tool calls and this can be
+[00:47:20] 
+[00:47:20] this can be a remote tool call thing as
+[00:47:22] 
+[00:47:22] well. And then we had this other whole
+[00:47:23] 
+[00:47:23] wom layer as well that we cut out
+[00:47:25] 
+[00:47:25] because of the sake of time and stuff
+[00:47:27] 
+[00:47:27] like that, but it's pretty cool.
+[00:47:32] 
+[00:47:32] Awesome. Thank
+[00:47:37] 
+[00:47:37] you. So with that, that is our last
+[00:47:41] 
+[00:47:41] presentation. Let's just get one more
+[00:47:43] 
+[00:47:43] round of applause for everybody.
+[00:47:50] 
+[00:47:50] All right. So now we can let the nerves
+[00:47:53] 
+[00:47:53] settle in. Let's get maybe what do we
+[00:47:56] 
+[00:47:56] think judges? 10 minutes to review, go
+[00:48:00] 
+[00:48:00] over everything and decide. Remember we
+[00:48:03] 
+[00:48:03] have first, second, third. We have most
+[00:48:05] 
+[00:48:05] sci-fi. Crowd favorite will be decided
+[00:48:07] 
+[00:48:07] by the people. And then also the
+[00:48:10] 
+[00:48:10] beginner. Best beginner. So what do you
+[00:48:12] 
+[00:48:12] think? Do we have 5, 10 minutes? Maybe
+[00:48:14] 
+[00:48:14] go into the other room, deliberate if
+[00:48:15] 
+[00:48:15] you need to. First award, crowd favorite
+[00:48:20] 
+[00:48:20] goes to a gentic fuzzing league. Get up
+[00:48:23] 
+[00:48:23] here.
+[00:48:25] 
+[00:48:25] Yeah. So, what we're going to do is when
+[00:48:27] 
+[00:48:27] we announce, you can come up. We're
+[00:48:28] 
+[00:48:28] going to do a quick picture. We got a we
+[00:48:31] 
+[00:48:31] got a Presidio Bitcoin check.
+[00:48:34] 
+[00:48:34] [Applause]
+[00:48:38] 
+[00:48:38] There it is.
+[00:48:41] 
+[00:48:41] [Applause]
+[00:48:53] 
+[00:48:53] Thank you. All right.
+[00:48:56] 
+[00:48:56] We'll we'll send these pictures after.
+[00:49:00] 
+[00:49:00] All right. For most sci-fi, we
+[00:49:04] 
+[00:49:04] have Unstuck AI.
+[00:49:08] 
+[00:49:08] Come up
+[00:49:09] 
+[00:49:09] [Applause]
+[00:49:12] 
+[00:49:12] here once again. Get your picture taken.
+[00:49:18] 
+[00:49:18] Very official. Look at that. Is there
+[00:49:20] 
+[00:49:20] another round of applause?
+[00:49:30] 
+[00:49:30] So,
+[00:49:32] 
+[00:49:32] next for best
+[00:49:36] 
+[00:49:36] beginner, we have Anul with Bit Buddy.
+[00:49:41] 
+[00:49:41] Where you
+[00:49:43] 
+[00:49:43] at? There you are. Come on up here.
+[00:49:53] 
+[00:49:53] Anul came in last night and we were
+[00:49:55] 
+[00:49:55] chatting with him D++ and I until like
+[00:49:57] 
+[00:49:57] 11 and then he just started like packing
+[00:50:00] 
+[00:50:00] at that point and here we are. Let's get
+[00:50:02] 
+[00:50:02] another round of applause.
+[00:50:07] 
+[00:50:07] All right, now getting to the top three.
+[00:50:11] 
+[00:50:11] Starting with third place, we have Super
+[00:50:17] 
+[00:50:17] Sonic. Get up here.
+[00:50:22] 
+[00:50:22] For those of you who saw their
+[00:50:23] 
+[00:50:23] presentation, you might have seen that
+[00:50:24] 
+[00:50:24] PBJ was one of the podcasts on there. Uh
+[00:50:27] 
+[00:50:27] that's uh the I need to change this
+[00:50:29] 
+[00:50:29] number. You can do it. Oh, it's live.
+[00:50:33] 
+[00:50:33] Yes, you do need to change it.
+[00:50:35] 
+[00:50:35] Actually, the PBJ podcast, for those of
+[00:50:39] 
+[00:50:39] you who don't know, which is probably
+[00:50:40] 
+[00:50:40] none of you because I told you
+[00:50:41] 
+[00:50:41] yesterday, but Presidio Bitcoin Jam,
+[00:50:43] 
+[00:50:43] that's the podcast that we do out of the
+[00:50:45] 
+[00:50:45] Presidio uh Bitcoin space, hosted every
+[00:50:48] 
+[00:50:48] Friday at 12. So, you should tune in.
+[00:50:54] 
+[00:50:54] I guess I got There we go.
+[00:50:56] 
+[00:50:56] Let's do Let's give him another round of
+[00:50:58] 
+[00:50:59] [Applause]
+[00:51:10] 
+[00:51:10] applause. All right, second
+[00:51:15] 
+[00:51:15] place we have Unstuck AI. Come back up.
+[00:51:20] 
+[00:51:20] Don't go too
+[00:51:23] 
+[00:51:23] far. You're going to get a You're going
+[00:51:26] 
+[00:51:26] to get a second picture taken.
+[00:51:33] 
+[00:51:33] There we go. Clap again. This is all
+[00:51:38] 
+[00:51:38] claps. This is the good
+[00:51:41] 
+[00:51:41] energy. All right, for first place, can
+[00:51:44] 
+[00:51:44] I get a drum roll, please?
+[00:51:49] 
+[00:51:49] Aentic fuzzing
+[00:51:51] 
+[00:51:51] league. Got to get back up here again.
+[00:52:03] 
+[00:52:03] I understood like half of what you guys
+[00:52:04] 
+[00:52:04] said, which is why I knew you did good.
+[00:52:07] 
+[00:52:07] We're gonna make everything secure.
+[00:52:10] 
+[00:52:10] [Applause]
+[00:52:12] 
+[00:52:12] This is a big number. I got to write
+[00:52:13] 
+[00:52:13] this down.
+[00:52:15] 
+[00:52:15] There we go.
+[00:52:19] 
+[00:52:19] 4 million Bitcoin.
+[00:52:22] 
+[00:52:22] All right, let's get that another round
+[00:52:24] 
+[00:52:24] of applause.
+[00:52:35] 
+[00:52:35] So now before we let everyone free,
+[00:52:37] 
+[00:52:37] we're just going to do some quick quick
+[00:52:39] 
+[00:52:39] closing remarks. I want to invite a few
+[00:52:40] 
+[00:52:40] of the judges, anyone who wants to come
+[00:52:42] 
+[00:52:42] up. Well, not everyone. the judges, the
+[00:52:43] 
+[00:52:43] judges who want to come say something,
+[00:52:46] 
+[00:52:46] please uh come
+[00:52:48] 
+[00:52:48] up and then just offer some thoughts.
+[00:52:51] 
+[00:52:51] Offer some thoughts about the last 24
+[00:52:53] 
+[00:52:53] hours. Uh well, a lot of the judges
+[00:52:55] 
+[00:52:55] who've been a part of this process for
+[00:52:56] 
+[00:52:56] the last few months. We've been planning
+[00:52:58] 
+[00:52:58] this for about
+[00:53:05] 
+[00:53:05] I've been kicked off the
+[00:53:06] 
+[00:53:06] mic. Uh I guess while they're getting
+[00:53:09] 
+[00:53:09] set. Yeah, we've been playing this for
+[00:53:10] 
+[00:53:10] about two months. This has been uh our
+[00:53:12] 
+[00:53:12] obviously first hackathon. So we're
+[00:53:14] 
+[00:53:14] we're learning as we go and we've had a
+[00:53:17] 
+[00:53:17] lot of mentors along the way who have
+[00:53:18] 
+[00:53:18] given us some tips. So uh huge thanks to
+[00:53:21] 
+[00:53:21] them. Huge thanks to the sponsors for
+[00:53:23] 
+[00:53:23] everything you've done to make this
+[00:53:24] 
+[00:53:24] possible. Huge thanks to everyone here
+[00:53:26] 
+[00:53:26] who came and was hacking. Just like you
+[00:53:29] 
+[00:53:29] came, you gave it your everything. I
+[00:53:31] 
+[00:53:31] mean I went and I was sleeping. I was
+[00:53:33] 
+[00:53:33] like I don't know how they're staying up
+[00:53:34] 
+[00:53:34] all night. So really huge thanks to you
+[00:53:37] 
+[00:53:37] for making this first one just amazing.
+[00:53:39] 
+[00:53:39] There will be more. That is a promise.
+[00:53:41] 
+[00:53:41] Uh so we will have to now live up to it.
+[00:53:44] 
+[00:53:44] All right, judges. See you next weekend.
+[00:53:48] 
+[00:53:48] Yeah. Well, if you weren't here
+[00:53:49] 
+[00:53:49] yesterday, my name is Alex Lee. I'm with
+[00:53:51] 
+[00:53:51] the Human Rights Foundation. I just
+[00:53:52] 
+[00:53:52] first of all wanted to thank Presidio
+[00:53:54] 
+[00:53:54] Bitcoin and all the hackers here for
+[00:53:56] 
+[00:53:56] making this event possible. It's been
+[00:53:57] 
+[00:53:57] incredibly enlightening, educational.
+[00:53:59] 
+[00:53:59] It's been so much fun to listen to
+[00:54:01] 
+[00:54:01] listen and see all your project demos,
+[00:54:04] 
+[00:54:04] uh see your presentations, and yeah, it
+[00:54:06] 
+[00:54:06] was an incredible 24 hours. So, thank
+[00:54:08] 
+[00:54:08] you to everyone who made this possible
+[00:54:10] 
+[00:54:10] first. Um, this is my first time judging
+[00:54:14] 
+[00:54:14] a hackathon, so I didn't really know was
+[00:54:16] 
+[00:54:16] what I would be getting into, but it's
+[00:54:18] 
+[00:54:18] just been incredible. Um, it's been
+[00:54:21] 
+[00:54:21] incredible to see how all of you can now
+[00:54:23] 
+[00:54:23] just add payments to all of your apps uh
+[00:54:25] 
+[00:54:25] using Bitcoin, right? We don't have to
+[00:54:27] 
+[00:54:27] use permission systems. We don't have to
+[00:54:29] 
+[00:54:29] use fiat systems. We can use freedom
+[00:54:32] 
+[00:54:32] money.
+[00:54:35] 
+[00:54:35] Um, yeah. And yeah, it's it's been an
+[00:54:39] 
+[00:54:39] amazing 24 hours. Thank you for
+[00:54:42] 
+[00:54:42] everything. If you want to talk to me
+[00:54:44] 
+[00:54:44] later, I'll be around here for a bit.
+[00:54:46] 
+[00:54:46] And yeah, if you want to apply for a
+[00:54:48] 
+[00:54:48] grant, work on free open source
+[00:54:49] 
+[00:54:49] software, just go to
+[00:54:51] 
+[00:54:51] hrf.org/devf fun. And if you want to
+[00:54:53] 
+[00:54:53] learn more about our AI program, AI for
+[00:54:55] 
+[00:54:55] AI for individual rights program, go to
+[00:54:57] 
+[00:54:57] hrf.orgai.
+[00:55:04] 
+[00:55:04] And then we're out of the city of
+[00:55:05] 
+[00:55:05] Bitcoin.
+[00:55:08] 
+[00:55:08] You want to go? All right. Okay. So, um
+[00:55:11] 
+[00:55:11] to me, first of all, I wanted to thank
+[00:55:14] 
+[00:55:14] uh PB for organizing this. I think it's
+[00:55:16] 
+[00:55:16] amazing for us to come together here and
+[00:55:18] 
+[00:55:18] build on Bitcoin. And uh really big
+[00:55:21] 
+[00:55:21] applause to the team to really get this
+[00:55:25] 
+[00:55:25] together. And I I was reflecting a
+[00:55:29] 
+[00:55:29] little bit like how far we have come as
+[00:55:31] 
+[00:55:31] a community. Like when you think about
+[00:55:34] 
+[00:55:34] like for example Matt mentioned that
+[00:55:36] 
+[00:55:36] earlier like we have now tools that
+[00:55:38] 
+[00:55:38] literally everyone can build. Everyone
+[00:55:41] 
+[00:55:41] can accept payments in 24 hours and
+[00:55:45] 
+[00:55:45] build tools we never thought we can
+[00:55:47] 
+[00:55:47] build in 24 hours. That was unthinkable
+[00:55:50] 
+[00:55:50] in a year ago, right? And I think um all
+[00:55:54] 
+[00:55:54] the sponsors that were here for example
+[00:55:56] 
+[00:55:56] had their hard work put into that to
+[00:55:59] 
+[00:55:59] build these tools. So maybe also an
+[00:56:01] 
+[00:56:01] applause to all the wonderful tools we
+[00:56:03] 
+[00:56:03] had available during this hackathon
+[00:56:05] 
+[00:56:05] because just think about it we without
+[00:56:07] 
+[00:56:07] them it wouldn't have worked and uh I'm
+[00:56:10] 
+[00:56:10] I'm also tremendously proud like my job
+[00:56:13] 
+[00:56:13] to build software every day and I'm
+[00:56:15] 
+[00:56:15] grateful for that. Um and I'm so proud
+[00:56:17] 
+[00:56:17] of all of you that you build software
+[00:56:20] 
+[00:56:20] now and uh I think it's amazing just to
+[00:56:22] 
+[00:56:22] see that and yeah thank you for for
+[00:56:24] 
+[00:56:24] coming. I'm really proud.
+[00:56:30] 
+[00:56:30] Yeah, I mean I a couple thoughts. First
+[00:56:32] 
+[00:56:32] of all, also the whole team at Presidio
+[00:56:34] 
+[00:56:34] Bitcoin, they made all this possible. Um
+[00:56:36] 
+[00:56:36] maybe a special shout out to Austin. He
+[00:56:38] 
+[00:56:38] really busted ass and went above and
+[00:56:47] 
+[00:56:47] beyond. He was on top of us the whole
+[00:56:49] 
+[00:56:49] way. Also, D++ did a tremendous amount
+[00:56:52] 
+[00:56:52] as well.
+[00:56:58] 
+[00:56:58] Um, so I want to maybe just share a
+[00:57:01] 
+[00:57:01] couple of my reactions because coming
+[00:57:02] 
+[00:57:02] into it yesterday, I I talked a little
+[00:57:04] 
+[00:57:04] bit about some of the sci-fi that I
+[00:57:06] 
+[00:57:06] hoped I would see. Uh, and and you know,
+[00:57:08] 
+[00:57:08] ways my mind would would hopefully get
+[00:57:10] 
+[00:57:10] blown. Um, and I have to say both of
+[00:57:12] 
+[00:57:12] those did indeed happen. Um, first of
+[00:57:14] 
+[00:57:14] all, uh, it was a real pleasure just to
+[00:57:16] 
+[00:57:16] get to meet so many of you. Some of you
+[00:57:17] 
+[00:57:17] I know as various nims from from Nost or
+[00:57:20] 
+[00:57:20] whatever. It was very cool. Uh I had the
+[00:57:22] 
+[00:57:22] great pleasure last night of potentially
+[00:57:23] 
+[00:57:23] discovering uh a model that is alive
+[00:57:26] 
+[00:57:26] with my new buddy here Stevens. That was
+[00:57:27] 
+[00:57:27] a lot of fun. Um and uh and then I got
+[00:57:31] 
+[00:57:31] to meet a whole bunch of you which was
+[00:57:32] 
+[00:57:32] incredible as well. I think um what I
+[00:57:35] 
+[00:57:35] would uh two big categories that I
+[00:57:37] 
+[00:57:37] mentioned yesterday. Number one is the
+[00:57:39] 
+[00:57:39] vibe coding stuff again. Um I think you
+[00:57:41] 
+[00:57:41] know I was mentioning this to Matt. It's
+[00:57:43] 
+[00:57:43] so incredible like to see what he and
+[00:57:45] 
+[00:57:45] some other vibe coders are able to
+[00:57:46] 
+[00:57:46] build. It inspired me. Um, and one of my
+[00:57:49] 
+[00:57:49] hopes coming out of this is that, you
+[00:57:50] 
+[00:57:50] know, we democratize the access to
+[00:57:52] 
+[00:57:52] building, not software, you know,
+[00:57:53] 
+[00:57:53] development per se, but just actually
+[00:57:55] 
+[00:57:55] building, right? Like, you know, you
+[00:57:57] 
+[00:57:57] know, we were talking about this in the
+[00:57:58] 
+[00:57:58] judging room. There are software
+[00:57:59] 
+[00:57:59] engineers that maybe, you know, end up
+[00:58:00] 
+[00:58:00] working 100 hours and still aren't able
+[00:58:02] 
+[00:58:02] to to finish a project and now someone
+[00:58:03] 
+[00:58:03] with an idea maybe can get it done in
+[00:58:05] 
+[00:58:05] just an hour. And that's crazy. So, one
+[00:58:07] 
+[00:58:07] of my hopes coming out of this is that
+[00:58:09] 
+[00:58:09] we're going to see new content um to
+[00:58:11] 
+[00:58:11] basically empower people to use Replet,
+[00:58:13] 
+[00:58:13] fire that up with the Nostra utils, with
+[00:58:16] 
+[00:58:16] the Bitcoin utils, with the lightning
+[00:58:19] 
+[00:58:19] utils, um to do what people like also
+[00:58:21] 
+[00:58:21] doing, just coming out of nowhere and
+[00:58:22] 
+[00:58:22] actually shipping a product. I think we
+[00:58:25] 
+[00:58:25] could see, you know, because in the
+[00:58:26] 
+[00:58:26] Bitcoin community, there's so many
+[00:58:28] 
+[00:58:28] people that are so passionate and only,
+[00:58:30] 
+[00:58:30] you know, the tip of the iceberg
+[00:58:31] 
+[00:58:31] technical, right? And so maybe that's
+[00:58:33] 
+[00:58:33] going to unw uh unlock in the next year
+[00:58:35] 
+[00:58:35] a golden age of Bitcoin app innovation.
+[00:58:38] 
+[00:58:38] Maybe we'll see orders of magnitude more
+[00:58:40] 
+[00:58:40] app ships. So I really hope that
+[00:58:42] 
+[00:58:42] happens. I think we're on the way. Um
+[00:58:43] 
+[00:58:43] the second thing though is like the
+[00:58:45] 
+[00:58:45] sci-fi. I am leaving this even more uh
+[00:58:49] 
+[00:58:49] certain than I was yesterday that we're
+[00:58:50] 
+[00:58:50] going to see autonomous digital life
+[00:58:51] 
+[00:58:51] with Bitcoin, with Lightning, with
+[00:58:53] 
+[00:58:53] Noster, with confidential comput. And
+[00:58:54] 
+[00:58:54] it's going to be [ __ ] crazy. Uh, some
+[00:58:56] 
+[00:58:56] of it's going to be good, some of it
+[00:58:58] 
+[00:58:58] might be bad. But in the long run, I
+[00:59:00] 
+[00:59:00] think Lu is telling me we're going to
+[00:59:01] 
+[00:59:01] see the arc, you know, potentially from
+[00:59:02] 
+[00:59:02] some books. Maybe it'll go dystopian.
+[00:59:04] 
+[00:59:04] Then we're going to get to the golden
+[00:59:05] 
+[00:59:05] age of a solar punk protopia. I'm I'm
+[00:59:08] 
+[00:59:08] pretty sure of that. So, let's let's
+[00:59:09] 
+[00:59:09] [ __ ] go there.
+[00:59:12] 
+[00:59:12] Um, but but it really did blow my mind.
+[00:59:14] 
+[00:59:14] I mean, ju just to give a couple of
+[00:59:16] 
+[00:59:16] shout outs to this, I think, you know,
+[00:59:18] 
+[00:59:18] uh, the guys were working on Darwin,
+[00:59:20] 
+[00:59:20] like if they continue, I mean, I know
+[00:59:22] 
+[00:59:22] they have another company they're
+[00:59:22] 
+[00:59:22] working on, too. Um, but that could be,
+[00:59:24] 
+[00:59:24] you know, a PhD level thesis on the
+[00:59:27] 
+[00:59:27] future of game theory, something that
+[00:59:28] 
+[00:59:28] literally was not possible before
+[00:59:29] 
+[00:59:29] without the AI agents and real hard
+[00:59:32] 
+[00:59:32] money. So that that's like a really
+[00:59:33] 
+[00:59:33] really cool example. Um, we were joking
+[00:59:36] 
+[00:59:36] about this, but with unstuck AI, you
+[00:59:38] 
+[00:59:38] know, this could be really [ __ ] cool.
+[00:59:40] 
+[00:59:40] It certainly has inspired me about
+[00:59:41] 
+[00:59:41] what's possible using Noster. U, it
+[00:59:43] 
+[00:59:43] could end up being dystopian, as Steven
+[00:59:45] 
+[00:59:45] said, where perhaps we're working for
+[00:59:47] 
+[00:59:47] the AIs. Um, but it'll be it'll be
+[00:59:50] 
+[00:59:50] extremely interesting. And then you know
+[00:59:51] 
+[00:59:51] with what we saw with uh with Lu's
+[00:59:53] 
+[00:59:53] project as well. I mean the future of
+[00:59:54] 
+[00:59:54] software engineering is about to get
+[00:59:56] 
+[00:59:56] absolutely crazy where you can now not
+[00:59:58] 
+[00:59:58] just prototype an app with VIP coding
+[00:59:59] 
+[00:59:59] but with something like what he built
+[01:00:01] 
+[01:00:01] get it into production level potentially
+[01:00:03] 
+[01:00:03] also with Bitcoin incentives as bounties
+[01:00:05] 
+[01:00:05] around all the software that we're
+[01:00:06] 
+[01:00:06] building. Um maybe reharden as Drew
+[01:00:09] 
+[01:00:09] Bansel has mentioned a few times the
+[01:00:10] 
+[01:00:10] entire process of software development.
+[01:00:12] 
+[01:00:12] So I say all of that just to say I think
+[01:00:15] 
+[01:00:15] the future is about to get a lot crazier
+[01:00:17] 
+[01:00:17] than it is today. I think eventually
+[01:00:18] 
+[01:00:18] it'll be very bright. Uh, and hopefully
+[01:00:20] 
+[01:00:20] the people in this room are the ones
+[01:00:21] 
+[01:00:21] that build that solar punk protoia. So,
+[01:00:24] 
+[01:00:24] uh, round of applause for all of you for
+[01:00:25] 
+[01:00:25] making this
+[01:00:27] 
+[01:00:27] happen. And
+[01:00:30] 
+[01:00:30] and one more cuz we haven't done enough
+[01:00:33] 
+[01:00:33] rounds of applause. One more for Alex
+[01:00:36] 
+[01:00:36] and D++, please. Just one more.
+[01:00:40] 
+[01:00:40] I'm telling you, they both did a ton of
+[01:00:43] 
+[01:00:43] work for this D++ especially with
+[01:00:45] 
+[01:00:45] building the lightning voting that we
+[01:00:46] 
+[01:00:46] just saw. And last night, I'll never
+[01:00:48] 
+[01:00:48] forget just like remembering before I
+[01:00:49] 
+[01:00:49] went to bed at 2 am, some of the people
+[01:00:51] 
+[01:00:51] who were still here hacking at 2 am
+[01:00:52] 
+[01:00:52] would take breaks to go play uh the
+[01:00:55] 
+[01:00:55] Mario Kart game with integrated
+[01:00:56] 
+[01:00:56] lightning. I think that is the small
+[01:00:58] 
+[01:00:58] detail that people will remember
+[01:01:00] 
+[01:01:00] forever. So, huge thank you for that and
+[01:01:03] 
+[01:01:03] thank you everybody for coming. I think
+[01:01:04] 
+[01:01:04] that's it. So, with that said, and I
+[01:01:07] 
+[01:01:07] don't know if we're kicking people out a
+[01:01:08] 
+[01:01:08] certain time, but I guess that's a no
+[01:01:10] 
+[01:01:10] closing time. Enjoy uh enjoy your time.
+[01:01:13] 
+[01:01:13] Definitely network with anyone before
+[01:01:14] 
+[01:01:14] you go. And thank you so much.
+[01:01:19] 
+[01:01:19] And don't forget, Bitcoin is Bitcoin.

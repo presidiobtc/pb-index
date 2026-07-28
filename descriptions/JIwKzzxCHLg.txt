@@ -1,0 +1,29 @@
+0:00 March Madness, Serbia, and some of our favorite things
+4:13 Did Tornado cash just get vindicated?
+13:17 It's past time to revisit money service licensing for modern, non-custodial services
+15:07 Potential solutions to the BSA and how the bitcoin community can support
+22:04 Why were bullish on the open source Payjoin project
+34:11 How Payjoin takes transaction batching up another notch
+36:26 The Payjoin vision and project roadmap
+https://payjoindevkit.org/2025/03/18/the-evolution-of-payjoin/ 
+39:18 Can Nostr help here for payment coordination and wallet adoption?
+https://primal.net/e/nevent1qqsq594v6f6sv7k3u65yqsnl730r5lerrmz4s08egsyg5hfrqckz7sgjgvmw6 
+46:17 What are the ways and projects to scale bitcoin
+https://x.com/MaxAWebster/status/1901702034182852950 
+1:01:05 Are graduated wallet libraries a path to integrate bitcoin for everyone?
+1:06:25 What else can Nostr be used for, AI agents to run the mints?
+1:14:58 Governance and the human element of AI agents
+1:21:15 Three things Max would invest in: bandwidth, storage, or compute built on Nostr
+1:26:33 What do we do with bitcoin keys that can't be upgraded for quantum resistance?
+https://blog.lopp.net/against-quantum-recovery-of-bitcoin/
+
+Follow Presidio Bitcoin Jam:
+Spotify: https://open.spotify.com/show/0N8ZFqA...
+Apple Podcasts: https://podcasts.apple.com/us/podcast...
+X: https://x.com/presidiobitcoin
+YouTube: ‪@PresidioBitcoin‬
+
+Follow Steve, Max, and DK:
+https://x.com/moneyball
+https://x.com/maxawebster
+https://x.com/dksf

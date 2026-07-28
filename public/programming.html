@@ -1,0 +1,374 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Presidio Bitcoin Index - Programming</title>
+  <link rel="icon" href="https://www.presidiobitcoin.org/favicon.png" type="image/png">
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --green:      #1f4d2a;
+      --green-mid:  #2a6438;
+      --green-light:#e8f0ea;
+      --text:       #111;
+      --muted:      #666;
+      --border:     #ddd;
+      --bg:         #fff;
+    }
+
+    body {
+      font-family: Georgia, 'Times New Roman', serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+    }
+
+    /* ── Header ── */
+    .site-header { background: var(--green); padding: 0 24px; }
+    .header-inner {
+      max-width: 960px; margin: 0 auto;
+      display: flex; align-items: center; justify-content: space-between;
+      height: 52px;
+    }
+    .site-logo {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      font-size: 16px; font-weight: 700; color: #fff;
+      text-decoration: none; letter-spacing: -0.2px;
+    }
+    .site-logo img {
+      height: 28px;
+      width: 28px;
+      object-fit: contain;
+      filter: brightness(0) invert(1);
+      flex-shrink: 0;
+    }
+    .site-nav { display: flex; align-items: center; gap: 2px; }
+    .nav-link {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      font-size: 13px; font-weight: 500; padding: 5px 10px; border-radius: 5px;
+      color: rgba(255,255,255,0.65); text-decoration: none;
+      transition: color 0.12s, background 0.12s; white-space: nowrap;
+    }
+    .nav-link:hover { color: #fff; }
+    .nav-link.active { background: rgba(255,255,255,0.12); color: #fff; }
+    .nav-sep { width: 1px; height: 18px; background: rgba(255,255,255,0.2); margin: 0 6px; flex-shrink: 0; }
+    .icon-link {
+      display: flex; align-items: center; justify-content: center;
+      color: rgba(255,255,255,0.6); padding: 5px; border-radius: 5px;
+      text-decoration: none; transition: color 0.12s, background 0.12s; flex-shrink: 0;
+    }
+    .icon-link:hover { color: #fff; background: rgba(255,255,255,0.08); }
+    .icon-link svg { width: 16px; height: 16px; fill: currentColor; display: block; }
+    .ext-link { font-size: 12px; opacity: 0.75; margin-left: 4px; }
+    .ext-link:hover { opacity: 1; }
+
+    /* ── Page ── */
+    .page-wrap { max-width: 780px; margin: 0 auto; padding: 40px 24px 100px; }
+
+    .page-title { font-size: 28px; font-weight: normal; margin-bottom: 4px; }
+    .page-sub {
+      font-size: 14px; color: var(--muted); margin-bottom: 40px;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    }
+    .page-sub a {
+      color: var(--green);
+      font-weight: 700;
+      text-decoration: none;
+      border-bottom: 1.5px solid var(--green-light);
+    }
+    .page-sub a:hover {
+      border-bottom-color: var(--green);
+    }
+    .nowrap { white-space: nowrap; }
+    /* ── Event card ── */
+    .event-card {
+      border: 1.5px solid var(--border);
+      border-radius: 10px;
+      padding: 28px 32px;
+      margin-bottom: 28px;
+      scroll-margin-top: 24px;
+      display: flex;
+      gap: 28px;
+      align-items: flex-start;
+    }
+    .event-card:target {
+      border-color: var(--green);
+      box-shadow: 0 0 0 3px rgba(31,77,42,0.1);
+    }
+    .event-image {
+      width: 160px;
+      flex-shrink: 0;
+      height: auto;
+      border-radius: 6px;
+      display: block;
+    }
+    .event-body {
+      flex: 1;
+      min-width: 0;
+    }
+    @media (max-width: 560px) {
+      .event-card { flex-direction: column; }
+      .event-image { width: 100%; max-width: 260px; }
+    }
+
+    .event-type-row {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      margin-bottom: 12px;
+    }
+    .event-type-badge {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      background: var(--green-light);
+      color: var(--green);
+      padding: 2px 8px;
+      border-radius: 999px;
+    }
+    .event-date {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      font-size: 13px;
+      color: var(--muted);
+    }
+
+    .event-title-row {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      margin-bottom: 14px;
+    }
+    .event-title {
+      font-size: 22px;
+      font-weight: normal;
+      color: var(--text);
+      line-height: 1.3;
+    }
+    .permalink {
+      display: flex;
+      align-items: center;
+      color: var(--muted);
+      text-decoration: none;
+      opacity: 0;
+      transition: opacity 0.12s;
+      flex-shrink: 0;
+    }
+    .permalink svg { width: 16px; height: 16px; }
+    .event-card:hover .permalink { opacity: 1; }
+    .permalink:hover { color: var(--green); }
+    .permalink-copied { color: var(--green) !important; opacity: 1 !important; transition: none; }
+
+    .event-blurb {
+      font-size: 15px;
+      line-height: 1.75;
+      color: #333;
+      margin-bottom: 22px;
+    }
+
+    /* ── Output links ── */
+    .output-links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+    .output-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 7px;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      font-size: 13px;
+      font-weight: 500;
+      color: var(--green);
+      background: var(--green-light);
+      border: 1.5px solid transparent;
+      padding: 6px 14px;
+      border-radius: 6px;
+      text-decoration: none;
+      transition: background 0.12s, border-color 0.12s, color 0.12s;
+    }
+    .output-link:hover {
+      background: var(--green);
+      color: #fff;
+      border-color: var(--green);
+    }
+    .output-link svg {
+      width: 14px; height: 14px; fill: currentColor; flex-shrink: 0;
+    }
+
+    @media (max-width: 600px) {
+      .site-header { padding: 0 10px; }
+      .icon-link, .nav-sep, .ext-link { display: none; }
+      .logo-text { display: none; }
+      .site-logo { gap: 0; }
+      .nav-link { font-size: 11px; padding: 5px 6px; }
+    }
+
+    /* ── Footer ── */
+    .site-footer { background: var(--green); padding: 48px 24px; text-align: center; margin-top: 80px; }
+    .footer-inner { max-width: 600px; margin: 0 auto; }
+    .footer-logo { display: inline-flex; align-items: center; gap: 14px; text-decoration: none; margin-bottom: 20px; }
+    .footer-logo img { width: 52px; height: 52px; object-fit: contain; filter: brightness(0) invert(1); }
+    .footer-logo-name {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      font-size: 18px; font-weight: 700; letter-spacing: 2.5px; color: #fff; text-transform: uppercase;
+    }
+    .footer-icons { display: flex; justify-content: center; gap: 6px; margin-bottom: 20px; }
+    .footer-icon {
+      display: flex; align-items: center; justify-content: center;
+      width: 44px; height: 44px; color: rgba(255,255,255,0.7);
+      border-radius: 8px; text-decoration: none; transition: color .15s, background .15s;
+    }
+    .footer-icon:hover { color: #fff; background: rgba(255,255,255,0.1); }
+    .footer-icon svg { width: 22px; height: 22px; fill: currentColor; display: block; }
+    .footer-copy { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; font-size: 13px; color: rgba(255,255,255,0.5); line-height: 2; }
+    .footer-block-link { color: rgba(255,255,255,0.75); text-decoration: none; }
+    .footer-block-link:hover { text-decoration: underline; text-underline-offset: 2px; }
+  </style>
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="site-logo" href="./"><img src="https://www.presidiobitcoin.org/favicon.png" alt=""><span class="logo-text">Presidio Bitcoin Index</span></a>
+      <nav class="site-nav">
+        <a class="nav-link" href="./about.html">About</a>
+        <a class="nav-link" href="./ask.html">Ask PB</a>
+        <a class="nav-link" href="./topics/">Topics</a>
+        <a class="nav-link active" href="./programming.html">Programming</a>
+        <a class="nav-link" href="./events.html">Events</a>
+        <span class="nav-sep"></span>
+        <a class="icon-link" href="https://www.youtube.com/@PresidioBitcoin" target="_blank" title="YouTube">
+          <svg viewBox="0 0 24 24"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
+        </a>
+        <a class="icon-link" href="https://presidiobitcoin.substack.com/" target="_blank" title="Substack">
+          <svg viewBox="0 0 24 24"><path d="M22.539 8.242H1.46V5.406h21.08v2.836zM1.46 10.812V24L12 18.11 22.54 24V10.812H1.46zM22.54 0H1.46v2.836h21.08V0z"/></svg>
+        </a>
+        <a class="icon-link" href="https://x.com/PresidioBitcoin" target="_blank" title="X">
+          <svg viewBox="0 0 24 24"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.747l7.73-8.835L1.254 2.25H8.08l4.259 5.629zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+        </a>
+        <a class="icon-link" href="https://discord.gg/HGukhYDA" target="_blank" title="Discord">
+          <svg viewBox="0 0 24 24"><path d="M20.317 4.492c-1.53-.69-3.17-1.2-4.885-1.49a.075.075 0 0 0-.079.036c-.21.369-.444.85-.608 1.23a18.566 18.566 0 0 0-5.487 0 12.36 12.36 0 0 0-.617-1.23A.077.077 0 0 0 8.562 3c-1.714.29-3.354.8-4.885 1.491a.07.07 0 0 0-.032.027C.533 9.093-.32 13.555.099 17.961a.08.08 0 0 0 .031.055 20.03 20.03 0 0 0 5.993 2.98.078.078 0 0 0 .084-.026 13.83 13.83 0 0 0 1.226-1.963.074.074 0 0 0-.041-.104 13.175 13.175 0 0 1-1.872-.878.075.075 0 0 1-.008-.125c.126-.093.252-.19.372-.287a.075.075 0 0 1 .078-.01c3.927 1.764 8.18 1.764 12.061 0a.075.075 0 0 1 .079.009c.12.098.245.195.372.288a.075.075 0 0 1-.006.125c-.598.344-1.22.635-1.873.877a.075.075 0 0 0-.041.105c.36.687.772 1.341 1.225 1.962a.077.077 0 0 0 .084.028 19.963 19.963 0 0 0 6.002-2.981.076.076 0 0 0 .032-.054c.5-5.094-.838-9.52-3.549-13.442a.06.06 0 0 0-.031-.03zM8.02 15.278c-1.182 0-2.157-1.069-2.157-2.38 0-1.312.956-2.38 2.157-2.38 1.21 0 2.176 1.077 2.157 2.38 0 1.312-.956 2.38-2.157 2.38zm7.975 0c-1.183 0-2.157-1.069-2.157-2.38 0-1.312.955-2.38 2.157-2.38 1.21 0 2.176 1.077 2.157 2.38 0 1.312-.946 2.38-2.157 2.38z"/></svg>
+        </a>
+        <span class="nav-sep"></span>
+        <a class="nav-link ext-link" href="https://presidiobitcoin.org" target="_blank">presidiobitcoin.org ↗</a>
+      </nav>
+    </div>
+  </header>
+
+  <div class="page-wrap">
+    <h1 class="page-title">Programming</h1>
+    <p class="page-sub">Podcasts, reports, and other media produced at or by Presidio Bitcoin.</p>
+  </div>
+
+  <script src="./series_config.js"></script>
+  <script>
+    const CHAIN_SVG = `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg>`;
+    const ICONS = {
+      youtube: `<svg viewBox="0 0 24 24"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>`,
+      listen: `<svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 1a4 4 0 0 1 4 4v6a4 4 0 0 1-8 0V5a4 4 0 0 1 4-4zm-1 17.93V21H9v2h6v-2h-2v-2.07A8.001 8.001 0 0 0 20 11h-2a6 6 0 0 1-12 0H4a8.001 8.001 0 0 0 7 7.93z"/></svg>`,
+      substack: `<svg viewBox="0 0 24 24"><path d="M22.539 8.242H1.46V5.406h21.08v2.836zM1.46 10.812V24L12 18.11 22.54 24V10.812H1.46zM22.54 0H1.46v2.836h21.08V0z"/></svg>`,
+      medium: `<svg viewBox="0 0 24 24"><path d="M13.54 12a6.77 6.77 0 0 1-6.77 6.77A6.77 6.77 0 0 1 0 12a6.77 6.77 0 0 1 6.77-6.77A6.77 6.77 0 0 1 13.54 12zm7.42 0c0 3.54-1.51 6.41-3.38 6.41S14.2 15.54 14.2 12s1.51-6.41 3.38-6.41 3.38 2.87 3.38 6.41zM24 12c0 3.17-.53 5.74-1.19 5.74s-1.19-2.57-1.19-5.74.53-5.74 1.19-5.74S24 8.83 24 12z"/></svg>`,
+      github: `<svg viewBox="0 0 24 24"><path d="M12 .3a12 12 0 0 0-3.79 23.39c.6.11.82-.26.82-.58v-2.23c-3.34.73-4.04-1.42-4.04-1.42-.55-1.39-1.33-1.76-1.33-1.76-1.09-.74.08-.73.08-.73 1.2.08 1.84 1.24 1.84 1.24 1.07 1.83 2.8 1.3 3.49.99.11-.78.42-1.3.76-1.6-2.67-.3-5.47-1.33-5.47-5.93 0-1.31.47-2.38 1.24-3.22-.12-.3-.54-1.52.12-3.18 0 0 1.01-.32 3.3 1.23A11.5 11.5 0 0 1 12 6.1c1.02 0 2.04.14 3 .4 2.29-1.55 3.3-1.23 3.3-1.23.66 1.66.24 2.88.12 3.18.77.84 1.23 1.91 1.23 3.22 0 4.61-2.8 5.63-5.48 5.92.43.37.82 1.1.82 2.22v3.29c0 .32.21.7.83.58A12 12 0 0 0 12 .3Z"/></svg>`,
+      pdf: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"><path d="M6 2h8l4 4v16H6z"/><path d="M14 2v4h4"/><path d="M8 15h1.5a1.5 1.5 0 0 0 0-3H8v6"/><path d="M13 18v-6h1.3a2.7 2.7 0 0 1 0 6H13"/><path d="M18 18v-6h3"/><path d="M18 15h2.5"/></svg>`,
+      x: `<svg viewBox="0 0 24 24"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.747l7.73-8.835L1.254 2.25H8.08l4.259 5.629zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>`,
+      web: `<svg viewBox="0 0 24 24" style="fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>`,
+    };
+
+    function esc(s) {
+      return String(s ?? "").replace(/[&<>"']/g, c =>
+        ({"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;","'":"&#039;"}[c]));
+    }
+
+    function renderProgramCard(def) {
+      const links = def.links.map(link => `
+        <a class="output-link" href="${esc(link.url)}" target="_blank" rel="noreferrer">
+          ${ICONS[link.kind] || ICONS.web}
+          ${esc(link.label)}
+        </a>
+      `).join("");
+      return `
+        <div class="event-card" id="${esc(def.eventId)}">
+          <img class="event-image" src="${esc(def.image)}" alt="${esc(def.alt)}" style="align-self: center;" />
+          <div class="event-body">
+            <div class="event-type-row">
+              ${def.type ? `<span class="event-type-badge">${esc(def.type)}</span>` : ""}
+              ${def.date ? `<span class="event-date">${esc(def.date)}</span>` : ""}
+            </div>
+            <div class="event-title-row">
+              <h2 class="event-title">${esc(def.title)}</h2>
+              <a class="permalink" href="#${esc(def.eventId)}" title="Link to this programming">${CHAIN_SVG}</a>
+            </div>
+            <p class="event-blurb">${esc(def.blurb)}</p>
+            <div class="output-links">${links}</div>
+          </div>
+        </div>`;
+    }
+
+    const PROGRAMMING_ORDER = [
+      "pbj",
+      "21in21",
+      "bitcoin-quantum-readiness-report",
+      "spotlight",
+      "built-in-the-presidio",
+    ];
+    const SERIES_BY_ID = new Map(SERIES_DEFS.map(def => [def.id, def]));
+
+    function renderProgramming() {
+      const cards = PROGRAMMING_ORDER
+        .map(id => SERIES_BY_ID.get(id))
+        .filter(Boolean)
+        .map(renderProgramCard)
+        .join("");
+      document.querySelector(".page-wrap").innerHTML = `
+        <h1 class="page-title">Programming</h1>
+        <p class="page-sub">Podcasts, reports, and other media produced at or by Presidio Bitcoin.</p>
+        ${cards}
+      `;
+    }
+
+    renderProgramming();
+
+    document.addEventListener("click", function(e) {
+      const link = e.target.closest(".permalink");
+      if (!link) return;
+      const url = location.origin + location.pathname + link.getAttribute("href");
+      navigator.clipboard.writeText(url).catch(() => {});
+      link.classList.add("permalink-copied");
+      setTimeout(() => link.classList.remove("permalink-copied"), 1500);
+    });
+  </script>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <a class="footer-logo" href="https://www.presidiobitcoin.org/" target="_blank">
+        <img src="./logo.png" alt="Presidio Bitcoin">
+        <span class="footer-logo-name">Presidio Bitcoin</span>
+      </a>
+      <div class="footer-icons">
+        <a class="footer-icon" href="https://x.com/PresidioBitcoin" target="_blank" title="X">
+          <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.747l7.73-8.835L1.254 2.25H8.08l4.259 5.629zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+        </a>
+        <a class="footer-icon" href="https://www.youtube.com/@PresidioBitcoin" target="_blank" title="YouTube">
+          <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
+        </a>
+        <a class="footer-icon" href="https://presidiobitcoin.substack.com" target="_blank" title="Substack">
+          <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M22.539 8.242H1.46V5.406h21.08v2.836zM1.46 10.812V24L12 18.11 22.54 24V10.812H1.46zM22.54 0H1.46v2.836h21.08V0z"/></svg>
+        </a>
+        <a class="footer-icon" href="https://discord.gg/HGukhYDA" target="_blank" title="Discord">
+          <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20.317 4.492c-1.53-.69-3.17-1.2-4.885-1.49a.075.075 0 0 0-.079.036c-.21.369-.444.85-.608 1.23a18.566 18.566 0 0 0-5.487 0 12.36 12.36 0 0 0-.617-1.23A.077.077 0 0 0 8.562 3c-1.714.29-3.354.8-4.885 1.491a.07.07 0 0 0-.032.027C.533 9.093-.32 13.555.099 17.961a.08.08 0 0 0 .031.055 20.03 20.03 0 0 0 5.993 2.98.078.078 0 0 0 .084-.026 13.83 13.83 0 0 0 1.226-1.963.074.074 0 0 0-.041-.104 13.175 13.175 0 0 1-1.872-.878.075.075 0 0 1-.008-.125c.126-.093.252-.19.372-.287a.075.075 0 0 1 .078-.01c3.927 1.764 8.18 1.764 12.061 0a.075.075 0 0 1 .079.009c.12.098.245.195.372.288a.075.075 0 0 1-.006.125c-.598.344-1.22.635-1.873.877a.075.075 0 0 0-.041.105c.36.687.772 1.341 1.225 1.962a.077.077 0 0 0 .084.028 19.963 19.963 0 0 0 6.002-2.981.076.076 0 0 0 .032-.054c.5-5.094-.838-9.52-3.549-13.442a.06.06 0 0 0-.031-.03zM8.02 15.278c-1.182 0-2.157-1.069-2.157-2.38 0-1.312.956-2.38 2.157-2.38 1.21 0 2.176 1.077 2.157 2.38 0 1.312-.956 2.38-2.157 2.38zm7.975 0c-1.183 0-2.157-1.069-2.157-2.38 0-1.312.955-2.38 2.157-2.38 1.21 0 2.176 1.077 2.157 2.38 0 1.312-.946 2.38-2.157 2.38z"/></svg>
+        </a>
+      </div>
+      <p class="footer-copy">Founded on <a class="footer-block-link" href="https://mempool.space/block/00000000000000000001401a3dbd5bd0a1333cf0dc4726a794c0f48c89aea745" target="_blank">882021</a>.</p>
+      <p class="footer-copy">© 2026 Presidio Bitcoin. All rights reserved.</p>
+    </div>
+  </footer>
+
+</body>
+</html>

@@ -1,0 +1,6 @@
+At Presidio Bitcoin's Type I Summit, investor and technologist Ramez Naam traces the explosive rise of compute demand and its collision with global energy systems. From AI’s brutal scaling laws to the cost imbalance between GPUs and power, 'Mez' outlines how flexibility, solar, and battery overbuild will shape the next decade, and why data centers may soon migrate to wherever energy is cheapest. He closes with wildcards like fusion and space-based compute.
+
+From the Type I Summit hosted by 📍Presidio Bitcoin
+🌐 More about the Type I Summit: https://type1summit.org/
+
+Learn more: https://presidiobitcoin.com

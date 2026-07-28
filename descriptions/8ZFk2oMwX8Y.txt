@@ -1,0 +1,17 @@
+This talk at Presidio Bitcoin Design Week by Mat Balez (Spiral) explores BIP177 and the design challenges of how Bitcoin should be represented in everyday life. From prices at coffee shops to wallet interfaces, the way people see and touch Bitcoin matters. Drawing inspiration from design philosophy (including Johnny Ive’s reflections on care and attention), the session asks:
+
+How should Bitcoin quantities be displayed: decimals, sats, or the ₿ symbol?
+What role do cultural memes and surface areas play in Bitcoin adoption?
+How can we standardize pricing, wallets, and even keyboards for a Bitcoin future?
+What happens when the world begins to price everything in Bitcoin?
+
+With real-world examples, mockups, and wallet case studies, this track challenges designers to shape Bitcoin’s cultural presence as much as its technical foundations.
+
+Presented at Presidio Bitcoin Design Week hosted at 📍Presidio Bitcoin
+A big thanks to co-hosts: Bitcoin Design Community! 
+
+🌐 Learn more about the event: https://event.bitcoin.design/
+
+🐦 Follow us: https://x.com/PresidioBitcoin
+Learn more about PB: https://presidiobitcoin.org
+Learn more about the Bitcoin Design Community: https://bitcoin.design/

@@ -1,0 +1,15 @@
+0:00 Sat tardiness fines 
+2:18 OpenClaw meetup recap
+6:00 Why OpenClaw feels different than “just Claude”
+8:58 “Is this already AGI?” 
+13:05 Ori explained: productized openclaw bot that joins group chats (and why gc is the new ide)
+15:54 Group chat vibecoding
+20:27 Ori's moneydevkit (MDK) integration - frictionless, under the hood lightning payments as a superpower
+22:30 Tangible Ori examples: small-group bets, prediction markets, trivia payouts & more
+29:05 “Is Ori private?” & the path to local/open-source models and safer enclaves
+32:40 Agentic commerce: bots browsing, paying, zapping, hiring humans - the “internet gdp explosion” thesis
+48:20 Is the already tech too good? Addiction risk, prompt injection, and opsec risks
+52:10 Ori onboarding ideas: welcomes, tips, custom memes, and how to get new groups to find the magic
+1:16:08 Y Combinator funding in USDC
+1:20:49 Cash App dollars as a supercharge for lightning adoption 
+1:25:26 Large payments on lightning & institutional use - what matters and path from here

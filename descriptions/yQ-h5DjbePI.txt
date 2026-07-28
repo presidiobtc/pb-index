@@ -1,0 +1,17 @@
+Haley Berkoe met with Ben Carman, who recently joined the Spiral team to work on the Lightning Development Kit and LDK-related projects. Previously he was at Taproot Wizards and Mutiny, a non-custodial Lightning wallet.
+
+Episode highlights include: 
+- Ben’s new focus areas at Spiral. 
+- His bitcoin journey, which started with a comedy podcast and Andreas Antonopoulos's videos. 
+- Ben’s concerns about the bitcoin community's lack of emphasis on real-world payments.
+- He stresses the need for next-generation Lightning and self-custodial wallets, warning that without proper infrastructure, bitcoin risks being seen merely as a banking asset.
+- Shoutouts to Rockstar Dev and folks in the Austin bitcoin community, such as Buck Pearly, and Jack Lesser and Rod from Bitcoin Park. 
+- Advice for newcomers: do everything you can to learn, contribute, and enhance visibility in the community.
+
+FOLLOW: 
+Ben Carman: @benthecarman, https://x.com/benthecarman 
+Spiral: @spiralbtc, https://x.com/spiralbtc   
+Haley Berkoe: @HBerkoe, https://x.com/HBerkoe 
+Presidio Bitcoin: @PresidioBitcoin, https://x.com/PresidioBitcoin
+
+#bitcoin #podcast #interview #cryptocurrency #technology #money

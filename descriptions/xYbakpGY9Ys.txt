@@ -1,0 +1,22 @@
+0:00 X vs. Stacker News in the latest bitcoin debates 
+3:40 Updates about the Presidio Bitcoin Hackathon 
+10:00 What's the drama happening in bitcoin right now? Money vs. Data 
+16:08 Discussing the debate around bitcoin core node relay policies. Consensus vs. Policy 
+20:42 What is OP_Return and why it's being discussed 
+30:20 One reason this is important is there is growing interest in expanding the packet size 
+38:30 Audience Engagement: Data in the witness is cheaper, so its a preferential storage location 
+46:40 How this relates to mining centralization and censorship concerns 
+59:40 When and where should discussions like this take place? 
+1:09:00 Epic Games vs. Apple. Opening the door for bitcoin as an alternative payment mechanism? 
+1:20:50 The Quantum Bitcoin Summit happening this June at Presidio Bitcoin 
+1:24:29 Spark is live! Exploring what it is and evaluating its tradeoffs 
+1:35:40 De minimis rules coming? That's what we heard at Presidio Bitcoin 
+
+LINKS: 
+www.pbhackathon.com 
+
+FOLLOW: 
+Presidio Bitcoin: https://x.com/presidiobitcoin 
+Steve: https://x.com/moneyball 
+Max: https://x.com/maxawebster 
+DK: https://x.com/dksf

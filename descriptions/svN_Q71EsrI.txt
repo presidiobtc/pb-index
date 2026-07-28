@@ -1,0 +1,23 @@
+Haley Berkoe sat down with Ryan Loomba, a Bitcoin Engineer at Block. Ryan shares his journey from early startup life to working across Square, Cash App, and Block’s Bitcoin team. They get into the weeds on bitcoin custody, the power of open-source, how Lightning is rolling out in the real world, and why AI might be the next big unlock for developers.
+
+TIMESTAMPS: 
+00:53 Ryan’s bitcoin career journey 
+02:59 Block’s approach to custody 
+07:39 Utilizing open-source software 
+11:42 Integration between AI and bitcoin payments
+14:50 Advice to new developers: learn to use AI tools and contribute to open-source
+16:55 Institutional Adoption, bitcoin payments, and Square accepting bitcoin
+20:14 Cash App Lightning Integration 
+20:59 Closing thoughts: focus on the 10–20 year vision, not just price hype 
+
+FOLLOW:
+Ryan Loomba: https://x.com/RLoombs 
+Block: https://x.com/blocks, https://engineering.block.xyz/blog/, https://block.xyz/careers/jobs  
+Haley Berkoe: https://x.com/HBerkoe 
+Presidio Bitcoin: https://x.com/PresidioBitcoin, 
+
+SUBSCRIBE TO THE PODCAST: 
+Spotify: https://open.spotify.com/show/4UPEsVaAbtQsBtvbKt1RPn?si=2e5efe8f58094c2c&nd=1&dlsi=f612e8c16b0a4fde 
+Apple Podcasts: https://podcasts.apple.com/us/podcast/21-in-21/id1804684052
+
+#bitcoinpodcast #ai #engineering #opensource

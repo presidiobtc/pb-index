@@ -1,0 +1,15 @@
+At Presidio Bitcoin’s Type I Summit, Scott Williams (Crusoe), Brock Petersen (Satoshi Energy), and Tomas Ocampo (Unblock) dig into how to build data centers directly where power is:  whether it’s solar in West Texas, flare gas in Latin America, or other stranded and wasted energy sources around the world. They discuss the shift toward bringing compute to energy (instead of the other way around), the land and labor bottlenecks slowing deployment, how much automation can help, and how new connectivity options may reshape where AI and Bitcoin infrastructure gets built next.
+
+Timestamps
+0:00 - Introductions
+1:48 - Crusoe & Redwood Materials' off-grid solar project 
+8:19 - Wasted energy & mining in Latin America
+12:26 - Land, labor and what’s blocking off-grid
+17:53 - Latency, Starlink and cheap AI
+21:09 - Crusoe scaling from flare gas to giant data centers
+24:59 - Fuel cells & deep geothermal 
+
+From the Type I Summit hosted by 📍Presidio Bitcoin
+🌐 More about the Type I Summit: https://type1summit.org/
+
+Learn more: https://presidiobitcoin.com

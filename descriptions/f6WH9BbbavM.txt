@@ -1,0 +1,17 @@
+0:00 We keep getting requests to talk about basketball. What about the World Cup?
+7:40 The future of livestreaming is https://jamchat.fun/
+15:30 Unveiling Buzz, an open source project, for AI native communications built on Nostr
+25:26 Bitcoin is open source money, Nostr is open source identity
+31:13 To summarize, Buzz brings together agents to collaborate; multiplayer & multiagent workflows
+36:11 Extending Buzz functionality with a Lexe wallet integration for bitcoin payments
+40:30 What is the future of the corporate structure with autonomous agents and AI personhood?
+53:29 Anthropic's Fable 5 drama, what is going on?
+1:00:25 What is the best approach for AI deployment?
+1:07:34 We're most excited about really good open models & layers coming to the market
+1:09:52 Bark launches on mainnet as a bitcoin layer 2, and comparing it to Lightning
+1:21:44 Will interoperable decentralized money matter more to agents than humans?
+1:26:55 Feedback from last show, Surge uses USDC on Base, and what is the Ethereum vs. Base value proposition?
+
+SHOW NOTES:
+Max's Article on Nostr Identity
+https://www.hivemind.vc/identity

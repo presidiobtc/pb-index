@@ -1,0 +1,33 @@
+Timestamps:
+0:00 Opening banter and agenda setting
+2:00 Google and Oratomic quantum papers & the “n minus one” framing
+6:44 Quantum uncertainty: AI acceleration & s-curves
+10:06 Preparedness planning and scenario-based bitcoin responses
+11:52 Why government and corporate quantum timelines are misleading 
+15:12 Post-quantum signature tradeoffs: SHRINCS, SHRIMPS, and state
+23:35 Why quantum is a harder problem for bitcoin than other technologies and orgs
+30:57 Competing quantum narratives, incentives, and media hype 
+34:24 The new bitcoin faucet & Block’s teaser campaign
+36:30 Square’s default bitcoin payments rollout and adoption friction
+43:00 Tipping, UX constraints, and Lightning’s retail payment challenge
+52:31 OpenAI’s TBPN acquisition and the strategic value of media distribution
+59:50 Open-source AI & Google's Gemma 4 release
+1:03:14 Block’s new mesh-llm and peer-to-peer compute
+1:07:21 Open agent marketplaces, business models, and demand formation
+1:22:40 Block’s corporate structure shift from "hierarchy to intelligence" and the “mini-agi” vision
+1:32:55 Scheduling notes - no pod next Friday! Next pod Tuesday, April 14
+-
+
+SHOW NOTES:
+
+Block's bitcoin faucet: https://btc.day/
+
+Google's quantum paper: https://research.google/blog/safeguarding-cryptocurrency-by-disclosing-quantum-vulnerabilities-responsibly/
+
+Oratomic quantum paper: https://arxiv.org/html/2603.28627v1
+
+SHRIMPS: https://delvingbitcoin.org/t/shrimps-2-5-kb-post-quantum-signatures-across-multiple-stateful-devices/2355
+
+Mesh-llm: https://www.anarchai.org/
+
+Block's corporate structure shift: https://block.xyz/inside/from-hierarchy-to-intelligence
