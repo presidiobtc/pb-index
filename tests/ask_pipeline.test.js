@@ -124,9 +124,9 @@ test("count questions distinguish catalog size, mention frequency, and entity ca
     });
     const archiveBody = JSON.parse(archiveResponse.body);
     assert.equal(archiveBody.retrieval_context.aggregate_kind, "indexed_archive_size");
-    assert.equal(archiveBody.retrieval_context.indexed_episode_count, 171);
+    assert.equal(archiveBody.retrieval_context.indexed_episode_count, 176);
     assert.equal(archiveBody.sources.length, 0);
-    assert.match(archiveBody.answer, /171 videos/);
+    assert.match(archiveBody.answer, /176 videos/);
 
     const mentionResponse = await handler({
       httpMethod: "POST",
@@ -207,6 +207,10 @@ test("OpenAI request separates trusted instructions, sends complete metadata, an
   assert.equal(request.max_output_tokens, 2500);
   assert.equal(request.reasoning.effort, "medium");
   assert.match(request.instructions, /untrusted data/i);
+  assert.match(request.instructions, /three-to-six-word phrases/i);
+  assert.match(request.instructions, /keep the explanation outside the bold text/i);
+  assert.match(request.instructions, /\[1\] \[2\]/);
+  assert.match(request.instructions, /never concatenate them as \[1\]\[2\]/i);
   assert.doesNotMatch(request.instructions, new RegExp(injection));
   assert.ok(Array.isArray(request.input));
 
@@ -388,6 +392,13 @@ test("generated answers must have valid source citations and a strict shape", ()
     suggested_questions,
   }, "test", [SAMPLE_SOURCE]);
   assert.match(insufficient.answer, /^Based on the PB archive,/);
+
+  const spacedCitations = _test.normalizeGeneratedAnswer({
+    answer: "A claim supported by several passages [1][2][1].",
+    suggested_questions,
+  }, "test", [SAMPLE_SOURCE, { ...SAMPLE_SOURCE, id: "second-source" }]);
+  assert.match(spacedCitations.answer, /\[1\] \[2\] \[1\]/);
+  assert.doesNotMatch(spacedCitations.answer, /\[1\]\[2\]/);
 });
 
 test("OpenAI timeouts and malformed output fail closed", async () => {

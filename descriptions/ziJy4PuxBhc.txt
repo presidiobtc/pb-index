@@ -1,0 +1,6 @@
+0xSero joins Haley Berkoe on 21 in 21 to discuss local AI, open models, and his soon-to-be-released platform for benchmarking open models and hardware (local.ai). He explains how his team benchmarks models and hardware, why local AI is becoming more capable and affordable, and why ownership and control matter as more people build their work around AI. They also discuss open-source AI culture, agentic payments, and what people can do to start experimenting with local models.
+
+
+FOLLOW:
+https://x.com/0xsero
+https://x.com/HBerkoe

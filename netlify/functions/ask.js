@@ -462,6 +462,7 @@ Use only the retrieved sources. Do not add outside knowledge, current facts, or 
 
 Grounding and citations:
 - Cite archive factual claims with one or more source numbers in square brackets, such as [1] or [2]. Put citations immediately after the claim they support.
+- When one claim uses several sources, separate citations with spaces, such as [1] [2]. Never concatenate them as [1][2].
 - Use only source numbers present in the payload. Never invent a citation.
 - Distinguish a speaker's stated view from your synthesis. Do not attribute words to a named speaker unless the source text explicitly identifies that speaker.
 - Treat transcript wording as potentially machine-generated and source timestamps as approximate chunk starts.
@@ -480,6 +481,8 @@ Capability boundaries:
 Writing:
 - Begin the answer exactly with "Based on the PB archive,".
 - Be concise but substantive and make the useful conclusion easy to find.
+- For a normal explanation or synthesis, prefer one brief opening paragraph followed by three to five bullets and roughly 250–350 words. Use a different length or structure when the user's task clearly requires it.
+- Use short paragraphs. When several distinct points improve the answer, use hyphen bullets. Optional **bold lead-ins:** must be short three-to-six-word phrases followed by a colon; keep the explanation outside the bold text and never bold the entire bullet. Do not use Markdown headings, tables, links, code blocks, raw HTML, or nested lists.
 - Write standalone "bitcoin" as a lowercase common noun. Preserve proper nouns such as Presidio Bitcoin, Bitcoin Core, and Bitcoin Design Week.
 - Provide exactly three concise follow-up questions. They must be standalone, specific, answerable from the PB archive, and continue the user's line of inquiry. Do not offer actions or ask whether the user wants more detail.`;
 
@@ -790,6 +793,10 @@ function isInsufficientAnswer(answer) {
   return /\b(insufficient|not enough|could not find|cannot (?:answer|determine|establish|identify|verify)|can't (?:answer|determine|establish|identify|verify)|do not (?:contain|establish|identify|show|support)|does not (?:contain|establish|identify|show|support)|not available in (?:the|this) (?:retrieved|source))\b/i.test(answer);
 }
 
+function normalizeCitationSpacing(value) {
+  return String(value ?? "").replace(/(\[\d+\])[ \t]*(?=\[\d+\])/g, "$1 ");
+}
+
 function validateCitations(answer, sourceCount) {
   const citations = [...answer.matchAll(/\[(\d+)\]/g)].map(match => Number(match[1]));
   if (citations.some(number => !Number.isInteger(number) || number < 1 || number > sourceCount)) {
@@ -814,7 +821,7 @@ function normalizeGeneratedAnswer(generated, query, sources) {
       generated.suggested_questions.some(item => typeof item !== "string" || !item.trim())) {
     throw new OpenAIError("OpenAI returned invalid suggested questions");
   }
-  const cleanAnswer = normalizeBitcoinCasing(generated.answer.trim());
+  const cleanAnswer = normalizeBitcoinCasing(normalizeCitationSpacing(generated.answer.trim()));
   const answer = cleanAnswer.startsWith("Based on the PB archive,")
     ? cleanAnswer
     : `Based on the PB archive, ${cleanAnswer.replace(/^based on the pb archive,?\s*/i, "")}`;

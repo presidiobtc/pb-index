@@ -1386,7 +1386,7 @@ addTopicDefs([
     picks: [{ youtube_id: "PIVWyjihxnA", t: 529, label: "Saylor points to Strategy's use of AI in creating digital credit products such as Stretch, suggesting that AI will accelerate the design and distribution of bitcoin-backed financial instruments." }], // 8:49
   },
   {
-    name: "Career advice in the age of AI",
+    name: "Career advice",
     keywords: ["career advice ai", "learn ai tools", "builders ai", "young people ai"],
     picks: [{ youtube_id: "PIVWyjihxnA", t: 920, label: "Saylor's advice to builders and young people is to spend serious time learning AI tools, keep creating, and use this unusually fertile period to build something useful." }], // 15:20
   },
@@ -5797,7 +5797,7 @@ addTopicDefs([
     ],
   },
   {
-    name: "Open-source development in public",
+    name: "Open-source development",
     keywords: ["work in public", "open source development in public", "buzz pull requests", "public software development", "agentic open source"],
     picks: [{ youtube_id: "-M_5aSgNqow", t: 3262, label: "Steve argues Buzz can move open-source work even earlier into public view: ideas, debugging, tests, and agent reasoning can happen in shared channels before the polished pull request stage." }], // 54:22
   },
@@ -6165,5 +6165,290 @@ addTopicDefs([
     name: "Thinking Machines",
     keywords: ["thinking machines", "american open-weight model", "western open model", "open-weight ai", "chinese model dependence", "frontier ai lab"],
     picks: [{ youtube_id: "WisO6hoeUb8", t: 5147, label: "Thinking Machines' new release is framed as the strongest American open-weight alternative the hosts have seen, offering a possible counterweight to dependence on Chinese models. They are cautiously hopeful that a credible U.S. lab can sustain an open-model strategy even after other American companies moved toward closed systems." }], // 1:25:47
+  },
+]);
+
+// 2026-07-28 21 in 21: 0xSero on local AI, open models, and benchmarking.
+addTopicDefs([
+  {
+    name: "AI subscription lock-in",
+    keywords: ["cursor pricing change", "subsidized ai usage", "local ai economics"],
+    picks: [{ youtube_id: "ziJy4PuxBhc", t: 119, label: "0xSero traces his turn to local AI to Cursor's pricing change, which exposed how a workflow subsidized at $20 a month could represent at least $5,000 in usage and become unaffordable as soon as the provider changed terms." }], // 1:59
+  },
+  {
+    name: "Model provider lock-in",
+    keywords: ["model ownership", "cloud model withdrawal", "model service changes"],
+    picks: [{ youtube_id: "ziJy4PuxBhc", t: 156, label: "Beyond cost, 0xSero argues that owning the model matters because a cloud provider can silently vary service, swap models, or withdraw them after a user has built a career and daily workflow on the platform." }], // 2:36
+  },
+  {
+    name: "Local model benchmarking",
+    keywords: ["local.ai", "prompt ingestion speed", "first token latency", "model hardware benchmarks"],
+    picks: [{ youtube_id: "ziJy4PuxBhc", t: 221, label: "Local.ai benchmarks consumer hardware on prompt ingestion, first-token latency, and generation speed, then evaluates original models and their compressions to find the fastest, smartest, and best-balanced option for each machine." }], // 3:41
+  },
+  {
+    name: "AI compute constraints",
+    keywords: ["b200 benchmark cost", "b300 benchmark cost", "multi-shot evaluations"],
+    picks: [{ youtube_id: "ziJy4PuxBhc", t: 350, label: "0xSero says reliable evaluations require repeated multi-shot runs on scarce B200 and B300 GPUs, making even one model's results expensive and slow to reproduce." }], // 5:50
+  },
+  {
+    name: "AI model benchmarks",
+    keywords: ["artificial analysis", "qwen benchmark", "local model capability"],
+    picks: [{ youtube_id: "ziJy4PuxBhc", t: 427, label: "Citing Artificial Analysis, 0xSero argues that a roughly 60 GB Qwen model can outperform a far larger recent Sonnet model on aggregate benchmarks, challenging the idea that locally runnable models are too weak to matter." }], // 7:07
+  },
+  {
+    name: "Open-source AI models",
+    keywords: ["qwen local model", "consumer-runnable model", "open model capability"],
+    picks: [{ youtube_id: "ziJy4PuxBhc", t: 427, label: "A roughly 60 GB Qwen model can outperform a far larger recent Sonnet model on aggregate benchmarks, illustrating how quickly consumer-runnable open models are closing the capability gap." }], // 7:07
+  },
+  {
+    name: "Open-source AI",
+    keywords: ["publicly owned ai", "distributed ai systems", "closed ai backlash"],
+    picks: [{ youtube_id: "ziJy4PuxBhc", t: 913, label: "0xSero says each controversial move by a closed AI company produces a new wave of interest in systems that are distributed, publicly owned, and developed in the open." }], // 15:13
+  },
+  {
+    name: "AI agent payments",
+    keywords: ["agent payment rails", "agents lightning", "agent usdc", "agent eth"],
+    picks: [{ youtube_id: "ziJy4PuxBhc", t: 947, label: "0xSero expects agents to default to familiar rails such as Bitcoin, Lightning, USDC, or ETH rather than bespoke AI-payment networks, arguing that vendor acceptance is the real bottleneck." }], // 15:47
+  },
+  {
+    name: "Agentic web",
+    keywords: ["agent-readable commerce", "websites blocking bots", "agent purchase flows"],
+    picks: [{ youtube_id: "ziJy4PuxBhc", t: 1015, label: "Models can already create wallets and transfer money, but human-oriented websites often block bots and lack agent-readable purchase flows, making commerce infrastructure rather than model capability the limiting layer." }], // 16:55
+  },
+  {
+    name: "Localmaxxing",
+    keywords: ["learning local ai", "free gpu local model", "local ai service skill"],
+    picks: [{ youtube_id: "ziJy4PuxBhc", t: 1071, label: "For newcomers, 0xSero recommends running a small model on free GPU access or existing hardware to learn installation, speed, battery, and deployment tradeoffs firsthand, turning local-AI fluency into a practical service skill." }], // 17:51
+  },
+]);
+
+// 2026-07-25 PBJ: Bitcoin Security Consortium, Buzz, and Wavelength.
+addTopicDefs([
+  {
+    name: "Bitcoin Security Consortium",
+    keywords: ["bitcoin security consortium", "bitcoin security funding", "institutional quantum coordination"],
+    picks: [{ youtube_id: "y2z-NATJC10", t: 722, label: "The newly announced Bitcoin Security Consortium brings nine major Bitcoin companies together to inform the market and fund Bitcoin security work, with quantum readiness as its first focus and centralization concerns explicitly acknowledged." }], // 12:02
+  },
+  {
+    name: "Quantum readiness coordination",
+    keywords: ["quantum scenario planning", "bitcoin quantum communication", "quantum emergency response"],
+    picks: [{ youtube_id: "y2z-NATJC10", t: 1104, label: "The consortium's communication mandate is framed between panic and denial: no one knows when a cryptographically relevant quantum computer will arrive, so Bitcoin needs scenario plans spanning an orderly 15-to-20-year horizon through emergency response." }], // 18:24
+  },
+  {
+    name: "Open-source funding",
+    keywords: ["consortium grant independence", "bitcoin security grants", "independent funding decisions"],
+    picks: [{ youtube_id: "y2z-NATJC10", t: 1364, label: "The consortium will not pool grants into a central committee; Spiral, Blockstream, and other members retain independent funding decisions so new capital does not erase the diversity of Bitcoin's open-source funding ecosystem." }], // 22:44
+  },
+  {
+    name: "Buzz",
+    keywords: ["buzz launch", "buzz github trending", "ai-native collaboration launch"],
+    picks: [{ youtube_id: "y2z-NATJC10", t: 1649, label: "Buzz's public launch reached the top of GitHub trending and roughly 10,000 stars, reinforcing the prediction that open-source projects will adopt its AI-native collaboration model faster than established companies can migrate from Slack." }], // 27:29
+  },
+  {
+    name: "Nostr identity",
+    keywords: ["buzz nostr relay", "portable community identity", "user-owned reputation"],
+    picks: [{ youtube_id: "y2z-NATJC10", t: 2338, label: "Buzz shows Nostr's value as a client-server abstraction: a community can begin on Block-hosted infrastructure, later run its own relay, and carry user-owned identity and reputation across either environment with far lower switching costs than Slack or Discord." }], // 38:58
+  },
+  {
+    name: "Agentic commerce",
+    keywords: ["buzz payments", "agent tips", "open-source funding payments"],
+    picks: [{ youtube_id: "y2z-NATJC10", t: 2633, label: "The first obvious Bitcoin use case for Buzz is paying people and agents: wallet integrations can turn code tips into an open-source funding primitive while each community chooses its own Bitcoin infrastructure." }], // 43:53
+  },
+  {
+    name: "Model provider lock-in",
+    keywords: ["buzz multi-model", "neutral agent workspace", "openai anthropic fast follow"],
+    picks: [{ youtube_id: "y2z-NATJC10", t: 2954, label: "Buzz's strongest defense against an OpenAI or Anthropic fast-follow is structural: open communities need a neutral multi-vendor, multi-model harness because their members cannot realistically be forced onto one provider." }], // 49:14
+  },
+  {
+    name: "Open-source development",
+    keywords: ["stratum v2 fleet benchmark", "buzz public build", "agent-built open source"],
+    picks: [{ youtube_id: "y2z-NATJC10", t: 3947, label: "A new Buzz user used agents within hours to integrate Stratum V2 with Proto's open-source fleet software and build a cross-pool benchmark, while the public channel preserved the work as a reusable demonstration for other builders." }], // 1:05:47
+  },
+  {
+    name: "Wavelength",
+    keywords: ["wavelength", "lightning labs wavelength", "wavelength ark", "ark lightning"],
+    picks: [{ youtube_id: "y2z-NATJC10", t: 4733, label: "Lightning Labs' Wavelength combines Lightning and Ark as the protocol's third independent implementation, giving Ark a healthier multi-vendor ecosystem than a single-implementation system such as Spark." }], // 1:18:53
+  },
+  {
+    name: "Bitcoin payments",
+    keywords: ["spark bark lexe mdk wavelength", "bitcoin payment stacks", "payment demand generation"],
+    picks: [{ youtube_id: "y2z-NATJC10", t: 4809, label: "Bitcoin payments now have several credible stacks—Spark, Bark, Lexe, MDK, and Wavelength—but infrastructure has outpaced users, making demand generation rather than protocol design the immediate bottleneck." }], // 1:20:09
+  },
+  {
+    name: "BIP 110",
+    keywords: ["foundry bip 110 vote", "miner signaling governance", "pool customer vote"],
+    picks: [{ youtube_id: "y2z-NATJC10", t: 5277, label: "Foundry's BIP 110 customer vote is criticized as a bad governance precedent because choosing which fork deserves a ballot already exercises pool judgment, while the vote's timing and ambiguity misuse miner signaling and leave dissenting hashers exposed." }], // 1:27:57
+  },
+  {
+    name: "Stratum V2",
+    keywords: ["miner rule choice", "pool governance", "individual miner templates"],
+    picks: [{ youtube_id: "y2z-NATJC10", t: 5563, label: "Stratum V2 is offered as the cleaner governance path because individual miners can choose and enforce their own rules while the pool retreats to its proper role of smoothing payouts." }], // 1:32:43
+  },
+  {
+    name: "Proof of personhood",
+    keywords: ["nostr cross-signing", "bitchat web of trust", "privacy-preserving personhood"],
+    picks: [{ youtube_id: "y2z-NATJC10", t: 5843, label: "Instead of biometric proof of personhood, Nostr users could cross-sign encounters through Bitchat, Primal, or Damus and carry that web-of-trust weight into Buzz as a privacy-preserving signal that a key belongs to a real person." }], // 1:37:23
+  },
+]);
+
+// 2026-07-24 21 in 21: Bradley Axen on Buzz, Goose, and AI at Block.
+addTopicDefs([
+  {
+    name: "Goose",
+    keywords: ["brad axen goose", "goose origin", "block internal ai tool"],
+    picks: [{ youtube_id: "Prdk7Mf2X0M", t: 45, label: "Brad Axen traces Goose from his 2023 copy-and-paste experiments with unfamiliar languages to an internal Block tool built around the emerging tool-calling loop, then open-sourced at the end of 2024." }], // 0:45
+  },
+  {
+    name: "Local AI models",
+    keywords: ["goose gemma", "on-device goose", "local inference quotas"],
+    picks: [{ youtube_id: "Prdk7Mf2X0M", t: 232, label: "Goose can keep sensitive work entirely on-device with Gemma-class models that run comfortably on a recent MacBook, while local inference also helps power users escape rising subscription bills and quotas." }], // 3:52
+  },
+  {
+    name: "Harness benchmarks",
+    keywords: ["harness token efficiency", "same model different harness", "block agent evaluations"],
+    picks: [{ youtube_id: "Prdk7Mf2X0M", t: 307, label: "Block's public and internal evaluations show the same model now scores within roughly one percentage point across agent harnesses, shifting the meaningful competition toward token efficiency rather than raw task completion." }], // 5:07
+  },
+  {
+    name: "Model provider lock-in",
+    keywords: ["ai inference critical infrastructure", "model provider outage", "multi-provider resilience"],
+    picks: [{ youtube_id: "Prdk7Mf2X0M", t: 504, label: "Block now treats model inference as critical infrastructure: its AI first responders investigate incidents before humans wake up, so multiple providers are stacked to degrade gracefully through an Anthropic or OpenAI outage." }], // 8:24
+  },
+  {
+    name: "Open-source AI",
+    keywords: ["agentic ai foundation", "linux foundation goose", "mcp agents.md"],
+    picks: [{ youtube_id: "Prdk7Mf2X0M", t: 575, label: "Block helped found the Linux Foundation's Agentic AI Foundation, contributing Goose alongside Anthropic's MCP and OpenAI's agents.md while helping develop shared protocols for the wider agent ecosystem." }], // 9:35
+  },
+  {
+    name: "Organizational AI agents",
+    keywords: ["builder bot", "block company knowledge", "block codebase agent"],
+    picks: [{ youtube_id: "Prdk7Mf2X0M", t: 623, label: "Builder Bot indexes Block's roughly 200 million lines of code and 50,000 repositories, letting people across engineering, design, sales, and support locate the right services and turn company knowledge directly into code changes." }], // 10:23
+  },
+  {
+    name: "Buzz",
+    keywords: ["brad axen buzz", "humans and agents channels", "block collaboration prototype"],
+    picks: [{ youtube_id: "Prdk7Mf2X0M", t: 800, label: "Buzz is Block's open-source prototype for the next collaboration model: many humans and many agents sharing Slack-like channels, with agents acting through the permissions of the people they represent." }], // 13:20
+  },
+  {
+    name: "Open-source development",
+    keywords: ["buzz open source collaboration", "public agent channels", "upstream pull request collaboration"],
+    picks: [{ youtube_id: "Prdk7Mf2X0M", t: 996, label: "Buzz could move open-source collaboration upstream from finished pull requests into shared channels where contributors and maintainers discuss an idea first and let agents build with the work visible to everyone." }], // 16:36
+  },
+  {
+    name: "Career advice",
+    keywords: ["engineer role ai", "human value engineering", "ai system architecture"],
+    picks: [{ youtube_id: "Prdk7Mf2X0M", t: 1209, label: "As AI removes role specialization as a hard blocker, Brad argues engineers' durable human value is shifting toward choosing ideas, designing experiences, and setting reliable, scalable system architecture." }], // 20:09
+  },
+  {
+    name: "Builder advice",
+    keywords: ["open-source ai interface", "prototype experience video", "brad axen builder advice"],
+    picks: [{ youtube_id: "Prdk7Mf2X0M", t: 1338, label: "Brad says the highest-leverage opportunity in open-source AI is now the interface layer: prototype the end-to-end experience and use a low-fidelity video to make the idea tangible before polishing the implementation." }], // 22:18
+  },
+]);
+
+// 2026-07-23 21 in 21: Mic Neale on Goose, Mesh-LLM, and open-source AI.
+addTopicDefs([
+  {
+    name: "Open-source AI models",
+    keywords: ["model training data open source", "open model definition", "model as software"],
+    picks: [{ youtube_id: "E1RTjt8uPsw", t: 246, label: "Mic Neale argues that model weights alone do not make an AI model open source: users would also need the training data and tooling, forcing the harder question of whether a trained model should be treated as software at all." }], // 4:06
+  },
+  {
+    name: "Goose",
+    keywords: ["mic neale goose", "rust agent harness", "goose mcp"],
+    picks: [{ youtube_id: "E1RTjt8uPsw", t: 315, label: "Mic describes Goose as a native-Rust, cross-platform agent harness that emerged from an internal Block tool, adopted MCP early, and supports many model providers across desktop and command-line experiences." }], // 5:15
+  },
+  {
+    name: "Goose Development Kit",
+    keywords: ["goose development kits", "reusable agent foundations", "gdk provider support"],
+    picks: [{ youtube_id: "E1RTjt8uPsw", t: 370, label: "Goose is being decomposed into development kits so teams can reuse its agent foundations across their own experiences and harnesses instead of rebuilding provider, platform, and model support from scratch." }], // 6:10
+  },
+  {
+    name: "Local AI models",
+    keywords: ["goose local inference", "native mac local models", "automatic local runtime"],
+    picks: [{ youtube_id: "E1RTjt8uPsw", t: 408, label: "Goose makes local inference an out-of-the-box option by selecting platform-appropriate runtimes and using native Mac capabilities, preserving model choice without requiring users to assemble a local stack themselves." }], // 6:48
+  },
+  {
+    name: "Security & privacy of agents",
+    keywords: ["goose permission prompts", "safe autonomous agents", "agent harness safety"],
+    picks: [{ youtube_id: "E1RTjt8uPsw", t: 548, label: "Rather than treating repeated permission prompts as the safety boundary, Goose assumes users may approve requests without reading them and makes safe autonomous behavior a responsibility of the harness itself." }], // 9:08
+  },
+  {
+    name: "Mesh-LLM",
+    keywords: ["heterogeneous device inference", "idle compute mesh", "distributed model layers"],
+    picks: [{ youtube_id: "E1RTjt8uPsw", t: 620, label: "Mesh-LLM pools heterogeneous devices—from laptops and gaming rigs to racks—so models can check one another or split layers across machines, using idle compute that no single device could turn into capable inference alone." }], // 10:20
+  },
+  {
+    name: "Verifiable compute",
+    keywords: ["paid shared compute", "verifiable llm execution", "idle hardware earnings"],
+    picks: [{ youtube_id: "E1RTjt8uPsw", t: 810, label: "Mic says a paid shared-compute network needs trustworthy, safe, verifiable execution before users will fund priority LLM access and hardware owners can reliably earn from idle machines." }], // 13:30
+  },
+  {
+    name: "AI compute efficiency",
+    keywords: ["idle hardware efficiency", "embodied compute cost", "mesh llm energy"],
+    picks: [{ youtube_id: "E1RTjt8uPsw", t: 942, label: "Mesh-LLM's efficiency case is less about replacing data centers than making better use of the energy and embodied cost already sunk into heterogeneous hardware that otherwise sits idle." }], // 15:42
+  },
+  {
+    name: "Open-source software",
+    keywords: ["bitcoin linux governance", "distributed maintainers", "long-lived open source"],
+    picks: [{ youtube_id: "E1RTjt8uPsw", t: 1036, label: "Mic links Bitcoin and Linux as rare decades-long distributed software projects, asking how systems with rotating maintainers and no simple central authority preserve coherence and keep evolving." }], // 17:16
+  },
+  {
+    name: "Career advice",
+    keywords: ["open-source career", "remote developer contribution", "ai-generated pull requests"],
+    picks: [{ youtube_id: "E1RTjt8uPsw", t: 1242, label: "Open-source contribution remains a way for remote or underrepresented developers to build relationships and visibility, even though AI-generated code has made the field noisier and a pull request no longer outshines interviews as automatically as it once did." }], // 20:42
+  },
+]);
+
+// 2026-07-02 21 in 21: Patrick Ball on Bitcoin, AI, and human rights.
+addTopicDefs([
+  {
+    name: "Human rights data analysis",
+    keywords: ["human rights data analysis", "hrdag", "patrick ball", "mass violence statistics", "war crimes data", "human rights evidence"],
+    picks: [{ youtube_id: "yN6ho-KQfh8", t: 27, label: "Patrick Ball describes HRDAG's 35-year progression from early databases through inferential statistics, machine learning, and AI to quantify mass violence and hold perpetrators of state crimes accountable." }], // 0:27
+  },
+  {
+    name: "AI provenance",
+    keywords: ["human rights evidence provenance", "opentimestamps evidence", "merkle root evidence"],
+    picks: [{ youtube_id: "yN6ho-KQfh8", t: 449, label: "To keep future human-rights evidence from being dismissed as AI slop, HRDAG signs and hashes its data and anchors Merkle roots through OpenTimestamps so it can prove the material existed by a specific Bitcoin block." }], // 7:29
+  },
+  {
+    name: "Bitcoin as human rights tool",
+    keywords: ["bitcoin evidence timestamp", "free opentimestamps", "proof of age bitcoin"],
+    picks: [{ youtube_id: "yN6ho-KQfh8", t: 567, label: "Ball chose Bitcoin timestamping because OpenTimestamps is free, responsive, and easy to use at scale, while Bitcoin's ubiquity makes the resulting proof of age understandable to nontechnical audiences." }], // 9:27
+  },
+  {
+    name: "Bitcoin and human rights",
+    keywords: ["nonprofit censorship resistance", "icc sanctions", "decentralized human rights tools"],
+    picks: [{ youtube_id: "yN6ho-KQfh8", t: 626, label: "Using sanctioned International Criminal Court judges and prosecutors as the warning, Ball argues that nonprofits challenging governments need decentralized tools that cannot be disabled through pressure on big-tech providers." }], // 10:26
+  },
+  {
+    name: "Open-source AI models",
+    keywords: ["hrdag local ai", "human rights gpu server", "private evidence extraction"],
+    picks: [{ youtube_id: "yN6ho-KQfh8", t: 732, label: "HRDAG runs open models on its own GPU server for transcription, entity resolution, document extraction, and conversion of heterogeneous evidence into structured data, keeping a sensitive human-rights workflow under organizational control." }], // 12:12
+  },
+  {
+    name: "AI for activists",
+    keywords: ["ai human rights evidence", "victim evidence graphs", "ai truth commissions"],
+    picks: [{ youtube_id: "yN6ho-KQfh8", t: 754, label: "Ball describes using AI to turn video, audio, and documents into structured graphs that synthesize victims' voices for court cases, truth commissions, lustration, memorialization, and advocacy." }], // 12:34
+  },
+  {
+    name: "Model provider lock-in",
+    keywords: ["human rights cloud dependency", "advocacy ai shutdown", "nonprofit infrastructure resilience"],
+    picks: [{ youtube_id: "yN6ho-KQfh8", t: 841, label: "Ball says the greater danger is no longer only confidential data leaking but human-rights advocacy depending on AI and cloud tools that powerful actors can have switched off, making control of the stack existential." }], // 14:01
+  },
+  {
+    name: "Decentralized resource discovery",
+    keywords: ["decentralized resource discovery", "peer-to-peer resource routing", "node discovery", "distributed compute", "resource sharing"],
+    picks: [{ youtube_id: "yN6ho-KQfh8", t: 1010, label: "Ball's magic-wand request is a decentralized network layer where nodes can discover, consume, and offer available resources, because cryptographic guarantees exist but routing and distribution remain unsolved." }], // 16:50
+  },
+  {
+    name: "Decentralized data storage",
+    keywords: ["decentralized data storage", "distributed evidence storage", "replicated nonprofit data", "filecoin", "opentimestamps storage"],
+    picks: [{ youtube_id: "yN6ho-KQfh8", t: 1108, label: "Five nonprofits share a decentralized storage network of roughly one-gigabyte, OpenTimestamps-backed chunks, separating distributed evidence custody from HRDAG's still-centralized compute server." }], // 18:28
+  },
+  {
+    name: "Security-tool adoption",
+    keywords: ["security tool adoption", "privacy ux", "resilience ux", "encrypted software adoption", "secure alternatives", "martus"],
+    picks: [{ youtube_id: "yN6ho-KQfh8", t: 1261, label: "Ball argues that security and decentralization tools will not win adoption unless they are at least as usable as incumbents and offer benefits users actively want, because resilience alone feels like being told to eat spinach." }], // 21:01
   },
 ]);
