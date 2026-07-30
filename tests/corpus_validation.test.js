@@ -5,7 +5,15 @@ const { spawnSync } = require("node:child_process");
 const test = require("node:test");
 
 const ROOT = path.join(__dirname, "..");
-const INGESTED_VIDEO_IDS = ["uGv-wH4UYkg", "WisO6hoeUb8"];
+const INGESTED_VIDEO_IDS = [
+  "uGv-wH4UYkg",
+  "WisO6hoeUb8",
+  "ziJy4PuxBhc",
+  "y2z-NATJC10",
+  "Prdk7Mf2X0M",
+  "E1RTjt8uPsw",
+  "yN6ho-KQfh8",
+];
 
 function readPublicJson(filename) {
   return JSON.parse(fs.readFileSync(path.join(ROOT, "public", filename), "utf8"));
@@ -35,9 +43,9 @@ test("source files, curated timestamps, and generated search coverage validate",
   const result = validation();
   assert.equal(result.ok, true);
   assert.deepEqual(result.errors, []);
-  assert.equal(result.stats.catalog_videos, 171);
+  assert.equal(result.stats.catalog_videos, 176);
   assert.equal(result.stats.transcripts_with_entries, result.stats.catalog_videos);
-  assert.equal(result.stats.canonical_topics, 834);
+  assert.equal(result.stats.canonical_topics, 840);
   assert.ok(result.stats.video_topic_picks > result.stats.canonical_topics);
   assert.ok(result.stats.report_topic_picks > 0);
   assert.ok(result.stats.generated_chunks > result.stats.catalog_videos);

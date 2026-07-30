@@ -6,8 +6,8 @@ const SERIES_ALL_ORDER = [
   "qbs",
   "21in21",
   "builder",
-  "goose-gdk",
   "bitcoin-quantum-readiness-report",
+  "goose-gdk",
   "type1",
   "bdw",
   "sf-bitdevs",
@@ -159,6 +159,7 @@ const SERIES_DEFS = [
     type: "Event",
     category: "event",
     date: "July 8, 2026",
+    topicVideoIds: ["m7NGzb8m0nk"],
     blurb: "An evening with the goose developers from Spiral introducing the Goose Development Kit (GDK), developer tooling, use cases, local model support, and the open-source agent ecosystem around goose.",
     links: [
       { kind: "youtube", label: "Watch", url: "https://youtu.be/m7NGzb8m0nk?si=3Luaw_7LK0sQ0Nl3" },

@@ -1,0 +1,25 @@
+Mic Neale, a member of the Spiral team at Block and a core developer of goose, an open source AI agent, joins Haley Berkoe on 21 in 21 to discuss goose, Mesh LLM, and open source AI. Mic shares how goose has evolved from a desktop app and CLI into the goose Development Kit (GDK), making it easier for developers to build AI applications. He also explains how Mesh LLM pools idle compute across devices, why local models and peer-to-peer infrastructure matter, and where he sees the overlap between bitcoin and open source AI. As a longtime open source contributor, Mic closes with advice for anyone looking to get involved in open source projects.
+
+FOLLOW:
+https://x.com/michaelneale
+https://x.com/HBerkoe
+
+LINKS
+https://goose-docs.ai
+https://meshllm.cloud
+https://spiral.xyz
+
+TIMESTAMPS
+0:00 Intro & welcome
+1:00 Mic's background
+3:35 What makes the open-source AI community different?
+5:02 What is goose?
+6:55 Running AI models locally with goose
+8:02 Why goose was designed differently from other AI agents
+10:15 Mesh LLM and sharing unused compute across devices
+13:20 Could you earn money by contributing inference?
+17:05 Joining Spiral and the connection to bitcoin
+19:11 The overlap between open-source AI and bitcoin
+20:00 Career advice for aspiring open-source developers
+22:00 Why open source still matters in the AI era
+23:22 Where to find Mic online

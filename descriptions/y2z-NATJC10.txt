@@ -1,0 +1,13 @@
+0:00 - Opening banter, Nostr momentum & voice-first computing
+7:21 - Presidio Bitcoin’s visiting member program
+10:30 - Bitcoin Security Consortium: quantum preparedness, tradeoffs & independent funding
+26:07 - Buzz launches to strong early adoption
+35:53 - Buzz’s Nostr architecture and user-owned identity
+48:28 - Can Anthropic or OpenAI copy Buzz?
+53:24 - Buzz onboarding, local agents & security tradeoffs
+1:03:37 - Learning through shared agents and 15-minute hackathons
+1:07:54 - Mesh LLM and bitcoin-powered agent onboarding
+1:18:52 - Wavelength and the growing Ark ecosystem
+1:27:08 - Foundry’s BIP 110 vote and Stratum V2
+1:37:20 - Nostr web of trust for humans and agents
+1:41:10 - Treasure hunt progress and AI-assisted mysteries

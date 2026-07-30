@@ -140,6 +140,31 @@
       cursor: pointer;
     }
     .example-chip:hover { border-color: var(--green); }
+    .ask-panel.has-result {
+      padding: 12px;
+      margin-bottom: 18px;
+    }
+    .ask-panel.has-result .ask-form {
+      grid-template-columns: minmax(0, 1fr) auto;
+      align-items: stretch;
+      gap: 10px;
+    }
+    .ask-panel.has-result .ask-input {
+      height: 50px;
+      min-height: 50px;
+      padding: 12px 14px;
+      resize: none;
+    }
+    .ask-panel.has-result .ask-input:focus {
+      height: 76px;
+      min-height: 76px;
+      resize: vertical;
+    }
+    .ask-panel.has-result .ask-actions { align-items: stretch; }
+    .ask-panel.has-result .ask-button { min-height: 50px; padding-inline: 18px; }
+    .ask-panel.has-result .ask-note,
+    .ask-panel.has-result .example-row { display: none; }
+    .ask-panel.has-result .error-card { grid-column: 1 / -1; }
     .loading-state {
       display: none;
       align-items: center;
@@ -190,6 +215,7 @@
       display: flex;
       align-items: center;
       justify-content: space-between;
+      flex-wrap: wrap;
       gap: 12px;
       margin-bottom: 10px;
     }
@@ -200,20 +226,43 @@
       border-radius: 6px;
       background: #fff;
       color: var(--green);
-      padding: 4px 8px;
+      min-height: 34px;
+      padding: 6px 10px;
       cursor: pointer;
-      font: 700 11px -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      font: 700 12px -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
     }
     .answer-action:hover { border-color: var(--green); background: var(--green-light); }
+    .answer-action:focus-visible,
+    .citation-link:focus-visible {
+      outline: 2px solid var(--green);
+      outline-offset: 2px;
+    }
     .answer-card {
       background: var(--green-light);
       border-left: 3px solid var(--green);
       border-radius: 0 8px 8px 0;
-      padding: 16px 18px;
+      padding: 22px 24px 24px;
       font-size: 16px;
-      line-height: 1.75;
-      white-space: pre-wrap;
+      font-weight: 400;
+      line-height: 1.6;
+      hyphens: none;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
     }
+    .answer-card p,
+    .answer-card ul,
+    .answer-card ol {
+      width: 100%;
+      max-width: 66ch;
+      margin-inline: auto;
+    }
+    .answer-card > * + * { margin-top: 1em; }
+    .answer-card ul,
+    .answer-card ol { padding-left: 1.45em; }
+    .answer-card li { padding-left: 0.25em; }
+    .answer-card li + li { margin-top: 1em; }
+    .answer-card li::marker { color: var(--green); font-weight: 700; }
+    .answer-card strong { font-weight: 600; }
     .source-list { display: grid; gap: 10px; }
     .source-card {
       border: 1.5px solid var(--border);
@@ -238,8 +287,12 @@
     .source-card { scroll-margin-top: 18px; }
     .citation-link {
       color: var(--green);
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      font-size: 0.82em;
       font-weight: 700;
+      letter-spacing: -0.01em;
       text-decoration: none;
+      vertical-align: 0.08em;
       white-space: nowrap;
     }
     .citation-link:hover { text-decoration: underline; text-underline-offset: 2px; }
@@ -325,6 +378,11 @@
       .site-nav { justify-content: flex-start; }
       .nav-sep, .icon-link, .ext-link { display: none; }
       .page-title { font-size: 30px; }
+      .ask-panel.has-result .ask-input,
+      .ask-panel.has-result .ask-input:focus { min-width: 0; }
+      .ask-panel.has-result .ask-button { padding-inline: 14px; }
+      .answer-card { padding: 18px; font-size: 16px; line-height: 1.6; }
+      .answer-action { min-height: 40px; }
     }
     @media (prefers-reduced-motion: reduce) {
       .loading-dots span { animation: none; opacity: 0.65; }
@@ -364,7 +422,7 @@
     <h1 class="page-title">Ask PB</h1>
     <p class="page-sub">Ask the Presidio Bitcoin archive a question and get a direct answer, plus the transcripts, report sections, and topic cards that support it.</p>
 
-    <section class="ask-panel">
+    <section class="ask-panel" id="ask-panel">
       <form class="ask-form" id="ask-form">
         <textarea class="ask-input" id="ask-input" maxlength="2000" placeholder="Ask a question, compare topics, find an episode or quote, or paste a YouTube link and timestamp..."></textarea>
         <div class="ask-actions">
@@ -389,13 +447,13 @@
     <section class="result" id="result">
       <div class="section">
         <div class="answer-heading">
-          <div class="section-title">Short Answer</div>
+          <h2 class="section-title" id="answer-title">Answer</h2>
           <div class="answer-actions">
             <button class="answer-action" id="copy-answer" type="button">Copy</button>
             <button class="answer-action" id="share-answer" type="button">Share</button>
           </div>
         </div>
-        <div class="answer-card" id="answer"></div>
+        <article class="answer-card" id="answer" aria-labelledby="answer-title" aria-live="polite"></article>
       </div>
       <div class="section" id="topics-section">
         <div class="section-title">Related Topics</div>
@@ -424,8 +482,10 @@
   </footer>
 
   <script src="./search_core.js"></script>
+  <script src="./ask_render.js"></script>
   <script>
     const form = document.getElementById("ask-form");
+    const askPanel = document.getElementById("ask-panel");
     const input = document.getElementById("ask-input");
     const button = document.getElementById("ask-button");
     const note = document.getElementById("ask-note");
@@ -488,13 +548,6 @@
       const excerpt = value.slice(start, end).replace(/^\S*\s+/, "").replace(/\s+\S*$/, "");
       return `${start > 0 ? "..." : ""}${excerpt}${end < value.length ? "..." : ""}`;
     }
-    function linkCitations(value, sourceCount) {
-      return esc(value).replace(/\s*\[0\]/g, "").replace(/\[(\d+)\]/g, (match, number) => {
-        const index = Number(number);
-        if (!Number.isInteger(index) || index < 1 || index > sourceCount) return match;
-        return `<a class="citation-link" href="#source-${index}" data-source-ref="${index}" aria-label="Jump to source ${index}">[${index}]</a>`;
-      });
-    }
     function topicHref(topic) {
       return `./topics/#topic-${slug(topic)}`;
     }
@@ -502,7 +555,8 @@
       const sourceText = currentSources
         .map((source, index) => `[${index + 1}] ${source.title}${source.url ? `\n${source.url}` : ""}`)
         .join("\n");
-      return `Question: ${currentQuery}\n\n${currentAnswerText}${sourceText ? `\n\nSources:\n${sourceText}` : ""}`;
+      const plainAnswer = PBAskRender.toPlainText(currentAnswerText);
+      return `Question: ${currentQuery}\n\n${plainAnswer}${sourceText ? `\n\nSources:\n${sourceText}` : ""}`;
     }
     async function copyText(value) {
       if (navigator.clipboard?.writeText) {
@@ -681,7 +735,7 @@
       currentQuery = data.query || input.value.trim();
       currentAnswerText = data.answer || "";
       currentSources = data.sources || [];
-      answer.innerHTML = linkCitations(currentAnswerText, sourceCount);
+      answer.innerHTML = PBAskRender.renderAnswer(currentAnswerText, sourceCount);
       sources.innerHTML = (data.sources || []).map((source, index) => `
         <a class="source-card" id="source-${index + 1}" href="${esc(source.url)}" target="_blank" rel="noreferrer">
           <div class="source-meta">
@@ -704,6 +758,7 @@
       note.textContent = data.mode === "rag"
         ? "Generated from retrieved PB archive sources."
         : "Showing source-backed retrieval because answer synthesis is temporarily unavailable.";
+      askPanel.classList.add("has-result");
       result.classList.add("visible");
     }
 

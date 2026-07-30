@@ -1,0 +1,27 @@
+Haley Berkoe sits down with Bradley Axen, who is leading many of Block's AI initiatives, including Buzz, a new open-source collaboration platform designed for humans and AI agents to work together. He also helped create goose, the open-source AI agent that was later donated to the Agentic AI Foundation under the Linux Foundation.
+
+They discuss how Block is using AI internally with tools like Builder Bot to help engineers navigate massive codebases, automate incident response, and collaborate more effectively. Brad also shares his thoughts on where open-source AI is headed, why model flexibility matters, and how new open source AI contributors can get involved.
+
+FOLLOW: 
+https://x.com/bradleyaxen
+https://github.com/baxen 
+https://x.com/HBerkoe 
+
+LINKS: 
+https://buzz.xyz 
+https://goose-docs.ai
+ 
+TIMESTAMPS:
+0:00 Introduction & Brad's journey into AI at Block
+2:17 What goose is and why developers should care
+3:15 Open models, local inference, and switching between providers
+5:00 Do AI models perform better with their own coding harness?
+6:40 Why enterprises benefit from model flexibility
+8:25 Why AI inference is becoming critical infrastructure
+9:16 How Block is approaching AI and open-source collaboration
+10:25 Builder Bot: Block's internal AI assistant
+13:50 Buzz: the future of collaborative AI workflows
+15:47 Will Buzz replace Slack?
+20:00 How AI is changing the role of engineers
+21:45 Advice for getting started in open-source AI
+24:22 Where to follow Brad's work
