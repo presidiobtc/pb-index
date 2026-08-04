@@ -1,0 +1,18 @@
+0:00 - The COLDCARD hack: bitcoin’s worst security incident ever?
+4:30 - What happened and how thefts were identified
+7:04 - The random-number failure behind the hack
+13:24 - The right way to generate wallet entropy (i.e., dice rolls)
+20:45 - Who is affected and what users should do
+31:43 - Custody options and why diversification matters
+37:37 - The source-license change behind the COLDCARD bug
+40:33 - How AI changes open-source security audits
+52:30 - How the community can limit further theft
+59:56 - Why patches cannot fix keys and recovering stolen bitcoin
+1:10:37 - Does AI strengthen the case for custodians?
+1:16:30 - Future of self-custody
+1:21:43 - Evaluating Bitkey, Ledger, Trezor and multisig post-COLDCARD
+1:31:04 - ETFs, custodians and new transparency standards
+
+PBJ custody survey episode: https://www.youtube.com/watch?v=OSanv5Z-DA4
+
+Block COLDCARD blog post: https://engineering.block.xyz/blog/predictable-rng-fallback-and-32-bit-reseed-in-coldcard-firmware

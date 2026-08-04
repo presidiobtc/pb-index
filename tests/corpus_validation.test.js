@@ -13,6 +13,7 @@ const INGESTED_VIDEO_IDS = [
   "Prdk7Mf2X0M",
   "E1RTjt8uPsw",
   "yN6ho-KQfh8",
+  "cSXOmwI38Jo",
 ];
 
 function readPublicJson(filename) {
@@ -43,9 +44,9 @@ test("source files, curated timestamps, and generated search coverage validate",
   const result = validation();
   assert.equal(result.ok, true);
   assert.deepEqual(result.errors, []);
-  assert.equal(result.stats.catalog_videos, 176);
+  assert.equal(result.stats.catalog_videos, 177);
   assert.equal(result.stats.transcripts_with_entries, result.stats.catalog_videos);
-  assert.equal(result.stats.canonical_topics, 840);
+  assert.equal(result.stats.canonical_topics, 848);
   assert.ok(result.stats.video_topic_picks > result.stats.canonical_topics);
   assert.ok(result.stats.report_topic_picks > 0);
   assert.ok(result.stats.generated_chunks > result.stats.catalog_videos);
