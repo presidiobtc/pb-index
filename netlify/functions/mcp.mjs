@@ -108,7 +108,7 @@ const BROWSER_LANDING_PAGE = `<!doctype html>
     .shell { width: min(920px, calc(100% - 32px)); margin: 0 auto; }
     header {
       border-bottom: 1px solid rgba(255, 255, 255, .16);
-      background: var(--green-dark);
+      background: #1f4d2a;
       color: white;
     }
     header .shell {
@@ -121,21 +121,18 @@ const BROWSER_LANDING_PAGE = `<!doctype html>
     .brand {
       display: inline-flex;
       align-items: center;
-      gap: 12px;
+      gap: 8px;
       color: white;
       text-decoration: none;
       font-weight: 700;
     }
     .mark {
-      width: 38px;
-      height: 38px;
-      display: grid;
-      place-items: center;
-      border: 1px solid rgba(255, 255, 255, .65);
-      border-radius: 50%;
-      font-family: Georgia, serif;
-      font-size: 13px;
-      letter-spacing: -.04em;
+      width: 28px;
+      height: 28px;
+      display: block;
+      flex-shrink: 0;
+      object-fit: contain;
+      filter: brightness(0) invert(1);
     }
     .status {
       display: inline-flex;
@@ -253,7 +250,7 @@ const BROWSER_LANDING_PAGE = `<!doctype html>
   <header>
     <div class="shell">
       <a class="brand" href="/" aria-label="PB Media Archive home">
-        <span class="mark" aria-hidden="true">PB</span>
+        <img class="mark" src="/logo.png" alt="" width="28" height="28">
         <span>PB Media Archive</span>
       </a>
       <span class="status">MCP endpoint available</span>
@@ -341,7 +338,7 @@ function browserLandingResponse() {
     status: 200,
     headers: {
       "cache-control": "no-store",
-      "content-security-policy": "default-src 'none'; style-src 'unsafe-inline'; frame-ancestors 'none'; base-uri 'none'; form-action 'none'",
+      "content-security-policy": "default-src 'none'; img-src 'self'; style-src 'unsafe-inline'; frame-ancestors 'none'; base-uri 'none'; form-action 'none'",
       "content-type": "text/html; charset=utf-8",
       "permissions-policy": "camera=(), geolocation=(), microphone=(), payment=(), usb=()",
       "referrer-policy": "no-referrer",
