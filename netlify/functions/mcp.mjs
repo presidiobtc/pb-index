@@ -77,6 +77,290 @@ const READ_ONLY_ANNOTATIONS = {
   openWorldHint: false,
 };
 
+const BROWSER_LANDING_PAGE = `<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#1f5935">
+  <title>PB Media Archive MCP Server</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --green: #1f5935;
+      --green-dark: #153e26;
+      --green-soft: #e8f0e9;
+      --cream: #f5f2e9;
+      --paper: #fffefa;
+      --ink: #171b18;
+      --muted: #606962;
+      --line: #d7ddd7;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      min-height: 100vh;
+      background: var(--cream);
+      color: var(--ink);
+      font: 16px/1.55 -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    }
+    a { color: var(--green); }
+    .shell { width: min(920px, calc(100% - 32px)); margin: 0 auto; }
+    header {
+      border-bottom: 1px solid rgba(255, 255, 255, .16);
+      background: var(--green-dark);
+      color: white;
+    }
+    header .shell {
+      min-height: 76px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 20px;
+    }
+    .brand {
+      display: inline-flex;
+      align-items: center;
+      gap: 12px;
+      color: white;
+      text-decoration: none;
+      font-weight: 700;
+    }
+    .mark {
+      width: 38px;
+      height: 38px;
+      display: grid;
+      place-items: center;
+      border: 1px solid rgba(255, 255, 255, .65);
+      border-radius: 50%;
+      font-family: Georgia, serif;
+      font-size: 13px;
+      letter-spacing: -.04em;
+    }
+    .status {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      color: #dce8df;
+      font-size: 14px;
+    }
+    .status::before {
+      content: "";
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: #67d58b;
+      box-shadow: 0 0 0 4px rgba(103, 213, 139, .13);
+    }
+    main { padding: 72px 0 64px; }
+    .eyebrow {
+      margin: 0 0 12px;
+      color: var(--green);
+      font-size: 13px;
+      font-weight: 800;
+      letter-spacing: .12em;
+      text-transform: uppercase;
+    }
+    h1 {
+      max-width: 760px;
+      margin: 0;
+      font: 700 clamp(38px, 7vw, 64px)/1.03 Georgia, serif;
+      letter-spacing: -.035em;
+    }
+    .lede {
+      max-width: 700px;
+      margin: 24px 0 34px;
+      color: var(--muted);
+      font-size: clamp(18px, 2.5vw, 21px);
+    }
+    .endpoint {
+      padding: 20px 22px;
+      border: 1px solid var(--line);
+      border-radius: 12px;
+      background: var(--paper);
+      box-shadow: 0 12px 30px rgba(22, 49, 30, .06);
+    }
+    .endpoint span {
+      display: block;
+      margin-bottom: 7px;
+      color: var(--muted);
+      font-size: 13px;
+      font-weight: 700;
+      letter-spacing: .06em;
+      text-transform: uppercase;
+    }
+    code, pre { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+    .endpoint code { color: var(--green-dark); font-size: clamp(14px, 2.5vw, 18px); }
+    .meta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin: 14px 0 0;
+      padding: 0;
+      list-style: none;
+    }
+    .meta li {
+      padding: 6px 10px;
+      border-radius: 999px;
+      background: var(--green-soft);
+      color: var(--green-dark);
+      font-size: 13px;
+      font-weight: 650;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 18px;
+      margin-top: 40px;
+    }
+    .card {
+      padding: 26px;
+      border: 1px solid var(--line);
+      border-radius: 12px;
+      background: rgba(255, 254, 250, .7);
+    }
+    .card h2 { margin: 0 0 14px; font: 700 23px/1.2 Georgia, serif; }
+    .tools { margin: 0; padding: 0; list-style: none; }
+    .tools li + li { margin-top: 16px; }
+    .tools code { color: var(--green); font-weight: 700; }
+    .tools p { margin: 3px 0 0; color: var(--muted); font-size: 14px; }
+    pre {
+      margin: 0;
+      padding: 18px;
+      overflow-x: auto;
+      border-radius: 9px;
+      background: #17231b;
+      color: #edf5ef;
+      font-size: 13px;
+      line-height: 1.6;
+    }
+    .note { margin: 15px 0 0; color: var(--muted); font-size: 14px; }
+    .actions { display: flex; gap: 16px; margin-top: 34px; align-items: center; }
+    .button {
+      display: inline-flex;
+      min-height: 44px;
+      align-items: center;
+      padding: 0 17px;
+      border-radius: 8px;
+      background: var(--green);
+      color: white;
+      font-weight: 700;
+      text-decoration: none;
+    }
+    footer { padding: 24px 0 38px; color: var(--muted); font-size: 13px; }
+    @media (max-width: 700px) {
+      header .shell { min-height: 66px; }
+      .brand span:last-child { display: none; }
+      main { padding-top: 48px; }
+      .grid { grid-template-columns: 1fr; }
+      .card { padding: 22px; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="shell">
+      <a class="brand" href="/" aria-label="PB Media Archive home">
+        <span class="mark" aria-hidden="true">PB</span>
+        <span>PB Media Archive</span>
+      </a>
+      <span class="status">MCP endpoint available</span>
+    </div>
+  </header>
+  <main class="shell">
+    <p class="eyebrow">Model Context Protocol</p>
+    <h1>Connect your agent to the PB Media Archive.</h1>
+    <p class="lede">Search Presidio Bitcoin episodes and retrieve timestamped transcript evidence through a public, read-only MCP server.</p>
+
+    <section class="endpoint" aria-labelledby="endpoint-label">
+      <span id="endpoint-label">Streamable HTTP endpoint</span>
+      <code>https://pbarchive.ai/mcp</code>
+      <ul class="meta" aria-label="Server characteristics">
+        <li>No authentication</li>
+        <li>Read-only</li>
+        <li>Timestamped sources</li>
+      </ul>
+    </section>
+
+    <div class="grid">
+      <section class="card">
+        <h2>Available tools</h2>
+        <ul class="tools">
+          <li><code>search_archive</code><p>Find ranked evidence across episodes, topics, descriptions, and transcripts.</p></li>
+          <li><code>read_passage</code><p>Retrieve a passage with a bounded window of surrounding transcript context.</p></li>
+          <li><code>get_episode</code><p>Read episode metadata, indexed topics, and transcript coverage by YouTube ID.</p></li>
+        </ul>
+      </section>
+      <section class="card">
+        <h2>Client configuration</h2>
+        <pre><code>{
+  &quot;mcpServers&quot;: {
+    &quot;pb-media-archive&quot;: {
+      &quot;type&quot;: &quot;streamable-http&quot;,
+      &quot;url&quot;: &quot;https://pbarchive.ai/mcp&quot;
+    }
+  }
+}</code></pre>
+        <p class="note">Configuration syntax varies by client. Use Streamable HTTP when your client asks for a transport.</p>
+      </section>
+    </div>
+
+    <div class="actions">
+      <a class="button" href="/">Explore the archive</a>
+      <a href="https://presidiobitcoin.org">About Presidio Bitcoin</a>
+    </div>
+  </main>
+  <footer class="shell">Presidio Bitcoin Media Archive · Public knowledge infrastructure for Bitcoin and adjacent technologies.</footer>
+</body>
+</html>`;
+
+function prefersBrowserLandingPage(request) {
+  if (request.method !== "GET") return false;
+  const accept = String(request.headers.get("accept") || "").toLowerCase();
+  if (accept.includes("text/event-stream")) return false;
+
+  const acceptsHtml = accept.split(",").some(range => {
+    const [mediaType, ...parameters] = range.split(";").map(value => value.trim());
+    if (mediaType !== "text/html") return false;
+    const quality = parameters.find(parameter => parameter.startsWith("q="));
+    if (!quality) return true;
+    const value = Number(quality.slice(2));
+    return Number.isFinite(value) && value > 0;
+  });
+  if (!acceptsHtml) return false;
+
+  const mcpHeaders = [
+    "last-event-id",
+    "mcp-method",
+    "mcp-name",
+    "mcp-protocol-version",
+    "mcp-session-id",
+  ];
+  if (mcpHeaders.some(header => request.headers.has(header))) return false;
+
+  const fetchMode = request.headers.get("sec-fetch-mode");
+  if (fetchMode && fetchMode !== "navigate") return false;
+  const fetchDestination = request.headers.get("sec-fetch-dest");
+  if (fetchDestination && fetchDestination !== "document") return false;
+  return true;
+}
+
+function browserLandingResponse() {
+  return new Response(BROWSER_LANDING_PAGE, {
+    status: 200,
+    headers: {
+      "cache-control": "no-store",
+      "content-security-policy": "default-src 'none'; style-src 'unsafe-inline'; frame-ancestors 'none'; base-uri 'none'; form-action 'none'",
+      "content-type": "text/html; charset=utf-8",
+      "permissions-policy": "camera=(), geolocation=(), microphone=(), payment=(), usb=()",
+      "referrer-policy": "no-referrer",
+      "vary": "Accept",
+      "x-content-type-options": "nosniff",
+      "x-frame-options": "DENY",
+    },
+  });
+}
+
 function toolResult(output) {
   return {
     content: [{ type: "text", text: JSON.stringify(output) }],
@@ -236,6 +520,9 @@ export const mcpHandler = {
     if (rejected) return rejected;
     if (request.method === "OPTIONS") {
       return withCors(new Response(null, { status: 204 }), request);
+    }
+    if (prefersBrowserLandingPage(request)) {
+      return withCors(browserLandingResponse(), request);
     }
     const response = await coreHandler.fetch(request, options);
     return withCors(response, request);

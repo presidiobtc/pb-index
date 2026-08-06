@@ -8,6 +8,8 @@ https://pbarchive.ai/mcp
 
 The endpoint is available after this code is deployed to the production Netlify site. It uses the same deterministic `public/search_core.js` retrieval engine and `public/search_chunks.json` corpus as the archive. It does not call OpenAI, contact YouTube, or expose filesystem and write operations.
 
+Opening the endpoint in a regular web browser displays a human-readable connection guide. Protocol requests continue to use the same `/mcp` URL; a `GET` request advertising `text/event-stream` is passed through to the MCP transport rather than the browser page.
+
 ## Tools
 
 ### `search_archive`

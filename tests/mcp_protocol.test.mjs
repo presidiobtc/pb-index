@@ -150,3 +150,105 @@ test("the HTTP boundary permits an allowlisted CORS preflight", async () => {
   assert.equal(response.headers.get("access-control-allow-origin"), "https://pbarchive.ai");
   assert.match(response.headers.get("access-control-allow-methods"), /POST/);
 });
+
+test("a normal browser navigation receives a friendly MCP landing page", async () => {
+  const response = await mcpHandler.fetch(new Request("http://pb.test/mcp", {
+    method: "GET",
+    headers: {
+      accept: "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+      "sec-fetch-dest": "document",
+      "sec-fetch-mode": "navigate",
+    },
+  }));
+
+  assert.equal(response.status, 200);
+  assert.match(response.headers.get("content-type"), /^text\/html/);
+  assert.equal(response.headers.get("x-content-type-options"), "nosniff");
+  assert.equal(response.headers.get("x-frame-options"), "DENY");
+  assert.equal(response.headers.get("cache-control"), "no-store");
+  assert.match(response.headers.get("vary"), /Accept/);
+  assert.match(response.headers.get("content-security-policy"), /frame-ancestors 'none'/);
+
+  const html = await response.text();
+  assert.match(html, /PB Media Archive MCP Server/);
+  assert.match(html, /https:\/\/pbarchive\.ai\/mcp/);
+  assert.match(html, /search_archive/);
+  assert.match(html, /read_passage/);
+  assert.match(html, /get_episode/);
+  assert.doesNotMatch(html, /node_modules|\/Users\//);
+  assert.ok(Buffer.byteLength(html) < 20_000);
+});
+
+async function assertProtocolOwnsGet(headers = {}) {
+  const response = await mcpHandler.fetch(new Request("http://pb.test/mcp", {
+    method: "GET",
+    headers,
+  }));
+
+  assert.equal(response.status, 405);
+  assert.match(response.headers.get("content-type") || "", /application\/json/);
+  const body = await response.text();
+  assert.doesNotMatch(body, /<!doctype html/i);
+  assert.equal(JSON.parse(body).error.message, "Method not allowed.");
+}
+
+test("MCP event-stream GETs are never replaced by the browser landing page", async () => {
+  await assertProtocolOwnsGet({ accept: "text/event-stream" });
+  await assertProtocolOwnsGet({ accept: "text/html, text/event-stream" });
+});
+
+test("ambiguous and MCP-identified GETs remain owned by the protocol handler", async () => {
+  await assertProtocolOwnsGet();
+  await assertProtocolOwnsGet({ accept: "*/*" });
+  await assertProtocolOwnsGet({ accept: "text/html;q=0" });
+  await assertProtocolOwnsGet({
+    accept: "text/html",
+    "mcp-protocol-version": "2025-11-25",
+  });
+  await assertProtocolOwnsGet({
+    accept: "text/html",
+    "sec-fetch-dest": "empty",
+    "sec-fetch-mode": "cors",
+  });
+});
+
+test("Origin validation runs before the browser landing-page branch", async () => {
+  const response = await mcpHandler.fetch(new Request("http://pb.test/mcp", {
+    method: "GET",
+    headers: {
+      accept: "text/html",
+      origin: "https://evil.example",
+    },
+  }));
+
+  assert.equal(response.status, 403);
+  assert.doesNotMatch(await response.text(), /<!doctype html/i);
+});
+
+test("an allowlisted browser Origin receives CORS and content-negotiation variance", async () => {
+  const response = await mcpHandler.fetch(new Request("http://pb.test/mcp", {
+    method: "GET",
+    headers: {
+      accept: "text/html",
+      origin: "https://pbarchive.ai",
+    },
+  }));
+
+  assert.equal(response.status, 200);
+  assert.equal(response.headers.get("access-control-allow-origin"), "https://pbarchive.ai");
+  assert.match(response.headers.get("vary"), /Accept/);
+  assert.match(response.headers.get("vary"), /Origin/);
+  await response.body?.cancel();
+});
+
+test("HEAD and DELETE remain owned by the protocol handler", async () => {
+  for (const method of ["HEAD", "DELETE"]) {
+    const response = await mcpHandler.fetch(new Request("http://pb.test/mcp", {
+      method,
+      headers: { accept: "text/html" },
+    }));
+    assert.equal(response.status, 405);
+    assert.doesNotMatch(response.headers.get("content-type") || "", /^text\/html/);
+    await response.body?.cancel();
+  }
+});
