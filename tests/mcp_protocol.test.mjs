@@ -168,10 +168,13 @@ test("a normal browser navigation receives a friendly MCP landing page", async (
   assert.equal(response.headers.get("cache-control"), "no-store");
   assert.match(response.headers.get("vary"), /Accept/);
   assert.match(response.headers.get("content-security-policy"), /frame-ancestors 'none'/);
+  assert.match(response.headers.get("content-security-policy"), /img-src 'self'/);
 
   const html = await response.text();
   assert.match(html, /PB Media Archive MCP Server/);
   assert.match(html, /https:\/\/pbarchive\.ai\/mcp/);
+  assert.match(html, /<img class="mark" src="\/logo\.png" alt="" width="28" height="28">/);
+  assert.doesNotMatch(html, /<span class="mark"/);
   assert.match(html, /timestamped transcript segments/);
   assert.doesNotMatch(html, /timestamped transcript evidence/);
   assert.doesNotMatch(html, />Model Context Protocol</);
