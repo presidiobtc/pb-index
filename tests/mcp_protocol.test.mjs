@@ -172,6 +172,9 @@ test("a normal browser navigation receives a friendly MCP landing page", async (
   const html = await response.text();
   assert.match(html, /PB Media Archive MCP Server/);
   assert.match(html, /https:\/\/pbarchive\.ai\/mcp/);
+  assert.match(html, /timestamped transcript segments/);
+  assert.doesNotMatch(html, /timestamped transcript evidence/);
+  assert.doesNotMatch(html, />Model Context Protocol</);
   assert.match(html, /search_archive/);
   assert.match(html, /read_passage/);
   assert.match(html, /get_episode/);

@@ -153,14 +153,6 @@ const BROWSER_LANDING_PAGE = `<!doctype html>
       box-shadow: 0 0 0 4px rgba(103, 213, 139, .13);
     }
     main { padding: 72px 0 64px; }
-    .eyebrow {
-      margin: 0 0 12px;
-      color: var(--green);
-      font-size: 13px;
-      font-weight: 800;
-      letter-spacing: .12em;
-      text-transform: uppercase;
-    }
     h1 {
       max-width: 760px;
       margin: 0;
@@ -268,9 +260,8 @@ const BROWSER_LANDING_PAGE = `<!doctype html>
     </div>
   </header>
   <main class="shell">
-    <p class="eyebrow">Model Context Protocol</p>
     <h1>Connect your agent to the PB Media Archive.</h1>
-    <p class="lede">Search Presidio Bitcoin episodes and retrieve timestamped transcript evidence through a public, read-only MCP server.</p>
+    <p class="lede">Search Presidio Bitcoin episodes and retrieve timestamped transcript segments through a public, read-only MCP server.</p>
 
     <section class="endpoint" aria-labelledby="endpoint-label">
       <span id="endpoint-label">Streamable HTTP endpoint</span>
