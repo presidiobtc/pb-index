@@ -6168,6 +6168,65 @@ addTopicDefs([
   },
 ]);
 
+// 2026-08-01 PBJ: The COLDCARD hack and future of self-custody.
+addTopicDefs([
+  {
+    name: "COLDCARD hack",
+    keywords: ["coldcard hack", "coldcard vulnerability", "coinkite security incident", "coldcard mk2", "coldcard mk3", "coldcard mk4", "coldcard q"],
+    picks: [{ youtube_id: "cSXOmwI38Jo", t: 270, label: "Independent researchers linked more than 1,000 BTC in thefts to a recognizable on-chain pattern among COLDCARD users. MK2 and MK3 keys were described as cheaply recoverable, while newer models faced a costlier but still material exposure." }], // 4:30
+  },
+  {
+    name: "Wallet entropy",
+    keywords: ["wallet entropy", "coldcard rng", "predictable rng fallback", "weak key generation", "hardware random number generator", "deterministic bitcoin keys"],
+    picks: [{ youtube_id: "cSXOmwI38Jo", t: 424, label: "A production build bypassed COLDCARD's hardware random-number generator and fell back to predictable inputs such as timers and device IDs. The tractable search space let attackers reconstruct private keys without touching the device or learning its seed phrase." }], // 7:04
+  },
+  {
+    name: "Offline entropy generation",
+    keywords: ["offline entropy generation", "dice roll seed", "dice-generated seed phrase", "user supplied entropy", "coin flip entropy", "air-gapped seed generation"],
+    picks: [{ youtube_id: "cSXOmwI38Jo", t: 837, label: "Properly executed dice rolls can add enough independent randomness to protect even an affected device, but the procedure is unforgiving: users must preserve roll order, avoid biased handling, work offline, and generate enough bits rather than improvise memorable inputs." }], // 13:57
+  },
+  {
+    name: "BIP39 passphrases",
+    keywords: ["bip39 passphrase", "bip 39 passphrase", "25th word", "13th word", "wallet passphrase entropy", "strong bitcoin passphrase"],
+    picks: [{ youtube_id: "cSXOmwI38Jo", t: 1367, label: "A strong BIP39 passphrase can supply an independent security layer even when the underlying seed has weak entropy, but it behaves like an unrestricted password rather than another dictionary seed word; short, predictable strings provide little protection." }], // 22:47
+  },
+  {
+    name: "Custody diversification",
+    keywords: ["custody diversification", "split bitcoin custody", "independent custody setups", "uncorrelated custody risk", "multiple custody methods"],
+    picks: [{ youtube_id: "cSXOmwI38Jo", t: 2075, label: "The episode's durable recommendation is to split holdings across genuinely independent custody setups—for example, self-custody and a custodian, or hardware and software from different vendors—so one implementation failure cannot remove someone from Bitcoin entirely." }], // 34:35
+  },
+  {
+    name: "Open-source software licensing",
+    keywords: ["open-source software licensing", "source available firmware", "permissive software license", "coldcard license change", "published source", "firmware licensing"],
+    picks: [{ youtube_id: "cSXOmwI38Jo", t: 2261, label: "COLDCARD's move from permissively licensed firmware to source-available code required a substantial rewrite around 2021, when the vulnerable path was introduced. The discussion distinguishes code that can be inspected from software competitors can freely reuse and improve." }], // 37:41
+  },
+  {
+    name: "Project Loupe",
+    keywords: ["project loupe coldcard", "continuous bitcoin code audit", "source available security scan", "bitcoin firmware audit"],
+    picks: [{ youtube_id: "cSXOmwI38Jo", t: 2507, label: "Project Loupe can scan source-available Bitcoin repositories with frontier models, but only when code is accessible and maintainers engage with the findings. Its move from an eight-project pilot to recurring scans frames security auditing as an ongoing public good." }], // 41:47
+  },
+  {
+    name: "AI security scanning",
+    keywords: ["continuous ai security audit", "frontier model code audit", "coldcard ai audit", "recurring vulnerability scan", "ai vulnerability triage"],
+    picks: [{ youtube_id: "cSXOmwI38Jo", t: 2849, label: "Earlier model audits reportedly missed the bug; after disclosure, a stronger model reproduced it in under two hours. Security-critical code needs renewed scans as models improve, while knowledgeable humans still must triage noisy findings and misclassified severity." }], // 47:29
+  },
+  {
+    name: "Wallet ownership proofs",
+    keywords: ["wallet ownership proof", "prove stolen bitcoin ownership", "coldcard uid", "signed purchase email", "exchange withdrawal evidence", "on-chain ownership history"],
+    picks: [{ youtube_id: "cSXOmwI38Jo", t: 3791, label: "Once an attacker can derive the same private key, a signature cannot distinguish victim from thief. Proposed ownership evidence instead combines device UIDs, cryptographically signed purchase emails, exchange withdrawal records, and on-chain transaction history." }], // 1:03:11
+  },
+  {
+    name: "Multisig",
+    keywords: ["multisig", "multi-vendor multisig", "hardware wallet diversity", "two of three bitcoin", "three of five bitcoin", "independent signing devices"],
+    picks: [{ youtube_id: "cSXOmwI38Jo", t: 4936, label: "Multisig remains resilient only when its keys span different hardware, firmware, and vendors. A two-of-three or three-of-five setup can tolerate one compromised signer, while a bundle of identical COLDCARD devices repeats the same failure across every key." }], // 1:22:16
+  },
+  {
+    name: "Bitkey",
+    keywords: ["bitkey key generation", "bitkey two of three", "bitkey server key", "bitkey reproducible build", "bitkey security model"],
+    picks: [{ youtube_id: "cSXOmwI38Jo", t: 5100, label: "Bitkey reduces user-error risk with default two-of-three signing across a phone, hardware device, and Block server, each using a different stack. The trade-off is single-vendor coordination and limited independent verification of server-side and component-level key generation." }], // 1:25:00
+  },
+]);
+
 // 2026-07-28 21 in 21: 0xSero on local AI, open models, and benchmarking.
 addTopicDefs([
   {
