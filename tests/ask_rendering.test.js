@@ -52,7 +52,7 @@ test("Ask PB separates adjacent citations in rendered and copied answers", () =>
   assert.equal(text, "A claim supported by two sources [1] [2].");
 });
 
-test("Ask PB copy and share text contains clean plain-text formatting", () => {
+test("Ask PB answer copy text contains clean plain-text formatting", () => {
   const text = AskRender.toPlainText("Based on the archive:\n\n- **First point:** Evidence [1].\n- **Second point:** More evidence [2].");
 
   assert.equal(text, "Based on the archive:\n\n• First point: Evidence [1].\n• Second point: More evidence [2].");
@@ -68,4 +68,15 @@ test("Ask PB page loads and uses the restricted answer renderer", () => {
   assert.match(page, /id="answer-title">Answer<\/h2>/);
   assert.match(page, /askPanel\.classList\.add\("has-result"\)/);
   assert.doesNotMatch(page, /white-space:\s*pre-wrap/);
+});
+
+test("Ask PB Share copies only the query URL without opening the native share sheet", () => {
+  const page = fs.readFileSync(path.join(__dirname, "..", "public", "ask.html"), "utf8");
+  const handler = page.match(/shareAnswerButton\.addEventListener\("click", async \(\) => \{([\s\S]*?)\n    \}\);/);
+
+  assert.ok(handler, "Share click handler should exist");
+  assert.match(handler[1], /const url = location\.href\.split\("#"\)\[0\]/);
+  assert.match(handler[1], /await copyText\(url\)/);
+  assert.match(handler[1], /flashAction\(shareAnswerButton, "Link copied"\)/);
+  assert.doesNotMatch(handler[1], /navigator\.share|answerTextForCopying/);
 });

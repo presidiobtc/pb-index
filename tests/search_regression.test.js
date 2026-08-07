@@ -294,7 +294,7 @@ test("server and browser use the same shared retrieval implementation", async ()
 
   const previousKey = process.env.OPENAI_API_KEY;
   delete process.env.OPENAI_API_KEY;
-  const { handler } = require("../netlify/functions/lib/ask-handler.js");
+  const { handler } = require("../netlify/functions/ask.js");
   const query = "Which PBJ episode surveyed different self-custody wallet options and analyzed them?";
   const response = await handler({ httpMethod: "POST", body: JSON.stringify({ query, limit: 10 }) });
   if (previousKey === undefined) delete process.env.OPENAI_API_KEY;

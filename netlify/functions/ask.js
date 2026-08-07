@@ -1,10 +1,7 @@
-"use strict";
-
 const fs = require("fs");
 const path = require("path");
 const crypto = require("crypto");
-const SearchCore = require("../../../public/search_core.js");
-const { persistGeneratedSnapshot, snapshotPath } = require("./ask-share.js");
+const SearchCore = require("../../public/search_core.js");
 
 let cachedChunks = null;
 
@@ -122,7 +119,7 @@ function loadChunks() {
   if (cachedChunks) return cachedChunks;
   const candidates = [
     path.join(process.cwd(), "public", "search_chunks.json"),
-    path.join(__dirname, "..", "..", "..", "public", "search_chunks.json"),
+    path.join(__dirname, "..", "..", "public", "search_chunks.json"),
     path.join(__dirname, "search_chunks.json"),
   ];
   const file = candidates.find(p => fs.existsSync(p));
@@ -922,7 +919,7 @@ exports.handler = async function handler(event) {
         generated = fallbackAnswer(query, sources, { retrievalContext: retrieval.context });
       }
     }
-    const payload = {
+    return json(200, {
       query,
       answer: generated.answer,
       sources,
@@ -930,23 +927,7 @@ exports.handler = async function handler(event) {
       suggested_questions: generated.suggested_questions || [],
       retrieval_context: retrievalContextForClient(retrieval.context),
       mode,
-    };
-    let snapshot;
-    try {
-      snapshot = await persistGeneratedSnapshot(payload);
-    } catch (error) {
-      console.error("Ask PB snapshot creation failed", error);
-      return json(503, {
-        error: "Ask PB could not create a stable sharing link. Please try again.",
-      });
-    }
-    if (snapshot) {
-      payload.share_id = snapshot.id;
-      payload.share_path = snapshotPath(snapshot.id);
-      payload.recording_count = snapshot.card.recording_count;
-      payload.answer_teaser = snapshot.card.teaser;
-    }
-    return json(200, payload);
+    });
   } catch (error) {
     console.error("Ask PB failed", error);
     return json(500, { error: "Ask PB failed." });
