@@ -3,22 +3,8 @@
   publish = "public"
   functions = "netlify/functions"
 
-[functions."ask-api"]
+[functions]
   included_files = ["public/search_chunks.json", "public/search_core.js"]
-
-[functions."mcp"]
-  included_files = ["public/search_chunks.json", "public/search_core.js"]
-
-[functions."ask-page"]
-  included_files = ["public/ask.html"]
-
-[functions."ask-preview"]
-  included_files = [
-    "public/logo.png",
-    "node_modules/@fontsource/newsreader/files/newsreader-latin-400-normal.woff",
-    "node_modules/@fontsource/inter/files/inter-latin-400-normal.woff",
-    "node_modules/@fontsource/inter/files/inter-latin-600-normal.woff",
-  ]
 
 [functions."refresh-featured"]
   # Run at 14:00 UTC each day so refresh timing is explicit across deployments.
@@ -41,3 +27,8 @@
   to = "/topics/index.html"
   status = 200
   force = true
+
+[[redirects]]
+  from = "/api/ask"
+  to = "/.netlify/functions/ask"
+  status = 200

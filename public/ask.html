@@ -483,7 +483,6 @@
 
   <script src="./search_core.js"></script>
   <script src="./ask_render.js"></script>
-  <script src="./ask_share.js"></script>
   <script>
     const form = document.getElementById("ask-form");
     const askPanel = document.getElementById("ask-panel");
@@ -505,7 +504,6 @@
     let currentQuery = "";
     let currentAnswerText = "";
     let currentSources = [];
-    let currentShareUrl = "";
     let activeRequestController = null;
     let requestSequence = 0;
 
@@ -553,7 +551,7 @@
     function topicHref(topic) {
       return `./topics/#topic-${slug(topic)}`;
     }
-    function answerTextForSharing() {
+    function answerTextForCopying() {
       const sourceText = currentSources
         .map((source, index) => `[${index + 1}] ${source.title}${source.url ? `\n${source.url}` : ""}`)
         .join("\n");
@@ -580,11 +578,6 @@
       button.textContent = label;
       clearTimeout(button._resetTimer);
       button._resetTimer = setTimeout(() => { button.textContent = original; }, 1600);
-    }
-
-    function isLocalView() {
-      return location.protocol === "file:"
-        || ["localhost", "127.0.0.1", "::1"].includes(location.hostname);
     }
 
     async function askServer(query, signal) {
@@ -773,13 +766,6 @@
       const sequence = ++requestSequence;
       activeRequestController?.abort();
       activeRequestController = new AbortController();
-      currentShareUrl = "";
-      const pendingUrl = new URL(location.href);
-      if (location.protocol !== "file:") pendingUrl.pathname = "/ask.html";
-      pendingUrl.search = "";
-      pendingUrl.hash = "";
-      pendingUrl.searchParams.set("q", query);
-      history.replaceState({ askPending: true }, "", pendingUrl);
       errorCard.style.display = "none";
       result.classList.remove("visible");
       loadingState.classList.add("visible");
@@ -792,18 +778,13 @@
           data = await askServer(query, activeRequestController.signal);
         } catch (error) {
           if (error?.name === "AbortError") return;
-          if (!isLocalView()) throw error;
           data = await askLocal(query);
         }
         if (sequence !== requestSequence) return;
-        if (!isLocalView() && !PBAskShare.snapshotPath(data)) {
-          throw new Error("This answer could not be assigned a stable sharing link. Please try again.");
-        }
         render(data);
-        currentShareUrl = PBAskShare.applySnapshotUrl(data, { location, history });
-        if (!currentShareUrl) {
-          history.replaceState(null, "", pendingUrl);
-        }
+        const url = new URL(location.href);
+        url.searchParams.set("q", query);
+        history.replaceState(null, "", url);
       } catch (error) {
         if (error?.name === "AbortError" || sequence !== requestSequence) return;
         errorCard.textContent = error.message || "Ask PB failed.";
@@ -837,29 +818,19 @@
     });
     copyAnswerButton.addEventListener("click", async () => {
       try {
-        await copyText(answerTextForSharing());
+        await copyText(answerTextForCopying());
         flashAction(copyAnswerButton, "Copied");
       } catch {
         flashAction(copyAnswerButton, "Copy failed");
       }
     });
     shareAnswerButton.addEventListener("click", async () => {
-      const text = answerTextForSharing();
-      const url = PBAskShare.shareUrl(currentShareUrl, location);
+      const url = location.href.split("#")[0];
       try {
-        if (navigator.share) {
-          await navigator.share({
-            title: `Ask PB: ${currentQuery}`,
-            text,
-            url,
-          });
-          flashAction(shareAnswerButton, "Shared");
-        } else {
-          await copyText(`${text}\n\n${url}`);
-          flashAction(shareAnswerButton, "Copied");
-        }
-      } catch (error) {
-        if (error?.name !== "AbortError") flashAction(shareAnswerButton, "Share failed");
+        await copyText(url);
+        flashAction(shareAnswerButton, "Link copied");
+      } catch {
+        flashAction(shareAnswerButton, "Copy failed");
       }
     });
     answer.addEventListener("click", event => {
@@ -874,13 +845,8 @@
       setTimeout(() => target.classList.remove("source-jump"), 1600);
     });
 
-    const initialSnapshot = window.__PB_ASK_SNAPSHOT__;
     const initialQuery = new URLSearchParams(location.search).get("q")?.trim();
-    if (initialSnapshot?.query && initialSnapshot?.answer) {
-      input.value = initialSnapshot.query;
-      render(initialSnapshot);
-      currentShareUrl = PBAskShare.applySnapshotUrl(initialSnapshot, { location, history });
-    } else if (initialQuery && initialQuery.length >= 3) {
+    if (initialQuery && initialQuery.length >= 3) {
       input.value = initialQuery;
       runAsk(initialQuery);
     }
