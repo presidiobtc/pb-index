@@ -6,6 +6,8 @@ const test = require("node:test");
 const AskShare = require("../netlify/functions/lib/ask-share.js");
 const AskHandler = require("../netlify/functions/lib/ask-handler.js");
 const AskPage = require("../netlify/functions/lib/ask-page-handler.js");
+const AskCard = require("../netlify/functions/lib/ask-card.js");
+const AskPreview = require("../netlify/functions/lib/ask-preview-handler.js");
 const PBAskShare = require("../public/ask_share.js");
 
 const ROOT = path.resolve(__dirname, "..");
@@ -119,11 +121,23 @@ test("schema-v1 snapshots created by the earlier card implementation remain read
     id: SNAPSHOT_ID,
     createdAt: "2026-08-06T12:00:00.000Z",
   });
+  assert.deepEqual(Object.keys(legacy).sort(), [
+    "answer",
+    "created_at",
+    "id",
+    "mode",
+    "query",
+    "related_topics",
+    "schema_version",
+    "sources",
+    "suggested_questions",
+  ], "social previews must not change the durable snapshot schema");
+  assert.equal(Object.hasOwn(legacy, "retrieval_context"), false);
   legacy.card = {
-    title: "Project Loupe",
+    title: "Incorrect legacy title",
     teaser: "A legacy social-card teaser.",
-    recording_count: 2,
-    provenance: "Based on 2 recordings",
+    recording_count: 99,
+    provenance: "Based on 99 recordings",
   };
   store.values.set(AskShare.snapshotKey(SNAPSHOT_ID), structuredClone(legacy));
 
@@ -132,6 +146,45 @@ test("schema-v1 snapshots created by the earlier card implementation remain read
   assert.equal(loaded.answer, legacy.answer);
   assert.deepEqual(loaded.sources, legacy.sources);
   assert.equal(Object.hasOwn(loaded, "card"), false, "obsolete card data should not reach the client");
+  const recomputed = AskShare.cardData(loaded);
+  assert.equal(recomputed.title, "What is Project Loupe?");
+  assert.equal(recomputed.recording_count, 2);
+  assert.equal(recomputed.provenance, "Based on 2 recordings");
+  assert.notEqual(recomputed.teaser, legacy.card.teaser,
+    "preview copy should be recomputed from frozen answer fields, not trusted legacy card data");
+});
+
+test("social-card copy counts recordings and keeps omitted answer text visibly continued", () => {
+  const repeated = AskShare.cardData(payload({
+    answer: [
+      "Based on the PB archive, **Project Loupe** is an open-source, AI-assisted security-scanning initiative from Spiral and Block's security team [1].",
+      "Additional implementation detail follows in the full answer [2].",
+    ].join(" "),
+  }));
+  assert.equal(repeated.recording_count, 2);
+  assert.equal(repeated.provenance, "Based on 2 recordings");
+  assert.doesNotMatch(repeated.teaser, /Based on the PB archive|\*\*|\[\d+\]/);
+  assert.equal(repeated.teaser,
+    "Project Loupe is an open-source, AI-assisted security-scanning initiative from Spiral and Block's security team…");
+  assert.match(repeated.teaser, /…$/);
+  assert.doesNotMatch(repeated.teaser, /……|\.\.\.…/);
+
+  assert.equal(AskShare.cardData(payload({ sources: [source("only-video")] })).provenance, "Based on 1 recording");
+  assert.equal(AskShare.cardData(payload({ sources: [source(""), {}] })).provenance, "Based on the PB archive");
+
+  const longNatural = AskCard.cardViewModel(payload({
+    query: "How should maintainers continuously evaluate AI-assisted security reports while preserving reproducibility, responsible disclosure, and independent technical review?",
+    related_topics: [],
+  }));
+  assert.match(longNatural.title, /…$/);
+  assert.ok(longNatural.title.length <= 151);
+  assert.ok(longNatural.typography.fontSize <= 45, "long questions should select the compact title treatment");
+
+  const longToken = AskCard.cardViewModel(payload({ query: "x".repeat(400), related_topics: [] }));
+  assert.match(longToken.title, /…$/);
+  assert.ok(longToken.title.length <= 152, "even an unbroken token should be visibly truncated");
+  assert.equal(AskShare.clampText("x".repeat(100), 70).text.length, 70,
+    "metadata clamps must honor their hard character limit for unbroken text");
 });
 
 test("Ask API saves its returned answer and includes its canonical snapshot identity", async () => {
@@ -183,7 +236,7 @@ test("Ask API fails closed instead of returning an answer with a broken permalin
   });
 });
 
-test("shared answer HTML bootstraps the exact frozen answer safely and remains unlisted", () => {
+test("shared answer HTML emits complete Open Graph and X metadata safely", () => {
   const malicious = AskShare.createSnapshot(payload({
     query: `Project "Loupe" </title><script>alert("query")</script>`,
     answer: `Based on the PB archive, the saved answer contains </script><script>alert("answer")</script> exactly.`,
@@ -197,9 +250,31 @@ test("shared answer HTML bootstraps the exact frozen answer safely and remains u
 
   assert.match(html, new RegExp(`<link rel="canonical" href="https://pbarchive\\.ai/ask/shared/${SNAPSHOT_ID}">`));
   assert.match(html, /<base href="\/">/);
-  assert.match(html, /<meta name="robots" content="noindex,nofollow">/);
-  assert.doesNotMatch(html, /<meta[^>]+(?:property|name)=["'](?:og:|twitter:)/i);
-  assert.doesNotMatch(html, /card\.png|ask-preview/i);
+  assert.match(html, /<meta name="robots" content="noindex,follow">/);
+  assert.match(html, /<meta name="description" content="[^"]+">/);
+  assert.match(html, /<meta property="og:type" content="website">/);
+  assert.match(html, /<meta property="og:locale" content="en_US">/);
+  assert.match(html, /<meta property="og:site_name" content="PB Media Archive">/);
+  assert.match(html, /<meta property="og:title" content="[^"]+">/);
+  assert.match(html, /<meta property="og:description" content="[^"]+">/);
+  assert.match(html, new RegExp(`<meta property="og:url" content="https://pbarchive\\.ai/ask/shared/${SNAPSHOT_ID}">`));
+  const image = `https://pbarchive.ai/ask/shared/${SNAPSHOT_ID}/card.png?v=${AskShare.SOCIAL_CARD_VERSION}`;
+  const escapedImage = image.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+  assert.match(html, new RegExp(`<meta property="og:image" content="${escapedImage}">`));
+  assert.match(html, new RegExp(`<meta property="og:image:secure_url" content="${escapedImage}">`));
+  assert.match(html, /<meta property="og:image:type" content="image\/png">/);
+  assert.match(html, /<meta property="og:image:width" content="1200">/);
+  assert.match(html, /<meta property="og:image:height" content="630">/);
+  assert.match(html, /<meta property="og:image:alt" content="[^"]+">/);
+  assert.match(html, /<meta name="twitter:card" content="summary_large_image">/);
+  assert.match(html, /<meta name="twitter:site" content="@PresidioBitcoin">/);
+  assert.match(html, /<meta name="twitter:title" content="[^"]+">/);
+  assert.match(html, /<meta name="twitter:description" content="[^"]+">/);
+  assert.match(html, new RegExp(`<meta name="twitter:image" content="${escapedImage}">`));
+  assert.match(html, /<meta name="twitter:image:alt" content="[^"]+">/);
+  assert.doesNotMatch(html, /<\/title><script>|<\/script><script>/i);
+  assert.match(html, /&lt;\/title&gt;&lt;script&gt;/i);
+  assert.ok(html.indexOf("og:image") < html.indexOf("</head>"), "crawler metadata must be server-rendered in the head");
 
   const bootstrapMatch = html.match(/<script>window\.__PB_ASK_SNAPSHOT__=([\s\S]*?);<\/script>/);
   assert.ok(bootstrapMatch, "shared page should embed a frozen Ask PB payload");
@@ -253,7 +328,7 @@ test("shared answer handler rejects invalid and missing IDs without caching them
   assert.equal(store.reads, 1);
 });
 
-test("a valid shared answer response is noindex HTML with no social-card metadata", async () => {
+test("a valid shared answer response is unlisted HTML with crawlable social metadata", async () => {
   const store = memoryStore();
   AskShare.setStoreFactoryForTests(() => store);
   await AskShare.persistGeneratedSnapshot(payload(), {
@@ -267,10 +342,12 @@ test("a valid shared answer response is noindex HTML with no social-card metadat
   });
   assert.equal(response.statusCode, 200);
   assert.match(response.headers["content-type"], /^text\/html/);
-  assert.equal(response.headers["x-robots-tag"], "noindex, nofollow");
+  assert.equal(response.headers["x-robots-tag"], undefined, "valid unfurls must not be blocked by an HTTP robots header");
   assert.match(response.body, /window\.__PB_ASK_SNAPSHOT__/);
-  assert.match(response.body, /<meta name="robots" content="noindex,nofollow">/);
-  assert.doesNotMatch(response.body, /(?:og:|twitter:|card\.png|ask-preview)/i);
+  assert.match(response.body, /<meta name="robots" content="noindex,follow">/);
+  assert.match(response.body, /<meta property="og:image"/);
+  assert.match(response.body, /<meta name="twitter:card" content="summary_large_image">/);
+  assert.match(response.body, /card\.png\?v=\d+/);
 });
 
 test("shared answer handler supports HEAD and rejects unsupported methods", async () => {
@@ -285,7 +362,7 @@ test("shared answer handler supports HEAD and rejects unsupported methods", asyn
   assert.equal(head.statusCode, 200);
   assert.equal(head.body, "");
   assert.match(head.headers["content-type"], /^text\/html/);
-  assert.equal(head.headers["x-robots-tag"], "noindex, nofollow");
+  assert.equal(head.headers["x-robots-tag"], undefined);
 
   const post = await AskPage.handler({
     httpMethod: "POST",
@@ -328,12 +405,103 @@ test("address-bar replacement and clipboard Share resolve to the same snapshot U
   assert.doesNotMatch(handler[1], /navigator\.share|answerTextForCopying|currentAnswerText/);
 });
 
-test("Netlify configuration exposes only Ask API and frozen-page routes", () => {
+test("preview handler serves an immutable 1200 by 630 PNG and handles HTTP boundaries", async () => {
+  const store = memoryStore();
+  AskShare.setStoreFactoryForTests(() => store);
+  await AskShare.persistGeneratedSnapshot(payload(), { id: SNAPSHOT_ID });
+
+  const malformed = await AskPreview.handler({
+    httpMethod: "GET",
+    queryStringParameters: { id: "../not-a-snapshot" },
+  });
+  assert.equal(malformed.statusCode, 404);
+  assert.equal(malformed.headers["cache-control"], "no-store");
+  assert.equal(malformed.headers["x-robots-tag"], "noindex");
+  assert.equal(store.reads, 0, "malformed card IDs should not reach snapshot storage");
+
+  const missing = await AskPreview.handler({
+    httpMethod: "GET",
+    queryStringParameters: { id: "zyxwvutsrqponmlkjihgfe" },
+  });
+  assert.equal(missing.statusCode, 404);
+  assert.equal(store.reads, 1);
+
+  const get = await AskPreview.handler({
+    httpMethod: "GET",
+    queryStringParameters: { id: SNAPSHOT_ID },
+  });
+  assert.equal(get.statusCode, 200);
+  assert.equal(get.headers["content-type"], "image/png");
+  assert.equal(get.headers["x-robots-tag"], undefined);
+  assert.match(get.headers["cache-control"], /public.*max-age=31536000.*immutable/);
+  assert.match(get.headers["netlify-cdn-cache-control"], /public.*durable.*max-age=31536000.*immutable/);
+  assert.equal(get.isBase64Encoded, true);
+  const png = Buffer.from(get.body, "base64");
+  assert.deepEqual([...png.subarray(0, 8)], [137, 80, 78, 71, 13, 10, 26, 10]);
+  assert.equal(png.toString("ascii", 12, 16), "IHDR");
+  assert.equal(png.readUInt32BE(16), 1200);
+  assert.equal(png.readUInt32BE(20), 630);
+  assert.equal(Number(get.headers["content-length"]), png.length);
+  assert.ok(png.length < 5 * 1024 * 1024, "social card should stay below cross-platform image limits");
+  assert.equal(AskCard.WIDTH, 1200);
+  assert.equal(AskCard.HEIGHT, 630);
+
+  const head = await AskPreview.handler({
+    httpMethod: "HEAD",
+    queryStringParameters: { id: SNAPSHOT_ID },
+  });
+  assert.equal(head.statusCode, 200);
+  assert.equal(head.headers["content-type"], "image/png");
+  assert.equal(head.headers["x-robots-tag"], undefined);
+  assert.equal(head.body, "");
+  assert.equal(head.isBase64Encoded, false);
+  assert.ok(Number(head.headers["content-length"]) > 0);
+
+  const post = await AskPreview.handler({
+    httpMethod: "POST",
+    queryStringParameters: { id: SNAPSHOT_ID },
+  });
+  assert.equal(post.statusCode, 405);
+  assert.equal(post.headers.allow, "GET, HEAD");
+  assert.equal(post.headers["cache-control"], "no-store");
+  assert.equal(post.headers["x-robots-tag"], "noindex");
+});
+
+test("modern Netlify preview wrapper maps the route parameter and returns PNG", async () => {
+  const store = memoryStore();
+  AskShare.setStoreFactoryForTests(() => store);
+  await AskShare.persistGeneratedSnapshot(payload(), { id: SNAPSHOT_ID });
+  const { default: previewHandler, config } = await import("../netlify/functions/ask-preview.mjs");
+
+  assert.equal(config.path, "/ask/shared/:id/card.png");
+  const response = await previewHandler(
+    new Request(`https://pbarchive.ai/ask/shared/${SNAPSHOT_ID}/card.png?v=${AskShare.SOCIAL_CARD_VERSION}`),
+    { requestId: "ask-preview-test", params: { id: SNAPSHOT_ID } },
+  );
+  assert.equal(response.status, 200);
+  assert.equal(response.headers.get("content-type"), "image/png");
+  assert.equal(response.headers.get("x-robots-tag"), null);
+  const png = Buffer.from(await response.arrayBuffer());
+  assert.deepEqual([...png.subarray(0, 8)], [137, 80, 78, 71, 13, 10, 26, 10]);
+  assert.equal(png.readUInt32BE(16), 1200);
+  assert.equal(png.readUInt32BE(20), 630);
+});
+
+test("Netlify configuration bundles preview assets and permits social crawlers", () => {
   const netlify = fs.readFileSync(path.join(ROOT, "netlify.toml"), "utf8");
   assert.match(netlify, /\[functions\."ask-api"\]/);
   assert.match(netlify, /\[functions\."ask-page"\]/);
-  assert.doesNotMatch(netlify, /ask-preview|card\.png/i);
-  assert.equal(fs.existsSync(path.join(ROOT, "netlify", "functions", "ask-preview.mjs")), false);
-  assert.equal(fs.existsSync(path.join(ROOT, "netlify", "functions", "lib", "ask-preview-handler.js")), false);
-  assert.equal(fs.existsSync(path.join(ROOT, "netlify", "functions", "lib", "ask-card.js")), false);
+  assert.match(netlify, /\[functions\."ask-preview"\]/);
+  for (const asset of ["public/logo.png", "newsreader-latin-400-normal.woff", "inter-latin-400-normal.woff", "inter-latin-600-normal.woff"]) {
+    assert.match(netlify, new RegExp(asset.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")));
+  }
+  assert.equal(fs.existsSync(path.join(ROOT, "netlify", "functions", "ask-preview.mjs")), true);
+  assert.equal(fs.existsSync(path.join(ROOT, "netlify", "functions", "lib", "ask-preview-handler.js")), true);
+  assert.equal(fs.existsSync(path.join(ROOT, "netlify", "functions", "lib", "ask-card.js")), true);
+
+  const robots = fs.readFileSync(path.join(ROOT, "public", "robots.txt"), "utf8");
+  for (const crawler of ["Twitterbot", "facebookexternalhit", "Facebot", "LinkedInBot", "Slackbot", "Discordbot", "Applebot"]) {
+    assert.match(robots, new RegExp(`User-agent: ${crawler}\\nAllow: /`, "i"));
+  }
+  assert.doesNotMatch(robots, /Disallow:/i);
 });
