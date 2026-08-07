@@ -7,6 +7,7 @@ const SNAPSHOT_STORE_NAME = "ask-pb-shares";
 const SNAPSHOT_ID_PATTERN = /^[A-Za-z0-9_-]{22}$/;
 const MAX_SNAPSHOT_BYTES = 384 * 1024;
 const DEFAULT_PUBLIC_ORIGIN = "https://pbarchive.ai";
+const SOCIAL_CARD_VERSION = 1;
 
 let testStoreFactory = null;
 
@@ -16,6 +17,97 @@ function cloneJson(value) {
 
 function normalizeWhitespace(value) {
   return String(value || "").replace(/\s+/g, " ").trim();
+}
+
+function normalizeForMatch(value) {
+  return normalizeWhitespace(value)
+    .toLowerCase()
+    .replace(/['’]/g, "")
+    .replace(/[^a-z0-9]+/g, " ")
+    .trim();
+}
+
+function plainAnswer(value) {
+  return String(value || "")
+    .replace(/\r\n?/g, "\n")
+    .replace(/\*\*([^*\n]+?)\*\*/g, "$1")
+    .replace(/__([^_\n]+?)__/g, "$1")
+    .replace(/\[(\d+)\]/g, "")
+    .replace(/^\s*(?:[-+*]|\d+[.)])\s+/gm, "")
+    .replace(/^Based on the PB archive,\s*/i, "")
+    .replace(/\s+/g, " ")
+    .trim();
+}
+
+function clampText(value, maxLength) {
+  const text = normalizeWhitespace(value);
+  if (text.length <= maxLength) return { text, truncated: false };
+  const raw = text.slice(0, maxLength).trimEnd();
+  const cutsWord = /\S/.test(text.charAt(maxLength)) && /\S$/.test(raw);
+  const wordBoundary = cutsWord ? raw.lastIndexOf(" ") : -1;
+  const clipped = wordBoundary > 0 ? raw.slice(0, wordBoundary).trimEnd() : raw;
+  return { text: clipped || raw, truncated: true };
+}
+
+function answerTeaser(answer, maxLength = 145) {
+  const plain = plainAnswer(answer);
+  const full = plain ? plain.charAt(0).toLocaleUpperCase() + plain.slice(1) : "";
+  if (!full) return "Explore an answer grounded in the Presidio Bitcoin archive.";
+
+  const sentenceEnds = [...full.matchAll(/[.!?](?=\s|$)/g)];
+  let candidate = full;
+  if (sentenceEnds.length) {
+    const firstEnd = sentenceEnds[0].index + 1;
+    const secondEnd = sentenceEnds[1]?.index + 1;
+    candidate = firstEnd >= 72 || !secondEnd ? full.slice(0, firstEnd) : full.slice(0, secondEnd);
+  }
+
+  const clamped = clampText(candidate, maxLength);
+  const omitted = clamped.truncated || candidate.length < full.length;
+  const clean = clamped.text.replace(/(?:\.{3}|…)+$/g, "").replace(/[.!?]+$/g, "").trim();
+  return omitted ? `${clean}…` : clamped.text;
+}
+
+function recordingCount(sources) {
+  return new Set((Array.isArray(sources) ? sources : [])
+    .map(source => normalizeWhitespace(source?.youtube_id))
+    .filter(Boolean)).size;
+}
+
+function provenanceLabel(count) {
+  const safeCount = Number.isFinite(Number(count)) ? Math.max(0, Math.trunc(Number(count))) : 0;
+  if (!safeCount) return "Based on the PB archive";
+  return `Based on ${safeCount} recording${safeCount === 1 ? "" : "s"}`;
+}
+
+function displayTitle(query, relatedTopics = []) {
+  const clean = normalizeWhitespace(query);
+  const normalizedQuery = normalizeForMatch(clean);
+  const topics = (Array.isArray(relatedTopics) ? relatedTopics : [])
+    .map(normalizeWhitespace)
+    .filter(Boolean);
+  const exactTopic = topics.find(topic => normalizeForMatch(topic) === normalizedQuery);
+  if (exactTopic) return exactTopic;
+  if (!clean) return "Ask PB";
+  let title = clean.charAt(0).toLocaleUpperCase() + clean.slice(1);
+  for (const topic of topics.sort((left, right) => right.length - left.length)) {
+    const escaped = topic.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+    const pattern = new RegExp(`(^|\\W)${escaped}(?=\\W|$)`, "i");
+    if (pattern.test(title)) title = title.replace(pattern, (_, prefix) => `${prefix}${topic}`);
+  }
+  return title;
+}
+
+function cardData(payload) {
+  const sources = Array.isArray(payload?.sources) ? payload.sources : [];
+  const relatedTopics = Array.isArray(payload?.related_topics) ? payload.related_topics : [];
+  const count = recordingCount(sources);
+  return {
+    title: displayTitle(payload?.query, relatedTopics),
+    teaser: answerTeaser(payload?.answer),
+    recording_count: count,
+    provenance: provenanceLabel(count),
+  };
 }
 
 function validSnapshotShape(snapshot, expectedId) {
@@ -178,12 +270,37 @@ function snapshotForClient(snapshot) {
 function renderSnapshotHtml(template, snapshot, options = {}) {
   const origin = options.origin || trustedOrigin(options.env || process.env);
   const canonical = `${origin}${snapshotPath(snapshot.id)}`;
-  const titleQuestion = normalizeWhitespace(snapshot.query).slice(0, 120);
-  const pageTitle = `${titleQuestion} — Ask PB | PB Media Archive`;
+  const card = cardData(snapshot);
+  const title = card.title;
+  const teaser = card.teaser;
+  const metadataTitle = clampText(title, 70);
+  const cleanMetadataTitle = metadataTitle.truncated ? `${metadataTitle.text.replace(/(?:\.{3}|…)+$/g, "")}…` : metadataTitle.text;
+  const pageTitle = `${cleanMetadataTitle} — Ask PB | PB Media Archive`;
+  const image = `${canonical}/card.png?v=${SOCIAL_CARD_VERSION}`;
+  const imageAlt = `Ask PB: ${cleanMetadataTitle}. ${card.provenance}.`;
   const metadata = `
   <base href="/">
   <link rel="canonical" href="${escapeHtml(canonical)}">
-  <meta name="robots" content="noindex,nofollow">`;
+  <meta name="description" content="${escapeHtml(teaser)}">
+  <meta name="robots" content="noindex,follow">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:site_name" content="PB Media Archive">
+  <meta property="og:title" content="${escapeHtml(cleanMetadataTitle)}">
+  <meta property="og:description" content="${escapeHtml(teaser)}">
+  <meta property="og:url" content="${escapeHtml(canonical)}">
+  <meta property="og:image" content="${escapeHtml(image)}">
+  <meta property="og:image:secure_url" content="${escapeHtml(image)}">
+  <meta property="og:image:type" content="image/png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="${escapeHtml(imageAlt)}">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@PresidioBitcoin">
+  <meta name="twitter:title" content="${escapeHtml(cleanMetadataTitle)}">
+  <meta name="twitter:description" content="${escapeHtml(teaser)}">
+  <meta name="twitter:image" content="${escapeHtml(image)}">
+  <meta name="twitter:image:alt" content="${escapeHtml(imageAlt)}">`;
   const bootstrap = `<script>window.__PB_ASK_SNAPSHOT__=${safeJson(snapshotForClient(snapshot))};</script>\n  `;
 
   let html = String(template || "");
@@ -200,14 +317,22 @@ function setStoreFactoryForTests(factory) {
 module.exports = {
   DEFAULT_PUBLIC_ORIGIN,
   MAX_SNAPSHOT_BYTES,
+  SOCIAL_CARD_VERSION,
   SNAPSHOT_ID_PATTERN,
   SNAPSHOT_SCHEMA_VERSION,
   SNAPSHOT_STORE_NAME,
+  answerTeaser,
+  cardData,
+  clampText,
   createSnapshot,
+  displayTitle,
   escapeHtml,
   isSnapshotId,
   loadSnapshot,
+  plainAnswer,
   persistGeneratedSnapshot,
+  provenanceLabel,
+  recordingCount,
   renderSnapshotHtml,
   safeJson,
   setStoreFactoryForTests,

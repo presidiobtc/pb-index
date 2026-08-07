@@ -16,7 +16,6 @@ function html(statusCode, body, headers = {}) {
       "content-type": "text/html; charset=utf-8",
       "x-content-type-options": "nosniff",
       "referrer-policy": "no-referrer",
-      "x-robots-tag": "noindex, nofollow",
       ...headers,
     },
     body,
@@ -42,6 +41,7 @@ function notFound() {
 <main style="max-width:620px;padding:40px"><p style="font:600 13px/1.2 -apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;letter-spacing:.16em">PB MEDIA ARCHIVE</p>
 <h1 style="font-size:42px;font-weight:400">Shared answer not found</h1><p>This Ask PB link is invalid or no longer available.</p><p><a href="/ask.html" style="color:#0d4b34">Ask the archive a question</a></p></main></body></html>`, {
     "cache-control": "no-store",
+    "x-robots-tag": "noindex, nofollow",
   });
 }
 
@@ -49,6 +49,7 @@ exports.handler = async function handler(event) {
   if (!new Set(["GET", "HEAD"]).has(event?.httpMethod)) {
     return html(405, "Method not allowed.", {
       "cache-control": "no-store",
+      "x-robots-tag": "noindex, nofollow",
       allow: "GET, HEAD",
     });
   }
@@ -68,6 +69,7 @@ exports.handler = async function handler(event) {
     console.error("Ask PB shared page failed", error);
     return html(503, "Ask PB shared answer is temporarily unavailable.", {
       "cache-control": "no-store",
+      "x-robots-tag": "noindex, nofollow",
     });
   }
 };
