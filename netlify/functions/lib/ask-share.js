@@ -76,12 +76,19 @@ function provenanceLabel(count) {
 function displayTitle(query, relatedTopics = []) {
   const clean = normalizeWhitespace(query);
   const normalizedQuery = normalizeForMatch(clean);
-  const exactTopic = (Array.isArray(relatedTopics) ? relatedTopics : [])
+  const topics = (Array.isArray(relatedTopics) ? relatedTopics : [])
     .map(normalizeWhitespace)
-    .find(topic => topic && normalizeForMatch(topic) === normalizedQuery);
+    .filter(Boolean);
+  const exactTopic = topics.find(topic => normalizeForMatch(topic) === normalizedQuery);
   if (exactTopic) return exactTopic;
   if (!clean) return "Ask PB";
-  return clean.charAt(0).toLocaleUpperCase() + clean.slice(1);
+  let title = clean.charAt(0).toLocaleUpperCase() + clean.slice(1);
+  for (const topic of topics.sort((left, right) => right.length - left.length)) {
+    const escaped = topic.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+    const pattern = new RegExp(`(^|\\W)${escaped}(?=\\W|$)`, "i");
+    if (pattern.test(title)) title = title.replace(pattern, (_, prefix) => `${prefix}${topic}`);
+  }
+  return title;
 }
 
 function createSnapshot(payload, options = {}) {

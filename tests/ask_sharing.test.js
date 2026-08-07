@@ -99,7 +99,7 @@ test("snapshot title prefers an exact topic and teaser is clean, concise, and vi
     query: "what is project loupe?",
     related_topics: ["Project Loupe"],
   }), { id: SNAPSHOT_ID });
-  assert.equal(questionTitle.card.title, "What is project loupe?");
+  assert.equal(questionTitle.card.title, "What is Project Loupe?");
 
   assert.throws(
     () => AskShare.createSnapshot(payload({ answer: "x".repeat(AskShare.MAX_SNAPSHOT_BYTES) }), {
