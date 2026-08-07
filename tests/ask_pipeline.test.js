@@ -1,7 +1,7 @@
 const assert = require("node:assert/strict");
 const test = require("node:test");
 
-const { handler, _test } = require("../netlify/functions/ask.js");
+const { handler, _test } = require("../netlify/functions/lib/ask-handler.js");
 const SearchCore = require("../public/search_core.js");
 const archive = require("../public/search_chunks.json");
 
