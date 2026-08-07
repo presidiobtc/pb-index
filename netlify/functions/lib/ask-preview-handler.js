@@ -45,7 +45,6 @@ exports.handler = async function handler(event) {
       "cache-control": "public, max-age=31536000, immutable",
       "netlify-cdn-cache-control": "public, durable, max-age=31536000, immutable",
       "content-disposition": `inline; filename="ask-pb-${id}.png"`,
-      "x-robots-tag": "noindex",
     }, event.httpMethod !== "HEAD");
   } catch (error) {
     console.error("Ask PB preview card failed", error);
