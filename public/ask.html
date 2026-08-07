@@ -482,6 +482,7 @@
   </footer>
 
   <script src="./search_core.js"></script>
+  <script src="./ask_share.js"></script>
   <script src="./ask_render.js"></script>
   <script>
     const form = document.getElementById("ask-form");
@@ -504,6 +505,7 @@
     let currentQuery = "";
     let currentAnswerText = "";
     let currentSources = [];
+    let currentShareUrl = "";
     let activeRequestController = null;
     let requestSequence = 0;
 
@@ -578,6 +580,19 @@
       button.textContent = label;
       clearTimeout(button._resetTimer);
       button._resetTimer = setTimeout(() => { button.textContent = original; }, 1600);
+    }
+
+    function isLocalView() {
+      return location.protocol === "file:" || new Set(["localhost", "127.0.0.1", "::1"]).has(location.hostname);
+    }
+
+    function applyPendingQueryUrl(query) {
+      const url = new URL(location.href);
+      if (!isLocalView()) url.pathname = "/ask.html";
+      url.search = "";
+      url.hash = "";
+      url.searchParams.set("q", query);
+      history.replaceState(null, "", url);
     }
 
     async function askServer(query, signal) {
@@ -766,6 +781,8 @@
       const sequence = ++requestSequence;
       activeRequestController?.abort();
       activeRequestController = new AbortController();
+      currentShareUrl = "";
+      applyPendingQueryUrl(query);
       errorCard.style.display = "none";
       result.classList.remove("visible");
       loadingState.classList.add("visible");
@@ -778,13 +795,15 @@
           data = await askServer(query, activeRequestController.signal);
         } catch (error) {
           if (error?.name === "AbortError") return;
+          if (!isLocalView()) throw error;
           data = await askLocal(query);
         }
         if (sequence !== requestSequence) return;
+        if (!isLocalView() && !PBAskShare.snapshotPath(data)) {
+          throw new Error("Ask PB could not save this answer. Please try again.");
+        }
         render(data);
-        const url = new URL(location.href);
-        url.searchParams.set("q", query);
-        history.replaceState(null, "", url);
+        currentShareUrl = PBAskShare.applySnapshotUrl(data, { location, history }) || location.href.split("#")[0];
       } catch (error) {
         if (error?.name === "AbortError" || sequence !== requestSequence) return;
         errorCard.textContent = error.message || "Ask PB failed.";
@@ -825,7 +844,7 @@
       }
     });
     shareAnswerButton.addEventListener("click", async () => {
-      const url = location.href.split("#")[0];
+      const url = PBAskShare.shareUrl(currentShareUrl, location);
       try {
         await copyText(url);
         flashAction(shareAnswerButton, "Link copied");
@@ -845,10 +864,15 @@
       setTimeout(() => target.classList.remove("source-jump"), 1600);
     });
 
-    const initialQuery = new URLSearchParams(location.search).get("q")?.trim();
-    if (initialQuery && initialQuery.length >= 3) {
-      input.value = initialQuery;
-      runAsk(initialQuery);
+    const initialQuery = new URLSearchParams(location.search).get("q");
+    const initialView = PBAskShare.initialView(window.__PB_ASK_SNAPSHOT__, initialQuery);
+    if (initialView.kind === "snapshot") {
+      input.value = initialView.data.query;
+      render(initialView.data);
+      currentShareUrl = PBAskShare.applySnapshotUrl(initialView.data, { location, history }) || location.href.split("#")[0];
+    } else if (initialView.kind === "query") {
+      input.value = initialView.query;
+      runAsk(initialView.query);
     }
   </script>
 </body>

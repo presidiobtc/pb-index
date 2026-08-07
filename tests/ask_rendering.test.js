@@ -70,12 +70,12 @@ test("Ask PB page loads and uses the restricted answer renderer", () => {
   assert.doesNotMatch(page, /white-space:\s*pre-wrap/);
 });
 
-test("Ask PB Share copies only the query URL without opening the native share sheet", () => {
+test("Ask PB Share copies only the current frozen-answer URL without opening the native share sheet", () => {
   const page = fs.readFileSync(path.join(__dirname, "..", "public", "ask.html"), "utf8");
   const handler = page.match(/shareAnswerButton\.addEventListener\("click", async \(\) => \{([\s\S]*?)\n    \}\);/);
 
   assert.ok(handler, "Share click handler should exist");
-  assert.match(handler[1], /const url = location\.href\.split\("#"\)\[0\]/);
+  assert.match(handler[1], /const url = PBAskShare\.shareUrl\(currentShareUrl, location\)/);
   assert.match(handler[1], /await copyText\(url\)/);
   assert.match(handler[1], /flashAction\(shareAnswerButton, "Link copied"\)/);
   assert.doesNotMatch(handler[1], /navigator\.share|answerTextForCopying/);
