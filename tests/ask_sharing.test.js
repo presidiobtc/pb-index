@@ -171,6 +171,7 @@ test("shared HTML emits canonical Open Graph and X metadata while escaping metad
   assert.match(html, /<meta name="robots" content="index,follow">/);
   assert.doesNotMatch(html, /noindex/i);
   assert.match(html, /<meta name="twitter:card" content="summary_large_image">/);
+  assert.match(html, /<meta name="twitter:site" content="@PresidioBitcoin">/);
   assert.match(html, /<meta name="twitter:title" content="Project &quot;Loupe&quot; &lt;img src=x onerror=alert\(1\)&gt;">/);
   assert.match(html, new RegExp(`<meta name="twitter:image" content="${image.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}">`));
 
@@ -257,6 +258,7 @@ test("modern Netlify wrappers serve the frozen page and PNG through Lambda-compa
     const pageHtml = await page.text();
     assert.match(pageHtml, /window\.__PB_ASK_SNAPSHOT__/);
     assert.match(pageHtml, new RegExp(`<link rel="canonical" href="${route}">`));
+    assert.match(pageHtml, /<meta name="twitter:site" content="@PresidioBitcoin">/);
 
     const preview = await previewHandler(new Request(`${route}/card.png`), context);
     assert.equal(preview.status, 200);

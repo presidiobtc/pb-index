@@ -261,6 +261,7 @@ function renderSnapshotHtml(template, snapshot, options = {}) {
   <meta property="og:image:height" content="630">
   <meta property="og:image:alt" content="${escapeHtml(imageAlt)}">
   <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@PresidioBitcoin">
   <meta name="twitter:title" content="${escapeHtml(title)}">
   <meta name="twitter:description" content="${escapeHtml(teaser)}">
   <meta name="twitter:image" content="${escapeHtml(image)}">
