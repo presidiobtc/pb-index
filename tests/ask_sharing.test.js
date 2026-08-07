@@ -236,17 +236,17 @@ test("modern Netlify wrappers serve the frozen page and PNG through Lambda-compa
       import("../netlify/functions/ask-page.mjs"),
       import("../netlify/functions/ask-preview.mjs"),
     ]);
-    const context = { requestId: "ask-sharing-test" };
+    const context = { requestId: "ask-sharing-test", params: { id: SNAPSHOT_ID } };
     const route = `https://pbarchive.ai/ask/shared/${SNAPSHOT_ID}`;
 
-    const page = await pageHandler(new Request(`${route}?id=${SNAPSHOT_ID}`), context);
+    const page = await pageHandler(new Request(route), context);
     assert.equal(page.status, 200);
     assert.match(page.headers.get("content-type"), /^text\/html/);
     const pageHtml = await page.text();
     assert.match(pageHtml, /window\.__PB_ASK_SNAPSHOT__/);
     assert.match(pageHtml, new RegExp(`<link rel="canonical" href="${route}">`));
 
-    const preview = await previewHandler(new Request(`${route}/card.png?id=${SNAPSHOT_ID}`), context);
+    const preview = await previewHandler(new Request(`${route}/card.png`), context);
     assert.equal(preview.status, 200);
     assert.equal(preview.headers.get("content-type"), "image/png");
     const png = Buffer.from(await preview.arrayBuffer());

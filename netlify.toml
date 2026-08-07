@@ -41,23 +41,3 @@
   to = "/topics/index.html"
   status = 200
   force = true
-
-[[redirects]]
-  from = "/ask/shared/:id/card.png"
-  to = "/.netlify/functions/ask-preview?id=:id"
-  status = 200
-
-[[redirects]]
-  from = "/ask/shared/:id"
-  to = "/.netlify/functions/ask-page?id=:id"
-  status = 200
-
-[[redirects]]
-  from = "/ask/shared/:id/"
-  to = "/.netlify/functions/ask-page?id=:id"
-  status = 200
-
-[[redirects]]
-  from = "/api/ask"
-  to = "/.netlify/functions/ask-api"
-  status = 200

@@ -1,16 +1,32 @@
 const fs = require("fs");
 const path = require("path");
-const satoriModule = require("satori");
-const { Resvg } = require("@resvg/resvg-js");
 const { provenanceLabel } = require("./ask-share.js");
 
-const satori = satoriModule.default || satoriModule;
 const WIDTH = 1200;
 const HEIGHT = 630;
 const GREEN = "#0d4b34";
 const IVORY = "#fbf8f2";
 
 let assetsCache = null;
+let runtimeOverride = null;
+
+function configureCardRuntime(runtime) {
+  if (!runtime) {
+    runtimeOverride = null;
+    return;
+  }
+  if (typeof runtime.satori !== "function" || typeof runtime.Resvg !== "function") {
+    throw new TypeError("Ask PB card runtime requires satori and Resvg.");
+  }
+  runtimeOverride = runtime;
+}
+
+function cardRuntime() {
+  if (runtimeOverride) return runtimeOverride;
+  const satoriModule = require("satori");
+  const { Resvg } = require("@resvg/resvg-js");
+  return { satori: satoriModule.default || satoriModule, Resvg };
+}
 
 function element(type, props = {}, ...children) {
   return {
@@ -193,12 +209,13 @@ function cardElement(snapshot, assets = cardAssets()) {
 
 async function renderCardPng(snapshot, options = {}) {
   const assets = options.assets || cardAssets();
-  const svg = await satori(cardElement(snapshot, assets), {
+  const runtime = options.runtime || cardRuntime();
+  const svg = await runtime.satori(cardElement(snapshot, assets), {
     width: WIDTH,
     height: HEIGHT,
     fonts: assets.fonts,
   });
-  const renderer = new Resvg(svg, {
+  const renderer = new runtime.Resvg(svg, {
     fitTo: { mode: "width", value: WIDTH },
     background: IVORY,
   });
@@ -209,6 +226,7 @@ module.exports = {
   HEIGHT,
   WIDTH,
   cardElement,
+  configureCardRuntime,
   cardViewModel,
   clampedTitle,
   renderCardPng,
