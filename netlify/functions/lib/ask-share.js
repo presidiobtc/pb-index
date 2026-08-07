@@ -7,7 +7,7 @@ const SNAPSHOT_STORE_NAME = "ask-pb-shares";
 const SNAPSHOT_ID_PATTERN = /^[A-Za-z0-9_-]{22}$/;
 const MAX_SNAPSHOT_BYTES = 384 * 1024;
 const DEFAULT_PUBLIC_ORIGIN = "https://pbarchive.ai";
-const SOCIAL_CARD_VERSION = 1;
+const SOCIAL_CARD_VERSION = 2;
 
 let testStoreFactory = null;
 

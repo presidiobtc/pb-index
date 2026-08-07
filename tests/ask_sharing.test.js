@@ -177,14 +177,55 @@ test("social-card copy counts recordings and keeps omitted answer text visibly c
     related_topics: [],
   }));
   assert.match(longNatural.title, /…$/);
-  assert.ok(longNatural.title.length <= 151);
-  assert.ok(longNatural.typography.fontSize <= 45, "long questions should select the compact title treatment");
+  assert.ok(longNatural.typography.lineCount <= 3);
+  assert.equal(longNatural.typography.truncated, true);
+
+  const short = AskCard.cardViewModel(payload({ query: "Project Loupe", related_topics: ["Project Loupe"] }));
+  assert.equal(short.typography.lineCount, 1);
+  assert.ok(short.typography.fontSize > longNatural.typography.fontSize,
+    "short prompts should retain a larger title treatment than long questions");
+
+  const wide = AskCard.cardViewModel(payload({ query: "W".repeat(114), related_topics: [] }));
+  const narrow = AskCard.cardViewModel(payload({ query: "i".repeat(114), related_topics: [] }));
+  assert.ok(wide.typography.fontSize <= narrow.typography.fontSize,
+    "title sizing should account for rendered glyph width, not only character count");
+  assert.ok(wide.typography.lineCount >= narrow.typography.lineCount);
+  assert.match(wide.title, /…$/);
 
   const longToken = AskCard.cardViewModel(payload({ query: "x".repeat(400), related_topics: [] }));
   assert.match(longToken.title, /…$/);
-  assert.ok(longToken.title.length <= 152, "even an unbroken token should be visibly truncated");
+  assert.equal(longToken.typography.lineCount, 3);
+  assert.equal(longToken.typography.truncated, true,
+    "even an unbroken token should be visibly truncated within three measured lines");
+
+  const wideTeaser = AskCard.cardViewModel(payload({
+    query: "Project Loupe",
+    related_topics: ["Project Loupe"],
+    answer: `Based on the PB archive, ${"W".repeat(500)}`,
+  }));
+  assert.ok(wideTeaser.teaserTypography.lineCount <= 4);
+  assert.equal(wideTeaser.teaserTypography.truncated, true);
+  assert.match(wideTeaser.teaser, /…$/,
+    "unbroken answer text should retain a visible ellipsis instead of overflowing the card");
+
+  const expandedExcerpt = AskCard.cardExcerpt(
+    "Based on the PB archive, The first sentence establishes the result. The second sentence adds useful context for the shared preview.",
+    285,
+  );
+  assert.match(expandedExcerpt, /second sentence adds useful context/i,
+    "short-title cards should use more than the opening sentence when space is available");
+
+  const elementTree = JSON.stringify(AskCard.cardElement(payload(), {
+    logo: "data:image/png;base64,",
+    fonts: [],
+  }));
+  assert.match(elementTree, /PB MEDIA ARCHIVE/);
+  assert.doesNotMatch(elementTree, /ASK PB|pbarchive\.ai/,
+    "the simplified card should not repeat an Ask PB label or URL footer");
   assert.equal(AskShare.clampText("x".repeat(100), 70).text.length, 70,
     "metadata clamps must honor their hard character limit for unbroken text");
+  assert.equal(AskShare.SOCIAL_CARD_VERSION, 2,
+    "a visual redesign must use a new immutable social-card URL version");
 });
 
 test("Ask API saves its returned answer and includes its canonical snapshot identity", async () => {
