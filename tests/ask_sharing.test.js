@@ -1,4 +1,5 @@
 const assert = require("node:assert/strict");
+const fs = require("node:fs");
 const test = require("node:test");
 
 const AskShare = require("../netlify/functions/lib/ask-share.js");
@@ -167,6 +168,8 @@ test("shared HTML emits canonical Open Graph and X metadata while escaping metad
   assert.match(html, new RegExp(`<meta property="og:image" content="${image.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}">`));
   assert.match(html, /<meta property="og:image:width" content="1200">/);
   assert.match(html, /<meta property="og:image:height" content="630">/);
+  assert.match(html, /<meta name="robots" content="index,follow">/);
+  assert.doesNotMatch(html, /noindex/i);
   assert.match(html, /<meta name="twitter:card" content="summary_large_image">/);
   assert.match(html, /<meta name="twitter:title" content="Project &quot;Loupe&quot; &lt;img src=x onerror=alert\(1\)&gt;">/);
   assert.match(html, new RegExp(`<meta name="twitter:image" content="${image.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}">`));
@@ -223,6 +226,14 @@ test("address-bar replacement and Share use the same canonical snapshot URL", ()
   assert.equal(PBAskShare.shareUrl("", location), addressBarUrl);
 });
 
+test("robots rules explicitly allow social preview crawlers", () => {
+  const robots = fs.readFileSync("public/robots.txt", "utf8");
+  for (const crawler of ["Twitterbot", "facebookexternalhit", "LinkedInBot", "Slackbot", "Discordbot"]) {
+    assert.match(robots, new RegExp(`User-agent: ${crawler}\\nAllow: /`, "i"));
+  }
+  assert.doesNotMatch(robots, /Disallow:/i);
+});
+
 test("modern Netlify wrappers serve the frozen page and PNG through Lambda-compatible handlers", async () => {
   const store = memoryStore();
   AskShare.setStoreFactoryForTests(() => store);
@@ -242,6 +253,7 @@ test("modern Netlify wrappers serve the frozen page and PNG through Lambda-compa
     const page = await pageHandler(new Request(route), context);
     assert.equal(page.status, 200);
     assert.match(page.headers.get("content-type"), /^text\/html/);
+    assert.equal(page.headers.get("x-robots-tag"), null);
     const pageHtml = await page.text();
     assert.match(pageHtml, /window\.__PB_ASK_SNAPSHOT__/);
     assert.match(pageHtml, new RegExp(`<link rel="canonical" href="${route}">`));
@@ -249,6 +261,7 @@ test("modern Netlify wrappers serve the frozen page and PNG through Lambda-compa
     const preview = await previewHandler(new Request(`${route}/card.png`), context);
     assert.equal(preview.status, 200);
     assert.equal(preview.headers.get("content-type"), "image/png");
+    assert.equal(preview.headers.get("x-robots-tag"), null);
     const png = Buffer.from(await preview.arrayBuffer());
     assert.equal(png.readUInt32BE(16), 1200);
     assert.equal(png.readUInt32BE(20), 630);

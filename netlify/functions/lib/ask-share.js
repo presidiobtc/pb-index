@@ -249,7 +249,7 @@ function renderSnapshotHtml(template, snapshot, options = {}) {
   <base href="/">
   <link rel="canonical" href="${escapeHtml(canonical)}">
   <meta name="description" content="${escapeHtml(teaser)}">
-  <meta name="robots" content="noindex,follow">
+  <meta name="robots" content="index,follow">
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="PB Media Archive">
   <meta property="og:title" content="${escapeHtml(title)}">
