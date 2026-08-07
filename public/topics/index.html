@@ -273,17 +273,38 @@
       display: flex;
       align-items: center;
       gap: 8px;
+      flex-wrap: wrap;
     }
 
     .series-badge {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      box-sizing: border-box;
+      flex: 0 0 auto;
+      min-height: 20px;
+      min-width: 48px;
       font-size: 10px;
+      line-height: 1;
       font-weight: 700;
       letter-spacing: 0.6px;
       text-transform: uppercase;
+      text-align: center;
+      white-space: nowrap;
       background: var(--green);
       color: #fff;
-      padding: 1px 7px;
-      border-radius: 3px;
+      padding: 3px 8px;
+      border-radius: 999px;
+    }
+
+    @media (max-width: 380px) {
+      .ep-meta { gap: 4px; }
+      .series-badge {
+        max-width: 100%;
+        min-width: 0;
+        white-space: normal;
+        overflow-wrap: anywhere;
+      }
     }
 
     .ep-title {

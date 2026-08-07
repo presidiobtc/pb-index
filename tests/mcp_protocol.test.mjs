@@ -86,7 +86,7 @@ test("read_passage resolves a stable topic ID to raw transcript context", async 
   const result = await client.callTool({
     name: "read_passage",
     arguments: {
-      passage_id: "topic:ai-security-scanning:cSXOmwI38Jo:2849:1",
+      passage_id: "topic:ai-security-scanning:cSXOmwI38Jo:2849:2",
       context_chunks: 1,
     },
   });

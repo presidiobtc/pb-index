@@ -6,6 +6,7 @@ const test = require("node:test");
 
 const ROOT = path.join(__dirname, "..");
 const INGESTED_VIDEO_IDS = [
+  "QW0Lo2T4pRc",
   "uGv-wH4UYkg",
   "WisO6hoeUb8",
   "ziJy4PuxBhc",
@@ -44,9 +45,9 @@ test("source files, curated timestamps, and generated search coverage validate",
   const result = validation();
   assert.equal(result.ok, true);
   assert.deepEqual(result.errors, []);
-  assert.equal(result.stats.catalog_videos, 177);
+  assert.equal(result.stats.catalog_videos, 178);
   assert.equal(result.stats.transcripts_with_entries, result.stats.catalog_videos);
-  assert.equal(result.stats.canonical_topics, 848);
+  assert.equal(result.stats.canonical_topics, 856);
   assert.ok(result.stats.video_topic_picks > result.stats.canonical_topics);
   assert.ok(result.stats.report_topic_picks > 0);
   assert.ok(result.stats.generated_chunks > result.stats.catalog_videos);
