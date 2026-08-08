@@ -936,7 +936,7 @@ exports.handler = async function handler(event) {
       snapshot = await persistGeneratedSnapshot(payload);
     } catch (error) {
       console.error("Ask PB snapshot creation failed", error);
-      return json(503, { error: "Ask PB could not save this answer. Please try again." });
+      payload.share_unavailable = true;
     }
     if (snapshot) {
       payload.share_id = snapshot.id;

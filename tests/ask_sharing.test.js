@@ -252,7 +252,7 @@ test("Ask API saves its returned answer and includes its canonical snapshot iden
   });
 });
 
-test("Ask API fails closed instead of returning an answer with a broken permalink", async () => {
+test("Ask API still returns its answer when snapshot storage is temporarily unavailable", async () => {
   AskShare.setStoreFactoryForTests(() => ({
     async setJSON() { throw new Error("simulated snapshot write failure"); },
     async get() { return null; },
@@ -266,11 +266,12 @@ test("Ask API fails closed instead of returning an answer with a broken permalin
         httpMethod: "POST",
         body: JSON.stringify({ query: "project loupe", limit: 2 }),
       });
-      assert.equal(response.statusCode, 503);
-      assert.deepEqual(JSON.parse(response.body), {
-        error: "Ask PB could not save this answer. Please try again.",
-      });
-      assert.doesNotMatch(response.body, /"answer"|"share_path"|"share_id"/);
+      assert.equal(response.statusCode, 200);
+      const body = JSON.parse(response.body);
+      assert.match(body.answer, /^Based on the PB archive,/);
+      assert.equal(body.share_unavailable, true);
+      assert.equal(body.share_path, undefined);
+      assert.equal(body.share_id, undefined);
     } finally {
       console.error = originalError;
     }
@@ -508,21 +509,22 @@ test("preview handler serves an immutable 1200 by 630 PNG and handles HTTP bound
   assert.equal(post.headers["x-robots-tag"], "noindex");
 });
 
-test("modern Netlify preview wrapper maps the route parameter and returns PNG", async () => {
+test("Netlify preview wrapper maps the route parameter and returns PNG", async () => {
   const store = memoryStore();
   AskShare.setStoreFactoryForTests(() => store);
   await AskShare.persistGeneratedSnapshot(payload(), { id: SNAPSHOT_ID });
-  const { default: previewHandler, config } = await import("../netlify/functions/ask-preview.mjs");
+  const { handler: previewHandler, config } = await import("../netlify/functions/ask-preview.mjs");
 
   assert.equal(config.path, "/ask/shared/:id/card.png");
-  const response = await previewHandler(
-    new Request(`https://pbarchive.ai/ask/shared/${SNAPSHOT_ID}/card.png?v=${AskShare.SOCIAL_CARD_VERSION}`),
-    { requestId: "ask-preview-test", params: { id: SNAPSHOT_ID } },
-  );
-  assert.equal(response.status, 200);
-  assert.equal(response.headers.get("content-type"), "image/png");
-  assert.equal(response.headers.get("x-robots-tag"), null);
-  const png = Buffer.from(await response.arrayBuffer());
+  const response = await previewHandler({
+    httpMethod: "GET",
+    path: `/ask/shared/${SNAPSHOT_ID}/card.png`,
+    queryStringParameters: { v: String(AskShare.SOCIAL_CARD_VERSION) },
+  });
+  assert.equal(response.statusCode, 200);
+  assert.equal(response.headers["content-type"], "image/png");
+  assert.equal(response.headers["x-robots-tag"], undefined);
+  const png = Buffer.from(response.body, "base64");
   assert.deepEqual([...png.subarray(0, 8)], [137, 80, 78, 71, 13, 10, 26, 10]);
   assert.equal(png.readUInt32BE(16), 1200);
   assert.equal(png.readUInt32BE(20), 630);

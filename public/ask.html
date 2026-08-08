@@ -604,7 +604,10 @@
       });
       if (!response.ok) {
         const payload = await response.json().catch(() => ({}));
-        throw new Error(payload.error || "Ask PB backend is not available in this local view.");
+        const fallback = isLocalView()
+          ? "Ask PB is unavailable in this local view."
+          : `Ask PB is temporarily unavailable (service error ${response.status}). Please try again shortly.`;
+        throw new Error(payload.error || fallback);
       }
       return response.json();
     }
@@ -799,9 +802,6 @@
           data = await askLocal(query);
         }
         if (sequence !== requestSequence) return;
-        if (!isLocalView() && !PBAskShare.snapshotPath(data)) {
-          throw new Error("Ask PB could not save this answer. Please try again.");
-        }
         render(data);
         currentShareUrl = PBAskShare.applySnapshotUrl(data, { location, history }) || location.href.split("#")[0];
       } catch (error) {

@@ -1,5 +1,4 @@
-import { withLambda } from "@netlify/aws-lambda-compat";
-import "@netlify/blobs";
+import { connectLambda } from "@netlify/blobs";
 import askModule from "./lib/ask-handler.js";
 
 export const config = {
@@ -11,4 +10,7 @@ export const config = {
   },
 };
 
-export default withLambda(askModule.handler);
+export async function handler(event, context) {
+  if (event?.blobs) connectLambda(event);
+  return askModule.handler(event, context);
+}

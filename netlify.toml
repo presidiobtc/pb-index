@@ -3,6 +3,9 @@
   publish = "public"
   functions = "netlify/functions"
 
+[functions]
+  external_node_modules = ["@netlify/blobs"]
+
 [functions."ask-api"]
   included_files = ["public/search_chunks.json", "public/search_core.js"]
 
@@ -23,6 +26,24 @@
 [functions."refresh-featured"]
   # Run at 14:00 UTC each day so refresh timing is explicit across deployments.
   schedule = "0 14 * * *"
+
+[[redirects]]
+  from = "/ask/shared/:id/card.png"
+  to = "/.netlify/functions/ask-preview?id=:id"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/api/ask"
+  to = "/.netlify/functions/ask-api"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/ask/shared/:id"
+  to = "/.netlify/functions/ask-page?id=:id"
+  status = 200
+  force = true
 
 [[redirects]]
   from = "/"

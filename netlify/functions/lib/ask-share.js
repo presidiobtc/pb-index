@@ -177,20 +177,37 @@ function snapshotStore(options = {}) {
   if (options.store) return options.store;
   if (testStoreFactory) return testStoreFactory();
   const { getStore } = require("@netlify/blobs");
-  return getStore({ name: SNAPSHOT_STORE_NAME, consistency: "strong" });
+  return getStore({ name: SNAPSHOT_STORE_NAME });
+}
+
+function supportsStrongConsistency(options = {}, env = process.env) {
+  if (options.store || testStoreFactory) return true;
+  const encoded = globalThis.netlifyBlobsContext || env.NETLIFY_BLOBS_CONTEXT;
+  if (typeof encoded !== "string" || !encoded) return false;
+  try {
+    const context = JSON.parse(Buffer.from(encoded, "base64").toString("utf8"));
+    return Boolean(context?.uncachedEdgeURL);
+  } catch {
+    return false;
+  }
 }
 
 async function persistGeneratedSnapshot(payload, options = {}) {
   const env = options.env || process.env;
   if (!options.store && !snapshotsEnabled(env)) return null;
   const store = snapshotStore(options);
+  const strongConsistency = supportsStrongConsistency(options, env);
 
   for (let attempt = 0; attempt < 3; attempt += 1) {
     const snapshot = createSnapshot(payload, {
       id: options.id,
       createdAt: options.createdAt,
     });
-    const result = await store.setJSON(snapshotKey(snapshot.id), snapshot, { onlyIfNew: true });
+    const result = await store.setJSON(
+      snapshotKey(snapshot.id),
+      snapshot,
+      strongConsistency ? { onlyIfNew: true } : {},
+    );
     if (result?.modified !== false) return snapshot;
     if (options.id) break;
   }
@@ -200,7 +217,10 @@ async function persistGeneratedSnapshot(payload, options = {}) {
 async function loadSnapshot(id, options = {}) {
   if (!isSnapshotId(id)) return null;
   const store = snapshotStore(options);
-  const stored = await store.get(snapshotKey(id), { type: "json", consistency: "strong" });
+  const readOptions = supportsStrongConsistency(options)
+    ? { type: "json", consistency: "strong" }
+    : { type: "json" };
+  const stored = await store.get(snapshotKey(id), readOptions);
   if (!validSnapshotShape(stored, id)) return null;
   return {
     schema_version: stored.schema_version,
