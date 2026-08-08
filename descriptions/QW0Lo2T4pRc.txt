@@ -1,0 +1,19 @@
+0:00 - Discussing last week’s breakout episode
+1:36 - Bitcoin, AI and energy are starting to converge
+12:06 - Announcing the Type II Summit
+15:05 - Panthalassa and offshore compute
+17:30 - Introducing the PB Media Archive (pbarchive.ai)
+22:15 - Reexamining podcast accountability and ad incentives post-COLDCARD
+34:55 - The BTCPay Server exploit (happening in real time)
+36:11 - No software project should assume it’s safe
+41:20 - Why closed source won’t protect software from AI (OpenAI–Hugging Face incident)
+53:40 - Project Loupe’s approach to AI security scanning & learnings 
+1:01:30 - The push to get early AI access for bitcoin developers
+1:06:30 - How the COLDCARD incident has rallied bitcoin security (e.g., Bitcoin Red Team)
+1:13:00 - The hidden risks of DIY bitcoin entropy
+1:21:50 - Was the COLDCARD hack an inside job?
+1:28:24 - Rethinking responsible disclosure in the AI era
+1:35:12 - How vulnerable is the Lightning Network to AI?
+1:37:25 - Will agents choose bitcoin or create something new?
+1:42:45 - White-hat hacking, recovery and property rights
+1:54:48 - Spiral’s idea for a neutral protocol for multi-vendor wallet security

@@ -6168,6 +6168,75 @@ addTopicDefs([
   },
 ]);
 
+// 2026-08-07 PBJ: Bitcoin security after COLDCARD, PB Media Archive launch, and the Type II Summit.
+addTopicDefs([
+  {
+    name: "Panthalassa",
+    keywords: ["panthalassa", "offshore compute", "data centers at sea", "ocean data centers", "floating compute"],
+    picks: [{ youtube_id: "QW0Lo2T4pRc", t: 905, label: "Panthalassa is presented as an offshore-compute alternative to grid expansion and space: putting data centers at sea could use abundant cooling and fewer siting constraints, though the conversation treats regulatory freedom and operational feasibility as unresolved tradeoffs." }], // 15:05
+  },
+  {
+    name: "PB Media Archive",
+    keywords: ["pb media archive", "pbarchive.ai", "podcast archive search", "timestamped podcast search", "presidio bitcoin archive"],
+    picks: [{ youtube_id: "QW0Lo2T4pRc", t: 1050, label: "The PB Media Archive turns Presidio Bitcoin’s timestamped catalogue into an AI-queryable source that returns summaries, episodes, and timestamp links. The hosts see transparent retrieval as useful for research, accountability, and potentially making podcast content more visible to AI systems." }], // 17:30
+  },
+  {
+    name: "COLDCARD hack",
+    keywords: ["coldcard hack", "coldcard security incident", "coinkite vulnerability", "post-coldcard security", "coldcard response"],
+    picks: [{ youtube_id: "QW0Lo2T4pRc", t: 3990, label: "The COLDCARD hack is treated as a catalyst for Bitcoin’s security response: it has exposed how AI changes the practical threat model while rallying independent researchers, wallet makers, and developers around continuous vulnerability discovery and mitigation." }], // 1:06:30
+  },
+  {
+    name: "BTCPay Server exploit",
+    keywords: ["btcpay server exploit", "btcpay drain", "lightning payment drain", "btcpay security incident", "live bitcoin exploit"],
+    picks: [{ youtube_id: "QW0Lo2T4pRc", t: 2095, label: "During the livestream, reports of a BTCPay Server drain prompt a cautious discussion of an unfolding Lightning-payment exploit. With its scope still unknown, the event reinforces that payment infrastructure can be attacked in real time and requires continuous incident assessment." }], // 34:55
+  },
+  {
+    name: "Project Loupe",
+    keywords: ["project loupe", "ai security audit workflow", "ai vulnerability scans", "bitcoin code audits", "human vulnerability triage"],
+    picks: [{ youtube_id: "QW0Lo2T4pRc", t: 3220, label: "Project Loupe’s practitioners describe AI auditing as a repeated, human-guided process rather than a one-time scan. Prompting, agent harnesses, model selection, and nondeterministic results all affect findings, so parallel independent efforts strengthen the Bitcoin ecosystem." }], // 53:40
+  },
+  {
+    name: "AI security scanning",
+    keywords: ["ai security scanning", "ai vulnerability scanning", "agent harness security", "nondeterministic security scans", "prompted code audit"],
+    picks: [{ youtube_id: "QW0Lo2T4pRc", t: 2210, label: "AI security scanning is portrayed as an ongoing defensive discipline, not a completed checkbox: prompts, agent harnesses, model choice, and repeated runs change results. Teams must assume vulnerabilities exist and continually improve human-guided detection before attackers exploit them." }], // 36:50
+  },
+  {
+    name: "Binary reverse engineering",
+    keywords: ["binary reverse engineering", "ai binary analysis", "closed-source security", "reverse engineer binaries", "source code secrecy"],
+    picks: [{ youtube_id: "QW0Lo2T4pRc", t: 2480, label: "Closed source provides only temporary concealment: models can analyze binaries and reverse engineer systems without original source code. The hosts argue custodians and other high-value targets therefore need urgent defensive scanning, because obscurity no longer keeps vulnerabilities hidden." }], // 41:20
+  },
+  {
+    name: "Bitcoin Red Team",
+    keywords: ["bitcoin red team", "community funded ai audits", "open-source security scanning", "bitcoin security ecosystem", "rob callie security"],
+    picks: [{ youtube_id: "QW0Lo2T4pRc", t: 3990, label: "Bitcoin Red Team emerged after the COLDCARD incident as an independent, community-funded effort to scan many open-source projects with AI. Its different model-access and communication approach complements Project Loupe; diversity of security methods and institutions reduces single-point dependence." }], // 1:06:30
+  },
+  {
+    name: "Offline entropy generation",
+    keywords: ["offline entropy generation", "dice roll entropy", "diy wallet entropy", "dice-generated seed", "manual seed generation"],
+    picks: [{ youtube_id: "QW0Lo2T4pRc", t: 4380, label: "DIY dice entropy can protect a wallet only when users correctly generate and enter genuinely random rolls. A reported user who entered six repeatedly created a predictable key, illustrating why intricate self-custody procedures become dangerous human-error traps." }], // 1:13:00
+  },
+  {
+    name: "Custody diversification",
+    keywords: ["custody diversification", "diversified entropy", "split custody risk", "independent bitcoin secrets", "single point of failure custody"],
+    picks: [{ youtube_id: "QW0Lo2T4pRc", t: 4710, label: "Entropy should be diversified alongside custody: combine product-generated secrets with independently supplied randomness so either can fail without losing funds. This preserves advanced self-sovereignty for capable users while avoiding a single product—or a user mistake—as the sole security boundary." }], // 1:18:30
+  },
+  {
+    name: "Responsible disclosure",
+    keywords: ["responsible disclosure", "ai era disclosure", "90 day disclosure", "private vulnerability reporting", "security update coordination"],
+    picks: [{ youtube_id: "QW0Lo2T4pRc", t: 5304, label: "In the AI era, responsible disclosure must be faster than the traditional 90-day norm but cannot be immediate public disclosure. Private reporting gives teams time to assess, fix, and safely distribute updates; premature publicity can drive users toward harmful decisions." }], // 1:28:24
+  },
+  {
+    name: "White-hat recovery",
+    keywords: ["white-hat recovery", "white-hat bitcoin hacking", "stolen bitcoin recovery", "bitcoin property rights", "vulnerable wallet rescue"],
+    picks: [{ youtube_id: "QW0Lo2T4pRc", t: 6170, label: "White-hat recovery of vulnerable coins creates a property-rights dilemma: a rescuer may beat criminals yet prevent an owner from moving funds and lack a reliable return process. The hosts argue good intentions do not settle ownership, restitution, or timing risks." }], // 1:42:50
+  },
+  {
+    name: "Multi-vendor wallet protocol",
+    keywords: ["multi-vendor wallet protocol", "neutral multisig protocol", "spiral wallet protocol", "bitkey interoperability", "multi-vendor signing"],
+    picks: [{ youtube_id: "QW0Lo2T4pRc", t: 6890, label: "Spiral is considering a neutral, open protocol for multi-vendor multisignature wallets, informed by Bitkey but not controlled by it. Generalizing the design beyond one tightly coupled product could diversify signing risk, though it demands fresh security and privacy engineering." }], // 1:54:50
+  },
+]);
+
 // 2026-08-01 PBJ: The COLDCARD hack and future of self-custody.
 addTopicDefs([
   {

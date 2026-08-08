@@ -10,7 +10,7 @@ const {
 } = require("../netlify/functions/lib/archive.js");
 
 const COLDCARD_ID = "cSXOmwI38Jo";
-const AI_SCANNING_TOPIC_ID = "topic:ai-security-scanning:cSXOmwI38Jo:2849:1";
+const AI_SCANNING_TOPIC_ID = "topic:ai-security-scanning:cSXOmwI38Jo:2849:2";
 
 test("search_archive returns bounded timestamped evidence from the deterministic search core", () => {
   const output = searchArchive({
