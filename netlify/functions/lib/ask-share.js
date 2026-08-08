@@ -299,7 +299,6 @@ function renderSnapshotHtml(template, snapshot, options = {}) {
   const image = `${canonical}/card.png?v=${SOCIAL_CARD_VERSION}`;
   const imageAlt = `Ask PB: ${cleanMetadataTitle}. ${card.provenance}.`;
   const metadata = `
-  <base href="/">
   <link rel="canonical" href="${escapeHtml(canonical)}">
   <meta name="description" content="${escapeHtml(teaser)}">
   <meta name="robots" content="noindex,follow">
@@ -324,6 +323,12 @@ function renderSnapshotHtml(template, snapshot, options = {}) {
   const bootstrap = `<script>window.__PB_ASK_SNAPSHOT__=${safeJson(snapshotForClient(snapshot))};</script>\n  `;
 
   let html = String(template || "");
+  const basePattern = /<base\b[^>]*>/i;
+  if (basePattern.test(html)) {
+    html = html.replace(basePattern, `<base href="/">`);
+  } else {
+    html = html.replace(/<head([^>]*)>/i, `<head$1>\n  <base href="/">`);
+  }
   html = html.replace(/<title>[\s\S]*?<\/title>/i, `<title>${escapeHtml(pageTitle)}</title>`);
   html = html.replace(/<\/head>/i, `${metadata}\n</head>`);
   html = html.replace(/(<script\s+src=["']\.\/search_core\.js["'][^>]*><\/script>)/i, `${bootstrap}$1`);

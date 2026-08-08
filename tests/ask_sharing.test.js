@@ -291,7 +291,8 @@ test("shared answer HTML emits complete Open Graph and X metadata safely", () =>
   const html = AskShare.renderSnapshotHtml(template, malicious, { origin: "https://pbarchive.ai" });
 
   assert.match(html, new RegExp(`<link rel="canonical" href="https://pbarchive\\.ai/ask/shared/${SNAPSHOT_ID}">`));
-  assert.match(html, /<base href="\/">/);
+  assert.deepEqual(template.match(/<base\b[^>]*>/gi), [`<base href="./">`]);
+  assert.deepEqual(html.match(/<base\b[^>]*>/gi), [`<base href="/">`]);
   assert.match(html, /<meta name="robots" content="noindex,follow">/);
   assert.match(html, /<meta name="description" content="[^"]+">/);
   assert.match(html, /<meta property="og:type" content="website">/);
@@ -445,6 +446,37 @@ test("address-bar replacement and clipboard Share resolve to the same snapshot U
   assert.match(handler[1], /await copyText\(url\)/);
   assert.match(handler[1], /flashAction\(shareAnswerButton, "Link copied"\)/);
   assert.doesNotMatch(handler[1], /navigator\.share|answerTextForCopying|currentAnswerText/);
+});
+
+test("Ask navigation stays rooted after the address bar becomes a snapshot URL", () => {
+  const page = fs.readFileSync(path.join(ROOT, "public", "ask.html"), "utf8");
+  const baseHref = page.match(/<base\s+href="([^"]+)">/i)?.[1];
+  assert.equal(baseHref, "./");
+
+  const initialUrl = "https://pbarchive.ai/ask.html?q=project+loupe";
+  const frozenBase = new URL(baseHref, initialUrl);
+  assert.equal(frozenBase.href, "https://pbarchive.ai/");
+
+  const header = page.match(/<header\b[\s\S]*?<\/header>/i)?.[0] || "";
+  const internalHrefs = [...header.matchAll(/href="(\.\/?[^"]*)"/gi)].map(match => match[1]);
+  assert.deepEqual(internalHrefs, [
+    "./",
+    "./about.html",
+    "./ask.html",
+    "./topics/",
+    "./programming.html",
+    "./events.html",
+  ]);
+
+  const expectedPaths = ["/", "/about.html", "/ask.html", "/topics/", "/programming.html", "/events.html"];
+  assert.deepEqual(
+    internalHrefs.map(href => new URL(href, frozenBase).pathname),
+    expectedPaths,
+  );
+  assert.equal(new URL("./topics/#topic-project-loupe", frozenBase).pathname, "/topics/");
+  assert.ok(
+    internalHrefs.every(href => !new URL(href, frozenBase).pathname.startsWith("/ask/shared/")),
+  );
 });
 
 test("preview handler serves an immutable 1200 by 630 PNG and handles HTTP boundaries", async () => {
