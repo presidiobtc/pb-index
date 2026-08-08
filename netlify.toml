@@ -4,7 +4,7 @@
   functions = "netlify/functions"
 
 [functions]
-  external_node_modules = ["@netlify/blobs"]
+  external_node_modules = ["@netlify/blobs", "@resvg/resvg-js"]
 
 [functions."ask-api"]
   included_files = ["public/search_chunks.json", "public/search_core.js"]
