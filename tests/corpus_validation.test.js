@@ -47,7 +47,7 @@ test("source files, curated timestamps, and generated search coverage validate",
   assert.deepEqual(result.errors, []);
   assert.equal(result.stats.catalog_videos, 178);
   assert.equal(result.stats.transcripts_with_entries, result.stats.catalog_videos);
-  assert.equal(result.stats.canonical_topics, 856);
+  assert.equal(result.stats.canonical_topics, 855);
   assert.ok(result.stats.video_topic_picks > result.stats.canonical_topics);
   assert.ok(result.stats.report_topic_picks > 0);
   assert.ok(result.stats.generated_chunks > result.stats.catalog_videos);

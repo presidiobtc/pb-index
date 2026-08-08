@@ -6206,11 +6206,6 @@ addTopicDefs([
     picks: [{ youtube_id: "QW0Lo2T4pRc", t: 2480, label: "Closed source provides only temporary concealment: models can analyze binaries and reverse engineer systems without original source code. The hosts argue custodians and other high-value targets therefore need urgent defensive scanning, because obscurity no longer keeps vulnerabilities hidden." }], // 41:20
   },
   {
-    name: "Frontier model access",
-    keywords: ["frontier model access", "bitcoin developer model access", "early ai model access", "frontier ai security", "model provider dependency"],
-    picks: [{ youtube_id: "QW0Lo2T4pRc", t: 3690, label: "Bitcoin developers need early access to frontier AI models because defensive scans must keep pace with attackers’ capabilities. The conversation welcomes open-model progress but warns that relying on a small group of providers for leading access creates a strategic dependency." }], // 1:01:30
-  },
-  {
     name: "Bitcoin Red Team",
     keywords: ["bitcoin red team", "community funded ai audits", "open-source security scanning", "bitcoin security ecosystem", "rob callie security"],
     picks: [{ youtube_id: "QW0Lo2T4pRc", t: 3990, label: "Bitcoin Red Team emerged after the COLDCARD incident as an independent, community-funded effort to scan many open-source projects with AI. Its different model-access and communication approach complements Project Loupe; diversity of security methods and institutions reduces single-point dependence." }], // 1:06:30
