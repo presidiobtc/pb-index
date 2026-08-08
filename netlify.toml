@@ -39,6 +39,11 @@
   status = 200
   force = true
 
+  [redirects.rate_limit]
+    window_limit = 30
+    window_size = 60
+    aggregate_by = ["ip", "domain"]
+
 [[redirects]]
   from = "/ask/shared/:id"
   to = "/.netlify/functions/ask-page?id=:id"

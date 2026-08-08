@@ -535,6 +535,10 @@ test("Netlify configuration bundles preview assets and permits social crawlers",
   assert.match(netlify, /\[functions\."ask-api"\]/);
   assert.match(netlify, /\[functions\."ask-page"\]/);
   assert.match(netlify, /\[functions\."ask-preview"\]/);
+  assert.match(
+    netlify,
+    /from = "\/api\/ask"[\s\S]*?\[redirects\.rate_limit\][\s\S]*?window_limit = 30[\s\S]*?window_size = 60/,
+  );
   for (const asset of ["public/logo.png", "newsreader-latin-400-normal.woff", "inter-latin-400-normal.woff", "inter-latin-600-normal.woff"]) {
     assert.match(netlify, new RegExp(asset.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")));
   }
