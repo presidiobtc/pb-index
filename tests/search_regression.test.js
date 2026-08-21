@@ -226,7 +226,7 @@ test("standalone curated topics stay protected while explicit series intent wins
 
 test("every canonical topic name returns that exact topic at rank one", () => {
   const topics = [...new Set(chunks.flatMap(chunk => chunk.topics || []))];
-  assert.equal(topics.length, 855, "topic count changed; review the exhaustive exact-topic guard");
+  assert.equal(topics.length, 864, "topic count changed; review the exhaustive exact-topic guard");
   for (const topic of topics) {
     const source = firstFor(topic);
     const sourceTopics = (source?.topics || []).map(SearchCore.normalizeForMatch);

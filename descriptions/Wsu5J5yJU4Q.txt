@@ -1,0 +1,19 @@
+0:00 - What's behind bitcoin's rally?
+8:33 - Open Source AI Summit and questions for David Sacks
+18:00 - Berd and Block’s growing stack of open-source AI agents
+22:30 - Alby's TaskFuel simplifying payments for agents
+30:14 - The missing credential layer for agents
+36:46 - Making sense of Stripe’s OpenRouter acquisition
+48:02 - What's OpenRouter’s moat?
+52:50 - Apple, OpenAI and the battle for user intent
+57:46 - Making the internet infinitely programmable
+1:07:47 - BlackRock's new case for bitcoin
+1:21:03 - What causes bitcoin’s four-year cycle?
+1:26:25 - Strategy's notable resilience
+1:30:49 - Is bitcoin becoming more centralized and how best to measure it?
+
+SHOW NOTES:
+
+https://opensourceaisummit.org/
+
+https://www.blackrock.com/us/financial-professionals/literature/whitepaper/re-underwriting-bitcoin.pdf
