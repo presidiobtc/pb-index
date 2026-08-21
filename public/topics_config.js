@@ -477,7 +477,7 @@ addTopicDefs([
     picks: [{ youtube_id: "Wsu5J5yJU4Q", t: 3170, label: "The hosts argue the strategic router will be the company controlling the device or interface where people express intent. Aggregation and low token prices matter, but Apple or Android could direct demand before model providers and routers compete." }], // 52:50
   },
   {
-    name: "BlackRock Bitcoin report",
+    name: "BlackRock bitcoin report",
     keywords: ["blackrock bitcoin report", "re-underwriting bitcoin", "blackrock bitcoin thesis", "bitcoin portfolio allocation", "bitcoin diversification report"],
     picks: [{ youtube_id: "Wsu5J5yJU4Q", t: 4067, label: "BlackRock's new Bitcoin report is treated as a polished institutional case for allocation, potentially reaching investors who would not follow Bitcoin-native arguments. The hosts examine its charts as a signal that traditional capital is gaining a formal framework for assessing Bitcoin." }], // 1:07:47
   },
