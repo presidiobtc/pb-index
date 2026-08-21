@@ -434,6 +434,75 @@ addTopicDefs([
   },
 ]);
 
+// 2026-08-21 PBJ: BlackRock's New Case for Bitcoin, Stripe Buys OpenRouter, Open Source AI Summit.
+addTopicDefs([
+  {
+    name: "Open Source AI Summit",
+    keywords: ["open source ai summit", "david sacks questions", "open weights policy", "auditable training data", "us chip capacity"],
+    picks: [{ youtube_id: "Wsu5J5yJU4Q", t: 513, label: "The Open Source AI Summit is framed around open weights, auditable training data, and domestic chip capacity. Preparing questions for David Sacks exposes a policy tradeoff: openness can strengthen U.S. capability while unverified foreign models may carry hidden risks." }], // 8:33
+  },
+  {
+    name: "Berd",
+    keywords: ["berd ai agent", "block berd", "enterprise agent harness", "goose development kit", "agent client protocol"],
+    picks: [{ youtube_id: "Wsu5J5yJU4Q", t: 1080, label: "Berd is Block's enterprise-ready agentic interface built atop Goose and ACP. Goose remains the lower-level development kit, while Berd offers a reference implementation for organizations needing multi-model use; Buzz remains the collaboration-oriented option for open-source projects and independent developers." }], // 18:00
+  },
+  {
+    name: "TaskFuel",
+    keywords: ["taskfuel", "alby taskfuel", "agent payment budget", "l402 x402 payments", "agent paid tools"],
+    picks: [{ youtube_id: "Wsu5J5yJU4Q", t: 1350, label: "Alby's TaskFuel lets an agent receive a budget and select paid tools across L402, X402, and Stripe-linked protocols. Its promise is simpler agent commerce, though permissioning remains unresolved and centralized stablecoin rails currently have more adoption than Bitcoin or Lightning." }], // 22:30
+  },
+  {
+    name: "Agent credential isolation",
+    keywords: ["agent credential isolation", "agent api key vault", "scoped agent credentials", "agent secret management", "environment variable vault"],
+    picks: [{ youtube_id: "Wsu5J5yJU4Q", t: 1814, label: "Agent credential isolation treats API keys, payment methods, and environment secrets as separately scoped vaults rather than extensions of a user's password manager. Agents need authority to provision services, but separate scopes limit damage if one agent or tool is compromised." }], // 30:14
+  },
+  {
+    name: "Stripe's OpenRouter acquisition",
+    keywords: ["stripe openrouter acquisition", "openrouter acquisition", "stripe seven and a half billion", "ai model router acquisition", "stripe developer tools"],
+    picks: [{ youtube_id: "Wsu5J5yJU4Q", t: 2206, label: "Stripe's acquisition of OpenRouter is framed as a developer-tools and payments combination, not merely a model bet. Owning routing and token payment processing can lower aggregate take rates, subsidize usage, and make an integrated platform harder for thinner competitors to match." }], // 36:46
+  },
+  {
+    name: "Model routing",
+    keywords: ["model routing", "openrouter routing", "automated model selection", "multi-model api", "ai inference aggregation"],
+    picks: [{ youtube_id: "Wsu5J5yJU4Q", t: 2415, label: "OpenRouter's service is presented as the value of aggregation: developers keep one relationship while a router handles changing model integrations and automated selection. The tradeoff is that routing can create powerful gatekeepers even when many open and closed models remain available." }], // 40:15
+  },
+  {
+    name: "Permissionless agent payments",
+    keywords: ["permissionless agent payments", "autonomous agent lightning", "agent payment protocols", "lightning model routing", "digital life payments"],
+    picks: [{ youtube_id: "Wsu5J5yJU4Q", t: 2715, label: "They distinguish today's developer-controlled agents, where Stripe's integrated experience is likely stronger, from autonomous agents needing their own payments and model access. The latter could create demand for permissionless Lightning-based protocols, but only if builders create usable services." }], // 45:15
+  },
+  {
+    name: "User intent routing",
+    keywords: ["user intent routing", "apple ai routing", "device-level ai interface", "ai top of funnel", "smartphone agent interface"],
+    picks: [{ youtube_id: "Wsu5J5yJU4Q", t: 3170, label: "The hosts argue the strategic router will be the company controlling the device or interface where people express intent. Aggregation and low token prices matter, but Apple or Android could direct demand before model providers and routers compete." }], // 52:50
+  },
+  {
+    name: "BlackRock Bitcoin report",
+    keywords: ["blackrock bitcoin report", "re-underwriting bitcoin", "blackrock bitcoin thesis", "bitcoin portfolio allocation", "bitcoin diversification report"],
+    picks: [{ youtube_id: "Wsu5J5yJU4Q", t: 4067, label: "BlackRock's new Bitcoin report is treated as a polished institutional case for allocation, potentially reaching investors who would not follow Bitcoin-native arguments. The hosts examine its charts as a signal that traditional capital is gaining a formal framework for assessing Bitcoin." }], // 1:07:47
+  },
+  {
+    name: "Bitcoin four-year cycle",
+    keywords: ["bitcoin four-year cycle", "halving cycle", "miner forced selling", "stock to flow critique", "bitcoin bear market expectation"],
+    picks: [{ youtube_id: "Wsu5J5yJU4Q", t: 4863, label: "Bitcoin's four-year cycle is explained as dwindling miner forced selling plus a self-fulfilling investor expectation, not Stock-to-Flow. Halving effects diminish over time, while bear-market waiting and demand-side institutions can produce momentum that a purely supply model omits." }], // 1:21:03
+  },
+  {
+    name: "Bitcoin treasury companies",
+    keywords: ["strategy resilience", "mstr resilience", "bitcoin treasury financial engineering", "strategy bitcoin accumulation", "bitcoin treasury risk"],
+    picks: [{ youtube_id: "Wsu5J5yJU4Q", t: 5185, label: "Strategy's resilience is attributed to safeguards, a larger cash position, and financial engineering that can benefit when Bitcoin rises. The hosts still separate its securities from holding bitcoin directly: credit, fraud, custody, and concentrated-ownership risks remain even for a bullish investor." }], // 1:26:25
+  },
+  {
+    name: "Bitcoin custody concentration",
+    keywords: ["bitcoin custody concentration", "economic custody power", "bitcoin ownership distribution", "etf exchange custody", "bitcoin gini coefficient"],
+    picks: [{ youtube_id: "Wsu5J5yJU4Q", t: 5449, label: "Bitcoin concentration cannot be judged from one headline share: retail, ETFs, Strategy, governments, and exchanges measure different claims, and ETF coins may overlap exchange custody. The discussion distinguishes economic ownership from key control and favors distribution metrics that expose both layers." }], // 1:30:49
+  },
+  {
+    name: "Stratum V2",
+    keywords: ["stratum v2", "mining pool decentralization", "stratum v2 incentives", "mining pool authentication", "hashrate decentralization"],
+    picks: [{ youtube_id: "Wsu5J5yJU4Q", t: 5665, label: "Stratum V2 is presented as a route to more decentralized mining-pool control through better authentication and encryption, but adoption lacks immediate economic demand. The slow rollout is frustrating, yet the hosts view broad voluntary adoption by independent actors as a decentralization strength." }], // 1:34:25
+  },
+]);
+
 
 addTopicDefs([
   {
