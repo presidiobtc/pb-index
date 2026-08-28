@@ -1,5 +1,5 @@
 [build]
-  command = "python3 scripts/validate_search_corpus.py && python3 scripts/build_search_chunks.py && python3 scripts/build_featured_topics.py"
+  command = "python3 scripts/validate_search_corpus.py && python3 scripts/build_search_chunks.py && python3 scripts/build_topic_stats.py && python3 scripts/build_featured_topics.py"
   publish = "public"
   functions = "netlify/functions"
 

@@ -6,6 +6,7 @@
   <base href="../" />
   <title>Presidio Bitcoin Media Archive - Topics</title>
   <link rel="icon" href="https://www.presidiobitcoin.org/favicon.png" type="image/png">
+  <link rel="stylesheet" href="./topic_explorer.css">
   <style>
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
@@ -361,6 +362,7 @@
       color: var(--muted);
       margin-bottom: 10px;
       display: flex;
+      flex-wrap: wrap;
       align-items: center;
       justify-content: center;
       gap: 6px;
@@ -376,6 +378,7 @@
       color: var(--green);
       text-decoration: underline;
       text-underline-offset: 2px;
+      white-space: nowrap;
     }
     .sort-btn.active {
       color: var(--text);
@@ -383,6 +386,12 @@
       font-weight: 600;
       cursor: default;
     }
+    .sort-btn:focus-visible {
+      outline: 2px solid var(--green);
+      outline-offset: 3px;
+      border-radius: 2px;
+    }
+    .topic-view[hidden] { display: none !important; }
 
     .letter-group { scroll-margin-top: 100px; }
 
@@ -785,30 +794,55 @@
     <h1 class="page-title">Topics</h1>
     <p class="page-sub" id="sub-count">Loading…</p>
 
-    <section class="featured-now" id="featured-now" aria-label="Featured topics">
-      <div class="featured-head">
-        <h2 class="featured-title">Featured Now</h2>
-      </div>
-      <div class="featured-grid" id="featured-grid">
-        <div class="featured-empty">Loading featured topics…</div>
-      </div>
-    </section>
+    <div class="sort-bar" role="tablist" aria-label="Topic views">
+      <button class="sort-btn active" id="btn-visualization" type="button" role="tab"
+        aria-selected="true" aria-controls="visualization-panel" tabindex="0"
+        onclick="setSort('visualization')">Visualization</button>
+      <span aria-hidden="true">|</span>
+      <button class="sort-btn" id="btn-alpha" type="button" role="tab"
+        aria-selected="false" aria-controls="topic-browser-panel" tabindex="-1"
+        onclick="setSort('alpha')">Alphabetically</button>
+      <span aria-hidden="true">|</span>
+      <button class="sort-btn" id="btn-map" type="button" role="tab"
+        aria-selected="false" aria-controls="topic-browser-panel" tabindex="-1"
+        onclick="setSort('map')">By theme</button>
+      <span aria-hidden="true">|</span>
+      <button class="sort-btn" id="btn-date" type="button" role="tab"
+        aria-selected="false" aria-controls="topic-browser-panel" tabindex="-1"
+        onclick="setSort('date')">By date</button>
+      <span aria-hidden="true">|</span>
+      <button class="sort-btn" id="btn-series" type="button" role="tab"
+        aria-selected="false" aria-controls="topic-browser-panel" tabindex="-1"
+        onclick="setSort('series')">By series</button>
+    </div>
 
-    <div class="sort-bar">
-      <button class="sort-btn active" id="btn-alpha" onclick="setSort('alpha')">Alphabetically</button>
-      <span>|</span>
-      <button class="sort-btn" id="btn-map" onclick="setSort('map')">By theme</button>
-      <span>|</span>
-      <button class="sort-btn" id="btn-date" onclick="setSort('date')">By date</button>
-      <span>|</span>
-      <button class="sort-btn" id="btn-series" onclick="setSort('series')">By series</button>
+    <div class="topic-view" id="visualization-panel" role="tabpanel" aria-labelledby="btn-visualization">
+      <section class="pbj-explorer" id="pbj-topic-explorer">
+        <div class="pbj-explorer-loading">
+          <p class="pbj-explorer-eyebrow">PBJ archive analysis</p>
+          <h2 id="pbj-explorer-title">PBJ Topic Explorer</h2>
+          <p>Loading the full-episode topic mix…</p>
+        </div>
+      </section>
+
+      <section class="featured-now" id="featured-now" aria-label="Featured topics">
+        <div class="featured-head">
+          <h2 class="featured-title">Featured Now</h2>
+        </div>
+        <div class="featured-grid" id="featured-grid">
+          <div class="featured-empty">Loading featured topics…</div>
+        </div>
+      </section>
     </div>
 
     <div id="quick-nav" class="quick-nav" style="display:none"></div>
 
-    <div id="list"></div>
+    <div class="topic-view" id="topic-browser-panel" role="tabpanel" aria-labelledby="btn-alpha" hidden>
+      <div id="list"></div>
+    </div>
   </div>
 
+  <script src="./topic_explorer.js"></script>
   <script src="./series_config.js"></script>
   <script src="./topics_config.js"></script>
   <script>
@@ -1651,7 +1685,104 @@
           "zcash": "Wallets & Custody > Privacy & rights",
           "zero-knowledge on bitcoin": "Wallets & Custody > Privacy & rights",
           "zettahash": "Builders & Infrastructure > Mining & energy",
-          "zirp psychology": "Policy & Society > Culture & education"
+          "zirp psychology": "Policy & Society > Culture & education",
+          "open source ai summit": "AI & Agents > Models & labs",
+          "berd": "AI & Agents > Agents & apps",
+          "taskfuel": "AI & Agents > Agents & apps",
+          "agent credential isolation": "AI & Agents > Agents & apps",
+          "stripe's openrouter acquisition": "AI & Agents > Models & labs",
+          "model routing": "AI & Agents > Models & labs",
+          "permissionless agent payments": "AI & Agents > Agents & apps",
+          "user intent routing": "AI & Agents > Agents & apps",
+          "blackrock bitcoin report": "Bitcoin as Money > Markets & macro",
+          "bitcoin four-year cycle": "Bitcoin as Money > Markets & macro",
+          "bitcoin custody concentration": "Wallets & Custody > Self-custody UX",
+          "career advice": "Policy & Society > Culture & education",
+          "ai-native livestreaming": "AI & Agents > Agents & apps",
+          "buzz": "AI & Agents > Agents & apps",
+          "multi-agent workflows": "AI & Agents > Agents & apps",
+          "ai personhood": "AI & Agents > Agents & apps",
+          "bark": "Protocol & Scaling > Lightning & layers",
+          "base": "Other Maps > Stablecoins & rails",
+          "cash app wand": "Bitcoin as Money > Everyday money",
+          "living design docs": "AI & Agents > Agents & apps",
+          "ai liquidity drain": "Bitcoin as Money > Markets & macro",
+          "ai ipo wave": "Bitcoin as Money > Markets & macro",
+          "zcash inflation bug": "Wallets & Custody > Privacy & rights",
+          "auditable supply": "Wallets & Custody > Privacy & rights",
+          "zcash turnstiles": "Wallets & Custody > Privacy & rights",
+          "goose development kit": "AI & Agents > Agents & apps",
+          "agent client protocol": "AI & Agents > Agents & apps",
+          "goose rust api": "AI & Agents > Agents & apps",
+          "mcp apps": "AI & Agents > Agents & apps",
+          "local ai models": "AI & Agents > Models & labs",
+          "localmaxxing": "AI & Agents > Models & labs",
+          "bitcoin compute markets": "AI & Agents > Compute & verification",
+          "prompt caching": "AI & Agents > Models & labs",
+          "agent harnesses": "AI & Agents > Agents & apps",
+          "credibly neutral ai agents": "AI & Agents > Agents & apps",
+          "harness benchmarks": "AI & Agents > Models & labs",
+          "model-harness tuning": "AI & Agents > Models & labs",
+          "domain-specific agent apps": "AI & Agents > Agents & apps",
+          "model interpretability": "AI & Agents > Models & labs",
+          "ai subscription lock-in": "AI & Agents > Models & labs",
+          "open-source development": "Builders & Infrastructure > Open-source projects",
+          "agentic developer support": "AI & Agents > Agents & apps",
+          "ai export controls": "Policy & Society > Regulation & advocacy",
+          "ai compute constraints": "Builders & Infrastructure > Mining & energy",
+          "ai moats": "AI & Agents > Models & labs",
+          "spacex": "Builders & Infrastructure > Mining & energy",
+          "compute in space": "Builders & Infrastructure > Mining & energy",
+          "open usd": "Other Maps > Stablecoins & rails",
+          "stablecoin revenue sharing": "Other Maps > Stablecoins & rails",
+          "stablecoin interoperability": "Other Maps > Stablecoins & rails",
+          "tether network effects": "Other Maps > Stablecoins & rails",
+          "bitcoin forks": "Protocol & Scaling > Bitcoin Core & policy",
+          "consensus change process": "Protocol & Scaling > Bitcoin Core & policy",
+          "bip 110": "Protocol & Scaling > Bitcoin Core & policy",
+          "bip 361": "Protocol & Scaling > Quantum readiness",
+          "great consensus cleanup": "Protocol & Scaling > Bitcoin Core & policy",
+          "drivechain": "Protocol & Scaling > Bitcoin Core & policy",
+          "post-quantum bitcoin forks": "Protocol & Scaling > Quantum readiness",
+          "ecash": "Protocol & Scaling > Bitcoin Core & policy",
+          "illinois digital asset transfer tax": "Policy & Society > Regulation & advocacy",
+          "us sovereign wealth fund": "Policy & Society > Geopolitics & human rights",
+          "open name tags": "Wallets & Custody > Names & identity",
+          "exo labs": "AI & Agents > Models & labs",
+          "local model benchmarking": "AI & Agents > Models & labs",
+          "mixture-of-experts models": "AI & Agents > Models & labs",
+          "llm compression": "AI & Agents > Models & labs",
+          "continuous model learning": "AI & Agents > Models & labs",
+          "latent-space creativity": "AI & Agents > Models & labs",
+          "ai-assisted archaeology": "AI & Agents > Models & labs",
+          "ai treasure hunting": "AI & Agents > Models & labs",
+          "stripe–paypal acquisition": "Builders & Infrastructure > Product & distribution",
+          "china gold accumulation": "Bitcoin as Money > Markets & macro",
+          "kimi k3": "AI & Agents > Models & labs",
+          "ai model benchmarks": "AI & Agents > Models & labs",
+          "u.s.–china ai race": "Policy & Society > Geopolitics & human rights",
+          "thinking machines": "AI & Agents > Models & labs",
+          "pb media archive": "Policy & Society > Culture & education",
+          "coldcard hack": "Wallets & Custody > Self-custody UX",
+          "btcpay server exploit": "Wallets & Custody > Self-custody UX",
+          "binary reverse engineering": "Builders & Infrastructure > Open-source projects",
+          "bitcoin red team": "Builders & Infrastructure > Open-source projects",
+          "offline entropy generation": "Wallets & Custody > Self-custody UX",
+          "custody diversification": "Wallets & Custody > Self-custody UX",
+          "responsible disclosure": "Builders & Infrastructure > Open-source projects",
+          "white-hat recovery": "Wallets & Custody > Self-custody UX",
+          "multi-vendor wallet protocol": "Wallets & Custody > Self-custody UX",
+          "wallet entropy": "Wallets & Custody > Self-custody UX",
+          "bip39 passphrases": "Wallets & Custody > Self-custody UX",
+          "open-source software licensing": "Builders & Infrastructure > Open-source projects",
+          "wallet ownership proofs": "Wallets & Custody > Self-custody UX",
+          "multisig": "Wallets & Custody > Self-custody UX",
+          "bitcoin security consortium": "Protocol & Scaling > Quantum readiness",
+          "wavelength": "Protocol & Scaling > Lightning & layers",
+          "human rights data analysis": "Policy & Society > Geopolitics & human rights",
+          "decentralized resource discovery": "AI & Agents > Compute & verification",
+          "decentralized data storage": "Builders & Infrastructure > Product & distribution",
+          "security-tool adoption": "Wallets & Custody > Privacy & rights"
         };
     function fmtTime(sec) {
       sec = Math.max(0, Math.floor(sec));
@@ -1696,7 +1827,7 @@
     }
 
     let DATA, FEATURED, byVid, alphaHtml, mapHtml, dateHtml, seriesHtml, alphaNavHtml, mapNavHtml, dateNavHtml, topicCount;
-    let currentSort = "alpha";
+    let currentSort = "visualization";
 
     function nearestEntry(youtube_id, t) {
       const arr = byVid.get(youtube_id) || [];
@@ -2284,16 +2415,47 @@
     }
 
     window.setSort = function(mode) {
+      const modes = ["visualization", "alpha", "map", "date", "series"];
+      if (!modes.includes(mode)) return;
       if (mode === currentSort) return;
       currentSort = mode;
-      document.getElementById("btn-alpha").classList.toggle("active", mode === "alpha");
-      document.getElementById("btn-map").classList.toggle("active", mode === "map");
-      document.getElementById("btn-date").classList.toggle("active", mode === "date");
-      document.getElementById("btn-series").classList.toggle("active", mode === "series");
+      for (const item of modes) {
+        const button = document.getElementById(`btn-${item}`);
+        const active = item === mode;
+        button.classList.toggle("active", active);
+        button.setAttribute("aria-selected", String(active));
+        button.tabIndex = active ? 0 : -1;
+      }
+      const visualizationPanel = document.getElementById("visualization-panel");
+      const browserPanel = document.getElementById("topic-browser-panel");
+      const isVisualization = mode === "visualization";
+      visualizationPanel.hidden = !isVisualization;
+      browserPanel.hidden = isVisualization;
+      if (isVisualization) {
+        updateQuickNav(mode);
+        return;
+      }
       const html = mode === "alpha" ? alphaHtml : mode === "map" ? mapHtml : mode === "date" ? dateHtml : seriesHtml;
-      document.getElementById("list").innerHTML = html;
+      document.getElementById("list").innerHTML = typeof html === "string"
+        ? html
+        : `<div class="featured-empty">Loading topics…</div>`;
+      browserPanel.setAttribute("aria-labelledby", `btn-${mode}`);
       updateQuickNav(mode);
     };
+
+    document.querySelector(".sort-bar").addEventListener("keydown", function(event) {
+      if (!["ArrowLeft", "ArrowRight", "Home", "End"].includes(event.key)) return;
+      const tabs = [...this.querySelectorAll('[role="tab"]')];
+      const current = tabs.indexOf(document.activeElement);
+      if (current < 0) return;
+      event.preventDefault();
+      let next = current;
+      if (event.key === "Home") next = 0;
+      else if (event.key === "End") next = tabs.length - 1;
+      else next = (current + (event.key === "ArrowRight" ? 1 : -1) + tabs.length) % tabs.length;
+      tabs[next].focus();
+      tabs[next].click();
+    });
 
     document.addEventListener("toggle", function(e) {
       const branch = e.target.closest?.(".map-branch");
@@ -2356,10 +2518,14 @@
       dateHtml   = buildDateHtml();
       seriesHtml = buildSeriesHtml();
 
-      document.getElementById("list").innerHTML = alphaHtml;
       document.getElementById("sub-count").textContent = `${topicCount} topics`;
       renderFeaturedTopics();
-      updateQuickNav("alpha");
+      updateQuickNav(currentSort);
+      if (currentSort !== "visualization") {
+        const requestedMode = currentSort;
+        currentSort = "";
+        setSort(requestedMode);
+      }
 
       handleHashNav();
     }
@@ -2375,6 +2541,9 @@
       setTimeout(() => link.classList.remove("anchor-copied"), 1500);
     });
 
+    if (window.TopicExplorer) {
+      window.TopicExplorer.mount("#pbj-topic-explorer", "./topic_stats.json");
+    }
     main();
   </script>
 

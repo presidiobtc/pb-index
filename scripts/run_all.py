@@ -6,7 +6,8 @@ Run the full pipeline:
   4. build_index.py — build public/index.json from catalog + transcripts
   5. validate_search_corpus.py — fail before publishing invalid archive data
   6. build_search_chunks.py — build public/search_chunks.json for Ask PB
-  7. build_featured_topics.py — build public/featured_topics.json for the homepage
+  7. build_topic_stats.py — build PBJ Topic Explorer data and diagnostics
+  8. build_featured_topics.py — build public/featured_topics.json for the homepage
 """
 import subprocess, sys
 from pathlib import Path
@@ -19,6 +20,7 @@ steps = [
     "build_index.py",
     "validate_search_corpus.py",
     "build_search_chunks.py",
+    "build_topic_stats.py",
     "build_featured_topics.py",
 ]
 
