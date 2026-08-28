@@ -190,6 +190,7 @@ test("Topics keeps Featured Now above every view while mounting the modular expl
   assert.match(source, /pbj-topic-explorer__subtopic-donut/);
   assert.match(source, /data-action="select-topic"/);
   assert.match(source, /transcript topic matches/);
+  assert.doesNotMatch(source, />Explore the archive</);
   assert.doesNotMatch(source, /renderMethodology/);
   assert.doesNotMatch(source, />How this is measured</);
   assert.doesNotMatch(source, /curated topic annotations/);

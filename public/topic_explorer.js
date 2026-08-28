@@ -653,7 +653,6 @@
       this.root.innerHTML = `
         <div class="pbj-topic-explorer__surface" role="region" aria-labelledby="${headingId}">
           <header class="pbj-topic-explorer__header">
-            <p class="pbj-topic-explorer__eyebrow">Explore the archive</p>
             <h2 class="pbj-topic-explorer__title" id="${headingId}">PBJ Topic Explorer</h2>
             <p class="pbj-topic-explorer__intro">What PBJ talks about, how it breaks down, and how the topic mix changes over time.</p>
             <p class="pbj-topic-explorer__scope"><strong>${escapeHtml(countLine)}</strong>${rangeLine}</p>
