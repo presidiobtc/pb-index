@@ -159,7 +159,7 @@ test("the mounted explorer renders both Overview and the full quarterly Trends v
   instance.destroy();
 });
 
-test("Topics mounts the modular explorer before preserving the existing topic browser", () => {
+test("Topics keeps Featured Now above every view while mounting the modular explorer", () => {
   const page = fs.readFileSync(path.join(ROOT, "public", "topics", "index.html"), "utf8");
   const source = fs.readFileSync(path.join(ROOT, "public", "topic_explorer.js"), "utf8");
   const runAll = fs.readFileSync(path.join(ROOT, "scripts", "run_all.py"), "utf8");
@@ -176,7 +176,10 @@ test("Topics mounts the modular explorer before preserving the existing topic br
   assert.match(page, /id="topic-browser-panel" role="tabpanel"[^>]*hidden/);
   assert.match(page, /let currentSort = "visualization"/);
   assert.match(page, /const modes = \["visualization", "alpha", "map", "date", "series"\]/);
-  assert.ok(page.indexOf('id="pbj-topic-explorer"') < page.indexOf('id="featured-now"'));
+  assert.equal((page.match(/id="featured-now"/g) || []).length, 1);
+  assert.ok(page.indexOf('id="featured-now"') < page.indexOf('class="sort-bar"'));
+  assert.ok(page.indexOf('id="featured-now"') < page.indexOf('id="visualization-panel"'));
+  assert.ok(page.indexOf('id="featured-now"') < page.indexOf('id="topic-browser-panel"'));
   assert.ok(page.indexOf('id="visualization-panel"') < page.indexOf('id="pbj-topic-explorer"'));
   assert.doesNotMatch(page, /id="pbj-topic-explorer" aria-label=/);
   assert.match(source, /role="tab"/);
