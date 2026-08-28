@@ -24,6 +24,7 @@ from build_topic_stats import (  # noqa: E402
     identify_pbj_episodes,
     load_topic_map,
     normalized_keyword_tokens,
+    outer_topic_assignment,
     percentage_shares,
     quarter_id,
     serialize_json,
@@ -205,6 +206,14 @@ class ExistingTaxonomyTests(unittest.TestCase):
         self.assertEqual(
             topic_map.assignment("Bitchat"),
             ("Builders & Infrastructure", "Product & distribution"),
+        )
+        self.assertEqual(
+            topic_map.assignment("Stateless socialism"),
+            ("Policy & Society", "Geopolitics & human rights"),
+        )
+        self.assertEqual(
+            outer_topic_assignment("Stateless socialism", topic_map)[0],
+            "Policy, Geopolitics & Society",
         )
         self.assertEqual(
             topic_map.assignment("A future unmapped topic"),
