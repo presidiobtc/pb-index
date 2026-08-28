@@ -77,6 +77,16 @@ test("the checked-in topic artifact normalizes to a complete reusable dataset", 
   assert.ok(data.overall.clusters.every(cluster => data.clusters[cluster.id]));
   assert.ok(data.overall.clusters.every(cluster => cluster.share >= 0 && cluster.share <= 1));
   assert.ok(Math.abs(data.overall.clusters.reduce((sum, cluster) => sum + cluster.share, 0) - 1) < 1e-9);
+  assert.deepEqual(
+    Object.fromEntries(data.overall.bitcoin_ai_summary.map(group => [group.name, group.color])),
+    {
+      Bitcoin: "#c96442",
+      AI: "#1f4d2a",
+      Other: "#365f7d",
+    },
+  );
+  assert.equal(data.overall.clusters[0].color, "#1f4d2a");
+  assert.equal(data.overall.clusters[1].color, "#c96442");
   assert.ok(data.quarters.every((quarter, index) => (
     index === 0 || quarter.id > data.quarters[index - 1].id
   )));

@@ -2623,7 +2623,7 @@ addTopicDefs([
   },
   {
     name: "Bitchat",
-    keywords: ["bitchat", "bluetooth mesh", "decentralized messaging", "nostr identity"],
+    keywords: ["bitchat", "bluetooth mesh", "nostr identity"],
     picks: [{ youtube_id: "pcGcu0giDuE", t: 0, label: "Steve Lee introduces Bitchat as a peer-to-peer messaging app using Bluetooth mesh networking, no servers, no accounts, and ephemeral identities, with real-world relevance for privacy and resilience." }], // 0:00
   },
   {
@@ -4510,7 +4510,7 @@ addTopicDefs([
   },
   {
     name: "Bitcoin treasury companies",
-    keywords: ["treasury companies", "btc treasury", "bitcoin treasury saturation", "monthly meetup"],
+    keywords: ["treasury companies", "btc treasury", "bitcoin treasury saturation"],
     picks: [{ youtube_id: "75Q1RRl2GtQ", t: 4733, label: "Bitcoin treasury company saturation becomes a community topic rather than only a market topic. The hosts propose a recurring meetup to track strategies, risks, and global expansion as the category spreads beyond early public-company pioneers." }], // 1:18:53
   },
   {
@@ -4846,7 +4846,7 @@ addTopicDefs([
   },
   {
     name: "Bitchat",
-    keywords: ["bitchat disaster", "mesh chat", "jamaica hurricane", "offline messaging", "white noise"],
+    keywords: ["bitchat disaster", "mesh chat", "jamaica hurricane", "offline messaging"],
     picks: [{ youtube_id: "aVWpAjRIIEM", t: 6324, label: "Bitchat's rise during the Jamaica hurricane is treated as a real-world stress test for offline, mesh-like communication. The hosts connect it to SimpleX, White Noise, and Nostr-adjacent protocols as evidence that resilient messaging matters most when normal infrastructure breaks." }], // 1:45:24
   },
   {
@@ -5407,12 +5407,12 @@ addTopicDefs([
   },
   {
     name: "Strategy selling bitcoin",
-    keywords: ["strategy sell bitcoin", "saylor sell bitcoin", "never sell bitcoin", "selling bitcoin", "mstr sell bitcoin"],
+    keywords: ["strategy sell bitcoin", "saylor sell bitcoin", "never sell bitcoin", "mstr sell bitcoin"],
     picks: [{ youtube_id: "9JL95zG0rQ0", t: 3021, label: "The Strategy discussion revisits Saylor's 'never sell your bitcoin' mantra after comments that Strategy could sell bitcoin if needed. The hosts separate the meme from the corporate-finance reality that collateral, securities issuance, and treasury management create multiple levers." }], // 50:21
   },
   {
     name: "Strategy capital structure",
-    keywords: ["strategy capital structure", "stretch", "strc", "mstr", "preferred shares", "sell bitcoin"],
+    keywords: ["strategy capital structure", "stretch", "strc", "mstr", "preferred shares"],
     picks: [{ youtube_id: "9JL95zG0rQ0", t: 2522, label: "Strategy's capital structure is analyzed through Stretch/STRC, equity issuance, and the possibility of selling bitcoin. The key point is that Strategy is becoming a complex capital-markets machine, not just a company holding spot BTC." }], // 42:02
   },
   {
@@ -5457,7 +5457,7 @@ addTopicDefs([
   },
   {
     name: "Strategy",
-    keywords: ["strategy", "microstrategy", "mstr", "saylor", "strategy bitcoin"],
+    keywords: ["strategy", "microstrategy", "micro strategy", "micr strategy", "mic strategy", "mstr", "saylor", "strategy bitcoin"],
     picks: [{ youtube_id: "qJ2Tk6HoqBA", t: 433, label: "The hosts use the claim that Strategy is 'SBF on steroids' as a stress test. They reject the fraud analogy while taking seriously the separate risks of concentration, leverage, custody opacity, and collateral damage if Strategy ever blew up." }], // 7:13
   },
   {
@@ -5940,7 +5940,7 @@ addTopicDefs([
   },
   {
     name: "Strategy capital structure",
-    keywords: ["strategy capital structure", "mstr", "strc", "stretch", "strife", "dollar reserve"],
+    keywords: ["strategy capital structure", "mstr", "strc", "stretch", "strife"],
     picks: [{ youtube_id: "-M_5aSgNqow", t: 5278, label: "Strategy's capital structure is discussed through preferred securities trading below par, dividend coverage, and the dollar reserve policy that tries to separate cash obligations from bitcoin price swings." }], // 1:27:58
   },
   {

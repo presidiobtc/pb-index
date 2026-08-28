@@ -203,6 +203,10 @@ class ExistingTaxonomyTests(unittest.TestCase):
             ("AI & Agents", "Models & labs"),
         )
         self.assertEqual(
+            topic_map.assignment("Bitchat"),
+            ("Builders & Infrastructure", "Product & distribution"),
+        )
+        self.assertEqual(
             topic_map.assignment("A future unmapped topic"),
             ("Other Maps", "Cross-cutting"),
         )
@@ -218,6 +222,26 @@ class ExistingTaxonomyTests(unittest.TestCase):
         self.assertEqual(audit_topic_map(current_topics, topic_map)["invalid_targets"], [])
         self.assertEqual(registry.audit["accepted_topic_count"], len(current_topics))
         self.assertEqual(registry.audit["topics_without_accepted_aliases"], [])
+        bitchat_aliases = {
+            alias.tokens for alias in registry.aliases if alias.topic_name == "Bitchat"
+        }
+        self.assertNotIn(("white", "noise"), bitchat_aliases)
+        self.assertNotIn(("decentralized", "messaging"), bitchat_aliases)
+        strategy_aliases = {
+            alias.tokens for alias in registry.aliases if alias.topic_name == "Strategy"
+        }
+        self.assertIn(("micro", "strategy"), strategy_aliases)
+        self.assertIn(("micr", "strategy"), strategy_aliases)
+        self.assertIn(("mic", "strategy"), strategy_aliases)
+        accepted_tokens = {alias.tokens for alias in registry.aliases}
+        self.assertNotIn(("monthly", "meetup"), accepted_tokens)
+        self.assertNotIn(("sell", "bitcoin"), accepted_tokens)
+        self.assertNotIn(("selling", "bitcoin"), accepted_tokens)
+        self.assertNotIn(("dollar", "reserve"), accepted_tokens)
+        self.assertNotIn(
+            (("ecash",), "eCash"),
+            {(alias.tokens, alias.topic_name) for alias in registry.aliases},
+        )
 
     def test_topic_map_audit_reports_missing_names_and_invalid_targets(self):
         topic_map = make_topic_map(**{
@@ -334,7 +358,7 @@ class KeywordCensusTests(unittest.TestCase):
         self.assertEqual([row.timestamp for row in mentions], [10, 40])
         self.assertEqual(audit["cooldown_suppressed_count"], 1)
 
-    def test_retrieval_only_phrases_and_all_singletons_are_excluded(self):
+    def test_retrieval_only_phrases_and_unapproved_singletons_are_excluded(self):
         registry = build_keyword_registry([
             make_topic("Core v30", keywords=["bitcoin core", "core version 30"]),
             make_topic("Bark", keywords=["bark"]),
@@ -352,6 +376,123 @@ class KeywordCensusTests(unittest.TestCase):
             registry.audit["excluded_reason_counts"]["single_token_alias"],
             1,
         )
+
+    def test_audited_canonical_singletons_are_counted_with_cooldown(self):
+        registry = build_keyword_registry([
+            make_topic("Goose", keywords=["goose", "block goose"]),
+            make_topic("Buzz", keywords=["buzz", "block buzz"]),
+            make_topic("Bark", keywords=["bark"]),
+        ])
+        aliases = {(alias.tokens, alias.topic_name) for alias in registry.aliases}
+
+        self.assertIn((("goose",), "Goose"), aliases)
+        self.assertIn((("buzz",), "Buzz"), aliases)
+        self.assertNotIn((("bark",), "Bark"), aliases)
+
+        mentions, audit = census_transcript_entries(
+            [
+                (0, "00:00:00", "Goose and Buzz"),
+                (10, "00:00:10", "Goose and Buzz again"),
+                (40, "00:00:40", "Goose and Buzz after the cooldown"),
+                (80, "00:01:20", "There was a publicity buzz"),
+            ],
+            registry,
+        )
+        self.assertEqual(
+            [(row.topic_name, row.timestamp) for row in mentions],
+            [("Goose", 0), ("Buzz", 0), ("Goose", 40), ("Buzz", 40)],
+        )
+        self.assertEqual(audit["cooldown_suppressed_count"], 2)
+        self.assertEqual(audit["context_rejected_count"], 1)
+
+    def test_strategy_singleton_ownership_keeps_specific_phrases_longest(self):
+        registry = build_keyword_registry([
+            make_topic(
+                "Strategy",
+                keywords=["strategy", "microstrategy", "mstr", "strategy bitcoin"],
+            ),
+            make_topic(
+                "Strategy capital structure",
+                keywords=["strategy capital structure", "mstr"],
+            ),
+            make_topic("MSTR earnings", keywords=["mstr earnings"]),
+            make_topic("Michael Saylor", keywords=["michael saylor", "saylor"]),
+        ])
+        aliases = {
+            alias.tokens: (alias.topic_name, alias.owner_method)
+            for alias in registry.aliases
+        }
+
+        self.assertEqual(
+            aliases[("strategy",)],
+            ("Strategy", "contextual_single_token_owner"),
+        )
+        self.assertEqual(
+            aliases[("microstrategy",)],
+            ("Strategy", "audited_single_token_owner"),
+        )
+        self.assertEqual(
+            aliases[("mstr",)],
+            ("Strategy", "audited_single_token_owner"),
+        )
+        self.assertEqual(
+            aliases[("saylor",)],
+            ("Michael Saylor", "audited_single_token_owner"),
+        )
+
+        mentions, _audit = census_transcript_entries(
+            [
+                (0, "00:00:00", "MSTR earnings"),
+                (40, "00:00:40", "MicroStrategy and MSTR"),
+                (80, "00:01:20", "business strategy and Saylor"),
+            ],
+            registry,
+        )
+        self.assertEqual(
+            [(row.topic_name, row.timestamp) for row in mentions],
+            [
+                ("MSTR earnings", 0),
+                ("Strategy", 40),
+                ("Michael Saylor", 80),
+            ],
+        )
+
+    def test_contextual_company_names_reject_generic_strategy_and_protocol_blocks(self):
+        registry = build_keyword_registry([
+            make_topic("Block", keywords=["block", "block layoffs"]),
+            make_topic("Strategy", keywords=["strategy", "strategy bitcoin"]),
+        ])
+        aliases = {
+            alias.tokens: (alias.topic_name, alias.owner_method)
+            for alias in registry.aliases
+        }
+        self.assertEqual(
+            aliases[("block",)],
+            ("Block", "contextual_single_token_owner"),
+        )
+        self.assertEqual(
+            aliases[("strategy",)],
+            ("Strategy", "contextual_single_token_owner"),
+        )
+
+        mentions, audit = census_transcript_entries(
+            [
+                (0, "00:00:00", "Block employees discussed Strategy stock"),
+                (40, "00:00:40", "Cash App usage does not make block space a company"),
+                (80, "00:01:20", "Our business strategy validates each Block"),
+                (120, "00:02:00", "Square and Block reported earnings"),
+            ],
+            registry,
+        )
+        self.assertEqual(
+            [(row.topic_name, row.timestamp) for row in mentions],
+            [
+                ("Block", 0),
+                ("Strategy", 0),
+                ("Block", 120),
+            ],
+        )
+        self.assertGreaterEqual(audit["context_rejected_count"], 3)
 
     def test_registry_and_matches_do_not_depend_on_topic_or_keyword_order(self):
         forward = [

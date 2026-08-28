@@ -133,6 +133,307 @@ GENERIC_SINGLE_TOKEN_ALIASES = frozenset({
     "wallets",
 })
 
+# Proper names are also often written as one token, so a blanket singleton ban
+# hides real transcript coverage (for example Goose, Anthropic, OpenAI, and
+# Lightspark).  Keep singleton matching default-deny, but admit this small set of
+# corpus-audited canonical labels.  An entry only applies when the token is the
+# topic's exact canonical name; ordinary aliases for that topic remain blocked.
+AUDITED_CANONICAL_SINGLE_TOKEN_TOPICS = frozenset({
+    "Alby",
+    "Anchorwatch",
+    "Anthropic",
+    "Bitwise",
+    "Cashu",
+    "Cloudflare",
+    "Codex",
+    "Goose",
+    "L402",
+    "Lightspark",
+    "Miniscript",
+    "OpenAI",
+    "SpaceX",
+    "TaskFuel",
+    "Vora",
+    "Wavelength",
+    "Worldcoin",
+    "XStocks",
+    "XXI",
+    "Zcash",
+})
+
+# A few distinctive company/person tokens are intentionally shared across
+# several hand-authored topic definitions.  Resolve only these audited aliases
+# to their broad canonical subject; the longest-match pass still gives phrases
+# such as "mstr earnings" and "strategy capital structure" to their narrower
+# topics.  Bare "strategy" is handled only by the contextual rule below.
+AUDITED_SINGLE_TOKEN_ALIAS_OWNERS = {
+    "microstrategy": "Strategy",
+    "mstr": "Strategy",
+    "saylor": "Michael Saylor",
+}
+
+# These canonical labels are also ordinary Bitcoin/English vocabulary.  They
+# enter the trie, but a hit is counted only when the surrounding transcript
+# tokens satisfy the conservative company-name grammar below.
+CONTEXTUAL_SINGLE_TOKEN_ALIAS_OWNERS = {
+    "block": "Block",
+    "buzz": "Buzz",
+    "strategy": "Strategy",
+}
+
+BUZZ_NON_PRODUCT_LEFT_TOKENS = frozenset({
+    "google",
+    "industry",
+    "marketing",
+    "matt",
+    "media",
+    "publicity",
+})
+
+STRATEGY_COMPANY_LEFT_TOKENS = frozenset({
+    "bought",
+    "buy",
+    "buys",
+    "held",
+    "hold",
+    "holds",
+    "long",
+    "own",
+    "owned",
+    "owns",
+    "sell",
+    "sells",
+    "short",
+    "sold",
+})
+STRATEGY_COMPANY_LEFT_PHRASES = frozenset({
+    ("ceo", "of"),
+    ("cfo", "of"),
+    ("equity", "in"),
+    ("shares", "of"),
+    ("stock", "in"),
+    ("work", "at"),
+    ("work", "for"),
+    ("works", "at"),
+    ("works", "for"),
+})
+STRATEGY_COMPANY_RIGHT_TOKENS = frozenset({
+    "acquired",
+    "announced",
+    "buys",
+    "company",
+    "dividend",
+    "dividends",
+    "earnings",
+    "equity",
+    "holds",
+    "issued",
+    "issues",
+    "itself",
+    "owns",
+    "preferred",
+    "preferreds",
+    "securities",
+    "sells",
+    "shares",
+    "stock",
+})
+STRATEGY_COMPANY_RIGHT_PHRASES = frozenset({
+    ("capital", "structure"),
+    ("the", "company"),
+})
+STRATEGY_COMPANY_ENTITIES = frozenset({
+    "mstr",
+    "saylor",
+    "strc",
+    "stretch",
+    "strife",
+})
+STRATEGY_GENERIC_LEFT_TOKENS = frozenset({
+    "ai",
+    "bitcoin",
+    "block",
+    "brand",
+    "business",
+    "content",
+    "corporate",
+    "custody",
+    "deployment",
+    "design",
+    "different",
+    "distribution",
+    "energy",
+    "engineering",
+    "exit",
+    "growth",
+    "investment",
+    "its",
+    "legal",
+    "marketing",
+    "mic",
+    "micr",
+    "micro",
+    "mining",
+    "model",
+    "my",
+    "our",
+    "portfolio",
+    "pricing",
+    "privacy",
+    "product",
+    "regulatory",
+    "sales",
+    "same",
+    "saylor",
+    "security",
+    "see",
+    "strategy",
+    "tax",
+    "their",
+    "treasury",
+    "your",
+})
+
+BLOCK_COMPANY_LEFT_PHRASES = frozenset({
+    ("ceo", "of"),
+    ("cfo", "of"),
+    ("company", "like"),
+    ("employee", "at"),
+    ("employee", "of"),
+    ("work", "at"),
+    ("work", "for"),
+    ("worked", "at"),
+    ("worked", "for"),
+    ("works", "at"),
+    ("works", "for"),
+})
+BLOCK_COMPANY_RIGHT_TOKENS = frozenset({
+    "acquired",
+    "announced",
+    "company",
+    "donated",
+    "earnings",
+    "employee",
+    "employees",
+    "employs",
+    "engineer",
+    "engineers",
+    "funded",
+    "headcount",
+    "hired",
+    "launched",
+    "layoffs",
+    "owns",
+    "published",
+    "reported",
+    "shares",
+    "stock",
+    "team",
+    "teams",
+})
+BLOCK_COMPANY_RIGHT_PHRASES = frozenset({
+    ("investor", "day"),
+    ("mining", "division"),
+    ("security", "team"),
+    ("the", "company"),
+})
+BLOCK_COMPANY_BRAND_TOKENS = frozenset({
+    "bitkey",
+    "buzz",
+    "dorsey",
+    "goose",
+    "proto",
+    "spiral",
+    "square",
+    "tbd",
+    "tidal",
+})
+BLOCK_PROTOCOL_LEFT_TOKENS = frozenset({
+    "a",
+    "each",
+    "eight",
+    "eighth",
+    "every",
+    "fifth",
+    "first",
+    "five",
+    "four",
+    "fourth",
+    "genesis",
+    "initial",
+    "invalid",
+    "mine",
+    "mined",
+    "mining",
+    "new",
+    "next",
+    "nine",
+    "ninth",
+    "one",
+    "orphaned",
+    "per",
+    "previous",
+    "second",
+    "seven",
+    "seventh",
+    "six",
+    "sixth",
+    "same",
+    "stale",
+    "ten",
+    "tenth",
+    "third",
+    "three",
+    "two",
+    "valid",
+    "validate",
+    "validated",
+    "verified",
+    "verify",
+})
+BLOCK_PROTOCOL_LEFT_PHRASES = frozenset({
+    ("mine", "a"),
+    ("mining", "a"),
+    ("per", "a"),
+    ("per", "the"),
+    ("transaction", "in"),
+    ("transactions", "in"),
+})
+BLOCK_PROTOCOL_RIGHT_TOKENS = frozenset({
+    "chain",
+    "data",
+    "download",
+    "explorer",
+    "fee",
+    "fees",
+    "hash",
+    "header",
+    "height",
+    "interval",
+    "limit",
+    "eight",
+    "five",
+    "four",
+    "nine",
+    "one",
+    "number",
+    "propagation",
+    "reward",
+    "seven",
+    "six",
+    "size",
+    "sizes",
+    "space",
+    "subsidy",
+    "ten",
+    "template",
+    "time",
+    "timestamp",
+    "three",
+    "two",
+    "weight",
+})
+
 # A handful of multiword search synonyms are useful for retrieval but too broad
 # to stand in for the specific topic that currently owns them.  For example,
 # every mention of "bitcoin core" is not a discussion of Core v30, and every
@@ -444,6 +745,28 @@ def audit_topic_map(topics: Iterable[Mapping], topic_map: TopicMap) -> dict:
     }
 
 
+def _keyword_token_details(value: str) -> tuple[tuple[str, ...], tuple[str, ...]]:
+    """Return aligned normalized tokens and their case-preserving surfaces."""
+
+    text = unicodedata.normalize("NFKC", str(value or ""))
+    # Treat the possessive suffix as grammar rather than part of a proper-name
+    # keyword ("OpenAI's models" should still contain the phrase "OpenAI models").
+    text = re.sub(
+        r"(?<=[^\W_])[’']s\b",
+        "",
+        text,
+        flags=re.IGNORECASE | re.UNICODE,
+    )
+    # In PB's wordmark, an initial bitcoin symbol is a stylized B (₿uilder).
+    text = re.sub(r"₿(?=[^\W_])", "b", text)
+    text = text.replace("₿", " bitcoin ")
+    text = text.replace("+", " plus ")
+    text = text.replace("&", " and ")
+    text = text.replace("%", " percent ")
+    surfaces = tuple(_TOKEN_RE.findall(text))
+    return tuple(token.casefold() for token in surfaces), surfaces
+
+
 def normalized_keyword_tokens(value: str) -> tuple[str, ...]:
     """Normalize a keyword/transcript string into boundary-safe match tokens.
 
@@ -453,32 +776,33 @@ def normalized_keyword_tokens(value: str) -> tuple[str, ...]:
     dangerously generic token ``bitcoin``.
     """
 
-    text = unicodedata.normalize("NFKC", str(value or "")).casefold()
-    # Treat the possessive suffix as grammar rather than part of a proper-name
-    # keyword ("OpenAI's models" should still contain the phrase "OpenAI models").
-    text = re.sub(r"(?<=[^\W_])[’']s\b", "", text, flags=re.UNICODE)
-    # In PB's wordmark, an initial bitcoin symbol is a stylized B (₿uilder).
-    text = re.sub(r"₿(?=[^\W_])", "b", text)
-    text = text.replace("₿", " bitcoin ")
-    text = text.replace("+", " plus ")
-    text = text.replace("&", " and ")
-    text = text.replace("%", " percent ")
-    return tuple(_TOKEN_RE.findall(text))
+    tokens, _surfaces = _keyword_token_details(value)
+    return tokens
 
 
 def _single_token_rejection(
     token: str,
+    owner: str,
+    canonical_tokens: Sequence[str],
     raw_keywords: Sequence[str],
     owner_method: str,
 ) -> str | None:
-    del raw_keywords, owner_method
+    del raw_keywords
+    if owner_method == "contextual_single_token_owner":
+        return None
     if token in GENERIC_SINGLE_TOKEN_ALIASES:
         return "generic_single_token"
+    if owner_method == "audited_single_token_owner":
+        return None
+    if (
+        owner in AUDITED_CANONICAL_SINGLE_TOKEN_TOPICS
+        and tuple(canonical_tokens) == (token,)
+    ):
+        return None
     # There is no reliable automatic distinction between a proper name and an
     # ordinary word in the hand-authored aliases (e.g. Block/block, Base/base,
-    # second, hardware, scale).  Every current topic has at least one multiword
-    # alias, so excluding all singleton aliases is the highest-signal rule and
-    # does not make any definition structurally unmatchable.
+    # second, hardware, scale).  Unreviewed singleton aliases therefore remain
+    # excluded even when they have only one candidate topic.
     return "single_token_alias"
 
 
@@ -533,7 +857,23 @@ def build_keyword_registry(topics: Iterable[Mapping]) -> KeywordRegistry:
             candidates_by_alias[tokens], key=lambda value: (value.casefold(), value)
         )
         exact = [name for name in candidates if topic_name_tokens[name] == tokens]
-        if len(exact) == 1:
+        contextual_owner = (
+            CONTEXTUAL_SINGLE_TOKEN_ALIAS_OWNERS.get(tokens[0])
+            if len(tokens) == 1
+            else None
+        )
+        audited_owner = (
+            AUDITED_SINGLE_TOKEN_ALIAS_OWNERS.get(tokens[0])
+            if len(tokens) == 1
+            else None
+        )
+        if contextual_owner in candidates:
+            owner = contextual_owner
+            owner_method = "contextual_single_token_owner"
+        elif audited_owner in candidates:
+            owner = audited_owner
+            owner_method = "audited_single_token_owner"
+        elif len(exact) == 1:
             owner = exact[0]
             owner_method = "exact_topic_name"
         elif len(candidates) == 1:
@@ -553,7 +893,11 @@ def build_keyword_registry(topics: Iterable[Mapping]) -> KeywordRegistry:
         )
         if len(tokens) == 1:
             rejection = _single_token_rejection(
-                tokens[0], raw_keywords, owner_method
+                tokens[0],
+                owner,
+                topic_name_tokens[owner],
+                raw_keywords,
+                owner_method,
             )
             if rejection:
                 excluded.append({
@@ -619,6 +963,16 @@ def build_keyword_registry(topics: Iterable[Mapping]) -> KeywordRegistry:
         "owner_method_counts": dict(sorted(owner_method_counts.items())),
         "excluded_alias_samples": excluded_samples,
         "generic_single_token_blocklist": sorted(GENERIC_SINGLE_TOKEN_ALIASES),
+        "audited_canonical_single_token_topics": sorted(
+            AUDITED_CANONICAL_SINGLE_TOKEN_TOPICS,
+            key=lambda value: (value.casefold(), value),
+        ),
+        "audited_single_token_alias_owners": dict(
+            sorted(AUDITED_SINGLE_TOKEN_ALIAS_OWNERS.items())
+        ),
+        "contextual_single_token_alias_owners": dict(
+            sorted(CONTEXTUAL_SINGLE_TOKEN_ALIAS_OWNERS.items())
+        ),
         "retrieval_only_phrase_blocklist": sorted(RETRIEVAL_ONLY_PHRASES),
     }
     return KeywordRegistry(
@@ -627,6 +981,212 @@ def build_keyword_registry(topics: Iterable[Mapping]) -> KeywordRegistry:
         max_tokens=max((len(alias.tokens) for alias in aliases), default=0),
         audit=audit,
     )
+
+
+def _context_slice(
+    tokens: Sequence[str],
+    token_times: Sequence[int],
+    target_index: int,
+    relative_start: int,
+    length: int,
+    max_span_seconds: int,
+) -> tuple[str, ...]:
+    start = target_index + relative_start
+    end = start + length
+    if start < 0 or end > len(tokens):
+        return ()
+    target_time = token_times[target_index]
+    if any(
+        abs(token_times[index] - target_time) > max_span_seconds
+        for index in range(start, end)
+    ):
+        return ()
+    return tuple(tokens[start:end])
+
+
+def _nearby_context_tokens(
+    tokens: Sequence[str],
+    token_times: Sequence[int],
+    target_index: int,
+    *,
+    radius: int,
+    max_span_seconds: int,
+) -> set[str]:
+    target_time = token_times[target_index]
+    return {
+        tokens[index]
+        for index in range(
+            max(0, target_index - radius),
+            min(len(tokens), target_index + radius + 1),
+        )
+        if index != target_index
+        and abs(token_times[index] - target_time) <= max_span_seconds
+    }
+
+
+def _nearby_context_has_phrase(
+    tokens: Sequence[str],
+    token_times: Sequence[int],
+    target_index: int,
+    phrase: Sequence[str],
+    *,
+    radius: int,
+    max_span_seconds: int,
+) -> bool:
+    lower = max(0, target_index - radius)
+    upper = min(len(tokens) - len(phrase), target_index + radius) + 1
+    target_time = token_times[target_index]
+    for start in range(lower, upper):
+        end = start + len(phrase)
+        if tuple(tokens[start:end]) != tuple(phrase):
+            continue
+        if all(
+            abs(token_times[index] - target_time) <= max_span_seconds
+            for index in range(start, end)
+        ):
+            return True
+    return False
+
+
+def _strategy_company_context(
+    tokens: Sequence[str],
+    token_surfaces: Sequence[str],
+    token_times: Sequence[int],
+    start: int,
+    max_span_seconds: int,
+) -> bool:
+    left_one = _context_slice(
+        tokens, token_times, start, -1, 1, max_span_seconds
+    )
+    left_two = _context_slice(
+        tokens, token_times, start, -2, 2, max_span_seconds
+    )
+    right_one = _context_slice(
+        tokens, token_times, start, 1, 1, max_span_seconds
+    )
+    right_two = _context_slice(
+        tokens, token_times, start, 1, 2, max_span_seconds
+    )
+
+    # These are ASR-split spellings of MicroStrategy and are owned by the
+    # longer phrase alias rather than by the contextual bare-name fallback.
+    if left_one and left_one[0] in {"mic", "micr", "micro"}:
+        return False
+    if left_one and left_one[0] in STRATEGY_GENERIC_LEFT_TOKENS:
+        return False
+    if left_one and left_one[0] in STRATEGY_COMPANY_LEFT_TOKENS:
+        return True
+    if left_two in STRATEGY_COMPANY_LEFT_PHRASES:
+        return True
+    if right_one and right_one[0] in STRATEGY_COMPANY_RIGHT_TOKENS:
+        return True
+    if right_two in STRATEGY_COMPANY_RIGHT_PHRASES:
+        return True
+    if (
+        len(left_two) == 2
+        and left_two[0] in STRATEGY_COMPANY_ENTITIES
+        and left_two[1] in {"and", "or"}
+    ):
+        return True
+    if (
+        len(right_two) == 2
+        and right_two[0] in {"and", "or"}
+        and right_two[1] in STRATEGY_COMPANY_ENTITIES
+    ):
+        return True
+    return token_surfaces[start] == "Strategy"
+
+
+def _block_company_context(
+    tokens: Sequence[str],
+    token_surfaces: Sequence[str],
+    token_times: Sequence[int],
+    start: int,
+    max_span_seconds: int,
+) -> bool:
+    left_one = _context_slice(
+        tokens, token_times, start, -1, 1, max_span_seconds
+    )
+    left_two = _context_slice(
+        tokens, token_times, start, -2, 2, max_span_seconds
+    )
+    right_one = _context_slice(
+        tokens, token_times, start, 1, 1, max_span_seconds
+    )
+    right_two = _context_slice(
+        tokens, token_times, start, 1, 2, max_span_seconds
+    )
+
+    # Strong company grammar wins even in discussions of Block's mining arm.
+    if left_two in BLOCK_COMPANY_LEFT_PHRASES:
+        return True
+    if right_one and right_one[0] in BLOCK_COMPANY_RIGHT_TOKENS:
+        return True
+    if right_two in BLOCK_COMPANY_RIGHT_PHRASES:
+        return True
+
+    # Protocol grammar must beat capitalization or nearby company brands.
+    if left_one and (
+        left_one[0] in BLOCK_PROTOCOL_LEFT_TOKENS or left_one[0].isdigit()
+    ):
+        return False
+    if left_two in BLOCK_PROTOCOL_LEFT_PHRASES:
+        return False
+    if right_one and (
+        right_one[0] in BLOCK_PROTOCOL_RIGHT_TOKENS or right_one[0].isdigit()
+    ):
+        return False
+
+    if token_surfaces[start] == "Block":
+        return True
+
+    nearby = _nearby_context_tokens(
+        tokens,
+        token_times,
+        start,
+        radius=6,
+        max_span_seconds=max_span_seconds,
+    )
+    if nearby & BLOCK_COMPANY_BRAND_TOKENS:
+        return True
+    return _nearby_context_has_phrase(
+        tokens,
+        token_times,
+        start,
+        ("cash", "app"),
+        radius=6,
+        max_span_seconds=max_span_seconds,
+    )
+
+
+def _contextual_single_token_supported(
+    tokens: Sequence[str],
+    token_surfaces: Sequence[str],
+    token_times: Sequence[int],
+    start: int,
+    alias: KeywordAlias,
+    max_span_seconds: int,
+) -> bool:
+    if alias.topic_name == "Buzz":
+        left_one = _context_slice(
+            tokens, token_times, start, -1, 1, max_span_seconds
+        )
+        left_two = _context_slice(
+            tokens, token_times, start, -2, 2, max_span_seconds
+        )
+        return not (
+            (left_one and left_one[0] in BUZZ_NON_PRODUCT_LEFT_TOKENS)
+            or left_two in {("and", "a"), ("got", "that"), ("have", "that")}
+        )
+    if alias.topic_name == "Strategy":
+        return _strategy_company_context(
+            tokens, token_surfaces, token_times, start, max_span_seconds
+        )
+    if alias.topic_name == "Block":
+        return _block_company_context(
+            tokens, token_surfaces, token_times, start, max_span_seconds
+        )
+    return False
 
 
 def census_transcript_entries(
@@ -642,13 +1202,16 @@ def census_transcript_entries(
         raise ValueError("Keyword census time limits cannot be negative")
 
     tokens = []
+    token_surfaces = []
     token_times = []
     for timestamp, _shown_timestamp, text in entries:
-        entry_tokens = normalized_keyword_tokens(text)
+        entry_tokens, entry_surfaces = _keyword_token_details(text)
         tokens.extend(entry_tokens)
+        token_surfaces.extend(entry_surfaces)
         token_times.extend([int(timestamp)] * len(entry_tokens))
 
     candidates = []
+    context_rejected = 0
     for start in range(len(tokens)):
         node = registry.trie
         stop = min(len(tokens), start + registry.max_tokens)
@@ -660,6 +1223,19 @@ def census_transcript_entries(
                 break
             alias = node.get(_TRIE_TERMINAL)
             if alias is not None:
+                if (
+                    alias.owner_method == "contextual_single_token_owner"
+                    and not _contextual_single_token_supported(
+                        tokens,
+                        token_surfaces,
+                        token_times,
+                        start,
+                        alias,
+                        max_span_seconds,
+                    )
+                ):
+                    context_rejected += 1
+                    continue
                 candidates.append((start, end + 1, alias))
 
     # A longer phrase is stronger evidence than any nested alias.  Equal-length
@@ -707,6 +1283,7 @@ def census_transcript_entries(
         "timestamp_entry_count": len(entries),
         "token_count": len(tokens),
         "candidate_span_count": len(candidates),
+        "context_rejected_count": context_rejected,
         "overlap_suppressed_count": len(candidates) - len(non_overlapping),
         "cooldown_suppressed_count": cooldown_suppressed,
         "counted_mention_count": len(mentions),
@@ -1330,10 +1907,13 @@ def build_topic_stats(
                     "allowing equivalent punctuation, possessives, and phrases split across adjacent "
                     "timestamp entries. A phrase cannot span more than 15 seconds. Shared "
                     "aliases use an exact canonical-topic-name owner when one exists; "
-                    "otherwise unresolved shared aliases are excluded. All single-token "
-                    "aliases and a small audited set of overly broad retrieval-only phrases "
-                    "are excluded. Nested and overlapping matches resolve longest-first, "
-                    "then repeat hits for the same topic within 30 seconds are collapsed."
+                    "otherwise unresolved shared aliases are excluded. Single-token aliases "
+                    "are excluded by default; a small audited proper-name set is accepted, "
+                    "while ambiguous names use local context (including company grammar "
+                    "for Block and Strategy). A small audited set of overly broad retrieval-only "
+                    "phrases is also excluded. Nested and overlapping matches resolve "
+                    "longest-first, then repeat hits for the same topic within 30 seconds "
+                    "are collapsed."
                 ),
                 "coverage_caveat": (
                     "This is an exhaustive census of accepted canonical names and configured "
@@ -1415,6 +1995,7 @@ def build_topic_stats(
                     "timestamp_entry_count",
                     "token_count",
                     "candidate_span_count",
+                    "context_rejected_count",
                     "overlap_suppressed_count",
                     "cooldown_suppressed_count",
                     "counted_mention_count",

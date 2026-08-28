@@ -19,6 +19,11 @@
     "#496d48",
     "#795b3c",
   ];
+  const HEADLINE_COLORS = {
+    bitcoin: "#c96442",
+    ai: "#1f4d2a",
+    other: "#365f7d",
+  };
   const SUBTOPIC_PALETTE = [
     "#365f7d",
     "#c96442",
@@ -303,7 +308,7 @@
         name,
         count,
         share: normalizeShare(item?.share, count, headlineTotal),
-        color: PALETTE[index % PALETTE.length],
+        color: HEADLINE_COLORS[slugify(name)] || PALETTE[index % PALETTE.length],
       };
     });
 
