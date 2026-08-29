@@ -503,6 +503,85 @@ addTopicDefs([
   },
 ]);
 
+// 2026-08-28 PBJ: Nvidia, Core Lightning security, and aluminum-powered data centers.
+addTopicDefs([
+  {
+    name: "PB Media Archive",
+    keywords: ["pbj topic explorer", "topic distribution", "quarterly topic trends", "podcast taxonomy", "transcript topic matches", "pbarchive.ai topics"],
+    picks: [{ youtube_id: "FTTnx3st0AY", t: 40, label: "PBJ demos the Topic Explorer’s transcript-wide category mix, drill-downs, and quarterly trends, then discusses open-sourcing the code for other podcasts. The segment also surfaces live taxonomy gaps—missing Buzz and Goose, and Bitchat’s misclassification—for iterative correction." }], // 0:40
+  },
+  {
+    name: "Particle Radar",
+    keywords: ["particle radar", "podcast transcript search", "radar timestamp search", "ai podcast search", "agent podcast search", "audio discovery"],
+    picks: [{ youtube_id: "FTTnx3st0AY", t: 454, label: "Particle’s Radar indexes podcast transcripts for natural-language search and returns the relevant moment inside long episodes. The hosts compare it with PB Media Archive and argue timestamp-level audio discovery should serve both consumer search and agent tool use." }], // 7:34
+  },
+  {
+    name: "Voya Energy",
+    keywords: ["voya energy", "voya series a", "voya aluminum system", "voya data center backup", "voya seasonal storage"],
+    picks: [{ youtube_id: "FTTnx3st0AY", t: 755, label: "Voya Energy’s Series A introduces an aluminum-based energy system pitched as a quiet, clean replacement for diesel backup generators at data centers. The longer-term ambition is transportable seasonal storage that can make remote solar generation dependable." }], // 12:35
+  },
+  {
+    name: "Metal fuels",
+    keywords: ["metal fuels", "aluminum fuel", "aluminum oxide cycle", "electrochemical reactor", "aluminum re-oxidation", "transportable energy storage"],
+    picks: [{ youtube_id: "FTTnx3st0AY", t: 1000, label: "Metal fuels store energy by separating oxygen from aluminum, then recover electricity as the metal re-oxidizes inside an electrochemical reactor instead of burning. The spent aluminum oxide can be reprocessed, allowing stable pellets to function as rechargeable, transportable fuel." }], // 16:40
+  },
+  {
+    name: "NVIDIA–Hugging Face acquisition",
+    keywords: ["nvidia hugging face acquisition", "nvidia buys hugging face", "hugging face acquisition", "hugging face 12.9 billion", "nvidia model hub"],
+    picks: [{ youtube_id: "FTTnx3st0AY", t: 1405, label: "The hosts assess NVIDIA’s reported $12.9 billion Hugging Face acquisition as an attempt to own the model ecosystem’s central hub. They argue its strongest value is visibility into developer demand and sustaining competitive open models that drive chip sales." }], // 23:25
+  },
+  {
+    name: "Open-source AI",
+    keywords: ["nvidia open models", "hugging face open ecosystem", "open model hub", "open model competition"],
+    picks: [{ youtube_id: "FTTnx3st0AY", t: 1680, label: "Hugging Face is framed as an ecosystem asset whose neutral aggregation should reveal what developers actually want, not steer them toward inferior models. NVIDIA’s hardware economics give it an incentive to keep open models capable, affordable, and broadly available." }], // 28:00
+  },
+  {
+    name: "GrokBot",
+    keywords: ["grokbot", "grok bot", "groqbot", "x research agent", "twitter research agent", "daily research digest"],
+    picks: [{ youtube_id: "FTTnx3st0AY", t: 2145, label: "DK uses GrokBot’s access to X as a continuously running research feed, assigning it creators and AI-video tools to monitor and compare. The hoped-for output is a finite daily briefing that preserves frontier information without requiring endless feed scrolling." }], // 35:45
+  },
+  {
+    name: "Long-horizon agents",
+    keywords: ["codex goal", "goal mode", "long-horizon agents", "long-running agent goals", "autonomous task execution", "deterministic exit condition"],
+    picks: [{ youtube_id: "FTTnx3st0AY", t: 2514, label: "Codex’s `/goal` mode is presented as a way to hand an agent a scoped objective with a deterministic exit condition, letting it plan, test, recover, and continue for hours without interactive prompting until the work finishes or becomes blocked." }], // 41:54
+  },
+  {
+    name: "Agent sandboxing",
+    keywords: ["agent sandboxing", "agent trust boundary", "transitive agent trust", "cloud linux virtual machine", "hosted agents", "prompt injection propagation", "dedicated agent device"],
+    picks: [{ youtube_id: "FTTnx3st0AY", t: 2819, label: "Trusting another person’s agent creates transitive exposure if that agent is compromised through phishing, malware, or prompt injection. The hosts favor cloud Linux virtual machines, sandboxes, or dedicated devices that isolate autonomous tools from personal computers and secrets." }], // 46:59
+  },
+  {
+    name: "Cursor acquisition",
+    keywords: ["cursor acquisition", "elon cursor purchase", "cursor coding data", "end-to-end coding feedback", "recursive model improvement", "twitter data moat"],
+    picks: [{ youtube_id: "FTTnx3st0AY", t: 3189, label: "Comparing Elon’s reported Cursor and Twitter purchases, the hosts argue Cursor’s end-to-end coding feedback is unusually valuable for recursive model improvement, while Twitter’s harder-to-reproduce network supplies distribution and decision-maker data. The disagreement exposes distinct forms of AI defensibility." }], // 53:09
+  },
+  {
+    name: "Core Lightning vulnerabilities",
+    keywords: ["core lightning vulnerabilities", "cln vulnerabilities", "core lightning security release", "cln emergency update", "lightning vulnerability disclosure"],
+    picks: [{ youtube_id: "FTTnx3st0AY", t: 4015, label: "Core Lightning disclosed software vulnerabilities and prepared an emergency release while withholding details about how the bugs were found. The episode treats CLN as a warning that Bitcoin projects need processes for urgent fixes, user communication, and defensive scanning." }], // 1:06:55
+  },
+  {
+    name: "Responsible disclosure",
+    keywords: ["cln disclosure dilemma", "patched binary timing", "security release announcement", "vulnerability alert timing"],
+    picks: [{ youtube_id: "FTTnx3st0AY", t: 4067, label: "CLN’s announcement exposed a disclosure dilemma: warning users before patched binaries are ready focuses attackers on known-vulnerable Bitcoin software, yet delaying notice leaves operators exposed. The hosts argue projects should coordinate messaging, release timing, and mitigation before publishing an alert." }], // 1:07:47
+  },
+  {
+    name: "Reproducible builds",
+    keywords: ["binary-only emergency update", "source code embargo", "cln reproducible build", "binary source verification"],
+    picks: [{ youtube_id: "FTTnx3st0AY", t: 4320, label: "Binary-only emergency updates ask node operators to trust software they cannot compare with public source, weakening Bitcoin’s verification norm. The hosts question whether a two-week source embargo slows attackers once models can inspect old code and reverse-engineer binaries." }], // 1:12:00
+  },
+  {
+    name: "Background compute markets",
+    keywords: ["background compute markets", "sailresearch", "background ai workloads", "depreciated gpus", "intermittent compute", "renewable compute cloud", "cheap token generation"],
+    picks: [{ youtube_id: "FTTnx3st0AY", t: 5016, label: "Long-horizon workloads can be queued for cheap, intermittent execution instead of demanding chips and instant responses. SailResearch’s proposed market would route background jobs onto depreciated GPUs or renewable-powered clouds when capacity is available, trading uptime and latency for lower cost." }], // 1:23:36
+  },
+  {
+    name: "Darkbloom",
+    keywords: ["darkbloom", "dark bloom", "apple silicon inference", "idle mac compute", "decentralized inference cloud", "mac inference network", "dollar compute payments"],
+    picks: [{ youtube_id: "FTTnx3st0AY", t: 5430, label: "Darkbloom lets Mac owners contribute idle Apple Silicon to a decentralized inference cloud and receive dollar payments for serving workloads. The hosts view it as a working, non-tokenized version of the spare-compute marketplace idea, while noting its Eigen Labs origins." }], // 1:30:30
+  },
+]);
+
 
 addTopicDefs([
   {
@@ -5900,7 +5979,7 @@ addTopicDefs([
   },
   {
     name: "SpaceX",
-    keywords: ["spacex", "spacex ai company", "spacex cursor", "spacex ai infrastructure", "cursor acquisition", "grok second at bat"],
+    keywords: ["spacex", "spacex ai company", "spacex cursor", "spacex ai infrastructure", "grok second at bat"],
     picks: [{ youtube_id: "A7BStVZbSoU", t: 2425, label: "SpaceX is framed as an AI infrastructure company after Cursor: launch, Starlink, energy, data-center capacity, and developer distribution could combine into a second attempt at competing with OpenAI and Anthropic." }], // 40:25
   },
   {

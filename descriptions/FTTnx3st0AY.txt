@@ -1,0 +1,19 @@
+0:00 - Opening banter
+0:40 - PBJ Topic Explorer
+7:34 - Particle Radar brings AI search for the world’s podcasts
+12:35 - Voya Energy's new approach to metal fuels for storage
+23:25 - Nvidia doubles down on open-source AI (Hugging Face acquisition)
+35:45 - Using GrokBot for long-horizon research
+41:54 - Giving agents long-running goals
+46:59 - New security risks and attack surfaces from trusting other agents
+53:09 - Is Twitter or Cursor’s data more valuable?
+1:03:50 - AI security investigations are getting harder
+1:06:55 - Core Lightning vulnerabilities and disclosure dilemma
+1:18:35 - How far ahead are frontier AI models?
+1:23:36 - Building a market for cheap, spare compute
+1:30:30 - Darkbloom’s decentralized (Mac) inference network
+
+SHOW NOTES:
+PBJ Topic Explorer: https://pbarchive.ai/topics/
+Voya Energy: https://www.voya.energy/news/voya-energy-unveils-a-new-metal-fuels-energy-system-closes-35-million-series-a
+Darkbloom: https://www.darkbloom.dev/
