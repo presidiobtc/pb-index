@@ -18,6 +18,11 @@
 [functions."ask-preview"]
   included_files = [
     "public/logo.png",
+    "THIRD_PARTY_NOTICES.md",
+    "node_modules/@fontsource/newsreader/LICENSE",
+    "node_modules/@fontsource/inter/LICENSE",
+    "node_modules/satori/LICENSE",
+    "node_modules/@resvg/resvg-js/LICENSE",
     "node_modules/@fontsource/newsreader/files/newsreader-latin-400-normal.woff",
     "node_modules/@fontsource/inter/files/inter-latin-400-normal.woff",
     "node_modules/@fontsource/inter/files/inter-latin-600-normal.woff",

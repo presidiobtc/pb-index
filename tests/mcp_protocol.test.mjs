@@ -70,6 +70,8 @@ test("search_archive returns matching text and structured evidence", async () =>
     arguments: {
       query: "COLDCARD random number vulnerability",
       limit: 2,
+      // Later episodes discuss the same incident; this fixture targets the original.
+      date_to: "2026-08-01",
     },
   });
 

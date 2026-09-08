@@ -1,0 +1,6 @@
+# Optional: needed only to fetch YouTube transcripts, metadata, and descriptions.
+# Static index builders, corpus validation, and Python tests use the standard library.
+# Baselines match the versions used by the existing ingestion scripts.
+youtube-transcript-api>=1.2.2,<2
+# Upstream's default extras include EJS for current YouTube support.
+yt-dlp[default]>=2026.7.4
