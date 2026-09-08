@@ -14,8 +14,13 @@ node_modules/
 .codex/
 
 # Python caches
+.venv/
 __pycache__/
 *.py[cod]
+
+# Local launch production projects and rendered media
+/launch-marketing/
+/launch-video/
 
 # macOS metadata
 .DS_Store

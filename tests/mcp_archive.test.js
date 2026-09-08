@@ -16,6 +16,8 @@ test("search_archive returns bounded timestamped evidence from the deterministic
   const output = searchArchive({
     query: "COLDCARD random number vulnerability",
     limit: 2,
+    // Keep the known ranking fixture stable as follow-up episodes are indexed.
+    date_to: "2026-08-01",
   });
 
   assert.equal(output.result_count, 2);

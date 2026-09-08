@@ -1,0 +1,50 @@
+name: Checks
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: checks-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  test:
+    name: Tests and corpus validation
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Check out source
+        uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6.1.0
+        with:
+          persist-credentials: false
+
+      - name: Set up Node.js
+        uses: actions/setup-node@249970729cb0ef3589644e2896645e5dc5ba9c38 # v6.5.0
+        with:
+          node-version-file: .nvmrc
+          cache: npm
+
+      - name: Set up Python
+        uses: actions/setup-python@ece7cb06caefa5fff74198d8649806c4678c61a1 # v6.3.0
+        with:
+          python-version: '3.13'
+
+      - name: Install JavaScript dependencies
+        run: npm ci
+
+      # All checks use the committed corpus and local fixtures. Ingestion and
+      # the Featured Now build can use external services, so they do not run here.
+      - name: Run JavaScript tests
+        run: npm test
+
+      - name: Run Python tests
+        run: python3 -m unittest discover -s tests -p 'test_*.py'
+
+      - name: Validate the archive corpus without rewriting artifacts
+        run: python3 scripts/validate_search_corpus.py
