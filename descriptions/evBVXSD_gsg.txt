@@ -1,0 +1,14 @@
+0:00 - Special Thursday PBJ
+0:59 - How Blockstream Liquid works and how it was hacked
+6:57 - The strange (extortionate?) “white hat” twist
+10:45 - AI security scanning and Liquid’s 'fix' that made things worse
+12:50 - What the Liquid hack reveals about federations and custody
+20:07 - How Blockstream plans to make Liquid users whole
+26:08 - Open Source AI Summit takeaways
+31:30 - Anthropic and the threat to open-source AI
+39:51 - Open protocols for agents, identity and memory
+43:32 - Vora reveals stunning private, local AI hardware
+
+SHOW NOTES:
+https://opensourceaisummit.org/
+https://vora.io/

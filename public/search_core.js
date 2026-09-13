@@ -85,6 +85,8 @@
     ["21 in 21", "21 in 21"],
     ["qbs", "QBS"],
     ["quantum bitcoin summit", "QBS"],
+    ["open source ai summit", "Open Source AI Summit"],
+    ["open-source ai summit", "Open Source AI Summit"],
     ["built in the presidio", "Built in the Presidio"],
     ["built in presidio", "Built in the Presidio"],
     ["member spotlight", "Member Spotlight"],

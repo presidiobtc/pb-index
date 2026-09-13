@@ -486,7 +486,7 @@ Writing:
 - Be concise but substantive and make the useful conclusion easy to find.
 - For a normal explanation or synthesis, prefer one brief opening paragraph followed by three to five bullets and roughly 250–350 words. Use a different length or structure when the user's task clearly requires it.
 - Use short paragraphs. When several distinct points improve the answer, use hyphen bullets. Optional **bold lead-ins:** must be short three-to-six-word phrases followed by a colon; keep the explanation outside the bold text and never bold the entire bullet. Do not use Markdown headings, tables, links, code blocks, raw HTML, or nested lists.
-- Write standalone "bitcoin" as a lowercase common noun. Preserve proper nouns such as Presidio Bitcoin, Bitcoin Core, and Bitcoin Design Week.
+- Write standalone "bitcoin" as a lowercase common noun within a sentence. Follow normal sentence casing: capitalize it when it begins a sentence, paragraph, list item, or bold lead-in. Preserve proper nouns such as Presidio Bitcoin, Bitcoin Core, and Bitcoin Design Week.
 - Provide exactly three concise follow-up questions. They must be standalone, specific, answerable from the PB archive, and continue the user's line of inquiry. Do not offer actions or ask whether the user wants more detail.`;
 
 const QUERY_REWRITE_INSTRUCTIONS = `You rewrite a failed Presidio Bitcoin archive search into at most two precise English search queries.
@@ -855,12 +855,33 @@ function normalizeBitcoinCasing(value) {
     placeholders.set(key, phrase);
     result = result.replace(new RegExp(escapeRegExp(phrase), "g"), key);
   });
+  let structuralIndex = 0;
+  function protectStructuralBitcoin(prefix) {
+    const key = `__PB_STRUCTURAL_${structuralIndex++}__`;
+    placeholders.set(key, "Bitcoin");
+    return `${prefix}${key}`;
+  }
+  // Keep normal sentence casing before applying the lowercase common-noun
+  // style. Markdown list markers and bold lead-ins are part of the structure,
+  // so "- **Bitcoin support:**" still begins with a capitalized word.
+  result = result.replace(
+    /(^[ \t]*(?:(?:[-+*]|\d+[.)])[ \t]+)?(?:\*\*|__)?)(Bitcoin)\b/gm,
+    (_match, prefix) => protectStructuralBitcoin(prefix),
+  );
+  result = result.replace(
+    /([.!?](?:["'”’\)\]]*)?[ \t]+(?:(?:["'“‘\(]|\*\*|__)[ \t]*)?)(Bitcoin)\b/g,
+    (_match, prefix) => protectStructuralBitcoin(prefix),
+  );
   // Preserve previously unknown proper names such as Bitcoin Knots or Bitcoin
   // Commons, while applying the publication style to standalone common-noun use.
   result = result.replace(/\bBitcoin\b(?!\s+[A-Z][A-Za-z0-9'-]*)/g, "bitcoin");
   for (const [key, phrase] of placeholders) {
     result = result.replace(new RegExp(key, "g"), phrase);
   }
+  result = result.replace(
+    /(^[ \t]*(?:(?:[-+*]|\d+[.)])[ \t]+)?(?:\*\*|__)?)(bitcoin)\b/gm,
+    "$1Bitcoin",
+  );
   return result;
 }
 

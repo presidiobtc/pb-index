@@ -3,6 +3,7 @@
 
 const SERIES_ALL_ORDER = [
   "pbj",
+  "open-source-ai-summit",
   "qbs",
   "21in21",
   "builder",
@@ -38,6 +39,22 @@ const SERIES_DEFS = [
       { kind: "listen", label: "Listen", url: "https://pod.link/1804198027" },
       { kind: "youtube", label: "Clips", url: "https://www.youtube.com/playlist?list=PL8Qx0853DvlNhLn1B3taMk5RRV5Lsy5Xu" },
       { kind: "x", label: "@PresidioPod", url: "https://x.com/PresidioPod" },
+    ],
+  },
+  {
+    id: "open-source-ai-summit",
+    seriesId: "series-open-source-ai-summit",
+    eventId: "open-source-ai-summit",
+    title: "Open Source AI Summit",
+    image: "./open-source-ai-summit.jpg",
+    alt: "Open Source AI Summit",
+    type: "Summit",
+    category: "event",
+    date: "September 10-11, 2026",
+    topicSeries: "Open Source AI Summit",
+    blurb: "A summit bringing together founders, technologists, and policy leaders to explore open models, local inference, agent frameworks, private AI, AI economics and safety, and the right to compute.",
+    links: [
+      { kind: "web", label: "Summit Website", url: "https://opensourceaisummit.org/" },
     ],
   },
   {

@@ -124,9 +124,9 @@ test("count questions distinguish catalog size, mention frequency, and entity ca
     });
     const archiveBody = JSON.parse(archiveResponse.body);
     assert.equal(archiveBody.retrieval_context.aggregate_kind, "indexed_archive_size");
-    assert.equal(archiveBody.retrieval_context.indexed_episode_count, 180);
+    assert.equal(archiveBody.retrieval_context.indexed_episode_count, 182);
     assert.equal(archiveBody.sources.length, 0);
-    assert.match(archiveBody.answer, /180 videos/);
+    assert.match(archiveBody.answer, /182 videos/);
 
     const mentionResponse = await handler({
       httpMethod: "POST",
@@ -399,6 +399,32 @@ test("generated answers must have valid source citations and a strict shape", ()
   }, "test", [SAMPLE_SOURCE, { ...SAMPLE_SOURCE, id: "second-source" }]);
   assert.match(spacedCitations.answer, /\[1\] \[2\] \[1\]/);
   assert.doesNotMatch(spacedCitations.answer, /\[1\]\[2\]/);
+});
+
+test("bitcoin common-noun styling preserves standard sentence and list casing", () => {
+  const generated = _test.normalizeGeneratedAnswer({
+    answer: [
+      "Based on the PB archive, bitcoin can be used for payments. Bitcoin also appears at the start of this sentence [1].",
+      "",
+      "- **Bitcoin support:** The service accepts bitcoin [1].",
+      "- **bitcoin availability:** Another lowercase model response is corrected at the start of a bullet [1].",
+      "",
+      "Presidio Bitcoin and Bitcoin Core retain their proper-name casing [1].",
+    ].join("\n"),
+    suggested_questions: [
+      "Bitcoin adoption in the archive?",
+      "How does bitcoin support agent payments?",
+      "What does Bitcoin Core provide?",
+    ],
+  }, "test", [SAMPLE_SOURCE]);
+
+  assert.match(generated.answer, /archive, bitcoin can/);
+  assert.match(generated.answer, /\. Bitcoin also/);
+  assert.match(generated.answer, /- \*\*Bitcoin support:\*\*/);
+  assert.match(generated.answer, /- \*\*Bitcoin availability:\*\*/);
+  assert.match(generated.answer, /accepts bitcoin/);
+  assert.match(generated.answer, /Presidio Bitcoin and Bitcoin Core/);
+  assert.equal(generated.suggested_questions[0], "Bitcoin adoption in the archive?");
 });
 
 test("OpenAI timeouts and malformed output fail closed", async () => {

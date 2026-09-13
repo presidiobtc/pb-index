@@ -6728,3 +6728,114 @@ addTopicDefs([
     picks: [{ youtube_id: "yN6ho-KQfh8", t: 1261, label: "Ball argues that security and decentralization tools will not win adoption unless they are at least as usable as incumbents and offer benefits users actively want, because resilience alone feels like being told to eat spinach." }], // 21:01
   },
 ]);
+
+// 2026-09-11 PBJ: Liquid security incident and Open Source AI Summit recap.
+addTopicDefs([
+  {
+    name: "Blockstream Liquid",
+    keywords: ["blockstream liquid", "liquid network", "lbtc", "liquid btc", "liquid federation", "federated sidechain"],
+    picks: [{ youtube_id: "evBVXSD_gsg", t: 80, label: "The hosts explain Liquid as a federated bitcoin sidechain: users peg BTC into LBTC, gain confidential transactions and faster settlement, and can move value among Liquid, bitcoin, and Lightning while relying on federation members to operate the system." }], // 1:20
+  },
+  {
+    name: "Blockstream Liquid exploit",
+    keywords: ["liquid exploit", "liquid hack", "lbtc inflation", "liquid vulnerability", "unbacked lbtc", "sideswap withdrawal"],
+    picks: [{ youtube_id: "evBVXSD_gsg", t: 245, label: "The hosts describe an inflation vulnerability that allegedly let an attacker create unbacked LBTC and withdraw bitcoin through SideSwap. They later cover the returned funds, Liquid's restart, Adam Back's one-for-one redemption promise, and the unresolved reserve shortfall." }], // 4:05
+  },
+  {
+    name: "Responsible disclosure",
+    keywords: ["white hat hacker", "liquid white hat", "hacker bounty", "on-chain negotiation"],
+    picks: [{ youtube_id: "evBVXSD_gsg", t: 417, label: "The hosts debate the Liquid attacker's claim to be a white hat after reportedly returning 3,400 BTC and retaining 600 BTC. They distinguish responsible reporting from taking funds and negotiating a reward through public and encrypted OP_RETURN messages." }], // 6:57
+  },
+  {
+    name: "AI security scanning",
+    keywords: ["liquid security scanning", "liquid range proofs", "liquid vulnerability fix", "red team liquid"],
+    picks: [{ youtube_id: "evBVXSD_gsg", t: 645, label: "The hosts recount AI-assisted discovery of an old Liquid vulnerability and say its attempted fix introduced an easier exploit. They flag a dispute over whether a correct fix had already been reported, emphasizing that finding a bug and safely repairing it are separate challenges." }], // 10:45
+  },
+  {
+    name: "Bitcoin custody models",
+    keywords: ["federated custody", "federation security", "federation signers", "liquid functionaries"],
+    picks: [{ youtube_id: "evBVXSD_gsg", t: 770, label: "Liquid prompts the hosts to question what a federation protects against when its signers all run the same software. They distinguish distributed keys from independent code review and consider transparency, accountability, and incentives for the participating companies." }], // 12:50
+  },
+  {
+    name: "Open Source AI Summit",
+    keywords: ["golden gate club", "open source ai summit recap", "open source ai summit takeaways"],
+    picks: [{ youtube_id: "evBVXSD_gsg", t: 1568, label: "The hosts recap the first day of Presidio Bitcoin's Open Source AI Summit at the Golden Gate Club, including Steve Lee's conversation with David Sacks and the mix of builders, policy voices, and open-model advocates gathered for the two-day event." }], // 26:08
+  },
+  {
+    name: "Anthropic",
+    keywords: ["anthropic regulation", "anthropic open source", "anthropic safety debate"],
+    picks: [{ youtube_id: "evBVXSD_gsg", t: 1890, label: "The hosts discuss a former Anthropic employee's public AI-risk warnings and David Sacks's criticism of the resulting media coverage. They worry that the policy response could entrench frontier labs and impose requirements that open-model developers cannot meet." }], // 31:30
+  },
+  {
+    name: "Open agent protocols",
+    keywords: ["open agent protocols", "open protocols", "agent interoperability", "agent communication standards", "open memory protocols"],
+    picks: [{ youtube_id: "evBVXSD_gsg", t: 2391, label: "The summit's open-protocols panel brings together work on agent identity, commerce, communications, and memory. The hosts use Nostr and Buzz as examples of shared infrastructure that can let separately developed agents interact." }], // 39:51
+  },
+  {
+    name: "Model provider lock-in",
+    keywords: ["portable agent memory", "export your memory", "memory portability", "context portability"],
+    picks: [{ youtube_id: "evBVXSD_gsg", t: 2468, label: "The hosts argue that accumulated agent memory and context can become a powerful source of lock-in. They discuss early calls for a common export format that would let users carry that context between AI systems, while acknowledging that they do not yet know the proposal's details." }], // 41:08
+  },
+  {
+    name: "Vora",
+    keywords: ["vora hardware reveal", "vora local ai", "vora secure elements", "vora home ai"],
+    picks: [{ youtube_id: "evBVXSD_gsg", t: 2612, label: "The hosts describe Vora's first hardware reveal: a wood-finished home device intended to run private local agents, with secure elements and attention to prompt-injection defenses. They praise its industrial design and discuss the consumer proposition while disclosing their investment ties." }], // 43:32
+  },
+]);
+
+// 2026-09-11 Open Source AI Summit: Steve Lee in conversation with David Sacks.
+addTopicDefs([
+  {
+    name: "Open-source AI",
+    keywords: ["software freedom", "run our own ai models", "ai sovereignty"],
+    picks: [{ youtube_id: "1iPvM0YCg_E", t: 98, label: "David Sacks frames open-source and open-weight AI as software freedom: the ability to run models on one's own hardware and retain control of personal data. He argues that decentralized access can limit the concentration of power in government and frontier-model providers." }], // 1:38
+  },
+  {
+    name: "AI governance",
+    keywords: ["ai regulatory capture", "open model regulation", "ai regulatory reviews", "ai licensing"],
+    picks: [{ youtube_id: "1iPvM0YCg_E", t: 236, label: "Sacks argues that proposed AI regulation could become a form of regulatory capture, strengthening incumbent labs through approval processes that open-source developers cannot satisfy. He presents this as his interpretation of the incentives behind the current policy push." }], // 3:56
+  },
+  {
+    name: "U.S.–China AI race",
+    keywords: ["international ai pause", "global ai regulation", "china ai agreement"],
+    picks: [{ youtube_id: "1iPvM0YCg_E", t: 695, label: "Steve Lee asks Sacks to steelman the case for international AI restrictions. Sacks doubts China would accept a coordinated pause and argues that unilateral U.S. limits would leave Chinese model development moving ahead, while allowing that narrower agreements might be possible." }], // 11:35
+  },
+  {
+    name: "Open-source AI models",
+    keywords: ["chinese open-weight models", "american open models", "fast follower strategy", "open model economics"],
+    picks: [{ youtube_id: "1iPvM0YCg_E", t: 972, label: "Asked why leading open models come from China, Sacks distinguishes open-weight leadership from overall AI leadership. He attributes the split partly to business incentives: frontier leaders monetize closed access, while followers can attract developers by releasing models openly." }], // 16:12
+  },
+  {
+    name: "AI security",
+    keywords: ["open models cybersecurity", "ai cyber defense", "open source cyber security", "cyber defenders"],
+    picks: [{ youtube_id: "1iPvM0YCg_E", t: 1373, label: "Sacks makes the case for giving cyber defenders access to capable open models. He argues that attackers will obtain useful AI capabilities despite access restrictions, so defenders need broad access to find and patch vulnerabilities first." }], // 22:53
+  },
+  {
+    name: "AI agent payments",
+    keywords: ["sacks agent payments", "agent crypto wallets", "micropayments for ai agents", "crypto payment rails"],
+    picks: [{ youtube_id: "1iPvM0YCg_E", t: 1619, label: "Drawing on his PayPal experience, Sacks contrasts the minimum costs and settlement delays of legacy payments with small crypto transactions. He sees user-directed agents holding bitcoin or stablecoin wallets to pay for services and compute." }], // 26:59
+  },
+  {
+    name: "Open-source AI advocacy",
+    keywords: ["open-source ai advocacy", "open source ai alliance", "open secure ai alliance", "open-source ai coalition", "open ecosystem regulation"],
+    picks: [{ youtube_id: "1iPvM0YCg_E", t: 1790, label: "An audience member asks how open-source AI supporters can organize. Sacks calls for a more coordinated coalition that can engage federal and state policymakers, pointing to Nvidia, Meta, and Microsoft as companies with an interest in a strong open ecosystem." }], // 29:50
+  },
+  {
+    name: "AI business models",
+    keywords: ["enterprise open models", "cost customization control", "open model monetization", "tokens versus revenue"],
+    picks: [
+      { youtube_id: "1iPvM0YCg_E", t: 2103, label: "Responding to Maple AI's Mark Suman, Sacks identifies cost, customization, and control as business opportunities for open-model companies. He expects enterprise demand for data sovereignty and smaller specialized models to create room for services beyond frontier-lab offerings." }, // 35:03
+      { youtube_id: "1iPvM0YCg_E", t: 2211, label: "Asked about incentives for decentralized AI infrastructure, Sacks distinguishes token usage from revenue. He says open models are gaining usage while closed providers capture much of the monetization, and argues that both business ecosystems can grow." }, // 36:51
+    ],
+  },
+  {
+    name: "Anthropic",
+    keywords: ["anthropic ai safety", "anthropic regulation", "anthropic lobbying", "anthropic doomer", "anthropic employee"],
+    picks: [{ youtube_id: "1iPvM0YCg_E", t: 61, label: "Steve Lee opens with an ex-Anthropic employee's extinction-risk warning and the resulting media and political reaction. Sacks argues that this style of AI-safety advocacy can drive regulation that burdens open-source developers and entrenches well-funded labs." }], // 1:01
+  },
+  {
+    name: "NVIDIA–Hugging Face acquisition",
+    keywords: ["nvidia open source ai", "nvidia open models", "nvidia hugging face", "nvidia hardware incentives", "open source cyber alliance"],
+    picks: [{ youtube_id: "1iPvM0YCg_E", t: 1220, label: "Asked which major U.S. companies can support open AI, Sacks points to NVIDIA's Hugging Face acquisition and related investments. He expects durable support because NVIDIA profits from hardware and benefits from an open software ecosystem that prevents frontier labs from controlling chip demand." }], // 20:20
+  },
+]);

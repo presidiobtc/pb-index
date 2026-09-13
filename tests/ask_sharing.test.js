@@ -329,6 +329,25 @@ test("shared answer HTML emits complete Open Graph and X metadata safely", () =>
   assert.equal(bootstrap.share_path, `/ask/shared/${SNAPSHOT_ID}`);
 });
 
+test("shared answer HTML preserves dollar amounts and replacement tokens literally", () => {
+  const template = fs.readFileSync(path.join(ROOT, "public", "ask.html"), "utf8");
+  for (const literal of ["$12.9 billion", "$1", "$&", "$`", "$'", "$$"]) {
+    const snapshot = AskShare.createSnapshot(payload({
+      query: `What about ${literal}?`,
+      answer: `Based on the PB archive, ${literal} is quoted in this source [1].`,
+      sources: [source("video-a", { text: `The reported amount is ${literal}.` })],
+    }), { id: SNAPSHOT_ID });
+    const html = AskShare.renderSnapshotHtml(template, snapshot, { origin: "https://pbarchive.ai" });
+    const bootstrap = html.match(/<script>window\.__PB_ASK_SNAPSHOT__=([\s\S]*?);<\/script>/);
+    assert.ok(bootstrap, `missing hydration for ${literal}`);
+    assert.deepEqual(JSON.parse(bootstrap[1]), AskShare.snapshotForClient(snapshot), literal);
+    const card = AskShare.cardData(snapshot);
+    assert.ok(html.includes(`<title>${AskShare.escapeHtml(card.title)} — Ask PB | PB Media Archive</title>`), literal);
+    assert.ok(html.includes(`<meta name="description" content="${AskShare.escapeHtml(card.teaser)}">`), literal);
+    assert.equal((html.match(/<script\s+src="\.\/search_core\.js"><\/script>/g) || []).length, 1, literal);
+  }
+});
+
 test("snapshot hydration wins over a query URL and never enters the API-running branch", () => {
   const snapshot = AskShare.snapshotForClient(AskShare.createSnapshot(payload(), { id: SNAPSHOT_ID }));
 

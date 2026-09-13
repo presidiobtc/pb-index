@@ -329,9 +329,11 @@ function renderSnapshotHtml(template, snapshot, options = {}) {
   } else {
     html = html.replace(/<head([^>]*)>/i, `<head$1>\n  <base href="/">`);
   }
-  html = html.replace(/<title>[\s\S]*?<\/title>/i, `<title>${escapeHtml(pageTitle)}</title>`);
-  html = html.replace(/<\/head>/i, `${metadata}\n</head>`);
-  html = html.replace(/(<script\s+src=["']\.\/search_core\.js["'][^>]*><\/script>)/i, `${bootstrap}$1`);
+  // Snapshot text can contain dollar amounts or replacement tokens such as
+  // "$1" and "$&". Callbacks keep that content literal in both HTML and JSON.
+  html = html.replace(/<title>[\s\S]*?<\/title>/i, () => `<title>${escapeHtml(pageTitle)}</title>`);
+  html = html.replace(/<\/head>/i, () => `${metadata}\n</head>`);
+  html = html.replace(/<script\s+src=["']\.\/search_core\.js["'][^>]*><\/script>/i, match => `${bootstrap}${match}`);
   return html;
 }
 
