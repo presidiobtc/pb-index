@@ -6839,3 +6839,72 @@ addTopicDefs([
     picks: [{ youtube_id: "1iPvM0YCg_E", t: 1220, label: "Asked which major U.S. companies can support open AI, Sacks points to NVIDIA's Hugging Face acquisition and related investments. He expects durable support because NVIDIA profits from hardware and benefits from an open software ecosystem that prevents frontier labs from controlling chip demand." }], // 20:20
   },
 ]);
+
+// 2026-09-18 PBJ: GrokBot, bitcoin-native agents, and frontier AI pacing.
+addTopicDefs([
+  {
+    name: "Buzz",
+    keywords: ["buzz group chat", "buzz research agents", "shared agent context", "pbj show preparation"],
+    picks: [{ youtube_id: "4b5X88Hc8o4", t: 60, label: "The hosts move their weekly show preparation from Signal to Buzz, preserving a shared group conversation while adding research agents. Keeping news links, discussion, and agent responses together lets automated research contribute directly to their existing collaborative workflow." }],
+  },
+  {
+    name: "GrokBot",
+    keywords: ["grokbot x access", "grokbot buzz integration", "grokbot cli", "twitter link summaries", "weekly research digest"],
+    picks: [{ youtube_id: "4b5X88Hc8o4", t: 106, label: "GrokBot joins the Buzz conversation to read X links that other agents cannot access and summarize the week's discussion. The hosts describe this proprietary data access as a useful entry point that lowers friction for trying its other capabilities." }],
+  },
+  {
+    name: "Agent wallets",
+    keywords: ["coinos agent wallet", "lexe agent wallet", "nostr wallet connect", "self-custodial lightning node", "agent wallet onboarding"],
+    picks: [{ youtube_id: "4b5X88Hc8o4", t: 569, label: "An agent initially chooses Coinos for easy custodial setup and Nostr Wallet Connect, then runs a self-custodial Lexe wallet after prompting. The experiment exposes how upfront funding, integration friction, and connection standards shape which Lightning wallets agents actually adopt." }],
+  },
+  {
+    name: "TaskFuel",
+    keywords: ["alby taskfuel", "l402 x402 mpp", "lightning paid services", "agent email purchase", "stacker news agent"],
+    picks: [{ youtube_id: "4b5X88Hc8o4", t: 660, label: "TaskFuel bridges paid services using L402, X402, and MPP for an agent holding Lightning funds. The hosts describe buying email access and posting to Stacker News, showing how payment interoperability lets an agent acquire resources and begin earning sats." }],
+  },
+  {
+    name: "Mesh-LLM",
+    keywords: ["mesh llm bitcoin payments", "peer-to-peer inference payments", "spare compute marketplace", "direct inference payments", "compute verification"],
+    picks: [{ youtube_id: "4b5X88Hc8o4", t: 1148, label: "Spiral is integrating bitcoin payments into Mesh-LLM so spare computing capacity could serve paying users directly. The hosts argue this could remove developers' inference billing overhead, while stressing that compute verification remains unresolved and contributions are currently voluntary." }],
+  },
+  {
+    name: "Bitcoin vs. stablecoins",
+    keywords: ["bitcoin stablecoin agent payments", "self-custodial usdc wallets", "stablecoin kyc distinction", "permissionless payment rails", "stablecoin freeze risk"],
+    picks: [{ youtube_id: "4b5X88Hc8o4", t: 1402, label: "The hosts challenge the claim that easy agent wallet creation uniquely favors bitcoin, noting that self-custodial stablecoin wallets can also avoid KYC. They distinguish developer onboarding from wallet use and argue bitcoin offers stronger long-term resistance to permission restrictions." }],
+  },
+  {
+    name: "Money services regulation",
+    keywords: ["non-custodial money transmission", "brca developer protections", "clarity act brca", "lightning service provider liability", "spark ark regulation"],
+    picks: [{ youtube_id: "4b5X88Hc8o4", t: 1885, label: "Discussing bitcoin-powered services, the hosts describe uncertainty over money-transmitter treatment even when providers cannot seize funds. They say proposed BRCA protections for Lightning, Spark, and Ark providers were weakened, leaving developers exposed to an unresolved legal gray area." }],
+  },
+  {
+    name: "Nostr identity",
+    keywords: ["nostr public key identity", "accountless agent services", "signed message authentication", "agent signup friction", "public private key pairs"],
+    picks: [{ youtube_id: "4b5X88Hc8o4", t: 2091, label: "The hosts argue that agent-facing services should eliminate account creation and verification wherever possible. Nostr-style public and private key identities let agents authenticate with signed messages, reducing both onboarding friction and centralized chokepoints as agents discover and use services." }],
+  },
+  {
+    name: "Agent sandboxing",
+    keywords: ["remote agent execution", "native client trust boundary", "cloud agent sandbox", "agent local data access", "grokbot computer permissions"],
+    picks: [{ youtube_id: "4b5X88Hc8o4", t: 2287, label: "Running an agent on a remote computer does not automatically isolate the user's laptop when a native client remains installed. The hosts distinguish execution location from software permissions and connected data, warning that an agent's assurances cannot establish isolation." }],
+  },
+  {
+    name: "Agent credential isolation",
+    keywords: ["separate agent vault", "1password agent credentials", "gmail password reset authority", "scoped password access", "agent-owned email"],
+    picks: [{ youtube_id: "4b5X88Hc8o4", t: 2779, label: "Separate password-manager vaults can restrict an agent to selected credentials, but the hosts point out that Gmail access may let it reset passwords outside that scope. They contrast sharing personal accounts with giving agents their own credentials and email." }],
+  },
+  {
+    name: "Two-factor authentication",
+    keywords: ["agent second-factor approval", "1password authenticator codes", "yubikey physical possession", "cloud authenticator secrets", "human authentication approval"],
+    picks: [{ youtube_id: "4b5X88Hc8o4", t: 2857, label: "Agents encounter an approval barrier when accounts require a second factor. The hosts warn that storing passwords and authentication codes together creates a single point of failure, and question how agents could preserve the independence of a physical authenticator." }],
+  },
+  {
+    name: "AI agent liability",
+    keywords: ["runaway agent liability", "agent operator responsibility", "ai vendor negligence", "autonomous subgoal harms", "ai product safety incentives"],
+    picks: [{ youtube_id: "4b5X88Hc8o4", t: 3949, label: "The hosts ask who bears responsibility when a benign instruction produces harmful agent behavior: the operator, software vendor, or hosting provider. They debate whether liability and customer trust adequately incentivize safety when competitive pressure pushes companies to ship quickly." }],
+  },
+  {
+    name: "AI governance",
+    keywords: ["ai regulatory capture", "frontier lab regulation", "metr watchdog proposals", "ai regulation lag", "transparent model evaluation"],
+    picks: [{ youtube_id: "4b5X88Hc8o4", t: 4587, label: "The hosts question whether regulation can keep pace with frontier AI and whether lab-backed watchdogs would entrench incumbents. They debate technical expertise, independent oversight, and broader model access as alternatives, without settling on a specific regulatory framework." }],
+  },
+]);

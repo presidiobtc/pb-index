@@ -6,6 +6,7 @@ const test = require("node:test");
 
 const ROOT = path.join(__dirname, "..");
 const INGESTED_VIDEO_IDS = [
+  "4b5X88Hc8o4",
   "evBVXSD_gsg",
   "1iPvM0YCg_E",
   "FTTnx3st0AY",
@@ -49,9 +50,9 @@ test("source files, curated timestamps, and generated search coverage validate",
   const result = validation();
   assert.equal(result.ok, true);
   assert.deepEqual(result.errors, []);
-  assert.equal(result.stats.catalog_videos, 182);
+  assert.equal(result.stats.catalog_videos, 183);
   assert.equal(result.stats.transcripts_with_entries, result.stats.catalog_videos);
-  assert.equal(result.stats.canonical_topics, 879);
+  assert.equal(result.stats.canonical_topics, 881);
   assert.ok(result.stats.video_topic_picks > result.stats.canonical_topics);
   assert.ok(result.stats.report_topic_picks > 0);
   assert.ok(result.stats.generated_chunks > result.stats.catalog_videos);
@@ -80,6 +81,32 @@ test("new videos have saved transcript, description, and topic coverage", () => 
       videoChunks.some(chunk => chunk.type === "topic" && chunk.topics?.length),
       `${youtubeId} has no named topic coverage in public/search_chunks.json`,
     );
+  }
+});
+
+test("September 18 PBJ preserves the full transcript, chapters, and curated explanations", () => {
+  const youtubeId = "4b5X88Hc8o4";
+  const entries = readPublicJson("index.json").filter(entry => entry.youtube_id === youtubeId);
+  const raw = fs.readFileSync(path.join(ROOT, "transcripts_raw", `${youtubeId}.txt`), "utf8");
+  const lines = raw.trim().split("\n");
+  assert.equal(lines.length, 3168);
+  assert.equal(entries.length, lines.length);
+  assert.deepEqual(entries.map(entry => `[${entry.ts}] ${entry.text}`), lines);
+  assert.equal(entries[0].t, 2);
+  assert.equal(entries.at(-1).t, 5890);
+  assert.ok(entries.every(entry => entry.published_date === "2026-09-18" && entry.series === "PBJ"));
+
+  const description = fs.readFileSync(path.join(ROOT, "descriptions", `${youtubeId}.txt`), "utf8");
+  assert.equal(description.match(/^\d+:\d+(?::\d+)? - /gm).length, 14);
+  assert.match(description, /https:\/\/meshllm\.cloud\//);
+  const chunks = readPublicJson("search_chunks.json").filter(chunk => chunk.youtube_id === youtubeId);
+  assert.equal(chunks.find(chunk => chunk.type === "description").text, description.trim().replace(/\s+/g, " "));
+  assert.equal(chunks.filter(chunk => chunk.type === "transcript").at(-1).end_t, 5890);
+  const picks = chunks.filter(chunk => chunk.type === "topic");
+  assert.equal(picks.length, 13);
+  for (const pick of picks) {
+    const words = pick.text.trim().split(/\s+/).length;
+    assert.ok(words >= 33 && words <= 40, `${pick.topics[0]} has ${words} words`);
   }
 });
 

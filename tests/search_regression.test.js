@@ -234,7 +234,7 @@ test("standalone curated topics stay protected while explicit series intent wins
 
 test("every canonical topic name returns that exact topic at rank one", () => {
   const topics = [...new Set(chunks.flatMap(chunk => chunk.topics || []))];
-  assert.equal(topics.length, 879, "topic count changed; review the exhaustive exact-topic guard");
+  assert.equal(topics.length, 881, "topic count changed; review the exhaustive exact-topic guard");
   for (const topic of topics) {
     const source = firstFor(topic);
     const sourceTopics = (source?.topics || []).map(SearchCore.normalizeForMatch);
@@ -288,6 +288,25 @@ test("episode scoring rewards concept coverage rather than repetition", () => {
   const result = SearchCore.retrieve(synthetic, "Which PBJ episode surveyed and analyzed custody wallet options?", 3);
   assert.equal(result[0]?.youtube_id, "coverage");
   assert.ok(result.every(source => source.series === "PBJ"));
+});
+
+test("September 18 agent topics resolve to their specific episode and mechanism", () => {
+  const youtubeId = "4b5X88Hc8o4";
+  const queries = [
+    ["Mesh-LLM bitcoin payments after 2026-09-17", "Mesh-LLM", 1148],
+    ["Gmail password reset agent vault after 2026-09-17", "Agent credential isolation", 2779],
+    ["Two-factor authentication", "Two-factor authentication", 2857],
+    ["AI agent liability", "AI agent liability", 3949],
+  ];
+  for (const [query, topic, timestamp] of queries) {
+    const result = firstFor(query);
+    assert.equal(result.youtube_id, youtubeId, query);
+    assert.ok(result.topics.includes(topic), query);
+    assert.equal(result.t, timestamp, query);
+  }
+  const summary = SearchCore.retrieve(chunks, `Summarize https://www.youtube.com/watch?v=${youtubeId}`, 10);
+  assert.ok(summary.length >= 3);
+  assert.ok(summary.every(source => source.youtube_id === youtubeId));
 });
 
 test("server and browser use the same shared retrieval implementation", async () => {

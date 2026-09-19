@@ -1,0 +1,17 @@
+0:00 - How Buzz and GrokBot changed PBJ show prep
+9:15 - Building a bitcoin-native agent with GrokBot
+17:16 - Why agents will need bitcoin
+19:08 - Integrating bitcoin payments into Mesh LLM
+23:22 - Bitcoin vs stablecoins for agent payments (bitcoin's edge)
+34:52 - Designing online services for agents
+37:44 - Using GrokBot: building, personal assistant, convenience and security tradeoffs
+43:39 - Passwords, 2FA and credentials for agents
+56:55 - Why AI needs a new peer-to-peer internet
+1:02:16 - Defining AGI, ASI and autonomous agency
+1:05:50 - Who is liable for runaway agents?
+1:16:28 - Can regulation keep up with frontier AI?
+1:25:43 - AI hacking and the questions of agency and autonomy
+1:31:01 - Spiral’s open-source AI film and interactive media ideas
+
+SHOW NOTES:
+https://meshllm.cloud/

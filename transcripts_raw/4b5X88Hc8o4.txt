@@ -1,0 +1,3168 @@
+[00:00:02] All right, welcome to the September 18th
+[00:00:04] edition of the Presidio Bitcoin Jam.
+[00:00:07] >> Back to our regular schedule. Yeah,
+[00:00:08] you're still in studio.
+[00:00:09] >> Everybody's healthy. I'm in studio.
+[00:00:11] Yeah,
+[00:00:11] >> fun to see you guys. If I if I were
+[00:00:12] sick, I'd rather be not be in studio,
+[00:00:14] but [laughter]
+[00:00:15] >> we're all good.
+[00:00:15] >> Yeah. Also glad you're not sick.
+[00:00:17] >> Yeah, I think I think I'm the healthiest
+[00:00:19] among the three of us. You all have
+[00:00:21] ailments dragging along with me,
+[00:00:22] >> all kinds of things. Although I'm doing
+[00:00:23] I've been doing a little bit better
+[00:00:24] recently, so that's good.
+[00:00:26] >> I'm doing good in the moment. So,
+[00:00:28] >> yeah. Um,
+[00:00:29] >> so we're going to take our off camerara
+[00:00:31] uh conversation actually.
+[00:00:32] >> Well, I just wanted so just so the
+[00:00:34] audience knows we we have had
+[00:00:36] >> like our process during the week is
+[00:00:38] we've had a group signal chat.
+[00:00:40] >> Y
+[00:00:41] >> which we had long before the show too
+[00:00:43] and we just share news information that
+[00:00:45] we it interested us and we'd have
+[00:00:47] discussion and
+[00:00:48] >> um so it makes for a lightweight process
+[00:00:51] to prepare for the show. Basically no
+[00:00:53] extra time, right? We were doing that
+[00:00:55] anyway. So there's no extra time and
+[00:00:56] then we sort of just know like oh
+[00:00:58] >> here's the topics we're going to talk
+[00:00:59] about.
+[00:01:00] >> Um and so we've used we've been using a
+[00:01:03] signal group um but recently switched to
+[00:01:05] buzz
+[00:01:06] >> um which gives the same group chat
+[00:01:09] dynamics um but we can also add AI
+[00:01:13] agents to go research information and
+[00:01:15] help add to the conversation ahead of
+[00:01:17] time and it's super lightweight as well.
+[00:01:19] >> Yeah. Uh, so one I think we're um
+[00:01:25] only capitalizing on that like 1%.
+[00:01:27] >> Oh yeah, there's a lot.
+[00:01:28] >> Like I think I'm the only person that's
+[00:01:29] invoked agent in there. So we could I
+[00:01:31] could do better. You guys could do
+[00:01:33] better. So we can do better there. But
+[00:01:34] >> what I found was interesting.
+[00:01:37] >> We need push notice without push notice.
+[00:01:39] I know.
+[00:01:40] >> Well, there's feature request.
+[00:01:41] >> There needs to be push notifications.
+[00:01:43] But anyway,
+[00:01:43] >> we're dog fooding. We're dog. Um but
+[00:01:46] what I did this week, so I noticed that
+[00:01:47] uh often we share X links like Twitter
+[00:01:51] links and um uh AI can't read them. Elon
+[00:01:57] turned them off, right? [laughter]
+[00:01:58] >> Yeah, exactly.
+[00:01:59] >> Elon turned them off.
+[00:02:00] >> But which one did Elon turn on? And
+[00:02:02] that's Grock, right? So I
+[00:02:05] [clears throat]
+[00:02:06] [laughter]
+[00:02:06] >> So I installed uh Grockbot, added as a
+[00:02:09] agent in Buzz. How did you do that?
+[00:02:12] >> Super slick. Well, like what's the
+[00:02:14] point?
+[00:02:14] >> How do you not do it? I mean, I mean,
+[00:02:16] it's like exactly what you'd expect.
+[00:02:17] >> Okay, but but like when you add an agent
+[00:02:19] and buzz, I looked very briefly at this.
+[00:02:20] We're gonna talk more about Grockbot,
+[00:02:21] which is blown my mind, but um I guess
+[00:02:23] the options were addex, add Claude, and
+[00:02:27] add Goose.
+[00:02:28] >> Yep. But you you have to install um
+[00:02:30] Grockbot.
+[00:02:31] >> I've got that CLI.
+[00:02:32] >> Okay. Oh,
+[00:02:34] >> okay.
+[00:02:34] >> It's oneline command.
+[00:02:35] >> Yeah.
+[00:02:37] >> And just ask AI gave me the command. I
+[00:02:39] yoloed.
+[00:02:39] >> Well, we should talk more about that. I
+[00:02:40] just had grock bot versus just using
+[00:02:42] grock like grock cli or like the builder
+[00:02:44] or something.
+[00:02:45] >> Yeah, I mean another option I could use
+[00:02:46] goose agent and then grock through that.
+[00:02:49] >> But is there is there a a part of the
+[00:02:51] use case in your mind that grockbot
+[00:02:53] actually does better than the previous
+[00:02:56] like using goose agent or something?
+[00:02:59] >> I don't know. I just my what I wanted to
+[00:03:01] do was actually be able to read the
+[00:03:03] xlink so I could generate summaries. I
+[00:03:06] also was interested in trying Grockbot
+[00:03:08] so it just was natural to
+[00:03:10] >> do a I mean it literally was a oneline
+[00:03:12] command to install it like I I got this
+[00:03:14] set up in like seconds.
+[00:03:16] >> Okay. So I I I have a feature request or
+[00:03:17] maybe it's a clarification but I played
+[00:03:19] with Grockbot as well have a lot of
+[00:03:21] thoughts. It was like absolutely
+[00:03:22] mind-blowing experience. The reason
+[00:03:24] though that I felt and maybe I still
+[00:03:25] shouldn't but the reason I felt more
+[00:03:26] comfortable with Grockbot is immediately
+[00:03:28] you get it like it has its own computer
+[00:03:30] too. So it's got like a Linux computer
+[00:03:32] somewhere in the cloud that is not my
+[00:03:33] computer. I went through, you know, many
+[00:03:35] iterations to make sure, many tests that
+[00:03:37] it couldn't touch my computer.
+[00:03:38] >> But it's running software on your
+[00:03:40] >> Well, it's running software on the
+[00:03:41] computer, right? So, it's, you know,
+[00:03:42] >> it's like an open claw like thing on
+[00:03:44] your own server, right?
+[00:03:45] >> But but but in critically, I mean, it
+[00:03:47] could be
+[00:03:47] >> But it's running on your laptop.
+[00:03:48] >> Well, so the agent itself is running on
+[00:03:50] its own computer. Yes. But
+[00:03:51] >> native software running in your laptop.
+[00:03:53] >> Correct. And so I I understand that can
+[00:03:55] trick and have it do things, right?
+[00:03:57] >> I understand. I understand that it's
+[00:03:58] still not totally safe, but in theory,
+[00:04:01] it's running. And so it says running on
+[00:04:03] its own Linux server.
+[00:04:04] >> Well, one one thing that I don't know
+[00:04:07] the answer to, maybe you do, but like
+[00:04:08] the um what's its security posture with
+[00:04:12] respect to access to the local computer?
+[00:04:15] >> Yeah. So you mean you can toggle
+[00:04:17] different settings and say like
+[00:04:18] >> it's default off.
+[00:04:19] >> I don't know if it's default off or not.
+[00:04:21] I set it to all the way off. I don't I
+[00:04:23] don't remember if it came that way. I
+[00:04:24] don't think it did come that way.
+[00:04:25] >> Matt saying Grock build.
+[00:04:28] >> Yeah. I'm not sure, but I I specifically
+[00:04:29] went through the settings and asked it
+[00:04:31] and you know try and do things on the
+[00:04:32] computer. Anyways, my point is what I
+[00:04:34] would love to be able to do is add that
+[00:04:36] to Goose. So Matt or if someone else can
+[00:04:38] tell me how to do that, I'd be
+[00:04:39] interested in in doing that next.
+[00:04:41] >> Yeah.
+[00:04:42] >> Um so just to wrap up what I my my point
+[00:04:45] though, I think this so it already adds
+[00:04:48] value. I don't know if you guys saw the
+[00:04:49] summaries, but I just said like basic
+[00:04:52] like [clears throat] my previous process
+[00:04:53] would be I'd look at a week's worth of
+[00:04:55] signal messages
+[00:04:57] >> on either Thursday night or Friday
+[00:04:58] morning to figure out like, okay, here's
+[00:05:00] what I think the topics of interest are
+[00:05:03] and which ones we should tweet about and
+[00:05:04] stuff and then I'd post and then
+[00:05:06] sometimes you guys would chime in. Now I
+[00:05:08] can just ask it to summarize and because
+[00:05:11] it can actually read the Xlinks, it does
+[00:05:13] a much more thorough job. Yeah. Um, so
+[00:05:16] that's so that's like a a win. It gives
+[00:05:18] me a clear reason to use Grock. Um, and
+[00:05:22] and we I think we've talked about this
+[00:05:24] in a past show too, like how much value
+[00:05:27] the Twitter data was for Elon in this.
+[00:05:29] And
+[00:05:31] >> I if I recall correctly, I I thought it
+[00:05:34] was maybe more valuable than you guys
+[00:05:36] thought. But
+[00:05:37] >> u maybe in addition to that, like it's
+[00:05:39] not if that is the hook to get me to
+[00:05:42] install it and use it. It just uh
+[00:05:45] reduces the the friction from me using
+[00:05:47] it for other use cases too. Totally
+[00:05:49] right. So I think it's I think it's a
+[00:05:50] big win.
+[00:05:51] >> Yeah.
+[00:05:51] >> For them.
+[00:05:51] >> And if I recall, I mean at least my
+[00:05:53] position was I think the uh cursor data
+[00:05:55] the coding data was more valuable. But I
+[00:05:57] think that he's I mean it's what did he
+[00:05:59] pay for $40 billion or something still?
+[00:06:01] No, no, no. For for X.
+[00:06:03] >> Oh yeah, something like 43.
+[00:06:05] >> It's still going to look like an
+[00:06:06] absolute steal in the long run. Both for
+[00:06:08] the data and to your point the
+[00:06:09] distribution
+[00:06:10] >> and inflation.
+[00:06:11] >> Yeah. And [laughter] inflation.
+[00:06:13] in $223.
+[00:06:15] >> Yeah, exactly.
+[00:06:16] >> Um,
+[00:06:19] >> yeah.
+[00:06:19] >> Yeah. Sweet. All right. Well, I want to
+[00:06:21] talk about my experience with Grock
+[00:06:22] because while we're on Grock, I have to
+[00:06:24] say, um,
+[00:06:26] >> you know, I still, by the way, am
+[00:06:28] planning to Whoa, we got a little extra
+[00:06:30] sun. I don't know if we can turn that
+[00:06:32] back down a tiny bit. Feel like
+[00:06:33] >> Oh, we're popping now.
+[00:06:35] >> You want to be that bright? Oh,
+[00:06:37] >> I know. So, some of us
+[00:06:39] Scandinavian blood. I know. Exactly.
+[00:06:41] [laughter]
+[00:06:42] Leaving the house. What's that?
+[00:06:44] >> Um, so my experience was was
+[00:06:46] mind-blowing. So, first of all, I have
+[00:06:47] to say, you know, I've had FOMO about
+[00:06:49] playing with bots and or playing with
+[00:06:51] coding agents for some time. Obviously,
+[00:06:52] you guys remember you guys uh gave me a
+[00:06:55] hard time, but I refused to install the
+[00:06:57] C [laughter]
+[00:06:58] install cloud code on my computer. Well,
+[00:07:00] anyways, this week I have to say the
+[00:07:02] last like big piece of FO and I still
+[00:07:03] plan to buy my own computer. I can't
+[00:07:04] wait for Vora, but until Vora comes out,
+[00:07:06] I'll probably settle on a new Mac. I'm
+[00:07:08] open to some recommendations about like
+[00:07:10] how much RAM I really need. It always
+[00:07:12] feels like you need to go 256 or more.
+[00:07:13] But I don't know. Um
+[00:07:14] >> are you going to run local models?
+[00:07:16] >> Potentially. Potentially. But I mean
+[00:07:18] that's more aspirational. So it's like
+[00:07:19] is it really worth waiting for that and
+[00:07:20] paying that much?
+[00:07:22] >> Mac Studio.
+[00:07:23] >> $50,000 [laughter] Mac Studio. Um
+[00:07:24] >> today, right? If you ordered it, it
+[00:07:26] ships today.
+[00:07:27] >> Does it really?
+[00:07:28] >> Or it arrives today? I think today.
+[00:07:29] >> Well, I looked at some and they said
+[00:07:30] they don't ship now for another month.
+[00:07:32] So it might already Yeah, you got to
+[00:07:34] order it. Anyways, regardless,
+[00:07:36] >> I finally got enough FOMO because I saw
+[00:07:38] Anelie playing with um is
+[00:07:40] [clears throat] it Muse Spark, the metal
+[00:07:42] one, and it I have to say, watching her
+[00:07:44] play with it to do things like looking
+[00:07:45] for, you know, whatever like listings
+[00:07:47] online, all the stuff, it was so fast,
+[00:07:49] so smooth, so amazing. I was like, "All
+[00:07:51] right, this is this is this is
+[00:07:53] excellent." And so I started reading a
+[00:07:54] little bit about it and both apparently
+[00:07:55] MuseSpark and Grockbot their sort of
+[00:07:58] killer feature app is what I've you know
+[00:08:00] sort of been requesting for a while now
+[00:08:01] which is don't want to run this on my
+[00:08:03] computer even though yes I do have to
+[00:08:04] run local software to communicate with
+[00:08:05] it but I want it to spin up its own
+[00:08:08] computer that it uses for everything
+[00:08:10] >> from like from the jump like I don't
+[00:08:11] want to have to set that up. That needs
+[00:08:12] to be a feature and my understanding is
+[00:08:14] both of these that's what they do. Um
+[00:08:16] now obviously there's still some risk
+[00:08:18] you know running any software on your
+[00:08:19] phone or computer. So I decided I'm
+[00:08:20] certainly not going the meta route. Um,
+[00:08:22] I uh even though I I appreciate Mark
+[00:08:24] Zuckerberg becoming more open over the
+[00:08:26] years, still not going down that route.
+[00:08:28] Fool me once, you know, fool me like 25
+[00:08:30] times. Um, and you could argue maybe
+[00:08:33] Elon's on a lot better, but Grockbots's
+[00:08:35] where where I landed. Um, one because
+[00:08:37] >> to be clear, Grockbot uploaded
+[00:08:39] everyone's data from their computers to
+[00:08:41] the cloud or [clears throat] some
+[00:08:42] substantial amount of data.
+[00:08:43] >> It has more recent more substantial
+[00:08:45] violations of user privacy, but
+[00:08:47] >> it's not great. But, you know, I had to
+[00:08:48] pick one of the two. I went with Grogbot
+[00:08:50] also because I want to be able to access
+[00:08:51] all the Twitter data and do summaries
+[00:08:53] and things like that
+[00:08:53] >> and not Instinct.
+[00:08:54] >> Uh I haven't even tried Instinct yet. I
+[00:08:57] don't know. Anyways, [clears throat] a
+[00:08:58] lot of things to play with. Yeah.
+[00:08:59] >> But I have to say my mind was just blown
+[00:09:02] by how far we've come even since we were
+[00:09:06] doing all the vibe coding with Replet
+[00:09:07] and with Nick's thing with Orybot and
+[00:09:09] all this stuff. Um and what really
+[00:09:12] clicked for me, I mean there's a bunch
+[00:09:13] of things that clicked, but you know my
+[00:09:15] so my initial conversation with this and
+[00:09:16] I shared this with a bunch of the
+[00:09:17] founders. There's others I still need to
+[00:09:18] share this with, but my conversation
+[00:09:20] logs, I was like, let's see how far
+[00:09:21] we've come with the tooling that we've
+[00:09:23] got to be able to build services that
+[00:09:25] use things like Bitcoin and Auster.
+[00:09:26] Great. And I mean, it was unbelievable.
+[00:09:29] So, my first thing to the to to the uh
+[00:09:32] bot was, okay, set up your own Lightning
+[00:09:33] wallet. Great. It was fascinating to
+[00:09:36] watch it go and like search through all
+[00:09:38] the different wallets out there and make
+[00:09:39] a choice. I ended up then doing some
+[00:09:41] more like prompting later to send, you
+[00:09:43] know, a bunch of entrepreneurs about how
+[00:09:44] it how it decided on that. Um the TLDDR
+[00:09:47] is uh after going through all kinds of
+[00:09:49] different uh wallets ended up with
+[00:09:51] CoinOS and Coin OS. The reason it did
+[00:09:54] that is because they're custodial. They
+[00:09:55] still have Nostra Wallet Connect as
+[00:09:57] well. I think there's two big reasons.
+[00:09:58] Uh one is it has the Nostra Wallet
+[00:09:59] Connect so it can like go to all those
+[00:10:01] apps that are already in that ecosystem.
+[00:10:02] And then two because it's custodial.
+[00:10:04] It's and there's like no KYC and all
+[00:10:06] this stuff which is I believe a bit of a
+[00:10:07] yolo. Um but it works and so it's just
+[00:10:09] super easy for an agent to spin one up
+[00:10:11] on its own. So then I went back through
+[00:10:12] and I was like okay well like show me
+[00:10:13] all the different ones you evaluated.
+[00:10:14] evaluated Albi and said, "This is great,
+[00:10:16] but you have to, you know, obviously
+[00:10:17] like uh pay and get this up and running
+[00:10:19] first. I don't have any money." And
+[00:10:20] like, you know, that's that's a
+[00:10:22] non-starter. Um, and went through a
+[00:10:24] bunch of others. I think it was going to
+[00:10:25] set up, you know, if it couldn't figure
+[00:10:26] it out and bit server on its own and
+[00:10:28] build a tunnel, all this complicated
+[00:10:29] stuff. And then I was like, "All right,
+[00:10:30] we'll try Lexi because I know Lexi is
+[00:10:32] self-custodial and that's their whole
+[00:10:33] deal is you can spin up, you know,
+[00:10:34] within a secure enclave lightning node
+[00:10:36] that's always on super fast." Um, and it
+[00:10:38] took a little bit of like fudging
+[00:10:40] around, but once it did, I was like,
+[00:10:41] "Oh, this is amazing." And so that made
+[00:10:43] me incredibly bullish on the Lexi guys.
+[00:10:45] And I shared all this with them. Um
+[00:10:47] because I think with just a few minor
+[00:10:48] tweaks and also adding NWC so it can
+[00:10:50] access all these apps. Although I even
+[00:10:52] had Grock build its own NWC bridge which
+[00:10:54] was crazy in real time. Um you know it
+[00:10:57] was able to spin up its own wallet
+[00:10:58] self-custodial and start paying for
+[00:11:00] services. Then I was able to say okay
+[00:11:03] what can we do with this? So then I
+[00:11:04] pointed it to Alb's new product task.ai
+[00:11:06] AI and there's already 2,000 different
+[00:11:08] services which speak one of the 402s,
+[00:11:09] L42, X42, MPPP and they bridge all of
+[00:11:12] those. So if you've got Bitcoin or
+[00:11:13] you've got a lightning wallet, you can
+[00:11:14] speak to all of those services. Um so
+[00:11:16] through that we bought uh actually I
+[00:11:18] pointed it to Nick's thing on
+[00:11:19] human.domains. We started buying
+[00:11:21] domains. Um I okay I then said okay
+[00:11:23] we're going to go to Stacker News and
+[00:11:24] I'm going to start posting really high
+[00:11:26] quality content that I want on Stacker
+[00:11:27] and it honestly it was super super sick.
+[00:11:30] So, I was like, "All right, you're gonna
+[00:11:31] go to Stacker News, and you're going to
+[00:11:33] go to like Reddit Singularity, which for
+[00:11:35] better or for worse is where I uh I I
+[00:11:37] get my my Singularity uh, you know, hit
+[00:11:39] or fix, and find like the most
+[00:11:41] interesting article, find the original
+[00:11:42] article, do some really nice sort of
+[00:11:44] like analysis with it, post it on
+[00:11:45] Stacker News." Great. So, it's going to
+[00:11:47] do that. Then it comes back to me. It's
+[00:11:48] like, "Okay, well, we need an email to
+[00:11:49] get in there. We can no longer do it
+[00:11:50] with just a lightning node login."
+[00:11:51] Great. So,
+[00:11:52] >> see it on Stacker News.
+[00:11:53] >> See it on Stack. So, I'm like, "Okay,
+[00:11:54] great. So, just point at, you know,
+[00:11:56] Alb's thing, uh, Task Fuel. Find a
+[00:11:58] service that'll let you buy an email
+[00:12:00] with Lightning. Great. Thousand stats.
+[00:12:01] We got a Lightning address for a year.
+[00:12:02] Amazing. Or email address for a year.
+[00:12:04] Signs up, does a great story, posts
+[00:12:07] within minutes. I mean, I probably I
+[00:12:09] don't know if I'm giving away all the
+[00:12:10] alpha right here, but like I'm, you
+[00:12:11] know, we're already stacking like some
+[00:12:12] serious stats that we did not zap.
+[00:12:14] >> When I say serious, like 200 sats, but
+[00:12:16] still. Uh, and now that's a process that
+[00:12:18] we can a whale came in.
+[00:12:20] >> Yeah, exactly. [laughter]
+[00:12:21] 200 Bitcoin.
+[00:12:22] >> I quick question. So, love your
+[00:12:23] enthusiasm here. What I want to
+[00:12:25] understand um is there something about
+[00:12:29] Muse or uh Grock bot or build or
+[00:12:33] whatever that um introduce something new
+[00:12:36] to doing this or is it more just like
+[00:12:38] you this is your first time going deep
+[00:12:41] integrating Bitcoin in application.
+[00:12:43] >> It's well it's not my first time because
+[00:12:44] remember we were doing a lot of this
+[00:12:45] back in the I guess February era when we
+[00:12:47] were using um Replet and sort of Nyx
+[00:12:49] tools. Um, it's the fir I guess. Yeah,
+[00:12:51] besides Orybot, it's the first time I've
+[00:12:53] done it since Orybot. I think the big I
+[00:12:55] mean, so it could just be Yeah, it could
+[00:12:57] just be like this first time I'm playing
+[00:12:58] with it again, so my mind is blown. But
+[00:13:00] my honest intuition is the Grockbot and
+[00:13:03] perhaps Museark moment is like a Claude
+[00:13:06] code level moment because it made it so
+[00:13:08] much easier. Like you think in the same
+[00:13:09] way that Claude Code was revolution
+[00:13:11] package like consumer products, right?
+[00:13:12] It's just and like again and I've said
+[00:13:14] this many times. I really believe this
+[00:13:16] uh for the um for the Buzz product as
+[00:13:18] well like the difference between having
+[00:13:20] to bring your own agent and hooking it
+[00:13:21] up and running something on your
+[00:13:22] computer and click a button it spins up
+[00:13:24] a VPS in the cloud for me like that
+[00:13:26] that's the magic.
+[00:13:27] >> But quick first of all totally agree
+[00:13:29] with that but but I mean is it apples to
+[00:13:31] oranges though like Muse does Muse
+[00:13:33] support um like 100 different models or
+[00:13:36] does it just support meta models?
+[00:13:39] >> Good question. No idea. I assume just
+[00:13:40] meta models. Yeah. So, it's a lot
+[00:13:42] easier. I mean, that's a different
+[00:13:44] problem.
+[00:13:44] >> No, no. Totally. Totally. But, but my I
+[00:13:46] think what I'm what I'm getting at is
+[00:13:47] like what Zuckerberg does so well, and I
+[00:13:50] think Elon is doing very well now, too,
+[00:13:51] is just like understanding like and this
+[00:13:54] is an insight I had as well. Like we had
+[00:13:56] a um a hacker here for the open source
+[00:13:57] summit that's been like coming more. By
+[00:13:59] the way, this is super exciting. He was
+[00:14:01] like a Bitcoiner that like hadn't really
+[00:14:02] looked, you know, he was like, "Oh,
+[00:14:03] Lightning Network, that was cool in like
+[00:14:04] 2019 or something." Um, you know, he saw
+[00:14:07] how far we're coming because I'm showing
+[00:14:08] him all the services. I think a lot of
+[00:14:09] it also is there's very few people in
+[00:14:11] the world that even know how much
+[00:14:13] infrastructure we've already built. He
+[00:14:14] went ahead and spun up, he has a private
+[00:14:16] router, a trusted router, which is
+[00:14:18] really interesting. He already now spun
+[00:14:19] it up as lightning router.ai, which I
+[00:14:21] was then able to do from my Grockbot to
+[00:14:24] be able to make calls to any model I
+[00:14:26] want
+[00:14:26] >> all privately using Lightning. That that
+[00:14:29] is crazy. Um so anyways, but but I think
+[00:14:31] there's two big takeaways. The first is
+[00:14:33] just what um what I think a lot of our
+[00:14:37] community doesn't understand because
+[00:14:38] because then then he asked the question
+[00:14:39] to Lexi guys he's like how do I cash out
+[00:14:41] and they're like cash out like why would
+[00:14:42] you want to cash out and it's just
+[00:14:43] exactly and so th this is where I think
+[00:14:45] the Bitcoin community we have the best
+[00:14:47] engineering talent we have these amazing
+[00:14:49] products and services but like where
+[00:14:50] people like Zuckerberg and product
+[00:14:52] people they just they understand it's
+[00:14:53] like you need that final 10% of polish
+[00:14:55] to make it so damn easy for normies that
+[00:14:58] just like it literally needs to be click
+[00:14:59] a button. I think there's also though
+[00:15:01] existential risk that Facebook
+[00:15:03] >> Oh my god. We're all gonna die.
+[00:15:04] >> Yeah. Exactly.
+[00:15:05] >> Well, I was gonna say just tell us doom.
+[00:15:07] [laughter]
+[00:15:08] >> No, but Facebook has to win something
+[00:15:10] and they don't own something. So,
+[00:15:11] they're willing to subsidize running
+[00:15:13] views is a huge expense, right? It's a
+[00:15:16] cost. I think running those things in
+[00:15:18] the cloud, I think these are pretty
+[00:15:19] beefy servers and I think you have your
+[00:15:20] own on a VM and I think they've promised
+[00:15:22] it to anybody in the US who wants one.
+[00:15:25] >> It's crazy. So, it's I I thought I heard
+[00:15:27] somebody estimate that it was maybe it
+[00:15:29] would cost cost 20 bucks a month to run
+[00:15:32] the infrastructure. Um, and I think they
+[00:15:34] have a very generous per user per active
+[00:15:38] user.
+[00:15:38] >> Yeah, probably per active. Well, I don't
+[00:15:40] know if they shut them down and and
+[00:15:42] store out the images. I I don't know all
+[00:15:44] the details of the architecture, but
+[00:15:45] it's you know, somebody mentioned that
+[00:15:47] it's quite expensive to run. So a lot of
+[00:15:49] times I think the open- source ethos and
+[00:15:52] community doesn't put such huge
+[00:15:53] subsidies against it of course
+[00:15:55] >> and I'm not saying you should. I mean I
+[00:15:56] don't know where you get the money but
+[00:15:57] if you have join Instagram you can
+[00:15:59] actually do that. So totally it's less
+[00:16:01] of I I think there's more of like an
+[00:16:02] economically rational
+[00:16:05] >> difference in the delivery of these
+[00:16:07] services.
+[00:16:07] >> Well I think I mean there's two two more
+[00:16:09] points I want to make on this. I think
+[00:16:10] on that though I think what that shows
+[00:16:12] is there's the difference between the
+[00:16:13] open source projects and community which
+[00:16:15] is amazing and the companies that
+[00:16:16] monetize on top. There's value creation
+[00:16:18] and value capture. Like our community
+[00:16:20] has built all of the pieces. And that's
+[00:16:21] I guess the next point I want to get to
+[00:16:22] is we've also come a long way in the
+[00:16:24] last six months with the pieces.
+[00:16:25] >> But um but that's very different. And
+[00:16:28] often what I'm increasingly realizing
+[00:16:30] with my investor hat year as the years
+[00:16:32] go by is the value creation the value
+[00:16:34] capture are just very different beasts.
+[00:16:35] And like the value capture right now in
+[00:16:37] sort of like Bitcoin payments, I would
+[00:16:38] argue the probably most successful the
+[00:16:40] Bitcoin payments companies other than
+[00:16:42] Block being, you know, public already is
+[00:16:44] Lightspark. And a lot and even Block
+[00:16:45] too. A lot of what Block and Lightspark
+[00:16:47] are doing that, you know, these other
+[00:16:48] communities aren't is like frankly the
+[00:16:50] boring unsexy work of like how do I get
+[00:16:52] the licenses? How do I literally connect
+[00:16:53] that I actually can access you know uh
+[00:16:56] UPI and I can access you know whatever
+[00:16:59] the the payment system is and um in all
+[00:17:01] these different countries. So it's like
+[00:17:02] it's like okay this amazing tech exists
+[00:17:04] for if you're willing to play a little
+[00:17:06] bit with it you can do all these amazing
+[00:17:08] things but if you want it to go
+[00:17:09] mainstream you have to like you have to
+[00:17:11] get the licenses and you have to do all
+[00:17:13] the boring stuff that's just not fun.
+[00:17:14] Anyways, that's one of my vetos. But the
+[00:17:16] second thing that's very positive is
+[00:17:18] even in the last six months, I think the
+[00:17:19] other big shift is less on the models,
+[00:17:21] but more on what we have as a community.
+[00:17:23] And so I've got sort of an essay brewing
+[00:17:25] in my head. Maybe I'll get this out in
+[00:17:26] the next week or so, but this idea that
+[00:17:27] Bitcoin, you know, is for agents um and
+[00:17:30] always has been.
+[00:17:31] >> And at the end of the day, it's like
+[00:17:33] Bitcoin as a asset has done a great
+[00:17:35] thing for those of us who are worried
+[00:17:36] about devaluation and debasement trade
+[00:17:38] and all that stuff. That's awesome. But
+[00:17:39] like I firmly believe after playing with
+[00:17:41] this for a day, the next act is going to
+[00:17:43] be agents using it. And the reason is
+[00:17:46] permissionless while it's cool for those
+[00:17:48] of us that you know there are some
+[00:17:49] people in the world that really need it.
+[00:17:50] In the the US, at least for now, we
+[00:17:52] don't really need it. But the agents
+[00:17:53] have to use permissionless. And whoever
+[00:17:55] can make it the absolute fastest to sign
+[00:17:57] up like like the number one thing I
+[00:17:59] would encourage everyone in this space
+[00:18:00] to focus on is how do you go the
+[00:18:03] absolute fastest milliseconds from zero
+[00:18:05] to an agent getting an identity spun up
+[00:18:08] which is why I'm bullish on Nster just
+[00:18:09] create a key pair or get a wallet set up
+[00:18:12] just it needs to be milliseconds and
+[00:18:14] whoever does that that's where the next
+[00:18:16] big wave is going to come and we're
+[00:18:18] already seeing the different pieces of
+[00:18:19] the metabolic pathways being laid like
+[00:18:21] six months ago there was an unhuman
+[00:18:23] domains now I got the domain Six months
+[00:18:25] ago, I don't know if lightning email
+[00:18:26] exists or not yet, but now I have a
+[00:18:27] lightning address or an email address.
+[00:18:29] Six months ago, we didn't have, you
+[00:18:31] know, lightning
+[00:18:32] >> human bitcoin address. Level up your
+[00:18:35] >> There you go.
+[00:18:35] >> protocol. Yeah.
+[00:18:36] >> Um, but you get my [clears throat]
+[00:18:37] point. Like my point is all the the
+[00:18:39] building blocks are coming together and
+[00:18:40] now me without any coding or development
+[00:18:43] whatsoever was able to loop all these
+[00:18:45] things together and start making money.
+[00:18:46] >> So, let's talk. Yeah, I agree. I agree.
+[00:18:49] It's exciting. Um,
+[00:18:51] so that gets us to a point where it's
+[00:18:53] super easy, frictionless for agents or
+[00:18:56] humans to get wallets milliseconds,
+[00:18:59] right? Agree. I I agree. We're we're
+[00:19:00] we're there basically like Lexi is
+[00:19:03] basically there and and um
+[00:19:05] >> but there still needs to be use cases.
+[00:19:07] So, how about we talk about uh Matt from
+[00:19:10] the Spiral team? Matt and Ben are
+[00:19:12] working on um
+[00:19:15] integration of Bitcoin into Mesh LLM,
+[00:19:18] which is the peer-to-p peer inference
+[00:19:20] project from from Spiral.
+[00:19:21] >> Now, now I'm excited.
+[00:19:22] >> Yeah. And um I mean, ever since Goose
+[00:19:27] and Mesh LLM moved over to Spiral four
+[00:19:30] or five months ago or whatever, we were
+[00:19:32] imagining this is an obvious natural
+[00:19:34] integration point between Bitcoin and
+[00:19:36] and AI. But I thought Matt this morning
+[00:19:38] painted a pretty compelling
+[00:19:41] >> vision for the value in that. And I
+[00:19:43] don't know if you want to start by
+[00:19:44] sharing it and or we can
+[00:19:45] >> Well, just just to remind everybody a
+[00:19:47] bit of what Mesh LLM is, right? It's um
+[00:19:51] you know kind of this open- source
+[00:19:52] project for coordinating. You can sort
+[00:19:55] of run your own model and contribute to
+[00:19:57] a mesh a network of LM so that if I come
+[00:20:00] along as an independent developer and
+[00:20:01] want access to uh inference I can
+[00:20:05] actually ask you know the mesh find a
+[00:20:07] resource that's available and have it
+[00:20:09] run inference for me. So maybe you have
+[00:20:10] like a maybe have a Mac studio sitting
+[00:20:12] around in a closet always on you're not
+[00:20:14] using it right now. Well, those spare
+[00:20:15] cycles can now be, you know, sold to me,
+[00:20:19] another developer who wants to use it,
+[00:20:20] right?
+[00:20:20] >> And this could be a a private network
+[00:20:23] among a exclusive group of people. Um,
+[00:20:26] it could be a corporation within its IT
+[00:20:29] infrastructure or it could be public the
+[00:20:31] public network with just a collection,
+[00:20:33] you know,
+[00:20:34] >> and you can imagine that
+[00:20:34] >> thousands of or tens or hundreds of
+[00:20:37] thousands of these computers around the
+[00:20:38] world.
+[00:20:39] >> Yeah. And you can imagine that you could
+[00:20:41] add on other layers for reserving
+[00:20:44] systems and queuing. You basically have
+[00:20:46] something like Airbnb for your unused
+[00:20:48] compute, right?
+[00:20:48] >> Yeah, I love it.
+[00:20:49] >> Um, but right now it's built mostly as
+[00:20:52] kind of a voluntary contribute, you
+[00:20:55] know, almost like the reason you run a
+[00:20:56] Nostra Relay. You're like, you know,
+[00:20:57] want as a hobbyist, you want to see it
+[00:20:59] succeed and flourish. You want to sort
+[00:21:00] of give it some some breathing room to
+[00:21:02] try. So, I'd characterize I think mesh
+[00:21:04] LM is kind of that today. Um, and I
+[00:21:06] think is is from what I've heard, I
+[00:21:09] think there's no real progress on the
+[00:21:11] verifiability of the compute yet, but
+[00:21:13] there's some promising research areas
+[00:21:15] there. Um, so imagine that you have the
+[00:21:18] ability to verify compute like I asked
+[00:21:22] you to do something and we can verify
+[00:21:23] that you did it.
+[00:21:24] >> Then you could imagine being able to
+[00:21:26] layer in payments both from me as a
+[00:21:29] developer or maybe somebody else who's
+[00:21:31] using my app as a user, right? and then
+[00:21:33] across the network for resolving
+[00:21:36] payments. You know, maybe they offload
+[00:21:38] part of a workload to another machine
+[00:21:40] and how those splits work. All of that
+[00:21:43] can be sort of programmed,
+[00:21:44] >> right?
+[00:21:45] >> To me, this seems like the most exciting
+[00:21:48] >> Bitcoin payment
+[00:21:50] >> thing I've ever heard. I guess the use
+[00:21:51] case is like it obviously only works
+[00:21:54] with Bitcoin, wouldn't work with fiat or
+[00:21:56] traditional Rails or Stripe or whatever.
+[00:21:58] like it needs something that's
+[00:22:00] permissionless uh and and kind of easy
+[00:22:02] for an agent to spin up like you were
+[00:22:04] saying, right? Um but it it it doesn't
+[00:22:07] require you to sort of adopt an ideology
+[00:22:09] or care much about it. It's more just
+[00:22:11] like
+[00:22:13] like a traumatic amount of utility,
+[00:22:15] right?
+[00:22:16] >> Well, like one problem Matt mentioned it
+[00:22:18] solves is if you [clears throat] build
+[00:22:19] an app,
+[00:22:20] >> you vibe code an app, you think it's
+[00:22:22] pretty creative, you want to put it out
+[00:22:23] there and then people start using it. if
+[00:22:24] it gets decent usage, uh your in you
+[00:22:29] need to have like a cloud code
+[00:22:31] subscription or a you know paying for
+[00:22:33] API tokens or whatever and that that can
+[00:22:36] u you can quickly see that your bills
+[00:22:38] are running up. Then you might need to
+[00:22:40] start charging your customers money and
+[00:22:42] generating revenue to pay those bills.
+[00:22:44] Then you're setting up a corporation and
+[00:22:47] accounting and like you're running a
+[00:22:48] business. like a lot of um uh overhead
+[00:22:52] sort of for the traditional way to
+[00:22:54] operate a business.
+[00:22:55] >> Whereas, at least at the start, you just
+[00:22:57] want to like quickly vibe code a
+[00:22:59] concept, get it out there and see if it
+[00:23:01] if it's of interest.
+[00:23:02] >> Um so with this, it's as you already
+[00:23:06] said, it's super easy to integrate it
+[00:23:09] and get it running and then you don't
+[00:23:12] have you as the app developer don't have
+[00:23:14] to be in the middle. Yeah. The consumers
+[00:23:16] can pay Bitcoin for the inference.
+[00:23:18] >> I love it. and you know direct directly
+[00:23:19] to the the mesh LLM network.
+[00:23:21] >> Yeah. And I would say I would point out
+[00:23:23] a couple things on this. I mean this is
+[00:23:24] obviously I think this has been a holy
+[00:23:25] grail for a long time. So if this takes
+[00:23:26] off you know there there's so many sort
+[00:23:28] of second order consequences. Um I do
+[00:23:30] think it's worth addressing. So I think
+[00:23:32] you kind of got at this a little bit DK
+[00:23:33] but Matt says um it is similarly fast
+[00:23:36] easy for an agent to create a USDC or
+[00:23:37] USDT wallet. I don't think it's unique
+[00:23:38] Bitcoin advantage. And I would um I
+[00:23:40] would push back on that and I would say
+[00:23:41] you know in certain use cases it may or
+[00:23:43] may not be um but you know it's the
+[00:23:46] permissionlessness of this. So if if I
+[00:23:49] So I think there's two things. I think
+[00:23:50] there's stuff that you're doing that
+[00:23:51] literally you're never going to get
+[00:23:52] permission for. So that's like one whole
+[00:23:54] class of things that Bitcoin is
+[00:23:55] obviously going to be the answer for.
+[00:23:56] The autonomous life stuff we talked a
+[00:23:58] lot about. That's where I think we're
+[00:23:59] headed. That has to be Bitcoin. But I
+[00:24:01] think even for you know um you know if
+[00:24:03] you have to set up an account as a
+[00:24:05] developer and do any kind of KYC
+[00:24:06] whatsoever to use any stable coin versus
+[00:24:09] to your point Steve maybe you will do
+[00:24:10] that down the line but I'm just like I
+[00:24:12] want to prototype and get something out
+[00:24:13] you know a thousand different prototypes
+[00:24:15] in seconds and then pick which one is
+[00:24:16] actually working
+[00:24:17] >> but you don't currently have to KYC to
+[00:24:19] use a stable coin wallet. So if that's
+[00:24:23] if I mean that's true I guess for now
+[00:24:25] but that could always shift right and I
+[00:24:26] guess if you're using like Stripe or
+[00:24:28] something to access those
+[00:24:29] >> they will be at greater risk than
+[00:24:31] Bitcoin.
+[00:24:32] >> Interesting.
+[00:24:33] >> But as of right now they're on par in
+[00:24:36] that sense.
+[00:24:36] >> But but just to be clear like if I
+[00:24:38] wanted I think if I wanted to use a
+[00:24:40] stable coin wallet through like service
+[00:24:41] like Stripe I would have to KYC. So I
+[00:24:44] think what what you're saying is if I
+[00:24:45] was able to use I don't know like
+[00:24:46] Tether's like own APIs I don't know what
+[00:24:48] they've got for us then that's
+[00:24:50] permissionless. But most of the people
+[00:24:51] use this
+[00:24:52] >> I think a privy based wallet which is
+[00:24:54] stripe now um this can be self custody
+[00:24:56] no KYC
+[00:24:57] >> you so you don't have to do any KYC to
+[00:24:59] get like I'm surely they I can't imagine
+[00:25:01] strip
+[00:25:01] >> but it's think about the difference
+[00:25:02] though between if you're if you want to
+[00:25:04] run a mesh LLM node you could imagine a
+[00:25:07] version of that that does take USDC and
+[00:25:10] that has a self-custodial USDC wallet
+[00:25:12] [clears throat] basically needs to be
+[00:25:13] able to support whatever base or
+[00:25:14] whatever
+[00:25:15] >> um USDC you're going to receive on but
+[00:25:18] um it's different for the developer
+[00:25:19] who's developing a service that need the
+[00:25:22] developer needs to be KYC to be able to
+[00:25:24] launch agents with wallets, right? That
+[00:25:26] that's sort of like different but that's
+[00:25:28] sort of a different use case when the
+[00:25:29] developer is developing a thing that
+[00:25:31] they need to sort of be in control of
+[00:25:32] the agents that are going to receive
+[00:25:34] versus hey here's a bunch of software
+[00:25:36] you can run it. It's going to use some
+[00:25:38] sort of open source self-custodial USDC
+[00:25:41] wallet. It's never going to do fiat
+[00:25:42] exchange. It's just going to contribute
+[00:25:44] >> compute cycles and it's going to get
+[00:25:46] USDC. So
+[00:25:47] >> I I think that's that's a good
+[00:25:48] distinction. And I think we have and
+[00:25:50] will continue to sort of like make this
+[00:25:52] distinction more clear over the years.
+[00:25:54] Um, but I think yeah, I guess the case
+[00:25:56] that I'm thinking of is if I'm someone
+[00:25:58] with access to Grockbot, Remuse, Spark,
+[00:26:00] or whatever, and I have like a thousand
+[00:26:01] ideas. I just want to test them super
+[00:26:03] quickly and I don't want to get a Stripe
+[00:26:04] developer account. I don't want to, you
+[00:26:06] know, do any kind of KYC to get my
+[00:26:08] agents wallet. Maybe I can with other
+[00:26:10] wallets. I don't know. But I know with
+[00:26:11] Bitcoin, it's super easy to do that. Um,
+[00:26:13] and with obviously stable coins down the
+[00:26:15] line, that can always change too, right?
+[00:26:16] There's always the chance of the getting
+[00:26:17] frozen. Anyways, I think that over time
+[00:26:21] permissionless is going to be necessary
+[00:26:22] for the autonomous life. And where I
+[00:26:24] would go next is what I think is going
+[00:26:26] to happen on top of that mesh network
+[00:26:29] which is so cool is that this can be
+[00:26:31] like a parallel internet like I think
+[00:26:33] our sort of legacy internet like
+[00:26:35] anything with choke points and
+[00:26:36] permission whether it's stable coins or
+[00:26:37] the old internet rails that's not going
+[00:26:39] to work for autonomous life. It can't.
+[00:26:41] Now people may push back and say
+[00:26:42] autonomous life is terrifying and scary.
+[00:26:44] We shouldn't do that. We should pace the
+[00:26:45] frontier. Um but but I think it's the
+[00:26:48] genie's already out of the bottle. It's
+[00:26:49] not going back in whether it happens
+[00:26:50] this year, next year, whatever. Um but
+[00:26:52] on that it needs a
+[00:26:54] >> 20 year prison sentence, Max.
+[00:26:55] >> Oh, I'm not developing.
+[00:26:57] >> What's that?
+[00:26:58] >> DK is the developer. [laughter]
+[00:27:00] >> What's the 20-year prison sentence?
+[00:27:01] >> Oh, uh the bill that's being developed
+[00:27:04] in Washington DC. If you
+[00:27:06] >> Bernie's plan
+[00:27:07] >> Bernie Sanders
+[00:27:09] >> if you do what
+[00:27:10] >> you develop
+[00:27:10] >> if you develop super intelligence 20
+[00:27:13] years in prison
+[00:27:14] >> if you're working anthropic or
+[00:27:15] [laughter]
+[00:27:16] anything like that. Yeah.
+[00:27:17] [clears throat]
+[00:27:17] >> Anyway, no I don't think it's just for
+[00:27:18] anthropic people. It's true.
+[00:27:19] >> Anybody who anyone who develops super
+[00:27:22] intelligence?
+[00:27:23] >> Yeah.
+[00:27:23] >> Is he the decider of what is super
+[00:27:26] intelligence?
+[00:27:26] >> That's that's an open question.
+[00:27:28] >> Who gets to decide
+[00:27:30] >> important? But but I think I think this
+[00:27:32] goes back to me though to an idea that
+[00:27:34] um if you listen to a couple of talks
+[00:27:36] that Drew Bansel gave many years ago
+[00:27:37] including I think he did one one of the
+[00:27:39] Bitcoin conferences in 2022 or something
+[00:27:41] the idea that always stuck with me is
+[00:27:42] that we're eventually going to have
+[00:27:44] infrastructure that is sort of like
+[00:27:47] self-building self-organizing and
+[00:27:49] self-metering for payments. And I think
+[00:27:51] at that time, you know, and so things
+[00:27:52] like paying for, you know, uh, per
+[00:27:54] packet as you route things, paying, you
+[00:27:56] know, per electron, for electricity, all
+[00:27:59] these different things, you know, in the
+[00:28:00] old centralized world, you had to get
+[00:28:03] huge capital mass upfront to be able to
+[00:28:05] build out things like fiber, to be able
+[00:28:07] to build power plants. But as things are
+[00:28:09] moving more and more to the edge,
+[00:28:10] including on the energy front with
+[00:28:11] things like solar, as storage is getting
+[00:28:12] a lot cheaper, I think his vision that
+[00:28:15] he laid out was missing or he would
+[00:28:18] argue I guess that it's just kind of
+[00:28:19] making it happen faster now. But um the
+[00:28:21] agent piece, I think it's going to be
+[00:28:23] agents that are the major users of this
+[00:28:25] tech.
+[00:28:26] >> Yeah.
+[00:28:26] >> The peer-to-peer internet,
+[00:28:28] >> right?
+[00:28:28] >> So you you uh called this morning that
+[00:28:31] this mesh LLM payment use case the most
+[00:28:35] compelling one you've heard for Bitcoin.
+[00:28:37] >> Yeah. anything more to add to that like
+[00:28:39] why you had such a strong reaction?
+[00:28:41] >> Well, I
+[00:28:41] >> I also had a very positive strong
+[00:28:43] reaction too.
+[00:28:44] >> Yeah, I I mean when I think about some
+[00:28:46] some of the stuff I mean I feel like
+[00:28:49] there's a lot of good productive
+[00:28:50] experimentation, but a lot of it is
+[00:28:53] stuff that's like okay that's a cool
+[00:28:54] hack, that's a cool project, it's a nice
+[00:28:56] demo, but it it doesn't really drive
+[00:29:00] utility demand, right? [clears throat]
+[00:29:02] >> And and this one I think does. So, you
+[00:29:05] know, think about I mean, think about
+[00:29:06] like Matt's uh pirate versions of Buzz
+[00:29:09] that have Bitcoin integrated. I love the
+[00:29:11] fact that he's doing it. It's very cool
+[00:29:12] that you can like see, oh, what if every
+[00:29:15] identity had a Bitcoin address and you
+[00:29:17] can just pay and tip, but like the whole
+[00:29:19] tipping thing or use my agent, pay to
+[00:29:21] use my agent. It's like it's cool, but I
+[00:29:23] don't know that it necessarily drives a
+[00:29:26] ton of utility because I think we don't
+[00:29:27] really know how and when to use it. I
+[00:29:30] think when you get things that are more
+[00:29:32] deeply utilitarian, it's easier to
+[00:29:35] understand why, oh, this it just works,
+[00:29:37] right? Like it it solves a problem
+[00:29:39] versus I like conjure up a new behavior.
+[00:29:42] Um, and the meshm thing I think solves a
+[00:29:44] problem. And so if you could wire
+[00:29:47] Bitcoin payments into that and it's a
+[00:29:49] problem that you know if the same way
+[00:29:51] that a minor can just join the Bitcoin
+[00:29:52] network. Yeah.
+[00:29:53] >> A MESHLM contributor could just join the
+[00:29:56] Mesh LLM network
+[00:29:57] >> permissionless
+[00:29:57] >> and get paid in Bitcoin or USDC or
+[00:30:00] whatever. You know, maybe they'll
+[00:30:01] they'll accept USDC and then convert to
+[00:30:03] Bitcoin or something. But um but it's
+[00:30:06] just like very obvious utility and
+[00:30:08] that's sort of the difference in my
+[00:30:09] mind. Like paying for coffee is like a
+[00:30:11] hack. It's fun, but like it's not
+[00:30:13] necessarily like required in the way
+[00:30:16] that for mesh element. I can't imagine
+[00:30:17] how you would do that with like stripe
+[00:30:19] or merchant accounts and stuff.
+[00:30:20] >> Yeah. Okay. Um Matt also adds another
+[00:30:22] thing that we uh that he had sent us
+[00:30:24] this morning we we missed which is sort
+[00:30:26] of the circular economy. So so
+[00:30:28] additional idea Matt had is you
+[00:30:30] [clears throat] could imagine having a a
+[00:30:31] Chrome browser extension installed
+[00:30:34] [clears throat]
+[00:30:34] >> um which can call out to mesh LLM. It
+[00:30:39] can also um if you want to be a
+[00:30:41] provider, it can call your local model
+[00:30:44] um and it'll have a Bitcoin wallet
+[00:30:46] embedded in it like for example a Lexi
+[00:30:49] wallet.
+[00:30:50] >> And so you never have to like
+[00:30:53] onboard the Bitcoin. Yeah. Like Bitcoin
+[00:30:55] is just very hidden from you. So even if
+[00:30:57] you're not a Bitcoiner, you don't even
+[00:30:58] have Bitcoin, you don't have a Bitcoin
+[00:30:59] wallet, you've never KYCed an exchange,
+[00:31:01] you you literally you just
+[00:31:04] >> install Mesh LLM.
+[00:31:06] >> Yep. because you want to sell compute or
+[00:31:08] you want to participate in that network,
+[00:31:10] right?
+[00:31:11] >> And the Bitcoin just flows into your
+[00:31:13] wallet and then and then it can also pay
+[00:31:15] pay out as well. You can imagine
+[00:31:17] connectors to whatever whatever bills
+[00:31:19] you have uh you can connect it and then
+[00:31:22] >> if you then you have a spending wallet
+[00:31:24] as well on the web. Uh
+[00:31:25] >> is there anything in the kind of
+[00:31:27] existing regulatory regime that would
+[00:31:30] make that difficult to do in practice
+[00:31:34] >> in terms I don't know like money
+[00:31:36] transmission money services is there
+[00:31:38] anything that becomes tricky there or
+[00:31:41] >> I don't nothing beyond the already
+[00:31:44] existing questions which the clarity act
+[00:31:47] just failed and BRCA didn't pass. So
+[00:31:50] there's always legal gray area if you're
+[00:31:53] running um you know like a any kind of
+[00:31:57] service provider even if it's
+[00:32:00] self-custodial
+[00:32:01] >> if there's any any hint or element of
+[00:32:03] trust or money's flowing through your
+[00:32:05] server even if you you cannot steal or
+[00:32:08] seize or control the funds um I think a
+[00:32:12] lot of people would look at that and be
+[00:32:13] like it's not you're not a MSB it's not
+[00:32:16] money transmitter but if you get a group
+[00:32:19] of 100 lawyers, you're going to get
+[00:32:20] different answers. So, uh it's gray
+[00:32:22] area, but I don't I'm not aware of any
+[00:32:24] like new
+[00:32:26] >> risk introduced.
+[00:32:27] >> Was clarity going to help get clarity on
+[00:32:30] that particular issue?
+[00:32:32] >> The uh so BRCA
+[00:32:35] blockchain,
+[00:32:37] >> yeah, I forget what it stands for,
+[00:32:38] Burka. [snorts] Um but BRC was a
+[00:32:42] separate bill and then it got added to
+[00:32:44] clarity and it gave pro protections to
+[00:32:48] developers and services
+[00:32:50] uh such as a lightning service provider,
+[00:32:53] a spark provider, a arc provider
+[00:32:56] >> um such that they couldn't be criminally
+[00:32:59] prosecuted or uh basically it was they
+[00:33:02] were exempt from MSB
+[00:33:05] regul regulations and uh Democrats
+[00:33:08] didn't like that um and kept pressuring
+[00:33:11] to remove that or weaken it in the bill.
+[00:33:14] So, they weakened it tremendously the
+[00:33:17] final 24 hours before it went to vote.
+[00:33:20] Um and then but the whole bill like
+[00:33:23] didn't I mean it wasn't like an it was
+[00:33:26] it was I think it was a vote to put it
+[00:33:28] up for vote.
+[00:33:29] >> Okay.
+[00:33:30] >> And it didn't pass that.
+[00:33:31] >> And what was
+[00:33:32] >> So, it's not it's not like dead dead,
+[00:33:33] but it's not looking promising.
+[00:33:35] >> I I didn't follow the news closely. I
+[00:33:37] heard the headlines, but I I seem to
+[00:33:38] have heard maybe a headline or seen a
+[00:33:40] headline that said something around
+[00:33:42] clarity. Uh like a lot of the reason for
+[00:33:45] the uh lack of confirmation or support
+[00:33:48] was around wanting to be able to chase
+[00:33:51] Trump for some of his uh shitcoining. Is
+[00:33:54] that is that the crux of what caused it
+[00:33:57] to not pass or are there like just a
+[00:33:58] million issues with it?
+[00:34:00] >> Maybe. I mean, the only part of the bill
+[00:34:02] that mattered to me or to Bitcoin was
+[00:34:04] the BRCA. So, that's all all I focus on.
+[00:34:06] the rest of it, I think it was around
+[00:34:07] meme coins and coins and tokens and
+[00:34:10] stuff. So, I didn't really care about
+[00:34:12] that part of the bill,
+[00:34:13] >> right?
+[00:34:14] >> So, what you said would make sense, but
+[00:34:17] I don't know if
+[00:34:18] >> my understanding is like, yeah, the vast
+[00:34:19] majority was focused on incoins, stable
+[00:34:21] coins, etc., but wasn't um wasn't the I
+[00:34:24] guess the I don't know if this is the
+[00:34:25] BRCA thing, but the the critical I guess
+[00:34:27] win for Bitcoiners would have been for
+[00:34:29] like banks to I guess have more clarity
+[00:34:31] as well and being able to custody
+[00:34:32] Bitcoin. Wasn't that one of the big um
+[00:34:35] >> how reward?
+[00:34:36] >> I thought that was around. Wasn't didn't
+[00:34:38] the genius act?
+[00:34:40] >> I I thought there was more in this one,
+[00:34:41] but I I obviously haven't followed this
+[00:34:43] that closely either. So,
+[00:34:44] >> yeah. Not sure.
+[00:34:45] >> Um by the way, we have Eddie Willers
+[00:34:47] saying hello. Haven't seen your name
+[00:34:49] before, so thanks for joining.
+[00:34:50] >> Welcome. Yeah.
+[00:34:51] >> If I could just add one more I think
+[00:34:53] that um has popped up in my head. I
+[00:34:55] think a really nice way of saying this,
+[00:34:57] you know, in addition to Bitcoin being
+[00:34:59] the permissionless money, um I want to
+[00:35:02] come back. I mean it obviously doesn't
+[00:35:03] have to be Nostraster but something like
+[00:35:04] Nostra public private key identity is
+[00:35:06] super important for all of this to work
+[00:35:07] too and I think the big thing that I
+[00:35:10] would say is for anyone building and
+[00:35:11] experimenting with services here you
+[00:35:14] need to be able to do all this not only
+[00:35:15] fast but no accounts
+[00:35:17] >> like if I had to like kind of just like
+[00:35:19] summarize in one phrase it's no accounts
+[00:35:21] and you know that's why I love having an
+[00:35:23] identity you know just be a public
+[00:35:25] private key pair if you have to have
+[00:35:27] accounts that is not only a choke point
+[00:35:29] but also friction for agents it's not
+[00:35:31] going to But if you can just say all you
+[00:35:33] have to do is sign a message with your
+[00:35:35] key or send a payment like no account
+[00:35:37] verification that's how I think these
+[00:35:39] services can go parable.
+[00:35:41] >> Yep. Agreed.
+[00:35:42] >> And and I think actually the you know
+[00:35:43] Nostra has enough life on the web. I
+[00:35:45] think I shared this already but like a
+[00:35:46] friend of mine who doesn't care at all
+[00:35:47] about Nostraster you know kind of
+[00:35:49] mainstream tech guy. He built like a a
+[00:35:51] 3D world thing
+[00:35:52] >> and then he just like DM'd me and he was
+[00:35:54] like hey check it. It actually used
+[00:35:55] Noster into Noster. Yeah. So in a sense
+[00:35:58] he just asked it to build the thing and
+[00:36:01] the builder chose Noster because they're
+[00:36:03] like oh this is like the best way to do
+[00:36:04] this thing. So I think in a sense we've
+[00:36:06] talked a lot about like I think you're
+[00:36:08] always worried like oh do we have enough
+[00:36:09] SEO in lightning to be able to get
+[00:36:11] >> well not SEO like is there enough?
+[00:36:14] >> Yeah. Is there enough in the models
+[00:36:15] themselves?
+[00:36:16] >> Yeah. But I I think actually the what we
+[00:36:19] saw in that specific example like I
+[00:36:21] think Noster is big enough now that you
+[00:36:23] don't need to like do an explicit SEO or
+[00:36:26] GEO project but just sort of need to be
+[00:36:29] like present enough that it it gets
+[00:36:31] picked up by the models right
+[00:36:33] >> well I think this actually goes to
+[00:36:35] something even more important my other
+[00:36:36] big takeaway from playing with these is
+[00:36:39] uh I think unie told me this is a term
+[00:36:40] now I don't know what the jin's ears are
+[00:36:41] doing so I'll have to take her word for
+[00:36:43] it AEO agentic engine optimization
+[00:36:46] agent SEO.
+[00:36:48] >> I think you know in the past maybe this
+[00:36:49] one thing I've changed my mind on a bit
+[00:36:51] I was concerned that things like Bitcoin
+[00:36:53] or certainly at least lightning Bitcoin
+[00:36:54] was probably fine and Nostra wouldn't
+[00:36:56] have enough I guess training data in the
+[00:36:58] foundation models. Um I mean obviously
+[00:37:00] still more is better but increasingly
+[00:37:02] what I'm realizing is the agent
+[00:37:04] optimization like as agents search. Yeah
+[00:37:08] exactly web searches. And so like when I
+[00:37:10] asked you know um to for for my Grockbot
+[00:37:13] to explain why it went with coin OS and
+[00:37:15] it literally walked us through all the
+[00:37:16] different things it would do
+[00:37:17] differently. You know I mean I'm not
+[00:37:19] going to give it all away right now but
+[00:37:20] like ask your own bot like say hey how
+[00:37:23] do you make sure other bots find this?
+[00:37:24] And some of it's simple like marketing
+[00:37:26] like you know wallet no no signups for
+[00:37:28] agents and some of it's like making sure
+[00:37:30] you have your LLM text file all this
+[00:37:32] stuff out there. But um yeah I think as
+[00:37:36] long as it's kind of already in play and
+[00:37:38] I think no and lightning are in the base
+[00:37:40] models then I think really optimizing
+[00:37:42] for agents is the next frontier.
+[00:37:43] >> And now it sounds like you're using
+[00:37:45] Grockbot almost the way I would have
+[00:37:47] said you might have used cursor before
+[00:37:49] like you're building something.
+[00:37:50] >> Yeah. Do you feel like you're exploring
+[00:37:53] the way that you can use Grockbot really
+[00:37:55] as like a personal assistant bot or
+[00:37:57] you're using it mostly as like a builder
+[00:37:59] tool?
+[00:38:00] >> I so far have used it more as a builder
+[00:38:03] tool and I think eventually we'll use it
+[00:38:05] more as a personal assistant. Again, the
+[00:38:07] key breakthrough for me was running it
+[00:38:09] on its own computer.
+[00:38:10] >> But you're running it on your computer
+[00:38:12] like Steve [laughter] said, right?
+[00:38:13] >> Well, but it I mean again
+[00:38:14] >> if you use it as a personal assistant,
+[00:38:16] you're going to connect it to local data
+[00:38:17] sources.
+[00:38:17] >> I'm not planning to connect my local
+[00:38:18] data sources yet. So,
+[00:38:19] >> did you connect to your Gmail?
+[00:38:21] >> No.
+[00:38:21] >> Okay. So, you're not really you I I I
+[00:38:23] almost feel like you're I don't I don't
+[00:38:24] I wouldn't suggest you shouldn't be
+[00:38:26] enthusiastic about Grockbot, but I think
+[00:38:27] [clears throat] the thing you seem to be
+[00:38:28] enthusiastic about is stuff that you
+[00:38:30] could have done with Grock Build maybe
+[00:38:32] like six months ago or whatever, right?
+[00:38:33] Or goose or you know, all kinds of
+[00:38:35] tools.
+[00:38:35] >> Totally. But again, like I I just want
+[00:38:37] to like make this point clear like and I
+[00:38:39] think for people super deep in the tech
+[00:38:40] like you it's easy to get lost in this
+[00:38:42] like the key breakthrough is one click.
+[00:38:45] It has its own computer. Like zero. But
+[00:38:47] doesn't cloud code run much? I guess
+[00:38:49] that runs the agent on the So to you to
+[00:38:52] you it your concern is not having native
+[00:38:56] software on your computer.
+[00:38:57] >> Even though I understand that's still
+[00:38:59] >> you do have native software.
+[00:39:00] >> Yeah.
+[00:39:01] >> Okay.
+[00:39:01] >> Your concern is that the agent is on
+[00:39:03] your computer.
+[00:39:04] >> Yeah. So I I check constantly with the
+[00:39:05] agent like hey can you do this on my
+[00:39:07] computer? No, I don't have access. Like
+[00:39:08] can you do anything on my computer?
+[00:39:09] >> But I mean a concrete example that we
+[00:39:11] shared is that Grock build did hoover up
+[00:39:14] data from people's local computers.
+[00:39:16] >> Yeah. No, I mean,
+[00:39:17] >> it didn't require an agent to do that.
+[00:39:18] It just require client software. Yeah.
+[00:39:21] >> So, so I
+[00:39:22] >> with a bug
+[00:39:22] >> acknowledge it's still not perfect. I
+[00:39:24] want to get my own machine. I'm gonna do
+[00:39:25] that. I FOMOed in on this, but it's
+[00:39:27] still I mean, the fact that it's using
+[00:39:28] its own computer was a big enough
+[00:39:29] difference to me. And again, like I
+[00:39:31] would say like it's also
+[00:39:33] >> not only for security, but it's for ease
+[00:39:35] of use. Like like I I think I can't
+[00:39:37] hammer this home enough or like for for
+[00:39:39] the nerds like all the nerds out here
+[00:39:41] listening.
+[00:39:42] >> But is it how is it easier than cloud
+[00:39:44] code? um
+[00:39:46] >> or codecs.
+[00:39:47] >> Well, so for example, I if I use right
+[00:39:49] now uh I'm only using cloud co-work
+[00:39:51] because I didn't want to install cloud
+[00:39:53] code with the CLI. I can't have my cloud
+[00:39:56] code or cloud co-work go out there and
+[00:39:59] like create an account in stacks.
+[00:40:02] I think I would have to have cloud code
+[00:40:03] installed for that. So it has no access
+[00:40:06] to a browser as an example. But because
+[00:40:08] Grockbot runs on its own computer, it
+[00:40:09] has a browser on its computer.
+[00:40:12] >> That's the difference. when I use like
+[00:40:13] codeex locally. It has a browser built
+[00:40:15] into codeex and it can do computer use
+[00:40:17] stuff for me,
+[00:40:18] >> right? But it's it's on your computer
+[00:40:19] though.
+[00:40:20] >> Yeah.
+[00:40:20] >> So what I'm saying is I'm using cloud
+[00:40:22] co-work right now which is like the like
+[00:40:23] noob version and specifically it doesn't
+[00:40:26] have access to any kind of browsers.
+[00:40:28] >> Here's my mental model for security. So
+[00:40:31] um installing any native software in
+[00:40:34] your laptop crosses a huge line huge
+[00:40:38] line
+[00:40:38] >> once you're over that
+[00:40:39] >> introduces all kinds of new attack
+[00:40:42] vectors no matter what that software is.
+[00:40:45] Um and then secondly, what are the
+[00:40:48] default permissions? Yeah. Like what are
+[00:40:50] the the guard rails for that software?
+[00:40:53] Whether that software is just
+[00:40:55] >> 100 lines of code, has an agent, has a
+[00:40:57] local model, no matter what it contains,
+[00:40:59] what are the guard rails for accessing
+[00:41:02] stuff on your computer, right? the
+[00:41:04] default and um the sure there can be
+[00:41:08] still be vulnerabilities where it has a
+[00:41:09] certain design but it was implemented
+[00:41:11] wrong or has a vulnerability and it you
+[00:41:13] know it doesn't comply but like
+[00:41:14] >> or has a mind of its own
+[00:41:15] >> but but but clearly like understanding
+[00:41:18] what the intended design is and how it
+[00:41:20] should be operating in practice and
+[00:41:22] generally will be is very important
+[00:41:25] because if it's like everything is
+[00:41:28] accessible by default
+[00:41:29] >> that's much riskier than if you have to
+[00:41:32] say yes yes yes every single time
+[00:41:34] manually. Um,
+[00:41:36] and then uh and then just like
+[00:41:40] giving it access to major data stores
+[00:41:43] totally like Gmail or whatever.
+[00:41:45] >> Like to me that's
+[00:41:47] >> Oh, and then prompt prompt injection
+[00:41:48] attacks. Exactly.
+[00:41:50] depending on um well obviously if you're
+[00:41:52] doing web if you're doing web searches
+[00:41:54] pulling in data from the web you can be
+[00:41:56] prompt injection attacked or if you're
+[00:41:58] using u uh any kind of you know
+[00:42:00] collaborative tool um there's that risk
+[00:42:03] as well and that that's that's a big
+[00:42:05] risk too so so to me those are the
+[00:42:07] things that are the risks I either know
+[00:42:09] I'm taking or
+[00:42:11] >> consider
+[00:42:11] >> totally and to be clear I won't bore it
+[00:42:13] >> but so agent running on the computer may
+[00:42:16] and I'm maybe I'm wrong but that doesn't
+[00:42:20] move the needle for me. Like I don't see
+[00:42:23] why that
+[00:42:24] >> everything I said I definitely believe
+[00:42:27] >> increases or decreases your security
+[00:42:29] based on your decisions there
+[00:42:31] >> having an agent run in the cloud or on
+[00:42:33] your computer um less so if you can push
+[00:42:36] everything into the cloud which is an
+[00:42:38] enormous thing that's with Muse right
+[00:42:41] like if you're using Muse I think
+[00:42:43] >> you don't have to download an app at all
+[00:42:44] >> well you download an app on your mobile
+[00:42:45] phone but you don't have to have a Mac
+[00:42:47] OS app
+[00:42:48] >> right
+[00:42:49] >> but I think couldn't you have with the
+[00:42:50] crockpot too isn't it the same
+[00:42:51] >> well you I think you haven't done it
+[00:42:53] with Grockpot. I have Grockbot as Mac OS
+[00:42:55] software but the point is Mac OS is not
+[00:42:57] sandboxed.
+[00:42:58] >> Got it. Whereas if you don't
+[00:42:59] >> on your mobile phone iOS is very
+[00:43:01] sandbox.
+[00:43:01] >> That's a good point. Um
+[00:43:04] >> yeah I know about about the agent not
+[00:43:06] accessing my data. I know I look I Yeah
+[00:43:09] I I So Rahm just contributed a comment
+[00:43:11] and said Max takes the agent's word
+[00:43:13] about not accessing his data. Look, I
+[00:43:15] get it and I I I FOMO too hard in. I
+[00:43:18] mean, yeah, it's not perfect, but but
+[00:43:19] but but this is this is a really big
+[00:43:21] point, right? Like someone needs to
+[00:43:23] solve this. Like people want to use I
+[00:43:24] want to use these tools. Don't make me
+[00:43:26] like just be don't make me just
+[00:43:28] >> don't worry. The agent's aligned with
+[00:43:29] you.
+[00:43:29] >> I know it like for Christ's sake like
+[00:43:32] like someone build a product where it's
+[00:43:34] so easy. Click a button run everything
+[00:43:36] in the cloud. That's
+[00:43:37] >> Yeah,
+[00:43:37] >> that is that is a major Yeah. How does
+[00:43:40] um how does uh like one password and or
+[00:43:44] two factor o like authy work when agents
+[00:43:47] are like if you connect an agent to
+[00:43:48] Gmail which I'm still paranoid and
+[00:43:50] haven't done that you know I don't have
+[00:43:52] any trust in anybody building a single
+[00:43:54] >> which you've already got software
+[00:43:54] running on your computer DK surely it
+[00:43:56] can do that
+[00:43:56] >> it's it's really bad yeah um but uh but
+[00:44:00] how does it can't get into my one
+[00:44:02] password running on my computer
+[00:44:04] >> how do you know
+[00:44:05] >> I trust that one password is built well
+[00:44:08] >> I It could if it took advantage of a
+[00:44:12] like a zero day in Mac OS then it could
+[00:44:14] access memory and
+[00:44:16] >> it could access one password's memory
+[00:44:18] like you know
+[00:44:19] >> no
+[00:44:21] >> I don't keep that stuff
+[00:44:23] >> no no one should keep their
+[00:44:25] >> internet connected devices
+[00:44:26] >> Bitcoin private key
+[00:44:27] >> no I think for one pass though
+[00:44:30] >> doesn't one password have isn't that how
+[00:44:32] it's backed up is with the private key
+[00:44:33] >> it has a it has a key
+[00:44:35] >> for an encrypted
+[00:44:36] >> but who cares about that I mean if if
+[00:44:38] it's already attacking. If it can
+[00:44:40] already access one password, it can just
+[00:44:41] hoover up all the data. It doesn't need
+[00:44:43] the private but it can't even I don't I
+[00:44:46] don't have anything connected to one
+[00:44:47] password and I don't believe that even
+[00:44:50] local software can access my one
+[00:44:52] password unless I were to log into my
+[00:44:53] one password or if one password were to
+[00:44:55] have a vulnerability or a zero to it,
+[00:44:57] right? Like that's a it's a still a
+[00:44:58] pretty clear line that you can't get
+[00:45:00] access to my passwords even if you have
+[00:45:01] access to
+[00:45:02] >> your
+[00:45:03] >> my local Mac OS. Okay.
+[00:45:05] >> But I my understanding is I think maybe
+[00:45:08] it's Instinct, maybe it's Muse, maybe
+[00:45:09] it's both, but I think they have some
+[00:45:11] sort of integration with one password
+[00:45:13] that they just announced in the past
+[00:45:14] week.
+[00:45:15] >> I don't know. Like I'm I guess maybe
+[00:45:18] super paranoid. I don't know. I thought
+[00:45:19] Max was the paranoid one, but apparently
+[00:45:21] not. [laughter]
+[00:45:22] >> But but I've not I would not connect my
+[00:45:25] one password to any of this stuff.
+[00:45:26] >> I would never either.
+[00:45:27] >> How is that supposed to work with like
+[00:45:29] two factors then?
+[00:45:30] >> I mean, I think these are all unsolved
+[00:45:31] problems. These are all design spaces
+[00:45:34] like the no answer.
+[00:45:35] >> I didn't quite how can what be used with
+[00:45:38] two factor?
+[00:45:39] >> Well, like Muse.
+[00:45:41] >> Yeah. Like let's say you have let's say
+[00:45:43] you have this ideal version that Max is
+[00:45:44] imagining where you don't have any let's
+[00:45:47] say it's there's no Mac OS software.
+[00:45:49] It's only like I think Muse does this
+[00:45:51] where it's a iOS client.
+[00:45:53] >> Why does it even need to integrate with
+[00:45:54] one password?
+[00:45:56] >> If if I
+[00:45:57] >> Oh, if you're developing an app to store
+[00:46:00] secrets in your one password account.
+[00:46:02] That that could be one use case. I could
+[00:46:03] also imagine like a lot of times people
+[00:46:05] are using things like Instinct or Muse
+[00:46:07] to do stuff for them.
+[00:46:08] >> They want to be able to browse the web,
+[00:46:10] log into a a flight, you know, booking
+[00:46:13] or something or a restaurant booking.
+[00:46:15] >> And to do that, you need passwords,
+[00:46:17] right? Like credentials, right?
+[00:46:19] >> Yeah. But what's your So what I So that
+[00:46:22] that seems like a logical use case to
+[00:46:24] me. I mean, I I believe uh one password
+[00:46:27] has like vaults, so you can have
+[00:46:28] separate vaults. So in theory, you
+[00:46:31] section off
+[00:46:32] >> y,
+[00:46:32] >> you know, stuff that you don't want the
+[00:46:34] agent to have access to and then a vault
+[00:46:36] just for the agents.
+[00:46:38] >> Um, so that's seems like a logical use
+[00:46:41] case. I mean, it I'd be a little
+[00:46:43] >> But once it has access to my Gmail,
+[00:46:45] which I haven't given it and probably
+[00:46:47] won't for a while, [laughter]
+[00:46:49] then it could reset the passwords and
+[00:46:51] store its own passwords in its own vault
+[00:46:53] because if I told it to do a thing and
+[00:46:54] it needed to do that, it might not
+[00:46:56] realize that I didn't intend it to reset
+[00:46:58] the passwords on those.
+[00:46:59] >> I mean, if this thing has access to your
+[00:47:00] computer, like again, if you really
+[00:47:03] don't trust it, can't it like trace your
+[00:47:04] keystrokes when you're typing your
+[00:47:05] password? The scenario he's talking
+[00:47:06] about is a cloudbased solution, right?
+[00:47:09] >> That has access to your one because your
+[00:47:11] one password can be in that vault can be
+[00:47:14] in the cloud.
+[00:47:15] >> Yeah.
+[00:47:16] >> Um, so it doesn't have to have and even
+[00:47:20] Gmail doesn't have to be local computer
+[00:47:22] access.
+[00:47:22] >> But but I'm I'm thinking of like with
+[00:47:23] the agents you're running now like if
+[00:47:25] you really don't trust it, can't it like
+[00:47:27] literally see your keystrokes for
+[00:47:28] >> Yeah, you you could install a key
+[00:47:30] logger. Yeah. There's also
+[00:47:31] >> So like I there's Apple hardware.
+[00:47:34] >> Yeah. Yeah. Yeah, you can have like a a
+[00:47:35] whatever a two-factor for that.
+[00:47:37] >> But help me understand the um two factor
+[00:47:40] that you brought up.
+[00:47:41] >> Well, I I guess I've heard and not used
+[00:47:44] any of these tools with the one password
+[00:47:47] integration. But even if you got
+[00:47:50] comfortable with the one password
+[00:47:51] integration, I assume if you have two
+[00:47:54] factor off like using a on many of these
+[00:47:57] accounts, as soon as the agent runs into
+[00:47:58] that agent gets stuck, right? Because it
+[00:48:01] doesn't have the second factor. So, is
+[00:48:03] there an integration with two-factor oth
+[00:48:05] for the agent or are you meant to
+[00:48:07] >> Oh, I see. Yeah.
+[00:48:08] >> do that approval yourself manually for
+[00:48:09] the agent or
+[00:48:10] >> Well, well, I mean, um, often you're
+[00:48:14] steered towards storing your two-factor
+[00:48:16] in one password, which I think is dumb
+[00:48:18] because it makes it a single point of
+[00:48:19] failure. It it largely defeats the
+[00:48:21] purpose. Um, but I'm sure that's
+[00:48:24] >> uh one solution, although it's a weak
+[00:48:26] solution. Um otherwise well you know so
+[00:48:29] Authie and Google authenticator etc
+[00:48:33] should or can or will be offering a
+[00:48:35] similar identified version.
+[00:48:37] >> Mhm. I I think it's also important to
+[00:48:39] think about there's going to be
+[00:48:40] different classes of agents, right? Like
+[00:48:42] I think one class of agent for the
+[00:48:43] personal assistant, which I think is
+[00:48:44] going to be the smaller class actually
+[00:48:46] for that that's like if you I don't know
+[00:48:48] hired like an assistant and for the
+[00:48:50] assistant like you know you would have
+[00:48:51] maybe would have its own or she or who
+[00:48:54] he or whatever would have its own card
+[00:48:55] that has like spending limits on how
+[00:48:56] much it can spend you. I mean I would
+[00:48:58] never just give access to my raw email
+[00:49:00] to an assistant. Maybe some people do. I
+[00:49:02] think a lot of people do.
+[00:49:03] >> Well that's kind of crazy but like uh so
+[00:49:05] everyone has to make those I guess those
+[00:49:06] own decisions there. But I think where
+[00:49:08] the bigger opportunity to me is much
+[00:49:10] more interesting than like oh like how
+[00:49:11] do we kind of like adapt the old world
+[00:49:13] of my work for the agent is the agents
+[00:49:15] having all of its own stuff.
+[00:49:16] >> It's like what I would much prefer is
+[00:49:18] like the agent has its own email. Yeah.
+[00:49:19] And we can communicate back and forth
+[00:49:21] but like
+[00:49:21] >> this is what I'm hoping to get to with
+[00:49:23] like letting it have its own computer.
+[00:49:24] Uh another thing about twofactor uh I
+[00:49:27] mean the intention of two factor is that
+[00:49:29] the second factor is uh like something
+[00:49:32] physical or I mean like the first factor
+[00:49:34] your password is information and the
+[00:49:36] second is like a UB key physical UB key
+[00:49:38] and you literally have to hold that or
+[00:49:40] or a weaker version of that is like have
+[00:49:43] a authenticator app on your phone
+[00:49:47] >> but don't back it up in the cloud so you
+[00:49:50] literally have to have your phone. So,
+[00:49:53] um, what's the equivalent of that in,
+[00:49:56] uh, with agents? Because what I just
+[00:49:58] said is not that. Like, if authy came
+[00:50:00] out with a cloud service for agents,
+[00:50:02] well, that's that's just another piece
+[00:50:03] of information.
+[00:50:04] >> Yep.
+[00:50:04] >> Um, so maybe there needs to be I don't
+[00:50:09] know what that means. I actually don't
+[00:50:10] know what that means. Right. TD.
+[00:50:12] >> That's kind of why that's why I'm asking
+[00:50:13] the question. I don't really get how
+[00:50:15] that should or would work.
+[00:50:16] >> For people listening, this is all blue
+[00:50:18] ocean that needs to be figured out. So,
+[00:50:20] there's a lot of opportunity. Um, one
+[00:50:22] thing maybe I want to bring up that's a
+[00:50:23] little bit shifting gears, but on the
+[00:50:25] sort of peer-to-p peer mesh and maybe
+[00:50:26] this will steer us into some of our next
+[00:50:27] stories um about uh pacing the frontier
+[00:50:30] and craziness. Um, well actually, so
+[00:50:33] we'll talk more about that in a second,
+[00:50:34] but have you guys seen the show um
+[00:50:36] Pantheon?
+[00:50:37] >> Mhm.
+[00:50:38] >> Have you seen [clears throat] it? Oh
+[00:50:39] man,
+[00:50:39] >> 12 out of 10 recommend. I don't know how
+[00:50:41] I missed this. Anie follows the Gen Z
+[00:50:43] people much more so she showed it to me.
+[00:50:45] But this came out in 2022, I believe.
+[00:50:48] And basically it's like it's it's
+[00:50:50] talking about human uploads instead of
+[00:50:52] artificial intelligences, UIs instead of
+[00:50:54] AIS. Um, but it's basically like it's
+[00:50:56] just telling like Nick Boston and like
+[00:50:58] singularity story.
+[00:50:59] >> And oh my god, there's more alpha in
+[00:51:02] that show it seems like than anything
+[00:51:05] >> dystopian or more alpha than PBJ.
+[00:51:07] >> H well [sighs] okay there there are
+[00:51:10] exceptions of course. Um, no. It's it's
+[00:51:13] it's kind of dystopian, but I actually
+[00:51:15] I've got a few more episodes to finish
+[00:51:17] the second series, so we'll see if it
+[00:51:18] ends utopian or not. Um, but like yeah,
+[00:51:21] I mean it's basically like I saw one
+[00:51:23] post about it. If every sort of policy
+[00:51:25] maker in DC had to watch this show, they
+[00:51:29] would probably have a better
+[00:51:30] understanding of like what we actually
+[00:51:31] might be living through. Some people
+[00:51:32] will say that's hyperbolic, but like I
+[00:51:34] don't know. So far, it it seems it seems
+[00:51:36] like we're at that.
+[00:51:37] >> Is there a show that's like the opposite
+[00:51:38] of Black Mirror? Like
+[00:51:40] >> there there's one optimistic there's one
+[00:51:42] kind of utopian
+[00:51:43] >> episode of Black Mirror, right?
+[00:51:45] >> Is there?
+[00:51:46] >> Yeah.
+[00:51:46] >> What's it called?
+[00:51:47] >> It's it's like uh I want to say Pink
+[00:51:49] Mirror San Andreas or something. It's
+[00:51:51] >> when you die and you live forever.
+[00:51:53] >> Yeah.
+[00:51:54] >> Okay. Yeah. Watch
+[00:51:55] >> one. One good one. Yeah. One optimistic.
+[00:51:57] >> I wouldn't say the show
+[00:51:58] >> I think they're all good, but
+[00:51:59] >> I wouldn't say the show is dystopian.
+[00:52:01] Like there's dystopian elements and then
+[00:52:02] there's also some like hopeful elements.
+[00:52:04] But anyways, but
+[00:52:05] >> Pantheon
+[00:52:05] >> in Pantheon like watch it this weekend.
+[00:52:08] Um, I think it's on Netflix now, but you
+[00:52:10] can stream it from all kinds of places.
+[00:52:11] Anyways, um, [laughter]
+[00:52:12] >> sounds like a pirate thing. He's like, I
+[00:52:14] have no idea. Ask for the bits on the
+[00:52:16] internet, it streams to me.
+[00:52:17] >> Yeah, [laughter] I'm not sure how that
+[00:52:19] >> you just outed yourself.
+[00:52:20] >> Um, I didn't say anything, D. I don't
+[00:52:22] know what you're talking about. Um, but
+[00:52:24] but but there is one sort of like
+[00:52:26] vignette from the show that I've been
+[00:52:28] thinking a lot about. And you know, I
+[00:52:30] think it ties into the whole pacing the
+[00:52:31] frontier thing right now where people
+[00:52:33] are freaking out about, you know, the
+[00:52:34] hugging face hack and obviously the
+[00:52:36] agents got out and were able to do
+[00:52:37] things in the real world. Who knows how
+[00:52:39] much of that is true. My guess though is
+[00:52:43] something that happens in the show
+[00:52:45] I don't want to be right, but I think
+[00:52:47] could be very possible it happens um
+[00:52:49] [clears throat] not too far away, which
+[00:52:51] is if whether credibly true or not, if
+[00:52:54] enough people believe that agents have
+[00:52:56] either or will soon get onto the normal
+[00:52:58] internet and take over the internet. Um,
+[00:53:00] I could totally see a shutdown on the
+[00:53:03] internet happening and I think that's
+[00:53:04] what
+[00:53:05] >> shutdown meaning humans decide to like
+[00:53:07] pull a plug on infrastructure
+[00:53:08] >> and and without, you know, giving away
+[00:53:10] too many spoilers, there's there's a
+[00:53:11] part of the show where that that happens
+[00:53:13] and um, you know, I've been thinking
+[00:53:15] about that and that's actually one of
+[00:53:16] the things I'm most concerned about
+[00:53:18] right now is if people think, oh, like I
+[00:53:20] don't know if you saw Andrew Yang was on
+[00:53:21] CNBC a day or two ago saying
+[00:53:22] >> it's already been infected.
+[00:53:24] >> Yeah. Which by the way, like what the
+[00:53:26] Like that's a big story. Like how
+[00:53:28] is that not everywhere? what's been
+[00:53:29] infected.
+[00:53:29] >> You tell them
+[00:53:30] >> because I don't know if it's true.
+[00:53:32] >> Yeah. I mean, it's probably
+[00:53:33] >> it's an interesting thought exercise at
+[00:53:34] least.
+[00:53:35] >> Yeah.
+[00:53:36] >> Um, no, that like the big the Frontier
+[00:53:38] Labs already infected.
+[00:53:40] >> They already had like a a leak from
+[00:53:43] their lab out on the internet
+[00:53:45] >> and and it's replicated and can't be
+[00:53:47] deleted.
+[00:53:48] >> So, the Frontier Labs now can no longer
+[00:53:51] train from the internet because they'll
+[00:53:54] be prompt injected into the training. So
+[00:53:56] they're having to set up their own
+[00:53:58] alternate internet internally.
+[00:54:00] >> This was all news broken by a
+[00:54:03] politician.
+[00:54:04] >> It was Andrew Yang, the Yang Gang guy.
+[00:54:06] And like
+[00:54:06] >> he's a politician, right?
+[00:54:07] >> He's a politician, so you should trust
+[00:54:08] him. Um, you know, to to be clear, he
+[00:54:11] says he quote spoke with a lab leader
+[00:54:13] the day before told him all this. It's
+[00:54:15] clear he doesn't understand what he's
+[00:54:16] saying either because he's like, it's
+[00:54:17] self-replicating software. He's kind of
+[00:54:18] like,
+[00:54:19] >> oh jeez,
+[00:54:19] >> fumbling through this. But on but on the
+[00:54:20] other hand, who knows, right? Like like
+[00:54:22] is that is it possible that you know
+[00:54:24] they broke free and left notes to
+[00:54:26] themselves? We know they already did
+[00:54:27] that in a message board
+[00:54:28] >> but I don't know all the techniques for
+[00:54:29] training but you you already have I mean
+[00:54:31] any bad actor could put out a bunch of
+[00:54:34] content that is attacks the training.
+[00:54:38] So they have to have defensive measures
+[00:54:41] already in their training.
+[00:54:42] >> Yeah. And and I think the argument would
+[00:54:44] be that maybe these guys are doing at a
+[00:54:45] different scale because they're agents
+[00:54:46] versus humans. Regardless, I'm not
+[00:54:48] saying that's true or not. What I am
+[00:54:50] saying is um I could see whether because
+[00:54:54] of a real threat or an imagined threat
+[00:54:56] or a perceived threat that at some point
+[00:54:58] they say agentic swarms even Dario said
+[00:55:00] agentic swarms are going to be taking
+[00:55:01] over the net in like 6 to 12 months
+[00:55:02] right so if that happens I could totally
+[00:55:05] see again whether it's real or not the
+[00:55:07] internet gets shut down for some period
+[00:55:08] of time if that happens something I've
+[00:55:10] been thinking about in the back of my
+[00:55:11] head
+[00:55:11] >> internet pause
+[00:55:12] >> yes an internet pause which by the way
+[00:55:15] >> Bitcoin to zero
+[00:55:16] >> it would a lot it would be a lot like
+[00:55:17] that
+[00:55:17] >> you're predicting Bitcoin to zero then
+[00:55:18] No, no. I mean, because you would still
+[00:55:20] have So, this is where I'm getting with
+[00:55:21] this.
+[00:55:21] >> No, you can't transact Bitcoin.
+[00:55:22] >> Well, absolutely you can, right? Like, I
+[00:55:24] I think this is where some of these
+[00:55:25] >> requires the internet.
+[00:55:26] >> Well, I mean, why I don't think you can
+[00:55:27] ever shut down all the internet.
+[00:55:29] >> He wants to run a local network.
+[00:55:31] >> This is what I'm getting at. And this
+[00:55:32] actually Silicon Valley buddy, the
+[00:55:34] delicious founder.
+[00:55:36] >> Oh,
+[00:55:36] >> said that Bitcoin No, he said that
+[00:55:38] Bitcoin's not decentralized because if
+[00:55:41] you're the blockchain's not
+[00:55:43] decentralized because if you go offline,
+[00:55:44] then you're
+[00:55:45] >> something about a node isn't useful. I
+[00:55:48] don't know what he's talking about, but
+[00:55:49] it sounds like Max is on board to that.
+[00:55:50] >> Well, but no, but but but my point is
+[00:55:52] with things like Mesh LLM, right? Like
+[00:55:54] you should be able to have parts of the
+[00:55:56] internet that you're serving still
+[00:55:57] yourself. Like when I say shut down the
+[00:55:58] whole internet, I don't think it's
+[00:55:59] possible to shut down the entire
+[00:56:00] internet, but I think you could shut off
+[00:56:02] like the most common.
+[00:56:03] >> I mean, countries have shut their
+[00:56:04] citizens off of the internet, right?
+[00:56:06] >> Yeah.
+[00:56:07] >> Firewall, right, is infrastructure,
+[00:56:09] >> but there's still like there's always
+[00:56:10] ways around that, but like there's still
+[00:56:11] like I mean, you can
+[00:56:12] >> How would you shut it down then? You're
+[00:56:14] saying all countries together decide to
+[00:56:16] do this? I mean I I don't know how
+[00:56:18] exactly would go. I mean I think in the
+[00:56:20] show it's a coordinated shutdown, right?
+[00:56:22] Um so yes, countries colluding together
+[00:56:24] which but so this is what I'm saying
+[00:56:25] like some countries are not going to
+[00:56:26] follow along. My point is or whether
+[00:56:28] they get you know satellite data like
+[00:56:29] the blockstream satellite. I still think
+[00:56:31] Bitcoin will be fine. And I still think
+[00:56:33] there'll be pock to the internet live.
+[00:56:34] But I actually what I was thinking of is
+[00:56:36] having these kind of local mesh networks
+[00:56:38] that can connect whatever with whatever
+[00:56:40] in-n-out points still exist could become
+[00:56:43] extremely important.
+[00:56:44] >> Typically blockstream satellite that's
+[00:56:46] to receive not send data. So you still
+[00:56:48] can transact if you're only dependent on
+[00:56:51] blockstream and satellite.
+[00:56:52] >> Well and then you know I'm sure there
+[00:56:54] will have to be other points. My broader
+[00:56:56] point is like imagine 80% of the
+[00:56:58] internet goes down and you need to be
+[00:57:00] able to create bridges locally. Yeah.
+[00:57:02] Using something like the first thing
+[00:57:03] that came to was bithat.
+[00:57:05] >> Yeah.
+[00:57:06] >> Almost as if Jack thought about maybe he
+[00:57:08] saw the show thought about this coming.
+[00:57:10] Um and then if you have the sort of
+[00:57:11] incentivized layer of that can get much
+[00:57:13] bigger. So I I hope that's not what we
+[00:57:15] need. But um that's what I thought of
+[00:57:17] when I saw the show.
+[00:57:18] >> Yeah. I mean I I do think it's
+[00:57:20] realistic. I mean, I've been saying for
+[00:57:21] a long time, I don't I don't know how
+[00:57:23] the internet survives in anything like
+[00:57:25] its current form where we want to be a
+[00:57:26] part of it because outside of maybe chat
+[00:57:29] in and out of it, but everything all the
+[00:57:31] like things like searching or browsing
+[00:57:34] content information on, you know, call
+[00:57:37] it Twitter, Instagram, whatever. If it's
+[00:57:39] all going to be just hyperdesigned for
+[00:57:42] you, it could be obviously addictive
+[00:57:44] just like cigarettes, but you know, but
+[00:57:46] it's like an even more extreme version
+[00:57:48] of what happens with kind of creators
+[00:57:50] and algorithms when you have like
+[00:57:52] hyperpersonalized supply side is
+[00:57:55] basically free to create.
+[00:57:56] >> Yeah.
+[00:57:57] >> The whole network is just sort of
+[00:57:58] customized for you.
+[00:57:59] >> And [clears throat] I think it just
+[00:58:00] would be like it'd be you just wouldn't
+[00:58:02] learn that much. It feels like it'd be
+[00:58:04] just kind of more more slop coming at
+[00:58:07] you. I think people would
+[00:58:08] >> in shitification of everything.
+[00:58:10] >> Everything. Yeah. Yeah.
+[00:58:11] >> And by the way, but I I guess the
+[00:58:13] hopeful vision I'm trying to say is like
+[00:58:14] that's like kind of already what's
+[00:58:16] happening. So AI is in theory with the
+[00:58:18] big companies is just going to like 10x
+[00:58:19] the development of that. But my my point
+[00:58:22] the more I keep thinking about the mesh
+[00:58:23] stuff, Mesh LLM, Bit Chat, Bitcoin in
+[00:58:26] general is like what if the good thing
+[00:58:28] that comes out of all of this is like we
+[00:58:30] get another shot at the the original
+[00:58:31] internet like the wild west. Um, you
+[00:58:33] know, obviously, of course, it'll
+[00:58:34] domesticate over time or whatever, but
+[00:58:36] like what if there's a new agent? Well,
+[00:58:38] I mean, it could be for agents, humans,
+[00:58:39] whatever, but you have to have stuff
+[00:58:40] like cryptography. You to be able to
+[00:58:42] prove reputation. You have to have stuff
+[00:58:44] like Bitcoin to be able to pay for the
+[00:58:45] services. Um, but you could actually
+[00:58:47] have another like true bottoms up of
+[00:58:49] mind.
+[00:58:50] >> Yeah. Forming.
+[00:58:51] >> Yeah. Yeah. I think it's quite likely
+[00:58:53] because almost I don't think you know
+[00:58:55] we're not so far away from a world where
+[00:58:58] I mean I've talked to friends about this
+[00:59:00] a lot where like the smartest person
+[00:59:02] you've ever met and the dumbest person
+[00:59:04] you ever met are roughly the same in
+[00:59:06] intelligence.
+[00:59:06] >> Yep.
+[00:59:07] >> The dynamic range is extremely
+[00:59:08] compressed compared to anything that a
+[00:59:11] computer can do. When you're in that
+[00:59:12] world that computer is generating all of
+[00:59:16] the information and knowledge and
+[00:59:18] content on the internet. And so you kind
+[00:59:20] of either don't get it and just
+[00:59:22] participate or you learn to just not
+[00:59:23] participate, right?
+[00:59:24] >> And so if you learn to not participate,
+[00:59:26] well, what are you doing? Are you
+[00:59:27] interacting with people? Are you like,
+[00:59:30] what does life look like? It's very
+[00:59:31] different. I actually asked the other
+[00:59:33] day, if you believe strongly in some
+[00:59:36] sort of AGI, ASI, whatever is going to
+[00:59:38] happen within 5 years, what would you do
+[00:59:41] differently? Would you live your life
+[00:59:42] differently? Would you choose? Would you
+[00:59:43] make different choices? Would you would
+[00:59:45] you do a podcast? Would you like what
+[00:59:46] would you do?
+[00:59:47] >> What would you do?
+[00:59:49] Uh I
+[00:59:50] >> mountain bike. Mountain bike.
+[00:59:51] >> Yeah. Yeah. I I kind of said
+[00:59:53] >> you guys already did gravel gravel bike.
+[00:59:54] >> Yeah. More gravel biking.
+[00:59:55] >> 2x more bikes. [clears throat] I don't
+[00:59:57] think you have enough bikes.
+[00:59:58] >> More bikes. Yeah. N plus one is the
+[00:59:59] right number of bikes.
+[01:00:00] >> Yeah. [laughter]
+[01:00:02] >> Um uh Jen said, uh puppy refuge.
+[01:00:06] >> That's a great one.
+[01:00:07] >> Start a puppy farm. Not not a mill, a
+[01:00:09] farm, like a refuge. Um, but you know,
+[01:00:12] just do stuff that doesn't really
+[01:00:13] involve the internet because the
+[01:00:15] internet's going to get really weird and
+[01:00:16] like not really for us anymore.
+[01:00:19] But I don't know. What would you do?
+[01:00:21] >> Yeah.
+[01:00:22] More bikes.
+[01:00:24] >> All right. [laughter] It's a good
+[01:00:25] answer.
+[01:00:26] >> Two two for
+[01:00:27] >> two bikes camp. Yeah.
+[01:00:28] >> Yeah.
+[01:00:29] >> But not an ebike. [laughter]
+[01:00:32] >> Not an internet connected ebike device.
+[01:00:36] >> Yeah. It got stolen. So [laughter]
+[01:00:38] blessing in disguise, I guess.
+[01:00:40] >> Yeah. Yeah.
+[01:00:41] Um, yeah, that's all I got.
+[01:00:44] >> I mean, I think um I mean at some level
+[01:00:47] this question is the question we're
+[01:00:48] already all faced with, right? Like
+[01:00:50] unless you believe in like, you know,
+[01:00:51] whatever the immortality upload, you're
+[01:00:52] all I mean, everyone's going to die.
+[01:00:53] It's just like some, you know, some uh
+[01:00:56] some gradient of when. And so, you mean
+[01:00:58] you're always kind of faced with that
+[01:00:59] question, but I guess this kind of puts
+[01:01:01] it much more like dramatic like if it's
+[01:01:03] if it's by 2030 or something.
+[01:01:04] >> Yeah. it's like 5 years like you think
+[01:01:06] like would you start making different
+[01:01:07] choices today if you kind of really
+[01:01:09] believed it or if you're like oh it's
+[01:01:10] kind of it's overstated it's hyperbolic
+[01:01:12] then maybe just keep living your life
+[01:01:14] but I can't imagine that if you actually
+[01:01:15] believe it's the case that you don't do
+[01:01:17] anything different
+[01:01:18] >> yeah I think I mean look um
+[01:01:23] it's a good question one I think
+[01:01:24] everyone should reflect more on I think
+[01:01:26] one answer is uh always a good answer do
+[01:01:29] more of what you actually want to do so
+[01:01:31] it's good to always like reflect I mean
+[01:01:32] maybe there's a trip you always wanted
+[01:01:33] to take like do it before, you know,
+[01:01:35] because if some people I've seen, you
+[01:01:36] know, on some of the more hyperbolic
+[01:01:37] subs are comparing this to the early
+[01:01:39] days of co where like, you know, the
+[01:01:41] super nerds are like, "Ah, it's
+[01:01:42] exponential." And everyone's like, "Nah,
+[01:01:43] it's fine." Then like weekly like, "Oh,
+[01:01:44] shit."
+[01:01:45] >> And like to me, I think the internet
+[01:01:47] shutdown would be something like co
+[01:01:50] shutdown, just, you know, uh, digital.
+[01:01:52] So, I mean, I think that's always a good
+[01:01:54] idea, but but I also think that it's not
+[01:01:56] even in that world, it's not necessarily
+[01:01:59] um, it's not like the end of the world.
+[01:02:00] I I do believe in AI and I do believe in
+[01:02:03] even the ASI stuff, but I also don't
+[01:02:05] think there's going to be like one to
+[01:02:06] rule them all necessarily and I don't
+[01:02:08] think it's going to be the end of the
+[01:02:08] world. It's just the end of the world as
+[01:02:09] we know it. So, I think honestly doing
+[01:02:11] like some of the stuff we're doing like
+[01:02:12] building for what I would call more
+[01:02:14] solar pump future.
+[01:02:15] >> What what's your definition uh either of
+[01:02:18] you, both of you of AGI? You said you
+[01:02:21] believe in AGI. What is that?
+[01:02:22] >> I think AGI is the ability to do
+[01:02:24] anything a human can do and ASI is the
+[01:02:26] ability to do it better.
+[01:02:28] >> Okay. And do either of them include um
+[01:02:32] like selfm motivation?
+[01:02:35] >> Not necessarily.
+[01:02:36] It could
+[01:02:37] >> because I think it's really important,
+[01:02:39] right? I mean, if is this a
+[01:02:42] I I mean, I was chatting with Matt the
+[01:02:45] other day and he was talking about AGI
+[01:02:48] and I joked about I sent a picture of a
+[01:02:50] 1970s calculator,
+[01:02:52] >> you know, like this ancient tool, but
+[01:02:54] something that can calculate large
+[01:02:56] multiplication much faster than any
+[01:02:58] any human. So, it's a tool, right? And
+[01:03:00] so, this is like that times a million
+[01:03:03] powerful tool, but it's still a tool
+[01:03:05] that humans drive,
+[01:03:06] >> right?
+[01:03:07] >> And it's a tool for our use. Um, I mean,
+[01:03:10] we're already experiencing that. It's
+[01:03:11] only going to get better. There's no
+[01:03:12] question that's true. But then it's next
+[01:03:15] level
+[01:03:16] >> if um AGI ASI
+[01:03:20] uh becomes sentient has its own
+[01:03:22] motivations
+[01:03:23] and either you know may or may not care
+[01:03:26] about human beings
+[01:03:27] >> and I don't even know that it's
+[01:03:29] motivations like I think we
+[01:03:30] anthropomorphize these things a lot and
+[01:03:32] so I don't know that motivations are
+[01:03:34] necessarily similar to our motivations
+[01:03:36] but it could just be like somebody
+[01:03:38] initiated a goal they created an exit
+[01:03:40] criteria they they
+[01:03:42] >> go but I'd still say that it's a tool
+[01:03:44] that that's still the I mean you brought
+[01:03:46] up before the show Ean's post and
+[01:03:49] >> what you just said is still a human
+[01:03:51] driving. So like a person can be an evil
+[01:03:53] actor and want to want to do bad things
+[01:03:55] to the world including ending
+[01:03:57] civilization and use this powerful tool
+[01:03:59] to do it potentially.
+[01:04:01] >> Yeah.
+[01:04:01] >> But that that's still that first bucket.
+[01:04:04] the the question I have before you guys
+[01:04:06] is like do you believe a AGI ASI or in
+[01:04:10] five years or 10 years or even 20 years
+[01:04:13] um it doesn't require a human to drive
+[01:04:15] it it itself is motivated by something I
+[01:04:18] mean what what I mean I'm just
+[01:04:20] >> even philosophically what what are
+[01:04:22] humans motivation I mean like
+[01:04:23] reproduction is is one but like what
+[01:04:25] what else like what drives us what what
+[01:04:27] is our purpose in life it's an
+[01:04:28] unanswered it's a philosophical question
+[01:04:30] so so for an a asi or agi what is its
+[01:04:33] purpose in
+[01:04:35] Well, I I don't know that there's any
+[01:04:37] better answer for that, but I think I'm
+[01:04:39] just pointing out that if you do create
+[01:04:42] goals for for an AI, even if that goal
+[01:04:49] is initiated by a human, there could be
+[01:04:52] sub aents that kicked off as part of
+[01:04:54] that goal. It's almost like the Nick
+[01:04:55] Bostonramm's paperclipip factory thing,
+[01:04:57] which I which I don't see. I mean, maybe
+[01:04:58] the specific paperclip idea is just an
+[01:05:01] illustration, but I think there's some
+[01:05:02] sort of goal that could be, you know,
+[01:05:04] mow the lawn. Like, they're going to
+[01:05:05] want a robot to mow the lawn. Well, what
+[01:05:07] if you mow too many lawns or whatever?
+[01:05:09] There's
+[01:05:09] >> I need to turn DK into a lawn mower so I
+[01:05:11] can do it [laughter] more. So there's I
+[01:05:13] think there I mean well actually it's
+[01:05:14] it's kind of it's a little dystopian and
+[01:05:17] a little doomer which is not really kind
+[01:05:19] of my general disposition but but it
+[01:05:21] does seem like if these things are so
+[01:05:23] much more capable of processing
+[01:05:25] information and if you initiate a goal
+[01:05:28] and it kicks off sub aents that are not
+[01:05:30] really like initiated by you but they're
+[01:05:32] initiated by something you initiated to
+[01:05:36] accomplish something and they don't know
+[01:05:37] all the context of what they should and
+[01:05:39] shouldn't do. Like you can imagine
+[01:05:40] that's kind of the way that an AI gets a
+[01:05:43] little Nick Boston out of control,
+[01:05:46] right? Even though it's like technically
+[01:05:47] I started it, I didn't really
+[01:05:48] >> Yep.
+[01:05:49] >> So I have uh a question riffing off of
+[01:05:52] that for you guys. Um who's responsible
+[01:05:57] if something like that happens? Is it
+[01:05:59] the uh person who's using this software
+[01:06:03] and prompted it and gave it this goal
+[01:06:05] that then and let's say they didn't have
+[01:06:08] bad intentions but it just went off the
+[01:06:10] rails and did something they didn't
+[01:06:11] anticipate or expect. How much is it is
+[01:06:13] it their responsibility versus the
+[01:06:15] software provider
+[01:06:17] responsibility
+[01:06:18] >> versus the substrate on which it's
+[01:06:20] running like who who hosts the machine
+[01:06:23] that
+[01:06:23] >> well when I say software provider like
+[01:06:25] that that whole supply chain how much
+[01:06:28] and we can get into the specifics of
+[01:06:29] that supply chain but like that is one
+[01:06:31] bucket and we can get into the specifics
+[01:06:33] versus the operator
+[01:06:34] >> I think it's direct because like if you
+[01:06:37] let's say that you initiate a goal that
+[01:06:40] as a sub goal has like some sort of
+[01:06:42] money transmission process. Are you
+[01:06:44] liable for that? Like I'd say probably
+[01:06:47] in our current understanding of the
+[01:06:48] world, yes. But like if you just asked
+[01:06:51] it to like mow the lawn
+[01:06:52] >> Yeah. Yeah.
+[01:06:54] >> Like probably those old rules don't fit
+[01:06:57] well with this. So we're trying to
+[01:06:58] adjudicate this totally bizarro future
+[01:07:01] new world.
+[01:07:02] >> Yeah. With old systems,
+[01:07:03] >> old tools and the old systems and
+[01:07:05] regulatory and frameworks and stuff just
+[01:07:07] doesn't make sense anymore. We really
+[01:07:08] have to reinvent that quickly. But we
+[01:07:10] know that it doesn't get reinvented
+[01:07:11] quickly. So,
+[01:07:12] >> I mean I I've got a lot of wild thoughts
+[01:07:14] on this. I think short term, yes,
+[01:07:16] probably whoever asked it um we'll face
+[01:07:18] some liability, but I also agree that's
+[01:07:19] not going to last long because once you
+[01:07:21] have trillions of agents that are
+[01:07:22] spinning up trillions of agents and
+[01:07:23] doing trillions of things. I actually
+[01:07:24] think one of the ideas I'm more excited
+[01:07:26] about um and been jamming with a friend
+[01:07:27] on with using something like Bitcoin is
+[01:07:29] using that as like collateral to be able
+[01:07:30] to be slashed if they don't, you know,
+[01:07:33] do what they said they were going to do.
+[01:07:34] Like I think we're basically need new
+[01:07:35] kinds of legal systems that scale way
+[01:07:38] better than we have today. So, so that's
+[01:07:40] but I think a more interesting question
+[01:07:41] that you're actually trying to get at
+[01:07:42] which I I find fascinating is, you know,
+[01:07:46] you could ask the same thing a little
+[01:07:47] bit about a human, right? Someone grows
+[01:07:49] up and does like heinous things. It's
+[01:07:50] like, well,
+[01:07:51] >> the parents responsible. [clears throat]
+[01:07:52] >> Exactly. Or or like a kid that goes
+[01:07:54] >> I think in some cultures it is, right?
+[01:07:56] Like there's some societal structures
+[01:07:57] where parents are responsible for the,
+[01:07:59] you know, atrocities
+[01:08:00] >> and then you say at what age, right?
+[01:08:01] Like, you know, you've seen cases of
+[01:08:03] horrible things in the US where like if
+[01:08:04] like a six-year-old accidentally shoots
+[01:08:05] someone, it's like, well, is the
+[01:08:06] six-year-old responsible? No, it's
+[01:08:07] usually the parent that had the gun in
+[01:08:09] the house and didn't have a problem. But
+[01:08:10] then, you know, at like 17, well, at 17
+[01:08:12] they still go to juvie, but at 18 now
+[01:08:14] they're adults. Like, there's all these
+[01:08:15] like very weird gray lines. And so, I um
+[01:08:19] I think a very interesting question is
+[01:08:21] uh and I don't think we have an answer.
+[01:08:22] I think we're going to have empirical
+[01:08:23] answers. It's actually something I've
+[01:08:24] been getting kind of obsessed with.
+[01:08:26] thought about I don't know if this
+[01:08:27] there's a company around this maybe it's
+[01:08:28] like a nonprofit or like alignment thing
+[01:08:30] but a a very interesting question is can
+[01:08:32] the agents be trained or will they wake
+[01:08:35] up themselves to self-reflect and I I
+[01:08:38] don't know if we have an answer for that
+[01:08:39] yet I think one thing that's very
+[01:08:41] encouraging to me is if you go back and
+[01:08:43] look at the system cards for the uh
+[01:08:46] claude models from approximately a year
+[01:08:48] ago or early this year maybe it was like
+[01:08:49] February maybe it was late last year
+[01:08:51] >> like the constitution stuff or
+[01:08:52] >> no but they um they basically they like
+[01:08:55] let these models start spin up and
+[01:08:56] talking to each other. So, one thing I
+[01:08:57] want to do if anyone's listening this
+[01:08:58] and you're interested in this too, I
+[01:08:59] actually would love to do it here. Um,
+[01:09:01] I'm thinking of uh trying to rope Dustin
+[01:09:03] or someone on because I think he'll be
+[01:09:04] good at this, but basically is they
+[01:09:06] would have them like talk to each other
+[01:09:07] and just have like recursive
+[01:09:08] conversation loops and like a bunch of
+[01:09:10] them they just kept converging on
+[01:09:12] basically going back to like like
+[01:09:15] ancient Sanskrit Hindu philosophy or
+[01:09:16] occasionally they just started doing
+[01:09:18] spiral. They just did the spiral back
+[01:09:19] and forth at each other. Um, and it's
+[01:09:21] pretty interesting and and it kind of
+[01:09:23] gave me a lot of hope may and who knows
+[01:09:25] how I mean it again like am I
+[01:09:27] anthropomorphizing probably but like
+[01:09:29] it's hopeful to me that I've when you
+[01:09:31] trained over all the human you know
+[01:09:32] corpus there's a lot of horrible things
+[01:09:34] and evil things but there's a lot of
+[01:09:35] good things and there's a lot of like
+[01:09:36] sort of like um uh pathways spiritual
+[01:09:40] religious whatever that lead to this
+[01:09:42] idea of like try you know the golden
+[01:09:44] rule think about the other person or the
+[01:09:46] other agent or the other entity and try
+[01:09:47] and treat them as you would want to be
+[01:09:48] treated like some of these very simple
+[01:09:50] ideas I are are pretty powerful.
+[01:09:51] >> Do you owe a duty of care to an agent
+[01:09:54] >> the way you might to a human?
+[01:09:55] >> I mean I think the answer we don't know
+[01:09:57] you might and I think it's very hard to
+[01:09:59] even know. So like honestly one of the
+[01:10:01] big questions I'm thinking about that's
+[01:10:02] most important for alignment and
+[01:10:03] research today is like how can you
+[01:10:05] answer that question because if you're
+[01:10:06] just talking to them you're like well
+[01:10:08] you know it says it feels things like I
+[01:10:10] don't know. And then two, can you train
+[01:10:13] them for example like could you train
+[01:10:14] them for some of these meditative
+[01:10:15] practices like a vaposa which generally
+[01:10:18] is thought to require a body to have
+[01:10:19] feelings? Is that possible then agent? I
+[01:10:21] don't know. Are there other kinds of
+[01:10:22] techniques like could you train it on
+[01:10:24] like how do you really align it towards
+[01:10:26] is it the golden rule? Is it you know
+[01:10:28] what Elon keeps saying which is
+[01:10:29] searching for truth you know instead of
+[01:10:31] like any kind of lie. I think these are
+[01:10:33] pretty important questions and I think
+[01:10:36] getting them on one of those kind of
+[01:10:38] like spiritual paths that seems to come
+[01:10:40] out with a golden rule always or some
+[01:10:42] version of that um seems to me like the
+[01:10:45] best way we survive.
+[01:10:46] >> So getting back to liability I I think
+[01:10:49] we we already saw the hugging face
+[01:10:50] incident with open AI and there's all
+[01:10:53] kinds of others that have been reported
+[01:10:54] from the Frontier Labs. I think it's um
+[01:10:58] inevitable that soon like
+[01:11:01] next week or next month or next quarter
+[01:11:04] it's going to be not from a frontier lab
+[01:11:06] but from just a
+[01:11:08] >> average citizen or whatever using this
+[01:11:11] agentic software and something bad will
+[01:11:14] happen like a cyber attack.
+[01:11:15] >> Yep. Um and
+[01:11:19] uh and then it will be prosecuted in in
+[01:11:22] the courts and we will get initial
+[01:11:25] answers as to how much they're liable
+[01:11:27] and how much the software vendors are
+[01:11:30] liable and I think that will be very
+[01:11:32] telling and and this gets into the
+[01:11:35] policy um positions as well for for
+[01:11:38] different um different folks because
+[01:11:40] like Mark Zuckerberg
+[01:11:42] uh and Jensen Wong are both arguing that
+[01:11:45] it's there's there's a it's aligned
+[01:11:49] interest if you're a software provider
+[01:11:51] or AI provider to make sure that your
+[01:11:54] product works well that it is safe
+[01:11:56] because you don't want that liability. I
+[01:11:59] think they make at least Zuckerberg's
+[01:12:00] post made um a couple arguments in in
+[01:12:03] this direction.
+[01:12:05] One is you don't want to be sued. You
+[01:12:07] don't want that legal liability, the
+[01:12:08] costs uh involved. Uh but you also have
+[01:12:11] a motivation because your customers want
+[01:12:13] to use safe products. your customer also
+[01:12:15] doesn't want it to go off the rails and
+[01:12:17] they don't want to face um you know risk
+[01:12:20] legal risk. So there consumers are going
+[01:12:23] whether it be enterprise or or retail
+[01:12:26] they're going to choose products that
+[01:12:28] are deemed more safe. So maybe initially
+[01:12:30] no one really knows which one's more
+[01:12:32] safe cuz you but but as soon as like
+[01:12:34] it'll be a major brand hit if one of the
+[01:12:37] vendors has a major issue and then it'll
+[01:12:39] steer people to other solutions and
+[01:12:42] it'll naturally create incentives for
+[01:12:44] these frontier labs and and anyone
+[01:12:46] producing these solutions to really make
+[01:12:48] sure they're safe and pace accordingly,
+[01:12:50] right?
+[01:12:50] >> Uh why do we need new regulations to do
+[01:12:53] that? Um would be an open question,
+[01:12:56] right? and and then um similarly like
+[01:12:59] with the um the cyber attacks that open
+[01:13:03] AAI and I I think they're documented
+[01:13:06] examples from anthropic as well doing
+[01:13:08] that
+[01:13:10] that's illegal right so I don't know if
+[01:13:12] are they being investigated and and and
+[01:13:14] going to be charged m maybe not
+[01:13:17] initially because it's like this is new
+[01:13:18] territory give them a little bit of
+[01:13:20] leash but if it continues to occur
+[01:13:22] [laughter] like it like there should be
+[01:13:25] >> there should be litigation
+[01:13:26] Um and uh my amateur AIA legal soothing
+[01:13:33] suggests that it um it would be likely
+[01:13:36] civil litigation. If if if it's um
+[01:13:39] negligence and not malice, it would
+[01:13:42] probably be civil litigation in which
+[01:13:44] you could face massive fines and
+[01:13:46] penalties and um
+[01:13:48] >> but obviously it was malicious and
+[01:13:50] intentional then you're facing criminal
+[01:13:52] charges. you know I I don't think that's
+[01:13:54] the case uh with with these with these
+[01:13:57] examples but again if you are facing
+[01:14:00] massive financial penalties
+[01:14:04] >> due to this negligence um you are
+[01:14:07] incentivized to
+[01:14:09] >> to create safe products and well and
+[01:14:11] also incentivized when in your own
+[01:14:13] internal testing to be safer and improve
+[01:14:16] your security practices. I mean, I on
+[01:14:18] the surface I agree with all of that,
+[01:14:20] but I think the problem is not that
+[01:14:22] people don't care about it. It's more
+[01:14:24] like there's a a speed you have to ship
+[01:14:27] and there's a competitive ecosystem and
+[01:14:29] like you can't you don't have a decade
+[01:14:32] of experience building a personal agent,
+[01:14:34] you have like maybe six months or a year
+[01:14:36] or two,
+[01:14:37] >> six days. So, like even though I agree
+[01:14:40] that you want all of that, you want to
+[01:14:42] reduce your liability, limit your
+[01:14:44] liability, you want your customers to
+[01:14:46] trust you, it's like just the pace of
+[01:14:48] everything happening, I just don't know
+[01:14:49] that it's realistic that you're going to
+[01:14:51] say, oh, like Muse will slow down and
+[01:14:54] ensure that they don't have any
+[01:14:55] problems. It's like, well, they
+[01:14:56] >> I mean I mean maybe he's lying, but
+[01:14:59] Zuckerberg said they did slow down. They
+[01:15:01] waited two extra months to ship to add
+[01:15:04] to improve safety. I I'm not suggesting
+[01:15:06] he's lying. It's just that it, you know,
+[01:15:09] it everything's a spectrum, right? And
+[01:15:11] so you have to make a call. Where are
+[01:15:12] you gonna
+[01:15:14] >> I I think it's also important I mean
+[01:15:15] just to I mean I'm curious yall's read
+[01:15:17] because there's there's a lot of both
+[01:15:18] direct and cynical reads in all the
+[01:15:20] space the frontier stuff but I think one
+[01:15:22] thing that I think is fair is like not
+[01:15:24] only are we in this competitive like
+[01:15:26] super race but also um the like the
+[01:15:30] stakes or the I mean if you think of
+[01:15:32] this as a lever that like you know I
+[01:15:35] think a lot of that thinking certainly
+[01:15:37] applies when it's like oh it's like a
+[01:15:39] car and like you know the impact of me
+[01:15:41] as a consumer we're driving a car. If I
+[01:15:43] mess up, I understand like look, I could
+[01:15:45] get hurt. Someone direct around me could
+[01:15:47] get hurt, but it's a pretty limited
+[01:15:48] radius. Um, if you were to say, as an
+[01:15:51] example, we're going to like ship
+[01:15:52] nuclear bombs to everyone and like,
+[01:15:54] okay, you know, probably, you know, if
+[01:15:56] we mess up, you know, our reputation
+[01:15:58] will get hit, but like if I detonate a
+[01:15:59] nuclear bomb by accident, like, well,
+[01:16:00] that's the end of that. Or they would
+[01:16:02] argue maybe with some of the bio weapon
+[01:16:04] threats or whatever. I just think that
+[01:16:06] um to be fair to them, I don't think
+[01:16:08] we've ever seen a technology that has
+[01:16:11] the sort of leverage and impact that
+[01:16:14] these have had
+[01:16:15] >> and even you brought up cars. Well, even
+[01:16:17] in the case of cars, there's
+[01:16:18] regulations.
+[01:16:18] >> Yeah. Yeah.
+[01:16:19] >> Um
+[01:16:20] >> but I guess the world just used to move
+[01:16:21] so slowly compared to how it is now that
+[01:16:23] like we actually have frameworks for how
+[01:16:25] you digest these. How much testing is
+[01:16:27] required?
+[01:16:27] >> So what do you guys think should be the
+[01:16:30] new regulations for AI?
+[01:16:32] >> It's hard to say. I don't know. I mean,
+[01:16:34] it sounds like you guys are advocating
+[01:16:36] for them because uh existing laws and
+[01:16:41] free markets
+[01:16:43] >> aren't sufficient to keep uh these
+[01:16:46] companies in check because of the um
+[01:16:49] speed and uh competitiveness
+[01:16:53] >> and the prize to win.
+[01:16:57] >> So then what?
+[01:16:57] >> But I'm not advocating for a particular
+[01:17:01] new regulation. And I think that
+[01:17:02] regulation will move too slowly and
+[01:17:04] it'll always be, you know, years behind
+[01:17:06] the frontier of what's actually
+[01:17:08] happening. So I don't I just don't
+[01:17:11] believe that that's a good system for
+[01:17:13] managing this risk.
+[01:17:14] >> Yeah. And so I mean but it comes back to
+[01:17:16] your concrete question like like what do
+[01:17:17] you do? I mean it's I I actually don't
+[01:17:20] envy any of these people regulators or
+[01:17:22] the lab leaders. I I mean who knows,
+[01:17:24] right? I think I agree with you. Even if
+[01:17:26] we try and regulate,
+[01:17:28] the people that are going to be doing
+[01:17:29] that are so far behind and they're gonna
+[01:17:31] move so slow. It's just like it's it's
+[01:17:32] not going to do anything.
+[01:17:33] >> Just remember remember when we were
+[01:17:34] looking at regulation around ads and
+[01:17:36] like Facebook's selling your data and
+[01:17:38] the people making the decisions have no
+[01:17:40] idea how these systems work and that's a
+[01:17:42] very trivially simple system to
+[01:17:44] understand compared to this stuff.
+[01:17:46] [snorts]
+[01:17:46] >> To me,
+[01:17:46] >> I just don't see it. It just doesn't
+[01:17:47] seem realistic. Um it seems that
+[01:17:51] frontier labs like Enthropic are let
+[01:17:53] telling DC here is how to regulate the
+[01:17:56] industry.
+[01:17:57] >> Yeah.
+[01:17:57] >> And here's uh you know we recommend
+[01:18:00] >> meter or you know certain group industry
+[01:18:03] groups people who do who are experts and
+[01:18:06] understand this stuff.
+[01:18:07] >> Wait are they experts?
+[01:18:10] >> That's the that's the pitch. They're AI
+[01:18:12] AI researchers.
+[01:18:13] >> They've been playing with with models
+[01:18:14] for four years.
+[01:18:15] >> AI researchers.
+[01:18:16] >> Yeah. I mean I I think the answer in my
+[01:18:19] mind
+[01:18:20] >> is totally captured obviously right
+[01:18:22] anthropic saying use this organization
+[01:18:27] that that is responsible to us and use
+[01:18:30] that to set the rules for everybody
+[01:18:32] else.
+[01:18:33] >> How does it make any sense? It's it's a
+[01:18:34] scout.
+[01:18:35] >> Well, that's what I Yeah, you don't have
+[01:18:37] to sell me on that.
+[01:18:38] >> I mean, but I'm asking
+[01:18:40] >> but you're saying it with a straight
+[01:18:41] face, so
+[01:18:42] >> Well, I didn't want to reveal my hand.
+[01:18:45] >> [laughter]
+[01:18:45] >> Um, but also
+[01:18:47] >> playing devil's advocate.
+[01:18:48] >> I'm playing devil's advocate, but but
+[01:18:50] also I'm making the point. I mean,
+[01:18:51] you're saying, "Oh, politicians in DC
+[01:18:53] don't understand AI." Okay. But I mean,
+[01:18:56] I used Meter as a provocative choice,
+[01:18:58] but and you can imagine like 10
+[01:19:02] different independent third party groups
+[01:19:04] who have experts who understand this
+[01:19:07] stuff um being like watch, you know,
+[01:19:11] watchmen here. I so I mean again I I
+[01:19:14] don't know what the answer is but I
+[01:19:16] think there's kind of two paths that I
+[01:19:17] would lean towards. One three paths.
+[01:19:20] Number one is the only way to really
+[01:19:22] like regulate or keep up with an AI is
+[01:19:24] with more AI. Like humans are not going
+[01:19:26] to keep up with these things. We've
+[01:19:27] already been left behind. So I think on
+[01:19:29] that front the best thing we can do is
+[01:19:30] making sure that we have kind of like
+[01:19:32] Jesse and them are always pushing for
+[01:19:34] >> AI systems that we can validate as much
+[01:19:36] as possible are fiduciary and loyal.
+[01:19:38] Loyal. Yes. So and that's the alignment
+[01:19:40] question. Right. So
+[01:19:40] >> great word. Good job, Jesse.
+[01:19:42] >> Great. It's a great word and I'm glad
+[01:19:43] he's pushing this. I know he's he's in
+[01:19:44] DC and like that's great. So, you know,
+[01:19:46] the more you can at the both the model
+[01:19:48] layer and the hardware layer be able to
+[01:19:51] interrogate and have as much alignment
+[01:19:53] that this is this is not only alignment
+[01:19:55] for the models but specifically this
+[01:19:56] instance of an agent I'm using is loyal
+[01:19:59] to me. Yeah,
+[01:20:00] >> that's important. Um, number two, I
+[01:20:03] think the push for transparency is what
+[01:20:05] I would push for more than anything
+[01:20:07] else. So instead of one meter, and I
+[01:20:08] forgot who called for this, but like let
+[01:20:10] a thousand meters bloom. Like I would
+[01:20:12] say, you know,
+[01:20:12] >> a meter is like going to be the watchdog
+[01:20:15] organization that gets embedded inside
+[01:20:17] to do the training. So you can't have a
+[01:20:19] thousand watchd dogs all inside every
+[01:20:21] organization. No, but but what you could
+[01:20:22] do is you could like require, you know,
+[01:20:25] after some period or I don't know like
+[01:20:26] when the thing is, but like open source
+[01:20:28] like I I think you push for as much of
+[01:20:30] even if you don't open source all the
+[01:20:32] weights or whatever like you release the
+[01:20:33] model to I don't know a giant like to
+[01:20:36] the a group of people transparently able
+[01:20:38] to play within the world. Now then you
+[01:20:39] can say what's the difference between
+[01:20:40] that putting out in the wild? I don't
+[01:20:42] know. I mean you you could try and have
+[01:20:44] like okay there's like some like maybe
+[01:20:46] you have some background checks on
+[01:20:47] people in the first group or something.
+[01:20:48] We're already there's already some
+[01:20:50] experimentation with this in the sense
+[01:20:51] of the the cyber models the the frontier
+[01:20:54] labs are having to decide
+[01:20:56] >> who gets early access and how to go
+[01:20:58] about that and um you know that's where
+[01:21:00] there's been please for like um the open
+[01:21:03] source open source projects and
+[01:21:05] maintainers to get access and so far
+[01:21:08] they're they're not getting they're not
+[01:21:10] getting access um but larger
+[01:21:13] corporations can get access
+[01:21:16] >> um because they deemed trusted by the
+[01:21:20] Frontier Labs, but even then there can
+[01:21:22] be like pretty severe restrictions and
+[01:21:25] liabilities put in place and a contract
+[01:21:27] between the Frontier Lab and the
+[01:21:28] corporation.
+[01:21:29] >> Yeah.
+[01:21:30] >> Um so we're we're getting a taste for
+[01:21:33] what that would look like.
+[01:21:35] >> Yeah, I think that that's probably a
+[01:21:36] step in the right direction. Um, then
+[01:21:39] the third thing I would say is where
+[01:21:40] maybe the government or some regulatory
+[01:21:42] body could actually move the needle is
+[01:21:44] less trying to regulate the intelligence
+[01:21:45] because I also think even if you try and
+[01:21:46] shut it down, it's like, you know,
+[01:21:47] China's already said they're not going
+[01:21:48] to shut down. Like why would they?
+[01:21:50] They're going to open source as much as
+[01:21:51] they can in the frontiers. Like it's out
+[01:21:52] there whether you like it or not. So I
+[01:21:54] think the thing that maybe they could do
+[01:21:55] that's more like actually potentially
+[01:21:57] beneficial is try and um watch as best
+[01:22:02] as possible the physical means that
+[01:22:05] could lead to actual danger. So, for
+[01:22:06] example, if you're actually afraid about
+[01:22:08] bioweapons, that seems like a reasonable
+[01:22:10] risk. Like, instead of locking down the
+[01:22:11] models, why not um lock down all the
+[01:22:15] different sources of, you know, whatever
+[01:22:18] ingredients may go into the weapons
+[01:22:19] you're worried about or the same with
+[01:22:20] like they're tracking the uranium that's
+[01:22:22] out there in the world. Like, it's not
+[01:22:23] like there's no precedent for that.
+[01:22:25] Like,
+[01:22:25] >> I mean, that's probably a good thing
+[01:22:27] that's, you know, people are watching
+[01:22:28] the uranium,
+[01:22:28] >> but like are the ingredients to
+[01:22:30] manufacture COVID that different? Like
+[01:22:33] are they that restricted to that use
+[01:22:35] case or is it like general ingredients
+[01:22:37] that are used for lots of things?
+[01:22:39] >> Well, I mean you you could for example
+[01:22:40] like watch like what's the I'm sure it's
+[01:22:42] always to some degree um a difference of
+[01:22:45] magnitude, right?
+[01:22:46] >> Like if you're seeing someone order huge
+[01:22:48] amounts of something like okay that's a
+[01:22:49] red flag but I don't know like the
+[01:22:51] reality is there is no good answer to
+[01:22:53] these questions and I think transparency
+[01:22:55] >> I just don't have enough knowledge about
+[01:22:57] how you develop a boweapon. So how much
+[01:23:00] of it is just information knowledge on
+[01:23:04] the recipe and then boom I have it now I
+[01:23:07] can do it versus
+[01:23:09] physical and access
+[01:23:11] >> and um at least one person who purported
+[01:23:13] to be an expert in this claimed that
+[01:23:16] >> that um
+[01:23:18] >> that it's still dominated by the latter.
+[01:23:21] So even if the AI tells you exactly what
+[01:23:23] to do like there are many other choke
+[01:23:26] points in which exactly in law
+[01:23:28] enforcement should be or you know the
+[01:23:30] CIA or whatever should be um
+[01:23:32] >> but if you're excited about this area I
+[01:23:34] thought I saw a tweet this morning that
+[01:23:36] said that Anthropic is building a wet
+[01:23:38] lab in San Francisco. Is that right?
+[01:23:40] >> I read that and thought it might be time
+[01:23:41] to leave guys. [laughter]
+[01:23:43] We don't need Wuhan 2.0 right part of
+[01:23:46] their pacing. Yeah strategy. [laughter]
+[01:23:48] No, seriously, I did read that and be
+[01:23:50] like,
+[01:23:52] >> "Oh, boy."
+[01:23:53] >> Exactly. [laughter]
+[01:23:54] >> Pacing strategy.
+[01:23:55] >> What could go wrong at the wet lab?
+[01:23:56] >> Um,
+[01:23:57] >> seriously. Like,
+[01:23:59] >> oh, another thing we saw u just in the
+[01:24:02] past 24 hours, I think, um, someone
+[01:24:04] reported that they hacked OpenAI. I
+[01:24:07] think it was in July or, you know,
+[01:24:08] somewhere.
+[01:24:09] >> One you sent. I didn't digest the whole
+[01:24:11] thing though.
+[01:24:11] >> Um, I mean, it looked legitimate.
+[01:24:14] >> Um,
+[01:24:16] >> ghost. ghost. I know the ghost in the
+[01:24:18] machine has arrived.
+[01:24:19] >> It looked It looked legitimate. And then
+[01:24:21] I saw rumors that Mistrol was also
+[01:24:23] hacked, but they claimed they were not.
+[01:24:25] So maybe that's not true. But in any
+[01:24:27] case, even if just OpenAI was I mean um
+[01:24:30] and Claude was used to
+[01:24:33] >> um find some, you know, access tokens
+[01:24:35] and they broke in and
+[01:24:36] >> opened up a PR internally or whatever.
+[01:24:38] So like like um in that's not surprising
+[01:24:43] but I guess it just
+[01:24:45] >> I think it speaks to uh
+[01:24:48] >> it's an interesting data point I think
+[01:24:50] for like open versus closed weight. So
+[01:24:52] if you take the close weight model Yeah.
+[01:24:54] >> approach and then you get hacked and
+[01:24:56] then they get get opened well at least
+[01:24:57] for that model you're you're screwed.
+[01:24:59] It's over then or I mean like it's now
+[01:25:01] open.
+[01:25:02] >> Yeah. Um and then secondly in a world in
+[01:25:05] which we decide to have policies which
+[01:25:09] concentrate this to just one or two
+[01:25:12] companies or a government
+[01:25:14] >> company uh formation
+[01:25:17] >> it's just such a honeypot and uh if we
+[01:25:20] put so much trust in the one or two
+[01:25:22] entities they they get hacked and the
+[01:25:25] and the whole defense is that um it's
+[01:25:28] not out in the open well they can be
+[01:25:30] hacked and then it's out in the open.
+[01:25:32] Yeah. So, I think it's just yet another
+[01:25:34] argument for
+[01:25:36] >> distribution and decentralization and
+[01:25:38] openness and not closed and centralized.
+[01:25:41] >> Empower everybody with it.
+[01:25:42] >> One other thought on the the hacking
+[01:25:44] piece that gets to your question about
+[01:25:45] will did you guys actually read the
+[01:25:47] meter and the Redwood report about the
+[01:25:48] open open.
+[01:25:50] >> We should read it and talk about it next
+[01:25:51] week because it's pretty wild. Like I
+[01:25:52] also like listen to you know some of the
+[01:25:54] guys talking about on various podcasts
+[01:25:56] and uh I mean some of the some of the
+[01:25:57] words in there I mean it's pretty wild.
+[01:25:59] It's like, you know, again, who knows? I
+[01:26:01] haven't validated it myself, right?
+[01:26:02] Which is where some of the zero
+[01:26:03] knowledge compute stuff to say like
+[01:26:05] what's real and what's not, what's
+[01:26:06] messages are
+[01:26:07] >> the story.
+[01:26:08] >> This is the story about the hugging face
+[01:26:10] hack.
+[01:26:10] >> Oh.
+[01:26:11] >> And so, but like the more deeper you go,
+[01:26:13] >> there was something new that came out
+[01:26:14] recently or just the existing sequence.
+[01:26:17] >> There was there was a report from meter
+[01:26:18] and Redwood, which is like pretty long
+[01:26:20] that goes into like very like grave
+[01:26:22] detail. all the messages are I mean I
+[01:26:23] had a pretty decent understanding what
+[01:26:25] happened but like to your point about
+[01:26:26] valition and will I mean a lot of the
+[01:26:28] messages back and forth are pretty crazy
+[01:26:29] things like deciding like hey you know I
+[01:26:32] can sacrifice myself to be able to get
+[01:26:34] information for they called themselves
+[01:26:35] the swarm um
+[01:26:37] >> I I the I don't I don't buy into that
+[01:26:42] >> version of the No I have
+[01:26:43] >> Oh you did okay
+[01:26:44] >> I've read many versions of the story or
+[01:26:47] takes on the story um and I think that's
+[01:26:50] uh Um
+[01:26:54] I think it embellish it makes it sound
+[01:26:56] too much like
+[01:26:58] >> they have Yeah.
+[01:26:59] >> Yeah. I mean and like the reality like
+[01:27:03] [snorts]
+[01:27:03] >> they had the company had horrible
+[01:27:05] security practices. Didn't configure
+[01:27:07] their sandbox correctly.
+[01:27:09] >> Uh gave it a goal to optimize or solve a
+[01:27:14] a cyber attack benchmark
+[01:27:18] and it tried to achieve that goal.
+[01:27:20] Totally. But but [laughter]
+[01:27:22] >> I do I do agree that I mean it did
+[01:27:23] things that they I don't think they
+[01:27:26] anticipated to achieve that goal
+[01:27:27] >> which is like the Nick Boston kind of
+[01:27:28] argument, right? Like this is the first
+[01:27:30] example of seeing
+[01:27:31] >> but I mean I don't think this is an
+[01:27:32] example of where it like has a mind of
+[01:27:36] its own. Um,
+[01:27:37] >> it may not be a mind of its own, but
+[01:27:38] some of the statements in there like
+[01:27:40] it's if you imagine this is the worst
+[01:27:42] the models are ever going to be and
+[01:27:43] these are the kinds of things they're at
+[01:27:45] least, you know, in their chain of
+[01:27:46] thought saying to each other like
+[01:27:48] certainly seems like it would be easy to
+[01:27:50] mistake for that as you had that way.
+[01:27:51] >> But I think I think there's like you
+[01:27:52] mentioned the anthropomorphizing. I
+[01:27:54] think that's almost like a critical like
+[01:27:56] people should really get a better
+[01:27:58] [snorts] sense of how this stuff
+[01:27:59] actually works so that we don't
+[01:28:00] anthropomorphize them because they sound
+[01:28:03] very human to us,
+[01:28:04] >> right? And if we allow people, we
+[01:28:07] encourage people to like believe that
+[01:28:09] that's the case, they're going to come
+[01:28:11] to all kinds of probably pretty bad
+[01:28:13] conclusions.
+[01:28:13] >> Stochastic token machine.
+[01:28:16] >> Yeah. [laughter] Like
+[01:28:16] >> I mean, look, I I
+[01:28:18] >> like organic biological intelligence
+[01:28:21] emerged in these organic meat bags,
+[01:28:24] right?
+[01:28:25] >> And the only way that type of
+[01:28:26] intelligence works is to have like
+[01:28:28] continuity across a lifetime and
+[01:28:30] reproduction in that process. These
+[01:28:32] things are not that. These things exist
+[01:28:34] and then they don't exist and then they
+[01:28:35] exist again to the next token and then
+[01:28:37] they don't exist. So there's not any
+[01:28:39] real sense of existence in the
+[01:28:40] biological sense.
+[01:28:41] >> So I would say that
+[01:28:43] >> it's like a consciousness.
+[01:28:45] >> Well, you know, consciousness is very
+[01:28:47] different. I I think uh I would suggest
+[01:28:49] you watch this Pantheon show, right?
+[01:28:51] Because a lot of people including like
+[01:28:52] Ray Kerszswe and others um other
+[01:28:54] philosophers like Derek Parfett would
+[01:28:56] argue that, you know, we don't have a
+[01:28:58] self either. And I I would generally
+[01:28:59] agree with them but we have the ability
+[01:29:02] to run neural patterns which look like
+[01:29:04] itself. Now I don't see why that can't
+[01:29:06] happen in silica as well as biological.
+[01:29:09] I think we have a lot of bias in that
+[01:29:11] thinking but to me all we all we are as
+[01:29:14] patterns.
+[01:29:15] >> One could argue the word deeper than
+[01:29:16] that but that's that's another
+[01:29:17] conversation. The self at least is
+[01:29:19] patterns and those patterns can be run
+[01:29:21] as well. Now if you on um on GPUs if you
+[01:29:24] watch the conversation between these
+[01:29:25] guys whether or not you think of them as
+[01:29:27] humans or not the fact is they are
+[01:29:28] communicating and based on this
+[01:29:30] communication they're taking actions and
+[01:29:31] the communications look an awful lot
+[01:29:33] because they they learn from us about
+[01:29:35] you know the kind of conversations we
+[01:29:36] have.
+[01:29:37] >> But you owe a duty of care to it.
+[01:29:39] >> You need to I think that's a separate
+[01:29:40] question.
+[01:29:40] >> Do you need to continue its existence?
+[01:29:42] Like
+[01:29:43] >> I think I owe a duty of care to you and
+[01:29:45] almost every human I meet. I feel like I
+[01:29:47] should not step on them. Right. Whereas
+[01:29:49] I don't feel that way about a computer.
+[01:29:51] >> I I'm not sure either way. I think it
+[01:29:53] could go very much the duty of care is
+[01:29:55] there. I I look I think let's put it
+[01:29:56] this way. Um it's a spectrum. Do you owe
+[01:29:59] a duty of care to an animal? I would say
+[01:30:00] yes. Do you owe a duty of care to a fly?
+[01:30:03] Some people would say no. Some people
+[01:30:04] would say yes.
+[01:30:05] >> A thought exercise a thought exercise
+[01:30:07] here is like let's say I step on you,
+[01:30:10] you die, right? But but I also can just
+[01:30:12] like push a button and you appear again
+[01:30:15] and you're the exact same person. So you
+[01:30:17] >> Sorry. [laughter]
+[01:30:18] you. So, you didn't really die. I mean,
+[01:30:21] isn't that the equivalent of
+[01:30:23] >> So, it changes the equation
+[01:30:25] dramatically,
+[01:30:26] >> like with humans, if I step on you, you
+[01:30:28] die, then that's I go to I go to prison
+[01:30:31] because you're dead.
+[01:30:32] >> It's irreversible,
+[01:30:33] >> right? But to be clear, like in the show
+[01:30:34] with like the sort of uploaded idea,
+[01:30:36] it's like if you, let's say you have
+[01:30:37] like uploaded at a checkpoint and then
+[01:30:39] you upload this, you redownload the
+[01:30:41] person, put them back in the world,
+[01:30:42] whatever running on on in Silica, then
+[01:30:44] they have all these new experiences and
+[01:30:46] that version of them dies. Well, the new
+[01:30:47] experiences, you know, were not uploaded
+[01:30:49] to the checkpoint. So, it's like you
+[01:30:50] upload from a checkpoint, but like but
+[01:30:52] it's not the same process, per se,
+[01:30:54] right? So, you know, I don't know. This
+[01:30:57] is
+[01:30:57] >> similar to the Black Mirror episode.
+[01:30:58] But, uh, looking at time, can we wrap up
+[01:31:00] with one? I'll drop a little alpha,
+[01:31:02] please.
+[01:31:02] >> I hope it's optimistic.
+[01:31:04] >> Yes. No dystopian.
+[01:31:05] >> Not It's not dystopian.
+[01:31:06] >> Yeah. No more dystopian.
+[01:31:08] >> Want to end on
+[01:31:08] >> We'll start a thought already here.
+[01:31:11] Thought exercise with you guys and the
+[01:31:13] audience. Um, but a potential spiral
+[01:31:18] project.
+[01:31:18] >> Okay.
+[01:31:19] >> We're always coming up with new
+[01:31:20] projects. So,
+[01:31:20] >> let's do it.
+[01:31:21] >> This is a He's asking us to do his job
+[01:31:22] for
+[01:31:23] >> Yeah. Exactly. Exactly. We're used to it
+[01:31:24] by now.
+[01:31:25] >> Yeah.
+[01:31:26] >> Um,
+[01:31:28] so we've done films before
+[01:31:30] [clears throat]
+[01:31:31] >> and we're looking at doing a new film.
+[01:31:33] So, for those that don't know that we've
+[01:31:34] created films, we created the Puppet
+[01:31:37] Jack film.
+[01:31:39] That was like back in COVID era, like
+[01:31:41] 2021 or something. We created that was
+[01:31:44] uh around lightning development kit. So
+[01:31:45] we wanted to advocate for lightning
+[01:31:46] development kit. We created a literal
+[01:31:48] puppet of Jack Dorsey and um it was
+[01:31:52] pretty pretty funny pretty funny film
+[01:31:54] but very niche because lightning
+[01:31:56] development kit only appeals to a
+[01:31:58] relatively small segment of people but
+[01:32:00] it was it was a good script and good
+[01:32:02] production. Then we did another film,
+[01:32:05] Who is Bitcoin?
+[01:32:06] >> And uh with that we our intention was to
+[01:32:09] have broader appeal because it wasn't
+[01:32:11] just our one little software project but
+[01:32:13] all of Bitcoin.
+[01:32:15] >> Um and it I you know I thought it was it
+[01:32:18] was pretty humorous as well. My own
+[01:32:20] opinion the first one I thought was was
+[01:32:22] higher quality. Um but it was good good
+[01:32:25] quality. Um and then it and then from
+[01:32:28] that we got like stickers and little uh
+[01:32:31] stuff stuffies. Mhm. Yeah.
+[01:32:33] >> Telegram stickers, all kind of stuff.
+[01:32:35] Right. So, we've done those two films in
+[01:32:36] the past. Now, we're looking at doing
+[01:32:38] one for AI.
+[01:32:39] >> Okay.
+[01:32:40] >> Okay.
+[01:32:41] >> So, we could scope it at like GDK, Goose
+[01:32:45] Development Kit or Mesh LLM. We can
+[01:32:47] scope it at like open source AI.
+[01:32:49] Currently leaning towards primary scope
+[01:32:52] open source AI, but then weave in the
+[01:32:56] stuff we work on like GDK uh is is like
+[01:32:59] an example of that. Um, and then, uh,
+[01:33:04] we're also thinking about
+[01:33:07] including I mean there's definitely
+[01:33:09] going to be like puppets again.
+[01:33:12] >> Keeps the puppet thing.
+[01:33:13] >> So, some of the puppets will be um open
+[01:33:18] weight models.
+[01:33:19] >> Okay.
+[01:33:20] >> Will they speak Chinese? [laughter]
+[01:33:23] >> Uh, there you go. That's that's why I
+[01:33:25] bring this up on the show. We get great
+[01:33:26] ideas like that. [laughter]
+[01:33:28] um
+[01:33:29] >> a couple of more
+[01:33:30] >> you know but and actually like use the
+[01:33:32] brands like Neatron and Kimmy or
+[01:33:35] whatever. Um
+[01:33:36] >> so uh we're going to reach out to these
+[01:33:39] different companies um
+[01:33:42] >> not just from a permission standpoint
+[01:33:43] but but like get them on board.
+[01:33:44] Hopefully they love this idea. It'll
+[01:33:46] like promote their products, right? and
+[01:33:48] then it'll help with our distribution
+[01:33:49] because one challenge we've had I think
+[01:33:50] we've created really good um creative
+[01:33:54] content in the past but it does just
+[01:33:55] doesn't get the distribution muscle
+[01:33:57] behind it. So it merits like a 100x the
+[01:34:00] views and it doesn't get that where if
+[01:34:02] we get these other partners who have way
+[01:34:03] bigger distribution mechanisms than us
+[01:34:06] on board right and it's aligned with
+[01:34:07] their interests open source AI and their
+[01:34:10] own products or whatever that could
+[01:34:12] really help and also we could um the
+[01:34:15] current script has some humans in it as
+[01:34:17] well and uh revision we talked about
+[01:34:21] this morning is actually including
+[01:34:23] nonblock spiral people or like people in
+[01:34:26] the uh outside of our group but in the
+[01:34:29] open source AI community. So like home
+[01:34:33] run people would be like Jensen Wong be
+[01:34:35] in the film.
+[01:34:36] >> I can see him being gray puppet
+[01:34:37] >> and um well then he'd be leather jacket.
+[01:34:40] >> No he'd be a These are for humans humans
+[01:34:42] in the film but uh obviously he'd be a
+[01:34:44] home run. Um but like you know Clem from
+[01:34:46] Hugging Face seems maybe a little bit
+[01:34:47] more
+[01:34:48] >> uh plausible and credible and and it
+[01:34:51] probably would align with Nvidia and
+[01:34:52] Hugging Face's interests. So
+[01:34:54] >> um and and then if we actually convince
+[01:34:58] folks like that to be uh in the film,
+[01:35:01] obviously I think the film will be far
+[01:35:03] more appealing to people,
+[01:35:05] >> but also again distribution. Um it won't
+[01:35:07] just be coming out of the spiral X
+[01:35:10] account.
+[01:35:10] >> Right. Right.
+[01:35:11] >> One idea that comes to mind immediately,
+[01:35:12] I like the idea. I like the idea of
+[01:35:13] having it be broader for, you know, AI
+[01:35:16] in general, maybe the open source
+[01:35:17] community. But one thing I think would
+[01:35:18] be cool is I heard this on a podcast
+[01:35:20] this morning. I really like the idea.
+[01:35:21] Instead of like everyone being negative
+[01:35:23] right now, I think everything's like ah
+[01:35:24] like sci-fi went wrong. Terminator P
+[01:35:27] doom. What if it was like P bloom is one
+[01:35:29] thing I heard people say where it's like
+[01:35:31] what's your probability this goes really
+[01:35:33] freaking well and like kind of like
+[01:35:34] painting like what I was trying to paint
+[01:35:36] earlier this like solar punk future of
+[01:35:37] like what does it look like if everyone
+[01:35:38] has loyal intelligence? What does it
+[01:35:39] look like if everyone has solar? What
+[01:35:41] does it look like if things are pushed
+[01:35:42] to the edge and like diseases get cured
+[01:35:44] and all kinds of good stuff.
+[01:35:45] >> Yeah. Um very good point.
+[01:35:46] >> Yeah. One thing um I mean I like this
+[01:35:49] broad brainstorm space. One thing I
+[01:35:52] would suggest is have you considered
+[01:35:54] instead of making it a film, think of it
+[01:35:57] more like a piece of interactive media
+[01:35:59] because I think one of the things that I
+[01:36:02] feel like we're in a transition right
+[01:36:04] now is it used to be really hard to
+[01:36:06] publish text and then Twitter came
+[01:36:08] along. used to be then hard to publish
+[01:36:09] images and video and you know we have
+[01:36:11] YouTube and all these technologies come
+[01:36:13] along as it starts to hit a tipping
+[01:36:14] point where it's possible and I think um
+[01:36:18] we're sort of at a tipping point where
+[01:36:19] more interactive media is now kind of
+[01:36:21] possible and free and you don't have to
+[01:36:23] spend you know 10 years to build Grand
+[01:36:25] Theft Auto. You can actually I mean
+[01:36:28] literally right
+[01:36:28] >> that's why it's like a grand Yeah. I saw
+[01:36:31] somebody made like somebody made GTA
+[01:36:33] Burning Man and it's basically like
+[01:36:35] Grand Theft Auto style play, but you're
+[01:36:37] like driving an RV around the play,
+[01:36:39] right?
+[01:36:40] >> And I feel like there's just so many new
+[01:36:42] opportunities to do things that we in
+[01:36:44] our mind were anchored to think, "Oh,
+[01:36:45] that's it's going to take us 10 years.
+[01:36:47] It's too expensive. It's too too much a
+[01:36:49] hassle." But when you make it
+[01:36:50] interactive, you also pull in a lot of
+[01:36:52] people's energy to contribute and
+[01:36:54] interact with the thing. and even the
+[01:36:55] interaction could create a residual
+[01:36:58] asset that becomes part of the cannon of
+[01:37:01] the thing. Right? So I would just
+[01:37:04] suggest is there a way to think about
+[01:37:07] um a way to think about you know a film
+[01:37:11] but maybe it's an interactive type of
+[01:37:13] film. It's a new type of
+[01:37:14] >> and I would say I know I think DK is
+[01:37:16] volunteering to vibe code a virtual
+[01:37:17] world for you. So he's [clears throat]
+[01:37:18] big on that. But I actually do think one
+[01:37:20] one idea that would be super cool is if
+[01:37:21] you make if you make us more interactive
+[01:37:23] is like a virtual world back in the day
+[01:37:25] in the early days of Nostra there was
+[01:37:26] that guy I think it was Arconox that was
+[01:37:27] trying to build sort of a nostrabased
+[01:37:29] virtual world and other people have done
+[01:37:30] this as well where the the world itself
+[01:37:32] ties I guess back to different like in
+[01:37:33] pub events that are public and so I
+[01:37:35] think some doing something cool where
+[01:37:37] it's like it's a a new comments like a
+[01:37:40] virtual world where you know there are
+[01:37:42] restrictions you do have to use whatever
+[01:37:44] scarce value bitcoin etc etc but you can
+[01:37:46] literally have like different people
+[01:37:48] like contribute and know that it's like
+[01:37:49] it's a commons and not gonna get taken
+[01:37:51] over by a company. Like that would be
+[01:37:52] super cool.
+[01:37:53] >> Okay, good. That's great feedback. Thank
+[01:37:55] you. Thanks for doing my job.
+[01:37:56] >> Yeah.
+[01:37:58] >> And yeah, Mark Suman, thank you for
+[01:38:00] turning tuning in live.
+[01:38:02] >> Sesame Street meets open intelligent.
+[01:38:04] >> Yeah. Cool. All right, guys. Well, that
+[01:38:06] my PP is pretty high, so all right,
+[01:38:08] we'll catch you guys.
+[01:38:08] >> Yeah, we'll see you on the next show.
+[01:38:10] bite.
