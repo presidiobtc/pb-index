@@ -6,6 +6,7 @@ const test = require("node:test");
 
 const ROOT = path.join(__dirname, "..");
 const INGESTED_VIDEO_IDS = [
+  "X2nWtURNgt8",
   "4b5X88Hc8o4",
   "evBVXSD_gsg",
   "1iPvM0YCg_E",
@@ -50,9 +51,9 @@ test("source files, curated timestamps, and generated search coverage validate",
   const result = validation();
   assert.equal(result.ok, true);
   assert.deepEqual(result.errors, []);
-  assert.equal(result.stats.catalog_videos, 183);
+  assert.equal(result.stats.catalog_videos, 184);
   assert.equal(result.stats.transcripts_with_entries, result.stats.catalog_videos);
-  assert.equal(result.stats.canonical_topics, 881);
+  assert.equal(result.stats.canonical_topics, 885);
   assert.ok(result.stats.video_topic_picks > result.stats.canonical_topics);
   assert.ok(result.stats.report_topic_picks > 0);
   assert.ok(result.stats.generated_chunks > result.stats.catalog_videos);
@@ -104,6 +105,27 @@ test("September 18 PBJ preserves the full transcript, chapters, and curated expl
   assert.equal(chunks.filter(chunk => chunk.type === "transcript").at(-1).end_t, 5890);
   const picks = chunks.filter(chunk => chunk.type === "topic");
   assert.equal(picks.length, 13);
+  for (const pick of picks) {
+    const words = pick.text.trim().split(/\s+/).length;
+    assert.ok(words >= 33 && words <= 40, `${pick.topics[0]} has ${words} words`);
+  }
+});
+
+test("September 25 PBJ preserves its transcript, official chapters, and curated explanations", () => {
+  const youtubeId = "X2nWtURNgt8";
+  const entries = readPublicJson("index.json").filter(entry => entry.youtube_id === youtubeId);
+  assert.equal(entries.length, 5926);
+  assert.equal(entries[0].t, 0);
+  assert.equal(entries.at(-1).t, 6066);
+  assert.ok(entries.every(entry => entry.published_date === "2026-09-25" && entry.series === "PBJ"));
+
+  const description = fs.readFileSync(path.join(ROOT, "descriptions", `${youtubeId}.txt`), "utf8");
+  assert.equal(description.match(/^\d+:\d+(?::\d+)? - /gm).length, 15);
+  assert.match(description, /https:\/\/block\.xyz\/inside\/block-joins-the-x402-foundation/);
+  const chunks = readPublicJson("search_chunks.json").filter(chunk => chunk.youtube_id === youtubeId);
+  assert.equal(chunks.find(chunk => chunk.type === "description").text, description.trim().replace(/\s+/g, " "));
+  const picks = chunks.filter(chunk => chunk.type === "topic");
+  assert.equal(picks.length, 12);
   for (const pick of picks) {
     const words = pick.text.trim().split(/\s+/).length;
     assert.ok(words >= 33 && words <= 40, `${pick.topics[0]} has ${words} words`);

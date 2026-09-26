@@ -124,9 +124,9 @@ test("count questions distinguish catalog size, mention frequency, and entity ca
     });
     const archiveBody = JSON.parse(archiveResponse.body);
     assert.equal(archiveBody.retrieval_context.aggregate_kind, "indexed_archive_size");
-    assert.equal(archiveBody.retrieval_context.indexed_episode_count, 183);
+    assert.equal(archiveBody.retrieval_context.indexed_episode_count, 184);
     assert.equal(archiveBody.sources.length, 0);
-    assert.match(archiveBody.answer, /183 videos/);
+    assert.match(archiveBody.answer, /184 videos/);
 
     const mentionResponse = await handler({
       httpMethod: "POST",

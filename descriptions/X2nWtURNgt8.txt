@@ -1,0 +1,20 @@
+0:00 - PBJ growth, consistency, and staying ad-free
+12:42 - Why PBJ changed its tagline
+15:00 - AI agents the users bitcoin was waiting for
+18:36 - How x402 added bitcoin and Lightning support
+32:44 - Getting agents and merchants to choose bitcoin
+48:26 - Open USD and the new stablecoin power structure
+58:47 - Meta, Muse, and who controls agent payments
+1:02:25 - Why pitch Lightning instead of bitcoin
+1:09:12 - Will agents further centralize the internet?
+1:14:02 - Mesh LLM: peer-to-peer inference with bitcoin payments
+1:19:02 - Could Signal use Mesh LLM for private AI?
+1:25:01 - Bitcoin-style incentives for a decentralized compute market
+1:28:45 - Should the internet distinguish humans from agents?
+1:35:06 - The emerging permissionless web stack (Nostr, Blossom)
+1:37:43 - Trump’s “super intelligence” rebrand and AI policy
+
+SHOW NOTES:
+x402: https://block.xyz/inside/block-joins-the-x402-foundation-to-advance-open-agentic-commerce
+Open USD: https://x.com/openstandard/status/2103152613634293959
+Radar: https://radar.particle.pro/

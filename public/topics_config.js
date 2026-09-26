@@ -6908,3 +6908,67 @@ addTopicDefs([
     picks: [{ youtube_id: "4b5X88Hc8o4", t: 4587, label: "The hosts question whether regulation can keep pace with frontier AI and whether lab-backed watchdogs would entrench incumbents. They debate technical expertise, independent oversight, and broader model access as alternatives, without settling on a specific regulatory framework." }],
   },
 ]);
+
+// 2026-09-25 PBJ: Lightning in x402, Open USD, and paid peer-to-peer inference.
+addTopicDefs([
+  {
+    name: "x402 Lightning",
+    keywords: ["x402 lightning support", "block x402 foundation", "spiral lightning specification", "http 402 bitcoin payments", "ben carman x402"],
+    picks: [{ youtube_id: "X2nWtURNgt8", t: 1253, label: "Spiral's Ben Carman helped add Lightning support to x402, a payment standard built around HTTP 402 responses. The hosts welcome Block's participation but stress that protocol support only creates an option; merchants still must accept bitcoin." }],
+  },
+  {
+    name: "Lexe",
+    keywords: ["lexe agent wallet", "self-custodial lightning onboarding", "lexe trusted enclave", "instant lightning wallet", "x402 receiving wallet"],
+    picks: [{ youtube_id: "X2nWtURNgt8", t: 1639, label: "Lexe can create a self-custodial Lightning wallet quickly for an agent while running the node inside a trusted enclave. The hosts see easier wallet setup as useful for x402 adoption, provided agents can handle Lightning payments without manual onboarding." }],
+  },
+  {
+    name: "BOLT11 invoices",
+    keywords: ["bolt11 merchant invoices", "x402 lightning invoice", "invoice per http request", "lightning receiver integration", "merchant payment request"],
+    picks: [{ youtube_id: "X2nWtURNgt8", t: 1721, label: "For a merchant to accept Lightning through x402, its service must generate a fresh BOLT11 invoice for each paid request and have receiving software behind it. A shared protocol alone does not supply that operational integration." }],
+  },
+  {
+    name: "Agent payment defaults",
+    keywords: ["goose development kit payments", "agent payment defaults", "bitcoin agent client choice", "merchant currency selection", "agent payment distribution"],
+    picks: [{ youtube_id: "X2nWtURNgt8", t: 2198, label: "Spiral could add bitcoin payment support to the Goose Development Kit, but availability would not make agents or merchants choose it. The hosts argue that client defaults and distribution may determine which currencies dominate agent transactions." }],
+  },
+  {
+    name: "Open USD",
+    keywords: ["open usd stablecoin issuer", "open standard zach abrams", "open usd founding investors", "visa mastercard stablecoin", "open usd governance"],
+    picks: [{ youtube_id: "X2nWtURNgt8", t: 2913, label: "Open Standard is presented as the issuer of Open USD, led by former Stripe executive Zach Abrams and backed by major payment companies. The hosts see a serious stablecoin challenger while questioning who will control its governance." }],
+  },
+  {
+    name: "Stablecoin revenue sharing",
+    keywords: ["open usd revenue sharing", "stablecoin distribution rewards", "open standard founding equity", "merchant stablecoin incentives", "open usd fee split"],
+    picks: [{ youtube_id: "X2nWtURNgt8", t: 3080, label: "Open USD proposes rewarding participants who drive distribution or transaction volume, potentially aligning wallets and merchants better than issuer-dominated stablecoins. The hosts caution that the exact split between founding owners and other contributors remains unclear." }],
+  },
+  {
+    name: "Stablecoins on Lightning",
+    keywords: ["open usd lightning network", "neutral stablecoin settlement", "lightspark open usd", "tempo base lightning comparison", "taproot assets stablecoins"],
+    picks: [{ youtube_id: "X2nWtURNgt8", t: 3752, label: "The hosts suggest pitching Lightning as a neutral settlement network beneath whichever dollar stablecoin a platform favors. Using Open USD on Lightning could avoid dependence on Stripe's Tempo or Coinbase's Base, though adoption and implementation remain hypothetical." }],
+  },
+  {
+    name: "Mesh-LLM",
+    keywords: ["mesh llm bitcoin payments", "peer-to-peer inference rewards", "spare compute sats", "mesh llm bolt11", "paid inference network"],
+    picks: [{ youtube_id: "X2nWtURNgt8", t: 4442, label: "Spiral is adding bitcoin payments to Mesh-LLM's peer-to-peer inference network so people offering spare compute can earn sats. The hosts favor direct Lightning invoices over x402 here because Mesh-LLM already exposes an API; verifying work remains unresolved." }],
+  },
+  {
+    name: "Trusted execution environments",
+    keywords: ["private mesh llm inference", "tee gpu providers", "confidential ai prompts", "trusted execution hardware", "private compute premium"],
+    picks: [{ youtube_id: "X2nWtURNgt8", t: 4859, label: "For private inference on Mesh-LLM, users could choose GPU providers with trusted execution hardware instead of ordinary nodes. That narrower hardware pool may cost more, while offering stronger assurances that prompts and data are not exposed to providers." }],
+  },
+  {
+    name: "Proof of personhood",
+    keywords: ["proof of human agent access", "human-directed bots", "payment spam filters", "nostr service reputation", "agent traffic gating"],
+    picks: [{ youtube_id: "X2nWtURNgt8", t: 5472, label: "The hosts question proof-of-human gates because legitimate human-directed agents cannot pass them. They propose payments and reputation as better filters for abusive traffic, letting useful agents access services while making mass requests costly or less trusted." }],
+  },
+  {
+    name: "Nostr Blossom",
+    keywords: ["nostr blossom storage", "nostr-signed site pointers", "blossom file replication", "permissionless web hosting", "metered storage payments"],
+    picks: [{ youtube_id: "X2nWtURNgt8", t: 5753, label: "A host describes publishing a site through Nostr-signed pointers to files replicated on volunteer Blossom servers, alongside ordinary DNS. The example illustrates a permissionless storage path, but sustaining such infrastructure may eventually require metered payments." }],
+  },
+  {
+    name: "Trump’s AI rebrand",
+    keywords: ["trump super intelligence terminology", "artificial intelligence renaming", "government ai documents", "super intelligence framing", "trump ai policy language"],
+    picks: [{ youtube_id: "X2nWtURNgt8", t: 5939, label: "The hosts discuss Trump's preference for 'super intelligence' over 'artificial intelligence' and his reported direction for government documents to use the new term. They debate whether the framing is less threatening while doubting it will change Silicon Valley terminology." }],
+  },
+]);
