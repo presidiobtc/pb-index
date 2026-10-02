@@ -152,6 +152,7 @@ AUDITED_CANONICAL_SINGLE_TOKEN_TOPICS = frozenset({
     "Miniscript",
     "OpenAI",
     "SpaceX",
+    "Starlink",
     "TaskFuel",
     "Vora",
     "Wavelength",

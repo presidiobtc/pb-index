@@ -54,7 +54,7 @@ test("source files, curated timestamps, and generated search coverage validate",
   assert.deepEqual(result.errors, []);
   assert.equal(result.stats.catalog_videos, 185);
   assert.equal(result.stats.transcripts_with_entries, result.stats.catalog_videos);
-  assert.equal(result.stats.canonical_topics, 885);
+  assert.equal(result.stats.canonical_topics, 886);
   assert.ok(result.stats.video_topic_picks > result.stats.canonical_topics);
   assert.ok(result.stats.report_topic_picks > 0);
   assert.ok(result.stats.generated_chunks > result.stats.catalog_videos);
@@ -151,8 +151,9 @@ test("October 2 PBJ preserves the complete supplied transcript, chapters, and ex
   assert.equal(chunks.find(chunk => chunk.type === "description").text, description.trim().replace(/\s+/g, " "));
   assert.equal(chunks.filter(chunk => chunk.type === "transcript").at(-1).end_t, 5356);
   const picks = chunks.filter(chunk => chunk.type === "topic");
-  assert.equal(picks.length, 13);
-  assert.equal(new Set(picks.flatMap(pick => pick.topics)).size, 12);
+  assert.equal(picks.length, 14);
+  assert.equal(new Set(picks.flatMap(pick => pick.topics)).size, 13);
+  assert.ok(picks.some(pick => pick.topics.includes("Starlink") && pick.t === 2876));
   assert.ok(picks.some(pick => pick.topics.includes("SpaceX") && /unverified/.test(pick.text)));
   for (const pick of picks) {
     const words = pick.text.trim().split(/\s+/).length;

@@ -7016,6 +7016,11 @@ addTopicDefs([
     picks: [{ youtube_id: "bj3e5Z8B7EI", t: 2876, label: "Starlink's growth prompts discussion of satellite broadband becoming a dominant internet backbone. The hosts weigh access and service quality against concentrated control and SpaceX's launch advantage, while repeatedly flagging their surprising capacity estimates as unverified." }],
   },
   {
+    name: "Starlink",
+    keywords: ["starlink", "satellite internet", "satellite broadband", "direct-to-cell", "starlink centralization", "global internet capacity"],
+    picks: [{ youtube_id: "bj3e5Z8B7EI", t: 2876, label: "The hosts explore Starlink becoming a global internet backbone through expanding satellite capacity, direct-to-cell access, and better connectivity. They weigh these benefits against centralized control, emphasizing that the episode's striking capacity estimates still need verification." }], // 47:56
+  },
+  {
     name: "The Sovereign Individual",
     keywords: ["ai nation states","sovereign individual ai","frontier model concentration","communications sovereignty"],
     picks: [{ youtube_id: "bj3e5Z8B7EI", t: 4128, label: "The hosts revisit how AI changes the Sovereign Individual thesis and nation states. Portable bitcoin and Nostr infrastructure may empower individuals, while frontier models and centralized communications could concentrate power in firms whose capabilities outpace governments." }],
