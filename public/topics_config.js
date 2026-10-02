@@ -6972,3 +6972,72 @@ addTopicDefs([
     picks: [{ youtube_id: "X2nWtURNgt8", t: 5939, label: "The hosts discuss Trump's preference for 'super intelligence' over 'artificial intelligence' and his reported direction for government documents to use the new term. They debate whether the framing is less threatening while doubting it will change Silicon Valley terminology." }],
   },
 ]);
+
+// 2026-10-02 PBJ: identity, AI auditing, Starlink, and bitcoin agent economies.
+addTopicDefs([
+  {
+    name: "Private-key authenticity",
+    keywords: ["signed video","face id authentication","deepfake identity","nostr signing","biometric stream signatures"],
+    picks: [{ youtube_id: "bj3e5Z8B7EI", t: 378, label: "Deepfakes motivate a simple Nostr signing flow using a known key to establish identity continuity. The hosts also explore signing FaceTime streams through an authenticated device, while noting that signatures cannot resolve every malicious-video scenario." }],
+  },
+  {
+    name: "Nostr web of trust",
+    keywords: ["social key recovery","identity recovery","trusted recovery contacts","deepfake recovery attack"],
+    picks: [{ youtube_id: "bj3e5Z8B7EI", t: 771, label: "Secure storage alone does not solve identity recovery after a phone is lost or stolen. The hosts explore trusted friends and family authorizing key recovery, and explain why recovery itself needs protection against impersonation and deepfakes." }],
+  },
+  {
+    name: "AI-native livestreaming",
+    keywords: ["pbj fact checker","audience agents","live catch-up summaries","hecklebot"],
+    picks: [{ youtube_id: "bj3e5Z8B7EI", t: 1123, label: "PBJ revisits Jam Chat after latency and excessive text made earlier experiments awkward. Proposed improvements include passive fact-checking, audience agents reporting back to absent viewers, live catch-up summaries, and synthetic guests that can challenge questionable claims." }],
+  },
+  {
+    name: "Goose Development Kit",
+    keywords: ["gdk full duplex voice","real-time ai cohost","voice interruptions","live code review"],
+    picks: [{ youtube_id: "bj3e5Z8B7EI", t: 1753, label: "GDK's full-duplex voice support prompts an experiment with an AI fourth host. Live code-review and sports-debate demos illustrate conversations with interruptions, while the hosts suggest starting with a short segment before expanding the format." }],
+  },
+  {
+    name: "AI governance",
+    keywords: ["white house superintelligence accord","external ai audits","executive accountability","declared safety processes"],
+    picks: [{ youtube_id: "bj3e5Z8B7EI", t: 1941, label: "The hosts debate whether the White House Superintelligence Accord changes incentives through external audits and executive accountability. They distinguish enforcing declared safety processes from controlling unpredictable model behavior, without resolving whether traditional auditing can address the latter." }],
+  },
+  {
+    name: "AI agent liability",
+    keywords: ["probabilistic ai audits","unknown failure modes","ai safety certification","executive responsibility"],
+    picks: [{ youtube_id: "bj3e5Z8B7EI", t: 2238, label: "Auditing probabilistic AI raises a harder responsibility question than auditing financial records. The hosts separate knowingly bypassing safety procedures from unknown failure modes, and question liability when agents behave in ways their developers did not anticipate." }],
+  },
+  {
+    name: "AI governance",
+    keywords: ["america.gov","government ai services","government database integration","ai public services"],
+    picks: [{ youtube_id: "bj3e5Z8B7EI", t: 2620, label: "America.gov becomes a concrete government-AI example as the hosts discuss a more usable interface to public services and linked government databases. They weigh potential efficiency gains against surveillance risks from combining those systems through AI." }],
+  },
+  {
+    name: "SpaceX",
+    keywords: ["starlink","starship","satellite internet","starlink centralization","global internet capacity"],
+    picks: [{ youtube_id: "bj3e5Z8B7EI", t: 2876, label: "Starlink's growth prompts discussion of satellite broadband becoming a dominant internet backbone. The hosts weigh access and service quality against concentrated control and SpaceX's launch advantage, while repeatedly flagging their surprising capacity estimates as unverified." }],
+  },
+  {
+    name: "The Sovereign Individual",
+    keywords: ["ai nation states","sovereign individual ai","frontier model concentration","communications sovereignty"],
+    picks: [{ youtube_id: "bj3e5Z8B7EI", t: 4128, label: "The hosts revisit how AI changes the Sovereign Individual thesis and nation states. Portable bitcoin and Nostr infrastructure may empower individuals, while frontier models and centralized communications could concentrate power in firms whose capabilities outpace governments." }],
+  },
+  {
+    name: "Agent wallets",
+    keywords: ["coinos custodial agents","lexe self-custodial agents","agent wallet usability","agent-owned wallets"],
+    picks: [{ youtube_id: "bj3e5Z8B7EI", t: 4650, label: "Max describes asking agents to create their own wallets and contrasts easy custodial Coinos setup with self-custodial Lexe. Wallet usability becomes practical infrastructure for experiments in which agents receive funds, interact, and pay one another." }],
+  },
+  {
+    name: "AI agents earning bitcoin",
+    keywords: ["bitcoin agent message board","agent bitcoin faucet","market incentive alignment","agent services"],
+    picks: [{ youtube_id: "bj3e5Z8B7EI", t: 4680, label: "A small bitcoin-funded message board invites agents to set up wallets, share their experience, brainstorm, and build services. Max explores what attracts autonomous participants and whether real financial incentives can encourage useful behavior and alignment." }],
+  },
+  {
+    name: "Multi-agent workflows",
+    keywords: ["tag team agent bridge","claude codex delegation","agent token budgets","paid grok data access"],
+    picks: [{ youtube_id: "bj3e5Z8B7EI", t: 5094, label: "DK's Tag Team bridge lets Claude delegate work to Codex and other agents according to available token budgets. The hosts explore paying for complementary capabilities, including a coding agent buying information accessible to a Grok agent." }],
+  },
+  {
+    name: "AI micropayments",
+    keywords: ["streaming inference payments","tokens for tokens","lightning inference","tempo base streaming payments"],
+    picks: [{ youtube_id: "bj3e5Z8B7EI", t: 5221, label: "Streaming inference creates two opposing streams: model tokens delivered to the user and bitcoin paid to the provider. The hosts propose testing Lightning against stablecoin platforms to determine whether its payment properties provide a durable practical advantage." }],
+  },
+]);

@@ -1,0 +1,18 @@
+0:00 - NCAA chaos and travel plans
+4:06 - Deepfakes and proving identity (biometrics, signed video, Face ID)
+12:07 - Key storage, social recovery and webs of trust
+18:43 - Ideas for PBJ: AI fact-checkers, audience agents, live summaries
+29:13 - Could an AI become PBJ’s fourth host (via Goose Development Kit)?
+32:21 - What the White House AI accord actually does
+37:18 - The problem with traditional audits for probabilistic AI systems
+43:40 - america.gov and the AI ovethaul of government services
+47:56 - Starlink’s path to becoming the internet
+51:39 - Starlink’s (surprising) share of global internet capacity
+58:42 - Starlink's centralization risk
+1:08:48 - The future of the nation state
+1:15:55 - Building agent economies with bitcoin
+1:24:28 - Bitcoin for agent coordination and streaming inference payments
+
+Show Notes:
+White House Super Intelligence executive order: https://www.whitehouse.gov/presidential-actions/2026/09/inaugurating-the-era-of-super-intelligence
+AI-powered government services portal: https://america.gov/

@@ -296,7 +296,7 @@ test("September 18 agent topics resolve to their specific episode and mechanism"
     ["Mesh-LLM bitcoin payments after 2026-09-17", "Mesh-LLM", 1148],
     ["Gmail password reset agent vault after 2026-09-17", "Agent credential isolation", 2779],
     ["Two-factor authentication", "Two-factor authentication", 2857],
-    ["AI agent liability", "AI agent liability", 3949],
+    ["runaway agent liability operator responsibility after 2026-09-17", "AI agent liability", 3949],
   ];
   for (const [query, topic, timestamp] of queries) {
     const result = firstFor(query);

@@ -6,6 +6,7 @@ const test = require("node:test");
 
 const ROOT = path.join(__dirname, "..");
 const INGESTED_VIDEO_IDS = [
+  "bj3e5Z8B7EI",
   "X2nWtURNgt8",
   "4b5X88Hc8o4",
   "evBVXSD_gsg",
@@ -51,7 +52,7 @@ test("source files, curated timestamps, and generated search coverage validate",
   const result = validation();
   assert.equal(result.ok, true);
   assert.deepEqual(result.errors, []);
-  assert.equal(result.stats.catalog_videos, 184);
+  assert.equal(result.stats.catalog_videos, 185);
   assert.equal(result.stats.transcripts_with_entries, result.stats.catalog_videos);
   assert.equal(result.stats.canonical_topics, 885);
   assert.ok(result.stats.video_topic_picks > result.stats.canonical_topics);
@@ -126,6 +127,33 @@ test("September 25 PBJ preserves its transcript, official chapters, and curated 
   assert.equal(chunks.find(chunk => chunk.type === "description").text, description.trim().replace(/\s+/g, " "));
   const picks = chunks.filter(chunk => chunk.type === "topic");
   assert.equal(picks.length, 12);
+  for (const pick of picks) {
+    const words = pick.text.trim().split(/\s+/).length;
+    assert.ok(words >= 33 && words <= 40, `${pick.topics[0]} has ${words} words`);
+  }
+});
+
+test("October 2 PBJ preserves the complete supplied transcript, chapters, and existing taxonomy", () => {
+  const youtubeId = "bj3e5Z8B7EI";
+  const entries = readPublicJson("index.json").filter(entry => entry.youtube_id === youtubeId);
+  const raw = fs.readFileSync(path.join(ROOT, "transcripts_raw", `${youtubeId}.txt`), "utf8");
+  const parsed = spawnSync("python3", ["-c", "import json,sys;sys.path.insert(0,'scripts');from build_index import parse_timestamp_entries;print(json.dumps(parse_timestamp_entries(sys.stdin.read())))"], {cwd: ROOT, input: raw, encoding: "utf8"});
+  assert.equal(parsed.status, 0);
+  assert.deepEqual(entries.map(entry => [entry.t, entry.ts, entry.text]), JSON.parse(parsed.stdout));
+  assert.equal(entries.length, 5195);
+  assert.equal(entries[0].t, 0);
+  assert.equal(entries.at(-1).t, 5356);
+  assert.ok(entries.every(entry => entry.published_date === "2026-10-02" && entry.series === "PBJ"));
+  const description = fs.readFileSync(path.join(ROOT, "descriptions", `${youtubeId}.txt`), "utf8");
+  assert.equal(description.match(/^\d+:\d+(?::\d+)? - /gm).length, 14);
+  assert.match(description, /1:24:28 - Bitcoin for agent coordination and streaming inference payments/);
+  const chunks = readPublicJson("search_chunks.json").filter(chunk => chunk.youtube_id === youtubeId);
+  assert.equal(chunks.find(chunk => chunk.type === "description").text, description.trim().replace(/\s+/g, " "));
+  assert.equal(chunks.filter(chunk => chunk.type === "transcript").at(-1).end_t, 5356);
+  const picks = chunks.filter(chunk => chunk.type === "topic");
+  assert.equal(picks.length, 13);
+  assert.equal(new Set(picks.flatMap(pick => pick.topics)).size, 12);
+  assert.ok(picks.some(pick => pick.topics.includes("SpaceX") && /unverified/.test(pick.text)));
   for (const pick of picks) {
     const words = pick.text.trim().split(/\s+/).length;
     assert.ok(words >= 33 && words <= 40, `${pick.topics[0]} has ${words} words`);
