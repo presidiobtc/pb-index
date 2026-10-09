@@ -6,6 +6,7 @@ const test = require("node:test");
 
 const ROOT = path.join(__dirname, "..");
 const INGESTED_VIDEO_IDS = [
+  "SMeoVZjCmXs",
   "bj3e5Z8B7EI",
   "X2nWtURNgt8",
   "4b5X88Hc8o4",
@@ -52,7 +53,7 @@ test("source files, curated timestamps, and generated search coverage validate",
   const result = validation();
   assert.equal(result.ok, true);
   assert.deepEqual(result.errors, []);
-  assert.equal(result.stats.catalog_videos, 185);
+  assert.equal(result.stats.catalog_videos, 186);
   assert.equal(result.stats.transcripts_with_entries, result.stats.catalog_videos);
   assert.equal(result.stats.canonical_topics, 886);
   assert.ok(result.stats.video_topic_picks > result.stats.canonical_topics);
@@ -158,6 +159,36 @@ test("October 2 PBJ preserves the complete supplied transcript, chapters, and ex
   for (const pick of picks) {
     const words = pick.text.trim().split(/\s+/).length;
     assert.ok(words >= 33 && words <= 40, `${pick.topics[0]} has ${words} words`);
+  }
+});
+
+test("October 9 PBJ preserves the supplied transcript, all chapters, and source caveats", () => {
+  const youtubeId = "SMeoVZjCmXs";
+  const entries = readPublicJson("index.json").filter(entry => entry.youtube_id === youtubeId);
+  const raw = fs.readFileSync(path.join(ROOT, "transcripts_raw", `${youtubeId}.txt`), "utf8");
+  const parsed = spawnSync("python3", ["-c", "import json,sys;sys.path.insert(0,'scripts');from build_index import parse_timestamp_entries;print(json.dumps(parse_timestamp_entries(sys.stdin.read())))"], {cwd: ROOT, input: raw, encoding: "utf8"});
+  assert.equal(parsed.status, 0);
+  assert.deepEqual(entries.map(entry => [entry.t, entry.ts, entry.text]), JSON.parse(parsed.stdout));
+  assert.equal(entries.length, 5737);
+  assert.equal(entries[0].t, 0);
+  assert.equal(entries.at(-1).t, 5869);
+  assert.ok(entries.every(entry => entry.published_date === "2026-10-09" && entry.series === "PBJ"));
+  const description = fs.readFileSync(path.join(ROOT, "descriptions", `${youtubeId}.txt`), "utf8");
+  assert.deepEqual(
+    [...description.matchAll(/^(\d+:\d+(?::\d+)?) - /gm)].map(match => match[1]),
+    ["0:00", "2:10", "5:53", "12:02", "19:50", "24:56", "31:55", "39:04", "49:52", "57:35", "1:02:57", "1:10:37", "1:14:30", "1:21:05", "1:33:23"],
+  );
+  const chunks = readPublicJson("search_chunks.json").filter(chunk => chunk.youtube_id === youtubeId);
+  assert.equal(chunks.find(chunk => chunk.type === "description").text, description.trim().replace(/\s+/g, " "));
+  assert.equal(chunks.filter(chunk => chunk.type === "transcript").at(-1).end_t, 5869);
+  const picks = chunks.filter(chunk => chunk.type === "topic");
+  assert.equal(picks.length, 16);
+  assert.ok(picks.some(pick => pick.topics.includes("Cash App") && /has not launched/.test(pick.text)));
+  assert.ok(picks.some(pick => pick.topics.includes("Supply-chain attacks") && /preliminary/.test(pick.text)));
+  assert.ok(picks.some(pick => pick.topics.includes("AI and cryptography") && /without demonstrating a signature break/.test(pick.text)));
+  for (const pick of picks) {
+    assert.ok(pick.text.trim().split(/\s+/).length >= 33);
+    assert.ok(pick.text.trim().split(/\s+/).length <= 40);
   }
 });
 

@@ -7046,3 +7046,87 @@ addTopicDefs([
     picks: [{ youtube_id: "bj3e5Z8B7EI", t: 5221, label: "Streaming inference creates two opposing streams: model tokens delivered to the user and bitcoin paid to the provider. The hosts propose testing Lightning against stablecoin platforms to determine whether its payment properties provide a durable practical advantage." }],
   },
 ]);
+
+// 2026-10-09 PBJ: open intelligence, cryptography, and personal agent payments.
+addTopicDefs([
+  {
+    name: "Private-key authenticity",
+    keywords: ["dk identity", "shared private memories", "deepfake authentication", "identity challenge"],
+    picks: [{ youtube_id: "SMeoVZjCmXs", t: 0, label: "The hosts joke about whether DK is real, then propose testing identity through a shared memory that has never been public. They avoid revealing the answer because publishing it would weaken the same challenge in future conversations." }],
+  },
+  {
+    name: "Open-source AI",
+    keywords: ["open superintelligence", "open intelligence", "osi naming", "sovereign ai", "open source intelligence"],
+    picks: [{ youtube_id: "SMeoVZjCmXs", t: 130, label: "The hosts debate naming the movement for open models and permissionless intelligence. Open Superintelligence could capture a timely opportunity, while Sovereign AI suggests nation states and OpenAI is already associated with a prominent closed model provider." }],
+  },
+  {
+    name: "AI provenance",
+    keywords: ["open weights versus open source", "nemotron training data", "verifiable training recipe", "model transparency"],
+    picks: [{ youtube_id: "SMeoVZjCmXs", t: 353, label: "Open weights do not reveal a model's full training recipe or datasets. Recalling NVIDIA's Nemotron discussion, the hosts explore licensed data constraints and verifiable inputs while arguing that the broader open movement should still welcome partially open models." }],
+  },
+  {
+    name: "Open-source AI advocacy",
+    keywords: ["nvidia open superintelligence", "jensen huang open models", "osi coalition", "open intelligence branding"],
+    picks: [{ youtube_id: "SMeoVZjCmXs", t: 722, label: "NVIDIA's business incentives could make it an influential partner for the Open Superintelligence movement. The hosts speculate about Jensen Huang embracing the term, while weighing its inspirational appeal against political baggage and confusion with existing intelligence terminology." }],
+  },
+  {
+    name: "AI and cryptography",
+    keywords: ["ecdsa mathematical breakthroughs", "p versus np", "ai cryptanalysis", "justin drake bitcoin", "signature assumptions"],
+    picks: [{ youtube_id: "SMeoVZjCmXs", t: 1496, label: "The hosts explore whether AI driven mathematical discoveries could undermine ECDSA or other cryptographic assumptions. Their discussion ranges from hard versus easily verified problems to practical attack costs, without demonstrating a signature break or establishing when one might occur." }],
+  },
+  {
+    name: "OpenAI",
+    keywords: ["openai math breakthroughs", "mathematical superintelligence", "mathematicians backlash", "ai mathematical discovery"],
+    picks: [{ youtube_id: "SMeoVZjCmXs", t: 1915, label: "Reported OpenAI mathematical breakthroughs spark debate about professional identity and researchers' reactions to automation. The hosts see opportunities for mathematicians to collaborate with models, while acknowledging that the claimed results still need scrutiny and may be contested." }],
+  },
+  {
+    name: "AI builder communities",
+    keywords: ["useful ai demos", "ai adoption demonstrations", "field specific ai examples", "ai learning opportunities"],
+    picks: [{ youtube_id: "SMeoVZjCmXs", t: 2344, label: "Live demonstrations could help people in different fields see AI as a useful collaborator. The hosts propose showing real questions and workflows, emphasizing how new capabilities can reveal further problems to explore rather than making expertise irrelevant." }],
+  },
+  {
+    name: "Taproot quantum exposure",
+    keywords: ["fresh addresses", "public key exposure", "address reuse", "taproot quantum risk", "post-quantum wallet tradeoffs"],
+    picks: [{ youtube_id: "SMeoVZjCmXs", t: 2992, label: "The hosts debate advice to move bitcoin to fresh addresses, distinguishing public key exposure from broader signature failure. They disagree about worst case consequences and discuss Taproot, spending risks, and the usability tradeoffs of proposed post-quantum alternatives." }],
+  },
+  {
+    name: "Quantum readiness coordination",
+    keywords: ["chaincode dialogues", "bitcoin security consortium", "post-quantum funding", "cryptographers frontier labs"],
+    picks: [{ youtube_id: "SMeoVZjCmXs", t: 3455, label: "Steve describes Chaincode Dialogues bringing Bitcoin developers together with industry executives and potential security funders. Conversations span AI scanning and post-quantum preparation, prompting a call for closer contact between cryptographers, open source maintainers, and frontier AI researchers." }],
+  },
+  {
+    name: "Project Loupe",
+    keywords: ["anthropic security scans", "project loupe", "open source vulnerability scanning", "closed model security service"],
+    picks: [{ youtube_id: "SMeoVZjCmXs", t: 3777, label: "Anthropic's reported scanning service resembles Project Loupe: approved open source maintainers submit projects and receive security findings. Steve plans applications for LDK, Goose, and Mesh-LLM, welcoming additional scrutiny while noting that Anthropic controls access to its newest models." }],
+  },
+  {
+    name: "Supply-chain attacks",
+    keywords: ["ledger counterfeit hardware", "fake ledger wallets", "hardware wallet reseller", "wallet supply chain trust"],
+    picks: [{ youtube_id: "SMeoVZjCmXs", t: 4237, label: "Early reports of counterfeit Ledger devices prompt a discussion of hardware wallet resellers and supply chain trust. Steve stresses that his information is preliminary, distinguishing alleged fake hardware from a demonstrated vulnerability in Ledger's own devices." }],
+  },
+  {
+    name: "GrokBot",
+    keywords: ["grokbot personal agents", "agent linux virtual machine", "continuous bike research", "muse personal assistant"],
+    picks: [{ youtube_id: "SMeoVZjCmXs", t: 4470, label: "The hosts compare personal agents that monitor tasks continuously with ordinary chat sessions. GrokBot's agents have their own Linux computers, while a bike shopping example illustrates background research, follow-up questions, and updates that continue after the initial request." }],
+  },
+  {
+    name: "Agent wallets",
+    keywords: ["grokbot bitcoin wallet", "agent business experiments", "agentic payments", "agent owned funds"],
+    picks: [{ youtube_id: "SMeoVZjCmXs", t: 4624, label: "Giving agents self-custodial Lexe wallets and small bitcoin balances lets them buy email access and domains. The hosts describe building services around agent identities, while acknowledging unresolved credential management questions and infrastructure that still requires human accounts." }],
+  },
+  {
+    name: "Agent credential isolation",
+    keywords: ["agent email access", "deterministic control plane", "probabilistic proposals", "personal agent permissions"],
+    picks: [{ youtube_id: "SMeoVZjCmXs", t: 4865, label: "A proposed personal agent would analyze and suggest actions while deterministic software controls access to email. The hosts explore separating model reasoning from execution authority, emphasizing that powerful agents need dependable boundaries before receiving sensitive credentials." }],
+  },
+  {
+    name: "Cash App",
+    keywords: ["whole coiner financing", "cash app bitcoin roadmap", "buy now pay later bitcoin", "bitcoin loan terms"],
+    picks: [{ youtube_id: "SMeoVZjCmXs", t: 5603, label: "Cash App's published roadmap includes financing toward owning one bitcoin, which Steve says has not launched. The hosts discuss locking in today's price while repaying over time, but explicitly lack details on rates, collateral, repayment terms, and downside exposure." }],
+  },
+  {
+    name: "AI agent payments",
+    keywords: ["banks for ai agents", "lending to ai", "agent financing", "ai banking businesses"],
+    picks: [{ youtube_id: "SMeoVZjCmXs", t: 5811, label: "The Cash App financing discussion turns toward a speculative business opportunity: banks that lend to AI agents. The hosts ask who will build such services and express interest in learning about prospective companies, without describing a launched product." }],
+  },
+]);

@@ -1,0 +1,15 @@
+0:00 - Confirming DK's identity
+2:10 - Naming Open Source AI, how about Open Superintelligence?
+5:53 - Open weights, open source, and model transparency
+12:02 - Why NVIDIA could make Open Superintelligence real
+19:50 - Is bitcoin dying from AI and quantum?
+24:56 - ECDSA, and bitcoin’s assumptions
+31:55 - OpenAI math breakthroughs and mathematicians’ backlash
+39:04 - Winning people over with useful AI demos
+49:52 - Fresh addresses, Taproot, and public key risk
+57:35 - Steve's visit to Chaincode Dialogues and post-quantum bitcoin
+1:02:57 - Anthropic security scans and Project Loupe
+1:10:37 - Ledger supply-chain attack and hardware wallet trust
+1:14:30 - Personal agents, GrokBot, and AI wallets
+1:21:05 - Agent loops, email access, and deterministic control
+1:33:23 - Cash App whole-coiner financing and AI banks
