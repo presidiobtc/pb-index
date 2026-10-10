@@ -1,0 +1,19 @@
+Modern AI systems are often cast as products: a model, a chatbot, an API. But for science, that framing is too narrow. Scientific communities need more than access to finished systems: they need the ability to understand, modify, reproduce, and extend them. That requires open AI infrastructure spanning the model-development lifecycle, from data and training methods to intermediate artifacts, evaluations, and documentation. In this talk, I will use Ai2’s Olmo project as a case study, highlighting examples of what becomes possible when researchers can study and intervene in model construction rather than only consume its outputs. I will argue that this kind of openness is essential if universities, nonprofits, governments, and scientific communities are to build AI systems that serve their own purposes. The goal is not to reproduce commercial AI in the open, but to create an ecosystem that gives scientific communities greater agency and accelerates discovery.
+
+Timestamps
+0:00 - Why open weights aren’t enough
+03:22 - Olmo's model flow: opening every training stage
+08:43 - How open infrastructure enables better experiments
+12:47 - Adding new capabilities without retraining everything
+17:26 - Is fully open training data competitive?
+19:41 - Olmo's long-term role
+22:49 - The future of hybrid and multimodal models
+
+Recorded at the Open Source AI Summit, September 10–11, 2026, in San Francisco’s Presidio. The summit brought together 150 builders and advocates to explore open, private, and local AI across technology, science, policy, economics, and philosophy. opensourceaisummit.org
+
+A big thanks to the sponsors: Vora, Buzz, Bitcoin Policy Institute, OpenTeams, and Presidio Bitcoin.
+
+Follow:
+https://x.com/nlpnoah
+
+Learn more: presidiobitcoin.org

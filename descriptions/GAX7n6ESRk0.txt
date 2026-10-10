@@ -1,0 +1,27 @@
+This panel explores how open-weight models could compete with closed AI labs and how autonomous agents may earn, transact, and hold resources. The conversation covers control over data, the economics of compute, verification, bitcoin, and why a diverse ecosystem of open models may be safer than relying on a few centralized systems.
+
+Panelists: Max Webster (Founder, Hivemind Ventures) · John Komkov (Managing Partner, Fathom Capital) · Christian Catalini (Founder, MIT Cryptoeconomics Lab)
+
+Timestamps:
+0:00 - The state of open vs. closed AI
+05:37 - Open-source AI's actual big advantage (not cost)
+09:52 - Why verification will become more valuable than intelligence
+15:31 - How will we verify increasingly capable AI?
+18:46 - What infrastructure will agents need
+23:05 - Bitcoin as money for agents
+26:39 - How open models act as an immune system
+29:33 - The missing infrastructure for open models
+33:40 - The regulatory threat to open-source AI
+
+
+Recorded at the Open Source AI Summit, September 10–11, 2026, in San Francisco’s Presidio. The summit brought together 150 builders and advocates to explore open, private, and local AI across technology, science, policy, economics, and philosophy. opensourceaisummit.org
+
+A big thanks to the sponsors: Buzz, Vora, Bitcoin Policy Institute, OpenTeams, and Presidio Bitcoin.
+
+Follow:
+x.com/MaxAWebster
+x.com/johnkomkov
+x.com/ccatalini
+
+Learn more:
+presidiobitcoin.org

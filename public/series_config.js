@@ -55,6 +55,7 @@ const SERIES_DEFS = [
     blurb: "A summit bringing together founders, technologists, and policy leaders to explore open models, local inference, agent frameworks, private AI, AI economics and safety, and the right to compute.",
     links: [
       { kind: "web", label: "Summit Website", url: "https://opensourceaisummit.org/" },
+      { kind: "youtube", label: "Panels & Presentations", url: "https://www.youtube.com/playlist?list=PLQ2PglXH2rms" },
     ],
   },
   {

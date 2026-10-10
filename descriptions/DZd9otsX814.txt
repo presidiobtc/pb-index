@@ -1,0 +1,22 @@
+Matt White (Former Global CTO of AI, Linux Foundation) moderates a conversation with Bryan Catanzaro, Vice President of Applied Deep Learning Research at NVIDIA.
+
+Timestamps
+0:00 - Why NVIDIA invests in open models
+06:09 - Why small models need frontier models
+09:32 - Hugging Face acquisition and NVIDIA’s open ecosystem strategy
+13:53 - Why Nemotron goes beyond model weights
+17:01 - Building a shared foundation for open models
+25:35 - Why AI models need different licenses
+30:23 - Why openness makes AI safer
+36:32 - The limits of open model development
+
+Recorded at the Open Source AI Summit, September 10–11, 2026, in San Francisco’s Presidio. The summit brought together 150 builders and advocates to explore open, private, and local AI across technology, science, policy, economics, and philosophy. opensourceaisummit.org
+
+A big thanks to the sponsors: Buzz, Vora, Bitcoin Policy Institute, OpenTeams, and Presidio Bitcoin.
+
+Follow:
+https://x.com/ctnzr
+https://x.com/matthew_d_white
+
+Learn more:
+presidiobitcoin.org

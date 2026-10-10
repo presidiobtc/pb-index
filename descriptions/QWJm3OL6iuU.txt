@@ -1,0 +1,23 @@
+As AI becomes embedded across the enterprise, a company’s most valuable assets increasingly include what it uniquely knows: proprietary data, trade secrets, institutional knowledge, intellectual property, and the collective intelligence built over decades. This talk explores how open-source AI and sovereign data infrastructure can allow organizations to capture the transformative value of AI without surrendering control of the knowledge that creates their competitive advantage.
+
+A big thanks to OpenTeams for sponsoring the Open Source AI Summit.
+
+Timestamps:
+0:00 - How open source shaped Travis Oliphant’s career
+5:26 - The relationship between ownership and cooperation
+10:09 - Why companies need to own their intelligence
+15:59 - Protecting IP in the age of AI
+18:55 - What sovereign enterprise AI architecture looks like
+25:23 - AI sovereignty as a competitive advantage
+29:18 - How companies can start owning their intelligence with OpenTeams
+32:49 - Should companies trust AI vendors with their data?
+36:14 - How AI will reshape companies
+40:44 - Why open-source AI will become more modular
+
+Recorded at the Open Source AI Summit, September 10–11, 2026, in San Francisco’s Presidio. The summit brought together 150 builders and advocates to explore open, private, and local AI across technology, science, policy, economics, and philosophy. opensourceaisummit.org
+
+A big thanks to the sponsors: OpenTeams, Buzz, Vora, Bitcoin Policy Institute, and Presidio Bitcoin.
+
+Follow:
+x.com/teoliphant
+x.com/TheVinoMom

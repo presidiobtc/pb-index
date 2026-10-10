@@ -1,0 +1,19 @@
+Building your own AI is easier than you think. Jeff Boudier walks through the Hugging Face tools and libraries that take you from AI user to AI builder: finding the right open model, adapting it to your own data, and deploying it yourself.
+
+Timestamps:
+0:00 - Hugging Face’s ecosystem
+3:38 - How to find and evaluate open models
+6:18 - Collaborating on models and datasets
+8:47 - Building, deploying, and customizing open models
+13:40 - How agents simplify model building
+18:08 - Hugging Face’s future with NVIDIA
+19:53 - Making open-source AI robotics accessible
+
+Recorded at the Open Source AI Summit, September 10–11, 2026, in San Francisco’s Presidio. The summit brought together 150 builders and advocates to explore open, private, and local AI across technology, science, policy, economics, and philosophy. opensourceaisummit.org
+
+A big thanks to the sponsors: Vora, Buzz, Bitcoin Policy Institute, OpenTeams, and Presidio Bitcoin.
+
+Follow:
+https://x.com/jeffboudier
+
+Learn more: presidiobitcoin.org

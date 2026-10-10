@@ -307,16 +307,6 @@ function prefersBrowserLandingPage(request) {
   const accept = String(request.headers.get("accept") || "").toLowerCase();
   if (accept.includes("text/event-stream")) return false;
 
-  const acceptsHtml = accept.split(",").some(range => {
-    const [mediaType, ...parameters] = range.split(";").map(value => value.trim());
-    if (mediaType !== "text/html") return false;
-    const quality = parameters.find(parameter => parameter.startsWith("q="));
-    if (!quality) return true;
-    const value = Number(quality.slice(2));
-    return Number.isFinite(value) && value > 0;
-  });
-  if (!acceptsHtml) return false;
-
   const mcpHeaders = [
     "last-event-id",
     "mcp-method",
@@ -326,6 +316,10 @@ function prefersBrowserLandingPage(request) {
   ];
   if (mcpHeaders.some(header => request.headers.has(header))) return false;
 
+  // Web crawlers and chat browsing tools commonly send Accept: */* (or no
+  // Accept header), even though they are fetching a human-readable page. A
+  // GET without MCP identity or SSE negotiation is not a Streamable HTTP
+  // protocol request, so serve the landing page rather than a misleading 405.
   const fetchMode = request.headers.get("sec-fetch-mode");
   if (fetchMode && fetchMode !== "navigate") return false;
   const fetchDestination = request.headers.get("sec-fetch-dest");

@@ -1,0 +1,24 @@
+This panel explores why open protocols are essential to building an interoperable AI ecosystem. The conversation covers standards for agent identity, communication, payments, and memory, and how they can reduce lock-in, create open markets, and enable new forms of collaboration between humans and agents.
+
+Panelists: Max Webster (Founder, Hivemind Ventures) · Tom Brow (Applied AI, Block) · Ilan Strauss (Economist, AI Disclosures Project) · Sam Herring (Developer, Nous Research) · Roland Bewick (Developer, Alby)
+
+Timestamps
+0:00 - Why open protocols matter for AI markets
+04:13 - Nostr for agent identity
+11:31 - Why sovereign identity gets harder at scale
+13:18 - How MCP won so quickly
+18:00 - Why agents need bitcoin for true autonomy
+20:48 - Which payment protocols will agents use?
+24:34 - AI memory needs an open standard
+27:39 - What open protocols will make possible
+
+Recorded at the Open Source AI Summit, September 10–11, 2026, in San Francisco’s Presidio. The summit brought together 150 builders and advocates to explore open, private, and local AI across technology, science, policy, economics, and philosophy. opensourceaisummit.org
+
+A big thanks to the sponsors: Buzz, Vora, Bitcoin Policy Institute, OpenTeams, and Presidio Bitcoin.
+
+Follow:
+x.com/MaxAWebster
+x.com/_tombrow
+x.com/IlanStrauss
+x.com/yaboilyrical
+x.com/rolznz

@@ -1,0 +1,22 @@
+Political philosopher Michael Millerman joins Vora co-founder Jesse Posner to explore how thinkers from Plato and Aristotle to Strauss and Heidegger can help us understand AI. They examine open versus closed systems, the concentration of power, and the deeper questions AI raises about knowledge, freedom, and human nature.
+
+Timestamps:
+0:00 - What ancient philosophy can teach us about AI
+05:05 - Why ancient questions survive technological progress
+08:19 - OpenAI and the ancient debate over withholding dangerous knowledge
+11:35 - Applying political philosophy to users, labs, and agents
+16:33 - Jailbreaking as a new form of esoteric reading
+19:42 - Why AI debates become theological
+24:57 - The philosophical case for language models (vs world models)
+31:12 - The political philosophy of open-source AI
+
+Recorded at the Open Source AI Summit, September 10–11, 2026, in San Francisco’s Presidio. The summit brought together 150 builders and advocates to explore open, private, and local AI across technology, science, policy, economics, and philosophy. opensourceaisummit.org
+
+A big thanks to the sponsors: Buzz, Vora, Bitcoin Policy Institute, OpenTeams, and Presidio Bitcoin.
+
+Follow:
+https://x.com/millerman
+https://x.com/jesseposner
+
+Learn more:
+https://presidiobitcoin.org

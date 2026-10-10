@@ -1,0 +1,21 @@
+A discussion of why privacy matters, the lack of privacy in popular products like ChatGPT and Claude, and different approaches and tradeoffs to achieving it, including TEEs, homomorphic encryption, and local AI.
+
+0:00 - Why AI makes privacy more important
+07:00 - Protecting freedom of thought from AI
+08:40 - How secure enclaves make AI private
+11:01 - The security risks and limitations of TEEs
+12:48 - Balancing privacy with usability and convenience
+14:34 - How fully homomorphic encryption protects AI data
+18:30 - The privacy stack for AI: FHE, TEEs, payments, and local models
+19:29 - How to make private, open-source AI mainstream
+23:57 - What privacy’s “Signal moment” could look like
+
+Recorded at the Open Source AI Summit, September 10–11, 2026, in San Francisco’s Presidio. The summit brought together 150 builders and advocates to explore open, private, and local AI across technology, science, policy, economics, and philosophy. opensourceaisummit.org
+
+A big thanks to the sponsors: Vora, Buzz, Bitcoin Policy Institute, OpenTeams, and Presidio Bitcoin.
+
+Follow:
+Tanya Verma (Co-Founder & CEO, Tinfoil): https://x.com/t0nyav
+Mark Suman (Co-Founder & CEO, Maple): https://x.com/marksuman
+Curtis Spencer (Partner & Co-Founder, Electric Capital): https://x.com/curtis0x
+Shruthi Gorantala (Software Engineer, Private Computing, Google): https://x.com/_shruthig

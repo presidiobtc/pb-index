@@ -1,0 +1,40 @@
+{
+  "series": "Open Source AI Summit",
+  "agenda_url": "https://opensourceaisummit.org/#agenda",
+  "playlist_url": "https://www.youtube.com/playlist?list=PLQ2PglXH2rms",
+  "verified_on": "2026-10-09",
+  "date_basis": "Event dates from the official agenda, not YouTube upload dates.",
+  "excluded_videos": [
+    {
+      "youtube_id": "3jrMQKxIX3U",
+      "reason": "PBJ recap clip, not an agenda session; the full episode evBVXSD_gsg is already indexed as PBJ."
+    }
+  ],
+  "sessions": [
+    { "date": "2026-09-10", "time": "9:30–9:45", "title": "AI as a Tool of Liberty", "youtube_id": "ucIrmpG62k0" },
+    { "date": "2026-09-10", "time": "9:50–10:20", "title": "Fireside Chat with Vincent Weisser", "youtube_id": "yYPyCRnM-ww" },
+    { "date": "2026-09-10", "time": "10:30–11:05", "title": "Remote Fireside Chat with David Sacks", "youtube_id": "1iPvM0YCg_E" },
+    { "date": "2026-09-10", "time": "11:20–11:40", "title": "State of Local AI", "youtube_id": "Ys3_yLLXoIU" },
+    { "date": "2026-09-10", "time": "11:45–12:00", "title": "Vora Aegis: The World’s Most Loyal AI", "youtube_id": "3t5N8C1pU0c" },
+    { "date": "2026-09-10", "time": "12:15–12:45", "title": "The Political Philosophy of Open Source AI", "youtube_id": "c2cPd78k5TE" },
+    { "date": "2026-09-10", "time": "12:15–12:45", "title": "How Inference Engines Actually Work", "youtube_id": null },
+    { "date": "2026-09-10", "time": "1:35–2:00", "title": "Olmo, Molmo, and Open Multimodal AI Infrastructure to Accelerate Science", "youtube_id": "T46pi4SfNsU" },
+    { "date": "2026-09-10", "time": "1:35–2:00", "title": "Engineering Agent Loops and Graphs with Local Models", "youtube_id": null },
+    { "date": "2026-09-10", "time": "2:10–2:40", "title": "The Economics of Open-Weights Models and Autonomous AI Systems", "youtube_id": "GAX7n6ESRk0" },
+    { "date": "2026-09-10", "time": "2:10–2:40", "title": "Open Model Customization: A case study from the many variants of Gemma", "youtube_id": null },
+    { "date": "2026-09-10", "time": "2:50–3:20", "title": "The Right to Compute", "youtube_id": "lbVJQ4LTvN0" },
+    { "date": "2026-09-10", "time": "2:50–3:20", "title": "Live LLM Inspector", "youtube_id": null },
+    { "date": "2026-09-10", "time": "3:35–4:05", "title": "The Importance of Open Protocols", "youtube_id": "5Bb0r457ToI" },
+    { "date": "2026-09-10", "time": "3:35–4:05", "title": "Agentic Harness Landscape", "youtube_id": null },
+    { "date": "2026-09-10", "time": "4:15–4:45", "title": "Securing Open Source Software", "youtube_id": "lWgqRRRvMao" },
+    { "date": "2026-09-11", "time": "9:30–9:55", "title": "How to Build Your Own AI with Open Models", "youtube_id": "F0Gg5vwrRxQ" },
+    { "date": "2026-09-11", "time": "10:05–10:35", "title": "Computing Manifesto Fireside Chat", "youtube_id": "eKy7vJTyXYk" },
+    { "date": "2026-09-11", "time": "10:45–11:15", "title": "Privacy Panel", "youtube_id": "xLfR-D9g9zE" },
+    { "date": "2026-09-11", "time": "11:30–12:00", "title": "Sovereign by Design: Protecting Enterprise Value in the Age of AI", "youtube_id": "QWJm3OL6iuU" },
+    { "date": "2026-09-11", "time": "12:10–12:40", "title": "AI for Science", "youtube_id": "UYsrDA14TAE" },
+    { "date": "2026-09-11", "time": "1:30–1:40", "title": "AI and Human Freedom", "youtube_id": "AQAhgEM1ILU" },
+    { "date": "2026-09-11", "time": "1:45–2:15", "title": "The Geopolitics of AI", "youtube_id": "9_LSKdx3a0A" },
+    { "date": "2026-09-11", "time": "2:25–2:55", "title": "Hardware You Can Verify", "youtube_id": "uwy7tMZ75_4" },
+    { "date": "2026-09-11", "time": "3:05–3:35", "title": "Fireside with Bryan Catanzaro", "youtube_id": "DZd9otsX814" }
+  ]
+}

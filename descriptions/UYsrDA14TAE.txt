@@ -1,0 +1,24 @@
+A discussion on what’s being built at the intersection of open-source AI and science, and how open models, agentic skills, and local infrastructure can uniquely support scientists and help accelerate scientific discovery.
+
+Timestamps:
+0:00 - How scientists should think about AI
+04:29 - Building open models for science
+09:26 - Openness and interpretability in medical AI
+13:47 - Science needs reproducible, interpretable AI
+17:27 - The incentive problem in modern science
+22:19 - The AI fluency problem among scientists
+24:17 - The role of human scientists in an AI future
+28:47 - Moving AI from ideas to real-world experiments
+
+Recorded at the Open Source AI Summit, September 10–11, 2026, in San Francisco’s Presidio. The summit brought together 150 builders and advocates to explore open, private, and local AI across technology, science, policy, economics, and philosophy. opensourceaisummit.org
+
+A big thanks to the sponsors: Vora, Buzz, Bitcoin Policy Institute, OpenTeams, and Presidio Bitcoin.
+
+Follow:
+Niko McCarty (Founding Editor, Asimov Press): https://x.com/NikoMcCarty
+Rory Donovan-Maiye (Sr. Research Scientist, Allen Institute for Artificial Intelligence): https://x.com/allen_ai
+James Sinka (Founder, Reactorfield): https://x.com/jamessinka
+Tanishq Abraham (CEO, Sophont): https://x.com/iScienceLuvr
+
+Learn more:
+https://presidiobitcoin.org

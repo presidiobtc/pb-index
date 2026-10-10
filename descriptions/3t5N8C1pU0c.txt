@@ -1,0 +1,20 @@
+Vora is building the world's most loyal AI. It knows your life, it works for you alone, and it stays yours forever. The Vora team will reveal the machine that runs it for the first time: open-source, private by design, in your home on hardware you own.
+
+https://vora.io/
+
+Timestamps:
+0:00 - A civilizational view of AI
+4:56 - Introducing Vora Aegis
+5:49 - MeDB: a private database for personal data
+7:22 - Unveiling Vora Aegis
+
+Recorded at the Open Source AI Summit, September 10–11, 2026, in San Francisco’s Presidio. The summit brought together 150 builders and advocates to explore open, private, and local AI across technology, science, policy, economics, and philosophy. opensourceaisummit.org
+
+A big thanks to the sponsors: Vora, Buzz, Bitcoin Policy Institute, OpenTeams, and Presidio Bitcoin.
+
+Follow:
+https://x.com/jesseposner
+https://x.com/Erikcason
+https://x.com/proof_of_nick
+
+Learn more: presidiobitcoin.org

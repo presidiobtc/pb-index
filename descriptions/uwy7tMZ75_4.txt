@@ -1,0 +1,22 @@
+Every security guarantee in an AI system eventually rests on silicon almost no one can inspect. Three teams working that problem share their approaches. Vora is building a personal AI appliance with its own secure element. Caution is building verifiable compute out of Distrust’s open-source supply-chain work. Sudo’s Project SOVereign is an attempt at a maximally open source, fully verifiable, security-first chip.
+
+0:00 - Intros
+2:03 - What is verifiable hardware and why is it important
+05:29 - How regular users can verify hardware locally
+10:17 - Project Sovereign’s approach to open and verifiable security chips
+15:20 - How trusted execution environments (TEEs) work
+19:37 - Where TEEs break down
+24:20 - How to harden TEEs
+26:43 - Securing agentic systems with verifiable hardware
+
+Recorded at the Open Source AI Summit, September 10–11, 2026, in San Francisco’s Presidio. The summit brought together 150 builders and advocates to explore open, private, and local AI across technology, science, policy, economics, and philosophy. opensourceaisummit.org
+
+A big thanks to the sponsors: Vora, Buzz, Bitcoin Policy Institute, OpenTeams, and Presidio Bitcoin.
+
+Follow:
+https://x.com/jesseposner
+https://x.com/proof_of_nick
+https://lance.dev/
+https://x.com/sudo_ml
+
+Learn more: presidiobitcoin.org

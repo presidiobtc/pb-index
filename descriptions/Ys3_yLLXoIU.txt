@@ -1,0 +1,18 @@
+Ahmad M. Osman is an AI researcher who spends much of his time growing the Local AI community and creating educational resources. Today, he’ll share the state of Local AI and why open source and Local AI are relevant to everyone, not just organizations and businesses.
+
+0:00 - Why local AI matters for open source
+03:55 - How AI is moving onto smaller hardware
+07:27 - The evolution from Llama to DeepSeek
+12:06 - Compounding efficiency gains in local AI
+14:39 - Rapidly shrinking hardware requirements for frontier AI
+17:45 - Model efficiency vs rising hardware costs
+19:29 - "Benchmaxxing": benchmark gaming and evaluating open models
+
+Recorded at the Open Source AI Summit, September 10–11, 2026, in San Francisco’s Presidio. The summit brought together 150 builders and advocates to explore open, private, and local AI across technology, science, policy, economics, and philosophy. opensourceaisummit.org
+
+A big thanks to the sponsors: Vora, Buzz, Bitcoin Policy Institute, OpenTeams, and Presidio Bitcoin.
+
+Follow:
+https://x.com/TheAhmadOsman
+
+Learn more: presidiobitcoin.org

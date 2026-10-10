@@ -1,0 +1,21 @@
+Era Qian sat down with Prime Intellect co-founder Vincent Weisser to discuss his journey building the company and its mission to democratize the infrastructure behind advanced AI. They explore distributed training, open-source post-training, and why giving developers and businesses ownership of their models could offer an alternative to centralized AI labs.
+
+Timestamps:
+0:00 - Why Prime Intellect was built around open AI
+05:23 - How distributed AI training works
+08:00 - How reinforcement learning changed AI training
+13:02 - Why Prime Intellect became a full-stack AI platform
+16:18 - The cost advantage of open models
+19:52 - Prime Intellect's focus going forward
+22:02 - Why AI progress should be collaborative
+
+Recorded at the Open Source AI Summit, September 10–11, 2026, in San Francisco’s Presidio. The summit brought together 150 builders and advocates to explore open, private, and local AI across technology, science, policy, economics, and philosophy. opensourceaisummit.org
+
+A big thanks to our sponsors: Bitcoin Policy Institute, Buzz, Vora, OpenTeams, and Presidio Bitcoin.
+
+Follow:
+x.com/vincentweisser
+x.com/eraqian
+
+Learn more:
+https://www.presidiobitcoin.org/

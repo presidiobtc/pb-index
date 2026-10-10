@@ -1,0 +1,23 @@
+This panel explores how AI-powered security scanning is reshaping the race between attackers and defenders in open-source software. The conversation covers finding and triaging vulnerabilities, responsible disclosure, protecting maintainers from malicious reports, and why access to open-weight models is becoming essential to defending critical code.
+
+Panelists: Steve Lee (Lead, Spiral) · Elias Rohrer (Developer, Spiral) · Jordan Mecom (Staff Security Engineer, Block) · Rob Hamilton (Co-Founder & CEO, AnchorWatch)
+
+Timestamps
+0:00 - How AI is changing open-source software security
+03:34 - How AI security scanning works
+06:30 - Why open-weight models changed cybersecurity
+09:30 - How many vulnerabilities AI scans find
+11:58 - Why different scanning methods find different vulnerabilities
+15:38 - How maintainers should handle AI vulnerability reports
+23:29 - How AI changes responsible disclosure
+30:15 - Can AI find vulnerabilities without source code?
+
+Recorded at the Open Source AI Summit, September 10–11, 2026, in San Francisco’s Presidio. The summit brought together 150 builders and advocates to explore open, private, and local AI across technology, science, policy, economics, and philosophy. opensourceaisummit.org
+
+A big thanks to the sponsors: Buzz, Vora, Bitcoin Policy Institute, OpenTeams, and Presidio Bitcoin.
+
+Follow:
+x.com/moneyball
+x.com/_tnull
+x.com/Rob1Ham
+x.com/jordanmecom

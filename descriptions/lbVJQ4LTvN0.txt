@@ -1,0 +1,24 @@
+This panel examines whether model weights and AI outputs qualify as protected speech, how AI regulation intersects with the First Amendment, and whether people have a right to run intelligence on hardware they own. The conversation explores the limits of “code is speech,” the privacy advantages of local AI, and why technical experts should help shape policy before new regulatory frameworks are established.
+
+Panelists: Greg Lukianoff (President & CEO, FIRE) · Conner Brown (Executive Director, Bitcoin Policy Institute) · Kyle Olney (Senior Advisor, Bitcoin Policy Institute)
+
+Timestamps:
+0:00 - The limits of “code is speech”
+06:25 - Why AI needs a stronger legal argument
+12:01 - Are model weights protected speech?
+17:22 - Who should be liable for AI use? (lessons from bitcoin)
+20:54 - AI regulation's threat to privacy
+23:57 - The privacy case for open-source AI
+30:00 - Why AI policy badly needs technical expertise
+32:55 - Who should shape AI policy
+
+Recorded at the Open Source AI Summit, September 10–11, 2026, in San Francisco’s Presidio. The summit brought together 150 builders and advocates to explore open, private, and local AI across technology, science, policy, economics, and philosophy. opensourceaisummit.org
+
+A big thanks to the sponsors: Buzz, Vora, Bitcoin Policy Institute, OpenTeams, and Presidio Bitcoin.
+
+Follow:
+x.com/glukianoff
+https://x.com/BitcoinConner
+x.com/KyleOlney
+
+Learn more: presidiobitcoin.org

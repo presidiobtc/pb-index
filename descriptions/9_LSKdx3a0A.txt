@@ -1,0 +1,22 @@
+An exploration of what China’s rise in competitive open-weight models means for American AI leadership, global influence, export controls, and the case for a U.S. open-weights strategy.
+
+Timestamps:
+0:00 - How open source became a geopolitical strategy
+04:51 - China’s open-source strategy for AI
+08:00 - America’s opportunity in open-source AI
+11:52 - Why the open-source AI community needs to organize
+16:34 - How decentralized communities can organize effectively
+19:55 - Why Washington struggles with AI
+25:02 - The political challenges facing open-source builders
+28:35 - America’s underappreciated open-source advantage
+30:08 - AI policy as narrative battle
+32:25 - The biggest AI safety risk is regulatory capture
+
+Recorded at the Open Source AI Summit, September 10–11, 2026, in San Francisco’s Presidio. The summit brought together 150 builders and advocates to explore open, private, and local AI across technology, science, policy, economics, and philosophy. opensourceaisummit.org
+
+A big thanks to the sponsors: OpenTeams, Bitcoin Policy Institute, Buzz, Vora, and Presidio Bitcoin.
+
+Follow:
+Kyle Olney (Senior Advisor, Bitcoin Policy Institute): https://x.com/KyleOlney
+Travis Oliphant (CEO & Co-Founder, OpenTeams; Creator of NumPy & SciPy): https://x.com/teoliphant
+Ken Egan (Director of Government Affairs, Bitcoin Policy Institute)

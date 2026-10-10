@@ -205,10 +205,21 @@ test("MCP event-stream GETs are never replaced by the browser landing page", asy
   await assertProtocolOwnsGet({ accept: "text/html, text/event-stream" });
 });
 
-test("ambiguous and MCP-identified GETs remain owned by the protocol handler", async () => {
-  await assertProtocolOwnsGet();
-  await assertProtocolOwnsGet({ accept: "*/*" });
-  await assertProtocolOwnsGet({ accept: "text/html;q=0" });
+async function assertLandingPage(headers = {}) {
+  const response = await mcpHandler.fetch(new Request("http://pb.test/mcp", {
+    method: "GET",
+    headers,
+  }));
+
+  assert.equal(response.status, 200);
+  assert.match(response.headers.get("content-type") || "", /^text\/html/);
+  assert.match(await response.text(), /PB Media Archive MCP Server/);
+}
+
+test("generic GETs receive the landing page while MCP-identified GETs remain protocol-owned", async () => {
+  await assertLandingPage();
+  await assertLandingPage({ accept: "*/*" });
+  await assertLandingPage({ accept: "text/html;q=0" });
   await assertProtocolOwnsGet({
     accept: "text/html",
     "mcp-protocol-version": "2025-11-25",

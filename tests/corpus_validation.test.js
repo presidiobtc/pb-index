@@ -53,12 +53,40 @@ test("source files, curated timestamps, and generated search coverage validate",
   const result = validation();
   assert.equal(result.ok, true);
   assert.deepEqual(result.errors, []);
-  assert.equal(result.stats.catalog_videos, 186);
+  assert.equal(result.stats.catalog_videos, 205);
   assert.equal(result.stats.transcripts_with_entries, result.stats.catalog_videos);
   assert.equal(result.stats.canonical_topics, 886);
   assert.ok(result.stats.video_topic_picks > result.stats.canonical_topics);
   assert.ok(result.stats.report_topic_picks > 0);
   assert.ok(result.stats.generated_chunks > result.stats.catalog_videos);
+});
+
+test("OSAIS recordings have complete search coverage on their official event dates", () => {
+  const manifest = JSON.parse(fs.readFileSync(path.join(ROOT, "scripts", "osais_sessions.json"), "utf8"));
+  const sessions = manifest.sessions.filter(session => session.youtube_id);
+  const index = readPublicJson("index.json");
+  const chunks = readPublicJson("search_chunks.json");
+  const summitEntries = index.filter(entry => entry.series === manifest.series);
+  assert.equal(sessions.length, 20);
+  assert.equal(new Set(summitEntries.map(entry => entry.youtube_id)).size, sessions.length);
+
+  for (const session of sessions) {
+    const entries = summitEntries.filter(entry => entry.youtube_id === session.youtube_id);
+    const raw = fs.readFileSync(path.join(ROOT, "transcripts_raw", `${session.youtube_id}.txt`), "utf8");
+    const timestampCount = Array.from(raw.matchAll(/\[\d{2}:\d{2}:\d{2}\]/g)).length;
+    assert.ok(entries.length > 0, `${session.youtube_id} has no indexed transcript`);
+    assert.equal(entries.length, timestampCount, `${session.youtube_id} has incomplete transcript coverage`);
+    assert.ok(entries.every(entry => entry.published_date === session.date));
+    const videoChunks = chunks.filter(chunk => chunk.youtube_id === session.youtube_id);
+    for (const type of ["transcript", "description"]) {
+      assert.ok(videoChunks.some(chunk => chunk.type === type && chunk.text), `${session.youtube_id} has no ${type} chunks`);
+    }
+    assert.ok(videoChunks.every(chunk => chunk.date === session.date && chunk.series === manifest.series));
+  }
+
+  for (const video of manifest.excluded_videos) {
+    assert.ok(!summitEntries.some(entry => entry.youtube_id === video.youtube_id));
+  }
 });
 
 test("new videos have saved transcript, description, and topic coverage", () => {
