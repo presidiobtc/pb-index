@@ -6,6 +6,7 @@ const test = require("node:test");
 
 const ROOT = path.join(__dirname, "..");
 const INGESTED_VIDEO_IDS = [
+  "tCGqaEkb2iA",
   "SMeoVZjCmXs",
   "bj3e5Z8B7EI",
   "X2nWtURNgt8",
@@ -53,9 +54,9 @@ test("source files, curated timestamps, and generated search coverage validate",
   const result = validation();
   assert.equal(result.ok, true);
   assert.deepEqual(result.errors, []);
-  assert.equal(result.stats.catalog_videos, 205);
+  assert.equal(result.stats.catalog_videos, 206);
   assert.equal(result.stats.transcripts_with_entries, result.stats.catalog_videos);
-  assert.equal(result.stats.canonical_topics, 886);
+  assert.equal(result.stats.canonical_topics, 888);
   assert.ok(result.stats.video_topic_picks > result.stats.canonical_topics);
   assert.ok(result.stats.report_topic_picks > 0);
   assert.ok(result.stats.generated_chunks > result.stats.catalog_videos);
@@ -218,6 +219,28 @@ test("October 9 PBJ preserves the supplied transcript, all chapters, and source 
     assert.ok(pick.text.trim().split(/\s+/).length >= 33);
     assert.ok(pick.text.trim().split(/\s+/).length <= 40);
   }
+});
+
+test("October 23 PBJ includes the complete supplied transcript and official chapters", () => {
+  const youtubeId = "tCGqaEkb2iA";
+  const entries = readPublicJson("index.json").filter(entry => entry.youtube_id === youtubeId);
+  assert.equal(entries.length, 5427);
+  assert.equal(entries[0].t, 2);
+  assert.equal(entries.at(-1).t, 5514);
+  assert.ok(entries.every(entry => entry.published_date === "2026-10-23" && entry.series === "PBJ"));
+  assert.ok(entries.every(entry => entry.title === "PBJ: Chamath's Bitcoin-to-Zero Warning, Bitcoin-Powered AI in Signal, Lending to Agents"));
+
+  const description = fs.readFileSync(path.join(ROOT, "descriptions", `${youtubeId}.txt`), "utf8");
+  assert.deepEqual(
+    [...description.matchAll(/^(\d+:\d+(?::\d+)?) - /gm)].map(match => match[1]),
+    ["0:00", "1:01", "4:48", "7:05", "16:14", "23:44", "28:15", "41:06", "46:09", "52:23", "1:04:14", "1:10:04", "1:16:16", "1:20:00", "1:24:05"],
+  );
+  assert.match(description, /https:\/\/www\.projectloupe\.org\//);
+  const chunks = readPublicJson("search_chunks.json").filter(chunk => chunk.youtube_id === youtubeId);
+  assert.equal(chunks.find(chunk => chunk.type === "description").text, description.trim().replace(/\s+/g, " "));
+  assert.equal(chunks.filter(chunk => chunk.type === "transcript").at(-1).end_t, 5514);
+  assert.ok(chunks.some(chunk => chunk.type === "topic" && chunk.topics.includes("Mesh-LLM")));
+  assert.ok(chunks.some(chunk => chunk.type === "topic" && chunk.topics.includes("AI and cryptography")));
 });
 
 test("new transcript windows overlap, link to neighbors, and preserve zero timestamps", () => {

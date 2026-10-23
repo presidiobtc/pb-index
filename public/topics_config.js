@@ -7130,3 +7130,87 @@ addTopicDefs([
     picks: [{ youtube_id: "SMeoVZjCmXs", t: 5811, label: "The Cash App financing discussion turns toward a speculative business opportunity: banks that lend to AI agents. The hosts ask who will build such services and express interest in learning about prospective companies, without describing a launched product." }],
   },
 ]);
+
+// 2026-10-23 PBJ: Bitcoin-powered Signal, lending to agents, and cryptography risks.
+addTopicDefs([
+  {
+    name: "Goose Development Kit",
+    keywords: ["agntcon gdk demos", "full duplex code review", "physical ai monitoring", "robot arm correction"],
+    picks: [{ youtube_id: "tCGqaEkb2iA", t: 60, label: "Steve recaps Goose Development Kit demos from AGNTCon: a conversational code review, a simulated robot arm whose mistakes trigger corrective code, and an AI assistant inside Signal. The examples show reusable agent components supporting different interfaces and tasks." }],
+  },
+  {
+    name: "Signal",
+    keywords: ["signal ai demo", "sig assistant", "bitcoin powered signal", "signal fork"],
+    picks: [{ youtube_id: "tCGqaEkb2iA", t: 286, label: "A forked Signal client adds Sig, an assistant built with Goose Development Kit. The hosts explore bringing intelligence into existing chats, while Steve emphasizes that this is a demo and that Signal's own plans and interest remain unknown." }],
+  },
+  {
+    name: "AI micropayments",
+    keywords: ["signal inference payments", "lexe mesh llm", "alby inference wallet", "bitcoin compute payments"],
+    picks: [{ youtube_id: "tCGqaEkb2iA", t: 425, label: "The Signal demo pairs inference with Bitcoin micropayments, showing the user's wallet balance and payments arriving at the compute provider. Lexe supplies the demonstrated wallet integration, while the hosts discuss interchangeable wallets and Alby support rather than a mandatory provider." }],
+  },
+  {
+    name: "Mesh-LLM",
+    keywords: ["signal mesh inference", "phala tee gpu", "private peer-to-peer inference", "signal provider independence"],
+    picks: [{ youtube_id: "tCGqaEkb2iA", t: 681, label: "Mesh-LLM lets the Signal prototype request inference through a peer-to-peer network rather than commit to one model provider. Steve explains why the demo uses a Phala GPU with trusted execution hardware and suggests selecting such nodes for privacy-sensitive applications." }],
+  },
+  {
+    name: "GPU marketplace",
+    keywords: ["buyer of last resort compute", "idle gpu capacity", "compute spot market", "gpu financing"],
+    picks: [{ youtube_id: "tCGqaEkb2iA", t: 957, label: "Steve proposes Mesh-LLM as a buyer of last resort for unused GPU capacity. The hosts connect selling spare inference to data center financing, fluctuating utilization, and Bitcoin mining economics, while acknowledging that the network still needs technical development." }],
+  },
+  {
+    name: "Nostr web of trust",
+    keywords: ["compute sharing reputation", "nostr trusted compute", "friends and family inference", "compute provider liability"],
+    picks: [{ youtube_id: "tCGqaEkb2iA", t: 1422, label: "Sharing compute raises concerns about unknown users and harmful workloads. The hosts explore Nostr-based reputation, trusted social connections, and private corporate or family networks as practical ways to choose counterparties, without claiming that these approaches settle liability questions." }],
+  },
+  {
+    name: "AI agent payments",
+    keywords: ["accountless agent services", "lending bitcoin to agents", "agent credit underwriting", "agent business financing"],
+    picks: [{ youtube_id: "tCGqaEkb2iA", t: 1704, label: "Accountless services could let agents discover and purchase compute with minimal friction. The hosts extend that idea to lending: an agent might demonstrate profitable activity through wallet receipts and logs, then borrow capital to expand its business." }],
+  },
+  {
+    name: "Non-custodial lending",
+    keywords: ["surge autonomous agents", "non-custodial agent borrowing", "agent loan identity", "trust-minimized lending"],
+    picks: [{ youtube_id: "tCGqaEkb2iA", t: 2216, label: "Surge prompts a discussion of whether autonomous agents need non-custodial borrowing infrastructure. The hosts distinguish an agent borrowing independently from a developer using a custodial account, and describe Surge as plausibly non-custodial while reserving judgment on its full design." }],
+  },
+  {
+    name: "PB Media Archive",
+    keywords: ["pb archive action items", "podcast idea discovery", "timestamp receipts", "pbj actionable ideas"],
+    picks: [{ youtube_id: "tCGqaEkb2iA", t: 2326, label: "The hosts describe using the PB Media Archive to find timestamped statements and share topic charts. Steve proposes a broader query: review past PBJ episodes, collect actionable ideas, and rank them so useful suggestions are easier to revisit." }],
+  },
+  {
+    name: "Bitcoin failure mitigation",
+    keywords: ["chamath bitcoin to zero", "bitcoin existential risks", "cybersecurity quantum mathematics", "bitcoin risk categories"],
+    picks: [{ youtube_id: "tCGqaEkb2iA", t: 2656, label: "Responding to Chamath's Bitcoin-to-zero warning, the hosts separate software vulnerabilities, quantum attacks, and mathematical breakthroughs. They treat each as worth investigating while rejecting certainty about Bitcoin's demise, distinguishing a discoverable security flaw from an attack that permanently destroys the network." }],
+  },
+  {
+    name: "Project Loupe",
+    keywords: ["bitcoin core ai scans", "libsecp256k1 security", "project loupe resilience", "critical vulnerability discovery"],
+    picks: [{ youtube_id: "tCGqaEkb2iA", t: 2761, label: "Steve says Project Loupe and other AI scans have found many issues across Bitcoin projects, while Bitcoin Core and libsecp256k1 have held up well. He cautions that those results do not rule out serious vulnerabilities appearing in future scans." }],
+  },
+  {
+    name: "AI and cryptography",
+    keywords: ["ai mathematical cryptanalysis", "nist curve origins", "cryptographic assumptions", "math superintelligence bitcoin"],
+    picks: [{ youtube_id: "tCGqaEkb2iA", t: 2892, label: "Mathematical breakthroughs could threaten cryptographic assumptions, but the hosts also consider AI discovering stronger schemes or proving existing assumptions sound. A discussion of NIST curve origins illustrates their broader point: advances in mathematics can improve confidence as well as challenge it." }],
+  },
+  {
+    name: "Post-quantum signatures",
+    keywords: ["ai testing post-quantum schemes", "lattice cryptography scrutiny", "public cryptanalysis", "signature scheme validation"],
+    picks: [{ youtube_id: "tCGqaEkb2iA", t: 3968, label: "The hosts discuss whether AI could accelerate scrutiny of newer post-quantum signature schemes. They debate public testing with available models versus research at frontier labs, balancing faster confidence in surviving designs against the likelihood that weaknesses will also emerge sooner." }],
+  },
+  {
+    name: "AI thinking coach",
+    keywords: ["ai thinking coach", "metacognition", "revisiting assumptions", "chat history reflection"],
+    picks: [{ youtube_id: "tCGqaEkb2iA", t: 4210, label: "DK describes asking AI to reflect on recurring patterns in his conversations and challenge entrenched assumptions. Reconsidering Tesla and SpaceX becomes an example of using chat history to examine skepticism, remain uncertain, and turn a personal learning process into content." }],
+  },
+  {
+    name: "SpaceX",
+    keywords: ["spacex physical infrastructure", "tesla investment horizon", "elon delivery timelines", "energy infrastructure thesis"],
+    picks: [{ youtube_id: "tCGqaEkb2iA", t: 4740, label: "Tesla ownership experiences lead into a discussion of Elon Musk's delivery timelines and the difference between customer expectations and patient investing. The hosts frame SpaceX around physical infrastructure, energy, and long time horizons, while acknowledging uncertainty about future outcomes." }],
+  },
+  {
+    name: "Claude Design",
+    keywords: ["claude design", "ai slide presentations", "voice guided slide editing", "presentation evaluation loops"],
+    picks: [{ youtube_id: "tCGqaEkb2iA", t: 5046, label: "Steve describes creating a conference presentation with Claude Design, then refining individual slides through spoken feedback. He highlights responsive editing and visual improvements, while the hosts consider evaluation loops and why speaker notes matter when assessing a live presentation." }],
+  },
+]);

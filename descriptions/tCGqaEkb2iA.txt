@@ -1,0 +1,22 @@
+0:00 - PBJ returns
+1:01 - AGNTCon takeaways and Goose Development Kit demos
+4:48 - Sig demo: bringing decentralized AI (Mesh LLM) and bitcoin to Signal
+7:05 - Paying for AI inference with bitcoin over Lightning (Lexe, Alby)
+16:14 - Mesh LLM as a buyer of unused GPU compute
+23:44 - Privacy, security and liability in decentralized AI compute
+28:15 - Can AI agents borrow bitcoin and access credit?
+41:06 - Chamath's Bitcoin-to-zero warning and assessing the real risks
+46:09 - How secure and resilient is Bitcoin Core against AI-discovered vulnerabilities?
+52:23 - The mathematical risks AI poses to bitcoin and cryptography
+1:04:14 - Why bitcoin faces unique cybersecurity and quantum risks
+1:10:04 - Using AI to rethink Tesla, SpaceX and personal investing
+1:16:16 - Tesla's Full Self-Driving and changing minds on Elon
+1:20:00 - The long-term investment case for Tesla and SpaceX
+1:24:05 - Creating professional presentations with Claude Design
+
+Show Notes: 
+goose: https://goose-docs.ai/
+Mesh LLM: https://meshllm.cloud/
+Chamath on bitcoin: https://www.youtube.com/watch?v=kAwG9E1W_ME&t=6428s
+Claude reveals ECDSA curve origins: https://www.anthropic.com/research/ecdsa-curve-origins
+Project Loupe: https://www.projectloupe.org/
