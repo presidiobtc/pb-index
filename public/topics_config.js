@@ -7214,3 +7214,82 @@ addTopicDefs([
     picks: [{ youtube_id: "tCGqaEkb2iA", t: 5046, label: "Steve describes creating a conference presentation with Claude Design, then refining individual slides through spoken feedback. He highlights responsive editing and visual improvements, while the hosts consider evaluation loops and why speaker notes matter when assessing a live presentation." }],
   },
 ]);
+
+// 2026-10-30 PBJ: Binance hack, human-like AI voices, and bitcoin payments.
+addTopicDefs([
+  {
+    name: "NCAA basketball",
+    keywords: ["halloween", "basketball", "ncaa", "nil", "memphis", "iowa state", "grizzlies"],
+    picks: [{ youtube_id: "V_H6FNpsylg", t: 0, label: "The Halloween edition opens with Grizzlies and college basketball talk before the hosts debate NCAA eligibility decisions and NIL funding. Memphis and Iowa State become examples of how shifting rules, conference revenues, and donor support shape teams' ability to compete." }],
+  },
+  {
+    name: "Dessa Speech",
+    keywords: ["dessa", "desa", "block", "speech model", "ai voice", "local ai", "customer service", "therapy"],
+    picks: [{ youtube_id: "V_H6FNpsylg", t: 424, label: "Block's Dessa Speech prompts questions about where realistic pauses, emotion, and human-like voices improve a product. The hosts distinguish impressive speech technology from useful applications, considering customer service, kiosks, and therapy while leaving the model's broader intelligence and capabilities unresolved." }],
+  },
+  {
+    name: "Human-like AI and personal agency",
+    keywords: ["ai interfaces", "agency", "ai companions", "human-like", "anthropomorphism", "emotional attachment", "full duplex", "vora"],
+    picks: [{ youtube_id: "V_H6FNpsylg", t: 776, label: "The hosts debate whether emotionally convincing AI companions help users or draw them into dependence on centralized services. They weigh revealed preferences against long-term wellbeing, distinguish understanding human emotion from impersonating humans, and argue for alternatives that preserve personal agency and control." }],
+  },
+  {
+    name: "AI privacy",
+    keywords: [],
+    picks: [{ youtube_id: "V_H6FNpsylg", t: 1587, label: "Can local and private AI products compete with heavily subsidized hosted assistants? The hosts consider keeping sensitive health and financial tasks local, paying for privacy, and preserving the ability to export memory and leave a provider, while acknowledging the economic advantage of free centralized products." }],
+  },
+  {
+    name: "Mesh-LLM",
+    keywords: [],
+    picks: [{ youtube_id: "V_H6FNpsylg", t: 2162, label: "The hosts explore Mesh LLM as a way to sell unused computing capacity and offset the cost of running local AI. They imagine manufacturers building inference sharing into stronger consumer hardware, while noting that these economics remain a proposal rather than an established outcome." }],
+  },
+  {
+    name: "Binance hack",
+    keywords: ["binance", "hack", "hot wallet", "hardware wallet", "supply chain", "ledger", "trezor", "keystone", "custody"],
+    picks: [{ youtube_id: "V_H6FNpsylg", t: 2394, label: "The hosts unpack reports of the Binance hack alongside alleged hardware wallet tampering through resellers. They discuss hot-wallet exposure, cold-storage reserves, frozen funds, and insurance, distinguishing an external theft from fraud while repeatedly acknowledging uncertainty about the attack and its market impact." }],
+  },
+  {
+    name: "Custody diversification",
+    keywords: [],
+    picks: [{ youtube_id: "V_H6FNpsylg", t: 2879, label: "Recent attacks lead the hosts to revisit the tradeoffs between careful self-custody and trusted custodians, including limited access outside the United States. They favor diversifying custody risk and speculate that Bitcoin's conservative core could emerge stronger even as surrounding products suffer security failures." }],
+  },
+  {
+    name: "Frozen stablecoin collateral",
+    keywords: ["stablecoins", "frozen collateral", "defi", "aave", "eth", "tether", "censorship resistance", "loans"],
+    picks: [{ youtube_id: "V_H6FNpsylg", t: 3239, label: "The hosts describe a reported route from stolen stablecoins to borrowed ETH through DeFi lending, leaving lenders exposed when the stablecoin collateral is frozen. They use the example to question assumptions about trust minimization and distinguish issuer-controlled assets from bitcoin's censorship resistance." }],
+  },
+  {
+    name: "Google crypto self-custody",
+    keywords: ["google", "google cloud", "self-custody", "crypto custody", "multiparty computation", "universal ledger", "lightning", "secp256k1"],
+    picks: [{ youtube_id: "V_H6FNpsylg", t: 3525, label: "Google's reported self-custody initiative sparks discussion of institutional demand, cloud infrastructure, and the value of a trusted security brand. The hosts consider how it fits Google's broader crypto work, discuss potential bitcoin compatibility, and express interest in future Lightning support." }],
+  },
+  {
+    name: "Bitcoin merchant adoption",
+    keywords: [],
+    picks: [{ youtube_id: "V_H6FNpsylg", t: 3918, label: "Reflecting on Spiral's payments work, the hosts contrast major improvements in developer and user experience with weak adoption. They argue that limited demand for bitcoin's distinctive properties, purchasing-power volatility, and tax friction matter more today than further technical refinements alone." }],
+  },
+  {
+    name: "Lightning gambling",
+    keywords: ["lightning", "igaming", "online gambling", "payments", "chargebacks", "instant settlement", "adoption", "gray markets"],
+    picks: [{ youtube_id: "V_H6FNpsylg", t: 4411, label: "Max reports seeing Lightning growth across online gambling businesses, citing payment access, speed, fees, and the absence of chargebacks as possible drivers. The others ask for supporting data and debate why censorship-resistant payments have not found broader demand in markets poorly served by conventional finance." }],
+  },
+  {
+    name: "Square Bitcoin payments",
+    keywords: [],
+    picks: [{ youtube_id: "V_H6FNpsylg", t: 4688, label: "The hosts debate merchant incentives, terminal availability, and the extra steps involved in paying with bitcoin at Square. Max argues that better communication of the rewards he receives could change behavior, while others emphasize consumer value and the convenience of familiar tap-to-pay habits." }],
+  },
+  {
+    name: "AI agent payments",
+    keywords: [],
+    picks: [{ youtube_id: "V_H6FNpsylg", t: 5157, label: "Max argues that bitcoin payment growth needs new use cases, especially AI agents and desirable services available only for bitcoin. He highlights Lexe's easier wallet onboarding and proposes pairing usable payment infrastructure with products that give agents and people a concrete reason to spend." }],
+  },
+  {
+    name: "Self-sovereign names",
+    keywords: [],
+    picks: [{ youtube_id: "V_H6FNpsylg", t: 5247, label: "The hosts consider launching a cryptographically owned naming system even if it initially supports only millions of new names per year. They discuss premium names, trust-minimized scaling, and agents operating without human accounts, asking whether useful early adoption could justify unresolved long-term capacity limits." }],
+  },
+  {
+    name: "Dead Internet Theory",
+    keywords: [],
+    picks: [{ youtube_id: "V_H6FNpsylg", t: 5610, label: "The closing discussion asks whether a small set of AI chat providers will control which online services and information users encounter. Reddit's relationship with model developers becomes an example of content moving into AI interfaces, potentially weakening direct browsing and concentrating influence over discovery." }],
+  },
+]);

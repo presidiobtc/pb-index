@@ -6,6 +6,7 @@ const test = require("node:test");
 
 const ROOT = path.join(__dirname, "..");
 const INGESTED_VIDEO_IDS = [
+  "V_H6FNpsylg",
   "tCGqaEkb2iA",
   "SMeoVZjCmXs",
   "bj3e5Z8B7EI",
@@ -54,9 +55,9 @@ test("source files, curated timestamps, and generated search coverage validate",
   const result = validation();
   assert.equal(result.ok, true);
   assert.deepEqual(result.errors, []);
-  assert.equal(result.stats.catalog_videos, 206);
+  assert.equal(result.stats.catalog_videos, 207);
   assert.equal(result.stats.transcripts_with_entries, result.stats.catalog_videos);
-  assert.equal(result.stats.canonical_topics, 888);
+  assert.equal(result.stats.canonical_topics, 895);
   assert.ok(result.stats.video_topic_picks > result.stats.canonical_topics);
   assert.ok(result.stats.report_topic_picks > 0);
   assert.ok(result.stats.generated_chunks > result.stats.catalog_videos);
@@ -241,6 +242,33 @@ test("October 23 PBJ includes the complete supplied transcript and official chap
   assert.equal(chunks.filter(chunk => chunk.type === "transcript").at(-1).end_t, 5514);
   assert.ok(chunks.some(chunk => chunk.type === "topic" && chunk.topics.includes("Mesh-LLM")));
   assert.ok(chunks.some(chunk => chunk.type === "topic" && chunk.topics.includes("AI and cryptography")));
+});
+
+test("October 30 PBJ preserves the supplied transcript and all 15 chapter starts", () => {
+  const youtubeId = "V_H6FNpsylg";
+  const title = "PBJ: Binance Hack Unpacked, Human-Like AI Voices, What’s Holding Back Bitcoin Payments";
+  const entries = readPublicJson("index.json").filter(entry => entry.youtube_id === youtubeId);
+  const raw = fs.readFileSync(path.join(ROOT, "transcripts_raw", `${youtubeId}.txt`), "utf8");
+  const parsed = spawnSync("python3", ["-c", "import json,sys;sys.path.insert(0,'scripts');from build_index import parse_timestamp_entries;print(json.dumps(parse_timestamp_entries(sys.stdin.read())))"], {cwd: ROOT, input: raw, encoding: "utf8"});
+  assert.equal(parsed.status, 0);
+  assert.deepEqual(entries.map(entry => [entry.t, entry.ts, entry.text]), JSON.parse(parsed.stdout));
+  assert.equal(entries.length, 5654);
+  assert.equal(entries[0].t, 0);
+  assert.equal(entries.at(-1).t, 5753);
+  assert.ok(entries.every(entry => entry.title === title && entry.published_date === "2026-10-30" && entry.series === "PBJ"));
+
+  const description = fs.readFileSync(path.join(ROOT, "descriptions", `${youtubeId}.txt`), "utf8");
+  const chapterTimes = ["0:00", "7:04", "12:56", "26:27", "36:02", "39:54", "47:59", "53:59", "58:45", "1:05:18", "1:13:31", "1:18:08", "1:25:57", "1:27:27", "1:33:30"];
+  assert.deepEqual([...description.matchAll(/^(\d+:\d+(?::\d+)?) - /gm)].map(match => match[1]), chapterTimes);
+
+  const chunks = readPublicJson("search_chunks.json").filter(chunk => chunk.youtube_id === youtubeId);
+  assert.deepEqual([...new Set(chunks.map(chunk => chunk.type))].sort(), ["description", "topic", "transcript"]);
+  assert.ok(chunks.every(chunk => chunk.title === title && chunk.date === "2026-10-30" && chunk.series === "PBJ"));
+  assert.equal(chunks.find(chunk => chunk.type === "description").text, description.trim().replace(/\s+/g, " "));
+  assert.equal(chunks.filter(chunk => chunk.type === "transcript").at(-1).end_t, 5753);
+  const picks = chunks.filter(chunk => chunk.type === "topic");
+  assert.equal(picks.length, 15);
+  assert.deepEqual(picks.map(pick => pick.t).sort((a, b) => a - b), chapterTimes.map(time => time.split(":").reduce((seconds, part) => seconds * 60 + Number(part), 0)));
 });
 
 test("new transcript windows overlap, link to neighbors, and preserve zero timestamps", () => {

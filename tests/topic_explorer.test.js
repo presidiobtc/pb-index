@@ -52,10 +52,10 @@ test("the checked-in topic artifact normalizes to a complete reusable dataset", 
   assert.equal(data.metadata.episode_count, diagnostics.included_episodes.length);
   assert.ok(data.metadata.episode_count > 0);
   assert.equal(data.metadata.display_episode_count, data.metadata.episode_count + 2);
-  assert.equal(data.metadata.display_episode_count, 86);
+  assert.equal(data.metadata.display_episode_count, 87);
   assert.equal(data.metadata.expected_episode_count, 81);
-  // The latest catalog has three more measured episodes than the independent reference.
-  assert.equal(data.metadata.episode_count, 84);
+  // The latest catalog has four more measured episodes than the independent reference.
+  assert.equal(data.metadata.episode_count, 85);
   assert.match(data.metadata.metric_name, /transcript/i);
   assert.ok(data.quarters.length > 0);
   assert.deepEqual(
@@ -114,7 +114,7 @@ test("the mounted explorer renders both Overview and the full quarterly Trends v
   assert.ok(classes.has("pbj-topic-explorer"));
   assert.match(root.innerHTML, />PBJ Topic Explorer</);
   assert.match(root.innerHTML, />PBJ topic mix</);
-  assert.match(root.innerHTML, /<strong>Based on 86 full PBJ episodes<\/strong>/);
+  assert.match(root.innerHTML, /<strong>Based on 87 full PBJ episodes<\/strong>/);
   assert.doesNotMatch(
     root.innerHTML,
     new RegExp(`${raw.metadata.episode_count} full PBJ episodes`),
