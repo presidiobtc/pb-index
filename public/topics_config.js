@@ -7293,3 +7293,97 @@ addTopicDefs([
     picks: [{ youtube_id: "V_H6FNpsylg", t: 5610, label: "The closing discussion asks whether a small set of AI chat providers will control which online services and information users encounter. Reddit's relationship with model developers becomes an example of content moving into AI interfaces, potentially weakening direct browsing and concentrating influence over discovery." }],
   },
 ]);
+
+// 2026-11-13 PBJ: Builder Lab, AI infrastructure, frontier labs, and wearables.
+addTopicDefs([
+  {
+    name: "Builder Lab",
+    keywords: ["builder lab launch", "builderlab", "block enterprise ai", "buzz command center", "enterprise data connectors"],
+    picks: [{ youtube_id: "-0Kg1BQXDNE", t: 540, label: "Steve introduces Builder Lab as a way for organizations to use Block's internal AI tools, with Buzz as the interface. Enterprise connectors, permission-aware organizational context, open protocols, and optional self-hosting aim to support businesses without binding them to one provider." }],
+  },
+  {
+    name: "Buzz",
+    keywords: [],
+    picks: [{ youtube_id: "-0Kg1BQXDNE", t: 635, label: "The rebuilt Buzz adds remote agents, mobile notifications, and a faster interface while bringing solo and multiplayer AI work together. Steve describes an open-source, Nostr-based system that organizations can use through Block's hosting or operate themselves." }],
+  },
+  {
+    name: "Open memory protocols",
+    keywords: ["open memory protocol", "portable agent memory", "buzz data export", "externalized memory", "agent workflow sharing"],
+    picks: [{ youtube_id: "-0Kg1BQXDNE", t: 1200, label: "The hosts identify portable memory as a missing piece of the open AI stack. They explore whether shared Buzz prompts and workflows could preserve reusable knowledge, train open models, and help people move between providers without losing context." }],
+  },
+  {
+    name: "Square Bitcoin payments",
+    keywords: [],
+    picks: [{ youtube_id: "-0Kg1BQXDNE", t: 1440, label: "Steve disputes claims that every Square merchant can accept bitcoin, citing business verification, hardware compatibility, and software updates. The hosts argue that visible checkout options and incentives, including dollar payments over Lightning with bitcoin rewards, matter for adoption." }],
+  },
+  {
+    name: "NVIDIA financing contagion",
+    keywords: ["nvidia turmoil", "jensen huang resignation reports", "circular ai financing", "gpu collateral", "bitcoin liquidity contagion"],
+    picks: [{ youtube_id: "-0Kg1BQXDNE", t: 1740, label: "Discussing reported NVIDIA turmoil, the hosts examine lending, chip purchases, and GPU collateral as interconnected financial risks. They argue that losses elsewhere could force bitcoin sales to meet liquidity needs, even though bitcoin's underlying thesis is separate." }],
+  },
+  {
+    name: "Energy financing",
+    keywords: [],
+    picks: [{ youtube_id: "-0Kg1BQXDNE", t: 2220, label: "Growing demand for AI does not automatically finance the power plants, chips, and data centers needed to serve it. The hosts examine neocloud cash flows, financing costs, contract duration, and spot pricing as sources of vulnerability." }],
+  },
+  {
+    name: "Anthropic",
+    keywords: [],
+    picks: [{ youtube_id: "-0Kg1BQXDNE", t: 2520, label: "The hosts discuss unverified roadshow notes attributed to Anthropic, including a winner-take-all AI thesis and a SpaceX contract ending. They question whether superior models confer lasting power when another company controls the infrastructure needed to run them." }],
+  },
+  {
+    name: "AI hardware execution",
+    keywords: ["frontier labs hardware", "anthropic robotics", "software hardware culture", "ai manufacturing bottlenecks", "power infrastructure control"],
+    picks: [{ youtube_id: "-0Kg1BQXDNE", t: 2820, label: "The hosts debate whether frontier labs can translate software intelligence into hardware and energy infrastructure. Manufacturing, land, leadership, and organizational culture could slow that transition, while better models and robotics might accelerate parts of the work." }],
+  },
+  {
+    name: "OpenAI",
+    keywords: [],
+    picks: [{ youtube_id: "-0Kg1BQXDNE", t: 3360, label: "Comparing OpenAI and Anthropic, the hosts separate current model capabilities from growth trajectories, customer adoption, and talent. They disagree about how durable Anthropic's momentum is, while keeping both companies in contention as the industry changes quickly." }],
+  },
+  {
+    name: "Recursive self-improvement",
+    keywords: ["recursive self-improvement", "rsi takeoff", "ramez naam scaling", "metr internal models", "physical compute bottlenecks"],
+    picks: [{ youtube_id: "-0Kg1BQXDNE", t: 3540, label: "The hosts contrast claims of accelerating internal models with diminishing returns from scaling. They ask whether recursive self-improvement could overcome scarce compute through efficiency gains or new architectures, while acknowledging that building chips and power infrastructure takes time." }],
+  },
+  {
+    name: "AI governance",
+    keywords: [],
+    picks: [{ youtube_id: "-0Kg1BQXDNE", t: 3900, label: "A hypothetical runaway AI winner raises questions about nationalization and political authority. The hosts prefer competition but debate whether governments could retain control over an overwhelmingly capable private company, especially when military systems depend on its models." }],
+  },
+  {
+    name: "U.S.–China AI race",
+    keywords: [],
+    picks: [{ youtube_id: "-0Kg1BQXDNE", t: 4050, label: "If power and manufacturing limit AI progress, the hosts argue China's physical infrastructure could become decisive. They discuss abundant energy, manufacturing capacity, and rapid project execution as possible advantages even when Chinese models trail the frontier." }],
+  },
+  {
+    name: "Google Glasses",
+    keywords: ["google glasses return", "google glass v2", "ai eyewear adoption", "prescription smart glasses", "wearable camera habits"],
+    picks: [{ youtube_id: "-0Kg1BQXDNE", t: 4140, label: "Drawing on Google Glass experience, Steve argues that better AI voice interaction alone may not make people wear smart glasses. Prescription eyewear and activity-specific gear offer existing habits, but style, comfort, cost, and remembering the device remain barriers." }],
+  },
+  {
+    name: "AirPods",
+    keywords: ["airpods ai wearable", "apple wearable camera", "voice input audio output", "earbud social acceptance", "wearable form factors"],
+    picks: [{ youtube_id: "-0Kg1BQXDNE", t: 4740, label: "The hosts see extending AirPods as a plausible Apple AI strategy because earbuds already fit accepted habits and avoid some eyewear comfort problems. Natural voice input and spoken responses could make that familiar form factor more useful." }],
+  },
+  {
+    name: "Prediction markets",
+    keywords: [],
+    picks: [{ youtube_id: "-0Kg1BQXDNE", t: 4920, label: "The hosts propose a PBJ prediction pool that records confidence across multiple outcomes and timeframes. Compared with binary yes-or-no markets, this format could expose more of participants' reasoning and preserve forecasts for later comparison with reality." }],
+  },
+  {
+    name: "Long-duration storage",
+    keywords: [],
+    picks: [{ youtube_id: "-0Kg1BQXDNE", t: 5100, label: "Max describes power as the key constraint on AI growth and expresses enthusiasm for emerging long-duration storage technologies. He suggests combining storage, solar, and synthetic natural gas could expand supply, while leaving specific technical details for future discussion." }],
+  },
+  {
+    name: "Panthalassa",
+    keywords: [],
+    picks: [{ youtube_id: "-0Kg1BQXDNE", t: 5200, label: "After visiting Panthalassa, Max describes offshore power and compute as promising infrastructure for frontier labs and open models. The hosts discuss partnerships, land constraints, and regulation, while disagreeing about how quickly AI could recreate the physical systems involved." }],
+  },
+  {
+    name: "AI security",
+    keywords: [],
+    picks: [{ youtube_id: "-0Kg1BQXDNE", t: 5340, label: "A reported flight disruption interrupts the discussion and prompts concern about critical infrastructure during rapid AI development. The hosts explicitly lack details about what happened; their exchange raises risks to aviation and electricity without establishing any AI connection." }],
+  },
+]);
