@@ -6,6 +6,7 @@ const test = require("node:test");
 
 const ROOT = path.join(__dirname, "..");
 const INGESTED_VIDEO_IDS = [
+  "yjn_jgOkP48",
   "-0Kg1BQXDNE",
   "V_H6FNpsylg",
   "tCGqaEkb2iA",
@@ -56,7 +57,7 @@ test("source files, curated timestamps, and generated search coverage validate",
   const result = validation();
   assert.equal(result.ok, true);
   assert.deepEqual(result.errors, []);
-  assert.equal(result.stats.catalog_videos, 208);
+  assert.equal(result.stats.catalog_videos, 209);
   assert.equal(result.stats.transcripts_with_entries, result.stats.catalog_videos);
   assert.equal(result.stats.canonical_topics, 902);
   assert.ok(result.stats.video_topic_picks > result.stats.canonical_topics);
@@ -116,6 +117,20 @@ test("new videos have saved transcript, description, and topic coverage", () => 
       `${youtubeId} has no named topic coverage in public/search_chunks.json`,
     );
   }
+});
+
+test("November 20 PBJ is indexed through the sign-off in both public search and Ask PB", () => {
+  const youtubeId = "yjn_jgOkP48";
+  const entries = readPublicJson("index.json").filter(entry => entry.youtube_id === youtubeId);
+  const passages = readPublicJson("search_chunks.json").filter(chunk =>
+    chunk.youtube_id === youtubeId && chunk.type === "transcript");
+  assert.equal(entries.length, 5599);
+  assert.equal(entries[0].t, 0);
+  assert.equal(entries.at(-1).t, 5740);
+  assert.equal(passages[0].t, entries[0].t);
+  assert.equal(passages.at(-1).end_t, entries.at(-1).t);
+  assert.ok(passages.every(passage =>
+    passage.date === "2026-11-20" && passage.url === `https://www.youtube.com/watch?v=${youtubeId}&t=${passage.t}s`));
 });
 
 test("November 13 PBJ preserves its full transcript, chapters, and curated explanations", () => {

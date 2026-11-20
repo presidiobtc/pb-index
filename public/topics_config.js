@@ -7387,3 +7387,67 @@ addTopicDefs([
     picks: [{ youtube_id: "-0Kg1BQXDNE", t: 5340, label: "A reported flight disruption interrupts the discussion and prompts concern about critical infrastructure during rapid AI development. The hosts explicitly lack details about what happened; their exchange raises risks to aviation and electricity without establishing any AI connection." }],
   },
 ]);
+
+// 2026-11-20 PBJ on Anthropic, ocean and orbital data centers, and bitcoin's selloff.
+addTopicDefs([
+  {
+    name: "Bitchat",
+    keywords: [],
+    picks: [{ youtube_id: "yjn_jgOkP48", t: 698, label: "The hosts discuss how neighbors could stay in touch during an internet outage. One describes asking his neighborhood group to install Bitchat ahead of time, alongside practical preparations such as keeping an AI model available offline." }],
+  },
+  {
+    name: "Compute in space",
+    keywords: [],
+    picks: [{ youtube_id: "yjn_jgOkP48", t: 1337, label: "A Type II Summit speaker proposes making solar panels from lunar material and using mass drivers to launch equipment. The hosts ask which machines would have to reach the Moon first and how far launches from Earth could take them." }],
+  },
+  {
+    name: "Solar cost curves",
+    keywords: [],
+    picks: [{ youtube_id: "yjn_jgOkP48", t: 1536, label: "Max explains why he watches cumulative production of solar panels. Repeating a manufacturing process lets producers learn and cut costs. He asks whether standardizing a small number of high-voltage transmission line designs could do the same for grid construction." }],
+  },
+  {
+    name: "Panthalassa",
+    keywords: [],
+    picks: [{ youtube_id: "yjn_jgOkP48", t: 1754, label: "Max recounts how Panthalassa founder Garth Sheldon-Coulson explained the company's wave-powered nodes. As a node bobs, water moves through a tube and turns a turbine. Max describes seeing a node during a visit to the company." }],
+  },
+  {
+    name: "Maritime data centers",
+    keywords: [],
+    picks: [{ youtube_id: "yjn_jgOkP48", t: 2473, label: "How do you sell power generated far out at sea? Max recalls three uses Panthalassa explored in an early pitch deck, each of which could consume electricity offshore. They were AI workloads, bitcoin mining, and synthetic fuel production." }],
+  },
+  {
+    name: "Grid interconnection",
+    keywords: [],
+    picks: [{ youtube_id: "yjn_jgOkP48", t: 3165, label: "In a discussion of ERCOT, Max describes how a battery-backed site can agree to turn down its grid demand when asked. He says that flexibility can shorten the wait for a connection, and asks how much capacity it can unlock." }],
+  },
+  {
+    name: "Energy financing",
+    keywords: [],
+    picks: [{ youtube_id: "yjn_jgOkP48", t: 3430, label: "Max proposes sharing operating data from off-grid power projects. He argues that a public record of costs, risks, and returns could give lenders and other investors a basis for financing the next project at a larger scale." }],
+  },
+  {
+    name: "Anthropic",
+    keywords: [],
+    picks: [{ youtube_id: "yjn_jgOkP48", t: 3670, label: "The hosts discuss Anthropic's IPO and how quickly investor attention shifted from OpenAI to Anthropic. They revisit the launches that changed their own assessments, then ask what the IPO roadshow tells them about Anthropic's ability to hold its lead." }],
+  },
+  {
+    name: "AI hardware execution",
+    keywords: [],
+    picks: [{ youtube_id: "yjn_jgOkP48", t: 3964, label: "The hosts debate how much it matters that Anthropic relies on others for chips, energy, and compute. They discuss the experience Google and SpaceX have accumulated and how quickly a frontier lab might build comparable physical infrastructure." }],
+  },
+  {
+    name: "SpaceX",
+    keywords: [],
+    picks: [{ youtube_id: "yjn_jgOkP48", t: 4711, label: "DK explains why he favors SpaceX in the hosts' hypothetical investment exercise despite using Anthropic daily. He asks what happens to Anthropic's access to compute if its supplier decides to reserve that capacity for training its own competing models." }],
+  },
+  {
+    name: "Bitcoin price cycles",
+    keywords: [],
+    picks: [{ youtube_id: "yjn_jgOkP48", t: 4890, label: "As the hosts compare the selloff in bitcoin, gold, and NVIDIA, they ask why investor interest has shifted toward AI. They debate how much a change in the story investors tell can explain movements in asset prices." }],
+  },
+  {
+    name: "Future of scarcity",
+    keywords: [],
+    picks: [{ youtube_id: "yjn_jgOkP48", t: 5627, label: "Would money still matter if AI made basic needs cheap to meet? The hosts argue that some goods would remain scarce even in an abundant economy, giving people a reason to keep using money to allocate those goods." }],
+  },
+]);
